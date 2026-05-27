@@ -455,8 +455,14 @@ def main() -> None:
         last_run = {}
 
     known_dockets = {docket_key(case.get("docket_number")) for case in cases if case.get("docket_number")}
+    raw_rejected_dockets = last_run.get("rejected_dockets", [])
+    if not isinstance(raw_rejected_dockets, list):
+        raw_rejected_dockets = []
+    rejected_dockets = {clean_text(item) for item in raw_rejected_dockets if clean_text(item)}
+    skipped_dockets = known_dockets | rejected_dockets
     existing_ids = {clean_text(case.get("id")) for case in cases if case.get("id")}
     search_after = search_after_date(cases, last_run)
+    limit = max_discovery_candidates()
 
     session = requests.Session()
     client = Anthropic(api_key=anthropic_key)
@@ -475,23 +481,31 @@ def main() -> None:
             if not candidate:
                 continue
             key = docket_key(candidate["docket_number"])
-            if key not in known_dockets:
+            if key not in skipped_dockets:
                 candidates_by_docket.setdefault(key, candidate)
+            if limit and len(candidates_by_docket) >= limit:
+                discovery_complete = False
+                print(f"Warning: discovery candidate collection stopped at {limit} candidates.")
+                break
+        if limit and len(candidates_by_docket) >= limit:
+            break
 
-    try:
-        rss_candidates = collect_rss_candidates(session, courtlistener_key)
-    except RateLimitExceeded as exc:
-        discovery_complete = False
-        print(f"Warning: skipped RSS discovery after CourtListener rate limit ({exc})")
+    if limit and len(candidates_by_docket) >= limit:
         rss_candidates = []
+    else:
+        try:
+            rss_candidates = collect_rss_candidates(session, courtlistener_key)
+        except RateLimitExceeded as exc:
+            discovery_complete = False
+            print(f"Warning: skipped RSS discovery after CourtListener rate limit ({exc})")
+            rss_candidates = []
 
     for candidate in rss_candidates:
         key = docket_key(candidate["docket_number"])
-        if key not in known_dockets:
+        if key not in skipped_dockets:
             candidates_by_docket.setdefault(key, candidate)
 
     candidates = list(candidates_by_docket.values())
-    limit = max_discovery_candidates()
     if limit and len(candidates) > limit:
         discovery_complete = False
         print(f"Warning: discovery candidate list capped at {limit} of {len(candidates)} candidates.")
@@ -499,10 +513,23 @@ def main() -> None:
 
     discovered: list[dict[str, Any]] = []
     for candidate in candidates:
-        classification = classify_case(client, candidate)
+        key = docket_key(candidate["docket_number"])
+        try:
+            classification = classify_case(client, candidate)
+        except json.JSONDecodeError:
+            discovery_complete = False
+            rejected_dockets.add(key)
+            print(f"Warning: Anthropic returned malformed classifier JSON for {candidate['docket_number']}.")
+            continue
+        except Exception as exc:
+            discovery_complete = False
+            print(f"Warning: stopped discovery after Anthropic classifier error for {candidate['docket_number']}: {exc}")
+            break
         if not classification.get("relevant"):
+            rejected_dockets.add(key)
             continue
         if clean_text(classification.get("confidence")).lower() not in {"high", "medium"}:
+            rejected_dockets.add(key)
             continue
         try:
             docket = fetch_docket(session, courtlistener_key, candidate["docket_id"])
@@ -517,6 +544,7 @@ def main() -> None:
 
     last_run["cases_discovered"] = len(discovered)
     last_run["discovery_complete"] = discovery_complete
+    last_run["rejected_dockets"] = sorted(rejected_dockets)[-500:]
     write_json(LAST_RUN_PATH, last_run)
 
     print(f"Discovered {len(discovered)} new cases.")
