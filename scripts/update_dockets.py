@@ -188,7 +188,7 @@ def main() -> None:
         print("Updated 0 entries across 0 cases.")
         return
 
-    api_key = os.environ.get("COURTLISTENER_API_KEY")
+    api_key = (os.environ.get("COURTLISTENER_API_KEY") or "").strip()
     if not api_key:
         raise SystemExit("Missing required environment variable: COURTLISTENER_API_KEY")
 

@@ -205,7 +205,7 @@ def main() -> None:
     generated = 0
     today = utc_now().date().isoformat()
     if pending:
-        api_key = os.environ.get("ANTHROPIC_API_KEY")
+        api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
         if not api_key:
             raise SystemExit("Missing required environment variable: ANTHROPIC_API_KEY")
         client = Anthropic(api_key=api_key)

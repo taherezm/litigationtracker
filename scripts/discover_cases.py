@@ -92,7 +92,7 @@ def write_json(path: Path, data: Any) -> None:
 
 
 def require_env(name: str) -> str:
-    value = os.environ.get(name)
+    value = (os.environ.get(name) or "").strip()
     if not value:
         raise SystemExit(f"Missing required environment variable: {name}")
     return value
