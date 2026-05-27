@@ -31,6 +31,7 @@ MAX_RETRIES = 3
 TIMEOUT = 30
 COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
 COURTLISTENER_BASE_BACKOFF_SECONDS = 10
+DEFAULT_MAX_DISCOVERY_CANDIDATES = 40
 
 SEARCH_QUERIES = [
     '"generative AI" copyright',
@@ -97,6 +98,16 @@ def require_env(name: str) -> str:
     if not value:
         raise SystemExit(f"Missing required environment variable: {name}")
     return value
+
+
+def max_discovery_candidates() -> int:
+    value = (os.environ.get("MAX_DISCOVERY_CANDIDATES") or "").strip()
+    if not value:
+        return DEFAULT_MAX_DISCOVERY_CANDIDATES
+    try:
+        return max(0, int(value))
+    except ValueError:
+        return DEFAULT_MAX_DISCOVERY_CANDIDATES
 
 
 def retry_after_seconds(response: requests.Response) -> float | None:
@@ -473,8 +484,15 @@ def main() -> None:
         if key not in known_dockets:
             candidates_by_docket.setdefault(key, candidate)
 
+    candidates = list(candidates_by_docket.values())
+    limit = max_discovery_candidates()
+    if limit and len(candidates) > limit:
+        discovery_complete = False
+        print(f"Warning: discovery candidate list capped at {limit} of {len(candidates)} candidates.")
+        candidates = candidates[:limit]
+
     discovered: list[dict[str, Any]] = []
-    for candidate in candidates_by_docket.values():
+    for candidate in candidates:
         classification = classify_case(client, candidate)
         if not classification.get("relevant"):
             continue
