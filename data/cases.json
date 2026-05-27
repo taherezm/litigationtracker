@@ -160,5 +160,172 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73043521/beaulier-v-nvidia-corporation/",
     "last_updated": "2026-05-27",
     "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "beaulier-v-microsoft-corporation",
+    "name": "Beaulier v. Microsoft Corporation",
+    "court": "District Court, W.D. Washington",
+    "court_full": "District Court, W.D. Washington",
+    "docket_number": "2:26-cv-01031",
+    "courtlistener_docket_id": "73061569",
+    "date_filed": "2026-03-26",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Beaulier",
+      "defendant": "Microsoft Corporation"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Beaulier claims Microsoft Corporation violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73061569/beaulier-v-microsoft-corporation/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "ted-entertainment-inc-v-apple-inc",
+    "name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-02936",
+    "courtlistener_docket_id": "73145933",
+    "date_filed": "2026-04-03",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Ted Entertainment, Inc.",
+      "defendant": "Apple, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Ted Entertainment, Inc. claims Apple, Inc. violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73145933/ted-entertainment-inc-v-apple-inc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "5:26-cv-02333",
+    "courtlistener_docket_id": "72505713",
+    "date_filed": "2026-03-17",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Chicken Soup for the Soul, LLC",
+      "defendant": "Meta Platforms Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Chicken Soup for the Soul, LLC claims Meta Platforms Inc. violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "openai",
+      "anthropic",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "cruz-v-anthropic-pbc",
+    "name": "Cruz v. Anthropic PBC",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-04482",
+    "courtlistener_docket_id": "73339887",
+    "date_filed": "2026-05-13",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Cruz",
+      "defendant": "Anthropic PBC"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Cruz claims Anthropic PBC violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "anthropic",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73339887/cruz-v-anthropic-pbc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "cognella-inc-v-anthropic-pbc",
+    "name": "Cognella, Inc. v. Anthropic PBC",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-04056",
+    "courtlistener_docket_id": "73294478",
+    "date_filed": "2026-05-04",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Cognella, Inc.",
+      "defendant": "Anthropic PBC"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Cognella, Inc. claims Anthropic PBC violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "anthropic",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73294478/cognella-inc-v-anthropic-pbc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
   }
 ]
