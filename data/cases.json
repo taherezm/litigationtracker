@@ -1,1 +1,164 @@
-[]
+[
+  {
+    "id": "beaulier-v-meta-platforms-inc",
+    "name": "Beaulier v. Meta Platforms, Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-02632",
+    "courtlistener_docket_id": "73020880",
+    "date_filed": "2026-03-26",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Beaulier",
+      "defendant": "Meta Platforms, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Beaulier claims Meta Platforms, Inc. violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73020880/beaulier-v-meta-platforms-inc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "tanzer-v-adobe-inc",
+    "name": "Tanzer v. Adobe Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-04712",
+    "courtlistener_docket_id": "73359710",
+    "date_filed": "2026-05-18",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Tanzer",
+      "defendant": "Adobe Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Tanzer claims Adobe Inc. violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73359710/tanzer-v-adobe-inc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "kwon-v-anthropic-pbc",
+    "name": "Kwon v. Anthropic PBC",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-04649",
+    "courtlistener_docket_id": "73352930",
+    "date_filed": "2026-05-15",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Kwon",
+      "defendant": "Anthropic PBC"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Kwon claims Anthropic PBC violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "anthropic",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73352930/kwon-v-anthropic-pbc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "beaulier-v-roblox-corporation",
+    "name": "Beaulier v. Roblox Corporation",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-02642",
+    "courtlistener_docket_id": "73034151",
+    "date_filed": "2026-03-26",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Beaulier",
+      "defendant": "Roblox Corporation"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Beaulier claims Roblox Corporation violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73034151/beaulier-v-roblox-corporation/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "beaulier-v-nvidia-corporation",
+    "name": "Beaulier v. NVIDIA Corporation",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-02647",
+    "courtlistener_docket_id": "73043521",
+    "date_filed": "2026-03-26",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Beaulier",
+      "defendant": "NVIDIA Corporation"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Beaulier claims NVIDIA Corporation violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73043521/beaulier-v-nvidia-corporation/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  }
+]
