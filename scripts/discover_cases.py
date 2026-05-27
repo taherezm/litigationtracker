@@ -29,6 +29,7 @@ COURTHOUSE_NEWS_FEED = "https://www.courthousenews.com/feed/"
 MODEL = "claude-sonnet-4-20250514"
 MAX_RETRIES = 3
 TIMEOUT = 30
+COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
 
 SEARCH_QUERIES = [
     '"generative AI" copyright',
@@ -63,6 +64,10 @@ RSS_TERMS = (
 DOCKET_RE = re.compile(r"\b\d:\d{2}-[a-z]{2}-\d{4,6}\b", re.IGNORECASE)
 
 
+class RateLimitExceeded(RuntimeError):
+    """Raised when an API keeps returning 429 after the required retries."""
+
+
 def utc_today() -> datetime.date:
     return datetime.now(timezone.utc).date()
 
@@ -93,8 +98,23 @@ def require_env(name: str) -> str:
     return value
 
 
-def backoff_sleep(attempt: int) -> None:
-    delay = min(2**attempt, 16) + random.uniform(0, 0.25)
+def retry_after_seconds(response: requests.Response) -> float | None:
+    value = response.headers.get("Retry-After")
+    if not value:
+        return None
+    if value.isdigit():
+        return float(value)
+    try:
+        retry_at = datetime.strptime(value, "%a, %d %b %Y %H:%M:%S %Z").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+    return max(0.0, (retry_at - datetime.now(timezone.utc)).total_seconds())
+
+
+def backoff_sleep(attempt: int, response: requests.Response | None = None) -> None:
+    retry_after = retry_after_seconds(response) if response is not None else None
+    delay = retry_after if retry_after is not None else min(30 * (2**attempt), 180)
+    delay += random.uniform(0, 0.5)
     time.sleep(delay)
 
 
@@ -109,8 +129,10 @@ def get_json(
         response = session.get(url, headers=headers, params=params, timeout=TIMEOUT)
         if response.status_code == 429 or response.status_code >= 500:
             if attempt < MAX_RETRIES:
-                backoff_sleep(attempt)
+                backoff_sleep(attempt, response)
                 continue
+            if response.status_code == 429:
+                raise RateLimitExceeded(f"CourtListener rate limit persisted for {url}")
         response.raise_for_status()
         return response.json()
     raise RuntimeError(f"Request failed after retries: {url}")
@@ -270,6 +292,7 @@ def result_to_candidate(result: dict[str, Any], source: str) -> dict[str, Any] |
 
 
 def search_cases(session: requests.Session, api_key: str, query: str, search_after: str | None) -> list[dict[str, Any]]:
+    time.sleep(COURTLISTENER_REQUEST_PAUSE_SECONDS + random.uniform(0, 1))
     params: dict[str, Any] = {
         "q": query,
         "type": "d",
@@ -283,6 +306,7 @@ def search_cases(session: requests.Session, api_key: str, query: str, search_aft
 
 
 def fetch_docket(session: requests.Session, api_key: str, docket_id: str) -> dict[str, Any]:
+    time.sleep(COURTLISTENER_REQUEST_PAUSE_SECONDS + random.uniform(0, 1))
     return get_json(session, f"{COURTLISTENER_BASE}/api/rest/v4/dockets/{docket_id}/", api_key=api_key)
 
 
@@ -381,7 +405,12 @@ def collect_rss_candidates(session: requests.Session, api_key: str) -> list[dict
         if not any(term in lowered for term in RSS_TERMS):
             continue
         for docket_number in sorted(set(DOCKET_RE.findall(text))):
-            for result in search_cases(session, api_key, docket_number, search_after=None):
+            try:
+                results = search_cases(session, api_key, docket_number, search_after=None)
+            except RateLimitExceeded as exc:
+                print(f"Warning: skipped RSS docket lookup after rate limit: {docket_number} ({exc})")
+                continue
+            for result in results:
                 candidate = result_to_candidate(result, f"rss:{COURTHOUSE_NEWS_FEED}")
                 if candidate:
                     candidates.append(candidate)
@@ -414,9 +443,16 @@ def main() -> None:
     session = requests.Session()
     client = Anthropic(api_key=anthropic_key)
     candidates_by_docket: dict[str, dict[str, Any]] = {}
+    discovery_complete = True
 
     for query in SEARCH_QUERIES:
-        for result in search_cases(session, courtlistener_key, query, search_after):
+        try:
+            results = search_cases(session, courtlistener_key, query, search_after)
+        except RateLimitExceeded as exc:
+            discovery_complete = False
+            print(f"Warning: skipped search query after CourtListener rate limit: {query} ({exc})")
+            continue
+        for result in results:
             candidate = result_to_candidate(result, query)
             if not candidate:
                 continue
@@ -436,13 +472,19 @@ def main() -> None:
             continue
         if clean_text(classification.get("confidence")).lower() not in {"high", "medium"}:
             continue
-        docket = fetch_docket(session, courtlistener_key, candidate["docket_id"])
+        try:
+            docket = fetch_docket(session, courtlistener_key, candidate["docket_id"])
+        except RateLimitExceeded as exc:
+            discovery_complete = False
+            print(f"Warning: skipped docket fetch after CourtListener rate limit: {candidate['docket_id']} ({exc})")
+            continue
         discovered.append(build_case(candidate, docket, classification, client, existing_ids))
 
     cases.extend(discovered)
     write_json(CASES_PATH, cases)
 
     last_run["cases_discovered"] = len(discovered)
+    last_run["discovery_complete"] = discovery_complete
     write_json(LAST_RUN_PATH, last_run)
 
     print(f"Discovered {len(discovered)} new cases.")

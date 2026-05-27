@@ -234,7 +234,10 @@ def main() -> None:
             case["last_updated"] = today
             generated += 1
 
-    last_run["last_run_date"] = today
+    if last_run.get("discovery_complete", True) and last_run.get("docket_update_complete", True):
+        last_run["last_run_date"] = today
+    else:
+        print("Warning: last_run_date was not advanced because discovery or docket update was rate-limited.")
     last_run["summaries_generated"] = generated
     last_run.setdefault("cases_discovered", 0)
     last_run.setdefault("entries_updated", 0)

@@ -26,6 +26,7 @@ COURTLISTENER_BASE = "https://www.courtlistener.com"
 DOCKET_ENTRIES_URL = f"{COURTLISTENER_BASE}/api/rest/v4/docket-entries/"
 MAX_RETRIES = 3
 TIMEOUT = 30
+COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
 
 RESOLUTION_SIGNALS = (
     "JUDGMENT",
@@ -35,6 +36,10 @@ RESOLUTION_SIGNALS = (
     "REVERSED",
     "MANDATE ISSUED",
 )
+
+
+class RateLimitExceeded(RuntimeError):
+    """Raised when an API keeps returning 429 after the required retries."""
 
 
 def utc_now() -> datetime:
@@ -81,8 +86,23 @@ def first_value(data: dict[str, Any], keys: tuple[str, ...]) -> Any:
     return ""
 
 
-def backoff_sleep(attempt: int) -> None:
-    delay = min(2**attempt, 16) + random.uniform(0, 0.25)
+def retry_after_seconds(response: requests.Response) -> float | None:
+    value = response.headers.get("Retry-After")
+    if not value:
+        return None
+    if value.isdigit():
+        return float(value)
+    try:
+        retry_at = datetime.strptime(value, "%a, %d %b %Y %H:%M:%S %Z").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+    return max(0.0, (retry_at - datetime.now(timezone.utc)).total_seconds())
+
+
+def backoff_sleep(attempt: int, response: requests.Response | None = None) -> None:
+    retry_after = retry_after_seconds(response) if response is not None else None
+    delay = retry_after if retry_after is not None else min(30 * (2**attempt), 180)
+    delay += random.uniform(0, 0.5)
     time.sleep(delay)
 
 
@@ -97,8 +117,10 @@ def get_json(
         response = session.get(url, headers=headers, params=params, timeout=TIMEOUT)
         if response.status_code == 429 or response.status_code >= 500:
             if attempt < MAX_RETRIES:
-                backoff_sleep(attempt)
+                backoff_sleep(attempt, response)
                 continue
+            if response.status_code == 429:
+                raise RateLimitExceeded(f"CourtListener rate limit persisted for {url}")
         response.raise_for_status()
         return response.json()
     raise RuntimeError(f"Request failed after retries: {url}")
@@ -118,6 +140,7 @@ def entry_text(entry: dict[str, Any]) -> str:
 
 
 def fetch_entries(session: requests.Session, api_key: str, docket_id: str, last_run_date: str) -> list[dict[str, Any]]:
+    time.sleep(COURTLISTENER_REQUEST_PAUSE_SECONDS + random.uniform(0, 1))
     params = {
         "docket": docket_id,
         "date_filed__gte": last_run_date,
@@ -160,6 +183,7 @@ def main() -> None:
     ]
     if not active_cases:
         last_run["entries_updated"] = 0
+        last_run["docket_update_complete"] = True
         write_json(LAST_RUN_PATH, last_run)
         print("Updated 0 entries across 0 cases.")
         return
@@ -172,6 +196,7 @@ def main() -> None:
     since = last_run_date(last_run)
     new_updates: list[dict[str, Any]] = []
     changed_case_count = 0
+    docket_update_complete = True
     now = utc_now().replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     for case in active_cases:
@@ -182,7 +207,13 @@ def main() -> None:
             if isinstance(entry, dict) and clean_text(entry.get("entry_number"))
         }
         case_new_entries = 0
-        for raw_entry in fetch_entries(session, api_key, docket_id, since):
+        try:
+            fetched_entries = fetch_entries(session, api_key, docket_id, since)
+        except RateLimitExceeded as exc:
+            docket_update_complete = False
+            print(f"Warning: skipped docket update after CourtListener rate limit: {docket_id} ({exc})")
+            continue
+        for raw_entry in fetched_entries:
             number = normalize_entry_number(raw_entry)
             if not number or number in existing_numbers:
                 continue
@@ -218,6 +249,7 @@ def main() -> None:
     write_json(UPDATES_PATH, updates)
 
     last_run["entries_updated"] = len(new_updates)
+    last_run["docket_update_complete"] = docket_update_complete
     write_json(LAST_RUN_PATH, last_run)
 
     print(f"Updated {len(new_updates)} entries across {changed_case_count} cases.")
