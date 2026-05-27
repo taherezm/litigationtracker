@@ -327,5 +327,167 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73294478/cognella-inc-v-anthropic-pbc/",
     "last_updated": "2026-05-27",
     "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "david-vance-gardner-v-runway-ai-inc",
+    "name": "David Vance Gardner v. Runway AI, Inc.",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-04360",
+    "courtlistener_docket_id": "73391100",
+    "date_filed": "2026-05-26",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "David Vance Gardner",
+      "defendant": "Runway AI, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "David Vance Gardner claims Runway AI, Inc. violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73391100/david-vance-gardner-v-runway-ai-inc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-04218",
+    "courtlistener_docket_id": "73314131",
+    "date_filed": "2026-05-07",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Chicken Soup for the Soul, LLC",
+      "defendant": "Anthropic PBC"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Chicken Soup for the Soul, LLC claims Anthropic PBC violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "anthropic",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73314131/chicken-soup-for-the-soul-llc-v-anthropic-pbc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "businessing-llc-v-runway-ai-inc",
+    "name": "Businessing LLC v. Runway AI, Inc.",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-01655",
+    "courtlistener_docket_id": "72344359",
+    "date_filed": "2026-02-27",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Businessing LLC",
+      "defendant": "Runway AI, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Businessing LLC claims Runway AI, Inc. violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/72344359/businessing-llc-v-runway-ai-inc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "poseidon-wave-media-llc-v-suno-inc",
+    "name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-03921",
+    "courtlistener_docket_id": "73328849",
+    "date_filed": "2026-05-12",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Poseidon Wave Media LLC",
+      "defendant": "Suno, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Poseidon Wave Media LLC claims Suno, Inc. violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73328849/poseidon-wave-media-llc-v-suno-inc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "elsevier-inc-v-meta-platforms-inc",
+    "name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-03689",
+    "courtlistener_docket_id": "73294740",
+    "date_filed": "2026-05-05",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Elsevier Inc.",
+      "defendant": "Meta Platforms, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Elsevier Inc. claims Meta Platforms, Inc. violated copyright infringement rights in a dispute involving artificial intelligence or technology. The case may affect how courts apply intellectual property law to AI systems, outputs, or training data.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73294740/elsevier-inc-v-meta-platforms-inc/",
+    "last_updated": "2026-05-27",
+    "discovered_date": "2026-05-27"
   }
 ]
