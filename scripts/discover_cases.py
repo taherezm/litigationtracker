@@ -30,6 +30,7 @@ MODEL = "claude-sonnet-4-20250514"
 MAX_RETRIES = 3
 TIMEOUT = 30
 COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
+COURTLISTENER_BASE_BACKOFF_SECONDS = 10
 
 SEARCH_QUERIES = [
     '"generative AI" copyright',
@@ -113,7 +114,7 @@ def retry_after_seconds(response: requests.Response) -> float | None:
 
 def backoff_sleep(attempt: int, response: requests.Response | None = None) -> None:
     retry_after = retry_after_seconds(response) if response is not None else None
-    delay = retry_after if retry_after is not None else min(30 * (2**attempt), 180)
+    delay = retry_after if retry_after is not None else min(COURTLISTENER_BASE_BACKOFF_SECONDS * (2**attempt), 60)
     delay += random.uniform(0, 0.5)
     time.sleep(delay)
 
@@ -409,7 +410,7 @@ def collect_rss_candidates(session: requests.Session, api_key: str) -> list[dict
                 results = search_cases(session, api_key, docket_number, search_after=None)
             except RateLimitExceeded as exc:
                 print(f"Warning: skipped RSS docket lookup after rate limit: {docket_number} ({exc})")
-                continue
+                raise
             for result in results:
                 candidate = result_to_candidate(result, f"rss:{COURTHOUSE_NEWS_FEED}")
                 if candidate:
@@ -451,7 +452,7 @@ def main() -> None:
         except RateLimitExceeded as exc:
             discovery_complete = False
             print(f"Warning: skipped search query after CourtListener rate limit: {query} ({exc})")
-            continue
+            break
         for result in results:
             candidate = result_to_candidate(result, query)
             if not candidate:
@@ -460,7 +461,14 @@ def main() -> None:
             if key not in known_dockets:
                 candidates_by_docket.setdefault(key, candidate)
 
-    for candidate in collect_rss_candidates(session, courtlistener_key):
+    try:
+        rss_candidates = collect_rss_candidates(session, courtlistener_key)
+    except RateLimitExceeded as exc:
+        discovery_complete = False
+        print(f"Warning: skipped RSS discovery after CourtListener rate limit ({exc})")
+        rss_candidates = []
+
+    for candidate in rss_candidates:
         key = docket_key(candidate["docket_number"])
         if key not in known_dockets:
             candidates_by_docket.setdefault(key, candidate)
@@ -477,7 +485,7 @@ def main() -> None:
         except RateLimitExceeded as exc:
             discovery_complete = False
             print(f"Warning: skipped docket fetch after CourtListener rate limit: {candidate['docket_id']} ({exc})")
-            continue
+            break
         discovered.append(build_case(candidate, docket, classification, client, existing_ids))
 
     cases.extend(discovered)

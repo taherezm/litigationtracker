@@ -27,6 +27,7 @@ DOCKET_ENTRIES_URL = f"{COURTLISTENER_BASE}/api/rest/v4/docket-entries/"
 MAX_RETRIES = 3
 TIMEOUT = 30
 COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
+COURTLISTENER_BASE_BACKOFF_SECONDS = 10
 
 RESOLUTION_SIGNALS = (
     "JUDGMENT",
@@ -101,7 +102,7 @@ def retry_after_seconds(response: requests.Response) -> float | None:
 
 def backoff_sleep(attempt: int, response: requests.Response | None = None) -> None:
     retry_after = retry_after_seconds(response) if response is not None else None
-    delay = retry_after if retry_after is not None else min(30 * (2**attempt), 180)
+    delay = retry_after if retry_after is not None else min(COURTLISTENER_BASE_BACKOFF_SECONDS * (2**attempt), 60)
     delay += random.uniform(0, 0.5)
     time.sleep(delay)
 
