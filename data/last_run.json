@@ -1,1 +1,8 @@
-{}
+{
+  "cases_discovered": 0,
+  "discovery_complete": false,
+  "rejected_dockets": [],
+  "entries_updated": 0,
+  "docket_update_complete": true,
+  "summaries_generated": 0
+}
