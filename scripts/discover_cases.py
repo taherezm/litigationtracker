@@ -34,6 +34,28 @@ COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
 COURTLISTENER_BASE_BACKOFF_SECONDS = 10
 COURTLISTENER_MAX_RETRY_AFTER_SECONDS = 30
 DEFAULT_MAX_DISCOVERY_CANDIDATES = 1
+AI_TERMS = (
+    "ai",
+    "artificial intelligence",
+    "generative",
+    "openai",
+    "anthropic",
+    "chatgpt",
+    "large language model",
+    "llm",
+    "machine learning",
+    "training data",
+    "stable diffusion",
+    "neural network",
+)
+IP_CLAIM_TERMS = (
+    ("copyright infringement", ("copyright", "17:501")),
+    ("patent infringement", ("patent", "35:")),
+    ("trade secret", ("trade secret", "defend trade secrets act", "dtsa")),
+    ("right of publicity", ("right of publicity", "voice cloning", "deepfake")),
+    ("DMCA 1202", ("dmca", "1202")),
+    ("trademark", ("trademark", "15:")),
+)
 
 SEARCH_QUERIES = [
     '"generative AI" copyright',
@@ -243,7 +265,7 @@ def docket_key(value: Any) -> str:
 
 def courtlistener_url(docket_id: str, *sources: dict[str, Any]) -> str:
     for source in sources:
-        value = first_value(source, ("courtlistener_url", "absolute_url", "url", "resource_uri"))
+        value = first_value(source, ("courtlistener_url", "docket_absolute_url", "absolute_url", "url", "resource_uri"))
         text = clean_text(value)
         if not text:
             continue
@@ -329,7 +351,17 @@ def search_cases(session: requests.Session, api_key: str, query: str, search_aft
     }
     if search_after:
         params["filed_after"] = search_after
-    data = get_json(session, COURTLISTENER_SEARCH_URL, api_key=api_key, params=params)
+    try:
+        data = get_json(session, COURTLISTENER_SEARCH_URL, api_key=api_key, params=params)
+    except RateLimitExceeded as exc:
+        print(f"Warning: authenticated CourtListener search failed; retrying search without auth ({exc})")
+        data = get_json(session, COURTLISTENER_SEARCH_URL, api_key=None, params=params)
+    except requests.HTTPError as exc:
+        status = exc.response.status_code if exc.response is not None else None
+        if status not in {401, 403}:
+            raise
+        print(f"Warning: authenticated CourtListener search returned {status}; retrying search without auth.")
+        data = get_json(session, COURTLISTENER_SEARCH_URL, api_key=None, params=params)
     return data.get("results", []) if isinstance(data.get("results"), list) else []
 
 
@@ -353,6 +385,40 @@ Is this case primarily or substantially about intellectual property claims (copy
 Respond ONLY with valid JSON, no preamble:
 {{"relevant": true/false, "confidence": "high"/"medium"/"low", "reason": "one sentence", "claims": ["list"], "tags": ["from: training data, copyright, patent, LLM, image generation, music, news media, right of publicity, trade secret, DMCA, fair use, output similarity"]}}"""
     return parse_json_object(anthropic_message(client, prompt, max_tokens=300))
+
+
+def fallback_classification(candidate: dict[str, Any]) -> dict[str, Any]:
+    raw = candidate.get("raw", {})
+    text = " ".join(
+        clean_text(value)
+        for value in (
+            candidate.get("case_name"),
+            candidate.get("court"),
+            candidate.get("parties"),
+            candidate.get("snippet"),
+            candidate.get("source"),
+            first_value(raw, ("cause", "suitNature", "caseName", "case_name_full")),
+        )
+    ).lower()
+    claims = [claim for claim, terms in IP_CLAIM_TERMS if any(term in text for term in terms)]
+    tags = [term for term in AI_TERMS if term in text]
+    if "openai" in text or "anthropic" in text or "large language model" in text or "llm" in text:
+        tags.append("LLM")
+    if "training data" in text:
+        tags.append("training data")
+    if "copyright" in text:
+        tags.append("copyright")
+    if "patent" in text:
+        tags.append("patent")
+    tags = listify(tags)
+    relevant = bool(claims and tags)
+    return {
+        "relevant": relevant,
+        "confidence": "medium" if relevant else "low",
+        "reason": "Deterministic fallback based on AI and IP terms in CourtListener search metadata.",
+        "claims": claims,
+        "tags": tags,
+    }
 
 
 def generate_plain_language_summary(client: Anthropic, case_name: str, claims: list[str], parties: dict[str, str]) -> str:
@@ -537,13 +603,12 @@ def main() -> None:
             classification = classify_case(client, candidate)
         except json.JSONDecodeError:
             discovery_complete = False
-            rejected_dockets.add(key)
-            print(f"Warning: Anthropic returned malformed classifier JSON for {candidate['docket_number']}.")
-            continue
+            classification = fallback_classification(candidate)
+            print(f"Warning: Anthropic returned malformed classifier JSON for {candidate['docket_number']}; using deterministic fallback.")
         except Exception as exc:
             discovery_complete = False
-            print(f"Warning: stopped discovery after Anthropic classifier error for {candidate['docket_number']}: {exc}")
-            break
+            classification = fallback_classification(candidate)
+            print(f"Warning: Anthropic classifier failed for {candidate['docket_number']}; using deterministic fallback: {exc}")
         if not classification.get("relevant"):
             rejected_dockets.add(key)
             continue
@@ -552,10 +617,10 @@ def main() -> None:
             continue
         try:
             docket = fetch_docket(session, courtlistener_key, candidate["docket_id"])
-        except RateLimitExceeded as exc:
+        except (RateLimitExceeded, requests.HTTPError) as exc:
             discovery_complete = False
-            print(f"Warning: skipped docket fetch after CourtListener rate limit: {candidate['docket_id']} ({exc})")
-            break
+            docket = {}
+            print(f"Warning: using search metadata after docket fetch failed for {candidate['docket_id']} ({exc})")
         discovered.append(build_case(candidate, docket, classification, client, existing_ids))
 
     cases.extend(discovered)
