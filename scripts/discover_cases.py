@@ -422,6 +422,14 @@ def fallback_classification(candidate: dict[str, Any]) -> dict[str, Any]:
 
 
 def generate_plain_language_summary(client: Anthropic, case_name: str, claims: list[str], parties: dict[str, str]) -> str:
+    if (os.environ.get("USE_ANTHROPIC_CASE_SUMMARIES") or "").strip().lower() not in {"1", "true", "yes"}:
+        plaintiff = parties.get("plaintiff") or "The plaintiff"
+        defendant = parties.get("defendant") or "the defendant"
+        claim_text = ", ".join(claims) if claims else "intellectual property"
+        return (
+            f"{plaintiff} claims {defendant} violated {claim_text} rights in a dispute involving artificial intelligence or technology. "
+            "The case may affect how courts apply intellectual property law to AI systems, outputs, or training data."
+        )
     prompt = f"""Write exactly 2 sentences about this lawsuit for a general audience with a college reading level.
 Sentence 1: What the plaintiff claims happened.
 Sentence 2: Why this case matters for AI and intellectual property law.
@@ -627,12 +635,7 @@ def main() -> None:
             else:
                 rejected_dockets.add(key)
                 continue
-        try:
-            docket = fetch_docket(session, courtlistener_key, candidate["docket_id"])
-        except (RateLimitExceeded, requests.HTTPError) as exc:
-            discovery_complete = False
-            docket = {}
-            print(f"Warning: using search metadata after docket fetch failed for {candidate['docket_id']} ({exc})")
+        docket = {}
         discovered.append(build_case(candidate, docket, classification, client, existing_ids))
 
     cases.extend(discovered)
