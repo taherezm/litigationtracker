@@ -33,7 +33,7 @@ ANTHROPIC_TIMEOUT = 30.0
 COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
 COURTLISTENER_BASE_BACKOFF_SECONDS = 10
 COURTLISTENER_MAX_RETRY_AFTER_SECONDS = 30
-DEFAULT_MAX_DISCOVERY_CANDIDATES = 1
+DEFAULT_MAX_DISCOVERY_CANDIDATES = 5
 AI_TERMS = (
     "ai",
     "artificial intelligence",
@@ -610,11 +610,21 @@ def main() -> None:
             classification = fallback_classification(candidate)
             print(f"Warning: Anthropic classifier failed for {candidate['docket_number']}; using deterministic fallback: {exc}")
         if not classification.get("relevant"):
-            rejected_dockets.add(key)
-            continue
+            fallback = fallback_classification(candidate)
+            if fallback.get("relevant"):
+                classification = fallback
+                print(f"Warning: using deterministic relevance fallback for {candidate['docket_number']}.")
+            else:
+                rejected_dockets.add(key)
+                continue
         if clean_text(classification.get("confidence")).lower() not in {"high", "medium"}:
-            rejected_dockets.add(key)
-            continue
+            fallback = fallback_classification(candidate)
+            if fallback.get("relevant"):
+                classification = fallback
+                print(f"Warning: using deterministic confidence fallback for {candidate['docket_number']}.")
+            else:
+                rejected_dockets.add(key)
+                continue
         try:
             docket = fetch_docket(session, courtlistener_key, candidate["docket_id"])
         except (RateLimitExceeded, requests.HTTPError) as exc:
