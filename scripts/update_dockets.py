@@ -115,7 +115,13 @@ def get_json(
 ) -> dict[str, Any]:
     headers = {"Authorization": f"Token {api_key}"}
     for attempt in range(MAX_RETRIES + 1):
-        response = session.get(url, headers=headers, params=params, timeout=TIMEOUT)
+        try:
+            response = session.get(url, headers=headers, params=params, timeout=TIMEOUT)
+        except requests.RequestException as exc:
+            if attempt < MAX_RETRIES:
+                backoff_sleep(attempt)
+                continue
+            raise RateLimitExceeded(f"CourtListener request failed for {url}: {exc}") from exc
         if response.status_code == 429 or response.status_code >= 500:
             if attempt < MAX_RETRIES:
                 backoff_sleep(attempt, response)
