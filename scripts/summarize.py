@@ -24,6 +24,7 @@ UPDATES_PATH = DATA_DIR / "updates.json"
 LAST_RUN_PATH = DATA_DIR / "last_run.json"
 MODEL = "claude-sonnet-4-20250514"
 MAX_RETRIES = 3
+ANTHROPIC_TIMEOUT = 30.0
 
 POSTURE_OPTIONS = {
     "Filed",
@@ -148,7 +149,13 @@ Respond ONLY with valid JSON, no preamble:
   "key_holding": "If significant_ruling: one sentence holding. Otherwise null."
 }}"""
     for attempt in range(MAX_RETRIES + 1):
-        text = anthropic_message(client, prompt, max_tokens=200)
+        try:
+            text = anthropic_message(client, prompt, max_tokens=200)
+        except Exception as exc:
+            print(
+                f"Warning: Anthropic summary request failed for entry {clean_text(entry.get('entry_number'))}; using fallback summary: {exc}"
+            )
+            return fallback_summary(entry)
         try:
             return parse_json_object(text)
         except json.JSONDecodeError:
@@ -236,7 +243,7 @@ def main() -> None:
         api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
         if not api_key:
             raise SystemExit("Missing required environment variable: ANTHROPIC_API_KEY")
-        client = Anthropic(api_key=api_key)
+        client = Anthropic(api_key=api_key, timeout=ANTHROPIC_TIMEOUT, max_retries=0)
         for case, entry in pending:
             result = summarize_entry(client, case, entry)
             summary = clean_text(result.get("summary"))

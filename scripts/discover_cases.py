@@ -29,6 +29,7 @@ COURTHOUSE_NEWS_FEED = "https://www.courthousenews.com/feed/"
 MODEL = "claude-sonnet-4-20250514"
 MAX_RETRIES = 3
 TIMEOUT = 30
+ANTHROPIC_TIMEOUT = 30.0
 COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
 COURTLISTENER_BASE_BACKOFF_SECONDS = 10
 DEFAULT_MAX_DISCOVERY_CANDIDATES = 1
@@ -130,6 +131,11 @@ def backoff_sleep(attempt: int, response: requests.Response | None = None) -> No
     time.sleep(delay)
 
 
+def anthropic_backoff_sleep(attempt: int) -> None:
+    delay = min(2**attempt, 16) + random.uniform(0, 0.25)
+    time.sleep(delay)
+
+
 def get_json(
     session: requests.Session,
     url: str,
@@ -175,7 +181,7 @@ def anthropic_message(client: Anthropic, prompt: str, max_tokens: int) -> str:
         except Exception as exc:  # Anthropic exceptions vary across SDK releases.
             status = getattr(exc, "status_code", None)
             if (status == 429 or (isinstance(status, int) and status >= 500)) and attempt < MAX_RETRIES:
-                backoff_sleep(attempt)
+                anthropic_backoff_sleep(attempt)
                 continue
             raise
     raise RuntimeError("Anthropic request failed after retries")
@@ -352,7 +358,16 @@ Sentence 2: Why this case matters for AI and intellectual property law.
 Factual and neutral. No legal jargon.
 
 Case: {case_name}, Claims: {claims}, Parties: {parties}"""
-    return clean_text(anthropic_message(client, prompt, max_tokens=150))
+    try:
+        return clean_text(anthropic_message(client, prompt, max_tokens=150))
+    except Exception as exc:
+        print(f"Warning: using fallback plain-language summary for {case_name}: {exc}")
+        plaintiff = parties.get("plaintiff") or "The plaintiff"
+        defendant = parties.get("defendant") or "the defendant"
+        return (
+            f"{plaintiff} brought intellectual property claims involving artificial intelligence against {defendant}. "
+            "The case may affect how courts apply intellectual property law to AI systems, outputs, or training data."
+        )
 
 
 def listify(value: Any) -> list[str]:
@@ -465,7 +480,7 @@ def main() -> None:
     limit = max_discovery_candidates()
 
     session = requests.Session()
-    client = Anthropic(api_key=anthropic_key)
+    client = Anthropic(api_key=anthropic_key, timeout=ANTHROPIC_TIMEOUT, max_retries=0)
     candidates_by_docket: dict[str, dict[str, Any]] = {}
     discovery_complete = True
 
