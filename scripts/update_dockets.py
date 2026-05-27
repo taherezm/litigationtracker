@@ -212,7 +212,7 @@ def main() -> None:
         except RateLimitExceeded as exc:
             docket_update_complete = False
             print(f"Warning: skipped docket update after CourtListener rate limit: {docket_id} ({exc})")
-            continue
+            break
         for raw_entry in fetched_entries:
             number = normalize_entry_number(raw_entry)
             if not number or number in existing_numbers:
