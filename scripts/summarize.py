@@ -116,6 +116,23 @@ def parse_json_object(text: str) -> dict[str, Any]:
     return json.loads(stripped)
 
 
+def fallback_summary(entry: dict[str, Any]) -> dict[str, Any]:
+    raw_text = clean_text(entry.get("raw_text"))
+    if raw_text:
+        clipped = raw_text[:260].rstrip()
+        if len(raw_text) > 260:
+            clipped = f"{clipped}..."
+        summary = f"The docket was updated with this entry: {clipped}"
+    else:
+        summary = "The docket was updated with a new entry."
+    return {
+        "summary": summary,
+        "significance": "minor_update",
+        "posture_update": None,
+        "key_holding": None,
+    }
+
+
 def summarize_entry(client: Anthropic, case: dict[str, Any], entry: dict[str, Any]) -> dict[str, Any]:
     prompt = f"""Summarize this federal court docket entry for a public litigation tracker.
 Audience: law students and attorneys. College reading level. No jargon.
@@ -130,7 +147,18 @@ Respond ONLY with valid JSON, no preamble:
   "posture_update": "new posture if changed, else null. Options: Filed, Motion Practice, Discovery, Summary Judgment, Trial, Appeal, Settled, Dismissed, Judgment",
   "key_holding": "If significant_ruling: one sentence holding. Otherwise null."
 }}"""
-    return parse_json_object(anthropic_message(client, prompt, max_tokens=200))
+    for attempt in range(MAX_RETRIES + 1):
+        text = anthropic_message(client, prompt, max_tokens=200)
+        try:
+            return parse_json_object(text)
+        except json.JSONDecodeError:
+            if attempt < MAX_RETRIES:
+                continue
+            print(
+                f"Warning: Anthropic returned malformed summary JSON for entry {clean_text(entry.get('entry_number'))}; using fallback summary."
+            )
+            return fallback_summary(entry)
+    return fallback_summary(entry)
 
 
 def is_unsummarized(entry: dict[str, Any]) -> bool:
