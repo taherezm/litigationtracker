@@ -599,16 +599,18 @@ def main() -> None:
     discovered: list[dict[str, Any]] = []
     for candidate in candidates:
         key = docket_key(candidate["docket_number"])
-        try:
-            classification = classify_case(client, candidate)
-        except json.JSONDecodeError:
-            discovery_complete = False
-            classification = fallback_classification(candidate)
-            print(f"Warning: Anthropic returned malformed classifier JSON for {candidate['docket_number']}; using deterministic fallback.")
-        except Exception as exc:
-            discovery_complete = False
-            classification = fallback_classification(candidate)
-            print(f"Warning: Anthropic classifier failed for {candidate['docket_number']}; using deterministic fallback: {exc}")
+        classification = fallback_classification(candidate)
+        if classification.get("relevant"):
+            print(f"Using deterministic classifier for {candidate['docket_number']}.")
+        else:
+            try:
+                classification = classify_case(client, candidate)
+            except json.JSONDecodeError:
+                discovery_complete = False
+                print(f"Warning: Anthropic returned malformed classifier JSON for {candidate['docket_number']}.")
+            except Exception as exc:
+                discovery_complete = False
+                print(f"Warning: Anthropic classifier failed for {candidate['docket_number']}: {exc}")
         if not classification.get("relevant"):
             fallback = fallback_classification(candidate)
             if fallback.get("relevant"):
