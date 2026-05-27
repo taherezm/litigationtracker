@@ -1,0 +1,71 @@
+name: Litigation Tracker — Scheduled Update
+
+on:
+  schedule:
+    - cron: '0 13 */5 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout pipeline repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Discover new cases
+        env:
+          COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/discover_cases.py
+
+      - name: Update dockets
+        env:
+          COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
+        run: python scripts/update_dockets.py
+
+      - name: Summarize new entries
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/summarize.py
+
+      - name: Commit data to pipeline repo
+        run: |
+          git config user.name "Litigation Tracker Bot"
+          git config user.email "bot@iuiptechlaw.org"
+          git add data/
+          git diff --staged --quiet || git commit -m "Data update: $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Checkout site repo
+        uses: actions/checkout@v4
+        with:
+          repository: taherezm/iptl-iu-site
+          token: ${{ secrets.IPTL_SITE_TOKEN }}
+          path: iptl-iu-site
+
+      - name: Copy data files to site repo
+        run: |
+          mkdir -p iptl-iu-site/tools/litigation-tracker
+          cp data/cases.json iptl-iu-site/tools/litigation-tracker/cases.json
+          cp data/updates.json iptl-iu-site/tools/litigation-tracker/updates.json
+
+      - name: Push data to site repo
+        working-directory: iptl-iu-site
+        run: |
+          git config user.name "Litigation Tracker Bot"
+          git config user.email "bot@iuiptechlaw.org"
+          git add tools/litigation-tracker/cases.json tools/litigation-tracker/updates.json
+          git diff --staged --quiet || git commit -m "Tracker data update: $(date +'%Y-%m-%d')"
+          git push
