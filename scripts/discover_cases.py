@@ -271,6 +271,33 @@ def clean_text(value: Any) -> str:
     return text.strip()
 
 
+def normalize_sentence_for_dedupe(sentence: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", sentence.lower()).strip()
+
+
+def dedupe_repeated_summary_sentences(summary: str) -> str:
+    text = clean_text(summary)
+    sentences = [sentence.strip() for sentence in re.findall(r"[^.!?]+(?:[.!?]+|$)", text) if clean_text(sentence)]
+    if len(sentences) < 2:
+        return text
+
+    normalized = [normalize_sentence_for_dedupe(sentence) for sentence in sentences]
+    for block_size in range(1, (len(sentences) // 2) + 1):
+        if len(sentences) % block_size != 0:
+            continue
+        block = normalized[:block_size]
+        if block and normalized == block * (len(sentences) // block_size):
+            return " ".join(sentences[:block_size])
+
+    deduped: list[str] = []
+    previous = ""
+    for sentence, normalized_sentence in zip(sentences, normalized):
+        if normalized_sentence and normalized_sentence != previous:
+            deduped.append(sentence)
+        previous = normalized_sentence
+    return " ".join(deduped)
+
+
 def first_value(data: dict[str, Any], keys: tuple[str, ...]) -> Any:
     for key in keys:
         value = data.get(key)
@@ -487,7 +514,7 @@ def deterministic_case_summary(case_name: str, claims: list[str], parties: dict[
 
 
 def legalize_case_summary(summary: str, case_name: str, claims: list[str], parties: dict[str, str]) -> str:
-    text = clean_text(summary)
+    text = dedupe_repeated_summary_sentences(summary)
     lowered = text.lower()
     if not text or any(phrase in lowered for phrase in BANNED_SUMMARY_PHRASES):
         return deterministic_case_summary(case_name, claims, parties)

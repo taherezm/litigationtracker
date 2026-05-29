@@ -89,6 +89,33 @@ def clean_text(value: Any) -> str:
     return text.strip()
 
 
+def normalize_sentence_for_dedupe(sentence: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", sentence.lower()).strip()
+
+
+def dedupe_repeated_summary_sentences(summary: str) -> str:
+    text = clean_text(summary)
+    sentences = [sentence.strip() for sentence in re.findall(r"[^.!?]+(?:[.!?]+|$)", text) if clean_text(sentence)]
+    if len(sentences) < 2:
+        return text
+
+    normalized = [normalize_sentence_for_dedupe(sentence) for sentence in sentences]
+    for block_size in range(1, (len(sentences) // 2) + 1):
+        if len(sentences) % block_size != 0:
+            continue
+        block = normalized[:block_size]
+        if block and normalized == block * (len(sentences) // block_size):
+            return " ".join(sentences[:block_size])
+
+    deduped: list[str] = []
+    previous = ""
+    for sentence, normalized_sentence in zip(sentences, normalized):
+        if normalized_sentence and normalized_sentence != previous:
+            deduped.append(sentence)
+        previous = normalized_sentence
+    return " ".join(deduped)
+
+
 def backoff_sleep(attempt: int) -> None:
     delay = min(2**attempt, 16) + random.uniform(0, 0.25)
     time.sleep(delay)
@@ -149,7 +176,7 @@ def fallback_summary(entry: dict[str, Any]) -> dict[str, Any]:
 
 
 def legalize_entry_summary(summary: str, entry: dict[str, Any]) -> str:
-    text = clean_text(summary)
+    text = dedupe_repeated_summary_sentences(summary)
     if not text or any(phrase in text.lower() for phrase in BANNED_SUMMARY_PHRASES):
         return fallback_summary(entry)["summary"]
     first_sentence = re.split(r"(?<=[.!?])\s+", text, maxsplit=1)[0].lower()

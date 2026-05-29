@@ -43,6 +43,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/summarize.py
 
+      - name: Validate tracker data
+        run: python scripts/validate_tracker_data.py
+
       - name: Commit data to pipeline repo
         run: |
           git config user.name "Litigation Tracker Bot"
@@ -57,6 +60,9 @@ jobs:
           repository: taherezm/iptl-iu-site
           token: ${{ secrets.IPTL_SITE_TOKEN }}
           path: iptl-iu-site
+
+      - name: Validate site tracker renderer
+        run: python scripts/validate_site_renderer.py iptl-iu-site/tools/litigation-tracker/index.html
 
       - name: Copy data files to site repo
         run: |
