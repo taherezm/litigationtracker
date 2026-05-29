@@ -38,6 +38,20 @@ POSTURE_OPTIONS = {
     "Judgment",
 }
 
+LEGAL_PRECISION_RULES = """Legal precision rules:
+- Describe docket activity, not ultimate liability, unless the entry itself reports a court ruling.
+- Use "alleges," "asserts," or "moves" for party filings. Use "the court ordered," "the court denied," or "the court granted" only for court action.
+- Do not say a party "violated" the law unless the entry reports that the court held so.
+- Never write phrases like "violated copyright infringement rights."
+- Do not invent claims, holdings, deadlines, settlement status, or procedural posture.
+- Preserve uncertainty when the entry is administrative, a notice, a filing, or a scheduling item."""
+BANNED_SUMMARY_PHRASES = (
+    "violated copyright infringement rights",
+    "violated patent infringement rights",
+    "violated trademark rights",
+    "violated trade secret rights",
+)
+
 
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
@@ -123,9 +137,9 @@ def fallback_summary(entry: dict[str, Any]) -> dict[str, Any]:
         clipped = raw_text[:260].rstrip()
         if len(raw_text) > 260:
             clipped = f"{clipped}..."
-        summary = f"The docket was updated with this entry: {clipped}"
+        summary = f"This docket entry records: {clipped}"
     else:
-        summary = "The docket was updated with a new entry."
+        summary = "This docket entry records a new filing or court action."
     return {
         "summary": summary,
         "significance": "minor_update",
@@ -134,9 +148,23 @@ def fallback_summary(entry: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def legalize_entry_summary(summary: str, entry: dict[str, Any]) -> str:
+    text = clean_text(summary)
+    if not text or any(phrase in text.lower() for phrase in BANNED_SUMMARY_PHRASES):
+        return fallback_summary(entry)["summary"]
+    first_sentence = re.split(r"(?<=[.!?])\s+", text, maxsplit=1)[0].lower()
+    allegation_words = ("alleges", "asserts", "claims", "contends", "argues", "accuses")
+    court_words = ("court", "judge", "magistrate", "order", "ordered", "granted", "denied", "held")
+    if "violated" in first_sentence and not any(word in first_sentence for word in allegation_words + court_words):
+        return fallback_summary(entry)["summary"]
+    return text
+
+
 def summarize_entry(client: Anthropic, case: dict[str, Any], entry: dict[str, Any]) -> dict[str, Any]:
     prompt = f"""Summarize this federal court docket entry for a public litigation tracker.
 Audience: law students and attorneys. College reading level. No jargon.
+
+{LEGAL_PRECISION_RULES}
 
 Case: {case.get("name")} ({case.get("court")})
 Entry text: {entry.get("raw_text")}
@@ -157,7 +185,9 @@ Respond ONLY with valid JSON, no preamble:
             )
             return fallback_summary(entry)
         try:
-            return parse_json_object(text)
+            result = parse_json_object(text)
+            result["summary"] = legalize_entry_summary(result.get("summary"), entry)
+            return result
         except json.JSONDecodeError:
             if attempt < MAX_RETRIES:
                 continue

@@ -56,6 +56,21 @@ IP_CLAIM_TERMS = (
     ("DMCA 1202", ("dmca", "1202")),
     ("trademark", ("trademark", "15:")),
 )
+CLAIM_SUMMARY_LABELS = {
+    "copyright infringement": "copyright infringement",
+    "patent infringement": "patent infringement",
+    "trade secret": "trade secret misappropriation",
+    "right of publicity": "right-of-publicity",
+    "dmca 1202": "DMCA section 1202",
+    "trademark": "trademark",
+}
+BANNED_SUMMARY_PHRASES = (
+    "violated copyright infringement rights",
+    "violated patent infringement rights",
+    "violated trademark rights",
+    "violated trade secret rights",
+    "violated intellectual property claims",
+)
 
 SEARCH_QUERIES = [
     '"generative AI" copyright',
@@ -439,31 +454,70 @@ def fallback_classification(candidate: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def english_join(items: list[str]) -> str:
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    if len(items) == 2:
+        return f"{items[0]} and {items[1]}"
+    return f"{', '.join(items[:-1])}, and {items[-1]}"
+
+
+def claim_summary_text(claims: list[str]) -> str:
+    labels: list[str] = []
+    for claim in claims:
+        label = CLAIM_SUMMARY_LABELS.get(clean_text(claim).lower())
+        if not label:
+            label = clean_text(claim).lower()
+        if label and label not in labels:
+            labels.append(label)
+    return english_join(labels) or "intellectual property"
+
+
+def deterministic_case_summary(case_name: str, claims: list[str], parties: dict[str, str]) -> str:
+    plaintiff = clean_text(parties.get("plaintiff")) or "The plaintiff"
+    defendant = clean_text(parties.get("defendant")) or "the defendant"
+    claim_text = claim_summary_text(claims)
+    return (
+        f"{plaintiff} asserts {claim_text} claims against {defendant} in a dispute involving "
+        "artificial intelligence systems, model outputs, or training data. "
+        "The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use."
+    )
+
+
+def legalize_case_summary(summary: str, case_name: str, claims: list[str], parties: dict[str, str]) -> str:
+    text = clean_text(summary)
+    lowered = text.lower()
+    if not text or any(phrase in lowered for phrase in BANNED_SUMMARY_PHRASES):
+        return deterministic_case_summary(case_name, claims, parties)
+    first_sentence = re.split(r"(?<=[.!?])\s+", text, maxsplit=1)[0].lower()
+    allegation_words = ("alleges", "asserts", "claims", "contends", "argues", "accuses")
+    if "violated" in first_sentence and not any(word in first_sentence for word in allegation_words):
+        return deterministic_case_summary(case_name, claims, parties)
+    return text
+
+
 def generate_plain_language_summary(client: Anthropic, case_name: str, claims: list[str], parties: dict[str, str]) -> str:
     if (os.environ.get("USE_ANTHROPIC_CASE_SUMMARIES") or "").strip().lower() not in {"1", "true", "yes"}:
-        plaintiff = parties.get("plaintiff") or "The plaintiff"
-        defendant = parties.get("defendant") or "the defendant"
-        claim_text = ", ".join(claims) if claims else "intellectual property"
-        return (
-            f"{plaintiff} claims {defendant} violated {claim_text} rights in a dispute involving artificial intelligence or technology. "
-            "The case may affect how courts apply intellectual property law to AI systems, outputs, or training data."
-        )
-    prompt = f"""Write exactly 2 sentences about this lawsuit for a general audience with a college reading level.
-Sentence 1: What the plaintiff claims happened.
-Sentence 2: Why this case matters for AI and intellectual property law.
-Factual and neutral. No legal jargon.
+        return deterministic_case_summary(case_name, claims, parties)
+    prompt = f"""Write exactly 2 sentences about this lawsuit for a public AI/IP litigation tracker.
+Audience: law students, lawyers, and interested non-lawyers.
+
+Legal precision rules:
+- Describe allegations, not proven facts. Use "alleges," "asserts," "claims," or "contends."
+- Do not say a defendant "violated" the law unless the input says a court has ruled that way.
+- Never write "violated copyright infringement rights." Prefer "asserts copyright infringement claims" or "alleges infringement of copyrighted works."
+- Do not invent procedural posture, holdings, rulings, statutory sections, or factual details.
+- Sentence 1 should say who is suing whom and what claims are asserted.
+- Sentence 2 should explain why the case matters for AI and intellectual property law.
 
 Case: {case_name}, Claims: {claims}, Parties: {parties}"""
     try:
-        return clean_text(anthropic_message(client, prompt, max_tokens=150))
+        return legalize_case_summary(anthropic_message(client, prompt, max_tokens=150), case_name, claims, parties)
     except Exception as exc:
         print(f"Warning: using fallback plain-language summary for {case_name}: {exc}")
-        plaintiff = parties.get("plaintiff") or "The plaintiff"
-        defendant = parties.get("defendant") or "the defendant"
-        return (
-            f"{plaintiff} brought intellectual property claims involving artificial intelligence against {defendant}. "
-            "The case may affect how courts apply intellectual property law to AI systems, outputs, or training data."
-        )
+        return deterministic_case_summary(case_name, claims, parties)
 
 
 def listify(value: Any) -> list[str]:
