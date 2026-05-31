@@ -15,6 +15,12 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
 CASES_PATH = DATA_DIR / "cases.json"
 UPDATES_PATH = DATA_DIR / "updates.json"
+EMPTY_ENTRY_SUMMARY_MARKERS = (
+    "no docket entry text",
+    "no entry text",
+    "cannot summarize",
+    "unable to summarize",
+)
 
 
 def clean_text(value: Any) -> str:
@@ -54,6 +60,11 @@ def repeated_summary_text(value: Any) -> bool:
     return False
 
 
+def empty_entry_placeholder_summary(value: Any) -> bool:
+    text = clean_text(value).lower()
+    return bool(text) and any(marker in text for marker in EMPTY_ENTRY_SUMMARY_MARKERS)
+
+
 def load_json(path: Path) -> Any:
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
@@ -90,9 +101,13 @@ def validate_cases(cases: Any) -> list[str]:
             errors.append(f"{label}: plain_language_summary repeats the same sentence block.")
 
         for entry in case.get("docket_entries", []):
-            if isinstance(entry, dict) and repeated_summary_text(entry.get("summary")):
-                entry_number = clean_text(entry.get("entry_number")) or "unknown"
+            if not isinstance(entry, dict):
+                continue
+            entry_number = clean_text(entry.get("entry_number")) or "unknown"
+            if repeated_summary_text(entry.get("summary")):
                 errors.append(f"{label} entry {entry_number}: summary repeats the same sentence block.")
+            if empty_entry_placeholder_summary(entry.get("summary")):
+                errors.append(f"{label} entry {entry_number}: summary exposes missing docket text.")
 
         for ruling in case.get("key_rulings", []):
             if isinstance(ruling, dict) and repeated_summary_text(ruling.get("summary")):
@@ -115,6 +130,10 @@ def validate_updates(updates: Any) -> list[str]:
             case_name = clean_text(update.get("case_name")) or f"updates[{index}]"
             entry_number = clean_text(update.get("entry_number")) or "unknown"
             errors.append(f"{case_name} update {entry_number}: summary repeats the same sentence block.")
+        if empty_entry_placeholder_summary(update.get("summary")):
+            case_name = clean_text(update.get("case_name")) or f"updates[{index}]"
+            entry_number = clean_text(update.get("entry_number")) or "unknown"
+            errors.append(f"{case_name} update {entry_number}: summary exposes missing docket text.")
     return errors
 
 

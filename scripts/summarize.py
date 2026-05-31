@@ -51,6 +51,12 @@ BANNED_SUMMARY_PHRASES = (
     "violated trademark rights",
     "violated trade secret rights",
 )
+EMPTY_ENTRY_SUMMARY_MARKERS = (
+    "no docket entry text",
+    "no entry text",
+    "cannot summarize",
+    "unable to summarize",
+)
 
 
 def utc_now() -> datetime:
@@ -116,6 +122,11 @@ def dedupe_repeated_summary_sentences(summary: str) -> str:
     return " ".join(deduped)
 
 
+def empty_entry_placeholder_summary(value: Any) -> bool:
+    text = clean_text(value).lower()
+    return bool(text) and any(marker in text for marker in EMPTY_ENTRY_SUMMARY_MARKERS)
+
+
 def backoff_sleep(attempt: int) -> None:
     delay = min(2**attempt, 16) + random.uniform(0, 0.25)
     time.sleep(delay)
@@ -166,7 +177,7 @@ def fallback_summary(entry: dict[str, Any]) -> dict[str, Any]:
             clipped = f"{clipped}..."
         summary = f"This docket entry records: {clipped}"
     else:
-        summary = "This docket entry records a new filing or court action."
+        summary = None
     return {
         "summary": summary,
         "significance": "minor_update",
@@ -175,9 +186,13 @@ def fallback_summary(entry: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def legalize_entry_summary(summary: str, entry: dict[str, Any]) -> str:
+def legalize_entry_summary(summary: Any, entry: dict[str, Any]) -> str | None:
     text = dedupe_repeated_summary_sentences(summary)
-    if not text or any(phrase in text.lower() for phrase in BANNED_SUMMARY_PHRASES):
+    if (
+        not text
+        or empty_entry_placeholder_summary(text)
+        or any(phrase in text.lower() for phrase in BANNED_SUMMARY_PHRASES)
+    ):
         return fallback_summary(entry)["summary"]
     first_sentence = re.split(r"(?<=[.!?])\s+", text, maxsplit=1)[0].lower()
     allegation_words = ("alleges", "asserts", "claims", "contends", "argues", "accuses")
@@ -188,6 +203,9 @@ def legalize_entry_summary(summary: str, entry: dict[str, Any]) -> str:
 
 
 def summarize_entry(client: Anthropic, case: dict[str, Any], entry: dict[str, Any]) -> dict[str, Any]:
+    if not clean_text(entry.get("raw_text")):
+        return fallback_summary(entry)
+
     prompt = f"""Summarize this federal court docket entry for a public litigation tracker.
 Audience: law students and attorneys. College reading level. No jargon.
 
@@ -226,7 +244,7 @@ Respond ONLY with valid JSON, no preamble:
 
 
 def is_unsummarized(entry: dict[str, Any]) -> bool:
-    return entry.get("summary") is None
+    return not clean_text(entry.get("summary")) and bool(clean_text(entry.get("raw_text")))
 
 
 def update_matching_updates(

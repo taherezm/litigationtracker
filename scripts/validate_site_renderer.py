@@ -8,6 +8,15 @@ from pathlib import Path
 
 
 SUMMARY_RENDER = "escapeHtml(item.plain_language_summary || '')"
+REQUIRED_SNIPPETS = (
+    "Activity Dates",
+    "renderActivityDays(activityDays)",
+    "publicEntryText(entry)",
+)
+FORBIDDEN_SNIPPETS = (
+    "Case Timeline",
+    "Summary pending.",
+)
 
 
 def main() -> int:
@@ -24,6 +33,14 @@ def main() -> int:
             file=sys.stderr,
         )
         return 1
+    for snippet in REQUIRED_SNIPPETS:
+        if snippet not in html:
+            print(f"{template_path}: missing expected tracker renderer snippet: {snippet}", file=sys.stderr)
+            return 1
+    for snippet in FORBIDDEN_SNIPPETS:
+        if snippet in html:
+            print(f"{template_path}: forbidden tracker renderer snippet is still present: {snippet}", file=sys.stderr)
+            return 1
 
     print("Site tracker renderer validation passed.")
     return 0
