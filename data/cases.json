@@ -19,7 +19,36 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "465145282",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "Cannot summarize - no entry text provided",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465245413",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "24",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "Unable to summarize - no entry text provided.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "Unable to summarize - no docket entry text provided",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Beaulier asserts copyright infringement claims against Meta Platforms, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -28,7 +57,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73020880/beaulier-v-meta-platforms-inc/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-05-31",
     "discovered_date": "2026-05-27"
   },
   {
@@ -245,7 +274,57 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "465226157",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No entry text was provided for this docket entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465286547",
+        "date": "2026-05-26",
+        "raw_text": "Set/Reset Hearing: Final Pretrial Conference set for 5/11/2027 10:00 a.m. in San Francisco, Courtroom 03, 17th Floor before Judge Vince Chhabria.. Jury Selection set for 5/24/2027 at 10:00 a.m. in San Francisco, Courtroom 03, 17th Floor before Judge Vince Chhabria. Jury Trial set for 5/24/2027 at 10:00 a.m. in San Francisco, Courtroom 03, 17th Floor before Judge Vince Chhabria. (ahm, COURT STAFF) (Filed on 5/26/2026)",
+        "summary": "The court scheduled a final pretrial conference for May 11, 2027, and set jury selection and trial to begin on May 24, 2027, both in Judge Chhabria's San Francisco courtroom.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465217362",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "Cannot summarize - no docket entry text provided",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465325778",
+        "date": "2026-05-27",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "62",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "No entry text provided to summarize.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "61",
+        "date": "2026-05-27",
+        "raw_text": "",
+        "summary": "Unable to summarize - no docket entry text provided.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "60",
+        "date": "2026-05-27",
+        "raw_text": "",
+        "summary": "No entry text provided to summarize.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Meta Platforms Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -257,7 +336,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-05-31",
     "discovered_date": "2026-05-27"
   },
   {
@@ -314,7 +393,22 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "465209672",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465405445",
+        "date": "2026-05-27",
+        "raw_text": "",
+        "summary": "This docket entry records a new filing or court action.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Cognella, Inc. asserts copyright infringement claims against Anthropic PBC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -325,7 +419,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73294478/cognella-inc-v-anthropic-pbc/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-05-31",
     "discovered_date": "2026-05-27"
   },
   {
@@ -348,7 +442,99 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "465438381",
+        "date": "2026-05-28",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465202939",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465310638",
+        "date": "2026-05-26",
+        "raw_text": "Case Designated ECF. (vba)",
+        "summary": "The court designated this case for electronic case filing (ECF), allowing documents to be filed electronically through the court's system.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465310639",
+        "date": "2026-05-26",
+        "raw_text": "CASE OPENING INITIAL ASSIGNMENT NOTICE - TRANSFER CASE: This case is assigned to: Unassigned Judge. (vba)",
+        "summary": "The court issued an initial assignment notice for a transferred case, with no judge currently assigned to the matter.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465310640",
+        "date": "2026-05-26",
+        "raw_text": "CASE REFERRED to Judge Lewis A. Kaplan as possibly related to 1:26-cv-01362-LAK. (vba)",
+        "summary": "The court referred this case to Judge Lewis A. Kaplan for possible consolidation with a related case (1:26-cv-01362-LAK).",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465310641",
+        "date": "2026-05-26",
+        "raw_text": "NOTE TO OUT OF STATE ATTORNEYS: Please visit the Court's website at https://nysd.uscourts.gov/ for information regarding admission to the S.D.N.Y. Bar and the CM/ECF Rules & Filing Instructions. (vba)",
+        "summary": "The court clerk posted a notice directing out-of-state attorneys to the court's website for information about admission to the Southern District of New York Bar and electronic filing rules.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465312039",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465312040",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "Cannot summarize - no entry text provided",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465312041",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465202931",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "25",
+        "date": "2026-05-27",
+        "raw_text": "",
+        "summary": "No entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "24",
+        "date": "2026-05-27",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-05-26",
+        "raw_text": "CASE TRANSFERRED IN from the United States District Court - District of California Central; Case Number: 2:26-cv-01941. Original file certified copy of transfer order and docket entries received. (Entered: 05/26/2026)",
+        "summary": "The court received the case transfer from the U. S. District Court for the Central District of California, along with certified copies of the transfer order and prior docket entries.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "David Vance Gardner asserts copyright infringement claims against Runway AI, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -357,7 +543,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73391100/david-vance-gardner-v-runway-ai-inc/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-05-31",
     "discovered_date": "2026-05-27"
   },
   {
@@ -478,7 +664,78 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "465520300",
+        "date": "2026-05-28",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 42 MOTION for Eli Goldman to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32909786. Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (bc)",
+        "summary": "The clerk's office reviewed a motion for attorney Eli Goldman to appear pro hac vice and found no deficiencies in the filing.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465535561",
+        "date": "2026-05-28",
+        "raw_text": "",
+        "summary": "No docket entry text provided to summarize.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465186805",
+        "date": "2026-05-26",
+        "raw_text": "Set/Reset Hearings: Initial Conference set for 7/27/2026 at 10:00 AM before Judge P. Kevin Castel. (vfr)",
+        "summary": "The court scheduled an initial conference for July 27, 2026 at 10:00 AM before Judge P. Kevin Castel.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "47",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "46",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "No docket entry text provided to summarize.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "45",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "Cannot summarize - no docket entry text provided",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "44",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "No entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "43",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "Unable to summarize - no docket entry text provided",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "42",
+        "date": "2026-05-28",
+        "raw_text": "MOTION for Eli Goldman to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32909786. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Cengage Learning, Inc., Elsevier Inc., Hachette Book Group, Inc., Macmillan Publishing Group, LLC d/b/a Macmillan Publishers, McGraw Hill LLC, S.C.R.I.B.E., Inc., Scott Turow. (Attachments: # 1 Exhibit Declaration of Eli Goldman, # 2 Exhibit A - Certificate of Good Standing, # 3 Proposed Order Granting Motion).(Goldman, Eli) (Entered: 05/28/2026)",
+        "summary": "Multiple plaintiffs including Elsevier Inc. , Cengage Learning, Inc. , and other publishers filed a motion for attorney Eli Goldman to appear pro hac vice in their case against Meta Platforms. The motion includes Goldman's declaration, a certificate of good standing, and a proposed order, and is pending review by the Clerk's Office staff.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "41",
+        "date": "2026-05-26",
+        "raw_text": "ORDER granting 40 Letter Motion for Extension of Time to Answer re 1 Complaint. Time for all defendants to respond extended to July 13, 2026. Conference adjourned from June 29, 2026 to July 27, 2026 at 10:00 a.m. Call-In: 855-244-8681, Access Code: 2305 810 3970#. SO ORDERED. Meta Platforms, Inc. answer due 7/13/2026. (Signed by Judge P. Kevin Castel on 5/26/2026) (vfr) (Entered: 05/26/2026)",
+        "summary": "The court granted Meta's motion to extend the deadline for answering Elsevier's complaint until July 13, 2026. The court also rescheduled a conference from June 29 to July 27, 2026.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -487,7 +744,260 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73294740/elsevier-inc-v-meta-platforms-inc/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-05-31",
     "discovered_date": "2026-05-27"
+  },
+  {
+    "id": "carreyrou-v-openai-inc",
+    "name": "Carreyrou v. OpenAI, Inc.",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-03625",
+    "courtlistener_docket_id": "73284844",
+    "date_filed": "2026-05-01",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Carreyrou",
+      "defendant": "OpenAI, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [
+      {
+        "entry_number": "465259916",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "Unable to summarize due to missing entry text.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465645896",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "Unable to summarize - no entry text provided",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "111",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "No entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "110",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "Unable to summarize - no docket entry text provided",
+        "significance": "minor_update"
+      }
+    ],
+    "plain_language_summary": "Carreyrou asserts copyright infringement claims against OpenAI, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "generative",
+      "openai",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73284844/carreyrou-v-openai-inc/",
+    "last_updated": "2026-05-31",
+    "discovered_date": "2026-05-31"
+  },
+  {
+    "id": "hobbs-v-meta-platforms-inc",
+    "name": "Hobbs v. Meta Platforms, Inc.",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-04314",
+    "courtlistener_docket_id": "73384790",
+    "date_filed": "2026-05-22",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Hobbs",
+      "defendant": "Meta Platforms, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [
+      {
+        "entry_number": "465150407",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "Unable to summarize - no docket entry text provided",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465150436",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No docket entry text provided to summarize.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465176200",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "Unable to summarize - no entry text provided",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465438370",
+        "date": "2026-05-28",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "4",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No docket entry text was provided to summarize.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "3",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "Unable to summarize - no docket entry text provided",
+        "significance": "minor_update"
+      }
+    ],
+    "plain_language_summary": "Hobbs asserts copyright infringement claims against Meta Platforms, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73384790/hobbs-v-meta-platforms-inc/",
+    "last_updated": "2026-05-31",
+    "discovered_date": "2026-05-31"
+  },
+  {
+    "id": "ted-entertainment-inc-v-openai-inc",
+    "name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-02935",
+    "courtlistener_docket_id": "73145732",
+    "date_filed": "2026-04-03",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Ted Entertainment, Inc.",
+      "defendant": "OpenAI Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Ted Entertainment, Inc. asserts copyright infringement claims against OpenAI Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "generative",
+      "openai",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73145732/ted-entertainment-inc-v-openai-inc/",
+    "last_updated": "2026-05-31",
+    "discovered_date": "2026-05-31"
+  },
+  {
+    "id": "seiu-pension-plan-master-trust-v-adobe-inc",
+    "name": "SEIU Pension Plan Master Trust v. Adobe Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-03521",
+    "courtlistener_docket_id": "73243293",
+    "date_filed": "2026-04-24",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "SEIU Pension Plan Master Trust",
+      "defendant": "Adobe Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "SEIU Pension Plan Master Trust asserts copyright infringement claims against Adobe Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73243293/seiu-pension-plan-master-trust-v-adobe-inc/",
+    "last_updated": "2026-05-31",
+    "discovered_date": "2026-05-31"
+  },
+  {
+    "id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-02097",
+    "courtlistener_docket_id": "72492986",
+    "date_filed": "2026-03-13",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Encyclopaedia Britannica, Inc.",
+      "defendant": "OpenAI, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [
+      {
+        "entry_number": "465259910",
+        "date": "2026-05-26",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "465645887",
+        "date": "2026-05-29",
+        "raw_text": "",
+        "summary": "No docket entry text provided for analysis.",
+        "significance": "minor_update"
+      }
+    ],
+    "plain_language_summary": "Encyclopaedia Britannica, Inc. asserts copyright infringement claims against OpenAI, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "generative",
+      "openai",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/72492986/encyclopaedia-britannica-inc-v-openai-inc/",
+    "last_updated": "2026-05-31",
+    "discovered_date": "2026-05-31"
   }
 ]
