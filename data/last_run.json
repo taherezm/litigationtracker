@@ -1,10 +1,12 @@
 {
-  "cases_discovered": 5,
+  "cases_discovered": 3,
   "discovery_complete": false,
   "rejected_dockets": [
+    "1:26-cv-05437",
+    "1:26-cv-05567",
     "3:26-cv-04053"
   ],
-  "entries_updated": 48,
+  "entries_updated": 10,
   "docket_update_complete": true,
-  "summaries_generated": 48
+  "summaries_generated": 8
 }

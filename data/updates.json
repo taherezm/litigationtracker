@@ -1,5 +1,95 @@
 [
   {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-06-01",
+    "summary": null,
+    "significance": null,
+    "entry_number": "112",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-05-27",
+    "summary": null,
+    "significance": null,
+    "entry_number": "465373881",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-05-27",
+    "summary": "The court received a $50 credit card payment for the pro hac vice application fee for attorney Isaac Philip Rabicoff.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-05-27",
+    "summary": "Plaintiff Tesseract Systems LLC filed a motion requesting that attorney Isaac Philip Rabicoff be allowed to appear pro hac vice in the case.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-05-27",
+    "summary": "The court issued a summons to defendant SoundHound, Inc. , which formally notifies the company that it has been sued and must respond to the complaint.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-05-27",
+    "summary": "Plaintiff Tesseract Systems LLC filed a disclosure statement under Rule 7. 1 indicating it has no parent companies or affiliates.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-05-27",
+    "summary": "The court filed a report to the Commissioner of Patents and Trademarks regarding Patent Number 10,984,320.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-05-27",
+    "summary": "Both parties filed consent and referral forms regarding U. S. Magistrate Judge jurisdiction.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-05-27",
+    "summary": "Plaintiff Tesseract Systems LLC filed a complaint alleging patent infringement against SoundHound, Inc. and demanding a jury trial. The filing included two exhibits and the required civil cover sheet.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
+    "case_id": "kogon-v-google-llc",
+    "case_name": "Kogon v. Google, LLC",
+    "entry_date": "2026-05-27",
+    "summary": "Multiple parties filed a joint initial status report, which is typically used to inform the court about case management issues, discovery plans, and scheduling preferences early in litigation.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-06-01T18:34:41Z"
+  },
+  {
     "case_id": "beaulier-v-meta-platforms-inc",
     "case_name": "Beaulier v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",

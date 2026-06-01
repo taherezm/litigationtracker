@@ -795,6 +795,13 @@
         "raw_text": "",
         "summary": null,
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "112",
+        "date": "2026-06-01",
+        "raw_text": "",
+        "summary": null,
+        "significance": null
       }
     ],
     "plain_language_summary": "Carreyrou asserts copyright infringement claims against OpenAI, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
@@ -999,5 +1006,166 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72492986/encyclopaedia-britannica-inc-v-openai-inc/",
     "last_updated": "2026-05-31",
     "discovered_date": "2026-05-31"
+  },
+  {
+    "id": "tesseract-systems-llc-v-soundhound-inc",
+    "name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "court": "District Court, D. Delaware",
+    "court_full": "District Court, D. Delaware",
+    "docket_number": "1:26-cv-00611",
+    "courtlistener_docket_id": "73399431",
+    "date_filed": "2026-05-27",
+    "claims": [
+      "patent infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Tesseract Systems LLC",
+      "defendant": "SoundHound, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [
+      {
+        "entry_number": "465373881",
+        "date": "2026-05-27",
+        "raw_text": "",
+        "summary": null,
+        "significance": null
+      },
+      {
+        "entry_number": "7",
+        "date": "2026-05-27",
+        "raw_text": "Pro Hac Vice Fee - Credit Card Payment received for Isaac Philip Rabicoff. ( Payment of $ 50, receipt number ADEDC-4978675).(Lutness, Brian) (Entered: 05/27/2026)",
+        "summary": "The court received a $50 credit card payment for the pro hac vice application fee for attorney Isaac Philip Rabicoff.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "6",
+        "date": "2026-05-27",
+        "raw_text": "MOTION for Pro Hac Vice Appearance of Attorney Isaac Philip Rabicoff - filed by Tesseract Systems LLC. (Lutness, Brian) (Entered: 05/27/2026)",
+        "summary": "Plaintiff Tesseract Systems LLC filed a motion requesting that attorney Isaac Philip Rabicoff be allowed to appear pro hac vice in the case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "5",
+        "date": "2026-05-27",
+        "raw_text": "Summons Issued as to SoundHound, Inc. on 5/27/2026. (mpb) (Entered: 05/27/2026)",
+        "summary": "The court issued a summons to defendant SoundHound, Inc. , which formally notifies the company that it has been sued and must respond to the complaint.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "4",
+        "date": "2026-05-27",
+        "raw_text": "Disclosure Statement pursuant to Rule 7.1: No Parents or Affiliates Listed - filed by Tesseract Systems LLC. (mpb) (Entered: 05/27/2026)",
+        "summary": "Plaintiff Tesseract Systems LLC filed a disclosure statement under Rule 7. 1 indicating it has no parent companies or affiliates.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "3",
+        "date": "2026-05-27",
+        "raw_text": "Report to the Commissioner of Patents and Trademarks for Patent/Trademark Number(s) 10,984,320. (mpb) (Entered: 05/27/2026)",
+        "summary": "The court filed a report to the Commissioner of Patents and Trademarks regarding Patent Number 10,984,320.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "2",
+        "date": "2026-05-27",
+        "raw_text": "Notice, Consent and Referral forms re: U.S. Magistrate Judge jurisdiction. (mpb) (Entered: 05/27/2026)",
+        "summary": "Both parties filed consent and referral forms regarding U. S. Magistrate Judge jurisdiction.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "1",
+        "date": "2026-05-27",
+        "raw_text": "COMPLAINT for Patent Infringement with Jury Demand against SoundHound, Inc. (Filing fee $ 405, receipt number ADEDC-4978389) - filed by Tesseract Systems LLC. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Civil Cover Sheet)(mpb) (Entered: 05/27/2026)",
+        "summary": "Plaintiff Tesseract Systems LLC filed a complaint alleging patent infringement against SoundHound, Inc. and demanding a jury trial. The filing included two exhibits and the required civil cover sheet.",
+        "significance": "minor_update"
+      }
+    ],
+    "plain_language_summary": "Tesseract Systems LLC asserts patent infringement claims against SoundHound, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "training data",
+      "patent"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73399431/tesseract-systems-llc-v-soundhound-inc/",
+    "last_updated": "2026-06-01",
+    "discovered_date": "2026-06-01"
+  },
+  {
+    "id": "poulin-holdings-llc-v-databricks-inc",
+    "name": "Poulin Holdings, LLC v. Databricks, Inc.",
+    "court": "District Court, E.D. Texas",
+    "court_full": "District Court, E.D. Texas",
+    "docket_number": "4:26-cv-00245",
+    "courtlistener_docket_id": "72392052",
+    "date_filed": "2026-03-10",
+    "claims": [
+      "patent infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Poulin Holdings, LLC",
+      "defendant": "Databricks, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Poulin Holdings, LLC asserts patent infringement claims against Databricks, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "training data",
+      "patent"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/72392052/poulin-holdings-llc-v-databricks-inc/",
+    "last_updated": "2026-06-01",
+    "discovered_date": "2026-06-01"
+  },
+  {
+    "id": "kogon-v-google-llc",
+    "name": "Kogon v. Google, LLC",
+    "court": "District Court, N.D. Illinois",
+    "court_full": "District Court, N.D. Illinois",
+    "docket_number": "1:26-cv-02582",
+    "courtlistener_docket_id": "72377338",
+    "date_filed": "2026-03-06",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Kogon",
+      "defendant": "Google, LLC"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [
+      {
+        "entry_number": "19",
+        "date": "2026-05-27",
+        "raw_text": "STATUS Report Joint Initial Status Report by Attack the Sound LLC, James Burjek, Stan Burjek, Berk Ergoz, Magnus Fiennes, Hamza Jilani, Sam Kogon, Michael Mell, Arjun Singh, Maatkara Wilson, David Woulard (Kimbarovsky, Ross) (Entered: 05/27/2026)",
+        "summary": "Multiple parties filed a joint initial status report, which is typically used to inform the court about case management issues, discovery plans, and scheduling preferences early in litigation.",
+        "significance": "minor_update"
+      }
+    ],
+    "plain_language_summary": "Kogon asserts copyright infringement claims against Google, LLC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "training data",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/72377338/kogon-v-google-llc/",
+    "last_updated": "2026-06-01",
+    "discovered_date": "2026-06-01"
   }
 ]
