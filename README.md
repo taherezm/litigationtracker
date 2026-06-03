@@ -1,6 +1,6 @@
 # AI/IP Litigation Tracker
 
-Automated litigation data pipeline for the IU IP & Technology Law Society tracker. This repository owns case discovery, docket monitoring, summary generation, and data publication into the live website repository at `taherezm/iptl-iu-site`.
+Automated litigation data pipeline for IP & Technology Law at IU. This repository owns case discovery, docket monitoring, summary generation, and data publication into the live website repository at `taherezm/iptl-iu-site`.
 
 ## Architecture
 
