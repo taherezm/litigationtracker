@@ -2,7 +2,7 @@
 
 Automated litigation data pipeline for IP & Technology Law at IU. The system discovers federal cases involving artificial intelligence and intellectual property, monitors docket activity through CourtListener, summarizes new entries with legal-precision guardrails, and publishes normalized JSON data to the static website served from `taherezm/iptl-iu-site`.
 
-Live tracker: upon site deployment 
+Live tracker: https://www.undergradtechlaw.org/  *in "tools" section*
 
 ## What This Repository Owns
 
