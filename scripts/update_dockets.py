@@ -236,6 +236,8 @@ def main() -> None:
             if not number or number in existing_numbers:
                 continue
             raw_text = entry_text(raw_entry)
+            if not raw_text:
+                continue
             new_entry = {
                 "entry_number": number,
                 "date": entry_date(raw_entry),

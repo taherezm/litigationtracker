@@ -56,6 +56,7 @@ EMPTY_ENTRY_SUMMARY_MARKERS = (
     "no entry text",
     "cannot summarize",
     "unable to summarize",
+    "courtlistener recorded docket activity",
 )
 
 
@@ -177,7 +178,7 @@ def fallback_summary(entry: dict[str, Any]) -> dict[str, Any]:
             clipped = f"{clipped}..."
         summary = f"This docket entry records: {clipped}"
     else:
-        summary = "CourtListener recorded docket activity for this case, but did not provide public text for this entry."
+        summary = None
     return {
         "summary": summary,
         "significance": "minor_update",
@@ -244,7 +245,7 @@ Respond ONLY with valid JSON, no preamble:
 
 
 def is_unsummarized(entry: dict[str, Any]) -> bool:
-    return not clean_text(entry.get("summary"))
+    return not clean_text(entry.get("summary")) and bool(clean_text(entry.get("raw_text")))
 
 
 def update_matching_updates(

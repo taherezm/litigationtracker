@@ -20,6 +20,7 @@ EMPTY_ENTRY_SUMMARY_MARKERS = (
     "no entry text",
     "cannot summarize",
     "unable to summarize",
+    "courtlistener recorded docket activity",
 )
 
 
@@ -104,6 +105,10 @@ def validate_cases(cases: Any) -> list[str]:
             if not isinstance(entry, dict):
                 continue
             entry_number = clean_text(entry.get("entry_number")) or "unknown"
+            if not clean_text(entry.get("raw_text")):
+                errors.append(f"{label} entry {entry_number}: empty raw_text entries must not be published.")
+            if not clean_text(entry.get("summary")):
+                errors.append(f"{label} entry {entry_number}: missing public summary.")
             if repeated_summary_text(entry.get("summary")):
                 errors.append(f"{label} entry {entry_number}: summary repeats the same sentence block.")
             if empty_entry_placeholder_summary(entry.get("summary")):
@@ -126,6 +131,10 @@ def validate_updates(updates: Any) -> list[str]:
         if not isinstance(update, dict):
             errors.append(f"updates[{index}] must be an object.")
             continue
+        if not clean_text(update.get("summary")):
+            case_name = clean_text(update.get("case_name")) or f"updates[{index}]"
+            entry_number = clean_text(update.get("entry_number")) or "unknown"
+            errors.append(f"{case_name} update {entry_number}: missing public summary.")
         if repeated_summary_text(update.get("summary")):
             case_name = clean_text(update.get("case_name")) or f"updates[{index}]"
             entry_number = clean_text(update.get("entry_number")) or "unknown"
