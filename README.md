@@ -124,7 +124,7 @@ GET /api/rest/v4/docket-entries/
   page_size=50
 ```
 
-If both `docket_last_run_date` and the legacy `last_run_date` are missing, the fallback window is the previous five days.
+If both `docket_last_run_date` and the legacy `last_run_date` are missing, the fallback window is the previous five days. Newly discovered cases with no stored docket entries are polled from their filing date so the first docket update can backfill the initial case history.
 
 ### Entry Deduplication
 

@@ -169,6 +169,13 @@ def last_run_date(last_run: dict[str, Any]) -> str:
     return (utc_now().date() - timedelta(days=5)).isoformat()
 
 
+def case_since_date(case: dict[str, Any], global_since: str) -> str:
+    entries = [entry for entry in case.get("docket_entries", []) if isinstance(entry, dict)]
+    if entries:
+        return global_since
+    return clean_text(case.get("date_filed")) or global_since
+
+
 def needs_review(raw_text: str) -> bool:
     upper = raw_text.upper()
     return any(signal in upper for signal in RESOLUTION_SIGNALS)
@@ -219,7 +226,7 @@ def main() -> None:
         }
         case_new_entries = 0
         try:
-            fetched_entries = fetch_entries(session, api_key, docket_id, since)
+            fetched_entries = fetch_entries(session, api_key, docket_id, case_since_date(case, since))
         except RateLimitExceeded as exc:
             docket_update_complete = False
             print(f"Warning: skipped docket update after CourtListener rate limit: {docket_id} ({exc})")

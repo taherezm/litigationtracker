@@ -271,6 +271,15 @@ def clean_text(value: Any) -> str:
     return text.strip()
 
 
+def term_in_text(text: str, term: str) -> bool:
+    normalized_term = clean_text(term).lower()
+    if not normalized_term:
+        return False
+    if re.fullmatch(r"[a-z0-9 ]+", normalized_term):
+        return bool(re.search(rf"(?<![a-z0-9]){re.escape(normalized_term)}(?![a-z0-9])", text))
+    return normalized_term in text
+
+
 def normalize_sentence_for_dedupe(sentence: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", sentence.lower()).strip()
 
@@ -456,22 +465,22 @@ def fallback_classification(candidate: dict[str, Any]) -> dict[str, Any]:
             candidate.get("court"),
             candidate.get("parties"),
             candidate.get("snippet"),
-            candidate.get("source"),
             first_value(raw, ("cause", "suitNature", "caseName", "case_name_full")),
         )
     ).lower()
-    claims = [claim for claim, terms in IP_CLAIM_TERMS if any(term in text for term in terms)]
-    tags = [term for term in AI_TERMS if term in text]
-    if "openai" in text or "anthropic" in text or "large language model" in text or "llm" in text:
-        tags.append("LLM")
-    if "training data" in text:
+    claims = [claim for claim, terms in IP_CLAIM_TERMS if any(term_in_text(text, term) for term in terms)]
+    ai_tags = [term for term in AI_TERMS if term_in_text(text, term)]
+    tags = ai_tags.copy()
+    if any(term_in_text(text, term) for term in ("openai", "anthropic", "large language model", "llm")):
+        tags.append("llm")
+    if term_in_text(text, "training data"):
         tags.append("training data")
-    if "copyright" in text:
+    if term_in_text(text, "copyright"):
         tags.append("copyright")
-    if "patent" in text:
+    if term_in_text(text, "patent"):
         tags.append("patent")
     tags = listify(tags)
-    relevant = bool(claims and tags)
+    relevant = bool(claims and ai_tags)
     return {
         "relevant": relevant,
         "confidence": "medium" if relevant else "low",
@@ -612,7 +621,7 @@ def collect_rss_candidates(session: requests.Session, api_key: str) -> list[dict
     for entry in feed.entries:
         text = clean_text(f"{entry.get('title', '')} {entry.get('description', '')} {entry.get('summary', '')}")
         lowered = text.lower()
-        if not any(term in lowered for term in RSS_TERMS):
+        if not any(term_in_text(lowered, term) for term in RSS_TERMS):
             continue
         for docket_number in sorted(set(DOCKET_RE.findall(text))):
             try:

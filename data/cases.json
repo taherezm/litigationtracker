@@ -1719,39 +1719,6 @@
     "discovered_date": "2026-06-06"
   },
   {
-    "id": "oh-io-ventures-holding-inc-v-metcalf",
-    "name": "OH.io Ventures Holding, Inc. v. Metcalf",
-    "court": "District Court, S.D. Ohio",
-    "court_full": "District Court, S.D. Ohio",
-    "docket_number": "2:26-cv-00566",
-    "courtlistener_docket_id": "73325826",
-    "date_filed": "2026-05-11",
-    "claims": [
-      "copyright infringement",
-      "trade secret"
-    ],
-    "legal_theories": [],
-    "status": "active",
-    "procedural_posture": "Filed",
-    "parties": {
-      "plaintiff": "OH.io Ventures Holding, Inc.",
-      "defendant": "Metcalf"
-    },
-    "judges": [],
-    "key_rulings": [],
-    "docket_entries": [],
-    "plain_language_summary": "OH.io Ventures Holding, Inc. asserts copyright infringement and trade secret misappropriation claims against Metcalf in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
-    "tags": [
-      "large language model",
-      "llm",
-      "copyright"
-    ],
-    "source": "courtlistener",
-    "courtlistener_url": "https://www.courtlistener.com/docket/73325826/ohio-ventures-holding-inc-v-metcalf/",
-    "last_updated": "2026-06-06",
-    "discovered_date": "2026-06-06"
-  },
-  {
     "id": "true-footage-inc-v-automax-ai-inc",
     "name": "True Footage Inc. v. Automax AI Inc.",
     "court": "District Court, N.D. California",
@@ -1785,40 +1752,6 @@
     "discovered_date": "2026-06-06"
   },
   {
-    "id": "in-re-fire-apparatus-antitrust-litigation",
-    "name": "IN RE: Fire Apparatus Antitrust Litigation",
-    "court": "District Court, E.D. Wisconsin",
-    "court_full": "District Court, E.D. Wisconsin",
-    "docket_number": "2:26-md-03179",
-    "courtlistener_docket_id": "73150899",
-    "date_filed": "2026-04-06",
-    "claims": [
-      "copyright infringement",
-      "trademark"
-    ],
-    "legal_theories": [],
-    "status": "active",
-    "procedural_posture": "Filed",
-    "parties": {
-      "plaintiff": "Fire Connections Inc Hall-Mark Fire Apparatus Inc REV Group Inc City of Oakland Ed M Feld Equipment Co Inc American Industrial Partners Capital Fund IV LP City of Tucson Sunbelt Fire Inc R & R Fire Truck Repair Inc Siddons-Martin Emergency Group LLC Rosenbauer South Dakota LLC Fire Apparatus Manufacturers Association Safe Industries Inc Ferrara Fire Apparatus Inc Greenwood Emergency Vehicles LLC The Metropolitan Government of Nashville & Davidson County Smeal Holding LLC Adirondack EVG Inc American Industrial Partners Capital Fund IV (Parallel) LP City of La Crosse City of Middletown AEC Fire-Safety & Security Inc Mid America Fire Apparatus Inc City of Ridgeland KME Holdings LLC The City of Fullerton Colden Enterprises Inc City of Philadelphia Consolidated Fire Protection District of Los Angeles County American Industrial Partners LLC American Emergency Response Training Inc 1st Out Specialty Vehicles & Equipment LLC The Newstead Fire Co Inc Molines Inc Pierce Manufacturing Inc AIP CF IV LLC City of Chelsea The City of San Diego Advantech Service and Parts LLC Absolute Fire Protection Co Inc Ebbetts Pass Fire Protection District Kalmikov Enterprises Inc West Shore Fire Inc City of Onalaska Fire Master Fire Equipment Inc Fire Apparatus Antitrust Litigation Northwest Fire Services Inc Halt Fire Inc Fired Up Rescue LLC Vogelpohl Fire Equipment Inc Front Range Fire Apparatus Ltd Reliant Fire Apparatus Inc Commack Fire District City of Santa Clara Hughes Fire Equipment Inc City of Allentown Hawaii Specialty Vehicles LLC Ladder Tower (LT) Smeal Fire Apparatus Co E-ONE Inc Glick Fire Equipment Co Inc Sea-Western Holdings Inc Payette Sales & Service Inc CSI Emergency Apparatus LLC City of Fountain Valley City of Revere MacQueen Equipment LLC Premier Fire Apparatus Inc City of Portland Firefighter One LLC Spartan Fire LLC AIP LLC 411 Equipment LLC City of Arcadia Mid-America Fire & Safety LLC Fireline Inc Firematic Supply Company Inc New England Fire Equipment & Apparatus Corp Fire Service Inc Mile-Hi Fire Apparatus Inc FFA Holdco Inc People of the State of California Fire Apparatus & Supply Team Inc Boise Mobile Equipment Inc W Campbell Supply Company of Sussex County LLC South Coast Fire Equipment Inc Ferrara Fire Apparatus Holding Company Inc Fire Department Service & Supply Inc Spartan Fire Apparatus and Chassis Spartan Fire & Emergency Apparatus Inc Fire Truck Solutions LLC Bulldog Fire Apparatus Inc Conrad Fire Equipment Inc Metro Fire Apparatus Specialists Inc Fire Safety USA Inc Borough of Roseland BME Fire Trucks LLC Unified Fire Authority Rosenbauer Minnesota LLC City of Yonkers Spartan Emergency Response (Spartan ER) Ten-8 Fire & Safety LLC Emergency Equipment Professionals Inc County of Butte California Unified Government of Wyandotte County and Kansas City Kansas Fire Line Equipment LLC Fire & Rescue Products of Harrisburg LLC Matheny Fire & Emergency LLC Pierce Atlantic Emergency Solutions Inc Desorcie Emergency Products LLC Atlantic Coast Fire Trucks LLC City of Augusta Maxi-Metal Inc The Durango Fire Protection District Rosenbauer America LLC The City of Santa Barbara Oshkosh Corporation City of Green Bay AAA Firepro of New Mexico Inc San Diego County Fire Protection District Patriot Fire LLC Gorman Enterprises Inc Smeal LTC LLC FFA Acquisition Co Inc County of San Diego Detroit Truck Manufacturing LLC Keystone Fire Apparatus Inc Leo M Ellebracht Company Hendrickson Fleet Service Inc County of Los Angeles City of Milwaukee Jerry's Transmission Service Inc AIP/CHC Holdings LLC KME Re Holdings LLC Banner Fire Equipment Inc City of Ann Arbor AIP CHC Investors LLC Delmarva Pump Center Inc Emergency Vehicle Group Inc Golden State Fire Apparatus Inc County of Shasta KME Global LLC City of Rochester New York City of Liberty Missouri City of Hartford Goodman Specialized Vehicles First Choice Fire Apparatus LLC Hoosier Fire Equipment Inc Pete's Equipment Repair Inc Minuteman Fire and Rescue Apparatus LLC Kovatch Mobile Equipment Corp Northeast Emergency Apparatus LLC Claverack Fire District City of Portsmouth True North Equipment Inc Smeal SFA LLC",
-      "defendant": ""
-    },
-    "judges": [],
-    "key_rulings": [],
-    "docket_entries": [],
-    "plain_language_summary": "Fire Connections Inc Hall-Mark Fire Apparatus Inc REV Group Inc City of Oakland Ed M Feld Equipment Co Inc American Industrial Partners Capital Fund IV LP City of Tucson Sunbelt Fire Inc R & R Fire Truck Repair Inc Siddons-Martin Emergency Group LLC Rosenbauer South Dakota LLC Fire Apparatus Manufacturers Association Safe Industries Inc Ferrara Fire Apparatus Inc Greenwood Emergency Vehicles LLC The Metropolitan Government of Nashville & Davidson County Smeal Holding LLC Adirondack EVG Inc American Industrial Partners Capital Fund IV (Parallel) LP City of La Crosse City of Middletown AEC Fire-Safety & Security Inc Mid America Fire Apparatus Inc City of Ridgeland KME Holdings LLC The City of Fullerton Colden Enterprises Inc City of Philadelphia Consolidated Fire Protection District of Los Angeles County American Industrial Partners LLC American Emergency Response Training Inc 1st Out Specialty Vehicles & Equipment LLC The Newstead Fire Co Inc Molines Inc Pierce Manufacturing Inc AIP CF IV LLC City of Chelsea The City of San Diego Advantech Service and Parts LLC Absolute Fire Protection Co Inc Ebbetts Pass Fire Protection District Kalmikov Enterprises Inc West Shore Fire Inc City of Onalaska Fire Master Fire Equipment Inc Fire Apparatus Antitrust Litigation Northwest Fire Services Inc Halt Fire Inc Fired Up Rescue LLC Vogelpohl Fire Equipment Inc Front Range Fire Apparatus Ltd Reliant Fire Apparatus Inc Commack Fire District City of Santa Clara Hughes Fire Equipment Inc City of Allentown Hawaii Specialty Vehicles LLC Ladder Tower (LT) Smeal Fire Apparatus Co E-ONE Inc Glick Fire Equipment Co Inc Sea-Western Holdings Inc Payette Sales & Service Inc CSI Emergency Apparatus LLC City of Fountain Valley City of Revere MacQueen Equipment LLC Premier Fire Apparatus Inc City of Portland Firefighter One LLC Spartan Fire LLC AIP LLC 411 Equipment LLC City of Arcadia Mid-America Fire & Safety LLC Fireline Inc Firematic Supply Company Inc New England Fire Equipment & Apparatus Corp Fire Service Inc Mile-Hi Fire Apparatus Inc FFA Holdco Inc People of the State of California Fire Apparatus & Supply Team Inc Boise Mobile Equipment Inc W Campbell Supply Company of Sussex County LLC South Coast Fire Equipment Inc Ferrara Fire Apparatus Holding Company Inc Fire Department Service & Supply Inc Spartan Fire Apparatus and Chassis Spartan Fire & Emergency Apparatus Inc Fire Truck Solutions LLC Bulldog Fire Apparatus Inc Conrad Fire Equipment Inc Metro Fire Apparatus Specialists Inc Fire Safety USA Inc Borough of Roseland BME Fire Trucks LLC Unified Fire Authority Rosenbauer Minnesota LLC City of Yonkers Spartan Emergency Response (Spartan ER) Ten-8 Fire & Safety LLC Emergency Equipment Professionals Inc County of Butte California Unified Government of Wyandotte County and Kansas City Kansas Fire Line Equipment LLC Fire & Rescue Products of Harrisburg LLC Matheny Fire & Emergency LLC Pierce Atlantic Emergency Solutions Inc Desorcie Emergency Products LLC Atlantic Coast Fire Trucks LLC City of Augusta Maxi-Metal Inc The Durango Fire Protection District Rosenbauer America LLC The City of Santa Barbara Oshkosh Corporation City of Green Bay AAA Firepro of New Mexico Inc San Diego County Fire Protection District Patriot Fire LLC Gorman Enterprises Inc Smeal LTC LLC FFA Acquisition Co Inc County of San Diego Detroit Truck Manufacturing LLC Keystone Fire Apparatus Inc Leo M Ellebracht Company Hendrickson Fleet Service Inc County of Los Angeles City of Milwaukee Jerry's Transmission Service Inc AIP/CHC Holdings LLC KME Re Holdings LLC Banner Fire Equipment Inc City of Ann Arbor AIP CHC Investors LLC Delmarva Pump Center Inc Emergency Vehicle Group Inc Golden State Fire Apparatus Inc County of Shasta KME Global LLC City of Rochester New York City of Liberty Missouri City of Hartford Goodman Specialized Vehicles First Choice Fire Apparatus LLC Hoosier Fire Equipment Inc Pete's Equipment Repair Inc Minuteman Fire and Rescue Apparatus LLC Kovatch Mobile Equipment Corp Northeast Emergency Apparatus LLC Claverack Fire District City of Portsmouth True North Equipment Inc Smeal SFA LLC asserts copyright infringement and trademark claims against the defendant in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
-    "tags": [
-      "ai",
-      "large language model",
-      "llm",
-      "copyright"
-    ],
-    "source": "courtlistener",
-    "courtlistener_url": "https://www.courtlistener.com/docket/73150899/in-re-fire-apparatus-antitrust-litigation/",
-    "last_updated": "2026-06-06",
-    "discovered_date": "2026-06-06"
-  },
-  {
     "id": "x-ai-llc-v-bonta",
     "name": "X.AI LLC v. Bonta",
     "court": "Court of Appeals for the Ninth Circuit",
@@ -1827,7 +1760,7 @@
     "courtlistener_docket_id": "72518947",
     "date_filed": "2026-03-17",
     "claims": [
-      "copyright infringement"
+      "trade secret"
     ],
     "legal_theories": [],
     "status": "active",
@@ -1839,12 +1772,11 @@
     "judges": [],
     "key_rulings": [],
     "docket_entries": [],
-    "plain_language_summary": "X.AI LLC asserts copyright infringement claims against Bonta in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "plain_language_summary": "X.AI LLC challenges California's AI training-data transparency law in litigation that includes arguments about compelled disclosure of trade secret information. The tracker is monitoring the case for rulings on how intellectual property and transparency doctrines apply to generative AI training data.",
     "tags": [
       "ai",
-      "large language model",
-      "llm",
-      "copyright"
+      "training data",
+      "trade secret"
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72518947/xai-llc-v-bonta/",
