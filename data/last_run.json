@@ -1,12 +1,13 @@
 {
-  "cases_discovered": 3,
+  "cases_discovered": 5,
   "discovery_complete": false,
   "rejected_dockets": [
     "1:26-cv-05437",
     "1:26-cv-05567",
     "3:26-cv-04053"
   ],
-  "entries_updated": 10,
+  "entries_updated": 48,
   "docket_update_complete": true,
-  "summaries_generated": 8
+  "summaries_generated": 87,
+  "docket_last_run_date": "2026-06-06"
 }

@@ -24,28 +24,28 @@
         "entry_number": "465145282",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465245413",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "24",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "23",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       }
     ],
@@ -57,7 +57,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73020880/beaulier-v-meta-platforms-inc/",
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -112,7 +112,36 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "466281674",
+        "date": "2026-06-04",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "466331915",
+        "date": "2026-06-04",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "10",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "9",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Kwon asserts copyright infringement claims against Anthropic PBC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -123,7 +152,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73352930/kwon-v-anthropic-pbc/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -146,7 +175,29 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "466144585",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "466144600",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "26",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Beaulier asserts copyright infringement claims against Roblox Corporation in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -155,7 +206,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73034151/beaulier-v-roblox-corporation/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -210,7 +261,15 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "20",
+        "date": "2026-06-01",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Beaulier asserts copyright infringement claims against Microsoft Corporation in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -219,7 +278,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73061569/beaulier-v-microsoft-corporation/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -279,7 +338,7 @@
         "entry_number": "465226157",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
@@ -293,35 +352,42 @@
         "entry_number": "465217362",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465325778",
         "date": "2026-05-27",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "62",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "61",
         "date": "2026-05-27",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "60",
         "date": "2026-05-27",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "63",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       }
     ],
@@ -336,7 +402,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/",
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -359,7 +425,29 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "466520235",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "9",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "8",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Cruz asserts copyright infringement claims against Anthropic PBC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -370,7 +458,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73339887/cruz-v-anthropic-pbc/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -398,7 +486,7 @@
         "entry_number": "465209672",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
@@ -406,6 +494,27 @@
         "date": "2026-05-27",
         "raw_text": "",
         "summary": "This docket entry records a new filing or court action.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "466201976",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "466388399",
+        "date": "2026-06-04",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       }
     ],
@@ -419,7 +528,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73294478/cognella-inc-v-anthropic-pbc/",
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -447,14 +556,14 @@
         "entry_number": "465438381",
         "date": "2026-05-28",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465202939",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
@@ -489,42 +598,42 @@
         "entry_number": "465312039",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465312040",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465312041",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465202931",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "25",
         "date": "2026-05-27",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "24",
         "date": "2026-05-27",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
@@ -543,7 +652,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73391100/david-vance-gardner-v-runway-ai-inc/",
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -566,7 +675,29 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "466314152",
+        "date": "2026-06-04",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "15",
+        "date": "2026-06-04",
+        "raw_text": "CLERK'S NOTICE SETTING CASE MANAGEMENT CONFERENCE RE DOCKET NO. 14 .Notice is hereby given that a Case Management Conference has been set via zoom for June 23, 2026, before Judge Haywood S. Gilliam, Jr., at 2:00 p.m. All attorneys and pro se litigants appearing for the case management conference are required to join at least 15 minutes before the hearing to check-in with the CRD. Webinar Access: All counsel, members of the public, and media may access the webinar information at https://www.cand.uscourts.gov/hsg Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited.Zoom Guidance and Setup: https://cand.uscourts.gov/zoom. (This is a text-only entry generated by the court. There is no document associated with this entry.)(ndr, COURT STAFF) (Filed on 6/4/2026) (Entered: 06/04/2026)",
+        "summary": "The court scheduled a case management conference for June 23, 2026, at 2:00 p. m. before Judge Haywood S. Gilliam, Jr. , to be held via Zoom. The notice requires attorneys to join 15 minutes early for check-in and prohibits recording or photographing the proceedings.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "14",
+        "date": "2026-06-03",
+        "raw_text": "STIPULATION WITH PROPOSED ORDER TO STAY DEADLINES AND PROCEEDINGS filed by Chicken Soup for the Soul, LLC. (Brannen, Elizabeth) (Filed on 6/3/2026) (Entered: 06/03/2026)",
+        "summary": "Plaintiff Chicken Soup for the Soul, LLC filed a stipulation with a proposed order requesting to stay all deadlines and proceedings in the case.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Anthropic PBC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -577,7 +708,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73314131/chicken-soup-for-the-soul-llc-v-anthropic-pbc/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -632,7 +763,71 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "466126419",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "466458416",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "466338647",
+        "date": "2026-06-04",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "14",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "13",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "12",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "11",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "10",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "9",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Poseidon Wave Media LLC asserts copyright infringement claims against Suno, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -641,7 +836,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73328849/poseidon-wave-media-llc-v-suno-inc/",
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -676,7 +871,7 @@
         "entry_number": "465535561",
         "date": "2026-05-28",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
@@ -690,35 +885,35 @@
         "entry_number": "47",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "46",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "45",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "44",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "43",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
@@ -734,6 +929,41 @@
         "raw_text": "ORDER granting 40 Letter Motion for Extension of Time to Answer re 1 Complaint. Time for all defendants to respond extended to July 13, 2026. Conference adjourned from June 29, 2026 to July 27, 2026 at 10:00 a.m. Call-In: 855-244-8681, Access Code: 2305 810 3970#. SO ORDERED. Meta Platforms, Inc. answer due 7/13/2026. (Signed by Judge P. Kevin Castel on 5/26/2026) (vfr) (Entered: 05/26/2026)",
         "summary": "The court granted Meta's motion to extend the deadline for answering Elsevier's complaint until July 13, 2026. The court also rescheduled a conference from June 29 to July 27, 2026.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "466458447",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "51",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "50",
+        "date": "2026-06-05",
+        "raw_text": "ORDER granting 42 Motion for Eli Goldman to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 06/05/2026)",
+        "summary": "The court granted a motion allowing attorney Eli Goldman to appear pro hac vice in this case between Elsevier Inc. and Meta Platforms, Inc.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "49",
+        "date": "2026-06-04",
+        "raw_text": "LETTER addressed to Judge P. Kevin Castel from James J. Pastore dated June 4, 2026 re: Plaintiffs' Response to Proposed Intervenor's Pre-Motion Letter (ECF No. 44). Document filed by Cengage Learning, Inc., Elsevier Inc., Hachette Book Group, Inc., Macmillan Publishing Group, LLC d/b/a Macmillan Publishers, McGraw Hill LLC, S.C.R.I.B.E., Inc., Scott Turow..(Pastore, James) (Entered: 06/04/2026)",
+        "summary": "Plaintiffs filed a letter response to a proposed intervenor's pre-motion letter, with the filing made by multiple publishing companies including Elsevier, Cengage Learning, Hachette Book Group, Macmillan, McGraw Hill, S. C. R. I. B. E. , and author Scott Turow.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "48",
+        "date": "2026-06-04",
+        "raw_text": "LETTER addressed to Judge P. Kevin Castel from Jenifer N. Hartley dated June 4, 2026 re: Metas Letter Response to Proposed Intervenor Dr. Kenneth Saladins May 29, 2026 Letter. Document filed by Meta Platforms, Inc...(Hartley, Jenifer) (Entered: 06/04/2026)",
+        "summary": "Meta filed a letter response addressing proposed intervenor Dr. Kenneth Saladin's May 29, 2026 letter to the court.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
@@ -744,7 +974,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73294740/elsevier-inc-v-meta-platforms-inc/",
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27"
   },
   {
@@ -772,36 +1002,50 @@
         "entry_number": "465259916",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465645896",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "111",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "110",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "112",
         "date": "2026-06-01",
         "raw_text": "",
-        "summary": null,
-        "significance": null
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "114",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "113",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "Carreyrou asserts copyright infringement claims against OpenAI, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
@@ -814,7 +1058,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73284844/carreyrou-v-openai-inc/",
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-31"
   },
   {
@@ -842,42 +1086,42 @@
         "entry_number": "465150407",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465150436",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465176200",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465438370",
         "date": "2026-05-28",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "4",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "3",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       }
     ],
@@ -889,7 +1133,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73384790/hobbs-v-meta-platforms-inc/",
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-31"
   },
   {
@@ -983,14 +1227,28 @@
         "entry_number": "465259910",
         "date": "2026-05-26",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       },
       {
         "entry_number": "465645887",
         "date": "2026-05-29",
         "raw_text": "",
-        "summary": null,
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "39",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "38",
+        "date": "2026-06-02",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
         "significance": "minor_update"
       }
     ],
@@ -1004,7 +1262,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72492986/encyclopaedia-britannica-inc-v-openai-inc/",
-    "last_updated": "2026-05-31",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-05-31"
   },
   {
@@ -1032,8 +1290,8 @@
         "entry_number": "465373881",
         "date": "2026-05-27",
         "raw_text": "",
-        "summary": null,
-        "significance": null
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
       },
       {
         "entry_number": "7",
@@ -1083,6 +1341,20 @@
         "raw_text": "COMPLAINT for Patent Infringement with Jury Demand against SoundHound, Inc. (Filing fee $ 405, receipt number ADEDC-4978389) - filed by Tesseract Systems LLC. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Civil Cover Sheet)(mpb) (Entered: 05/27/2026)",
         "summary": "Plaintiff Tesseract Systems LLC filed a complaint alleging patent infringement against SoundHound, Inc. and demanding a jury trial. The filing included two exhibits and the required civil cover sheet.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "466109585",
+        "date": "2026-06-03",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "466428007",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "Tesseract Systems LLC asserts patent infringement claims against SoundHound, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
@@ -1093,7 +1365,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73399431/tesseract-systems-llc-v-soundhound-inc/",
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-06-01"
   },
   {
@@ -1141,13 +1413,20 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Kogon",
       "defendant": "Google, LLC"
     },
     "judges": [],
-    "key_rulings": [],
+    "key_rulings": [
+      {
+        "date": "2026-06-01",
+        "description": "The court exercised its discretion to stay discovery until resolution of the defendant's anticipated motion to dismiss.",
+        "summary": "The court struck a previously scheduled status hearing after reviewing a joint status report, noting that the defendant intends to file a motion to dismiss. The court granted the defendant's request for additional pages (up to 30 pages) for the motion and stayed all discovery until the motion to dismiss is resolved.",
+        "significance": "significant_ruling"
+      }
+    ],
     "docket_entries": [
       {
         "entry_number": "19",
@@ -1155,6 +1434,13 @@
         "raw_text": "STATUS Report Joint Initial Status Report by Attack the Sound LLC, James Burjek, Stan Burjek, Berk Ergoz, Magnus Fiennes, Hamza Jilani, Sam Kogon, Michael Mell, Arjun Singh, Maatkara Wilson, David Woulard (Kimbarovsky, Ross) (Entered: 05/27/2026)",
         "summary": "Multiple parties filed a joint initial status report, which is typically used to inform the court about case management issues, discovery plans, and scheduling preferences early in litigation.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-06-01",
+        "raw_text": "MINUTE entry before the Honorable Sunil R. Harjani: Upon review of the joint initial status report 19, the status hearing previously set for 6/3/2026 is stricken. Defendant intends to file a motion to dismiss. At the parties' request, the Court will grant additional pages for the motion up to 30 pages only. The Court exercises its broad discretion to stay discovery in this case until resolution of the motion to dismiss and until all parties and this Court know which claims will go forward. Mailed notice (lxs, ) (Entered: 06/01/2026)",
+        "summary": "The court struck a previously scheduled status hearing after reviewing a joint status report, noting that the defendant intends to file a motion to dismiss. The court granted the defendant's request for additional pages (up to 30 pages) for the motion and stayed all discovery until the motion to dismiss is resolved.",
+        "significance": "significant_ruling"
       }
     ],
     "plain_language_summary": "Kogon asserts copyright infringement claims against Google, LLC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
@@ -1165,7 +1451,238 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72377338/kogon-v-google-llc/",
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-06-06",
     "discovered_date": "2026-06-01"
+  },
+  {
+    "id": "american-federation-of-musicians-of-the-united-states-and-canada-v-universal-mus",
+    "name": "American Federation of Musicians of the United States and Canada v. UNIVERSAL MUSIC GROUP, INC.",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-04760",
+    "courtlistener_docket_id": "73446028",
+    "date_filed": "2026-06-05",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "American Federation of Musicians of the United States and Canada",
+      "defendant": "UNIVERSAL MUSIC GROUP, INC."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [
+      {
+        "entry_number": "5",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "4",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "3",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "2",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "1",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      }
+    ],
+    "plain_language_summary": "American Federation of Musicians of the United States and Canada asserts copyright infringement claims against UNIVERSAL MUSIC GROUP, INC. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "generative",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73446028/american-federation-of-musicians-of-the-united-states-and-canada-v/",
+    "last_updated": "2026-06-06",
+    "discovered_date": "2026-06-06"
+  },
+  {
+    "id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "court": "District Court, N.D. Illinois",
+    "court_full": "District Court, N.D. Illinois",
+    "docket_number": "1:26-cv-03928",
+    "courtlistener_docket_id": "73166286",
+    "date_filed": "2026-04-08",
+    "claims": [
+      "patent infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Valtrus Innovations Limited",
+      "defendant": "Lumen Technologies, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Valtrus Innovations Limited asserts patent infringement claims against Lumen Technologies, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "training data",
+      "patent"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73166286/valtrus-innovations-limited-v-lumen-technologies-inc/",
+    "last_updated": "2026-06-06",
+    "discovered_date": "2026-06-06"
+  },
+  {
+    "id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "5:26-cv-02334",
+    "courtlistener_docket_id": "72505829",
+    "date_filed": "2026-03-17",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "BMG Rights Management (US) LLC",
+      "defendant": "Anthropic PBC"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "BMG Rights Management (US) LLC asserts copyright infringement claims against Anthropic PBC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "anthropic",
+      "training data",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/72505829/bmg-rights-management-us-llc-v-anthropic-pbc/",
+    "last_updated": "2026-06-06",
+    "discovered_date": "2026-06-06"
+  },
+  {
+    "id": "anthropic-pbc-v-u-s-department-of-war",
+    "name": "Anthropic PBC v. U.S. Department of War",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-01996",
+    "courtlistener_docket_id": "72379655",
+    "date_filed": "2026-03-09",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Anthropic PBC",
+      "defendant": "U.S. Department of War"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [
+      {
+        "entry_number": "160",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "159",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "158",
+        "date": "2026-06-05",
+        "raw_text": "",
+        "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "157",
+        "date": "2026-06-01",
+        "raw_text": "NOTICE of Filing Corrected Certification of Administrative Record by Paul S. Atkins, Scott Bessent, Frank J. Bisigano, Mary Anne Carter, Douglas A. Collins, Executive Office of the President, Federal Housing Finance Agency, Federal Reserve Board of Governors, Edward C. Forst, General Services Administration, Peter B. Hegseth, Jared Isaacman, Robert F. Kennedy, Jr, Scott Kupor, Howard Lutnick, National Aeronautics and Space Administration, National Endowment for the Arts, Ho K. Nieh, Kristi Noem, Jerome H. Powell, William J. Pulte, Marco Rubio, Securities and Exchange Commission, U.S. Department of Commerce, U.S. Department of Energy, U.S. Department of Health and Human Services, U.S. Department of Homeland Security, U.S. Department of State, U.S. Department of Veterans Affairs, U.S. Department of War, U.S. Department of the Treasury, U.S. Nuclear Regulatory Commission, U.S. Office of Personnel Management, U.S. Social Security Administration, Chris Wright of Filing Corrected Certification of Amended Administrative Record (Attachments: # 1 Exhibit)(Dibblee, Christian) (Filed on 6/1/2026) Modified on 6/2/2026 (amf, COURT STAFF). (Entered: 06/01/2026)",
+        "summary": "Multiple federal defendants filed a notice of a corrected certification of the administrative record in this case against the U. S. Department of War and other federal entities.",
+        "significance": "minor_update"
+      }
+    ],
+    "plain_language_summary": "Anthropic PBC asserts copyright infringement claims against U.S. Department of War in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "openai",
+      "anthropic",
+      "large language model",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/72379655/anthropic-pbc-v-us-department-of-war/",
+    "last_updated": "2026-06-06",
+    "discovered_date": "2026-06-06"
+  },
+  {
+    "id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "court": "Court of Appeals for the Ninth Circuit",
+    "court_full": "Court of Appeals for the Ninth Circuit",
+    "docket_number": "26-1444",
+    "courtlistener_docket_id": "72502129",
+    "date_filed": "2026-03-11",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Amazon.com Services, LLC",
+      "defendant": "Perplexity AI, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Amazon.com Services, LLC asserts copyright infringement claims against Perplexity AI, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "ai",
+      "large language model",
+      "llm",
+      "copyright"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/72502129/amazoncom-services-llc-v-perplexity-ai-inc/",
+    "last_updated": "2026-06-06",
+    "discovered_date": "2026-06-06"
   }
 ]

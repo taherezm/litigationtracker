@@ -1,10 +1,442 @@
 [
   {
+    "case_id": "kwon-v-anthropic-pbc",
+    "case_name": "Kwon v. Anthropic PBC",
+    "entry_date": "2026-06-04",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466281674",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "kwon-v-anthropic-pbc",
+    "case_name": "Kwon v. Anthropic PBC",
+    "entry_date": "2026-06-04",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466331915",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "kwon-v-anthropic-pbc",
+    "case_name": "Kwon v. Anthropic PBC",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "kwon-v-anthropic-pbc",
+    "case_name": "Kwon v. Anthropic PBC",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466144585",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466144600",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "beaulier-v-microsoft-corporation",
+    "case_name": "Beaulier v. Microsoft Corporation",
+    "entry_date": "2026-06-01",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "63",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466520235",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "cognella-inc-v-anthropic-pbc",
+    "case_name": "Cognella, Inc. v. Anthropic PBC",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466201976",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "cognella-inc-v-anthropic-pbc",
+    "case_name": "Cognella, Inc. v. Anthropic PBC",
+    "entry_date": "2026-06-04",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466388399",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "cognella-inc-v-anthropic-pbc",
+    "case_name": "Cognella, Inc. v. Anthropic PBC",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-04",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466314152",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-04",
+    "summary": "The court scheduled a case management conference for June 23, 2026, at 2:00 p. m. before Judge Haywood S. Gilliam, Jr. , to be held via Zoom. The notice requires attorneys to join 15 minutes early for check-in and prohibits recording or photographing the proceedings.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-03",
+    "summary": "Plaintiff Chicken Soup for the Soul, LLC filed a stipulation with a proposed order requesting to stay all deadlines and proceedings in the case.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466126419",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466458416",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-04",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466338647",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466458447",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "51",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "The court granted a motion allowing attorney Eli Goldman to appear pro hac vice in this case between Elsevier Inc. and Meta Platforms, Inc.",
+    "significance": "minor_update",
+    "entry_number": "50",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-04",
+    "summary": "Plaintiffs filed a letter response to a proposed intervenor's pre-motion letter, with the filing made by multiple publishing companies including Elsevier, Cengage Learning, Hachette Book Group, Macmillan, McGraw Hill, S. C. R. I. B. E. , and author Scott Turow.",
+    "significance": "minor_update",
+    "entry_number": "49",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-04",
+    "summary": "Meta filed a letter response addressing proposed intervenor Dr. Kenneth Saladin's May 29, 2026 letter to the court.",
+    "significance": "minor_update",
+    "entry_number": "48",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "114",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "113",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "39",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-06-02",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "38",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-06-03",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466109585",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "tesseract-systems-llc-v-soundhound-inc",
+    "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "466428007",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "kogon-v-google-llc",
+    "case_name": "Kogon v. Google, LLC",
+    "entry_date": "2026-06-01",
+    "summary": "The court struck a previously scheduled status hearing after reviewing a joint status report, noting that the defendant intends to file a motion to dismiss. The court granted the defendant's request for additional pages (up to 30 pages) for the motion and stayed all discovery until the motion to dismiss is resolved.",
+    "significance": "significant_ruling",
+    "entry_number": "20",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "american-federation-of-musicians-of-the-united-states-and-canada-v-universal-mus",
+    "case_name": "American Federation of Musicians of the United States and Canada v. UNIVERSAL MUSIC GROUP, INC.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "american-federation-of-musicians-of-the-united-states-and-canada-v-universal-mus",
+    "case_name": "American Federation of Musicians of the United States and Canada v. UNIVERSAL MUSIC GROUP, INC.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "american-federation-of-musicians-of-the-united-states-and-canada-v-universal-mus",
+    "case_name": "American Federation of Musicians of the United States and Canada v. UNIVERSAL MUSIC GROUP, INC.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "american-federation-of-musicians-of-the-united-states-and-canada-v-universal-mus",
+    "case_name": "American Federation of Musicians of the United States and Canada v. UNIVERSAL MUSIC GROUP, INC.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "american-federation-of-musicians-of-the-united-states-and-canada-v-universal-mus",
+    "case_name": "American Federation of Musicians of the United States and Canada v. UNIVERSAL MUSIC GROUP, INC.",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "160",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "159",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-05",
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
+    "entry_number": "158",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-01",
+    "summary": "Multiple federal defendants filed a notice of a corrected certification of the administrative record in this case against the U. S. Department of War and other federal entities.",
+    "significance": "minor_update",
+    "entry_number": "157",
+    "logged_at": "2026-06-06T06:11:44Z"
+  },
+  {
     "case_id": "carreyrou-v-openai-inc",
     "case_name": "Carreyrou v. OpenAI, Inc.",
     "entry_date": "2026-06-01",
-    "summary": null,
-    "significance": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
     "entry_number": "112",
     "logged_at": "2026-06-01T18:34:41Z"
   },
@@ -12,8 +444,8 @@
     "case_id": "tesseract-systems-llc-v-soundhound-inc",
     "case_name": "Tesseract Systems LLC v. SoundHound, Inc.",
     "entry_date": "2026-05-27",
-    "summary": null,
-    "significance": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
+    "significance": "minor_update",
     "entry_number": "465373881",
     "logged_at": "2026-06-01T18:34:41Z"
   },
@@ -93,7 +525,7 @@
     "case_id": "beaulier-v-meta-platforms-inc",
     "case_name": "Beaulier v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465145282",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -102,7 +534,7 @@
     "case_id": "beaulier-v-meta-platforms-inc",
     "case_name": "Beaulier v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465245413",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -111,7 +543,7 @@
     "case_id": "beaulier-v-meta-platforms-inc",
     "case_name": "Beaulier v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "24",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -120,7 +552,7 @@
     "case_id": "beaulier-v-meta-platforms-inc",
     "case_name": "Beaulier v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "23",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -129,7 +561,7 @@
     "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
     "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465226157",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -147,7 +579,7 @@
     "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
     "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465217362",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -156,7 +588,7 @@
     "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
     "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
     "entry_date": "2026-05-27",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465325778",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -165,7 +597,7 @@
     "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
     "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "62",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -174,7 +606,7 @@
     "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
     "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
     "entry_date": "2026-05-27",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "61",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -183,7 +615,7 @@
     "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
     "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
     "entry_date": "2026-05-27",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "60",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -192,7 +624,7 @@
     "case_id": "cognella-inc-v-anthropic-pbc",
     "case_name": "Cognella, Inc. v. Anthropic PBC",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465209672",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -210,7 +642,7 @@
     "case_id": "david-vance-gardner-v-runway-ai-inc",
     "case_name": "David Vance Gardner v. Runway AI, Inc.",
     "entry_date": "2026-05-28",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465438381",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -219,7 +651,7 @@
     "case_id": "david-vance-gardner-v-runway-ai-inc",
     "case_name": "David Vance Gardner v. Runway AI, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465202939",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -264,7 +696,7 @@
     "case_id": "david-vance-gardner-v-runway-ai-inc",
     "case_name": "David Vance Gardner v. Runway AI, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465312039",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -273,7 +705,7 @@
     "case_id": "david-vance-gardner-v-runway-ai-inc",
     "case_name": "David Vance Gardner v. Runway AI, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465312040",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -282,7 +714,7 @@
     "case_id": "david-vance-gardner-v-runway-ai-inc",
     "case_name": "David Vance Gardner v. Runway AI, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465312041",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -291,7 +723,7 @@
     "case_id": "david-vance-gardner-v-runway-ai-inc",
     "case_name": "David Vance Gardner v. Runway AI, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465202931",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -300,7 +732,7 @@
     "case_id": "david-vance-gardner-v-runway-ai-inc",
     "case_name": "David Vance Gardner v. Runway AI, Inc.",
     "entry_date": "2026-05-27",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "25",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -309,7 +741,7 @@
     "case_id": "david-vance-gardner-v-runway-ai-inc",
     "case_name": "David Vance Gardner v. Runway AI, Inc.",
     "entry_date": "2026-05-27",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "24",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -336,7 +768,7 @@
     "case_id": "elsevier-inc-v-meta-platforms-inc",
     "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
     "entry_date": "2026-05-28",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465535561",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -354,7 +786,7 @@
     "case_id": "elsevier-inc-v-meta-platforms-inc",
     "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "47",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -363,7 +795,7 @@
     "case_id": "elsevier-inc-v-meta-platforms-inc",
     "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "46",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -372,7 +804,7 @@
     "case_id": "elsevier-inc-v-meta-platforms-inc",
     "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "45",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -381,7 +813,7 @@
     "case_id": "elsevier-inc-v-meta-platforms-inc",
     "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "44",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -390,7 +822,7 @@
     "case_id": "elsevier-inc-v-meta-platforms-inc",
     "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "43",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -417,7 +849,7 @@
     "case_id": "carreyrou-v-openai-inc",
     "case_name": "Carreyrou v. OpenAI, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465259916",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -426,7 +858,7 @@
     "case_id": "carreyrou-v-openai-inc",
     "case_name": "Carreyrou v. OpenAI, Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465645896",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -435,7 +867,7 @@
     "case_id": "carreyrou-v-openai-inc",
     "case_name": "Carreyrou v. OpenAI, Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "111",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -444,7 +876,7 @@
     "case_id": "carreyrou-v-openai-inc",
     "case_name": "Carreyrou v. OpenAI, Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "110",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -453,7 +885,7 @@
     "case_id": "hobbs-v-meta-platforms-inc",
     "case_name": "Hobbs v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465150407",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -462,7 +894,7 @@
     "case_id": "hobbs-v-meta-platforms-inc",
     "case_name": "Hobbs v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465150436",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -471,7 +903,7 @@
     "case_id": "hobbs-v-meta-platforms-inc",
     "case_name": "Hobbs v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465176200",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -480,7 +912,7 @@
     "case_id": "hobbs-v-meta-platforms-inc",
     "case_name": "Hobbs v. Meta Platforms, Inc.",
     "entry_date": "2026-05-28",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465438370",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -489,7 +921,7 @@
     "case_id": "hobbs-v-meta-platforms-inc",
     "case_name": "Hobbs v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "4",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -498,7 +930,7 @@
     "case_id": "hobbs-v-meta-platforms-inc",
     "case_name": "Hobbs v. Meta Platforms, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "3",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -507,7 +939,7 @@
     "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
     "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
     "entry_date": "2026-05-26",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465259910",
     "logged_at": "2026-05-31T14:26:48Z"
@@ -516,7 +948,7 @@
     "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
     "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
     "entry_date": "2026-05-29",
-    "summary": null,
+    "summary": "CourtListener recorded docket activity for this case, but did not provide public text for this entry.",
     "significance": "minor_update",
     "entry_number": "465645887",
     "logged_at": "2026-05-31T14:26:48Z"
