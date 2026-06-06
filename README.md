@@ -1,10 +1,22 @@
 # Tech Law Litigation Tracker
 
+[![Scheduled Update](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml/badge.svg)](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 
-Automated litigation data pipeline for IP & Technology Law at IU. The system discovers federal cases involving artificial intelligence and intellectual property, monitors docket activity through CourtListener, summarizes new entries with legal-precision guardrails, and publishes normalized JSON data to the static website served from 'taherezm/undergradtechlaw'
+Automated litigation data pipeline for IP & Technology Law at IU. The system discovers federal cases involving artificial intelligence and intellectual property, monitors docket activity through CourtListener, summarizes new entries with legal-precision guardrails, and publishes normalized JSON data to the static website served from `taherezm/undergradtechlaw`.
 
-Live tracker: https://www.undergradtechlaw.org/  *in "tools" section*
+Live tracker: [undergradtechlaw.org](https://www.undergradtechlaw.org/) in the Tools section.
+
+## At a Glance
+
+- Source repository: `taherezm/litigationtracker`
+- Public site repository: `taherezm/undergradtechlaw`
+- Public data path: `tools/litigation-tracker/cases.json` and `tools/litigation-tracker/updates.json`
+- Schedule: GitHub Actions cron at `13:17 UTC` on the configured 5-day cadence
+- Pipeline: discover cases, update dockets, summarize entries, validate JSON, publish to the site
+- Cost controls: discovery is capped at 5 candidates by default, and docket summaries are capped at 100 new entries per run
+- Publication rule: unsummarized or placeholder docket activity is not allowed into public JSON
 
 ## What This Repository Owns
 
@@ -14,7 +26,7 @@ This repository is the data and automation layer. It does not render the public 
 - `data/updates.json`: recent docket activity keyed back to cases.
 - `data/last_run.json`: scheduler state, rate-limit state, discovery counters, and rejected docket cache.
 
-The static site repository (`taherezm/iptl-iu-site`) owns the browser UI. The GitHub Actions workflow in this repository pushes updated `cases.json` and `updates.json` into `tools/litigation-tracker/` in the site repository, where GitHub Pages serves them as static assets. The public tracker page fetches those JSON files client-side.
+The static site repository (`taherezm/undergradtechlaw`) owns the browser UI. The GitHub Actions workflow in this repository checks that repository out into a local `iptl-iu-site/` directory, pushes updated `cases.json` and `updates.json` into `tools/litigation-tracker/`, and lets GitHub Pages serve them as static assets. The public tracker page fetches those JSON files client-side.
 
 ## Pipeline Overview
 
@@ -249,12 +261,30 @@ The job runs on Ubuntu with Python 3.11:
 5. Run `scripts/summarize.py`.
 6. Validate generated tracker data.
 7. Commit any changed files in `data/` back to this repository.
-8. Check out `taherezm/iptl-iu-site` using `IPTL_SITE_TOKEN`.
+8. Check out `taherezm/undergradtechlaw` using `IPTL_SITE_TOKEN`.
 9. Validate the site tracker renderer contract.
 10. Copy `data/cases.json` and `data/updates.json` into `iptl-iu-site/tools/litigation-tracker/`.
 11. Commit and push changed tracker data to the site repository.
 
 Because the site repository is served by GitHub Pages from `main`, the copied JSON files become available to the public tracker after the site repo deploys.
+
+## Operations
+
+Use the scheduled workflow for routine updates. Manual `workflow_dispatch` runs are supported, but they use live CourtListener and Anthropic API calls, so they should be treated as real production runs.
+
+Expected non-fatal warning states:
+
+- CourtListener rate limits can leave `courtlistener_rate_limited: true`; valid fetched data still publishes, and the missed window is retried.
+- The summary cap can leave `docket_entry_cap_reached: true`; valid summarized data still publishes, and overflow is retried because the docket checkpoint is not advanced.
+- Incomplete discovery can leave `discovery_complete: false`; discovery resumes from the prior discovery checkpoint.
+
+Routine maintenance checklist:
+
+1. Confirm the GitHub Actions workflow is active.
+2. Confirm repository secrets exist: `COURTLISTENER_API_KEY`, `ANTHROPIC_API_KEY`, and `IPTL_SITE_TOKEN`.
+3. Keep `MAX_SUMMARIES_PER_RUN` at `100` unless cost, timeout, or backlog data justifies a change.
+4. Run `python scripts/validate_tracker_data.py` before committing hand-edited data.
+5. Check the site renderer contract before changing the public tracker HTML.
 
 ## Validation
 
@@ -360,7 +390,7 @@ Required GitHub Actions secrets:
 
 - `COURTLISTENER_API_KEY`: CourtListener API token used for search and docket-entry polling.
 - `ANTHROPIC_API_KEY`: Anthropic API key used for relevance classification and docket-entry summarization.
-- `IPTL_SITE_TOKEN`: GitHub token with permission to push tracker data into `taherezm/iptl-iu-site`.
+- `IPTL_SITE_TOKEN`: GitHub token with permission to push tracker data into `taherezm/undergradtechlaw`.
 
 Optional environment variables:
 
