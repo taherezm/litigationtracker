@@ -1,5 +1,7 @@
 # Tech Law Litigation Tracker
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Automated litigation data pipeline for IP & Technology Law at IU. The system discovers federal cases involving artificial intelligence and intellectual property, monitors docket activity through CourtListener, summarizes new entries with legal-precision guardrails, and publishes normalized JSON data to the static website served from 'taherezm/undergradtechlaw'
 
 Live tracker: https://www.undergradtechlaw.org/  *in "tools" section*
@@ -386,3 +388,7 @@ The generated JSON files in `data/` should be committed only when intentionally 
 ## Public Data Caveat
 
 The tracker is an automated research aid. It is not legal advice, and docket summaries should be treated as public-facing abstracts of docket activity, not as authoritative statements of liability, merits, or procedural rights. The source of record remains the court docket and underlying filings.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
