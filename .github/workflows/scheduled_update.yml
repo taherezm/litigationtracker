@@ -5,6 +5,10 @@ on:
     - cron: '17 13 */5 * *'
   workflow_dispatch:
 
+concurrency:
+  group: litigation-tracker-update
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -51,8 +55,13 @@ jobs:
           git config user.name "Litigation Tracker Bot"
           git config user.email "bot@iuiptechlaw.org"
           git add data/
-          git diff --staged --quiet || git commit -m "Data update: $(date +'%Y-%m-%d')"
-          git push
+          if git diff --staged --quiet; then
+            git pull --ff-only origin main
+          else
+            git commit -m "Data update: $(date +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
 
       - name: Checkout site repo
         uses: actions/checkout@v6
@@ -76,5 +85,10 @@ jobs:
           git config user.name "Litigation Tracker Bot"
           git config user.email "bot@iuiptechlaw.org"
           git add tools/litigation-tracker/cases.json tools/litigation-tracker/updates.json
-          git diff --staged --quiet || git commit -m "Tracker data update: $(date +'%Y-%m-%d')"
-          git push
+          if git diff --staged --quiet; then
+            git pull --ff-only origin main
+          else
+            git commit -m "Tracker data update: $(date +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

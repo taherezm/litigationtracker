@@ -674,12 +674,14 @@ def main() -> None:
     client = Anthropic(api_key=anthropic_key, timeout=ANTHROPIC_TIMEOUT, max_retries=0)
     candidates_by_docket: dict[str, dict[str, Any]] = {}
     discovery_complete = True
+    courtlistener_rate_limited = False
 
     for query in SEARCH_QUERIES:
         try:
             results = search_cases(session, courtlistener_key, query, search_after)
         except RateLimitExceeded as exc:
             discovery_complete = False
+            courtlistener_rate_limited = True
             print(f"Warning: skipped search query after CourtListener rate limit: {query} ({exc})")
             break
         for result in results:
@@ -703,6 +705,7 @@ def main() -> None:
             rss_candidates = collect_rss_candidates(session, courtlistener_key)
         except RateLimitExceeded as exc:
             discovery_complete = False
+            courtlistener_rate_limited = True
             print(f"Warning: skipped RSS discovery after CourtListener rate limit ({exc})")
             rss_candidates = []
 
@@ -756,6 +759,7 @@ def main() -> None:
 
     last_run["cases_discovered"] = len(discovered)
     last_run["discovery_complete"] = discovery_complete
+    last_run["courtlistener_rate_limited"] = courtlistener_rate_limited
     last_run["rejected_dockets"] = sorted(rejected_dockets)[-500:]
     write_json(LAST_RUN_PATH, last_run)
 

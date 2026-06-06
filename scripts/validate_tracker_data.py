@@ -15,6 +15,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
 CASES_PATH = DATA_DIR / "cases.json"
 UPDATES_PATH = DATA_DIR / "updates.json"
+LAST_RUN_PATH = DATA_DIR / "last_run.json"
 EMPTY_ENTRY_SUMMARY_MARKERS = (
     "no docket entry text",
     "no entry text",
@@ -146,9 +147,19 @@ def validate_updates(updates: Any) -> list[str]:
     return errors
 
 
+def validate_pipeline_state(last_run: Any) -> list[str]:
+    errors: list[str] = []
+    if not isinstance(last_run, dict):
+        return ["last_run.json must contain an object."]
+    if last_run.get("courtlistener_rate_limited"):
+        errors.append("CourtListener rate-limited this run; refusing to publish partial tracker data.")
+    return errors
+
+
 def main() -> int:
     errors = validate_cases(load_json(CASES_PATH))
     errors.extend(validate_updates(load_json(UPDATES_PATH)))
+    errors.extend(validate_pipeline_state(load_json(LAST_RUN_PATH)))
     if errors:
         print("Tracker data validation failed:", file=sys.stderr)
         for error in errors:

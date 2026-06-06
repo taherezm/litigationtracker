@@ -151,15 +151,31 @@ def entry_text(entry: dict[str, Any]) -> str:
 
 
 def fetch_entries(session: requests.Session, api_key: str, docket_id: str, last_run_date: str) -> list[dict[str, Any]]:
-    time.sleep(COURTLISTENER_REQUEST_PAUSE_SECONDS + random.uniform(0, 1))
-    params = {
+    params: dict[str, Any] | None = {
         "docket": docket_id,
         "date_filed__gte": last_run_date,
         "order_by": "-entry_number",
         "page_size": 50,
     }
-    data = get_json(session, DOCKET_ENTRIES_URL, api_key=api_key, params=params)
-    return data.get("results", []) if isinstance(data.get("results"), list) else []
+    entries: list[dict[str, Any]] = []
+    next_url = DOCKET_ENTRIES_URL
+    seen_urls: set[str] = set()
+    while next_url:
+        if next_url in seen_urls:
+            break
+        seen_urls.add(next_url)
+        time.sleep(COURTLISTENER_REQUEST_PAUSE_SECONDS + random.uniform(0, 1))
+        data = get_json(session, next_url, api_key=api_key, params=params)
+        results = data.get("results")
+        if isinstance(results, list):
+            entries.extend(item for item in results if isinstance(item, dict))
+        next_value = clean_text(data.get("next"))
+        if next_value.startswith("/"):
+            next_url = f"{COURTLISTENER_BASE}{next_value}"
+        else:
+            next_url = next_value
+        params = None
+    return entries
 
 
 def last_run_date(last_run: dict[str, Any]) -> str:
@@ -215,6 +231,7 @@ def main() -> None:
     new_updates: list[dict[str, Any]] = []
     changed_case_count = 0
     docket_update_complete = True
+    courtlistener_rate_limited = False
     now = utc_now().replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     for case in active_cases:
@@ -229,6 +246,7 @@ def main() -> None:
             fetched_entries = fetch_entries(session, api_key, docket_id, case_since_date(case, since))
         except RateLimitExceeded as exc:
             docket_update_complete = False
+            courtlistener_rate_limited = True
             print(f"Warning: skipped docket update after CourtListener rate limit: {docket_id} ({exc})")
             break
         for raw_entry in fetched_entries:
@@ -270,6 +288,7 @@ def main() -> None:
 
     last_run["entries_updated"] = len(new_updates)
     last_run["docket_update_complete"] = docket_update_complete
+    last_run["courtlistener_rate_limited"] = bool(last_run.get("courtlistener_rate_limited")) or courtlistener_rate_limited
     write_json(LAST_RUN_PATH, last_run)
 
     print(f"Updated {len(new_updates)} entries across {changed_case_count} cases.")
