@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -152,7 +153,11 @@ def validate_pipeline_state(last_run: Any) -> list[str]:
     if not isinstance(last_run, dict):
         return ["last_run.json must contain an object."]
     if last_run.get("courtlistener_rate_limited"):
-        errors.append("CourtListener rate-limited this run; refusing to publish partial tracker data.")
+        message = "CourtListener rate-limited this run; valid fetched data will publish and the missed window will be retried."
+        if os.environ.get("GITHUB_ACTIONS"):
+            print(f"::warning::{message}", file=sys.stderr)
+        else:
+            print(f"Warning: {message}", file=sys.stderr)
     return errors
 
 
