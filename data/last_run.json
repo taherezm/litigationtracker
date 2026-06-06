@@ -1,11 +1,16 @@
 {
-  "cases_discovered": 5,
+  "cases_discovered": 0,
   "discovery_complete": false,
   "rejected_dockets": [
+    "1:26-cv-00086",
+    "1:26-cv-00105",
+    "1:26-cv-00137",
     "1:26-cv-05437",
     "1:26-cv-05567",
+    "2:26-cv-00221",
     "2:26-cv-00566",
     "2:26-md-03179",
+    "3:26-cv-00268",
     "3:26-cv-04053"
   ],
   "entries_updated": 0,
