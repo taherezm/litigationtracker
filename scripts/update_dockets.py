@@ -29,6 +29,7 @@ TIMEOUT = 30
 COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
 COURTLISTENER_BASE_BACKOFF_SECONDS = 10
 COURTLISTENER_MAX_RETRY_AFTER_SECONDS = 30
+DEFAULT_MAX_SUMMARIES_PER_RUN = 100
 
 RESOLUTION_SIGNALS = (
     "JUDGMENT",
@@ -78,6 +79,27 @@ def clean_text(value: Any) -> str:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+def max_summaries_per_run() -> int:
+    value = (os.environ.get("MAX_SUMMARIES_PER_RUN") or "").strip()
+    if not value:
+        return DEFAULT_MAX_SUMMARIES_PER_RUN
+    try:
+        parsed = int(value)
+    except ValueError:
+        print(
+            f"Warning: invalid MAX_SUMMARIES_PER_RUN={value!r}; "
+            f"using {DEFAULT_MAX_SUMMARIES_PER_RUN}."
+        )
+        return DEFAULT_MAX_SUMMARIES_PER_RUN
+    if parsed < 1:
+        print(
+            f"Warning: MAX_SUMMARIES_PER_RUN must be positive; "
+            f"using {DEFAULT_MAX_SUMMARIES_PER_RUN}."
+        )
+        return DEFAULT_MAX_SUMMARIES_PER_RUN
+    return parsed
 
 
 def first_value(data: dict[str, Any], keys: tuple[str, ...]) -> Any:
@@ -218,6 +240,9 @@ def main() -> None:
     if not active_cases:
         last_run["entries_updated"] = 0
         last_run["docket_update_complete"] = True
+        last_run["docket_entry_cap_reached"] = False
+        last_run["summaries_deferred"] = 0
+        last_run["max_summaries_per_run"] = max_summaries_per_run()
         write_json(LAST_RUN_PATH, last_run)
         print("Updated 0 entries across 0 cases.")
         return
@@ -228,13 +253,20 @@ def main() -> None:
 
     session = requests.Session()
     since = last_run_date(last_run)
+    summary_cap = max_summaries_per_run()
     new_updates: list[dict[str, Any]] = []
     changed_case_count = 0
     docket_update_complete = True
     courtlistener_rate_limited = False
+    docket_entry_cap_reached = False
+    summaries_deferred = 0
     now = utc_now().replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     for case in active_cases:
+        if len(new_updates) >= summary_cap:
+            docket_update_complete = False
+            docket_entry_cap_reached = True
+            break
         docket_id = clean_text(case.get("courtlistener_docket_id"))
         existing_numbers = {
             clean_text(entry.get("entry_number"))
@@ -255,6 +287,11 @@ def main() -> None:
                 continue
             raw_text = entry_text(raw_entry)
             if not raw_text:
+                continue
+            if len(new_updates) >= summary_cap:
+                docket_update_complete = False
+                docket_entry_cap_reached = True
+                summaries_deferred += 1
                 continue
             new_entry = {
                 "entry_number": number,
@@ -281,6 +318,8 @@ def main() -> None:
             )
         if case_new_entries:
             changed_case_count += 1
+        if docket_entry_cap_reached:
+            break
 
     updates = new_updates + updates
     write_json(CASES_PATH, cases)
@@ -289,8 +328,16 @@ def main() -> None:
     last_run["entries_updated"] = len(new_updates)
     last_run["docket_update_complete"] = docket_update_complete
     last_run["courtlistener_rate_limited"] = bool(last_run.get("courtlistener_rate_limited")) or courtlistener_rate_limited
+    last_run["docket_entry_cap_reached"] = docket_entry_cap_reached
+    last_run["summaries_deferred"] = summaries_deferred
+    last_run["max_summaries_per_run"] = summary_cap
     write_json(LAST_RUN_PATH, last_run)
 
+    if docket_entry_cap_reached:
+        print(
+            f"Warning: summary cap reached at {summary_cap}; "
+            f"deferred at least {summaries_deferred} docket entries to the next run."
+        )
     print(f"Updated {len(new_updates)} entries across {changed_case_count} cases.")
 
 

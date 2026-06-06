@@ -158,6 +158,17 @@ def validate_pipeline_state(last_run: Any) -> list[str]:
             print(f"::warning::{message}", file=sys.stderr)
         else:
             print(f"Warning: {message}", file=sys.stderr)
+    if last_run.get("docket_entry_cap_reached"):
+        deferred = clean_text(last_run.get("summaries_deferred")) or "some"
+        cap = clean_text(last_run.get("max_summaries_per_run")) or "configured"
+        message = (
+            f"Summary cap reached; {deferred} docket entries were deferred after the "
+            f"{cap}-summary run budget and will be retried."
+        )
+        if os.environ.get("GITHUB_ACTIONS"):
+            print(f"::warning::{message}", file=sys.stderr)
+        else:
+            print(f"Warning: {message}", file=sys.stderr)
     return errors
 
 

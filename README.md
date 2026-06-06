@@ -128,11 +128,13 @@ GET /api/rest/v4/docket-entries/
 
 If both `docket_last_run_date` and the legacy `last_run_date` are missing, the fallback window is the previous five days. Newly discovered cases with no stored docket entries are polled from their filing date so the first docket update can backfill the initial case history.
 
+The docket update stage honors `MAX_SUMMARIES_PER_RUN`, which defaults to `100`. This cap is applied before new entries are committed into the public data files so every newly accepted docket entry can be summarized in the same run. If the cap is reached, `docket_update_complete` is set to `false`, the docket checkpoint is not advanced, and overflow is retried on the next scheduled run.
+
 ### Entry Deduplication
 
 New entries are deduplicated by normalized `entry_number`. If CourtListener returns an entry number already present in the case's `docket_entries`, it is skipped.
 
-New entries are appended to the case:
+Accepted entries are appended to the case during the run:
 
 ```json
 {
@@ -158,13 +160,15 @@ At the same time, a recent-activity record is prepended to `data/updates.json`:
 }
 ```
 
+Those `summary: null` values are an internal, same-run state only. `scripts/summarize.py` fills them before validation and publication. Validation blocks any unsummarized or placeholder docket activity from reaching the live tracker.
+
 ### Resolution Signals
 
 Some docket text is treated as requiring review. If the raw entry contains terms such as `JUDGMENT`, `DISMISSED WITH PREJUDICE`, `SETTLED`, `AFFIRMED`, `REVERSED`, or `MANDATE ISSUED`, the case status is moved to `needs_review`. The summarization stage may later classify the entry as `case_resolved` and mark the case `resolved`.
 
 ## Summarization and Legal Precision
 
-`summarize.py` processes every docket entry that has raw text but no summary. It prompts Anthropic to return strict JSON:
+`summarize.py` processes docket entries that have raw text but no summary, up to the configured `MAX_SUMMARIES_PER_RUN` budget. It prompts Anthropic to return strict JSON:
 
 ```json
 {
@@ -219,6 +223,9 @@ When an entry is classified as `significant_ruling`, a deduplicated key-ruling r
   "entries_updated": 48,
   "docket_update_complete": true,
   "summaries_generated": 48,
+  "docket_entry_cap_reached": false,
+  "summaries_deferred": 0,
+  "max_summaries_per_run": 100,
   "discovery_last_run_date": "2026-06-03",
   "docket_last_run_date": "2026-06-03",
   "last_run_date": "2026-06-03"
@@ -226,6 +233,8 @@ When an entry is classified as `significant_ruling`, a deduplicated key-ruling r
 ```
 
 `discovery_last_run_date` and `docket_last_run_date` advance independently. `last_run_date` remains a legacy all-phases-complete checkpoint and advances only when both discovery and docket update completed. This prevents an incomplete discovery sweep from forcing docket polling to repeat an unnecessarily broad window.
+
+When `docket_entry_cap_reached` is `true`, the run hit the configured summary budget. Valid summarized entries still publish, but the docket checkpoint does not advance so deferred entries are picked up later.
 
 ## Publication Flow
 
@@ -341,6 +350,7 @@ The pipeline is designed to be idempotent and safe to re-run:
 - CourtListener requests use retry/backoff and honor `Retry-After` where possible;
 - CourtListener search can fall back to unauthenticated requests on auth errors or persistent authenticated rate limits;
 - Anthropic requests use bounded retries;
+- `MAX_SUMMARIES_PER_RUN` caps model-backed docket summaries and leaves overflow queued for the next run;
 - malformed model JSON falls back to deterministic summaries or deterministic relevance checks;
 - incomplete discovery or docket polling prevents the affected phase checkpoint from advancing.
 
@@ -355,6 +365,7 @@ Required GitHub Actions secrets:
 Optional environment variables:
 
 - `MAX_DISCOVERY_CANDIDATES`: maximum number of discovery candidates to classify per run. Defaults to `5`.
+- `MAX_SUMMARIES_PER_RUN`: maximum number of new docket-entry summaries to generate per run. Defaults to `100`.
 - `USE_ANTHROPIC_CASE_SUMMARIES`: set to `1`, `true`, or `yes` to allow model-generated initial case summaries instead of deterministic summaries.
 
 ## Local Development

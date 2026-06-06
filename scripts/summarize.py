@@ -25,6 +25,7 @@ LAST_RUN_PATH = DATA_DIR / "last_run.json"
 MODEL = "claude-sonnet-4-6"
 MAX_RETRIES = 3
 ANTHROPIC_TIMEOUT = 30.0
+DEFAULT_MAX_SUMMARIES_PER_RUN = 100
 
 POSTURE_OPTIONS = {
     "Filed",
@@ -94,6 +95,27 @@ def clean_text(value: Any) -> str:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+def max_summaries_per_run() -> int:
+    value = (os.environ.get("MAX_SUMMARIES_PER_RUN") or "").strip()
+    if not value:
+        return DEFAULT_MAX_SUMMARIES_PER_RUN
+    try:
+        parsed = int(value)
+    except ValueError:
+        print(
+            f"Warning: invalid MAX_SUMMARIES_PER_RUN={value!r}; "
+            f"using {DEFAULT_MAX_SUMMARIES_PER_RUN}."
+        )
+        return DEFAULT_MAX_SUMMARIES_PER_RUN
+    if parsed < 1:
+        print(
+            f"Warning: MAX_SUMMARIES_PER_RUN must be positive; "
+            f"using {DEFAULT_MAX_SUMMARIES_PER_RUN}."
+        )
+        return DEFAULT_MAX_SUMMARIES_PER_RUN
+    return parsed
 
 
 def normalize_sentence_for_dedupe(sentence: str) -> str:
@@ -248,6 +270,53 @@ def is_unsummarized(entry: dict[str, Any]) -> bool:
     return not clean_text(entry.get("summary")) and bool(clean_text(entry.get("raw_text")))
 
 
+def entry_key(case: dict[str, Any], entry: dict[str, Any]) -> tuple[str, str, str]:
+    return (
+        clean_text(case.get("id")),
+        clean_text(entry.get("entry_number")),
+        clean_text(entry.get("date")),
+    )
+
+
+def update_key(update: dict[str, Any]) -> tuple[str, str, str]:
+    return (
+        clean_text(update.get("case_id")),
+        clean_text(update.get("entry_number")),
+        clean_text(update.get("entry_date")),
+    )
+
+
+def non_negative_int(value: Any) -> int:
+    try:
+        return max(0, int(value))
+    except (TypeError, ValueError):
+        return 0
+
+
+def remove_deferred_entries(
+    cases: list[dict[str, Any]],
+    updates: list[dict[str, Any]],
+    deferred: list[tuple[dict[str, Any], dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    deferred_keys = {entry_key(case, entry) for case, entry in deferred}
+    for case in cases:
+        if not isinstance(case, dict):
+            continue
+        entries = case.get("docket_entries")
+        if not isinstance(entries, list):
+            continue
+        case["docket_entries"] = [
+            entry
+            for entry in entries
+            if not isinstance(entry, dict) or entry_key(case, entry) not in deferred_keys
+        ]
+    return [
+        update
+        for update in updates
+        if not isinstance(update, dict) or update_key(update) not in deferred_keys
+    ]
+
+
 def update_matching_updates(
     updates: list[dict[str, Any]],
     case: dict[str, Any],
@@ -313,6 +382,9 @@ def main() -> None:
             if isinstance(entry, dict) and is_unsummarized(entry):
                 pending.append((case, entry))
 
+    summary_cap = max_summaries_per_run()
+    deferred_pending = pending[summary_cap:]
+    pending = pending[:summary_cap]
     generated = 0
     today = utc_now().date().isoformat()
     if pending:
@@ -346,6 +418,20 @@ def main() -> None:
             case["last_updated"] = today
             generated += 1
 
+    if deferred_pending:
+        updates = remove_deferred_entries(cases, updates, deferred_pending)
+        last_run["docket_update_complete"] = False
+        last_run["docket_entry_cap_reached"] = True
+        last_run["summaries_deferred"] = non_negative_int(last_run.get("summaries_deferred")) + len(
+            deferred_pending
+        )
+        print(
+            f"Warning: summary cap reached at {summary_cap}; "
+            f"removed {len(deferred_pending)} unsummarized entries from publishable data for retry."
+        )
+    elif not last_run.get("docket_entry_cap_reached"):
+        last_run["summaries_deferred"] = 0
+
     if last_run.get("docket_update_complete", True):
         last_run["docket_last_run_date"] = today
     else:
@@ -361,6 +447,7 @@ def main() -> None:
     else:
         print("Warning: last_run_date was not advanced because discovery or docket update did not complete.")
     last_run["summaries_generated"] = generated
+    last_run["max_summaries_per_run"] = summary_cap
     last_run.setdefault("cases_discovered", 0)
     last_run.setdefault("entries_updated", 0)
 
