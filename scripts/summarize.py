@@ -22,7 +22,7 @@ DATA_DIR = BASE_DIR / "data"
 CASES_PATH = DATA_DIR / "cases.json"
 UPDATES_PATH = DATA_DIR / "updates.json"
 LAST_RUN_PATH = DATA_DIR / "last_run.json"
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-4-6"
 MAX_RETRIES = 3
 ANTHROPIC_TIMEOUT = 30.0
 
