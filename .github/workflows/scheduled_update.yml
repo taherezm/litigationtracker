@@ -2,7 +2,7 @@ name: Litigation Tracker — Scheduled Update
 
 on:
   schedule:
-    - cron: '0 13 */5 * *'
+    - cron: '17 13 */5 * *'
   workflow_dispatch:
 
 permissions:
@@ -57,7 +57,7 @@ jobs:
       - name: Checkout site repo
         uses: actions/checkout@v6
         with:
-          repository: taherezm/iptl-iu-site
+          repository: taherezm/undergradtechlaw
           token: ${{ secrets.IPTL_SITE_TOKEN }}
           path: iptl-iu-site
 

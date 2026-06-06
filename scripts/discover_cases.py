@@ -628,10 +628,15 @@ def collect_rss_candidates(session: requests.Session, api_key: str) -> list[dict
 
 
 def search_after_date(cases: list[dict[str, Any]], last_run: dict[str, Any]) -> str:
-    last_run_date = clean_text(last_run.get("last_run_date"))
-    if len(cases) < 5 or not last_run_date:
-        return (utc_today() - timedelta(days=90)).isoformat()
-    return last_run_date
+    discovery_last_run_date = clean_text(last_run.get("discovery_last_run_date"))
+    if discovery_last_run_date:
+        return discovery_last_run_date
+
+    legacy_last_run_date = clean_text(last_run.get("last_run_date"))
+    if len(cases) >= 5 and legacy_last_run_date and last_run.get("discovery_complete", True):
+        return legacy_last_run_date
+
+    return (utc_today() - timedelta(days=90)).isoformat()
 
 
 def main() -> None:

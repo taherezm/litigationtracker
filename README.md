@@ -52,8 +52,8 @@ The default cap is a rate-limit control. CourtListener queries are spaced by `CO
 
 Discovery uses `data/last_run.json` to decide the filing-date window:
 
-- If fewer than five cases are already tracked, or no `last_run_date` exists, it searches the last 90 days.
-- Otherwise, it searches from `last_run_date`.
+- If fewer than five cases are already tracked, or no completed discovery checkpoint exists, it searches the last 90 days.
+- Otherwise, it searches from `discovery_last_run_date`.
 
 This keeps early bootstrap runs broad while making mature runs incremental.
 
@@ -119,12 +119,12 @@ For each active case, the script calls the CourtListener docket entries API:
 ```text
 GET /api/rest/v4/docket-entries/
   docket=<courtlistener_docket_id>
-  date_filed__gte=<last_run_date>
+  date_filed__gte=<docket_last_run_date>
   order_by=-entry_number
   page_size=50
 ```
 
-If `last_run_date` is missing, the fallback window is the previous five days.
+If both `docket_last_run_date` and the legacy `last_run_date` are missing, the fallback window is the previous five days.
 
 ### Entry Deduplication
 
@@ -217,15 +217,17 @@ When an entry is classified as `significant_ruling`, a deduplicated key-ruling r
   "entries_updated": 48,
   "docket_update_complete": true,
   "summaries_generated": 48,
+  "discovery_last_run_date": "2026-06-03",
+  "docket_last_run_date": "2026-06-03",
   "last_run_date": "2026-06-03"
 }
 ```
 
-`last_run_date` advances only when both discovery and docket update completed without rate-limit interruption. If either phase is incomplete, the summarizer writes a warning and leaves `last_run_date` unchanged so the next scheduled run can reprocess the missed window.
+`discovery_last_run_date` and `docket_last_run_date` advance independently. `last_run_date` remains a legacy all-phases-complete checkpoint and advances only when both discovery and docket update completed. This prevents an incomplete discovery sweep from forcing docket polling to repeat an unnecessarily broad window.
 
 ## Publication Flow
 
-GitHub Actions runs `.github/workflows/scheduled_update.yml` every five days at `13:00 UTC` and also supports manual dispatch.
+GitHub Actions runs `.github/workflows/scheduled_update.yml` every five days at `13:17 UTC` and also supports manual dispatch. The run is offset from the top of the hour to reduce schedule-delay risk on GitHub Actions.
 
 The job runs on Ubuntu with Python 3.11:
 
@@ -338,7 +340,7 @@ The pipeline is designed to be idempotent and safe to re-run:
 - CourtListener search can fall back to unauthenticated requests on auth errors or persistent authenticated rate limits;
 - Anthropic requests use bounded retries;
 - malformed model JSON falls back to deterministic summaries or deterministic relevance checks;
-- incomplete discovery or docket polling prevents `last_run_date` from advancing.
+- incomplete discovery or docket polling prevents the affected phase checkpoint from advancing.
 
 ## Configuration
 

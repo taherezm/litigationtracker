@@ -163,7 +163,7 @@ def fetch_entries(session: requests.Session, api_key: str, docket_id: str, last_
 
 
 def last_run_date(last_run: dict[str, Any]) -> str:
-    value = clean_text(last_run.get("last_run_date"))
+    value = clean_text(last_run.get("docket_last_run_date")) or clean_text(last_run.get("last_run_date"))
     if value:
         return value
     return (utc_now().date() - timedelta(days=5)).isoformat()

@@ -177,7 +177,7 @@ def fallback_summary(entry: dict[str, Any]) -> dict[str, Any]:
             clipped = f"{clipped}..."
         summary = f"This docket entry records: {clipped}"
     else:
-        summary = None
+        summary = "CourtListener recorded docket activity for this case, but did not provide public text for this entry."
     return {
         "summary": summary,
         "significance": "minor_update",
@@ -244,7 +244,7 @@ Respond ONLY with valid JSON, no preamble:
 
 
 def is_unsummarized(entry: dict[str, Any]) -> bool:
-    return not clean_text(entry.get("summary")) and bool(clean_text(entry.get("raw_text")))
+    return not clean_text(entry.get("summary"))
 
 
 def update_matching_updates(
@@ -315,12 +315,13 @@ def main() -> None:
     generated = 0
     today = utc_now().date().isoformat()
     if pending:
-        api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
-        if not api_key:
+        needs_anthropic = any(clean_text(entry.get("raw_text")) for _, entry in pending)
+        api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip() if needs_anthropic else ""
+        if needs_anthropic and not api_key:
             raise SystemExit("Missing required environment variable: ANTHROPIC_API_KEY")
-        client = Anthropic(api_key=api_key, timeout=ANTHROPIC_TIMEOUT, max_retries=0)
+        client = Anthropic(api_key=api_key, timeout=ANTHROPIC_TIMEOUT, max_retries=0) if needs_anthropic else None
         for case, entry in pending:
-            result = summarize_entry(client, case, entry)
+            result = summarize_entry(client, case, entry) if client else fallback_summary(entry)
             summary = clean_text(result.get("summary"))
             significance = clean_text(result.get("significance")) or "minor_update"
             if significance not in {"significant_ruling", "minor_update", "case_resolved"}:
@@ -344,10 +345,20 @@ def main() -> None:
             case["last_updated"] = today
             generated += 1
 
+    if last_run.get("docket_update_complete", True):
+        last_run["docket_last_run_date"] = today
+    else:
+        print("Warning: docket_last_run_date was not advanced because docket update did not complete.")
+
+    if last_run.get("discovery_complete", True):
+        last_run["discovery_last_run_date"] = today
+    else:
+        print("Warning: discovery_last_run_date was not advanced because discovery did not complete.")
+
     if last_run.get("discovery_complete", True) and last_run.get("docket_update_complete", True):
         last_run["last_run_date"] = today
     else:
-        print("Warning: last_run_date was not advanced because discovery or docket update was rate-limited.")
+        print("Warning: last_run_date was not advanced because discovery or docket update did not complete.")
     last_run["summaries_generated"] = generated
     last_run.setdefault("cases_discovered", 0)
     last_run.setdefault("entries_updated", 0)
