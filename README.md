@@ -4,19 +4,25 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 
-Automated litigation data pipeline for IP & Technology Law at IU. The system discovers federal cases involving artificial intelligence and intellectual property, monitors docket activity through CourtListener, summarizes new entries with legal-precision guardrails, and publishes normalized JSON data to the static website served from `taherezm/undergradtechlaw`.
+Automated litigation data pipeline for Undergraduate Technology Law at IU. The system discovers federal cases involving artificial intelligence and intellectual property, monitors docket activity through CourtListener, summarizes new entries with legal-precision guardrails, and publishes normalized JSON data to the static website served from `taherezm/undergradtechlaw`.
 
-Live tracker: [undergradtechlaw.org](https://www.undergradtechlaw.org/) in the Tools section.
+Live tracker: [undergradtechlaw.org/tools/litigation-tracker](https://www.undergradtechlaw.org/tools/litigation-tracker/).
 
 ## At a Glance
 
 - Source repository: `taherezm/litigationtracker`
 - Public site repository: `taherezm/undergradtechlaw`
 - Public data path: `tools/litigation-tracker/cases.json` and `tools/litigation-tracker/updates.json`
-- Schedule: GitHub Actions cron at `13:17 UTC` on the configured 5-day cadence
+- Schedule: GitHub Actions cron at `13:17 UTC` on the configured five-day cadence (`17 13 */5 * *`)
 - Pipeline: update dockets, summarize entries, discover cases, validate JSON, publish to the site
 - Cost controls: discovery is capped at 5 candidates by default, and docket summaries are capped at 100 new entries per run
 - Publication rule: unsummarized or placeholder docket activity is not allowed into public JSON
+
+## Current Public Version
+
+The public tracker is the static UI in `taherezm/undergradtechlaw` at `tools/litigation-tracker/`. This repository owns the canonical data and automation; each successful workflow run copies `data/cases.json` and `data/updates.json` into the site repo. The browser page renders case counts, court counts, latest update date, and significant-ruling totals from those JSON files at runtime, so this README describes the pipeline contract rather than hard-coded live totals.
+
+On the current five-day cadence, the tracker checks existing dockets before discovering new cases. This keeps already-tracked litigation fresh under CourtListener/API limits, while per-case docket checkpoints let interrupted runs resume from saved progress instead of restarting the full window.
 
 ## What This Repository Owns
 
@@ -37,7 +43,7 @@ The tracker runs as a three-stage ETL pipeline, in this execution order:
 2. `scripts/summarize.py`
    Summarizes unsummarized docket entries, classifies their litigation significance, updates procedural posture, records key rulings, and marks resolved cases when appropriate.
 3. `scripts/discover_cases.py`
-   Searches for new candidate cases, classifies AI/IP relevance, normalizes accepted candidates into case records, and writes them into `data/cases.json`. Runs last (and at most once per day) so docket freshness gets priority on the shared CourtListener request quota.
+   Searches for new candidate cases, classifies AI/IP relevance, normalizes accepted candidates into case records, and writes them into `data/cases.json`. Runs last so docket freshness gets priority on the shared CourtListener request quota; same-day reruns skip discovery unless `FORCE_DISCOVERY` is set.
 
 Each stage reads and writes JSON directly. Writes are atomic: data is serialized to a temporary sibling file and then moved into place with `Path.replace()`.
 
@@ -229,23 +235,25 @@ When an entry is classified as `significant_ruling`, a deduplicated key-ruling r
 
 ## Scheduler State
 
-`data/last_run.json` tracks run state across phases:
+`data/last_run.json` tracks run state across phases. The shape is:
 
 ```json
 {
-  "cases_discovered": 5,
+  "cases_discovered": 0,
   "discovery_complete": true,
-  "discovery_candidate_cap_reached": true,
+  "discovery_candidate_cap_reached": false,
   "rejected_dockets": ["3:26-cv-04053"],
-  "entries_updated": 48,
-  "docket_update_complete": true,
-  "summaries_generated": 48,
+  "entries_updated": 0,
+  "docket_update_complete": false,
+  "courtlistener_rate_limited": true,
   "docket_entry_cap_reached": false,
+  "summaries_generated": 0,
   "summaries_deferred": 0,
   "max_summaries_per_run": 100,
-  "discovery_last_run_date": "2026-06-03",
-  "docket_last_run_date": "2026-06-03",
-  "last_run_date": "2026-06-03"
+  "max_docket_update_passes": 5,
+  "discovery_last_run_date": "YYYY-MM-DD",
+  "docket_last_run_date": "YYYY-MM-DD",
+  "last_run_date": "YYYY-MM-DD"
 }
 ```
 
@@ -387,7 +395,7 @@ The pipeline is designed to be idempotent and safe to re-run:
 - docket entries are deduplicated by entry number;
 - JSON writes are atomic;
 - CourtListener requests use retry/backoff and honor `Retry-After` where possible;
-- CourtListener search can fall back to unauthenticated requests on auth errors or persistent authenticated rate limits;
+- CourtListener auth failures stop the run with an explicit secret-configuration error instead of silently falling back to unauthenticated requests;
 - Anthropic requests use bounded retries;
 - `MAX_DISCOVERY_CANDIDATES` caps candidate classification per run and records `discovery_candidate_cap_reached` without blocking the discovery checkpoint;
 - `MAX_SUMMARIES_PER_RUN` caps each model-backed docket-summary pass, and `MAX_DOCKET_UPDATE_PASSES` bounds how many catch-up passes the workflow runs before publication or CourtListener rate limiting;
@@ -424,11 +432,12 @@ Run the full pipeline locally:
 export COURTLISTENER_API_KEY=...
 export ANTHROPIC_API_KEY=...
 
+python scripts/run_docket_update_passes.py
 python scripts/discover_cases.py
-python scripts/update_dockets.py
-python scripts/summarize.py
 python scripts/validate_tracker_data.py
 ```
+
+For production-equivalent ordering, run `scripts/run_docket_update_passes.py` before `scripts/discover_cases.py`. The scheduled workflow does that so tracked dockets get first claim on the shared CourtListener request quota. `scripts/update_dockets.py` and `scripts/summarize.py` remain available for targeted local debugging, but the pass runner is the normal catch-up entrypoint.
 
 Validate the site renderer contract against a local checkout of the site repository:
 
