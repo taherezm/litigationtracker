@@ -13,7 +13,7 @@ Live tracker: [undergradtechlaw.org](https://www.undergradtechlaw.org/) in the T
 - Source repository: `taherezm/litigationtracker`
 - Public site repository: `taherezm/undergradtechlaw`
 - Public data path: `tools/litigation-tracker/cases.json` and `tools/litigation-tracker/updates.json`
-- Schedule: GitHub Actions cron daily at `13:17 UTC`
+- Schedule: GitHub Actions cron at `13:17 UTC` on the configured 5-day cadence
 - Pipeline: update dockets, summarize entries, discover cases, validate JSON, publish to the site
 - Cost controls: discovery is capped at 5 candidates by default, and docket summaries are capped at 100 new entries per run
 - Publication rule: unsummarized or placeholder docket activity is not allowed into public JSON
@@ -257,7 +257,7 @@ When `docket_entry_cap_reached` is `true`, the run hit the configured summary bu
 
 ## Publication Flow
 
-GitHub Actions runs `.github/workflows/scheduled_update.yml` daily at `13:17 UTC` and also supports manual dispatch. The run is offset from the top of the hour to reduce schedule-delay risk on GitHub Actions. The daily cadence keeps each run's docket window small, which keeps request volume low and makes CourtListener rate limits both rarer and cheaper to recover from.
+GitHub Actions runs `.github/workflows/scheduled_update.yml` every five days at `13:17 UTC` and also supports manual dispatch. The run is offset from the top of the hour to reduce schedule-delay risk on GitHub Actions. Each run covers a roughly five-day docket window per case; per-case checkpoints and the bounded multi-pass catch-up absorb that window, and any portion cut off by a CourtListener rate limit resumes from the saved checkpoints on the next run.
 
 The job runs on Ubuntu with Python 3.11:
 
