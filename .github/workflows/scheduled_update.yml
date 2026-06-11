@@ -43,22 +43,7 @@ jobs:
         env:
           COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          for pass in $(seq 1 "$MAX_DOCKET_UPDATE_PASSES"); do
-            echo "Docket update pass ${pass}/${MAX_DOCKET_UPDATE_PASSES}"
-            python scripts/update_dockets.py
-            python scripts/summarize.py
-
-            if python -c 'import json, sys; from pathlib import Path; last_run = json.loads(Path("data/last_run.json").read_text()); complete = last_run.get("docket_update_complete", True) and not last_run.get("docket_entry_cap_reached", False); sys.exit(0 if complete else 1)'
-            then
-              echo "Docket checkpoint caught up."
-              break
-            fi
-
-            if [ "$pass" = "$MAX_DOCKET_UPDATE_PASSES" ]; then
-              echo "::warning::Docket update still incomplete after ${MAX_DOCKET_UPDATE_PASSES} passes; publishing summarized data and retrying the remaining window on the next run."
-            fi
-          done
+        run: python scripts/run_docket_update_passes.py
 
       - name: Validate tracker data
         run: python scripts/validate_tracker_data.py

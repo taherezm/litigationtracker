@@ -258,7 +258,7 @@ The job runs on Ubuntu with Python 3.11:
 1. Check out this pipeline repository.
 2. Install Python dependencies from `requirements.txt`.
 3. Run `scripts/discover_cases.py`.
-4. Run bounded `scripts/update_dockets.py` and `scripts/summarize.py` passes until `docket_update_complete` is true or `MAX_DOCKET_UPDATE_PASSES` is reached.
+4. Run `scripts/run_docket_update_passes.py`, which performs bounded `scripts/update_dockets.py` and `scripts/summarize.py` passes until `docket_update_complete` is true, `MAX_DOCKET_UPDATE_PASSES` is reached, or CourtListener rate-limits docket polling.
 5. Validate generated tracker data.
 6. Commit any changed files in `data/` back to this repository.
 7. Check out `taherezm/undergradtechlaw` using `IPTL_SITE_TOKEN`.
@@ -276,7 +276,7 @@ Expected non-fatal warning states:
 
 - CourtListener rate limits can leave `courtlistener_rate_limited: true`; valid fetched data still publishes, and the missed window is retried.
 - The discovery candidate cap can leave `discovery_candidate_cap_reached: true`; valid classified cases still publish, and the discovery checkpoint can still advance unless another discovery failure occurred.
-- The summary cap can leave `docket_entry_cap_reached: true`; valid summarized data still publishes, and the workflow runs additional bounded passes before leaving overflow for the next run.
+- The summary cap can leave `docket_entry_cap_reached: true`; valid summarized data still publishes, and the workflow runs additional bounded passes before leaving overflow for the next run. CourtListener rate limits stop additional same-job passes so the workflow does not repeatedly call a limited API.
 - CourtListener or classifier failures can leave `discovery_complete: false`; discovery resumes from the prior discovery checkpoint.
 
 Routine maintenance checklist:
@@ -382,7 +382,7 @@ The pipeline is designed to be idempotent and safe to re-run:
 - CourtListener search can fall back to unauthenticated requests on auth errors or persistent authenticated rate limits;
 - Anthropic requests use bounded retries;
 - `MAX_DISCOVERY_CANDIDATES` caps candidate classification per run and records `discovery_candidate_cap_reached` without blocking the discovery checkpoint;
-- `MAX_SUMMARIES_PER_RUN` caps each model-backed docket-summary pass, and `MAX_DOCKET_UPDATE_PASSES` bounds how many catch-up passes the workflow runs before publication;
+- `MAX_SUMMARIES_PER_RUN` caps each model-backed docket-summary pass, and `MAX_DOCKET_UPDATE_PASSES` bounds how many catch-up passes the workflow runs before publication or CourtListener rate limiting;
 - malformed model JSON falls back to deterministic summaries or deterministic relevance checks;
 - discovery failures or incomplete docket polling prevent the affected phase checkpoint from advancing.
 
