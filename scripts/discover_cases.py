@@ -34,6 +34,7 @@ COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
 COURTLISTENER_BASE_BACKOFF_SECONDS = 10
 COURTLISTENER_MAX_RETRY_AFTER_SECONDS = 30
 DEFAULT_MAX_DISCOVERY_CANDIDATES = 5
+MAX_REJECTED_DOCKETS = 500
 AI_TERMS = (
     "ai",
     "artificial intelligence",
@@ -356,13 +357,31 @@ def split_parties(case_name: str, fallback: str = "") -> dict[str, str]:
 
 def extract_judges(docket: dict[str, Any]) -> list[str]:
     values: list[str] = []
-    for key in ("assigned_to_str", "referred_to_str", "judge", "judges", "assigned_to", "referred_to"):
+    for key in (
+        "assigned_to_str",
+        "assignedToStr",
+        "referred_to_str",
+        "referredToStr",
+        "judge",
+        "judges",
+        "assigned_to",
+        "assignedTo",
+        "referred_to",
+        "referredTo",
+    ):
         value = docket.get(key)
         if isinstance(value, list):
             for item in value:
                 values.append(clean_text(item))
         elif isinstance(value, dict):
-            values.append(clean_text(first_value(value, ("name_full", "name", "display_name", "short_name"))))
+            values.append(
+                clean_text(
+                    first_value(
+                        value,
+                        ("name_full", "nameFull", "name", "display_name", "displayName", "short_name", "shortName"),
+                    )
+                )
+            )
         else:
             values.append(clean_text(value))
     judges: list[str] = []
@@ -403,11 +422,41 @@ def result_to_candidate(result: dict[str, Any], source: str) -> dict[str, Any] |
         "docket_id": docket_id,
         "docket_number": docket_number,
         "case_name": case_name,
-        "court": clean_text(first_value(result, ("court", "court_id", "court_citation_string", "courtCitationString"))),
+        "court": clean_text(
+            first_value(result, ("court", "court_id", "courtId", "court_citation_string", "courtCitationString"))
+        ),
         "date_filed": clean_text(first_value(result, ("dateFiled", "date_filed", "date_created", "dateCreated"))),
         "parties": clean_text(first_value(result, ("party", "parties", "party_name", "partyName"))),
         "snippet": clean_text(first_value(result, ("snippet", "description", "plain_text", "text"))),
     }
+
+
+def rejected_docket_cache(raw_rejected_dockets: Any) -> tuple[list[str], set[str]]:
+    if not isinstance(raw_rejected_dockets, list):
+        raw_rejected_dockets = []
+    rejected_dockets: list[str] = []
+    rejected_docket_set: set[str] = set()
+    for item in raw_rejected_dockets:
+        key = clean_text(item)
+        if not key:
+            continue
+        if key in rejected_docket_set:
+            rejected_dockets.remove(key)
+        else:
+            rejected_docket_set.add(key)
+        rejected_dockets.append(key)
+    return rejected_dockets, rejected_docket_set
+
+
+def remember_rejected_docket(rejected_dockets: list[str], rejected_docket_set: set[str], key: str) -> None:
+    key = clean_text(key)
+    if not key:
+        return
+    if key in rejected_docket_set:
+        rejected_dockets.remove(key)
+    else:
+        rejected_docket_set.add(key)
+    rejected_dockets.append(key)
 
 
 def search_cases(session: requests.Session, api_key: str, query: str, search_after: str | None) -> list[dict[str, Any]]:
@@ -432,11 +481,6 @@ def search_cases(session: requests.Session, api_key: str, query: str, search_aft
         print(f"Warning: authenticated CourtListener search returned {status}; retrying search without auth.")
         data = get_json(session, COURTLISTENER_SEARCH_URL, api_key=None, params=params)
     return data.get("results", []) if isinstance(data.get("results"), list) else []
-
-
-def fetch_docket(session: requests.Session, api_key: str, docket_id: str) -> dict[str, Any]:
-    time.sleep(COURTLISTENER_REQUEST_PAUSE_SECONDS + random.uniform(0, 1))
-    return get_json(session, f"{COURTLISTENER_BASE}/api/rest/v4/dockets/{docket_id}/", api_key=api_key)
 
 
 def classify_case(client: Anthropic, candidate: dict[str, Any]) -> dict[str, Any]:
@@ -593,8 +637,14 @@ def build_case(
     return {
         "id": slugify(case_name, docket_number, existing_ids),
         "name": case_name,
-        "court": clean_text(first_value(docket, ("court", "court_id", "court_citation_string"))) or candidate.get("court", ""),
-        "court_full": clean_text(first_value(docket, ("court_full_name", "court_name", "courtFullName"))) or candidate.get("court", ""),
+        "court": clean_text(
+            first_value(docket, ("court", "court_id", "courtId", "court_citation_string", "courtCitationString"))
+        )
+        or candidate.get("court", ""),
+        "court_full": clean_text(
+            first_value(docket, ("court_full_name", "court_name", "courtFullName", "courtName", "court"))
+        )
+        or candidate.get("court", ""),
         "docket_number": docket_number,
         "courtlistener_docket_id": str(docket_id),
         "date_filed": clean_text(first_value(docket, ("date_filed", "dateFiled"))) or candidate.get("date_filed", ""),
@@ -661,11 +711,8 @@ def main() -> None:
         last_run = {}
 
     known_dockets = {docket_key(case.get("docket_number")) for case in cases if case.get("docket_number")}
-    raw_rejected_dockets = last_run.get("rejected_dockets", [])
-    if not isinstance(raw_rejected_dockets, list):
-        raw_rejected_dockets = []
-    rejected_dockets = {clean_text(item) for item in raw_rejected_dockets if clean_text(item)}
-    skipped_dockets = known_dockets | rejected_dockets
+    rejected_dockets, rejected_docket_set = rejected_docket_cache(last_run.get("rejected_dockets", []))
+    skipped_dockets = known_dockets | rejected_docket_set
     existing_ids = {clean_text(case.get("id")) for case in cases if case.get("id")}
     search_after = search_after_date(cases, last_run)
     limit = max_discovery_candidates()
@@ -674,6 +721,7 @@ def main() -> None:
     client = Anthropic(api_key=anthropic_key, timeout=ANTHROPIC_TIMEOUT, max_retries=0)
     candidates_by_docket: dict[str, dict[str, Any]] = {}
     discovery_complete = True
+    discovery_candidate_cap_reached = False
     courtlistener_rate_limited = False
 
     for query in SEARCH_QUERIES:
@@ -692,7 +740,7 @@ def main() -> None:
             if key not in skipped_dockets:
                 candidates_by_docket.setdefault(key, candidate)
             if limit and len(candidates_by_docket) >= limit:
-                discovery_complete = False
+                discovery_candidate_cap_reached = True
                 print(f"Warning: discovery candidate collection stopped at {limit} candidates.")
                 break
         if limit and len(candidates_by_docket) >= limit:
@@ -716,7 +764,7 @@ def main() -> None:
 
     candidates = list(candidates_by_docket.values())
     if limit and len(candidates) > limit:
-        discovery_complete = False
+        discovery_candidate_cap_reached = True
         print(f"Warning: discovery candidate list capped at {limit} of {len(candidates)} candidates.")
         candidates = candidates[:limit]
 
@@ -741,7 +789,7 @@ def main() -> None:
                 classification = fallback
                 print(f"Warning: using deterministic relevance fallback for {candidate['docket_number']}.")
             else:
-                rejected_dockets.add(key)
+                remember_rejected_docket(rejected_dockets, rejected_docket_set, key)
                 continue
         if clean_text(classification.get("confidence")).lower() not in {"high", "medium"}:
             fallback = fallback_classification(candidate)
@@ -749,9 +797,11 @@ def main() -> None:
                 classification = fallback
                 print(f"Warning: using deterministic confidence fallback for {candidate['docket_number']}.")
             else:
-                rejected_dockets.add(key)
+                remember_rejected_docket(rejected_dockets, rejected_docket_set, key)
                 continue
-        docket = {}
+        docket = candidate.get("raw", {})
+        if not isinstance(docket, dict):
+            docket = {}
         discovered.append(build_case(candidate, docket, classification, client, existing_ids))
 
     cases.extend(discovered)
@@ -759,8 +809,9 @@ def main() -> None:
 
     last_run["cases_discovered"] = len(discovered)
     last_run["discovery_complete"] = discovery_complete
+    last_run["discovery_candidate_cap_reached"] = discovery_candidate_cap_reached
     last_run["courtlistener_rate_limited"] = courtlistener_rate_limited
-    last_run["rejected_dockets"] = sorted(rejected_dockets)[-500:]
+    last_run["rejected_dockets"] = rejected_dockets[-MAX_REJECTED_DOCKETS:]
     write_json(LAST_RUN_PATH, last_run)
 
     print(f"Discovered {len(discovered)} new cases.")

@@ -54,13 +54,13 @@ Discovery combines deterministic search heuristics with model-assisted legal rel
 
 The CourtListener query set is intentionally broad. It covers generative AI, training data, LLMs, right of publicity, image generation, software patent disputes, scraping, open-source licensing, biometric/privacy terms, blockchain/NFT issues, trade secret language, and other technology/IP indicators.
 
-By default, discovery stops after `DEFAULT_MAX_DISCOVERY_CANDIDATES = 5` candidates. The cap can be overridden with:
+By default, discovery stops after `DEFAULT_MAX_DISCOVERY_CANDIDATES = 5` candidates. The cap bounds how many new candidates are classified in one run and can be overridden with:
 
 ```bash
 export MAX_DISCOVERY_CANDIDATES=20
 ```
 
-The default cap is a rate-limit control. CourtListener queries are spaced by `COURTLISTENER_REQUEST_PAUSE_SECONDS = 4` plus jitter, and API failures use bounded exponential backoff.
+The default cap is a rate-limit control. Hitting it sets `discovery_candidate_cap_reached: true`, but it does not by itself block the discovery checkpoint. CourtListener queries are spaced by `COURTLISTENER_REQUEST_PAUSE_SECONDS = 4` plus jitter, and API failures use bounded exponential backoff.
 
 ### Search Window
 
@@ -230,7 +230,8 @@ When an entry is classified as `significant_ruling`, a deduplicated key-ruling r
 ```json
 {
   "cases_discovered": 5,
-  "discovery_complete": false,
+  "discovery_complete": true,
+  "discovery_candidate_cap_reached": true,
   "rejected_dockets": ["3:26-cv-04053"],
   "entries_updated": 48,
   "docket_update_complete": true,
@@ -244,9 +245,9 @@ When an entry is classified as `significant_ruling`, a deduplicated key-ruling r
 }
 ```
 
-`discovery_last_run_date` and `docket_last_run_date` advance independently. `last_run_date` remains a legacy all-phases-complete checkpoint and advances only when both discovery and docket update completed. This prevents an incomplete discovery sweep from forcing docket polling to repeat an unnecessarily broad window.
+`discovery_last_run_date` and `docket_last_run_date` advance independently. `last_run_date` remains a legacy all-phases-complete checkpoint and advances only when both discovery and docket update completed. A candidate-cap hit is treated as a normal budget state and recorded in `discovery_candidate_cap_reached`; API failures or classifier failures can still leave `discovery_complete: false` and prevent the discovery checkpoint from advancing.
 
-When `docket_entry_cap_reached` is `true`, the run hit the configured summary budget. Valid summarized entries still publish, but the docket checkpoint does not advance so deferred entries are picked up later.
+When `docket_entry_cap_reached` is `true`, the run hit the configured summary budget. Valid summarized entries still publish, but the docket checkpoint does not advance until a later pass catches up. The scheduled workflow runs multiple bounded docket/summarization passes before publication so a large backlog can clear in one job instead of waiting for the next five-day run.
 
 ## Publication Flow
 
@@ -257,14 +258,13 @@ The job runs on Ubuntu with Python 3.11:
 1. Check out this pipeline repository.
 2. Install Python dependencies from `requirements.txt`.
 3. Run `scripts/discover_cases.py`.
-4. Run `scripts/update_dockets.py`.
-5. Run `scripts/summarize.py`.
-6. Validate generated tracker data.
-7. Commit any changed files in `data/` back to this repository.
-8. Check out `taherezm/undergradtechlaw` using `IPTL_SITE_TOKEN`.
-9. Validate the site tracker renderer contract.
-10. Copy `data/cases.json` and `data/updates.json` into `iptl-iu-site/tools/litigation-tracker/`.
-11. Commit and push changed tracker data to the site repository.
+4. Run bounded `scripts/update_dockets.py` and `scripts/summarize.py` passes until `docket_update_complete` is true or `MAX_DOCKET_UPDATE_PASSES` is reached.
+5. Validate generated tracker data.
+6. Commit any changed files in `data/` back to this repository.
+7. Check out `taherezm/undergradtechlaw` using `IPTL_SITE_TOKEN`.
+8. Validate the site tracker renderer contract.
+9. Copy `data/cases.json` and `data/updates.json` into `iptl-iu-site/tools/litigation-tracker/`.
+10. Commit and push changed tracker data to the site repository.
 
 Because the site repository is served by GitHub Pages from `main`, the copied JSON files become available to the public tracker after the site repo deploys.
 
@@ -275,8 +275,9 @@ Use the scheduled workflow for routine updates. Manual `workflow_dispatch` runs 
 Expected non-fatal warning states:
 
 - CourtListener rate limits can leave `courtlistener_rate_limited: true`; valid fetched data still publishes, and the missed window is retried.
-- The summary cap can leave `docket_entry_cap_reached: true`; valid summarized data still publishes, and overflow is retried because the docket checkpoint is not advanced.
-- Incomplete discovery can leave `discovery_complete: false`; discovery resumes from the prior discovery checkpoint.
+- The discovery candidate cap can leave `discovery_candidate_cap_reached: true`; valid classified cases still publish, and the discovery checkpoint can still advance unless another discovery failure occurred.
+- The summary cap can leave `docket_entry_cap_reached: true`; valid summarized data still publishes, and the workflow runs additional bounded passes before leaving overflow for the next run.
+- CourtListener or classifier failures can leave `discovery_complete: false`; discovery resumes from the prior discovery checkpoint.
 
 Routine maintenance checklist:
 
@@ -380,9 +381,10 @@ The pipeline is designed to be idempotent and safe to re-run:
 - CourtListener requests use retry/backoff and honor `Retry-After` where possible;
 - CourtListener search can fall back to unauthenticated requests on auth errors or persistent authenticated rate limits;
 - Anthropic requests use bounded retries;
-- `MAX_SUMMARIES_PER_RUN` caps model-backed docket summaries and leaves overflow queued for the next run;
+- `MAX_DISCOVERY_CANDIDATES` caps candidate classification per run and records `discovery_candidate_cap_reached` without blocking the discovery checkpoint;
+- `MAX_SUMMARIES_PER_RUN` caps each model-backed docket-summary pass, and `MAX_DOCKET_UPDATE_PASSES` bounds how many catch-up passes the workflow runs before publication;
 - malformed model JSON falls back to deterministic summaries or deterministic relevance checks;
-- incomplete discovery or docket polling prevents the affected phase checkpoint from advancing.
+- discovery failures or incomplete docket polling prevent the affected phase checkpoint from advancing.
 
 ## Configuration
 
@@ -396,6 +398,7 @@ Optional environment variables:
 
 - `MAX_DISCOVERY_CANDIDATES`: maximum number of discovery candidates to classify per run. Defaults to `5`.
 - `MAX_SUMMARIES_PER_RUN`: maximum number of new docket-entry summaries to generate per run. Defaults to `100`.
+- `MAX_DOCKET_UPDATE_PASSES`: maximum number of docket-update/summarization passes per workflow job. Defaults to `5` in GitHub Actions.
 - `USE_ANTHROPIC_CASE_SUMMARIES`: set to `1`, `true`, or `yes` to allow model-generated initial case summaries instead of deterministic summaries.
 
 ## Local Development

@@ -334,10 +334,11 @@ def main() -> None:
     write_json(LAST_RUN_PATH, last_run)
 
     if docket_entry_cap_reached:
-        print(
-            f"Warning: summary cap reached at {summary_cap}; "
-            f"deferred at least {summaries_deferred} docket entries to the next run."
-        )
+        if summaries_deferred:
+            detail = f"deferred at least {summaries_deferred} docket entries to the next pass."
+        else:
+            detail = "stopped before every active docket could be checked."
+        print(f"Warning: summary cap reached at {summary_cap}; {detail}")
     print(f"Updated {len(new_updates)} entries across {changed_case_count} cases.")
 
 
