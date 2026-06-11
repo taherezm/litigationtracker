@@ -9,7 +9,7 @@ import os
 import random
 import re
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -30,6 +30,7 @@ COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
 COURTLISTENER_BASE_BACKOFF_SECONDS = 10
 COURTLISTENER_MAX_RETRY_AFTER_SECONDS = 30
 DEFAULT_MAX_SUMMARIES_PER_RUN = 100
+DOCKET_REFETCH_OVERLAP_DAYS = 2
 
 RESOLUTION_SIGNALS = (
     "JUDGMENT",
@@ -148,6 +149,12 @@ def get_json(
                 backoff_sleep(attempt)
                 continue
             raise RateLimitExceeded(f"CourtListener request failed for {url}: {exc}") from exc
+        if response.status_code == 429:
+            retry_after = retry_after_seconds(response)
+            if retry_after is not None and retry_after > COURTLISTENER_MAX_RETRY_AFTER_SECONDS:
+                raise RateLimitExceeded(
+                    f"CourtListener asked for {int(retry_after)}s backoff on {url}; deferring to the next run"
+                )
         if response.status_code == 429 or response.status_code >= 500:
             if attempt < MAX_RETRIES:
                 backoff_sleep(attempt, response)
@@ -172,14 +179,29 @@ def entry_text(entry: dict[str, Any]) -> str:
     return clean_text(first_value(entry, ("description", "entry_text", "entryText", "text", "short_description")))
 
 
-def fetch_entries(session: requests.Session, api_key: str, docket_id: str, last_run_date: str) -> list[dict[str, Any]]:
+def fetch_new_entries(
+    session: requests.Session,
+    api_key: str,
+    docket_id: str,
+    since_date: str,
+    existing_numbers: set[str],
+    budget: int,
+) -> tuple[list[dict[str, Any]], bool, bool]:
+    """Fetch publishable docket entries newer than since_date that are not yet tracked.
+
+    Returns (new_entries, fully_fetched, rate_limited). Pagination stops once
+    `budget` new entries are collected so one backlogged docket cannot consume
+    the whole run's API quota; the case checkpoint must not advance unless
+    fully_fetched is True.
+    """
     params: dict[str, Any] | None = {
         "docket": docket_id,
-        "date_filed__gte": last_run_date,
+        "date_filed__gte": since_date,
         "order_by": "-entry_number",
         "page_size": 50,
     }
-    entries: list[dict[str, Any]] = []
+    new_entries: list[dict[str, Any]] = []
+    seen_numbers: set[str] = set()
     next_url = DOCKET_ENTRIES_URL
     seen_urls: set[str] = set()
     while next_url:
@@ -187,17 +209,32 @@ def fetch_entries(session: requests.Session, api_key: str, docket_id: str, last_
             break
         seen_urls.add(next_url)
         time.sleep(COURTLISTENER_REQUEST_PAUSE_SECONDS + random.uniform(0, 1))
-        data = get_json(session, next_url, api_key=api_key, params=params)
+        try:
+            data = get_json(session, next_url, api_key=api_key, params=params)
+        except RateLimitExceeded as exc:
+            print(f"Warning: stopped docket update after CourtListener rate limit: {docket_id} ({exc})")
+            return new_entries, False, True
         results = data.get("results")
         if isinstance(results, list):
-            entries.extend(item for item in results if isinstance(item, dict))
+            for item in results:
+                if not isinstance(item, dict):
+                    continue
+                number = normalize_entry_number(item)
+                if not number or number in existing_numbers or number in seen_numbers:
+                    continue
+                if not entry_text(item):
+                    continue
+                if len(new_entries) >= budget:
+                    return new_entries, False, False
+                seen_numbers.add(number)
+                new_entries.append(item)
         next_value = clean_text(data.get("next"))
         if next_value.startswith("/"):
             next_url = f"{COURTLISTENER_BASE}{next_value}"
         else:
             next_url = next_value
         params = None
-    return entries
+    return new_entries, True, False
 
 
 def last_run_date(last_run: dict[str, Any]) -> str:
@@ -207,7 +244,17 @@ def last_run_date(last_run: dict[str, Any]) -> str:
     return (utc_now().date() - timedelta(days=5)).isoformat()
 
 
+def parse_iso_date(value: Any) -> date | None:
+    try:
+        return datetime.strptime(clean_text(value), "%Y-%m-%d").date()
+    except ValueError:
+        return None
+
+
 def case_since_date(case: dict[str, Any], global_since: str) -> str:
+    checked = parse_iso_date(case.get("docket_last_checked"))
+    if checked:
+        return (checked - timedelta(days=DOCKET_REFETCH_OVERLAP_DAYS)).isoformat()
     entries = [entry for entry in case.get("docket_entries", []) if isinstance(entry, dict)]
     if entries:
         return global_since
@@ -259,11 +306,16 @@ def main() -> None:
     docket_update_complete = True
     courtlistener_rate_limited = False
     docket_entry_cap_reached = False
-    summaries_deferred = 0
     now = utc_now().replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    today = utc_now().date().isoformat()
+
+    # Stalest checkpoints first so a rate-limited run still rotates coverage
+    # across every active docket instead of starving the cases listed last.
+    active_cases.sort(key=lambda case: case_since_date(case, since))
 
     for case in active_cases:
-        if len(new_updates) >= summary_cap:
+        budget = summary_cap - len(new_updates)
+        if budget <= 0:
             docket_update_complete = False
             docket_entry_cap_reached = True
             break
@@ -273,26 +325,13 @@ def main() -> None:
             for entry in case.get("docket_entries", [])
             if isinstance(entry, dict) and clean_text(entry.get("entry_number"))
         }
+        fetched_entries, fully_fetched, rate_limited = fetch_new_entries(
+            session, api_key, docket_id, case_since_date(case, since), existing_numbers, budget
+        )
         case_new_entries = 0
-        try:
-            fetched_entries = fetch_entries(session, api_key, docket_id, case_since_date(case, since))
-        except RateLimitExceeded as exc:
-            docket_update_complete = False
-            courtlistener_rate_limited = True
-            print(f"Warning: skipped docket update after CourtListener rate limit: {docket_id} ({exc})")
-            break
         for raw_entry in fetched_entries:
             number = normalize_entry_number(raw_entry)
-            if not number or number in existing_numbers:
-                continue
             raw_text = entry_text(raw_entry)
-            if not raw_text:
-                continue
-            if len(new_updates) >= summary_cap:
-                docket_update_complete = False
-                docket_entry_cap_reached = True
-                summaries_deferred += 1
-                continue
             new_entry = {
                 "entry_number": number,
                 "date": entry_date(raw_entry),
@@ -301,7 +340,6 @@ def main() -> None:
                 "significance": None,
             }
             case.setdefault("docket_entries", []).append(new_entry)
-            existing_numbers.add(number)
             case_new_entries += 1
             if needs_review(raw_text):
                 case["status"] = "needs_review"
@@ -318,7 +356,15 @@ def main() -> None:
             )
         if case_new_entries:
             changed_case_count += 1
-        if docket_entry_cap_reached:
+        if rate_limited:
+            docket_update_complete = False
+            courtlistener_rate_limited = True
+            break
+        if fully_fetched:
+            case["docket_last_checked"] = today
+        else:
+            docket_update_complete = False
+            docket_entry_cap_reached = True
             break
 
     updates = new_updates + updates
@@ -329,16 +375,15 @@ def main() -> None:
     last_run["docket_update_complete"] = docket_update_complete
     last_run["courtlistener_rate_limited"] = bool(last_run.get("courtlistener_rate_limited")) or courtlistener_rate_limited
     last_run["docket_entry_cap_reached"] = docket_entry_cap_reached
-    last_run["summaries_deferred"] = summaries_deferred
+    last_run["summaries_deferred"] = 0
     last_run["max_summaries_per_run"] = summary_cap
     write_json(LAST_RUN_PATH, last_run)
 
     if docket_entry_cap_reached:
-        if summaries_deferred:
-            detail = f"deferred at least {summaries_deferred} docket entries to the next pass."
-        else:
-            detail = "stopped before every active docket could be checked."
-        print(f"Warning: summary cap reached at {summary_cap}; {detail}")
+        print(
+            f"Warning: summary cap reached at {summary_cap}; "
+            "remaining dockets resume from their saved checkpoints on the next pass."
+        )
     print(f"Updated {len(new_updates)} entries across {changed_case_count} cases.")
 
 

@@ -9,7 +9,7 @@ import os
 import random
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -246,7 +246,7 @@ Respond ONLY with valid JSON, no preamble:
 }}"""
     for attempt in range(MAX_RETRIES + 1):
         try:
-            text = anthropic_message(client, prompt, max_tokens=200)
+            text = anthropic_message(client, prompt, max_tokens=500)
         except Exception as exc:
             print(
                 f"Warning: Anthropic summary request failed for entry {clean_text(entry.get('entry_number'))}; using fallback summary: {exc}"
@@ -291,6 +291,43 @@ def non_negative_int(value: Any) -> int:
         return max(0, int(value))
     except (TypeError, ValueError):
         return 0
+
+
+def rollback_case_checkpoints(deferred: list[tuple[dict[str, Any], dict[str, Any]]]) -> None:
+    """Move case docket checkpoints behind removed entries so they are refetched.
+
+    Deferred entries are deleted from the publishable data, but the docket
+    update stage may already have advanced those cases' checkpoints past them.
+    Without a rollback the entries would never be fetched again.
+    """
+    earliest_by_case: dict[int, tuple[dict[str, Any], str | None]] = {}
+    for case, entry in deferred:
+        if not isinstance(case, dict) or "docket_last_checked" not in case:
+            continue
+        entry_date = clean_text(entry.get("date")) or None
+        stored = earliest_by_case.get(id(case))
+        if stored is None:
+            earliest_by_case[id(case)] = (case, entry_date)
+        else:
+            _, current = stored
+            if entry_date is None or current is None:
+                earliest_by_case[id(case)] = (case, None)
+            elif entry_date < current:
+                earliest_by_case[id(case)] = (case, entry_date)
+
+    for case, earliest in earliest_by_case.values():
+        rolled_back: str | None = None
+        if earliest is not None:
+            try:
+                parsed = datetime.strptime(earliest, "%Y-%m-%d").date()
+            except ValueError:
+                parsed = None
+            if parsed is not None:
+                rolled_back = (parsed - timedelta(days=1)).isoformat()
+        if rolled_back is None:
+            case.pop("docket_last_checked", None)
+        else:
+            case["docket_last_checked"] = min(clean_text(case["docket_last_checked"]) or rolled_back, rolled_back)
 
 
 def remove_deferred_entries(
@@ -420,6 +457,7 @@ def main() -> None:
 
     if deferred_pending:
         updates = remove_deferred_entries(cases, updates, deferred_pending)
+        rollback_case_checkpoints(deferred_pending)
         last_run["docket_update_complete"] = False
         last_run["docket_entry_cap_reached"] = True
         last_run["summaries_deferred"] = non_negative_int(last_run.get("summaries_deferred")) + len(
@@ -437,15 +475,6 @@ def main() -> None:
     else:
         print("Warning: docket_last_run_date was not advanced because docket update did not complete.")
 
-    if last_run.get("discovery_complete", True):
-        last_run["discovery_last_run_date"] = today
-    else:
-        print("Warning: discovery_last_run_date was not advanced because discovery did not complete.")
-
-    if last_run.get("discovery_complete", True) and last_run.get("docket_update_complete", True):
-        last_run["last_run_date"] = today
-    else:
-        print("Warning: last_run_date was not advanced because discovery or docket update did not complete.")
     last_run["summaries_generated"] = generated
     last_run["max_summaries_per_run"] = summary_cap
     last_run.setdefault("cases_discovered", 0)

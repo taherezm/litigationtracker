@@ -85,6 +85,13 @@ def main() -> int:
     caught_up = False
     stopped_on_rate_limit = False
 
+    # The flag describes this run only; clear any carryover from a previous
+    # run so one throttled job does not mark every later job as rate-limited.
+    last_run = load_last_run()
+    if last_run.get("courtlistener_rate_limited"):
+        last_run["courtlistener_rate_limited"] = False
+        write_last_run(last_run)
+
     for pass_number in range(1, max_passes + 1):
         print(f"Docket update pass {pass_number}/{max_passes}")
         run_script("scripts/update_dockets.py")

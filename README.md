@@ -13,8 +13,8 @@ Live tracker: [undergradtechlaw.org](https://www.undergradtechlaw.org/) in the T
 - Source repository: `taherezm/litigationtracker`
 - Public site repository: `taherezm/undergradtechlaw`
 - Public data path: `tools/litigation-tracker/cases.json` and `tools/litigation-tracker/updates.json`
-- Schedule: GitHub Actions cron at `13:17 UTC` on the configured 5-day cadence
-- Pipeline: discover cases, update dockets, summarize entries, validate JSON, publish to the site
+- Schedule: GitHub Actions cron daily at `13:17 UTC`
+- Pipeline: update dockets, summarize entries, discover cases, validate JSON, publish to the site
 - Cost controls: discovery is capped at 5 candidates by default, and docket summaries are capped at 100 new entries per run
 - Publication rule: unsummarized or placeholder docket activity is not allowed into public JSON
 
@@ -30,14 +30,14 @@ The static site repository (`taherezm/undergradtechlaw`) owns the browser UI. Th
 
 ## Pipeline Overview
 
-The tracker runs as a three-stage ETL pipeline:
+The tracker runs as a three-stage ETL pipeline, in this execution order:
 
-1. `scripts/discover_cases.py`
-   Searches for new candidate cases, classifies AI/IP relevance, normalizes accepted candidates into case records, and writes them into `data/cases.json`.
-2. `scripts/update_dockets.py`
-   Polls CourtListener docket entries for every active tracked case, appends new entries, and prepends recent activity records into `data/updates.json`.
-3. `scripts/summarize.py`
+1. `scripts/update_dockets.py`
+   Polls CourtListener docket entries for every active tracked case from each case's own `docket_last_checked` checkpoint, appends new entries, and prepends recent activity records into `data/updates.json`. Run via `scripts/run_docket_update_passes.py`, which alternates docket and summarization passes.
+2. `scripts/summarize.py`
    Summarizes unsummarized docket entries, classifies their litigation significance, updates procedural posture, records key rulings, and marks resolved cases when appropriate.
+3. `scripts/discover_cases.py`
+   Searches for new candidate cases, classifies AI/IP relevance, normalizes accepted candidates into case records, and writes them into `data/cases.json`. Runs last (and at most once per day) so docket freshness gets priority on the shared CourtListener request quota.
 
 Each stage reads and writes JSON directly. Writes are atomic: data is serialized to a temporary sibling file and then moved into place with `Path.replace()`.
 
@@ -133,14 +133,18 @@ For each active case, the script calls the CourtListener docket entries API:
 ```text
 GET /api/rest/v4/docket-entries/
   docket=<courtlistener_docket_id>
-  date_filed__gte=<docket_last_run_date>
+  date_filed__gte=<case docket_last_checked - 2 days, or fallback>
   order_by=-entry_number
   page_size=50
 ```
 
-If both `docket_last_run_date` and the legacy `last_run_date` are missing, the fallback window is the previous five days. Newly discovered cases with no stored docket entries are polled from their filing date so the first docket update can backfill the initial case history.
+Each case carries its own `docket_last_checked` checkpoint. When a case is fully checked in a run, its checkpoint advances to that day, even if the run is later rate-limited or capped while checking other cases. This makes progress permanent: a throttled run never causes the next run to refetch windows that already completed. The two-day overlap re-covers entries that are docketed late, and entry-number deduplication makes the overlap harmless.
 
-The docket update stage honors `MAX_SUMMARIES_PER_RUN`, which defaults to `100`. This cap is applied before new entries are committed into the public data files so every newly accepted docket entry can be summarized in the same run. If the cap is reached, `docket_update_complete` is set to `false`, the docket checkpoint is not advanced, and overflow is retried on the next scheduled run.
+Cases are processed stalest-checkpoint-first so repeated rate-limited runs rotate coverage across every active docket instead of starving the cases checked last. Cases without a checkpoint fall back to the global `docket_last_run_date` (or the previous five days if that is also missing). Newly discovered cases with no stored docket entries are polled from their filing date so the first docket update can backfill the initial case history.
+
+The docket update stage honors `MAX_SUMMARIES_PER_RUN`, which defaults to `100`. The cap is enforced while paginating, so one backlogged docket cannot consume the whole run's API budget, and it is applied before new entries are committed into the public data files so every newly accepted docket entry can be summarized in the same run. If the cap interrupts a case, `docket_update_complete` is set to `false`, that case's checkpoint is not advanced, and overflow is retried on the next pass or run.
+
+If CourtListener answers `429` with a `Retry-After` longer than the in-run backoff budget (30 seconds), the run stops polling immediately instead of burning retries, publishes what it has, and leaves the remaining checkpoints for the next run.
 
 ### Entry Deduplication
 
@@ -245,20 +249,22 @@ When an entry is classified as `significant_ruling`, a deduplicated key-ruling r
 }
 ```
 
-`discovery_last_run_date` and `docket_last_run_date` advance independently. `last_run_date` remains a legacy all-phases-complete checkpoint and advances only when both discovery and docket update completed. A candidate-cap hit is treated as a normal budget state and recorded in `discovery_candidate_cap_reached`; API failures or classifier failures can still leave `discovery_complete: false` and prevent the discovery checkpoint from advancing.
+`discovery_last_run_date` and `docket_last_run_date` advance independently. `discover_cases.py` owns the discovery checkpoint and advances it when discovery completes. `docket_last_run_date` advances when a docket pass completes every active case; it is now only the fallback window for cases that do not yet carry their own `docket_last_checked` checkpoint. `last_run_date` remains a legacy all-phases-complete checkpoint and advances only when both discovery and docket update completed. A candidate-cap hit is treated as a normal budget state and recorded in `discovery_candidate_cap_reached`; API failures or classifier failures can still leave `discovery_complete: false` and prevent the discovery checkpoint from advancing.
 
-When `docket_entry_cap_reached` is `true`, the run hit the configured summary budget. Valid summarized entries still publish, but the docket checkpoint does not advance until a later pass catches up. The scheduled workflow runs multiple bounded docket/summarization passes before publication so a large backlog can clear in one job instead of waiting for the next five-day run.
+`courtlistener_rate_limited` describes the current run only: `run_docket_update_passes.py` clears it at the start of each job, and the docket and discovery stages OR their own results into it.
+
+When `docket_entry_cap_reached` is `true`, the run hit the configured summary budget. Valid summarized entries still publish, and per-case checkpoints for fully checked cases still advance; only the interrupted and unreached cases retry from their prior checkpoints. The scheduled workflow runs multiple bounded docket/summarization passes before publication so a large backlog can clear in one job instead of waiting for the next scheduled run.
 
 ## Publication Flow
 
-GitHub Actions runs `.github/workflows/scheduled_update.yml` every five days at `13:17 UTC` and also supports manual dispatch. The run is offset from the top of the hour to reduce schedule-delay risk on GitHub Actions.
+GitHub Actions runs `.github/workflows/scheduled_update.yml` daily at `13:17 UTC` and also supports manual dispatch. The run is offset from the top of the hour to reduce schedule-delay risk on GitHub Actions. The daily cadence keeps each run's docket window small, which keeps request volume low and makes CourtListener rate limits both rarer and cheaper to recover from.
 
 The job runs on Ubuntu with Python 3.11:
 
 1. Check out this pipeline repository.
 2. Install Python dependencies from `requirements.txt`.
-3. Run `scripts/discover_cases.py`.
-4. Run `scripts/run_docket_update_passes.py`, which performs bounded `scripts/update_dockets.py` and `scripts/summarize.py` passes until `docket_update_complete` is true, `MAX_DOCKET_UPDATE_PASSES` is reached, or CourtListener rate-limits docket polling.
+3. Run `scripts/run_docket_update_passes.py`, which performs bounded `scripts/update_dockets.py` and `scripts/summarize.py` passes until `docket_update_complete` is true, `MAX_DOCKET_UPDATE_PASSES` is reached, or CourtListener rate-limits docket polling.
+4. Run `scripts/discover_cases.py`. Docket updates run first so tracked cases get first claim on the CourtListener request quota; discovery is skipped if it already completed earlier the same day, and newly discovered cases backfill on the next run.
 5. Validate generated tracker data.
 6. Commit any changed files in `data/` back to this repository.
 7. Check out `taherezm/undergradtechlaw` using `IPTL_SITE_TOKEN`.
@@ -272,9 +278,11 @@ Because the site repository is served by GitHub Pages from `main`, the copied JS
 
 Use the scheduled workflow for routine updates. Manual `workflow_dispatch` runs are supported, but they use live CourtListener and Anthropic API calls, so they should be treated as real production runs.
 
+Avoid cancelling in-flight runs and avoid back-to-back manual dispatches: data only commits at the end of a job, so a cancelled run loses its fetched entries while still having spent the CourtListener request quota that the next run needs.
+
 Expected non-fatal warning states:
 
-- CourtListener rate limits can leave `courtlistener_rate_limited: true`; valid fetched data still publishes, and the missed window is retried.
+- CourtListener rate limits can leave `courtlistener_rate_limited: true`; valid fetched data still publishes, per-case checkpoints that completed still advance, and the missed window is retried.
 - The discovery candidate cap can leave `discovery_candidate_cap_reached: true`; valid classified cases still publish, and the discovery checkpoint can still advance unless another discovery failure occurred.
 - The summary cap can leave `docket_entry_cap_reached: true`; valid summarized data still publishes, and the workflow runs additional bounded passes before leaving overflow for the next run. CourtListener rate limits stop additional same-job passes so the workflow does not repeatedly call a limited API.
 - CourtListener or classifier failures can leave `discovery_complete: false`; discovery resumes from the prior discovery checkpoint.

@@ -211,6 +211,12 @@ def get_json(
                 backoff_sleep(attempt)
                 continue
             raise RateLimitExceeded(f"CourtListener request failed for {url}: {exc}") from exc
+        if response.status_code == 429:
+            retry_after = retry_after_seconds(response)
+            if retry_after is not None and retry_after > COURTLISTENER_MAX_RETRY_AFTER_SECONDS:
+                raise RateLimitExceeded(
+                    f"CourtListener asked for {int(retry_after)}s backoff on {url}; deferring to the next run"
+                )
         if response.status_code == 429 or response.status_code >= 500:
             if attempt < MAX_RETRIES:
                 backoff_sleep(attempt, response)
@@ -471,15 +477,14 @@ def search_cases(session: requests.Session, api_key: str, query: str, search_aft
         params["filed_after"] = search_after
     try:
         data = get_json(session, COURTLISTENER_SEARCH_URL, api_key=api_key, params=params)
-    except RateLimitExceeded as exc:
-        print(f"Warning: authenticated CourtListener search failed; retrying search without auth ({exc})")
-        data = get_json(session, COURTLISTENER_SEARCH_URL, api_key=None, params=params)
     except requests.HTTPError as exc:
         status = exc.response.status_code if exc.response is not None else None
-        if status not in {401, 403}:
-            raise
-        print(f"Warning: authenticated CourtListener search returned {status}; retrying search without auth.")
-        data = get_json(session, COURTLISTENER_SEARCH_URL, api_key=None, params=params)
+        if status in {401, 403}:
+            raise SystemExit(
+                f"CourtListener rejected COURTLISTENER_API_KEY (HTTP {status}); "
+                "fix the repository secret before the pipeline can run."
+            ) from exc
+        raise
     return data.get("results", []) if isinstance(data.get("results"), list) else []
 
 
@@ -723,7 +728,8 @@ def main() -> None:
         last_run["cases_discovered"] = 0
         last_run["discovery_complete"] = True
         last_run["discovery_candidate_cap_reached"] = False
-        last_run["courtlistener_rate_limited"] = False
+        if last_run.get("docket_update_complete", True):
+            last_run["last_run_date"] = utc_today().isoformat()
         write_json(LAST_RUN_PATH, last_run)
         print(f"Discovery already current for {utc_today().isoformat()}; skipping.")
         return
@@ -831,8 +837,14 @@ def main() -> None:
     last_run["cases_discovered"] = len(discovered)
     last_run["discovery_complete"] = discovery_complete
     last_run["discovery_candidate_cap_reached"] = discovery_candidate_cap_reached
-    last_run["courtlistener_rate_limited"] = courtlistener_rate_limited
+    last_run["courtlistener_rate_limited"] = (
+        bool(last_run.get("courtlistener_rate_limited")) or courtlistener_rate_limited
+    )
     last_run["rejected_dockets"] = rejected_dockets[-MAX_REJECTED_DOCKETS:]
+    if discovery_complete:
+        last_run["discovery_last_run_date"] = utc_today().isoformat()
+        if last_run.get("docket_update_complete", True):
+            last_run["last_run_date"] = utc_today().isoformat()
     write_json(LAST_RUN_PATH, last_run)
 
     print(f"Discovered {len(discovered)} new cases.")

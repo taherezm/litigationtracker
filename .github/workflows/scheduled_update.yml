@@ -2,7 +2,7 @@ name: Litigation Tracker — Scheduled Update
 
 on:
   schedule:
-    - cron: '17 13 */5 * *'
+    - cron: '17 13 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -33,17 +33,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Discover new cases
-        env:
-          COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/discover_cases.py
-
+      # Docket updates run before discovery so tracked cases get first claim on the
+      # CourtListener request quota; newly discovered cases backfill on the next run.
       - name: Update dockets and summarize entries
         env:
           COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/run_docket_update_passes.py
+
+      - name: Discover new cases
+        env:
+          COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/discover_cases.py
 
       - name: Validate tracker data
         run: python scripts/validate_tracker_data.py
