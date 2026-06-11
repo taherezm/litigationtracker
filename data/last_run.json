@@ -33,6 +33,7 @@
   "docket_entry_cap_reached": false,
   "summaries_deferred": 0,
   "max_summaries_per_run": 100,
-  "discovery_candidate_cap_reached": true,
-  "discovery_last_run_date": "2026-06-11"
+  "discovery_candidate_cap_reached": false,
+  "discovery_last_run_date": "2026-06-11",
+  "max_docket_update_passes": 5
 }
