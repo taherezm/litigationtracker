@@ -1,5 +1,905 @@
 [
   {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-13",
+    "summary": "The court assigned this case to Judge P. Kevin Castel in the Southern District of New York and issued a notice directing attorneys to review the judge's individual practices and the court's electronic filing rules.",
+    "significance": "minor_update",
+    "entry_number": "464012341",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-13",
+    "summary": "The court designated Magistrate Judge Stewart D. Aaron to handle referred matters and notified the parties that they may consent to have a magistrate judge preside over the entire case under 28 U. S. C. § 636(c).",
+    "significance": "minor_update",
+    "entry_number": "464012342",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-13",
+    "summary": "The court's clerk designated this case for Electronic Case Filing (ECF), meaning all documents will be submitted and managed through the federal court's online filing system.",
+    "significance": "minor_update",
+    "entry_number": "464012343",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-13",
+    "summary": "The court's docketing staff issued an administrative correction to the case opening entry, updating three data fields: the cause of action code was changed from copyright infringement of digital communications (17:512) to general copyright infringement (17:101), the jury demand was corrected to reflect a plaintiff jury demand, and the county was changed from New York to Queens.",
+    "significance": "minor_update",
+    "entry_number": "464012340",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-13",
+    "summary": "The court clerk submitted the required AO 121 copyright case-opening form to the U. S. Copyright Office, notifying the Register of Copyrights that a copyright action has been filed in the Southern District of New York, as required by federal statute.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-13",
+    "summary": "The court issued an electronic summons directed at defendant Suno, Inc. , formally notifying the company of the lawsuit brought by Poseidon Wave Media LLC. This is a standard early procedural step that begins the process of bringing Suno, Inc. into the case.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-12",
+    "summary": "Plaintiff's attorney Richard Garbarini submitted an AO 121 copyright reporting form to the court, along with an exhibit listing the copyrights at issue in the case, as required by court administrative procedures when a copyright case is filed.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-12",
+    "summary": "Plaintiff Poseidon Wave Media LLC filed a request asking the court clerk to issue a summons to defendant Suno, Inc. , a standard procedural step to formally notify Suno of the lawsuit following the filing of the complaint.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-12",
+    "summary": "Plaintiff Poseidon Wave Media LLC filed a Civil Cover Sheet in the Southern District of New York, marking an early administrative step in initiating this lawsuit against Suno, Inc.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-05-12",
+    "summary": "Plaintiff Poseidon Wave Media LLC filed a complaint against Suno, Inc. in the Southern District of New York, attaching eight exhibits consisting of copyright registrations, assignment records, and screenshots in support of its claims.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "The court construed a letter filed by Dr. Kenneth Saladin as a motion to intervene—either as of right or permissively—in which he sought to represent a proposed subclass with separate counsel. The court denied the motion without prejudice, allowing Dr. Saladin to renew it if and when the court sets a schedule for class certification briefing.",
+    "significance": "significant_ruling",
+    "entry_number": "56",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "The judge disclosed that his spouse authored a book published by Kent State University Press in June 2025, and noted that the proposed class definition excludes the presiding judge and their family members. The court ordered any party seeking more information or wishing to raise a concern about this disclosure to do so within 14 days.",
+    "significance": "minor_update",
+    "entry_number": "55",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "Kenneth Saladin, through his attorney David Slarskey, filed a letter with Judge P. Kevin Castel on June 10, 2026, in further support of his earlier request to intervene in this case between Elsevier and Meta Platforms.",
+    "significance": "minor_update",
+    "entry_number": "54",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-09",
+    "summary": "Defendant Mark Zuckerberg, through counsel Justin V. Shur, submitted a pre-motion letter to Judge P. Kevin Castel on June 9, 2026, signaling an intent to file a motion to transfer the case to a different federal court.",
+    "significance": "minor_update",
+    "entry_number": "53",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-09",
+    "summary": "Attorney Justin V. Shur filed a notice of appearance in the case on behalf of defendant Mark Zuckerberg, formally entering the litigation as counsel of record for him.",
+    "significance": "minor_update",
+    "entry_number": "52",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-12",
+    "summary": "Magistrate Judge Ona T. Wang held a status conference on May 12, 2026, in this case, which is part of a consolidated multidistrict litigation proceeding in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "464559655",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-01",
+    "summary": "The court accepted this case as related to a multidistrict litigation proceeding (1:25-md-03143-SHS-OTW) and created an administrative association between the two matters, with a formal notice of assignment to follow.",
+    "significance": "minor_update",
+    "entry_number": "462689161",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-01",
+    "summary": "The court's docket was updated to associate this case with a consolidated multidistrict litigation proceeding, In re OpenAI, Inc. , No. 1:25-md-03143 (S. D. N. Y. ), centralizing it with related cases before Judge Sidney Stein and Magistrate Judge Ona Wang.",
+    "significance": "minor_update",
+    "entry_number": "462689162",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-01",
+    "summary": "The court assigned this transferred case to Judge Sidney H. Stein in the Southern District of New York and issued a standard notice directing attorneys to review the judge's individual practices and the court's electronic filing rules.",
+    "significance": "minor_update",
+    "entry_number": "462689163",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-01",
+    "summary": "The court designated Magistrate Judge Ona T. Wang to handle referred matters in this case and notified the parties that they may consent to have a magistrate judge preside over the entire proceeding under 28 U. S. C. § 636(c).",
+    "significance": "minor_update",
+    "entry_number": "462689164",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-01",
+    "summary": "The court's clerk issued an administrative notice directing out-of-state attorneys to the S. D. N. Y. website for information on bar admission requirements and electronic filing rules.",
+    "significance": "minor_update",
+    "entry_number": "462689165",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-01",
+    "summary": "The court's electronic filing system designated this case for ECF (Electronic Case Filing), meaning all future documents will be submitted and managed through the court's online docketing system. This is a routine administrative step that typically occurs at the outset of a new case.",
+    "significance": "minor_update",
+    "entry_number": "462689160",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-18",
+    "summary": "The court ordered plaintiffs to explain in writing by May 29, 2026, why this case should not be paused while summary judgment motions are resolved in other related cases in the multidistrict litigation; defendants may file a response by June 5, 2026.",
+    "significance": "significant_ruling",
+    "entry_number": "104",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-15",
+    "summary": "This docket entry records: ORDER: in case 1:23-cv-08292-SHS-OTW; denying without prejudice (1358) Letter Motion to Compel; denying as moot (1364) Letter Motion to Compel; terminating (1368) Letter Motion to Compel; granting (1369) Letter Motion to Compel in case 1:23-cv-11195-SHS-OTW; d...",
+    "significance": "minor_update",
+    "entry_number": "103",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-12",
+    "summary": "Magistrate Judge Ona T. Wang ordered OpenAI to submit a letter brief of no more than three pages supporting its motion for a protective order, along with the disputed document related to the 'Multimodal Data Sources project,' for the court's private review by May 15, 2026, with the opposing party's response due by May 19, 2026; the court also directed the parties to file a joint status letter by May 15 if they resolve the dispute on their own.",
+    "significance": "minor_update",
+    "entry_number": "102",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-05-01",
+    "summary": "The case was transferred into the U. S. District Court for the Southern District of New York from the Northern District of California (case no. 5:26-cv-02730), with the original file and a certified copy of the transfer order and docket entries received by the new court.",
+    "significance": "minor_update",
+    "entry_number": "101",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "hobbs-v-meta-platforms-inc",
+    "case_name": "Hobbs v. Meta Platforms, Inc.",
+    "entry_date": "2026-05-22",
+    "summary": "Plaintiff's attorney David Stone filed a Civil Cover Sheet along with two Statement of Relatedness Forms (IH-32), which are used to notify the court of potentially related cases already pending in the district.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "hobbs-v-meta-platforms-inc",
+    "case_name": "Hobbs v. Meta Platforms, Inc.",
+    "entry_date": "2026-05-22",
+    "summary": "Plaintiffs Jeff Hobbs and Alfred Stone filed a complaint against Meta Platforms, Inc. , Mark Zuckerberg, Guillaume Lample, Joelle Pineau, and 100 unnamed defendants in the Southern District of New York, paying the $405. 00 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-16",
+    "summary": "The court referred discovery matters in this case to Magistrate Judge Susan van Keulen, who will oversee the discovery process going forward.",
+    "significance": "minor_update",
+    "entry_number": "461033299",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-06",
+    "summary": "The court's clerk flagged an electronic filing error because Ted Entertainment, Inc. submitted seven separate proposed summonses, but court rules require only one summons per case, with additional defendants listed on an attachment. The filings will not be processed, and Ted Entertainment must re-file correctly.",
+    "significance": "minor_update",
+    "entry_number": "459895077",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-05-19",
+    "summary": "The court approved a joint stipulation giving the OpenAI defendants more time to respond to the plaintiffs' class action complaint, with Judge Beth Labson Freeman signing the order on May 19, 2026.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-05-19",
+    "summary": "Both parties filed a stipulation agreeing to extend the deadline for the OpenAI defendants to respond to the plaintiffs' class action complaint, without requiring court approval under Civil Local Rule 6-1(a).",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-05-07",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a certificate of service confirming that several case-opening documents — including the complaint, summons, copyright action filing, consent/declination form, and initial scheduling order — were served on the opposing party.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-16",
+    "summary": "The court's clerk issued a notice resetting the case management conference following a case reassignment, scheduling a joint case management statement due August 20, 2026, and an initial case management conference for August 27, 2026, at 11:00 AM via videoconference before Judge Beth Labson Freeman.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-15",
+    "summary": "The court reassigned this case to Judge Beth Labson Freeman under a random selection process, removing Magistrate Judge Sallie Kim. All previously scheduled hearings and trial dates are vacated, though existing briefing schedules and other deadlines such as discovery cutoffs remain in effect.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-14",
+    "summary": "The Clerk of Court issued a notice that this case will be randomly reassigned from a Magistrate Judge to a District Court Judge because the necessary consents to Magistrate Judge jurisdiction have not been secured. All hearing dates currently scheduled before the Magistrate Judge have been vacated and must be rescheduled before the newly assigned District Judge.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-13",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a form indicating whether it consents to or declines having a U. S. Magistrate Judge preside over the case, a routine procedural step required early in federal litigation.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-09",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a copyright complaint against OpenAI Inc. in the Northern District of California, and the court transmitted the required statutory notice of the copyright action to the U. S. Copyright Office.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-09",
+    "summary": "The court issued summonses to seven named OpenAI-related entities, formally notifying them of the lawsuit and triggering their obligation to respond to the complaint.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-09",
+    "summary": "The court issued a scheduling order setting a Case Management Statement deadline of June 29, 2026, and an Initial Case Management Conference for July 6, 2026, to be held by videoconference in San Francisco.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-09",
+    "summary": "The court assigned this case to Magistrate Judge Sallie Kim and issued standard administrative instructions requiring plaintiff's counsel to serve the complaint, summons, and standing orders on OpenAI. A scheduling order is expected within two business days, and parties must indicate whether they consent to magistrate judge jurisdiction by April 23, 2026.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-07",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a proposed summons against OpenAI Inc. on April 7, 2026, a routine early-stage administrative step that initiates the formal process of notifying the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-03",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a proposed summons against OpenAI Inc. , a routine early-stage procedural step used to formally notify the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-03",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a proposed summons against OpenAI Inc. , a standard early-stage procedural step used to formally notify the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-03",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a proposed summons against OpenAI Inc. , a standard early procedural step used to formally notify the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-03",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a proposed summons against OpenAI Inc. , a routine early-stage document used to formally notify the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-03",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a proposed summons against OpenAI Inc. , a standard early-stage procedural step used to formally notify the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-03",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a proposed summons against OpenAI Inc. , a routine early-stage procedural step used to formally notify the defendant of the pending lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-03",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a proposed summons in its case against OpenAI Inc. , a routine early-stage step to formally notify the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-04-03",
+    "summary": "Ted Entertainment, Inc. filed a complaint against all defendants, initiating this lawsuit in the Northern District of California and paying the $405 filing fee. The complaint includes three attached exhibits submitted by counsel Rom Bar-Nissim.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "The court's clerk assigned this newly filed case to a judge, though no specific judge has been designated yet. This entry reflects the administrative opening of Encyclopaedia Britannica's lawsuit against OpenAI in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "457270079",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-05-12",
+    "summary": "Magistrate Judge Ona T. Wang held a status conference on May 12, 2026 in this case, which is part of a coordinated multidistrict litigation proceeding in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "464559256",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "The court's clerk designated this case for Electronic Case Filing (ECF), meaning all documents will be submitted and managed through the federal court's electronic filing system. This is a routine administrative step that occurs at the outset of new cases.",
+    "significance": "minor_update",
+    "entry_number": "457270080",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Magistrate Judge Ona T. Wang held a pre-settlement conference on March 13, 2026, in this multidistrict litigation involving Encyclopaedia Britannica and OpenAI.",
+    "significance": "minor_update",
+    "entry_number": "459144077",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "The court referred this case to Judge Sidney H. Stein for a determination of whether it is related to the consolidated multidistrict litigation proceeding designated as 25-md-3143.",
+    "significance": "minor_update",
+    "entry_number": "457270081",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "The court's filing system issued a deficiency notice to attorney Yoonhee Gloria Park, flagging that a document attached to the complaint (Document No. 3) was filed without either the opposing party's written consent or the court's prior leave. Park is directed to refile the exhibit through the proper procedural channel and include the required authorization.",
+    "significance": "minor_update",
+    "entry_number": "457270083",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "The court notified attorney Yoonhee Gloria Park that her request for issuance of summons was deficient and must be re-filed, because the summons request was not properly linked to the pleading accepted by the court.",
+    "significance": "minor_update",
+    "entry_number": "457270084",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-17",
+    "summary": "The court accepted this case as related to a multidistrict litigation proceeding (1:25-md-03143-SHS-OTW) and created a formal association between the two matters, with a notice of assignment to follow.",
+    "significance": "minor_update",
+    "entry_number": "457793013",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-17",
+    "summary": "The court administratively linked this case to a consolidated multidistrict litigation proceeding, In re OpenAI, No. 1:25-md-03143-SHS-OTW, in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "457793016",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-17",
+    "summary": "The case was reassigned to Judge Sidney H. Stein in the Southern District of New York, replacing a previously unassigned judge designation.",
+    "significance": "minor_update",
+    "entry_number": "457793014",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Magistrate Judge Ona T. Wang held a remote settlement conference on March 13, 2026, involving Encyclopaedia Britannica, Inc. v. OpenAI, Inc. as part of the broader multidistrict litigation proceedings in S. D. N. Y.",
+    "significance": "minor_update",
+    "entry_number": "460042994",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-05-15",
+    "summary": "This docket entry records: ORDER: in case 1:23-cv-08292-SHS-OTW; denying without prejudice (1358) Letter Motion to Compel; denying as moot (1364) Letter Motion to Compel; terminating (1368) Letter Motion to Compel; granting (1369) Letter Motion to Compel in case 1:23-cv-11195-SHS-OTW; d...",
+    "significance": "minor_update",
+    "entry_number": "32",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-05-12",
+    "summary": "The court ordered OpenAI to submit a letter brief of no more than three pages—along with a disputed document related to its 'Multimodal Data Sources project'—for the judge's private review by May 15, 2026, as part of a dispute over OpenAI's clawback and redaction of that document; the opposing party's response is due May 19, 2026, though the court noted that if the parties resolve the issue themselves, they should file a joint status letter by May 15.",
+    "significance": "minor_update",
+    "entry_number": "31",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-04-24",
+    "summary": "Plaintiffs Encyclopaedia Britannica, Inc. and Merriam-Webster, Inc. moved to admit attorney Ian Bradford Crosby to appear pro hac vice, paying the $200 filing fee and submitting supporting documents including a declaration and certificate of good standing for clerk review.",
+    "significance": "minor_update",
+    "entry_number": "30",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-04-21",
+    "summary": "Judge Sidney H. Stein approved a joint stipulation submitted by both parties, ordering all proceedings and deadlines in this case stayed until summary judgment motions are resolved in the broader multidistrict litigation; within 30 days of those rulings, the parties must file a joint status report proposing next steps.",
+    "significance": "minor_update",
+    "entry_number": "29",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-04-15",
+    "summary": "Plaintiffs Encyclopaedia Britannica, Inc. and Merriam-Webster, Inc. filed a proposed stipulation and order, submitted for the court's approval.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-04-07",
+    "summary": "This docket entry records: OPINION AND ORDER RE: MONACO DEPOSITION: Mr. Monaco based his testimony-which should bind the corporation-on his own hazy recollections working on Project Giraffe, a review of source code that he and others wrote (but which he does not remember), and a few oth...",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-04-06",
+    "summary": "Magistrate Judge Ona T. Wang ordered a briefing schedule and set an in-person status conference for May 12, 2026, at 9:30 AM in Courtroom 20D; opening briefs are due April 29, opposing briefs are due May 4, and a joint dispute chart is due May 5, 2026.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-04-01",
+    "summary": "The court ordered plaintiffs to show cause in writing by April 15, 2026, explaining why this case should not be paused while summary judgment motions are decided in other related cases within the same multidistrict litigation; defendants may respond by April 29, 2026.",
+    "significance": "significant_ruling",
+    "entry_number": "25",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-31",
+    "summary": "The court granted a motion allowing four attorneys — Allison L. Stillman, Joseph R. Wetzel, Jr. , Rachel R. Blitzer, and Michael A. David — to withdraw as counsel of record for several OpenAI-affiliated entities across 17 related cases, including this one.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-31",
+    "summary": "Magistrate Judge Ona T. Wang granted a motion allowing an attorney to withdraw from representation in this case, effective March 31, 2026.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-31",
+    "summary": "Magistrate Judge Ona T. Wang issued a scheduling order setting a second confidential discovery settlement conference for April 16, 2026, and directing the parties to submit pre-conference materials, propose a briefing schedule, and arrange an in-person status conference in early May.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-26",
+    "summary": "The court granted OpenAI's motion to substitute OpenAI Group PBC as a defendant in place of OpenAI Holdings, LLC, which had moved for the substitution on March 4, 2026 under Federal Rule of Civil Procedure 25(c) following what appears to be a transfer of interest; no party opposed the motion.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-26",
+    "summary": "The court granted an unopposed motion to substitute OpenAI Group PBC in place of OpenAI Holdings, LLC as a defendant, reflecting what appears to be a corporate restructuring on OpenAI's side. OpenAI Holdings, LLC has been terminated from the case.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-25",
+    "summary": "The court granted multiple motions to seal filed by the parties in both the individual case and the related multidistrict litigation, directing the clerk to close the associated docket entries in each case.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-23",
+    "summary": "The court modified the joint case schedule in this multidistrict litigation at the parties' request, setting key deadlines including opening expert reports due April 24, 2026, the close of expert discovery on August 3, 2026, and summary judgment and Daubert motions due September 4, 2026.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-23",
+    "summary": "OpenAI filed a letter with Magistrate Judge Ona T. Wang, submitting supplemental briefing opposing the plaintiffs' motion to compel production of deposition materials related to Elon Musk, and attached one exhibit in support of its position.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-18",
+    "summary": "Both parties jointly wrote to Judge Sidney H. Stein on March 18, 2026, requesting a slight modification to existing case deadlines, with the letter filed on behalf of Microsoft Corporation in this multidistrict litigation.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-17",
+    "summary": "The court issued electronic summonses to nine named OpenAI-related entities, formally notifying them of the lawsuit filed by Encyclopaedia Britannica, Inc. and requiring them to respond.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "Plaintiffs Encyclopaedia Britannica, Inc. and Merriam-Webster, Inc. requested that the court clerk issue summonses to ten named OpenAI-affiliated entities, a standard procedural step to formally notify those defendants of the lawsuit filed against them.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "Plaintiff filed a civil cover sheet, a standard administrative form used to open a new federal lawsuit, initiating the case of Encyclopaedia Britannica, Inc. v. OpenAI, Inc. in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "Encyclopaedia Britannica and Merriam-Webster filed a complaint in the Southern District of New York against nine OpenAI-affiliated entities, initiating the lawsuit and attaching fifteen exhibits to support their claims.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "The court clerk submitted the required AO 120 form to notify the U. S. Patent and Trademark Office that a trademark action involving Encyclopaedia Britannica's mark(s) has been filed against OpenAI in the Southern District of New York, as required by federal trademark law.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "The court clerk submitted the required AO 121 copyright notification form to the U. S. Register of Copyrights, advising that a copyright lawsuit has been filed in the Southern District of New York involving Encyclopaedia Britannica's claims against OpenAI.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Plaintiffs Encyclopaedia Britannica, Inc. and Merriam-Webster, Inc. filed a statement asking the court to designate this case as related to a pending multidistrict litigation proceeding (1:25-md-03143) in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Merriam-Webster, Inc. filed a required corporate disclosure statement identifying Encyclopaedia Britannica, Inc. and Aletheia Holdings, LP as its corporate parents.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Encyclopaedia Britannica, Inc. filed a required corporate disclosure statement identifying Aletheia Holdings, LP as its corporate parent, as mandated by federal court rules.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Attorney Yoonhee Park submitted an AO 120 Patent/Trademark form to the court in connection with the opening of this case. This is a standard administrative filing used to notify the U. S. Patent and Trademark Office of pending litigation involving trademark or patent issues.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Attorney Yoonhee Park submitted an AO 121 copyright reporting form to the court in connection with the opening of this case. This is a standard administrative filing required by federal courts to report copyright-related cases to the U. S. Copyright Office.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Plaintiffs Encyclopaedia Britannica, Inc. and Merriam-Webster, Inc. filed a request for issuance of summonses against multiple OpenAI entities, but the court's docketing system flagged a filing error because the summonses were not properly linked to the corresponding complaint. The entry was administratively modified on March 16, 2026 to note the error.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Plaintiffs Merriam-Webster, Inc. and Encyclopedia Britannica, Inc. filed a complaint against multiple OpenAI entities, but the filing was flagged by the court as deficient due to a PDF error and will need to be corrected before it is accepted.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Plaintiff's counsel filed a civil cover sheet, but the filing contained a PDF error and was flagged as a filing error by the court's docketing staff; the entry was later modified on March 16, 2026.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-03-13",
+    "summary": "Plaintiffs Merriam-Webster, Inc. and Encyclopedia Britannica, Inc. filed a complaint against multiple OpenAI corporate entities in the Southern District of New York, though the filing was flagged as a filing error and superseded by document #12. A $405 filing fee was paid at the time of submission.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poulin-holdings-llc-v-databricks-inc",
+    "case_name": "Poulin Holdings, LLC v. Databricks, Inc.",
+    "entry_date": "2026-03-10",
+    "summary": "The court assigned District Judge Jeremy D. Kernodle to preside over this case in the Eastern District of Texas.",
+    "significance": "minor_update",
+    "entry_number": "456915855",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poulin-holdings-llc-v-databricks-inc",
+    "case_name": "Poulin Holdings, LLC v. Databricks, Inc.",
+    "entry_date": "2026-03-10",
+    "summary": "Poulin Holdings, LLC filed a new lawsuit against Databricks, Inc. in the Eastern District of Texas on March 10, 2026, and the case was assigned to Judge Kernodle. The court provided the parties with a form to indicate whether they consent to have a magistrate judge handle the case.",
+    "significance": "minor_update",
+    "entry_number": "456915856",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poulin-holdings-llc-v-databricks-inc",
+    "case_name": "Poulin Holdings, LLC v. Databricks, Inc.",
+    "entry_date": "2026-03-11",
+    "summary": "The court issued a summons to defendant Databricks, Inc. , directing it to respond to the complaint filed by Poulin Holdings, LLC. This is a routine early-stage procedural step that formally notifies Databricks of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poulin-holdings-llc-v-databricks-inc",
+    "case_name": "Poulin Holdings, LLC v. Databricks, Inc.",
+    "entry_date": "2026-03-11",
+    "summary": "Plaintiff Poulin Holdings, LLC filed a request asking the court clerk to issue a summons, a standard early step to formally notify defendant Databricks, Inc. of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poulin-holdings-llc-v-databricks-inc",
+    "case_name": "Poulin Holdings, LLC v. Databricks, Inc.",
+    "entry_date": "2026-03-10",
+    "summary": "Plaintiff Poulin Holdings, LLC filed a corporate disclosure statement as required by Federal Rule of Civil Procedure 7. 1(a)(1), identifying its organizational or ownership interests for the court's conflict-of-interest review.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poulin-holdings-llc-v-databricks-inc",
+    "case_name": "Poulin Holdings, LLC v. Databricks, Inc.",
+    "entry_date": "2026-03-10",
+    "summary": "Court personnel filed a required administrative form (AO 120) notifying the U. S. Patent and Trademark Office of this patent or trademark lawsuit, as federal rules require. This is a routine procedural notice and does not reflect any ruling or substantive development in the case.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
+    "case_id": "poulin-holdings-llc-v-databricks-inc",
+    "case_name": "Poulin Holdings, LLC v. Databricks, Inc.",
+    "entry_date": "2026-03-10",
+    "summary": "Plaintiff Poulin Holdings, LLC filed a complaint against Databricks, Inc. in the Eastern District of Texas, alleging infringement of two patents (the '977 patent and the '090 patent) and attaching claim charts mapping each patent to the accused conduct.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-11T17:03:28Z"
+  },
+  {
     "case_id": "beaulier-v-meta-platforms-inc",
     "case_name": "Beaulier v. Meta Platforms, Inc.",
     "entry_date": "2026-03-27",

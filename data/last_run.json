@@ -1,23 +1,31 @@
 {
-  "cases_discovered": 3,
+  "cases_discovered": 0,
   "discovery_complete": false,
   "rejected_dockets": [
     "1:26-cv-00086",
     "1:26-cv-00105",
     "1:26-cv-00137",
+    "1:26-cv-00754",
     "1:26-cv-01140",
     "1:26-cv-01515",
     "1:26-cv-05437",
     "1:26-cv-05567",
+    "26-1721",
     "2:26-cv-00221",
     "2:26-cv-00566",
     "2:26-md-03179",
     "3:26-cv-00268",
-    "3:26-cv-04053"
+    "3:26-cv-02375",
+    "3:26-cv-02382",
+    "3:26-cv-04053",
+    "5:26-cv-05582"
   ],
-  "entries_updated": 123,
+  "entries_updated": 100,
   "docket_update_complete": false,
-  "summaries_generated": 123,
+  "summaries_generated": 100,
   "docket_last_run_date": "2026-06-06",
-  "courtlistener_rate_limited": true
+  "courtlistener_rate_limited": false,
+  "docket_entry_cap_reached": true,
+  "summaries_deferred": 0,
+  "max_summaries_per_run": 100
 }
