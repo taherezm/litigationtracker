@@ -1,5 +1,905 @@
 [
   {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-09",
+    "summary": "The clerk issued a notice informing all parties that a magistrate judge is available to handle all proceedings in this case, including trial and final judgment, if every party consents by signing the attached form or indicating agreement in a joint filing.",
+    "significance": "minor_update",
+    "entry_number": "460354024",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-09",
+    "summary": "The court assigned this case to District Judge Joan B. Gottschall and designated Magistrate Judge Gabriel A. Fuentes through a random assignment process.",
+    "significance": "minor_update",
+    "entry_number": "460354023",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-09",
+    "summary": "The court issued a summons directed at Defendant Lumen Technologies, Inc. , formally notifying the company of the lawsuit filed against it. This is a routine early-stage procedural step that begins the process of officially serving Lumen with notice of the case.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "Attorney Sean Michael McCarthy filed a notice of appearance representing both plaintiffs, Key Patent Innovations Limited and Valtrus Innovations Limited, in this case pending in the Northern District of Illinois.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "Attorney Connor Houghton filed a notice of appearance on behalf of both plaintiffs, Key Patent Innovations Limited and Valtrus Innovations Limited, in the Northern District of Illinois.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "Attorney Patrick Colsher filed an appearance in federal court representing both plaintiffs, Key Patent Innovations Limited and Valtrus Innovations Limited, in this case pending in the Northern District of Illinois.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "Attorney Matthew Berkowitz filed a notice of appearance on behalf of both plaintiffs, Key Patent Innovations Limited and Valtrus Innovations Limited, in this patent case pending in the Northern District of Illinois.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "Plaintiffs Key Patent Innovations Limited and Valtrus Innovations Limited filed a Notice of Claims, submitted by attorney Matthew Berkowitz on April 8, 2026. The specific claims identified in the notice have not been described in this docket entry.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "Plaintiffs Key Patent Innovations Limited and Valtrus Innovations Limited filed a disclosure of affiliated entities as required by Local Rule 3. 2. This is a routine administrative filing and does not reflect any substantive development in the case.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "Plaintiff Valtrus Innovations Limited filed a Civil Cover Sheet, initiating a new federal lawsuit against Lumen Technologies, Inc. in the Northern District of Illinois.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
+    "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "Plaintiffs Valtrus Innovations Limited and Key Patent Innovations Limited filed a complaint against Lumen Technologies, Inc. in the Northern District of Illinois, accompanied by a jury demand and thirteen exhibits, initiating this lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-24",
+    "summary": "The court set a briefing schedule requiring Anthropic to file a motion to dismiss or answer by August 17, 2026, with BMG's responses due September 23, 2026, and Anthropic's replies due October 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "462592404",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-15",
+    "summary": "The court referred the case to Magistrate Judge Susan van Keulen to oversee discovery proceedings. This is an administrative assignment and does not reflect any ruling on the merits of the dispute between BMG Rights Management and Anthropic.",
+    "significance": "minor_update",
+    "entry_number": "460833811",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-24",
+    "summary": "The court ordered a temporary stay of related actions, continuing all case deadlines and hearing dates by approximately 90 days. The court also denied Anthropic's motion filed as ECF No. 59 and vacated the May 20, 2026 hearing.",
+    "significance": "significant_ruling",
+    "entry_number": "29",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-15",
+    "summary": "The court granted a joint stipulation submitted by both parties, setting the schedule for Anthropic's response to the complaint and the associated briefing timeline.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-15",
+    "summary": "The court granted a motion allowing attorney Robin C. Burrell to appear in this case on a pro hac vice basis, meaning she is admitted to participate in this specific matter despite not being a member of the Northern District of California bar. Judge Eumi K. Lee signed the order on April 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-15",
+    "summary": "The court granted a motion allowing attorney Jared Vasconcellos Grubow to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific litigation even though he is not a member of the Northern District of California bar. Judge Eumi K. Lee signed the order on April 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-15",
+    "summary": "The court granted a motion allowing attorney Louis W. Tompros to appear in this case on a pro hac vice basis, meaning he is admitted to practice before this court for this matter despite not being a member of its local bar. Judge Eumi K. Lee signed the order on April 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-15",
+    "summary": "The court reassigned this case to Judge Eumi K. Lee, removing Magistrate Judge Alex G. Tse. All scheduled hearings and trial dates are vacated, but existing briefing schedules and other deadlines remain in effect; counsel must refile hearing notices before Judge Lee.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-14",
+    "summary": "The court issued a related case order reassigning Case No. 3:26-cv-02334-AGT to Judge Eumi K. Lee, finding it related to the existing case BMG Rights Management v. Anthropic (Case No. 5:24-cv-03811-EKL) already before her.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-07",
+    "summary": "Both parties jointly filed a stipulation asking the court to approve a proposed schedule for Anthropic's response to the complaint and for related briefing, accompanied by a supporting declaration from Robin C. Burrell.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-07",
+    "summary": "Anthropic filed a corporate disclosure statement identifying Amazon. com Inc. , Alphabet Inc. , Google LLC, and Amazon Web Services Inc. as affiliated entities, as required by federal court rules.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-07",
+    "summary": "Anthropic PBC filed a motion seeking permission for an attorney to appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-07",
+    "summary": "Anthropic PBC filed a motion seeking permission for an attorney to appear in this case on a pro hac vice basis, meaning the attorney is licensed in another jurisdiction and is asking the court for special leave to participate in this matter, along with the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-07",
+    "summary": "Anthropic PBC filed a motion seeking permission for attorney Louis Tompros to appear in this case on a pro hac vice basis, along with the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-07",
+    "summary": "Attorney Ari Holtzblatt filed a notice of appearance in the N. D. California district court on behalf of defendant Anthropic PBC, formally entering the case as counsel of record.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-07",
+    "summary": "Attorney Sonal N. Mehta filed a notice of appearance on behalf of defendant Anthropic PBC, formally entering the case as counsel of record.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-04-06",
+    "summary": "Plaintiff BMG Rights Management filed an administrative motion asking the court to determine whether this case should be related to one or more other pending cases, with responses from other parties due by April 10, 2026.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-30",
+    "summary": "Plaintiff BMG Rights Management filed a form indicating whether it consents to or declines having a U. S. Magistrate Judge preside over the case. This is a routine administrative filing required early in federal cases in the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-24",
+    "summary": "Plaintiff BMG Rights Management filed a returned executed summons confirming that defendant Anthropic PBC was served on March 20, 2026, with an answer due by April 10, 2026.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-19",
+    "summary": "Magistrate Judge Alex G. Tse granted an application allowing an attorney to appear in this case on a pro hac vice basis, permitting them to practice before the court for this matter despite not being a member of the Northern District of California bar.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-19",
+    "summary": "Magistrate Judge Alex G. Tse granted an application allowing an attorney to appear in this case pro hac vice, meaning the attorney is admitted to participate in this specific case despite not being regularly licensed in the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-19",
+    "summary": "The court issued a summons against Anthropic PBC, formally notifying the company that it has been named as a defendant in this lawsuit brought by BMG Rights Management (US) LLC. This is a routine early procedural step that triggers Anthropic's obligation to respond to the complaint.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-19",
+    "summary": "The court issued an initial scheduling order setting a Case Management Statement deadline of June 19, 2026, and an Initial Case Management Conference for June 26, 2026, to be held by videoconference in San Francisco.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-18",
+    "summary": "Plaintiff BMG Rights Management (US) LLC filed a motion seeking permission for attorney Evan Cooper to appear in this case on a pro hac vice basis, meaning Cooper is licensed in another jurisdiction and is requesting special admission to practice before this court.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-18",
+    "summary": "BMG Rights Management filed a motion seeking permission for an attorney to appear in this case on a pro hac vice basis, meaning the attorney is licensed outside the Northern District of California and is requesting special admission to participate in this matter. The filing includes a certificate of good standing and a $328 fee.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-18",
+    "summary": "The court assigned this new case to Magistrate Judge Alex G. Tse and issued administrative instructions requiring plaintiff BMG Rights Management's counsel to serve the complaint, summons, and judge's standing orders on Anthropic. A consent or declination regarding magistrate judge jurisdiction is due by April 1, 2026, and a scheduling order will follow within two business days.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-17",
+    "summary": "Plaintiff BMG Rights Management (US) LLC filed a corporate disclosure statement identifying Bertelsmann, Inc. and Bertelsmann SE & Co. KGaA as its corporate parents, as required by federal court rules.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-17",
+    "summary": "Attorney Robert Allan Jacobs filed a notice of appearance on behalf of plaintiff BMG Rights Management (US) LLC, formally joining the case as counsel of record on March 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-17",
+    "summary": "Plaintiff BMG Rights Management filed a notice of appearance adding attorney Nathaniel L. Bach as counsel of record on its behalf.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-17",
+    "summary": "Plaintiff BMG Rights Management filed a proposed summons in its case against Anthropic PBC, a routine early-stage administrative step used to formally notify the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-03-17",
+    "summary": "Plaintiff BMG Rights Management (US) LLC filed a complaint and jury demand against Anthropic PBC in the Northern District of California, initiating this lawsuit and paying the $405 filing fee on March 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-10",
+    "summary": "Plaintiff Anthropic PBC filed a motion asking the court to complete the administrative record and to consider evidence outside that record, with a hearing scheduled for July 30, 2026 before Judge Rita F. Lin; opposing responses are due June 24, 2026, and reply briefs are due July 8, 2026.",
+    "significance": "minor_update",
+    "entry_number": "169",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-10",
+    "summary": "The Freedom Economy Business Association filed a motion seeking the court's permission to submit an amicus curiae (friend of the court) brief in support of Anthropic's pending motion for summary judgment. A hearing on the motion is scheduled for July 30, 2026, before Judge Rita F. Lin, with responses due June 24, 2026, and replies due July 1, 2026.",
+    "significance": "minor_update",
+    "entry_number": "168",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-10",
+    "summary": "Attorney Josephine Kendra Petrick filed a notice of appearance as amicus curiae (friend of the court) on behalf of the Freedom Economy Business Association, indicating the organization intends to submit arguments in this case without being a named party.",
+    "significance": "minor_update",
+    "entry_number": "167",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-10",
+    "summary": "Plaintiff Anthropic PBC moved for summary judgment, asking the court to rule in its favor without a trial, and filed fifteen supporting attachments including declarations from six individuals and multiple exhibits. The court has scheduled a hearing on the motion for July 30, 2026, with the government's response due June 24, 2026, and Anthropic's reply due July 8, 2026.",
+    "significance": "minor_update",
+    "entry_number": "166",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-10",
+    "summary": "The American Civil Liberties Union, ACLU of Northern California, and Center for Democracy and Technology filed a motion requesting that attorney Patrick Toomey be permitted to appear in this case on their behalf, despite not being a member of the Northern District of California's bar.",
+    "significance": "minor_update",
+    "entry_number": "165",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-08",
+    "summary": "Thirty-four named federal defendants — including multiple cabinet secretaries, agency heads, and senior officials — filed a joint Answer to Anthropic PBC's complaint on June 8, 2026, through attorney James Harlow.",
+    "significance": "minor_update",
+    "entry_number": "164",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-08",
+    "summary": "The court granted a motion allowing attorney Dakota Foster to appear in this case on a pro hac vice basis, meaning Foster is licensed in another jurisdiction but has been permitted to participate in this specific matter before the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "163",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-08",
+    "summary": "The court granted a motion allowing attorney Bardia Faghihvaseghi to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific matter despite not being a member of the Northern District of California bar.",
+    "significance": "minor_update",
+    "entry_number": "162",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-08",
+    "summary": "The court granted a motion allowing attorney Matt Morris to appear in this case despite not being a member of the Northern District of California bar.",
+    "significance": "minor_update",
+    "entry_number": "161",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-05-13",
+    "summary": "Counsel for Appellee Amazon. com Services, LLC filed an acknowledgment of the oral argument hearing notice, confirming attendance by attorney Hagan Scotten at the Ninth Circuit courthouse in Seattle on June 11, 2026 at 9:30 a. m. The docket entry was updated shortly after filing to correct the argument date and time.",
+    "significance": "minor_update",
+    "entry_number": "59",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-05-13",
+    "summary": "Perplexity AI's counsel, Christopher Michel, filed an acknowledgment of the oral argument hearing notice, confirming his appearance for the scheduled argument on June 11, 2026, at 9:30 a. m. in Seattle Courtroom 2 before the Ninth Circuit. The court updated the entry to correct the argument date and time.",
+    "significance": "minor_update",
+    "entry_number": "58",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-05-07",
+    "summary": "Appellant Perplexity AI, Inc. filed its reply brief with the Ninth Circuit clerk, completing the final round of briefing on appeal. No paper copies were required.",
+    "significance": "minor_update",
+    "entry_number": "57",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-05-06",
+    "summary": "Appellant Perplexity AI, Inc. submitted its reply brief in the Ninth Circuit appeal, completing the final round of briefing on its side of the case.",
+    "significance": "minor_update",
+    "entry_number": "56",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-30",
+    "summary": "Airlines for America filed an amicus brief in the Ninth Circuit as an interested non-party, submitting its filing electronically with no paper copies required.",
+    "significance": "minor_update",
+    "entry_number": "55",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-30",
+    "summary": "Air Transport Association of America, Inc. (doing business as Airlines for America) was added to the case as an amicus curiae (friend of the court) in the Ninth Circuit appeal.",
+    "significance": "minor_update",
+    "entry_number": "54",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-30",
+    "summary": "The News/Media Alliance submitted an amicus brief (a brief filed by a non-party with an interest in the case) as docket entry 49 in this Ninth Circuit appeal. The clerk accepted the filing; no paper copies are required.",
+    "significance": "minor_update",
+    "entry_number": "53",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-30",
+    "summary": "Digital Content Next, a third-party trade association, filed an amicus brief with the Ninth Circuit in support of a position in this appeal between Amazon. com Services and Perplexity AI.",
+    "significance": "minor_update",
+    "entry_number": "52",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-30",
+    "summary": "Two industry groups, Digital Content Next and NewsMedia Alliance, were added as amici curiae (friends of the court) in this Ninth Circuit appeal, represented by attorneys Karl Huth and Michael S. Elkin.",
+    "significance": "minor_update",
+    "entry_number": "51",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-30",
+    "summary": "Counsel was added to the docket representing Amicus Curiae Alexandra Perloff-Giles in this Ninth Circuit appeal.",
+    "significance": "minor_update",
+    "entry_number": "50",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "News/Media Alliance submitted an amicus brief to the Ninth Circuit, either on behalf of the government or with the consent of the parties, offering the court an outside perspective on the issues on appeal.",
+    "significance": "minor_update",
+    "entry_number": "49",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "Attorney Alexandra Perloff-Giles filed a notice of appearance in the Ninth Circuit on behalf of the National Retail Federation, which is participating in this appeal as an amicus curiae (a non-party submitting arguments as a friend of the court).",
+    "significance": "minor_update",
+    "entry_number": "48",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "Digital Content Next, a third party, submitted an amicus brief to the Ninth Circuit with government or party consent in this appeal involving Amazon. com Services and Perplexity AI.",
+    "significance": "minor_update",
+    "entry_number": "47",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "The National Retail Federation, participating as a friend of the court (amicus curiae), filed a required disclosure statement identifying its organizational affiliations and interests in connection with this appeal before the Ninth Circuit.",
+    "significance": "minor_update",
+    "entry_number": "46",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "The National Retail Federation filed an amicus brief (friend-of-the-court brief) in the Ninth Circuit appeal, appearing as a non-party to offer its perspective on the issues in the case. No paper copies were required.",
+    "significance": "minor_update",
+    "entry_number": "45",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "The National Retail Federation was added as an amicus curiae (friend of the court) in this Ninth Circuit appeal, signaling that outside interests beyond the direct parties are seeking to weigh in on the dispute between Amazon and Perplexity AI.",
+    "significance": "minor_update",
+    "entry_number": "44",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "The National Retail Federation submitted an amicus brief with consent or as a government-affiliated entity in support of one of the parties on appeal, and a corrected version of the PDF was substituted on April 29, 2026, replacing the original attachment.",
+    "significance": "minor_update",
+    "entry_number": "43",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "The Software & Information Industry Association submitted an amicus curiae (friend of the court) brief, filed by the clerk as docket entry 40, with no paper copies required.",
+    "significance": "minor_update",
+    "entry_number": "42",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "The Software & Information Industry Association was added to the case as an amicus curiae (friend of the court) in the Ninth Circuit appeal, indicating the trade group intends to submit arguments in support of one of the parties or on a broader legal issue.",
+    "significance": "minor_update",
+    "entry_number": "41",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "The Software & Information Industry Association submitted an amicus brief in support of Plaintiff-Appellee Amazon. com Services, LLC, urging the Ninth Circuit to affirm the lower court's ruling.",
+    "significance": "minor_update",
+    "entry_number": "40",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "Air Transport Association of America, Inc. (doing business as Airlines for America) submitted an amicus brief, but the filing was flagged as defective because it duplicates a previously filed document (Docket Entry 38).",
+    "significance": "minor_update",
+    "entry_number": "39",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-29",
+    "summary": "Airlines for America submitted an amicus (friend-of-the-court) brief in this Ninth Circuit appeal, either on behalf of the government or with the parties' consent; the court later replaced the original filing with a corrected PDF on April 30, 2026.",
+    "significance": "minor_update",
+    "entry_number": "38",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-22",
+    "summary": "Appellee Amazon. com Services, LLC submitted excerpts of the trial court record to the Ninth Circuit as part of the ongoing appeal.",
+    "significance": "minor_update",
+    "entry_number": "37",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-22",
+    "summary": "Appellee Amazon. com Services, LLC submitted its answering brief in the Ninth Circuit appeal, responding to arguments raised by appellant Perplexity AI, Inc.",
+    "significance": "minor_update",
+    "entry_number": "36",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-09",
+    "summary": "The Ninth Circuit scheduled oral argument for June 11, 2026, at 9:30 a. m. in Seattle, though the panel may choose to decide the case on the written briefs alone without hearing argument. Attorneys who will argue must file an acknowledgment of the hearing notice at least 28 days before the date, and any party seeking to appear remotely must move for permission within 7 days of this notice.",
+    "significance": "minor_update",
+    "entry_number": "35",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "The Electronic Frontier Foundation, Alliance for Responsible Data Collection, and Mozilla Corporation filed an amicus brief (docket entry 31) in support of a party in this Ninth Circuit appeal.",
+    "significance": "minor_update",
+    "entry_number": "34",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "The ACLU, ACLU of Northern California, and the Knight First Amendment Institute at Columbia University filed an amicus brief in support of a party in this Ninth Circuit appeal, appearing as docket entry 30. No paper copies were required.",
+    "significance": "minor_update",
+    "entry_number": "33",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "Seven organizations—including the ACLU, the Knight First Amendment Institute, the Electronic Frontier Foundation, and EleutherAI—were added to the case as friends of the court (amici curiae), represented by attorneys Esha Bhandari and Corynne McSherry.",
+    "significance": "minor_update",
+    "entry_number": "32",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "The Electronic Frontier Foundation, Alliance for Responsible Data Collection, and Mozilla Corporation submitted an amicus brief in support of one of the parties, either by government invitation or with the parties' consent, as the appeal proceeds before the Ninth Circuit.",
+    "significance": "minor_update",
+    "entry_number": "31",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-08",
+    "summary": "The ACLU, ACLU of Northern California, and the Knight First Amendment Institute at Columbia University submitted an amicus brief in support of one of the parties, filed with either government authorization or the consent of the parties.",
+    "significance": "minor_update",
+    "entry_number": "30",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-01",
+    "summary": "Perplexity AI, the appellant, submitted the fourth volume of excerpts of the record under seal as part of the ongoing appeal proceedings.",
+    "significance": "minor_update",
+    "entry_number": "29",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-01",
+    "summary": "Appellant Perplexity AI, Inc. filed a motion in the Ninth Circuit seeking permission to submit a document under seal, along with the sealed document itself.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-01",
+    "summary": "Appellant Perplexity AI, Inc. submitted excerpts of record to the Ninth Circuit as part of the ongoing appeal process.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-04-01",
+    "summary": "Appellant Perplexity AI, Inc. submitted its opening brief to the Ninth Circuit, formally presenting its arguments on appeal against Amazon. com Services, LLC.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-31",
+    "summary": "Appellant Amazon. com Services, LLC added Jonathan Hyun Kim as counsel of record in this Ninth Circuit appeal.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-31",
+    "summary": "Attorney Jonathan Hyun Kim filed a notice of appearance in the Ninth Circuit on behalf of appellant Perplexity AI, Inc. , indicating he is joining the legal team representing Perplexity in this appeal.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-31",
+    "summary": "Appellant added Lucas Hammill as counsel of record in this appeal before the Ninth Circuit, as reflected in a docketing entry dated March 31, 2026.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-31",
+    "summary": "Attorney Lucas Hammill filed a notice of appearance in the Ninth Circuit, joining the legal team representing appellant Perplexity AI, Inc. in this ongoing appeal.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-29",
+    "summary": "The Ninth Circuit scheduled oral argument for June 11, 2026, at 9:00 a. m. in Seattle, though the panel may choose to decide the case on the written briefs alone without hearing argument.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-24",
+    "summary": "Appellant Perplexity AI, Inc. filed a corporate disclosure statement in the Ninth Circuit, as required by federal appellate rules governing the disclosure of organizational affiliations and financial interests.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-18",
+    "summary": "A two-judge Ninth Circuit panel granted Perplexity AI's motion to stay the district court's March 9, 2026 order pending appeal, and the court expedited the appeal with briefing due between April and May 2026 and oral argument scheduled for June 2026.",
+    "significance": "significant_ruling",
+    "entry_number": "19",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "A two-judge Ninth Circuit panel temporarily stayed the district court's March 9, 2026 order while the court considers whether to issue a longer stay pending the outcome of the appeal.",
+    "significance": "significant_ruling",
+    "entry_number": "18",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "Appellant Perplexity AI filed a mediation questionnaire with the Ninth Circuit, a standard step in the court's appellate mediation process that invites parties to provide confidential information about settlement history and potential to assist circuit mediators.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "Appellee Amazon. com Services, LLC filed a response opposing Perplexity AI's motion to stay lower court or agency proceedings pending appeal.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-16",
+    "summary": "Appellee Amazon. com Services, LLC filed a corporate disclosure statement in the Ninth Circuit, as required by federal appellate rules governing the disclosure of organizational affiliations and financial interests.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-12",
+    "summary": "Appellant Perplexity AI, Inc. filed a motion in the Ninth Circuit asking the appellate court to stay the lower court's proceedings, order, or judgment while the appeal is pending. The docket entry also reflects an administrative edit to the PDF sort order made the following morning.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-12",
+    "summary": "Appellant Perplexity AI, Inc. filed an emergency motion in the Ninth Circuit, along with the required Circuit Rule 27-3 certificate, which must accompany any emergency filing in that court.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-12",
+    "summary": "Attorney Billy Joe McLain filed a notice of appearance in the Ninth Circuit on behalf of Appellee Amazon. com Services, LLC, formally entering the case as counsel for Amazon on appeal.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-03-12",
+    "summary": "Attorney Christine Michelle Woodin filed a notice of appearance in the Ninth Circuit, joining the legal team representing Appellee Amazon. com Services, LLC in this appeal.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-06-11T19:33:38Z"
+  },
+  {
     "case_id": "poseidon-wave-media-llc-v-suno-inc",
     "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
     "entry_date": "2026-05-13",

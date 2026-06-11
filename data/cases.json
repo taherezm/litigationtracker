@@ -2575,7 +2575,7 @@
       "patent infringement"
     ],
     "legal_theories": [],
-    "status": "active",
+    "status": "needs_review",
     "procedural_posture": "Filed",
     "parties": {
       "plaintiff": "Valtrus Innovations Limited",
@@ -2583,7 +2583,85 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "460354024",
+        "date": "2026-04-09",
+        "raw_text": "CLERK'S NOTICE: Pursuant to Local Rule 73.1(b), a United States Magistrate Judge of this court is available to conduct all proceedings in this civil action. If all parties consent to have the currently assigned United States Magistrate Judge conduct all proceedings in this case, including trial, the entry of final judgment, and all post-trial proceedings, all parties must sign their names on the attached Consent To form. This consent form is eligible for filing only if executed by all parties. The parties can also express their consent to jurisdiction by a magistrate judge in any joint filing, including the Joint Initial Status Report or proposed Case Management Order. (cvk, )",
+        "summary": "The clerk issued a notice informing all parties that a magistrate judge is available to handle all proceedings in this case, including trial and final judgment, if every party consents by signing the attached form or indicating agreement in a joint filing.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "460354023",
+        "date": "2026-04-09",
+        "raw_text": "CASE ASSIGNED to the Honorable Joan B. Gottschall. Designated as Magistrate Judge the Honorable Gabriel A. Fuentes. Case assignment: Random assignment. (Civil Category 1). (cvk, )",
+        "summary": "The court assigned this case to District Judge Joan B. Gottschall and designated Magistrate Judge Gabriel A. Fuentes through a random assignment process.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "11",
+        "date": "2026-04-09",
+        "raw_text": "SUMMONS Issued (Court Participant) as to Defendant Lumen Technologies, Inc. (axm, ) (Entered: 04/09/2026)",
+        "summary": "The court issued a summons directed at Defendant Lumen Technologies, Inc. , formally notifying the company of the lawsuit filed against it. This is a routine early-stage procedural step that begins the process of officially serving Lumen with notice of the case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "8",
+        "date": "2026-04-08",
+        "raw_text": "ATTORNEY Appearance for Plaintiffs Key Patent Innovations Limited, Valtrus Innovations Limited by Sean Michael McCarthy (McCarthy, Sean) (Entered: 04/08/2026)",
+        "summary": "Attorney Sean Michael McCarthy filed a notice of appearance representing both plaintiffs, Key Patent Innovations Limited and Valtrus Innovations Limited, in this case pending in the Northern District of Illinois.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "7",
+        "date": "2026-04-08",
+        "raw_text": "ATTORNEY Appearance for Plaintiffs Key Patent Innovations Limited, Valtrus Innovations Limited by Connor Houghton (Houghton, Connor) (Entered: 04/08/2026)",
+        "summary": "Attorney Connor Houghton filed a notice of appearance on behalf of both plaintiffs, Key Patent Innovations Limited and Valtrus Innovations Limited, in the Northern District of Illinois.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "6",
+        "date": "2026-04-08",
+        "raw_text": "ATTORNEY Appearance for Plaintiffs Key Patent Innovations Limited, Valtrus Innovations Limited by Patrick Colsher (Colsher, Patrick) (Entered: 04/08/2026)",
+        "summary": "Attorney Patrick Colsher filed an appearance in federal court representing both plaintiffs, Key Patent Innovations Limited and Valtrus Innovations Limited, in this case pending in the Northern District of Illinois.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "5",
+        "date": "2026-04-08",
+        "raw_text": "ATTORNEY Appearance for Plaintiffs Key Patent Innovations Limited, Valtrus Innovations Limited by Matthew Berkowitz (Berkowitz, Matthew) (Entered: 04/08/2026)",
+        "summary": "Attorney Matthew Berkowitz filed a notice of appearance on behalf of both plaintiffs, Key Patent Innovations Limited and Valtrus Innovations Limited, in this patent case pending in the Northern District of Illinois.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "4",
+        "date": "2026-04-08",
+        "raw_text": "Notice of Claims by Key Patent Innovations Limited, Valtrus Innovations Limited (Berkowitz, Matthew) (Entered: 04/08/2026)",
+        "summary": "Plaintiffs Key Patent Innovations Limited and Valtrus Innovations Limited filed a Notice of Claims, submitted by attorney Matthew Berkowitz on April 8, 2026. The specific claims identified in the notice have not been described in this docket entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "3",
+        "date": "2026-04-08",
+        "raw_text": "NOTIFICATION of Affiliates pursuant to Local Rule 3.2 by Key Patent Innovations Limited, Valtrus Innovations Limited (Berkowitz, Matthew) (Entered: 04/08/2026)",
+        "summary": "Plaintiffs Key Patent Innovations Limited and Valtrus Innovations Limited filed a disclosure of affiliated entities as required by Local Rule 3. 2. This is a routine administrative filing and does not reflect any substantive development in the case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "2",
+        "date": "2026-04-08",
+        "raw_text": "CIVIL Cover Sheet (Berkowitz, Matthew) (Entered: 04/08/2026)",
+        "summary": "Plaintiff Valtrus Innovations Limited filed a Civil Cover Sheet, initiating a new federal lawsuit against Lumen Technologies, Inc. in the Northern District of Illinois.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "1",
+        "date": "2026-04-08",
+        "raw_text": "COMPLAINT filed by Valtrus Innovations Limited, Key Patent Innovations Limited; Jury Demand. Filing fee $ 405, receipt number AILNDC-24956369. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4, # 5 Exhibit 5, # 6 Exhibit 6, # 7 Exhibit 7, # 8 Exhibit 8, # 9 Exhibit 9, # 10 Exhibit 10, # 11 Exhibit 11, # 12 Exhibit 12, # 13 Exhibit 13)(Berkowitz, Matthew) (Entered: 04/08/2026)",
+        "summary": "Plaintiffs Valtrus Innovations Limited and Key Patent Innovations Limited filed a complaint against Lumen Technologies, Inc. in the Northern District of Illinois, accompanied by a jury demand and thirteen exhibits, initiating this lawsuit.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Valtrus Innovations Limited asserts patent infringement claims against Lumen Technologies, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -2592,7 +2670,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73166286/valtrus-innovations-limited-v-lumen-technologies-inc/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-11",
     "discovered_date": "2026-06-06"
   },
   {
@@ -2614,8 +2692,233 @@
       "defendant": "Anthropic PBC"
     },
     "judges": [],
-    "key_rulings": [],
-    "docket_entries": [],
+    "key_rulings": [
+      {
+        "date": "2026-04-24",
+        "description": "The court denied Anthropic's motion and stayed all related actions for approximately 90 days, suspending pending deadlines and hearings.",
+        "summary": "The court ordered a temporary stay of related actions, continuing all case deadlines and hearing dates by approximately 90 days. The court also denied Anthropic's motion filed as ECF No. 59 and vacated the May 20, 2026 hearing.",
+        "significance": "significant_ruling"
+      }
+    ],
+    "docket_entries": [
+      {
+        "entry_number": "462592404",
+        "date": "2026-04-24",
+        "raw_text": "Set Deadlines/Hearings: Motion to Dismiss or Answer due by 8/17/2026. Responses due by 9/23/2026. Replies due by 10/14/2026. (lrt, COURT STAFF) (Filed on 4/24/2026)",
+        "summary": "The court set a briefing schedule requiring Anthropic to file a motion to dismiss or answer by August 17, 2026, with BMG's responses due September 23, 2026, and Anthropic's replies due October 14, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "460833811",
+        "date": "2026-04-15",
+        "raw_text": "CASE REFERRED to Magistrate Judge Susan van Keulen for Discovery. (mxg, COURT STAFF) (Filed on 4/15/2026)",
+        "summary": "The court referred the case to Magistrate Judge Susan van Keulen to oversee discovery proceedings. This is an administrative assignment and does not reflect any ruling on the merits of the dispute between BMG Rights Management and Anthropic.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "29",
+        "date": "2026-04-24",
+        "raw_text": "ORDER REGARDING TEMPORARY STAY OF RELATED ACTIONS. All case deadlines and hearing dates are CONTINUED for approximately 90 days. Anthropic's motion (ECF No. 59 in 5:26-cv-00880-EKL) is DENIED, and the May 20, 2026 hearing is VACATED. Signed by Judge Eumi K. Lee on 4/24/2026. (lrt, COURT STAFF) (Filed on 4/24/2026) (Entered: 04/24/2026)",
+        "summary": "The court ordered a temporary stay of related actions, continuing all case deadlines and hearing dates by approximately 90 days. The court also denied Anthropic's motion filed as ECF No. 59 and vacated the May 20, 2026 hearing.",
+        "significance": "significant_ruling"
+      },
+      {
+        "entry_number": "28",
+        "date": "2026-04-15",
+        "raw_text": "ORDER granting 22 Joint Stipulation Regarding Schedule for Response to Complaint and Briefing Schedule. Signed by Judge Eumi K. Lee.(lrt, COURT STAFF) (Filed on 4/15/2026) (Entered: 04/15/2026)",
+        "summary": "The court granted a joint stipulation submitted by both parties, setting the schedule for Anthropic's response to the complaint and the associated briefing timeline.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "27",
+        "date": "2026-04-15",
+        "raw_text": "ORDER granting 20 Motion for Pro Hac Vice as to attorney Robin C. Burrell. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 4/15/2026) (Entered: 04/15/2026)",
+        "summary": "The court granted a motion allowing attorney Robin C. Burrell to appear in this case on a pro hac vice basis, meaning she is admitted to participate in this specific matter despite not being a member of the Northern District of California bar. Judge Eumi K. Lee signed the order on April 15, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "26",
+        "date": "2026-04-15",
+        "raw_text": "ORDER granting 19 Motion for Pro Hac Vice as to Jared Vasconcellos Grubow. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 4/15/2026) (Entered: 04/15/2026)",
+        "summary": "The court granted a motion allowing attorney Jared Vasconcellos Grubow to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific litigation even though he is not a member of the Northern District of California bar. Judge Eumi K. Lee signed the order on April 15, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "25",
+        "date": "2026-04-15",
+        "raw_text": "ORDER granting 18 Motion for Pro Hac Vice as to attorney Louis W. Tompros. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 4/15/2026) (Entered: 04/15/2026)",
+        "summary": "The court granted a motion allowing attorney Louis W. Tompros to appear in this case on a pro hac vice basis, meaning he is admitted to practice before this court for this matter despite not being a member of its local bar. Judge Eumi K. Lee signed the order on April 15, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "24",
+        "date": "2026-04-15",
+        "raw_text": "ORDER REASSIGNING CASE IT IS ORDERED that this case is directly assigned to Judge Eumi K. Lee. Magistrate Judge Alex G. Tse no longer assigned to the case. Counsel are instructed that all future filings shall bear the updated judicial initials immediately after the case number. Counsel are reminded to verify the location of the judge on the court website. All hearing and trial dates presently scheduled are vacated. However, existing briefing schedules for motions remain unchanged. Motions must be renoticed for hearing before the judge to whom the case has been reassigned, but the renoticing of the hearing does not affect the prior briefing schedule. Other deadlines such as those for ADR compliance and discovery cutoff also remain unchanged. Mark B. Busby Clerk, United States District Court (This is a text-only entry generated by the court. There is no document associated with this entry.) (mxg, COURT STAFF) (Filed on 4/15/2026) (Entered: 04/15/2026)",
+        "summary": "The court reassigned this case to Judge Eumi K. Lee, removing Magistrate Judge Alex G. Tse. All scheduled hearings and trial dates are vacated, but existing briefing schedules and other deadlines remain in effect; counsel must refile hearing notices before Judge Lee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-04-14",
+        "raw_text": "RELATED CASE ORDER. Case No. 3:26-cv-02334-AGT is related to Case No. 5:24-cv-03811-EKL and shall be reassigned to Judge Eumi K. Lee. Signed by Judge Eumi K. Lee on 4/14/2026. (lrt, COURT STAFF) (Filed on 4/14/2026) (Entered: 04/14/2026)",
+        "summary": "The court issued a related case order reassigning Case No. 3:26-cv-02334-AGT to Judge Eumi K. Lee, finding it related to the existing case BMG Rights Management v. Anthropic (Case No. 5:24-cv-03811-EKL) already before her.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-04-07",
+        "raw_text": "STIPULATION WITH PROPOSED ORDER Regarding Schedule for Response to Complaint and Briefing Schedule (Joint) filed by Anthropic PBC. (Attachments: # 1 Declaration of Robin C. Burrell in Support)(Mehta, Sonal) (Filed on 4/7/2026) (Entered: 04/07/2026)",
+        "summary": "Both parties jointly filed a stipulation asking the court to approve a proposed schedule for Anthropic's response to the complaint and for related briefing, accompanied by a supporting declaration from Robin C. Burrell.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-04-07",
+        "raw_text": "Corporate Disclosure Statement by Anthropic PBC identifying Other Affiliate Amazon.com Inc., Other Affiliate Alphabet, Inc., Other Affiliate Google LLC, Other Affiliate Amazon Web Services, Inc. for Anthropic PBC., (Mehta, Sonal) (Filed on 4/7/2026) (Entered: 04/07/2026)",
+        "summary": "Anthropic filed a corporate disclosure statement identifying Amazon. com Inc. , Alphabet Inc. , Google LLC, and Amazon Web Services Inc. as affiliated entities, as required by federal court rules.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-04-07",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21843844.) filed by Anthropic PBC. (Burrell, Robin) (Filed on 4/7/2026) (Entered: 04/07/2026)",
+        "summary": "Anthropic PBC filed a motion seeking permission for an attorney to appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "19",
+        "date": "2026-04-07",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21843804.) filed by Anthropic PBC. (Grubow, Jared) (Filed on 4/7/2026) (Entered: 04/07/2026)",
+        "summary": "Anthropic PBC filed a motion seeking permission for an attorney to appear in this case on a pro hac vice basis, meaning the attorney is licensed in another jurisdiction and is asking the court for special leave to participate in this matter, along with the required $328 filing fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-04-07",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21843752.) filed by Anthropic PBC. (Tompros, Louis) (Filed on 4/7/2026) (Entered: 04/07/2026)",
+        "summary": "Anthropic PBC filed a motion seeking permission for attorney Louis Tompros to appear in this case on a pro hac vice basis, along with the required $328 filing fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-04-07",
+        "raw_text": "NOTICE of Appearance filed by Ari Holtzblatt on behalf of Anthropic PBC (Holtzblatt, Ari) (Filed on 4/7/2026) (Entered: 04/07/2026)",
+        "summary": "Attorney Ari Holtzblatt filed a notice of appearance in the N. D. California district court on behalf of defendant Anthropic PBC, formally entering the case as counsel of record.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-04-07",
+        "raw_text": "NOTICE of Appearance filed by Sonal N. Mehta on behalf of Anthropic PBC (Mehta, Sonal) (Filed on 4/7/2026) (Entered: 04/07/2026)",
+        "summary": "Attorney Sonal N. Mehta filed a notice of appearance on behalf of defendant Anthropic PBC, formally entering the case as counsel of record.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "15",
+        "date": "2026-04-06",
+        "raw_text": "ADMINISTRATIVE MOTION TO CONSIDER WHETHER CASES SHOULD BE RELATED PURSUANT TO CIVIL LOCAL RULES 3-12 AND 7-11 filed by BMG Rights Management (US) LLC. Responses due by 4/10/2026. (Attachments: # 1 Exhibit Exhibt A, # 2 Exhibit Exhibit B, # 3 Exhibit Exhibit C)(Jacobs, Robert) (Filed on 4/6/2026) (Entered: 04/06/2026)",
+        "summary": "Plaintiff BMG Rights Management filed an administrative motion asking the court to determine whether this case should be related to one or more other pending cases, with responses from other parties due by April 10, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "14",
+        "date": "2026-03-30",
+        "raw_text": "CONSENT/DECLINATION to Proceed Before a US Magistrate Judge by BMG Rights Management (US) LLC.. (Jacobs, Robert) (Filed on 3/30/2026) (Entered: 03/30/2026)",
+        "summary": "Plaintiff BMG Rights Management filed a form indicating whether it consents to or declines having a U. S. Magistrate Judge preside over the case. This is a routine administrative filing required early in federal cases in the Northern District of California.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "13",
+        "date": "2026-03-24",
+        "raw_text": "SUMMONS Returned Executed by BMG Rights Management (US) LLC. Anthropic PBC served on 3/20/2026, answer due 4/10/2026. (Jacobs, Robert) (Filed on 3/24/2026) (Entered: 03/24/2026)",
+        "summary": "Plaintiff BMG Rights Management filed a returned executed summons confirming that defendant Anthropic PBC was served on March 20, 2026, with an answer due by April 10, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "12",
+        "date": "2026-03-19",
+        "raw_text": "ORDER Granting Application for Admission of Attorney Pro Hac Vice signed by Magistrate Judge Alex G. Tse: granting 8 Application. (shy, COURT STAFF) (Filed on 3/19/2026) (Entered: 03/19/2026)",
+        "summary": "Magistrate Judge Alex G. Tse granted an application allowing an attorney to appear in this case on a pro hac vice basis, permitting them to practice before the court for this matter despite not being a member of the Northern District of California bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "11",
+        "date": "2026-03-19",
+        "raw_text": "ORDER Granting Application for Admission of Attorney Pro Hac Vice signed by Magistrate Judge Alex G. Tse: granting 7 Application. (shy, COURT STAFF) (Filed on 3/19/2026) (Entered: 03/19/2026)",
+        "summary": "Magistrate Judge Alex G. Tse granted an application allowing an attorney to appear in this case pro hac vice, meaning the attorney is admitted to participate in this specific case despite not being regularly licensed in the Northern District of California.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "10",
+        "date": "2026-03-19",
+        "raw_text": "Summons Issued as to Anthropic PBC. (kam2, COURT STAFF) (Filed on 3/19/2026) (Entered: 03/19/2026)",
+        "summary": "The court issued a summons against Anthropic PBC, formally notifying the company that it has been named as a defendant in this lawsuit brought by BMG Rights Management (US) LLC. This is a routine early procedural step that triggers Anthropic's obligation to respond to the complaint.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "9",
+        "date": "2026-03-19",
+        "raw_text": "Initial Case Management Scheduling Order with ADR Deadlines: Case Management Statement due by 6/19/2026. Initial Case Management Conference set for 6/26/2026 02:00 PM in San Francisco, - Videoconference Only. (kam2, COURT STAFF) (Filed on 3/19/2026) (Entered: 03/19/2026)",
+        "summary": "The court issued an initial scheduling order setting a Case Management Statement deadline of June 19, 2026, and an Initial Case Management Conference for June 26, 2026, to be held by videoconference in San Francisco.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "8",
+        "date": "2026-03-18",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21770256.) filed by BMG Rights Management (US) LLC. (Attachments: # 1 Certificate of Good Standing)(Cooper, Evan) (Filed on 3/18/2026) (Entered: 03/18/2026)",
+        "summary": "Plaintiff BMG Rights Management (US) LLC filed a motion seeking permission for attorney Evan Cooper to appear in this case on a pro hac vice basis, meaning Cooper is licensed in another jurisdiction and is requesting special admission to practice before this court.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "7",
+        "date": "2026-03-18",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21770049.) filed by BMG Rights Management (US) LLC. (Attachments: # 1 Certificate of Good Standing)(Topper, Prana) (Filed on 3/18/2026) (Entered: 03/18/2026)",
+        "summary": "BMG Rights Management filed a motion seeking permission for an attorney to appear in this case on a pro hac vice basis, meaning the attorney is licensed outside the Northern District of California and is requesting special admission to participate in this matter. The filing includes a certificate of good standing and a $328 fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "6",
+        "date": "2026-03-18",
+        "raw_text": "Case assigned to Magistrate Judge Alex G. Tse. Counsel for plaintiff or the removing party is responsible for serving the Complaint or Notice of Removal, Summons and the assigned judge's standing orders and all other new case documents upon the opposing parties. For information, visit E-Filing A New Civil Case at http://cand.uscourts.gov/ecf/caseopening.Standing orders can be downloaded from the court's web page at www.cand.uscourts.gov/judges. Upon receipt, the summons will be issued and returned electronically. A scheduling order will be sent by Notice of Electronic Filing (NEF) within two business days. Consent/Declination due by 4/1/2026. (jnk, COURT STAFF) (Filed on 3/18/2026) (Entered: 03/18/2026)",
+        "summary": "The court assigned this new case to Magistrate Judge Alex G. Tse and issued administrative instructions requiring plaintiff BMG Rights Management's counsel to serve the complaint, summons, and judge's standing orders on Anthropic. A consent or declination regarding magistrate judge jurisdiction is due by April 1, 2026, and a scheduling order will follow within two business days.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "5",
+        "date": "2026-03-17",
+        "raw_text": "Corporate Disclosure Statement by BMG Rights Management (US) LLC identifying Corporate Parent Bertelsmann, Inc., Corporate Parent Bertelsmann SE & Co. KGaA for BMG Rights Management (US) LLC. (Jacobs, Robert) (Filed on 3/17/2026) (Entered: 03/17/2026)",
+        "summary": "Plaintiff BMG Rights Management (US) LLC filed a corporate disclosure statement identifying Bertelsmann, Inc. and Bertelsmann SE & Co. KGaA as its corporate parents, as required by federal court rules.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "4",
+        "date": "2026-03-17",
+        "raw_text": "NOTICE of Appearance filed by Robert Allan Jacobs on behalf of BMG Rights Management (US) LLC (Jacobs, Robert) (Filed on 3/17/2026) (Entered: 03/17/2026)",
+        "summary": "Attorney Robert Allan Jacobs filed a notice of appearance on behalf of plaintiff BMG Rights Management (US) LLC, formally joining the case as counsel of record on March 17, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "3",
+        "date": "2026-03-17",
+        "raw_text": "NOTICE of Appearance filed by Nathaniel L Bach on behalf of BMG Rights Management (US) LLC (Bach, Nathaniel) (Filed on 3/17/2026) (Entered: 03/17/2026)",
+        "summary": "Plaintiff BMG Rights Management filed a notice of appearance adding attorney Nathaniel L. Bach as counsel of record on its behalf.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "2",
+        "date": "2026-03-17",
+        "raw_text": "Proposed Summons. (Jacobs, Robert) (Filed on 3/17/2026) (Entered: 03/17/2026)",
+        "summary": "Plaintiff BMG Rights Management filed a proposed summons in its case against Anthropic PBC, a routine early-stage administrative step used to formally notify the defendant of the lawsuit.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "1",
+        "date": "2026-03-17",
+        "raw_text": "COMPLAINT and Demand for Jury Trial against Anthropic PBC ( Filing fee $ 405, receipt number ACANDC-21766584.). Filed by BMG Rights Management (US) LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B)(Jacobs, Robert) (Filed on 3/17/2026) (Entered: 03/17/2026)",
+        "summary": "Plaintiff BMG Rights Management (US) LLC filed a complaint and jury demand against Anthropic PBC in the Northern District of California, initiating this lawsuit and paying the $405 filing fee on March 17, 2026.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "BMG Rights Management (US) LLC asserts copyright infringement claims against Anthropic PBC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -2626,7 +2929,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72505829/bmg-rights-management-us-llc-v-anthropic-pbc/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-11",
     "discovered_date": "2026-06-06"
   },
   {
@@ -2641,8 +2944,8 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "active",
-    "procedural_posture": "Filed",
+    "status": "needs_review",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Anthropic PBC",
       "defendant": "U.S. Department of War"
@@ -2655,6 +2958,69 @@
         "date": "2026-06-01",
         "raw_text": "NOTICE of Filing Corrected Certification of Administrative Record by Paul S. Atkins, Scott Bessent, Frank J. Bisigano, Mary Anne Carter, Douglas A. Collins, Executive Office of the President, Federal Housing Finance Agency, Federal Reserve Board of Governors, Edward C. Forst, General Services Administration, Peter B. Hegseth, Jared Isaacman, Robert F. Kennedy, Jr, Scott Kupor, Howard Lutnick, National Aeronautics and Space Administration, National Endowment for the Arts, Ho K. Nieh, Kristi Noem, Jerome H. Powell, William J. Pulte, Marco Rubio, Securities and Exchange Commission, U.S. Department of Commerce, U.S. Department of Energy, U.S. Department of Health and Human Services, U.S. Department of Homeland Security, U.S. Department of State, U.S. Department of Veterans Affairs, U.S. Department of War, U.S. Department of the Treasury, U.S. Nuclear Regulatory Commission, U.S. Office of Personnel Management, U.S. Social Security Administration, Chris Wright of Filing Corrected Certification of Amended Administrative Record (Attachments: # 1 Exhibit)(Dibblee, Christian) (Filed on 6/1/2026) Modified on 6/2/2026 (amf, COURT STAFF). (Entered: 06/01/2026)",
         "summary": "Multiple federal defendants filed a notice of a corrected certification of the administrative record in this case against the U. S. Department of War and other federal entities.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "169",
+        "date": "2026-06-10",
+        "raw_text": "MOTION to Complete the Administrative Record and to Consider Evidence Outside the Administrative Record filed by Anthropic PBC. Motion Hearing set for 7/30/2026 10:00 AM in San Francisco, Courtroom 15, 18th Floor before Judge Rita F. Lin. Responses due by 6/24/2026. Replies due by 7/8/2026. (Mongan, Michael) (Filed on 6/10/2026) (Entered: 06/10/2026)",
+        "summary": "Plaintiff Anthropic PBC filed a motion asking the court to complete the administrative record and to consider evidence outside that record, with a hearing scheduled for July 30, 2026 before Judge Rita F. Lin; opposing responses are due June 24, 2026, and reply briefs are due July 8, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "168",
+        "date": "2026-06-10",
+        "raw_text": "MOTION to File Amicus Curiae Brief filed by Freedom Economy Business Association. Motion Hearing set for 7/30/2026 10:00 AM before Judge Rita F. Lin. Responses due by 6/24/2026. Replies due by 7/1/2026. (Attachments: # 1 Proposed Order, # 2 Exhibit Amicus Brief in support of Anthropic's Motion for Summary Judgment)(Petrick, Josephine) (Filed on 6/10/2026) (Entered: 06/10/2026)",
+        "summary": "The Freedom Economy Business Association filed a motion seeking the court's permission to submit an amicus curiae (friend of the court) brief in support of Anthropic's pending motion for summary judgment. A hearing on the motion is scheduled for July 30, 2026, before Judge Rita F. Lin, with responses due June 24, 2026, and replies due July 1, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "167",
+        "date": "2026-06-10",
+        "raw_text": "Amicus Curiae APPEARANCE entered by Josephine Kendra Petrick on behalf of Freedom Economy Business Association. (Petrick, Josephine) (Filed on 6/10/2026) (Entered: 06/10/2026)",
+        "summary": "Attorney Josephine Kendra Petrick filed a notice of appearance as amicus curiae (friend of the court) on behalf of the Freedom Economy Business Association, indicating the organization intends to submit arguments in this case without being a named party.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "166",
+        "date": "2026-06-10",
+        "raw_text": "MOTION for Summary Judgment filed by Anthropic PBC. Motion for Summary Judgment Hearing set for 7/30/2026 10:00 AM in San Francisco, Courtroom 15, 18th Floor before Judge Rita F. Lin. Responses due by 6/24/2026. Replies due by 7/8/2026. (Attachments: # 1 Declaration of Jared Kaplan in Support, # 2 Declaration of Paul Smith in Support, # 3 Declaration of Krishna Rao in Support, # 4 Declaration of Thiyagu Ramasamy in Support, # 5 Declaration of Sarah Heck in Support, # 6 Exhibit 1 to Declaration of Sarah Heck, # 7 Exhibit 2 to Declaration of Sarah Heck, # 8 Declaration of Michael J. Mongan in Support, # 9 Exhibit 1 to Declaration of Michael J. Mongan, # 10 Exhibit 2 to Declaration of Michael J. Mongan, # 11 Exhibit 3 to Declaration of Michael J. Mongan, # 12 Exhibit 4 to Declaration of Michael J. Mongan, # 13 Exhibit 5 to Declaration of Michael J. Mongan, # 14 Exhibit 6 to Declaration of Michael J. Mongan, # 15 Exhibit 7 to Declaration of Michael J. Mongan)(Mongan, Michael) (Filed on 6/10/2026) (Entered: 06/10/2026)",
+        "summary": "Plaintiff Anthropic PBC moved for summary judgment, asking the court to rule in its favor without a trial, and filed fifteen supporting attachments including declarations from six individuals and multiple exhibits. The court has scheduled a hearing on the motion for July 30, 2026, with the government's response due June 24, 2026, and Anthropic's reply due July 8, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "165",
+        "date": "2026-06-10",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice on behalf of Patrick Toomey ( Filing fee $ 328, receipt number ACANDC-22084589.) filed by American Civil Liberties Union, American Civil Liberties Union of Northern California, Center for Democracy and Technology. (Attachments: # 1 Certificate of Good Standing)(Toomey, Patrick) (Filed on 6/10/2026) (Entered: 06/10/2026)",
+        "summary": "The American Civil Liberties Union, ACLU of Northern California, and Center for Democracy and Technology filed a motion requesting that attorney Patrick Toomey be permitted to appear in this case on their behalf, despite not being a member of the Northern District of California's bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "164",
+        "date": "2026-06-08",
+        "raw_text": "ANSWER to Complaint by Paul S. Atkins, Scott Bessent, Frank J. Bisigano, Mary Anne Carter, Douglas A. Collins, Executive Office of the President, Federal Housing Finance Agency, Federal Reserve Board of Governors, Edward C. Forst, General Services Administration, Peter B. Hegseth, Jared Isaacman, Robert F. Kennedy, Jr, Scott Kupor, Howard Lutnick, National Aeronautics and Space Administration, National Endowment for the Arts, Ho K. Nieh, Kristi Noem, Jerome H. Powell, William J. Pulte, Marco Rubio, Securities and Exchange Commission, U.S. Department of Commerce, U.S. Department of Energy, U.S. Department of Health and Human Services, U.S. Department of Homeland Security, U.S. Department of State, U.S. Department of Veterans Affairs, U.S. Department of War, U.S. Department of the Treasury, U.S. Nuclear Regulatory Commission, U.S. Office of Personnel Management, U.S. Social Security Administration, Chris Wright. (Harlow, James) (Filed on 6/8/2026) (Entered: 06/08/2026)",
+        "summary": "Thirty-four named federal defendants — including multiple cabinet secretaries, agency heads, and senior officials — filed a joint Answer to Anthropic PBC's complaint on June 8, 2026, through attorney James Harlow.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "163",
+        "date": "2026-06-08",
+        "raw_text": "Order by Judge Rita F. Lin granting 160 Motion for Pro Hac Vice as to Dakota Foster. (bxs, COURT STAFF) (Filed on 6/8/2026) (Entered: 06/08/2026)",
+        "summary": "The court granted a motion allowing attorney Dakota Foster to appear in this case on a pro hac vice basis, meaning Foster is licensed in another jurisdiction but has been permitted to participate in this specific matter before the Northern District of California.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "162",
+        "date": "2026-06-08",
+        "raw_text": "Order by Judge Rita F. Lin granting 159 Motion for Pro Hac Vice as to Bardia Faghihvaseghi. (bxs, COURT STAFF) (Filed on 6/8/2026) (Entered: 06/08/2026)",
+        "summary": "The court granted a motion allowing attorney Bardia Faghihvaseghi to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific matter despite not being a member of the Northern District of California bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "161",
+        "date": "2026-06-08",
+        "raw_text": "Order by Judge Rita F. Lin granting 158 Motion for Pro Hac Vice as to Matt Morris. (bxs, COURT STAFF) (Filed on 6/8/2026) (Entered: 06/08/2026)",
+        "summary": "The court granted a motion allowing attorney Matt Morris to appear in this case despite not being a member of the Northern District of California bar.",
         "significance": "minor_update"
       }
     ],
@@ -2669,7 +3035,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72379655/anthropic-pbc-v-us-department-of-war/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-11",
     "discovered_date": "2026-06-06"
   },
   {
@@ -2684,15 +3050,372 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "active",
-    "procedural_posture": "Filed",
+    "status": "needs_review",
+    "procedural_posture": "Appeal",
     "parties": {
       "plaintiff": "Amazon.com Services, LLC",
       "defendant": "Perplexity AI, Inc."
     },
     "judges": [],
-    "key_rulings": [],
-    "docket_entries": [],
+    "key_rulings": [
+      {
+        "date": "2026-03-18",
+        "description": "The court granted the motion to stay the district court's March 9, 2026 order pending appeal, applying the standard set out in Nken v. Holder, 556 U.S. 418, 434 (2009).",
+        "summary": "A two-judge Ninth Circuit panel granted Perplexity AI's motion to stay the district court's March 9, 2026 order pending appeal, and the court expedited the appeal with briefing due between April and May 2026 and oral argument scheduled for June 2026.",
+        "significance": "significant_ruling"
+      },
+      {
+        "date": "2026-03-16",
+        "description": "The court granted an administrative stay of the district court's March 9, 2026 order, pausing its effect until the panel resolves the motion for a stay pending appeal.",
+        "summary": "A two-judge Ninth Circuit panel temporarily stayed the district court's March 9, 2026 order while the court considers whether to issue a longer stay pending the outcome of the appeal.",
+        "significance": "significant_ruling"
+      }
+    ],
+    "docket_entries": [
+      {
+        "entry_number": "59",
+        "date": "2026-05-13",
+        "raw_text": "ACKNOWLEDGMENT of hearing notice filed by Hagan Scotten for Appellee Amazon.com Services, LLC. Hearing in Seattle - Courtroom 2 in Seattle, on 6/11/2026 9:30:00 AM. Filer argument time: By myself. (Argument minutes: [-]). Special accommodations: No. Filer admission status: I certify that I am admitted to practice before this Court. [Court Update to Correct Argument Date and Time] [Entered: 05/13/2026 02:42 PM] [Edited: 05/13/2026 03:00 PM]",
+        "summary": "Counsel for Appellee Amazon. com Services, LLC filed an acknowledgment of the oral argument hearing notice, confirming attendance by attorney Hagan Scotten at the Ninth Circuit courthouse in Seattle on June 11, 2026 at 9:30 a. m. The docket entry was updated shortly after filing to correct the argument date and time.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "58",
+        "date": "2026-05-13",
+        "raw_text": "ACKNOWLEDGMENT of hearing notice filed by Christopher Michel for Appellant Perplexity AI, Inc.. Hearing in Seattle - Courtroom 2 in Seattle, on 6/11/2026 9:30:00 AM. Filer argument time: By myself. (Argument minutes: [-]). Special accommodations: No. Filer admission status: I certify that I am admitted to practice before this Court. [Court Update to Correct Argument Date and Time] [Entered: 05/13/2026 02:12 PM] [Edited: 05/13/2026 02:27 PM]",
+        "summary": "Perplexity AI's counsel, Christopher Michel, filed an acknowledgment of the oral argument hearing notice, confirming his appearance for the scheduled argument on June 11, 2026, at 9:30 a. m. in Seattle Courtroom 2 before the Ninth Circuit. The court updated the entry to correct the argument date and time.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "57",
+        "date": "2026-05-07",
+        "raw_text": "CLERK ACTION: Reply Brief submitted at DE 56 by Appellant Perplexity AI, Inc. is filed. No paper copies are required. [Entered: 05/07/2026 05:12 PM]",
+        "summary": "Appellant Perplexity AI, Inc. filed its reply brief with the Ninth Circuit clerk, completing the final round of briefing on appeal. No paper copies were required.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "56",
+        "date": "2026-05-06",
+        "raw_text": "REPLY BRIEF submitted for filing by Appellant Perplexity AI, Inc.. [Entered: 05/06/2026 06:07 PM]",
+        "summary": "Appellant Perplexity AI, Inc. submitted its reply brief in the Ninth Circuit appeal, completing the final round of briefing on its side of the case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "55",
+        "date": "2026-04-30",
+        "raw_text": "CLERK ACTION: Amicus Brief submitted at DE 38 by Air Transport Association of America, Inc. d/b/a Airlines for America is filed. No paper copies are required. [Entered: 04/30/2026 03:55 PM]",
+        "summary": "Airlines for America filed an amicus brief in the Ninth Circuit as an interested non-party, submitting its filing electronically with no paper copies required.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "54",
+        "date": "2026-04-30",
+        "raw_text": "ADDED Amicus Curiae Air Transport Association of America, Inc. d/b/a Airlines for America. [Entered: 04/30/2026 03:53 PM]",
+        "summary": "Air Transport Association of America, Inc. (doing business as Airlines for America) was added to the case as an amicus curiae (friend of the court) in the Ninth Circuit appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "53",
+        "date": "2026-04-30",
+        "raw_text": "CLERK ACTION: Amicus Brief submitted at DE 49 by News/Media Alliance is filed. No paper copies are required. [Entered: 04/30/2026 12:09 PM]",
+        "summary": "The News/Media Alliance submitted an amicus brief (a brief filed by a non-party with an interest in the case) as docket entry 49 in this Ninth Circuit appeal. The clerk accepted the filing; no paper copies are required.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "52",
+        "date": "2026-04-30",
+        "raw_text": "CLERK ACTION: Amicus Brief submitted at DE 47 by Digital Content Next is filed. No paper copies are required. [Entered: 04/30/2026 12:08 PM]",
+        "summary": "Digital Content Next, a third-party trade association, filed an amicus brief with the Ninth Circuit in support of a position in this appeal between Amazon. com Services and Perplexity AI.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "51",
+        "date": "2026-04-30",
+        "raw_text": "ADDED Amici Curiae Digital Content Next, NewsMedia Alliance; Counsel for Amici Curiae: Karl Huth, Michael S. Elkin. [Entered: 04/30/2026 12:08 PM]",
+        "summary": "Two industry groups, Digital Content Next and NewsMedia Alliance, were added as amici curiae (friends of the court) in this Ninth Circuit appeal, represented by attorneys Karl Huth and Michael S. Elkin.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "50",
+        "date": "2026-04-30",
+        "raw_text": "ADDED Counsel for Amicus Curiae Alexandra Perloff-Giles [Entered: 04/30/2026 11:09 AM]",
+        "summary": "Counsel was added to the docket representing Amicus Curiae Alexandra Perloff-Giles in this Ninth Circuit appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "49",
+        "date": "2026-04-29",
+        "raw_text": "AMICUS BRIEF by government or with consent submitted for filing by News/Media Alliance. [Entered: 04/29/2026 07:49 PM]",
+        "summary": "News/Media Alliance submitted an amicus brief to the Ninth Circuit, either on behalf of the government or with the consent of the parties, offering the court an outside perspective on the issues on appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "48",
+        "date": "2026-04-29",
+        "raw_text": "NOTICE OF APPEARANCE by Alexandra Perloff-Giles for Amicus Curiae National Retail Federation. [Entered: 04/29/2026 07:40 PM]",
+        "summary": "Attorney Alexandra Perloff-Giles filed a notice of appearance in the Ninth Circuit on behalf of the National Retail Federation, which is participating in this appeal as an amicus curiae (a non-party submitting arguments as a friend of the court).",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "47",
+        "date": "2026-04-29",
+        "raw_text": "AMICUS BRIEF by government or with consent submitted for filing by Digital Content Next. [Entered: 04/29/2026 07:40 PM]",
+        "summary": "Digital Content Next, a third party, submitted an amicus brief to the Ninth Circuit with government or party consent in this appeal involving Amazon. com Services and Perplexity AI.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "46",
+        "date": "2026-04-29",
+        "raw_text": "DISCLOSURE STATEMENT pursuant to FRAP 26.1 and CR 26.1-1 filed by Amicus Curiae National Retail Federation. [Entered: 04/29/2026 07:23 PM]",
+        "summary": "The National Retail Federation, participating as a friend of the court (amicus curiae), filed a required disclosure statement identifying its organizational affiliations and interests in connection with this appeal before the Ninth Circuit.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "45",
+        "date": "2026-04-29",
+        "raw_text": "CLERK ACTION: Amicus Brief submitted at DE 43 by National Retail Federation is filed. No paper copies are required. [Entered: 04/29/2026 04:47 PM]",
+        "summary": "The National Retail Federation filed an amicus brief (friend-of-the-court brief) in the Ninth Circuit appeal, appearing as a non-party to offer its perspective on the issues in the case. No paper copies were required.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "44",
+        "date": "2026-04-29",
+        "raw_text": "ADDED Amicus Curiae National Retail Federation. [Entered: 04/29/2026 04:46 PM]",
+        "summary": "The National Retail Federation was added as an amicus curiae (friend of the court) in this Ninth Circuit appeal, signaling that outside interests beyond the direct parties are seeking to weigh in on the dispute between Amazon and Perplexity AI.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "43",
+        "date": "2026-04-29",
+        "raw_text": "AMICUS BRIEF by government or with consent submitted for filing by National Retail Federation.--[COURT UPDATE: Corrected PDF attached as of 4/29/2026, REPLACING original attachment] [Entered: 04/29/2026 03:41 PM] [Edited: 04/29/2026 04:44 PM]",
+        "summary": "The National Retail Federation submitted an amicus brief with consent or as a government-affiliated entity in support of one of the parties on appeal, and a corrected version of the PDF was substituted on April 29, 2026, replacing the original attachment.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "42",
+        "date": "2026-04-29",
+        "raw_text": "CLERK ACTION: Amicus Brief submitted at DE 40 by The Software & Information Industry Association is filed. No paper copies are required. [Entered: 04/29/2026 03:28 PM]",
+        "summary": "The Software & Information Industry Association submitted an amicus curiae (friend of the court) brief, filed by the clerk as docket entry 40, with no paper copies required.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "41",
+        "date": "2026-04-29",
+        "raw_text": "ADDED Amicus Curiae Software & Information Industry Association. [Entered: 04/29/2026 03:22 PM]",
+        "summary": "The Software & Information Industry Association was added to the case as an amicus curiae (friend of the court) in the Ninth Circuit appeal, indicating the trade group intends to submit arguments in support of one of the parties or on a broader legal issue.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "40",
+        "date": "2026-04-29",
+        "raw_text": "AMICUS BRIEF by government or with consent submitted for filing by on behalf of The Software & Information Industry Association ISO Plaintiff-Appellee and Affirmance. [Entered: 04/29/2026 01:53 PM]",
+        "summary": "The Software & Information Industry Association submitted an amicus brief in support of Plaintiff-Appellee Amazon. com Services, LLC, urging the Ninth Circuit to affirm the lower court's ruling.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "39",
+        "date": "2026-04-29",
+        "raw_text": "DEFECTIVE --- AMICUS BRIEF by government or with consent submitted for filing by Air Transport Association of America, Inc. d/b/a Airlines for America. (Duplicate of DE 38) [Entered: 04/29/2026 01:28 PM] [Edited: 04/30/2026 02:39 PM]",
+        "summary": "Air Transport Association of America, Inc. (doing business as Airlines for America) submitted an amicus brief, but the filing was flagged as defective because it duplicates a previously filed document (Docket Entry 38).",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "38",
+        "date": "2026-04-29",
+        "raw_text": "AMICUS BRIEF by government or with consent submitted for filing by Air Transport Association of America, Inc. d/b/a Airlines for America.--[COURT UPDATE: Corrected PDF attached as of 4/30/2026, REPLACING original attachment] [Entered: 04/29/2026 01:25 PM] [Edited: 04/30/2026 02:38 PM]",
+        "summary": "Airlines for America submitted an amicus (friend-of-the-court) brief in this Ninth Circuit appeal, either on behalf of the government or with the parties' consent; the court later replaced the original filing with a corrected PDF on April 30, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "37",
+        "date": "2026-04-22",
+        "raw_text": "EXCERPTS OF RECORD submitted for filing by Appellee Amazon.com Services, LLC. [Entered: 04/22/2026 12:57 PM]",
+        "summary": "Appellee Amazon. com Services, LLC submitted excerpts of the trial court record to the Ninth Circuit as part of the ongoing appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "36",
+        "date": "2026-04-22",
+        "raw_text": "ANSWERING BRIEF submitted for filing by Appellee Amazon.com Services, LLC. [Entered: 04/22/2026 12:51 PM]",
+        "summary": "Appellee Amazon. com Services, LLC submitted its answering brief in the Ninth Circuit appeal, responding to arguments raised by appellant Perplexity AI, Inc.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "35",
+        "date": "2026-04-09",
+        "raw_text": "NOTICE OF ORAL ARGUMENT on Thursday, June 11, 2026 - 09:30 A.M. - SE 7th Flr Courtroom 2 - Scheduled Location: Seattle WA View the Oral Argument Calendar for your case here. NOTE: Although your case is currently scheduled for oral argument, the panel may decide to submit the case on the briefs instead. See Fed. R. App. P. 34. Absent further order of the court, if the court does determine that oral argument is required in this case, you are expected to appear in person at the Courthouse. If an in person appearance would pose a hardship, you must file a motion for permission to appear remotely by video, using ACMS filing type Motion to Appear Remotely for Oral Argument. Such a motion must be filed within 7 days of this notice, absent exigent circumstances. Please note that if you do file a motion to appear remotely, the court strongly prefers video over telephone appearance. Therefore, if you wish to appear remotely by telephone you will need to justify that request in your motion and receive explicit permission to do so. Be sure to review the GUIDELINES for important information about your hearing. If you are the specific attorney or self-represented party who will be arguing, use the ACKNOWLEDGMENT OF HEARING NOTICE filing type in ACMS no later than 28 days before the hearing date. No form or other attachment is required. If you will not be arguing, do not file an acknowledgment of hearing notice. [26-1444] [Entered: 04/09/2026 12:03 PM]",
+        "summary": "The Ninth Circuit scheduled oral argument for June 11, 2026, at 9:30 a. m. in Seattle, though the panel may choose to decide the case on the written briefs alone without hearing argument. Attorneys who will argue must file an acknowledgment of the hearing notice at least 28 days before the date, and any party seeking to appear remotely must move for permission within 7 days of this notice.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "34",
+        "date": "2026-04-08",
+        "raw_text": "CLERK ACTION: Amicus Brief submitted at DE 31 by Electronic Frontier Foundation, Alliance for Responsible Data Collection, Mozilla Corporation is filed. No paper copies are required. [Entered: 04/08/2026 06:50 PM]",
+        "summary": "The Electronic Frontier Foundation, Alliance for Responsible Data Collection, and Mozilla Corporation filed an amicus brief (docket entry 31) in support of a party in this Ninth Circuit appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "33",
+        "date": "2026-04-08",
+        "raw_text": "CLERK ACTION: Amicus Brief submitted at DE 30 by ACLU, ACLU of Northern California, Knight First Amendment Institute at Columbia University is filed. No paper copies are required. [Entered: 04/08/2026 06:50 PM]",
+        "summary": "The ACLU, ACLU of Northern California, and the Knight First Amendment Institute at Columbia University filed an amicus brief in support of a party in this Ninth Circuit appeal, appearing as docket entry 30. No paper copies were required.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "32",
+        "date": "2026-04-08",
+        "raw_text": "ADDED Amici Curiae American Civil Liberties Union, American Civil Liberties Union of Northern California, Knight First Amendment Institute - Columbia University, Electronic Frontier Foundation, Alliance for Responsible Data Collection, Digital Medusa, EleutherAI; Counsel for Amici Curiae: Esha Bhandari, Corynne McSherry. [Entered: 04/08/2026 06:49 PM]",
+        "summary": "Seven organizations—including the ACLU, the Knight First Amendment Institute, the Electronic Frontier Foundation, and EleutherAI—were added to the case as friends of the court (amici curiae), represented by attorneys Esha Bhandari and Corynne McSherry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "31",
+        "date": "2026-04-08",
+        "raw_text": "AMICUS BRIEF by government or with consent submitted for filing by Electronic Frontier Foundation, Alliance for Responsible Data Collection, Mozilla Corporation. [Entered: 04/08/2026 03:45 PM]",
+        "summary": "The Electronic Frontier Foundation, Alliance for Responsible Data Collection, and Mozilla Corporation submitted an amicus brief in support of one of the parties, either by government invitation or with the parties' consent, as the appeal proceeds before the Ninth Circuit.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "30",
+        "date": "2026-04-08",
+        "raw_text": "AMICUS BRIEF by government or with consent submitted for filing by ACLU, ACLU of Northern California, Knight First Amendment Institute at Columbia University. [Entered: 04/08/2026 02:38 PM]",
+        "summary": "The ACLU, ACLU of Northern California, and the Knight First Amendment Institute at Columbia University submitted an amicus brief in support of one of the parties, filed with either government authorization or the consent of the parties.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "29",
+        "date": "2026-04-01",
+        "raw_text": "EXCERPTS OF RECORD UNDER SEAL, Volume 4 submitted for filing by Appellant Perplexity AI, Inc..--[court entered filing of excerpts submitted at DE 28] [Entered: 04/02/2026 10:36 AM]",
+        "summary": "Perplexity AI, the appellant, submitted the fourth volume of excerpts of the record under seal as part of the ongoing appeal proceedings.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "28",
+        "date": "2026-04-01",
+        "raw_text": "MOTION to File Document Under Seal and Sealed Document Submitted for Filing filed by Appellant Perplexity AI, Inc.. [Entered: 04/01/2026 03:59 PM]",
+        "summary": "Appellant Perplexity AI, Inc. filed a motion in the Ninth Circuit seeking permission to submit a document under seal, along with the sealed document itself.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "27",
+        "date": "2026-04-01",
+        "raw_text": "EXCERPTS OF RECORD submitted for filing by Appellant Perplexity AI, Inc.. [Entered: 04/01/2026 03:42 PM]",
+        "summary": "Appellant Perplexity AI, Inc. submitted excerpts of record to the Ninth Circuit as part of the ongoing appeal process.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "26",
+        "date": "2026-04-01",
+        "raw_text": "OPENING BRIEF submitted for filing by Appellant Perplexity AI, Inc.. [Entered: 04/01/2026 03:33 PM]",
+        "summary": "Appellant Perplexity AI, Inc. submitted its opening brief to the Ninth Circuit, formally presenting its arguments on appeal against Amazon. com Services, LLC.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "25",
+        "date": "2026-03-31",
+        "raw_text": "ADDED Counsel for Appellant Jonathan Hyun Kim [Entered: 03/31/2026 08:55 AM]",
+        "summary": "Appellant Amazon. com Services, LLC added Jonathan Hyun Kim as counsel of record in this Ninth Circuit appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "24",
+        "date": "2026-03-31",
+        "raw_text": "NOTICE OF APPEARANCE by Jonathan Hyun Kim for Appellant Perplexity AI, Inc.. [Entered: 03/31/2026 08:51 AM]",
+        "summary": "Attorney Jonathan Hyun Kim filed a notice of appearance in the Ninth Circuit on behalf of appellant Perplexity AI, Inc. , indicating he is joining the legal team representing Perplexity in this appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-03-31",
+        "raw_text": "ADDED Counsel for Appellant Lucas Hammill [Entered: 03/31/2026 08:32 AM]",
+        "summary": "Appellant added Lucas Hammill as counsel of record in this appeal before the Ninth Circuit, as reflected in a docketing entry dated March 31, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-03-31",
+        "raw_text": "NOTICE OF APPEARANCE by Lucas Hammill for Appellant Perplexity AI, Inc.. [Entered: 03/31/2026 08:19 AM]",
+        "summary": "Attorney Lucas Hammill filed a notice of appearance in the Ninth Circuit, joining the legal team representing appellant Perplexity AI, Inc. in this ongoing appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-03-29",
+        "raw_text": "NOTICE OF ORAL ARGUMENT on Thursday, June 11, 2026 - 09:00 A.M. - SE 7th Flr Courtroom 2 - Scheduled Location: Seattle WA View the Oral Argument Calendar for your case here. NOTE: Although your case is currently scheduled for oral argument, the panel may decide to submit the case on the briefs instead. See Fed. R. App. P. 34. Absent further order of the court, if the court does determine that oral argument is required in this case, you are expected to appear in person at the Courthouse. If an in person appearance would pose a hardship, you must file a motion for permission to appear remotely by video, using ACMS filing type Motion to Appear Remotely for Oral Argument. Such a motion must be filed within 7 days of this notice, absent exigent circumstances. Please note that if you do file a motion to appear remotely, the court strongly prefers video over telephone appearance. Therefore, if you wish to appear remotely by telephone you will need to justify that request in your motion and receive explicit permission to do so. Be sure to review the GUIDELINES for important information about your hearing. If you are the specific attorney or self-represented party who will be arguing, use the ACKNOWLEDGMENT OF HEARING NOTICE filing type in ACMS no later than 28 days before the hearing date. No form or other attachment is required. If you will not be arguing, do not file an acknowledgment of hearing notice. [26-1444] [Entered: 03/29/2026 05:03 PM]",
+        "summary": "The Ninth Circuit scheduled oral argument for June 11, 2026, at 9:00 a. m. in Seattle, though the panel may choose to decide the case on the written briefs alone without hearing argument.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-03-24",
+        "raw_text": "DISCLOSURE STATEMENT pursuant to FRAP 26.1 and CR 26.1-1 filed by Appellant Perplexity AI, Inc.. [Entered: 03/24/2026 01:26 PM]",
+        "summary": "Appellant Perplexity AI, Inc. filed a corporate disclosure statement in the Ninth Circuit, as required by federal appellate rules governing the disclosure of organizational affiliations and financial interests.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "19",
+        "date": "2026-03-18",
+        "raw_text": "ORDER FILED. Eric D. MILLER, Patrick J. BUMATAY The motion (Docket Entry No. 14) to stay the district court’s March 9, 2026 order is granted. See Nken v. Holder, 556 U.S. 418, 434 (2009) (defining standard for stay pending appeal). This appeal is expedited. The opening brief is due April 1, 2026. The answering brief is due April 22, 2026. The optional reply brief is due 14 days after the answering brief is served. No streamlined extensions of time to file a brief will be approved. See 9th Cir. R. 31-2.2(a)(1). The clerk will place this case on the calendar for June 2026. See 9th Cir. Gen Ord. 3.3(g). [Entered: 03/18/2026 02:35 PM]",
+        "summary": "A two-judge Ninth Circuit panel granted Perplexity AI's motion to stay the district court's March 9, 2026 order pending appeal, and the court expedited the appeal with briefing due between April and May 2026 and oral argument scheduled for June 2026.",
+        "significance": "significant_ruling"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-03-16",
+        "raw_text": "ORDER FILED. Eric D. MILLER, Patrick J. BUMATAY The request for an administrative stay is granted. The district court’s March 9, 2026 order is temporarily stayed pending resolution of the motion for a stay pending appeal. See Doe #1 v. Trump, 944 F.3d 1222, 1223 (9th Cir. 2019). [Entered: 03/16/2026 01:55 PM]",
+        "summary": "A two-judge Ninth Circuit panel temporarily stayed the district court's March 9, 2026 order while the court considers whether to issue a longer stay pending the outcome of the appeal.",
+        "significance": "significant_ruling"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-03-16",
+        "raw_text": "MEDIATION QUESTIONNAIRE filed by Appellant Perplexity AI, Inc.. To submit pertinent confidential information directly to the Circuit Mediators, please email ca09_mediation@ca9.uscourts.gov and include the case name and number in the subject line. Confidential submissions may include any information relevant to mediation of the case and settlement potential, including, but not limited to, settlement history, ongoing or potential settlement discussions, non-litigated party related issues, other pending actions, and timing considerations that may impact mediation efforts. [Entered: 03/16/2026 10:17 AM]",
+        "summary": "Appellant Perplexity AI filed a mediation questionnaire with the Ninth Circuit, a standard step in the court's appellate mediation process that invites parties to provide confidential information about settlement history and potential to assist circuit mediators.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-03-16",
+        "raw_text": "RESPONSE to Motion to Stay Lower Court or Agency Proceedings, Order, or Judgment (DE 14) filed by Appellee Amazon.com Services, LLC. [Entered: 03/16/2026 08:52 AM]",
+        "summary": "Appellee Amazon. com Services, LLC filed a response opposing Perplexity AI's motion to stay lower court or agency proceedings pending appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "15",
+        "date": "2026-03-16",
+        "raw_text": "DISCLOSURE STATEMENT pursuant to FRAP 26.1 and CR 26.1-1 filed by Appellee Amazon.com Services, LLC. [Entered: 03/16/2026 07:22 AM]",
+        "summary": "Appellee Amazon. com Services, LLC filed a corporate disclosure statement in the Ninth Circuit, as required by federal appellate rules governing the disclosure of organizational affiliations and financial interests.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "14",
+        "date": "2026-03-12",
+        "raw_text": "MOTION to Stay Lower Court or Agency Proceedings/Order/Judgment filed by Appellant Perplexity AI, Inc.. --[COURT UPDATE: Updated PDF sort order.] [Entered: 03/12/2026 11:54 PM] [Edited: 03/13/2026 11:46 AM]",
+        "summary": "Appellant Perplexity AI, Inc. filed a motion in the Ninth Circuit asking the appellate court to stay the lower court's proceedings, order, or judgment while the appeal is pending. The docket entry also reflects an administrative edit to the PDF sort order made the following morning.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "13",
+        "date": "2026-03-12",
+        "raw_text": "Emergency MOTION Circuit Rule 27-3 Certificate filed by Appellant Perplexity AI, Inc.. [Entered: 03/12/2026 11:25 PM]",
+        "summary": "Appellant Perplexity AI, Inc. filed an emergency motion in the Ninth Circuit, along with the required Circuit Rule 27-3 certificate, which must accompany any emergency filing in that court.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "12",
+        "date": "2026-03-12",
+        "raw_text": "NOTICE OF APPEARANCE by Billy Joe McLain for Appellee Amazon.com Services, LLC. [Entered: 03/12/2026 12:11 PM]",
+        "summary": "Attorney Billy Joe McLain filed a notice of appearance in the Ninth Circuit on behalf of Appellee Amazon. com Services, LLC, formally entering the case as counsel for Amazon on appeal.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "11",
+        "date": "2026-03-12",
+        "raw_text": "NOTICE OF APPEARANCE by Christine Michelle Woodin for Appellee Amazon.com Services, LLC. [Entered: 03/12/2026 12:09 PM]",
+        "summary": "Attorney Christine Michelle Woodin filed a notice of appearance in the Ninth Circuit, joining the legal team representing Appellee Amazon. com Services, LLC in this appeal.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Amazon.com Services, LLC asserts copyright infringement claims against Perplexity AI, Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "ai",
@@ -2702,7 +3425,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72502129/amazoncom-services-llc-v-perplexity-ai-inc/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-11",
     "discovered_date": "2026-06-06"
   },
   {
