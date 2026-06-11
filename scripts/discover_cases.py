@@ -698,17 +698,38 @@ def search_after_date(cases: list[dict[str, Any]], last_run: dict[str, Any]) -> 
     return (utc_today() - timedelta(days=90)).isoformat()
 
 
+def force_discovery() -> bool:
+    return (os.environ.get("FORCE_DISCOVERY") or "").strip().lower() in {"1", "true", "yes"}
+
+
+def discovery_already_current(last_run: dict[str, Any]) -> bool:
+    return (
+        clean_text(last_run.get("discovery_last_run_date")) == utc_today().isoformat()
+        and bool(last_run.get("discovery_complete", True))
+        and not force_discovery()
+    )
+
+
 def main() -> None:
     load_dotenv()
-    courtlistener_key = require_env("COURTLISTENER_API_KEY")
-    anthropic_key = require_env("ANTHROPIC_API_KEY")
-
     cases = load_json(CASES_PATH, [])
     if not isinstance(cases, list):
         cases = []
     last_run = load_json(LAST_RUN_PATH, {})
     if not isinstance(last_run, dict):
         last_run = {}
+
+    if discovery_already_current(last_run):
+        last_run["cases_discovered"] = 0
+        last_run["discovery_complete"] = True
+        last_run["discovery_candidate_cap_reached"] = False
+        last_run["courtlistener_rate_limited"] = False
+        write_json(LAST_RUN_PATH, last_run)
+        print(f"Discovery already current for {utc_today().isoformat()}; skipping.")
+        return
+
+    courtlistener_key = require_env("COURTLISTENER_API_KEY")
+    anthropic_key = require_env("ANTHROPIC_API_KEY")
 
     known_dockets = {docket_key(case.get("docket_number")) for case in cases if case.get("docket_number")}
     rejected_dockets, rejected_docket_set = rejected_docket_cache(last_run.get("rejected_dockets", []))

@@ -399,6 +399,7 @@ Optional environment variables:
 - `MAX_DISCOVERY_CANDIDATES`: maximum number of discovery candidates to classify per run. Defaults to `5`.
 - `MAX_SUMMARIES_PER_RUN`: maximum number of new docket-entry summaries to generate per run. Defaults to `100`.
 - `MAX_DOCKET_UPDATE_PASSES`: maximum number of docket-update/summarization passes per workflow job. Defaults to `5` in GitHub Actions.
+- `FORCE_DISCOVERY`: set to `1`, `true`, or `yes` to force discovery even when `discovery_last_run_date` is already today.
 - `USE_ANTHROPIC_CASE_SUMMARIES`: set to `1`, `true`, or `yes` to allow model-generated initial case summaries instead of deterministic summaries.
 
 ## Local Development
