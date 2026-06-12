@@ -34,6 +34,7 @@ POSTURE_OPTIONS = {
     "Summary Judgment",
     "Trial",
     "Appeal",
+    "Stayed",
     "Settled",
     "Dismissed",
     "Judgment",
@@ -241,7 +242,7 @@ Respond ONLY with valid JSON, no preamble:
 {{
   "summary": "1-2 plain English sentences starting with the actor: The judge..., Plaintiff filed..., Both parties...",
   "significance": "significant_ruling" or "minor_update" or "case_resolved",
-  "posture_update": "new posture if changed, else null. Options: Filed, Motion Practice, Discovery, Summary Judgment, Trial, Appeal, Settled, Dismissed, Judgment",
+  "posture_update": "new posture if changed, else null. Options: Filed, Motion Practice, Discovery, Summary Judgment, Trial, Appeal, Stayed, Settled, Dismissed, Judgment",
   "key_holding": "If significant_ruling: one sentence holding. Otherwise null."
 }}"""
     for attempt in range(MAX_RETRIES + 1):
@@ -446,6 +447,10 @@ def main() -> None:
                 posture_text = clean_text(posture)
                 if posture_text in POSTURE_OPTIONS:
                     case["procedural_posture"] = posture_text
+                    if posture_text == "Stayed":
+                        case["status"] = "stayed"
+                    elif posture_text in {"Settled", "Dismissed", "Judgment"}:
+                        case["status"] = "resolved"
 
             if significance == "significant_ruling":
                 append_key_ruling(case, entry, result)

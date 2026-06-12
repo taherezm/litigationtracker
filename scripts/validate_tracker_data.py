@@ -24,6 +24,7 @@ EMPTY_ENTRY_SUMMARY_MARKERS = (
     "unable to summarize",
     "courtlistener recorded docket activity",
 )
+ALLOWED_CASE_STATUSES = {"active", "stayed", "resolved"}
 
 
 def clean_text(value: Any) -> str:
@@ -92,6 +93,12 @@ def validate_cases(cases: Any) -> list[str]:
         elif case_id in seen_ids:
             errors.append(f"{label}: duplicate case id {case_id}.")
         seen_ids.add(case_id)
+
+        status = clean_text(case.get("status")) or "active"
+        if status not in ALLOWED_CASE_STATUSES:
+            errors.append(
+                f"{label}: unsupported status {status!r}; expected one of {sorted(ALLOWED_CASE_STATUSES)}."
+            )
 
         court = clean_text(case.get("court"))
         docket_number = clean_text(case.get("docket_number"))

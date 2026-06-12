@@ -16,6 +16,7 @@ REQUIRED_SNIPPETS = (
 FORBIDDEN_SNIPPETS = (
     "Case Timeline",
     "Summary pending.",
+    "Needs Review",
 )
 
 

@@ -39,7 +39,7 @@ The static site repository (`taherezm/undergradtechlaw`) owns the browser UI. Th
 The tracker runs as a three-stage ETL pipeline, in this execution order:
 
 1. `scripts/update_dockets.py`
-   Polls CourtListener docket entries for every active tracked case from each case's own `docket_last_checked` checkpoint, appends new entries, and prepends recent activity records into `data/updates.json`. Run via `scripts/run_docket_update_passes.py`, which alternates docket and summarization passes.
+   Polls CourtListener docket entries for every non-resolved tracked case from each case's own `docket_last_checked` checkpoint, appends new entries, and prepends recent activity records into `data/updates.json`. Run via `scripts/run_docket_update_passes.py`, which alternates docket and summarization passes.
 2. `scripts/summarize.py`
    Summarizes unsummarized docket entries, classifies their litigation significance, updates procedural posture, records key rulings, and marks resolved cases when appropriate.
 3. `scripts/discover_cases.py`
@@ -146,7 +146,7 @@ GET /api/rest/v4/docket-entries/
 
 Each case carries its own `docket_last_checked` checkpoint. When a case is fully checked in a run, its checkpoint advances to that day, even if the run is later rate-limited or capped while checking other cases. This makes progress permanent: a throttled run never causes the next run to refetch windows that already completed. The two-day overlap re-covers entries that are docketed late, and entry-number deduplication makes the overlap harmless.
 
-Cases are processed stalest-checkpoint-first so repeated rate-limited runs rotate coverage across every active docket instead of starving the cases checked last. Cases without a checkpoint fall back to the global `docket_last_run_date` (or the previous five days if that is also missing). Newly discovered cases with no stored docket entries are polled from their filing date so the first docket update can backfill the initial case history.
+Cases are processed stalest-checkpoint-first so repeated rate-limited runs rotate coverage across every open docket instead of starving the cases checked last. Cases without a checkpoint fall back to the global `docket_last_run_date` (or the previous five days if that is also missing). Newly discovered cases with no stored docket entries are polled from their filing date so the first docket update can backfill the initial case history.
 
 The docket update stage honors `MAX_SUMMARIES_PER_RUN`, which defaults to `100`. The cap is enforced while paginating, so one backlogged docket cannot consume the whole run's API budget, and it is applied before new entries are committed into the public data files so every newly accepted docket entry can be summarized in the same run. If the cap interrupts a case, `docket_update_complete` is set to `false`, that case's checkpoint is not advanced, and overflow is retried on the next pass or run.
 
@@ -184,9 +184,11 @@ At the same time, a recent-activity record is prepended to `data/updates.json`:
 
 Those `summary: null` values are an internal, same-run state only. `scripts/summarize.py` fills them before validation and publication. Validation blocks any unsummarized or placeholder docket activity from reaching the live tracker.
 
-### Resolution Signals
+### Status Inference
 
-Some docket text is treated as requiring review. If the raw entry contains terms such as `JUDGMENT`, `DISMISSED WITH PREJUDICE`, `SETTLED`, `AFFIRMED`, `REVERSED`, or `MANDATE ISSUED`, the case status is moved to `needs_review`. The summarization stage may later classify the entry as `case_resolved` and mark the case `resolved`.
+Docket text is used to infer public case status directly. Terminal docket language such as dismissal, final judgment, mandate issuance, or settlement marks the case `resolved`; stay orders mark it `stayed`; later docket language lifting a stay returns it to `active`. The updater keeps polling every non-resolved case so stayed cases can move back to active automatically when the docket changes.
+
+The summarization stage may also classify an entry as `case_resolved` or return a posture update such as `Stayed`, `Dismissed`, `Settled`, or `Judgment`, and those structured values update the case status before publication.
 
 ## Summarization and Legal Precision
 
@@ -347,7 +349,7 @@ This prevents the pipeline from publishing data into a site template that no lon
 - `date_filed`: filing date where available.
 - `claims`: normalized claim labels.
 - `legal_theories`: currently reserved for richer doctrinal tagging.
-- `status`: `active`, `needs_review`, or `resolved`.
+- `status`: `active`, `stayed`, or `resolved`.
 - `procedural_posture`: normalized litigation stage.
 - `parties`: parsed plaintiff/defendant names.
 - `judges`: judge names where available.

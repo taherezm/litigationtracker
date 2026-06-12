@@ -1251,8 +1251,8 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "active",
-    "procedural_posture": "Filed",
+    "status": "stayed",
+    "procedural_posture": "Stayed",
     "parties": {
       "plaintiff": "Chicken Soup for the Soul, LLC",
       "defendant": "Anthropic PBC"
@@ -1595,7 +1595,7 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "needs_review",
+    "status": "active",
     "procedural_posture": "Filed",
     "parties": {
       "plaintiff": "Carreyrou",
@@ -1982,8 +1982,8 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "needs_review",
-    "procedural_posture": "Filed",
+    "status": "stayed",
+    "procedural_posture": "Stayed",
     "parties": {
       "plaintiff": "Encyclopaedia Britannica, Inc.",
       "defendant": "OpenAI, Inc."
@@ -2575,7 +2575,7 @@
       "patent infringement"
     ],
     "legal_theories": [],
-    "status": "needs_review",
+    "status": "active",
     "procedural_posture": "Filed",
     "parties": {
       "plaintiff": "Valtrus Innovations Limited",
@@ -2944,7 +2944,7 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "needs_review",
+    "status": "active",
     "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Anthropic PBC",
@@ -3050,7 +3050,7 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "needs_review",
+    "status": "active",
     "procedural_posture": "Appeal",
     "parties": {
       "plaintiff": "Amazon.com Services, LLC",

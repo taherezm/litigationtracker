@@ -32,13 +32,39 @@ COURTLISTENER_MAX_RETRY_AFTER_SECONDS = 30
 DEFAULT_MAX_SUMMARIES_PER_RUN = 100
 DOCKET_REFETCH_OVERLAP_DAYS = 2
 
-RESOLUTION_SIGNALS = (
-    "JUDGMENT",
-    "DISMISSED WITH PREJUDICE",
-    "SETTLED",
-    "AFFIRMED",
-    "REVERSED",
-    "MANDATE ISSUED",
+RESOLVED_PATTERNS = (
+    r"\bdismissed with prejudice\b",
+    r"\b(?:case|action|complaint) (?:is |was |hereby )?dismissed\b",
+    r"\border of dismissal\b",
+    r"\bnotice of voluntary dismissal\b",
+    r"\bclerk'?s judgment\b",
+    r"\b(?:final )?judgment (?:is |was |has been )?(?:entered|affirmed|reversed)\b",
+    r"\b(?:entered|enters) judgment\b",
+    r"\bmandate issued\b",
+    r"\bnotice of settlement\b",
+    r"\bcase (?:has been |is |was )?settled\b",
+    r"\bsettlement (?:has been |was |is )?(?:reached|approved)\b",
+)
+STAYED_PATTERNS = (
+    r"\bcase (?:is |was |hereby )?stayed\b",
+    r"\b(?:all )?(?:proceedings|deadlines|discovery|action) (?:are|is|be|shall be) (?:hereby )?stayed\b",
+    r"\bstaying (?:this )?(?:case|action|proceedings|deadlines|discovery)\b",
+    r"\border(?:ed)?[^.]{0,120}\bstay(?:ing|ed)? (?:this )?(?:case|action|proceedings|deadlines|discovery)\b",
+)
+STAY_LIFTED_PATTERNS = (
+    r"\bstay (?:is |was |has been )?(?:lifted|terminated|vacated|dissolved)\b",
+    r"\b(?:lifts|lifted|terminates|terminated|vacates|vacated|dissolves|dissolved) (?:the )?stay\b",
+    r"\bcase (?:is |was |has been )?reopened\b",
+)
+SUMMARY_JUDGMENT_PATTERNS = (
+    r"\b(?:filed|moves?|moved) (?:a |the )?motion for summary judgment\b",
+    r"\bsummary judgment motion\b",
+)
+APPEAL_PATTERNS = (
+    r"\bappellant\b",
+    r"\bappellee\b",
+    r"\bnotice of appeal\b",
+    r"\bappeal pending\b",
 )
 
 
@@ -261,9 +287,35 @@ def case_since_date(case: dict[str, Any], global_since: str) -> str:
     return clean_text(case.get("date_filed")) or global_since
 
 
-def needs_review(raw_text: str) -> bool:
-    upper = raw_text.upper()
-    return any(signal in upper for signal in RESOLUTION_SIGNALS)
+def matches_any(patterns: tuple[str, ...], text: str) -> bool:
+    return any(re.search(pattern, text, flags=re.IGNORECASE | re.DOTALL) for pattern in patterns)
+
+
+def infer_case_status(raw_text: str) -> str | None:
+    """Infer public case status from docket language without a manual review bucket."""
+    if matches_any(RESOLVED_PATTERNS, raw_text):
+        return "resolved"
+    if matches_any(STAY_LIFTED_PATTERNS, raw_text):
+        return "active"
+    if matches_any(STAYED_PATTERNS, raw_text):
+        return "stayed"
+    return None
+
+
+def infer_case_posture(raw_text: str, status: str | None = None) -> str | None:
+    if status == "stayed":
+        return "Stayed"
+    if status == "resolved":
+        if matches_any((r"\bsettlement\b", r"\bsettled\b"), raw_text):
+            return "Settled"
+        if matches_any((r"\bdismiss",), raw_text):
+            return "Dismissed"
+        return "Judgment"
+    if matches_any(SUMMARY_JUDGMENT_PATTERNS, raw_text):
+        return "Summary Judgment"
+    if matches_any(APPEAL_PATTERNS, raw_text):
+        return "Appeal"
+    return None
 
 
 def main() -> None:
@@ -279,12 +331,12 @@ def main() -> None:
     if not isinstance(last_run, dict):
         last_run = {}
 
-    active_cases = [
+    pollable_cases = [
         case
         for case in cases
-        if case.get("status") == "active" and clean_text(case.get("courtlistener_docket_id"))
+        if case.get("status") != "resolved" and clean_text(case.get("courtlistener_docket_id"))
     ]
-    if not active_cases:
+    if not pollable_cases:
         last_run["entries_updated"] = 0
         last_run["docket_update_complete"] = True
         last_run["docket_entry_cap_reached"] = False
@@ -310,10 +362,10 @@ def main() -> None:
     today = utc_now().date().isoformat()
 
     # Stalest checkpoints first so a rate-limited run still rotates coverage
-    # across every active docket instead of starving the cases listed last.
-    active_cases.sort(key=lambda case: case_since_date(case, since))
+    # across every open docket instead of starving the cases listed last.
+    pollable_cases.sort(key=lambda case: case_since_date(case, since))
 
-    for case in active_cases:
+    for case in pollable_cases:
         budget = summary_cap - len(new_updates)
         if budget <= 0:
             docket_update_complete = False
@@ -341,8 +393,12 @@ def main() -> None:
             }
             case.setdefault("docket_entries", []).append(new_entry)
             case_new_entries += 1
-            if needs_review(raw_text):
-                case["status"] = "needs_review"
+            inferred_status = infer_case_status(raw_text)
+            if inferred_status:
+                case["status"] = inferred_status
+            inferred_posture = infer_case_posture(raw_text, inferred_status or clean_text(case.get("status")))
+            if inferred_posture:
+                case["procedural_posture"] = inferred_posture
             new_updates.append(
                 {
                     "case_id": case.get("id"),
