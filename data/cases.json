@@ -3538,15 +3538,398 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "active",
+    "status": "stayed",
     "procedural_posture": "Filed",
     "parties": {
       "plaintiff": "Gracenote Media Services, LLC",
       "defendant": "OpenAI Foundation"
     },
     "judges": [],
-    "key_rulings": [],
-    "docket_entries": [],
+    "key_rulings": [
+      {
+        "date": "2026-05-15",
+        "description": "The court granted plaintiffs' motion to compel further 'Project Giraffe' discovery, requiring OpenAI to log withheld post-litigation evaluations and meet and confer on clawed-back documents, while denying other pending discovery motions without prejudice or as moot and ordering additional briefing on Microsoft financial disclosures.",
+        "summary": "The court issued an order following a May 12, 2026 discovery status conference across several consolidated cases, granting one motion to compel related to 'Project Giraffe' evaluation data, denying two other motions to compel without prejudice, and directing the parties to meet and confer and file supplemental briefs on several remaining discovery disputes involving survey data, Microsoft financials, and a proposed protective order amendment.",
+        "significance": "significant_ruling"
+      },
+      {
+        "date": "2026-04-21",
+        "description": "The court ordered the case stayed pending resolution of summary judgment motions in the related multidistrict litigation, with either party retaining the right to move to lift the stay for good cause.",
+        "summary": "The court approved a joint stipulation submitted by both parties, staying all proceedings and deadlines in this case until summary judgment motions in related cases within the broader multidistrict litigation are resolved. Judge Sidney H. Stein signed the order on April 21, 2026, requiring the parties to file a joint status report within 30 days of those rulings to propose next steps.",
+        "significance": "significant_ruling"
+      },
+      {
+        "date": "2026-04-07",
+        "description": "The court held that OpenAI's designated corporate witness was not adequately prepared for his 30(b)(6) deposition, ordered a follow-up deposition, and reserved the question of sanctions pending completion of that deposition.",
+        "summary": "The court found that OpenAI's corporate representative, Mr. Monaco, was inadequately prepared for his Rule 30(b)(6) deposition and that defense counsel's repeated objections unnecessarily impeded the questioning; the court ordered OpenAI to produce Mr. Monaco for an additional 3. 5-hour deposition on April 8, 2026, and deferred ruling on sanctions—potentially monetary or adverse-inference admissions—until after that deposition is completed.",
+        "significance": "significant_ruling"
+      },
+      {
+        "date": "2026-04-01",
+        "description": "The court issued a show cause order requiring plaintiff to justify why the case should not be stayed pending summary judgment proceedings in the broader multidistrict litigation.",
+        "summary": "The court ordered Gracenote Media Services to explain in writing by April 15, 2026, why this case should not be paused while summary judgment motions are resolved in the related multidistrict litigation cases; OpenAI may file a response by April 29, 2026.",
+        "significance": "significant_ruling"
+      }
+    ],
+    "docket_entries": [
+      {
+        "entry_number": "460042995",
+        "date": "2026-04-07",
+        "raw_text": "Pro Hac Vice Fee Payment: for 23 MOTION for Charisma Ricksy Nguepdo to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. Filing fee $ 200.00, receipt number ANYSDC-32662309..(Nguepdo, Charisma)",
+        "summary": "Attorney Charisma Ricksy Nguepdo paid the $200 filing fee associated with a motion seeking permission to appear in this case pro hac vice, meaning as a visiting attorney admitted for this matter only. The motion and supporting materials are pending review by the Clerk's Office.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "464559251",
+        "date": "2026-04-08",
+        "raw_text": ">>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice to RE-FILE Document No. 25 MOTION for Elise Lyle Miller to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32668604. Motion and supporting papers to be reviewed by Clerk's Office staff. The filing is deficient for the following reason(s): missing Certificate of Good Standing from Supreme Court of Texas, not state bar;. Re-file the motion as a Motion to Appear Pro Hac Vice - attach the correct signed PDF - select the correct named filer/filers - attach valid Certificates of Good Standing issued within the past 30 days - attach Proposed Order.. (bc)",
+        "summary": "The Clerk's Office issued a notice that the pro hac vice motion filed on behalf of attorney Elise Lyle Miller is deficient because it is missing a Certificate of Good Standing from the Supreme Court of Texas (not a state bar certificate), and directed the filing party to re-file the motion with the correct documentation, including a valid Certificate of Good Standing issued within the past 30 days and a proposed order.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "459901237",
+        "date": "2026-04-07",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 22 MOTION for IAN BRADFORD CROSBY to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32658161. Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (bc)",
+        "summary": "The Clerk's Office reviewed a pro hac vice motion seeking admission of attorney Ian Bradford Crosby and found no deficiencies in the filing or the $200 fee submission.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "460042996",
+        "date": "2026-04-07",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 23 MOTION for Charisma Ricksy Nguepdo to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (bc)",
+        "summary": "The Clerk's Office reviewed a motion to allow attorney Charisma Ricksy Nguepdo to appear in this case on a pro hac vice basis and found no deficiencies in the submitted paperwork.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "464559254",
+        "date": "2026-04-09",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 28 MOTION for Davida Brook to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (bc)",
+        "summary": "The Clerk's Office reviewed the pro hac vice motion for attorney Davida Brook to appear in this case and found no deficiencies in the submission.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "464559253",
+        "date": "2026-04-08",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 27 MOTION for Elise Lyle Miller to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (bc)",
+        "summary": "The Clerk's Office reviewed the motion seeking permission for attorney Elise Lyle Miller to appear pro hac vice in this case and found no deficiencies in the submitted paperwork.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "459901236",
+        "date": "2026-03-13",
+        "raw_text": "Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Remote Settlement Conference held on 3/13/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)",
+        "summary": "Magistrate Judge Ona T. Wang held a remote settlement conference on March 13, 2026, involving both parties in this case, which is part of a coordinated multidistrict litigation proceeding. No outcome or agreement has been reported in this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "464559252",
+        "date": "2026-04-08",
+        "raw_text": ">>>NOTICE REGARDING DEFICIENT MOTION TO APPEAR PRO HAC VICE. Notice to RE-FILE Document No. 26 MOTION for Davida Brook to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32668965. Motion and supporting papers to be reviewed by Clerk's Office staff... The filing is deficient for the following reason(s): missing Certificate of Good Standing from Supreme Court of California, not state bar;. Re-file the motion as a Motion to Appear Pro Hac Vice - attach the correct signed PDF - select the correct named filer/filers - attach valid Certificates of Good Standing issued within the past 30 days - attach Proposed Order.. (bc)",
+        "summary": "The Clerk's Office issued a notice that the pro hac vice motion filed on behalf of attorney Davida Brook is deficient and must be re-filed, because it is missing a Certificate of Good Standing from the California Supreme Court rather than a state bar certificate, along with other required corrected documents.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "459169673",
+        "date": "2026-03-10",
+        "raw_text": "Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 3/10/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)",
+        "summary": "Magistrate Judge Ona T. Wang held a status conference on March 10, 2026 in this case, which is part of a larger multidistrict litigation proceeding in the Southern District of New York.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "464559255",
+        "date": "2026-05-12",
+        "raw_text": "Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Status Conference held on 5/12/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)",
+        "summary": "Magistrate Judge Ona T. Wang held a status conference on May 12, 2026 in this case, which is part of a coordinated multidistrict litigation proceeding. The entry reflects a routine scheduling or case-management event and does not report any rulings or substantive court action.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "457143509",
+        "date": "2026-03-12",
+        "raw_text": "CASE ACCEPTED AS RELATED. Create association to 1:25-md-03143-SHS-OTW. Notice of Assignment to follow. (tro)",
+        "summary": "The court accepted this case as related to a multidistrict litigation proceeding (1:25-md-03143-SHS-OTW) and created a formal association between the two matters, with a notice of assignment to follow.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "457143510",
+        "date": "2026-03-12",
+        "raw_text": "NOTICE OF CASE REASSIGNMENT to Judge Sidney H. Stein. Judge Unassigned is no longer assigned to the case. (tro)",
+        "summary": "The court reassigned this case to Judge Sidney H. Stein, replacing the previously unassigned judge designation.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "457143511",
+        "date": "2026-03-12",
+        "raw_text": "Magistrate Judge Ona T. Wang is designated to handle matters that may be referred in this case. Pursuant to 28 U.S.C. Section 636(c) and Fed. R. Civ. P. 73(b)(1) parties are notified that they may consent to proceed before a United States Magistrate Judge. Parties who wish to consent may access the necessary form at the following link: https://nysd.uscourts.gov/sites/default/files/2018-06/AO-3.pdf. (tro)",
+        "summary": "The court designated Magistrate Judge Ona T. Wang to handle referred matters in this case and notified the parties that they may consent to have a magistrate judge preside over the entire case under 28 U. S. C. § 636(c).",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "457143512",
+        "date": "2026-03-12",
+        "raw_text": "CONSOLIDATED MDL CASE: Create association to 1:25-md-03143-SHS-OTW.. (tro)",
+        "summary": "The court administratively linked this case to a consolidated multidistrict litigation proceeding, In re OpenAI, No. 1:25-md-03143-SHS-OTW, in the Southern District of New York.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "459169701",
+        "date": "2026-03-13",
+        "raw_text": "Minute Entry for proceedings held before Magistrate Judge Ona T. Wang: Pre-Settlement Conference held on 3/13/2026. Associated Cases: 1:25-md-03143-SHS-OTW et al.(Quinn, Diane)",
+        "summary": "Magistrate Judge Ona T. Wang held a pre-settlement conference with the parties on March 13, 2026, as part of the broader multidistrict litigation consolidated under case no. 1:25-md-03143.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "456902787",
+        "date": "2026-03-11",
+        "raw_text": "***NOTICE TO ATTORNEY REGARDING PARTY MODIFICATION. Notice to attorney Elisha Brandis Barron. The party information for the following party/parties has been modified: OpenAI Foundation, OpenAI Holdings, LLC. The information for the party/parties has been modified for the following reason/reasons: party role was entered incorrectly; alias party name was omitted. (vf)",
+        "summary": "The court's electronic filing system updated the party records for OpenAI Foundation and OpenAI Holdings, LLC to correct an improperly entered party role and add a previously omitted party alias name.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "456902788",
+        "date": "2026-03-11",
+        "raw_text": "CASE OPENING INITIAL ASSIGNMENT NOTICE: The above-entitled action is assigned to Judge Unassigned. (vf)",
+        "summary": "The court's clerk assigned this newly filed case to a judge, though no specific judge has been designated yet. This entry reflects the administrative opening of Gracenote Media Services, LLC's lawsuit against OpenAI Foundation in the Southern District of New York.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "456902789",
+        "date": "2026-03-11",
+        "raw_text": "Case Designated ECF. (vf)",
+        "summary": "The court administratively designated this case for Electronic Case Filing (ECF), meaning all documents will be filed and managed through the federal electronic filing system.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "456902790",
+        "date": "2026-03-11",
+        "raw_text": "CASE REFERRED to Judge Sidney H. Stein as possibly related to 1:25-md-03143. (vf)",
+        "summary": "The court referred this case to Judge Sidney H. Stein as possibly related to a consolidated multidistrict litigation proceeding, case number 1:25-md-03143, pending in the Southern District of New York.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "32",
+        "date": "2026-05-15",
+        "raw_text": "ORDER: in case 1:23-cv-08292-SHS-OTW; denying without prejudice (1358) Letter Motion to Compel; denying as moot (1364) Letter Motion to Compel; terminating (1368) Letter Motion to Compel; granting (1369) Letter Motion to Compel in case 1:23-cv-11195-SHS-OTW; denying as moot (472) Letter Motion to Compel; terminating (474) Letter Motion to Compel in case 1:24-cv-01515-SHS-OTW; denying as moot (712) Letter Motion to Compel; terminating (714) Letter Motion to Compel in case 1:24-cv-03285-SHS-OTW; denying as moot (586) Letter Motion to Compel; terminating (588) Letter Motion to Compel in case 1:24-cv-04872-SHS-OTW; denying without prejudice (1506) Letter Motion to Compel; denying as moot (1513) Letter Motion to Compel; terminating (1518) Letter Motion to Compel; granting (1520) Letter Motion to Compel in case 1:25-md-03143-SHS-OTW; denying as moot (520) Letter Motion to Compel; terminating (522) Letter Motion to Compel in case 1:25-cv-04315-SHS-OTW The Court held a discovery status conference for all actions in this matter on Tuesday, May 12, 2026. As ORDERED at the Conference: I. ALL ACTIONS 1. Plaintiffs' motion to compel further \"Project Giraffe\" discovery (ECF 1520) On Plaintiffs' three categories of information sought, I ordered the following: A. The parties are to meet and confer on the \"five questions\" about raw evaluation data; B. The clawed-back data will be logged and OpenAI will meet and confer on whether they can provide additional information requested concerning the clawed back document; and C. OpenAI is to log an evaluations that are withheld because they post-date the litigation. 2. News Plaintiffs' motion to amend the protective order (ECF 1518). Parties were directed to further meet and confer on this issue and file a joint status letter on a resolution of this issue, or by Friday, May 15, 2026, a proposed briefing schedule. 3. Microsoft's motion for NYT Brand Tracker Survey data (ECF 1506) This motion is DENIED without prejudice. Parties are directed to continue meeting and conferring on production, including third-party Kantar in those efforts. 4. Rule 30(b)96) deposition on OpenAI's click-through data (ECF 1513) This motion is DENIED as moot in light of the parties' representation at ECF 1542-1 at 6 that this issue has been resolved.5. Microsoft Financials (ECF 1310) Parties are directed to cross-file supplemental briefs by Friday, May 15, 2026, with responses due Wednesday, May 20, 2026. Parties are to discuss why production of the financial information tied to LLM integration licenses is or is not a sufficient response to this request. The Clerk of Court is respectfully directed to close the following ECF Nos. in Case No. 25-MD-3143: 1506, 1513, 1518, 1520. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 5/15/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (ar) (Entered: 05/15/2026)",
+        "summary": "The court issued an order following a May 12, 2026 discovery status conference across several consolidated cases, granting one motion to compel related to 'Project Giraffe' evaluation data, denying two other motions to compel without prejudice, and directing the parties to meet and confer and file supplemental briefs on several remaining discovery disputes involving survey data, Microsoft financials, and a proposed protective order amendment.",
+        "significance": "significant_ruling"
+      },
+      {
+        "entry_number": "31",
+        "date": "2026-05-12",
+        "raw_text": "ORDER: The Court has reviewed the parties' briefing concerning OpenAI's clawback and redaction of the document related to the \"Multimodal Data Sources project.\" (ECF Nos. 1517, 1519, 1531). OpenAI is hereby directed to file a letter brief in support of its motion for a protective order, not to exceed three pages, along with the disputed document, and the related document if necessary, for in camera review by Friday, May 15, 2026. Opposition to the motion is due Tuesday, May 19, 2026.If parties are able to resolve this issue, they shall file a joint status letter no later than May 15, 2026, apprising the Court of such resolution.SO ORDERED. ( Responses due by 5/19/2026) (Signed by Magistrate Judge Ona T. Wang on 5/12/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 05/12/2026)",
+        "summary": "Magistrate Judge Ona T. Wang ordered OpenAI to submit a letter brief of no more than three pages supporting its motion for a protective order—along with the disputed document related to its 'Multimodal Data Sources project'—for the court's private review by May 15, 2026, with Gracenote's opposition due May 19, 2026; the court also directed the parties to file a joint status letter by May 15 if they resolve the dispute on their own.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "30",
+        "date": "2026-04-21",
+        "raw_text": "JOINT STIPULATION AND ORDER STAYING GRACENOTE ACTION: NOW, THEREFORE, IT IS HEREBY STIPULATED BY AND BETWEEN THE PARTIES THAT, subject to the Court's approval, as follows: 1. All proceedings and deadlines in the above-captioned Action are hereby stayed pending resolution of summary judgment motions in the other active cases in this multidistrict litigation. 2. Within 30 days of rulings on such motion(s) in the MDL, the parties shall file a joint status report in this Action to propose a case management conference and any appropriate further proceedings in light of the MDL decision. 3. While this stay is in effect, any party may move to lift the stay for good cause shown. Nothing in this stipulation shall preclude any party from seeking such relief, if necessary, or from seeking any other appropriate relief from the Court. SO ORDERED (Signed by Judge Sidney H. Stein on 4/21/2026) Case stayed. Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:26-cv-01947-SHS (ks) (Entered: 04/21/2026)",
+        "summary": "The court approved a joint stipulation submitted by both parties, staying all proceedings and deadlines in this case until summary judgment motions in related cases within the broader multidistrict litigation are resolved. Judge Sidney H. Stein signed the order on April 21, 2026, requiring the parties to file a joint status report within 30 days of those rulings to propose next steps.",
+        "significance": "significant_ruling"
+      },
+      {
+        "entry_number": "29",
+        "date": "2026-04-15",
+        "raw_text": "PROPOSED STIPULATION AND ORDER. Document filed by Gracenote Media Services, LLC..(Crosby, Ian) (Entered: 04/15/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a proposed stipulation and order, suggesting that both parties may have reached an agreement on a procedural or substantive matter for the court's approval.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "28",
+        "date": "2026-04-08",
+        "raw_text": "MOTION for Davida Brook to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Gracenote Media Services, LLC. (Attachments: # 1 Affidavit of Davida Brook, # 2 Exhibit A Certificate of Good Standing, # 3 Proposed Order Granting Pro Hac Vice).(Brook, Davida) (Entered: 04/08/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a motion seeking permission for attorney Davida Brook to appear in this case on a pro hac vice basis, allowing her to practice before this court even though she is not a member of its bar. The filing includes Brook's affidavit, a certificate of good standing, and a proposed order for the clerk's review.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "27",
+        "date": "2026-04-08",
+        "raw_text": "MOTION for Elise Lyle Miller to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Gracenote Media Services, LLC. (Attachments: # 1 Affidavit of Elise Lyle Miller, # 2 Exhibit A - Certificate of Good Standing, # 3 Proposed Order Granting Motion for Pro Hac Vice).(Miller, Elise) (Entered: 04/08/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a motion asking the court to allow attorney Elise Lyle Miller to appear in this case on a pro hac vice basis, meaning she is admitted to practice in another jurisdiction and is seeking special permission to represent Gracenote in this court. The motion includes Miller's affidavit, a certificate of good standing, and a proposed order, and is pending review by the Clerk's Office.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "26",
+        "date": "2026-04-08",
+        "raw_text": "FILING ERROR - DEFICIENT DOCKET ENTRY - MOTION for Davida Brook to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32668965. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Gracenote Media Services, LLC. (Attachments: # 1 Affidavit of Davida Brook, # 2 Exhibit A Certificate of Good Standing, # 3 Proposed Order for Admission Pro Hac Vice).(Brook, Davida) Modified on 4/8/2026 (bc). (Entered: 04/08/2026)",
+        "summary": "Gracenote Media Services, LLC filed a motion to admit attorney Davida Brook to appear pro hac vice, paying the $200 filing fee, but the Clerk's Office flagged the entry as deficient and is reviewing the motion and supporting papers before it can be processed.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "25",
+        "date": "2026-04-08",
+        "raw_text": "FILING ERROR - DEFICIENT DOCKET ENTRY - MOTION for Elise Lyle Miller to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32668604. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Gracenote Media Services, LLC. (Attachments: # 1 Affidavit of Elise Miller, # 2 Exhibit A - Certificate of Good Standing, # 3 Proposed Order Granting Motion for Pro Hac Vice).(Miller, Elise) Modified on 4/8/2026 (bc). (Entered: 04/08/2026)",
+        "summary": "Gracenote Media Services, LLC filed a motion to admit attorney Elise Lyle Miller pro hac vice (permission for an out-of-jurisdiction attorney to appear in this case), along with a $200 filing fee, a supporting affidavit, a certificate of good standing, and a proposed order — but the submission was flagged by the court as a deficient docket entry and sent to the Clerk's Office for review.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "24",
+        "date": "2026-04-07",
+        "raw_text": "OPINION AND ORDER RE: MONACO DEPOSITION: Mr. Monaco based his testimony-which should bind the corporation-on his own hazy recollections working on Project Giraffe, a review of source code that he and others wrote (but which he does not remember), and a few other documents: \"part of\" Lampe's deposition transcript, Lilian Weng's notes (which may or may not be the same as the Project Giraffe \"meeting notes\"), and \"some metrics.\" (Jan. 27 Rough Tr. 19-21). He spoke to no other individuals to prepare for his deposition. But when asked even the simplest questions relevant to Plaintiffs' output claims, Mr. Monaco failed to answer or provided incomplete or evasive answers. For example, despite admitting that individuals other than he, Lampe, Weng and Goel and members of the legal team worked on Project Giraffe, he was unable to name a single other person who worked on Project Giraffe. Instead, he said he \"would have to go back to\" the meeting notes that he purportedly reviewed in preparation for his deposition to name a single other person who worked on the project. And then, when asked if he, Lampe, Goel and Weng performed \"most\" of the work on Project Giraffe, he paused for 18 seconds before stating that he was unable to answer the question. A 30(b)(6) witness cannot only rely on his own recollection if that recollection fails once he is asked anything more than the simplest, most basic questions. Mr. Monaco was not adequately prepared for his deposition. Mr. Monaco did not act alone. Mr. Monaco's answers became increasingly evasive after counsel's repeated and unnecessary objections, only a few of which were summarized here. At the March 10, 2026, conference, the Court directed the parties to meet and confer so that Plaintiffs can conduct a more fulsome deposition of OpenAI on the topics that Mr. Monaco was designated; the parties agreed to produce Mr. Monaco for an additional 3.5 hour deposition on April 8, 2026. OpenAI is on notice that Mr. Monacos preparation for his deposition in January was not sufficient, and that counsel's objections unnecessarily delayed and impeded the deposition. But, because Mr. Monaco will be produced for additional 30(b)(6) deposition time, which the Court expects will cure the deficiencies in the deposition from January, the Court defers ruling on whether any other remedial discovery or sanctions are warranted until after OpenAI's 30(b)(6) deposition(s) are completed. If sanctions are granted, such sanctions may be monetary, or they may include a recommendation that certain answers be imputed toor deemed admissions by-OpenAI. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 4/7/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (tg) (Entered: 04/07/2026)",
+        "summary": "The court found that OpenAI's corporate representative, Mr. Monaco, was inadequately prepared for his Rule 30(b)(6) deposition and that defense counsel's repeated objections unnecessarily impeded the questioning; the court ordered OpenAI to produce Mr. Monaco for an additional 3. 5-hour deposition on April 8, 2026, and deferred ruling on sanctions—potentially monetary or adverse-inference admissions—until after that deposition is completed.",
+        "significance": "significant_ruling"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-04-07",
+        "raw_text": "MOTION for Charisma Ricksy Nguepdo to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Gracenote Media Services, LLC. (Attachments: # 1 Affidavit of C. Nguepdo, # 2 Exhibit A - Certificate of Good Standing, # 3 Proposed Order for Admission Pro Hac Vice).(Nguepdo, Charisma) (Entered: 04/07/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a motion to admit attorney Charisma Ricksy Nguepdo to appear pro hac vice, allowing her to participate in this case despite not being a member of the court's bar. The motion and supporting materials, including an affidavit and a certificate of good standing, are pending review by the Clerk's Office.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-04-06",
+        "raw_text": "MOTION for IAN BRADFORD CROSBY to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-32658161. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Gracenote Media Services, LLC. (Attachments: # 1 Affidavit Affidavit of I. Crosby, # 2 Exhibit Cert. of Good Standing, # 3 Proposed Order Proposed Order).(Crosby, Ian) (Entered: 04/06/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a motion for attorney Ian Bradford Crosby to appear pro hac vice, allowing him to participate in the case despite not being admitted to the Southern District of New York bar. The filing includes a $200 fee, Crosby's affidavit, a certificate of good standing, and a proposed order for the clerk's review.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-04-06",
+        "raw_text": "SCHEDULING ORDER: The Court, having received the parties' proposed briefing schedule for an in-person Status Conference (ECF 1490), hereby ORDERS as follows: An in-person Status Conference shall be held on Tuesday, May 12, 2026, at 9:30 AM in Courtroom 20D, 500 Pearl Street, New York, NY 10007. The parties shall adhere to the following briefing schedule in advance of the conference: opening briefs are due by Wednesday, April 29, 2026; opposing briefs are due by Monday, May 4, 2026; and the parties' joint dispute chart is due by Tuesday, May 5, 2026. SO ORDERED. ( Brief due by 4/29/2026., Responses to Brief due by 5/4/2026, Status Conference set for 5/12/2026 at 09:30 AM in Courtroom 20D, 500 Pearl Street, New York, NY 10007 before Magistrate Judge Ona T. Wang.) (Signed by Magistrate Judge Ona T. Wang on 4/6/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 04/06/2026)",
+        "summary": "Magistrate Judge Ona T. Wang ordered a briefing schedule and in-person status conference for May 12, 2026, at 9:30 AM in Courtroom 20D, with opening briefs due April 29, opposing briefs due May 4, and a joint dispute chart due May 5, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-04-01",
+        "raw_text": "ORDER: Plaintiff is ordered to show cause in writing on or before April 15, 2026, why this action should not be stayed pending resolution of summary judgment motions in the other active cases in this multidistrict litigation. Defendants' response, if any, shall be filed by April 29, 2026. SO ORDERED. Show Cause Response due by 4/15/2026. (Signed by Judge Sidney H. Stein on 4/1/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:26-cv-01947-SHS (jca) (Entered: 04/01/2026)",
+        "summary": "The court ordered Gracenote Media Services to explain in writing by April 15, 2026, why this case should not be paused while summary judgment motions are resolved in the related multidistrict litigation cases; OpenAI may file a response by April 29, 2026.",
+        "significance": "significant_ruling"
+      },
+      {
+        "entry_number": "19",
+        "date": "2026-03-31",
+        "raw_text": "MEMO ENDORSEMENT on MOTION TO WITHDRAW AS COUNSEL OF RECORD. ENDORSEMENT: SO ORDERED. Motions terminated: (395 in 1:24-cv-01515-SHS-OTW, 329 in 1:24-cv-00084-SHS-OTW, 970 in 1:23-cv-08292-SHS-OTW, 304 in 1:25-cv-03297-SHS-OTW, 241 in 1:25-cv-03483-SHS-OTW, 1178 in 1:23-cv-11195-SHS-OTW, 87 in 1:25-cv-06286-SHS-OTW, 605 in 1:24-cv-03285-SHS-OTW, 196 in 1:25-cv-03291-SHS-OTW, 57 in 1:25-cv-09912-SHS, 750 in 1:25-cv-03482-SHS-OTW, 643 in 1:23-cv-10211-SHS-OTW, 364 in 1:25-cv-04315-SHS-OTW, 506 in 1:24-cv-04872-SHS-OTW, 1193 in 1:25-md-03143-SHS-OTW, 63 in 1:25-cv-09904-SHS, 361 in 1:24-cv-01514-SHS-OTW) MOTION for Allison L. Stillman, Joseph R. Wetzel, Jr., Rachel R. Blitzer, and Michael A. David to Withdraw as Attorney . filed by OpenAI Holdings, LLC, OpenAI Inc., OpenAI LP, OpenAI Startup Fund GP I LLC, OpenAI LLC, OpenAI Startup Fund Management LLC, OpenAI Global, L.L.C., OpenAI OpCo, L.L.C., OpenAI Startup Fund I LP, OpenAI GP, LLC, OAI Corporation, LLC. (Signed by Magistrate Judge Ona T. Wang on 3/31/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 03/31/2026)",
+        "summary": "The court granted a motion allowing four attorneys — Allison L. Stillman, Joseph R. Wetzel, Jr. , Rachel R. Blitzer, and Michael A. David — to withdraw as counsel of record for multiple OpenAI entities across seventeen related cases, including this one.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-03-31",
+        "raw_text": "MEMO ENDORSEMENT in case 1:23-cv-08292-SHS-OTW; granting (1177) Motion to Withdraw as Attorney. in case 1:23-cv-11195-SHS-OTW. ENDORSEMENT: SO ORDERED:Application GRANTED. (Signed by Magistrate Judge Ona T. Wang on 3/31/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 03/31/2026)",
+        "summary": "Magistrate Judge Ona T. Wang granted a motion allowing an attorney to withdraw from representation in this consolidated multidistrict litigation, effective March 31, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-03-31",
+        "raw_text": "SCHEDULING ORDER: The Court held a confidential discovery settlement conference for all actions in this matter on Monday, March 30, 2026. The Court will conduct another confidential discovery settlement conference on Thursday, April 16, 2026, at 12:00 p.m. ET. The parties shall submit any pre-settlement submissions to Chambers via email no later than Tuesday, April 14, 2026. The parties shall also provide a joint agenda for the conference by emailing it to Chambers by Wednesday, April 15, 2026. Plaintiffs are directed to circulate a Zoom link to all parties in advance of the conference. Parties are directed to meet and confer and propose a briefing schedule and dates for an in-person Status Conference in early May by Friday, April 3, 2026. Settlement Conference set for 4/16/2026 at 12:00 PM before Magistrate Judge Ona T. Wang. (Signed by Magistrate Judge Ona T. Wang on 3/30/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 03/31/2026)",
+        "summary": "Magistrate Judge Ona T. Wang issued a scheduling order setting a second confidential discovery settlement conference for April 16, 2026, and directing the parties to submit pre-conference materials, propose a briefing schedule, and arrange dates for an in-person status conference in early May.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-03-26",
+        "raw_text": "ORDER in case 1:23-cv-08292-SHS-OTW; granting (1385) Motion to Substitute Party. On March 4, 2026, defendant OpenAI Holdings, LLC moved (Dkt. No. 1385) pursuant to Federal Rule of Civil Procedure 25(c) to substitute OpenAI Group PBC in place of OpenAI Holdings, LLC. No party has opposed that motion to date. Accordingly, the motion is granted and OpenAI Group BPC is substituted in the place of defendant OpenAI Holdings, LLC. OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC and OpenAI Group PBC added. OpenAI Holdings, LLC, OpenAI Holdings LLC and OpenAI Holdings LLC terminated in case 1:25-md-03143-SHS-OTW. (Signed by Judge Sidney H. Stein on 3/26/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (sgz) (Entered: 03/27/2026)",
+        "summary": "The court granted a motion to substitute OpenAI Group PBC in place of OpenAI Holdings, LLC as a defendant, following an unopposed request made under Federal Rule of Civil Procedure 25(c), which allows party substitution when an interest is transferred. OpenAI Holdings, LLC has been terminated from the case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "15",
+        "date": "2026-03-26",
+        "raw_text": "ORDER in case 1:23-cv-08292-SHS-OTW; granting (1385) Motion to Substitute Party. On March 4, 2026, defendant OpenAI Holdings, LLC moved (Dkt. No. 1385) pursuant to Federal Rule of Civil Procedure 25(c) to substitute OpenAI Group PBC in place of OpenAI Holdings, LLC. No party has opposed that motion to date. Accordingly, the motion is granted and OpenAI Group BPC is substituted in the place of defendant OpenAI Holdings, LLC. OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC, OpenAI Group PBC and OpenAI Group PBC added. OpenAI Holdings, LLC, OpenAI Holdings LLC and OpenAI Holdings LLC terminated in case 1:25-md-03143-SHS-OTW. (Signed by Judge Sidney H. Stein on 3/26/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (sgz) (Entered: 03/27/2026)",
+        "summary": "The court granted a motion to substitute OpenAI Group PBC in place of OpenAI Holdings, LLC as a defendant, following an unopposed request filed under Federal Rule of Civil Procedure 25(c), which allows party substitution when an interest is transferred during litigation. OpenAI Holdings, LLC has been terminated from the case and OpenAI Group PBC now stands in its place.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "14",
+        "date": "2026-03-25",
+        "raw_text": "SEALING ORDER granting (547) Motion to Seal; granting (553) Motion to Seal; granting (555) Motion to Seal in case 1:23-cv-11195-SHS-OTW; granting (23) Motion to Seal; granting (30) Motion to Seal; granting (35) Letter Motion to Seal; granting (37) Letter Motion to Seal; granting (1093) Letter Motion to Seal in case 1:25-md-03143-SHS-OTW. In sum, the parties' motions to seal (ECF Nos. 23, 30, 35, 37) are GRANTED. The Clerk of Court is respectfully directed to close the following ECF Nos. in Case No. 25-MD-3143: 23, 30, 35, 37, 1093; and in Case No. 23-cv-11195: 547, 553, 555. SO ORDERED. (Signed by Magistrate Judge Ona T. Wang on 3/25/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (mml) (Entered: 03/26/2026)",
+        "summary": "Magistrate Judge Ona T. Wang granted multiple motions to seal filed by the parties in both the individual case (No. 23-cv-11195) and the consolidated multidistrict litigation (No. 25-md-3143), directing the Clerk of Court to close the corresponding docket entries in each case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "13",
+        "date": "2026-03-23",
+        "raw_text": "ORDER: At the request of the parties (Dkt. No. 1441), the Joint Case Schedule in this multidistrict litigation is modified as follows: The last day to serve opening expert reports is April 24, 2026. The last day to serve rebuttal expert reports is May 29, 2026. The last day to serve reply expert reports is June 26, 2026. The close of expert discovery is August 3, 2026. The last day to file motions for summary judgment and Daubert motions pursuant to Federal Rule of Evidence 702 is September 4, 2026. The last day to file oppositions to motions for summary judgment and Daubert motions is October 9, 2026. The last day to file replies in support of motions for summary judgment and Daubert motions is November 6, 2026. Motions due by 9/4/2026. Responses due by 10/9/2026 Replies due by 11/6/2026. Expert Discovery due by 8/3/2026. (Signed by Judge Sidney H. Stein on 3/23/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (sgz) (Entered: 03/24/2026)",
+        "summary": "The court, at the parties' joint request, modified the case schedule in this multidistrict litigation, setting key deadlines including opening expert reports due April 24, 2026, the close of expert discovery on August 3, 2026, and summary judgment and Daubert motions due September 4, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "12",
+        "date": "2026-03-23",
+        "raw_text": "LETTER addressed to Magistrate Judge Ona T. Wang from Andrew F. Dawson, Herman H. Yue, Rose S. Lee dated March 23, 2026 re: OpenAI's Supplemental Briefing in Opposition to Plaintiffs' Motion to Compel the Production of the Musk Deposition Materials. Document filed by OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo LLC, OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund I LP, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI Startup Fund Management LLC, OpenAI, Inc., OpenAI, Inc.. (Attachments: # 1 Exhibit A to OpenAI's Supplemental Briefing in Opposition to Plaintiffs' Motion to Compel the Production of the Musk Deposition Materials)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Dawson, Andrew) (Entered: 03/23/2026)",
+        "summary": "OpenAI entities filed a letter with Magistrate Judge Ona T. Wang on March 23, 2026, submitting supplemental briefing opposing Gracenote's motion to compel production of deposition materials related to Elon Musk, and attaching one exhibit in support of their position.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "11",
+        "date": "2026-03-18",
+        "raw_text": "JOINT LETTER addressed to Judge Sidney H. Stein from Annette L. Hurst, Robert Van Nest, Justin A. Nelson, and Davida Brook dated March 18, 2026 re: Requesting Slight Modification of Case Deadlines. Document filed by Microsoft Corporation.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hurst, Annette) (Entered: 03/18/2026)",
+        "summary": "Both parties jointly wrote to Judge Sidney H. Stein on March 18, 2026, requesting a modest adjustment to existing case deadlines, with the letter filed on behalf of Microsoft Corporation in the consolidated multidistrict litigation.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "10",
+        "date": "2026-03-13",
+        "raw_text": "ORDER: The Court held a confidential discovery settlement conference for all actions in this matter on Friday, March 13, 2026. The Court will conduct another confidential discovery settlement conference on Monday, March 30, 2026, at 2:00 p.m. ET. The parties shall submit any pre-settlement submissions to Chambers via email no later than Friday, March 27, 2026. The parties shall also provide a joint agenda for the conference by emailing it to Chambers no later than 10:00 a.m. ET on Monday, March 30, 2026. Plaintiffs are directed to circulate a Zoom link to all parties in advance of the conference. The Court sets the following briefing schedule for production of the deposition transcripts and companying exhibits in the Musk litigation: Plaintiffs' opening brief due March 20; OpenAI's response due March 23. There shall be no replies. Parties are reminded to refer back to the January 15, 2026, hearing transcript before submitting their briefing. SO ORDERED. ( Brief due by 3/20/2026., Responses to Brief due by 3/23/2026), ( Settlement Conference set for 3/30/2026 at 02:00 PM before Magistrate Judge Ona T. Wang.) (Signed by Magistrate Judge Ona T. Wang on 3/13/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (vfr) (Entered: 03/13/2026)",
+        "summary": "Magistrate Judge Ona T. Wang ordered a second confidential discovery settlement conference for March 30, 2026, at 2:00 p. m. ET, and set a briefing schedule on the production of deposition transcripts and related exhibits from the Musk litigation, with plaintiffs' opening brief due March 20 and OpenAI's response due March 23.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "9",
+        "date": "2026-03-13",
+        "raw_text": "LETTER addressed to Magistrate Judge Ona T. Wang from Andrew Dawson, Herman H. Yue, Rose S. Lee dated March 13, 2026 re: G. Brockman Letter to Court Requesting Extension of Deadline. Document filed by OAI Corporation, OAI Corporation LLC, OAI Corporation, LLC, OpenAI GP LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Global, L.L.C., OpenAI Holdings LLC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI LP, OpenAI OpCo LLC, OpenAI OpCo LLC(a Delaware limited liability corporation), OpenAI OpCo, L.L.C., OpenAI Startup Fund GP I LLC, OpenAI Startup Fund GP I LLC(a Delaware limited liability company), OpenAI Startup Fund I LP, OpenAI Startup Fund I LP(a Delaware limited partnership), OpenAI Startup Fund Management LLC, OpenAI Startup Fund Management LLC(a Delaware limited liability company), OpenAI, Inc., OpenAI, Inc. Copyright Infringement Litigation, OpenAI, LLC, OAI Corporation, LLC, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI LP, OpenAI OpCo, LLC, OpenAI, Inc., OpenAI, LLC, OpenAI Startup Fund Mangement, LLC, OpenAI GP LLC, OpenAI Inc., OpenAI LP(a Delaware limited partnership), OpenAI Global, LLC, OAI Corporation LLC, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Holdings LLC, OpenAI LLC, OpenAI LP, OpenAI OpCo LLC,, OpenAI, Inc.. (Attachments: # 1 Exhibit / Attachment A - G. Brockman Letter to Court Requesting Extension of Deadline)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Dawson, Andrew) (Entered: 03/13/2026)",
+        "summary": "Attorneys for the OpenAI defendants filed a letter with Magistrate Judge Ona T. Wang, attaching a letter from G. Brockman requesting an extension of a court deadline.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "8",
+        "date": "2026-03-11",
+        "raw_text": "AO 121 FORM COPYRIGHT - CASE OPENING - SUBMITTED. In compliance with the provisions of 17 U.S.C. 508, the Register of Copyrights is hereby advised that a court action has been filed on the following copyright(s) in the U.S. District Court Southern District of New York. Form e-mailed to Register of Copyrights. (vf) (Entered: 03/11/2026)",
+        "summary": "The court submitted the required AO 121 copyright case-opening form to the U. S. Register of Copyrights, as mandated by 17 U. S. C. § 508, notifying the Copyright Office that a copyright action has been filed in the Southern District of New York.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "7",
+        "date": "2026-03-11",
+        "raw_text": "ELECTRONIC SUMMONS ISSUED as to OAI Corporation, LLC, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI Holdings, LLC, OpenAI OpCo, LLC, OpenAI, LLC. (vf) (Entered: 03/11/2026)",
+        "summary": "The court issued electronic summonses to eight named OpenAI-related entities, formally notifying them of the lawsuit filed by Gracenote Media Services, LLC.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "6",
+        "date": "2026-03-10",
+        "raw_text": "RELATED CASE AFFIRMATION of Elisha Barron re: that this action be filed as related to 25-md-03143. Document filed by Gracenote Media Services, LLC..(Barron, Elisha) (Entered: 03/10/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC, through attorney Elisha Barron, filed an affirmation asserting that this case should be designated as related to multidistrict litigation proceeding 25-md-03143.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "5",
+        "date": "2026-03-10",
+        "raw_text": "RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Gracenote Digital Ventures, LLC, Corporate Parent The Nielsen Company (US) LLC for Gracenote Media Services, LLC. Document filed by Gracenote Media Services, LLC..(Barron, Elisha) (Entered: 03/10/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a required corporate disclosure statement identifying its parent companies as Gracenote Digital Ventures, LLC and The Nielsen Company (US) LLC.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "4",
+        "date": "2026-03-10",
+        "raw_text": "AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright for case opening submitted to court for review..(Barron, Elisha) (Entered: 03/10/2026)",
+        "summary": "Plaintiff's attorney Elisha Barron submitted an AO 121 copyright reporting form to the court in connection with the opening of this case. This is a standard administrative filing required by federal courts to notify the U. S. Copyright Office of copyright-related litigation.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "3",
+        "date": "2026-03-10",
+        "raw_text": "REQUEST FOR ISSUANCE OF SUMMONS as to OPENAI FOUNDATION (f/k/a OPENAI, INC.), OPENAI GROUP PBC, OPENAI GP, LLC, OPENAI LLC, OPENAI OPCO, LLC, OPENAI GLOBAL, LLC, OAI CORPORATION, LLC, and OPENAI HOLDINGS, LLC, re: 1 Complaint,. Document filed by Gracenote Media Services, LLC..(Barron, Elisha) (Entered: 03/10/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a request asking the court clerk to issue summonses to eight named OpenAI entities so that formal service of the complaint can proceed.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "2",
+        "date": "2026-03-10",
+        "raw_text": "CIVIL COVER SHEET filed..(Barron, Elisha) (Entered: 03/10/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a civil cover sheet in the Southern District of New York, marking the administrative initiation of this case against OpenAI Foundation.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "1",
+        "date": "2026-03-10",
+        "raw_text": "COMPLAINT against OAI Corporation, LLC, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI Holdings, LLC, OpenAI OpCo, LLC. (Filing Fee $ 405.00, Receipt Number ANYSDC-32519099)Document filed by Gracenote Media Services, LLC. (Attachments: # 1 Exhibit Copyright Registration).(Barron, Elisha) (Entered: 03/10/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a complaint against eight OpenAI entities in the Southern District of New York, attaching a copyright registration exhibit in support of its claims.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Gracenote Media Services, LLC asserts copyright infringement claims against OpenAI Foundation in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "openai",
@@ -3555,8 +3938,9 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72384605/gracenote-media-services-llc-v-openai-foundation/",
-    "last_updated": "2026-06-06",
-    "discovered_date": "2026-06-06"
+    "last_updated": "2026-06-16",
+    "discovered_date": "2026-06-06",
+    "docket_last_checked": "2026-06-16"
   },
   {
     "id": "doe-1-v-x-ai-corp",
@@ -3578,7 +3962,78 @@
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "458332064",
+        "date": "2026-03-23",
+        "raw_text": "CASE REFERRED to Magistrate Judge Virginia K. DeMarchi for Discovery. (mxg, COURT STAFF) (Filed on 3/23/2026)",
+        "summary": "The court referred this case to Magistrate Judge Virginia K. DeMarchi to oversee discovery proceedings, as of March 23, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "457351556",
+        "date": "2026-03-16",
+        "raw_text": "Electronic filing error. A Motion and Proposed Order to Proceed using a Pseudonym must be filed before the case will be assigned. This filing will not be processed by the Clerk's Office until such Motion and Proposed Order is received. Additionally, the Proposed Summons will not be issued until the Pseudonym Motion is granted. Re: 1 Complaint filed by Jane Doe 2, Jane Doe 1, Jane Doe 3 (mbc, COURT STAFF) (Filed on 3/16/2026)",
+        "summary": "The Clerk's Office flagged an electronic filing error, notifying plaintiffs Jane Doe 1, Jane Doe 2, and Jane Doe 3 that their complaint will not be processed and no summons will be issued until they file a Motion and Proposed Order to Proceed Using a Pseudonym, which must also be granted before the case can be assigned.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-04-02",
+        "raw_text": "ORDER Granting 19 Motion for Pro Hac Vice as to attorney Mark P. Chalos. Signed by Judge P. Casey Pitts (lrt, COURT STAFF) (Filed on 4/2/2026) (Entered: 04/02/2026)",
+        "summary": "The court granted attorney Mark P. Chalos permission to appear in this case on a pro hac vice basis, allowing him to practice before the Northern District of California for this matter despite not being a member of that court's bar. Judge P. Casey Pitts signed the order on April 2, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "19",
+        "date": "2026-04-02",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21826818.) filed by Jane Doe 1, Jane Doe 2, Jane Doe 3. (Attachments: # 1 Certificate of Good Standing)(Chalos, Mark) (Filed on 4/2/2026) (Entered: 04/02/2026)",
+        "summary": "Plaintiffs Jane Doe 1, Jane Doe 2, and Jane Doe 3 filed a motion seeking permission for attorney Mark Chalos to appear in this case on a pro hac vice basis, meaning he is licensed outside the Northern District of California but requests leave to represent them here, accompanied by a certificate of good standing and a $328 filing fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-03-26",
+        "raw_text": "ORDER granting 15 Motion for Pro Hac Vice as to attorney Betsy Anne Sugar. Signed by Judge P. Casey Pitts (lrt, COURT STAFF) (Filed on 3/26/2026) (Entered: 03/26/2026)",
+        "summary": "The court granted a motion allowing attorney Betsy Anne Sugar to appear in this case on a pro hac vice basis, meaning she is admitted to represent a party before this court even though she is not a member of its local bar. Judge P. Casey Pitts signed the order on March 26, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-03-26",
+        "raw_text": "ORDER granting 11 Motion for Pro Hac Vice as to attorney Annika K. Martin. Signed by Judge P. Casey Pitts. (lrt, COURT STAFF) (Filed on 3/26/2026) (Entered: 03/26/2026)",
+        "summary": "The court granted a motion allowing attorney Annika K. Martin to appear in this case on a pro hac vice basis, meaning she is licensed in another jurisdiction but has been permitted to practice before this court for this matter. Judge P. Casey Pitts signed the order on March 26, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-03-26",
+        "raw_text": "ORDER RELATING CASE. Case No. 5:26-cv-00772-PCP is related to Case No. 5:26-cv-02246-PCP. Signed by Judge P. Casey Pitts on 3/26/2026. (lrt, COURT STAFF) (Filed on 3/26/2026) (Entered: 03/26/2026)",
+        "summary": "The court ordered that case No. 5:26-cv-00772-PCP be formally related to case No. 5:26-cv-02246-PCP, with Judge P. Casey Pitts signing the order on March 26, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "15",
+        "date": "2026-03-24",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-21788423.) filed by Jane Doe 1, Jane Doe 2, Jane Doe 3. (Attachments: # 1 Certificate of Good Standing)(Sugar, Betsy) (Filed on 3/24/2026) (Entered: 03/24/2026)",
+        "summary": "Plaintiffs Jane Doe 1, Jane Doe 2, and Jane Doe 3 filed a motion seeking permission for attorney Betsy Sugar to appear in this case on a pro hac vice basis, meaning Sugar is licensed outside the Northern District of California and needs special court approval to represent the plaintiffs here. The filing included a $328 fee and a Certificate of Good Standing.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "14",
+        "date": "2026-03-23",
+        "raw_text": "CLERK'S NOTICE RESETTING INITIAL CASE MANAGEMENT CONFERENCE FOLLOWING REASSIGNMENT. Joint Case Management Statement due by 6/11/2026. Initial Case Management Conference set for 6/18/2026 at 01:00 PM in San Jose, Courtroom 8, 4th Floor. (This is a text-only entry generated by the court. There is no document associated with this entry.) (nmc, COURT STAFF) (Filed on 3/23/2026) (Entered: 03/23/2026)",
+        "summary": "The court reset the initial case management conference following reassignment of the case, scheduling the conference for June 18, 2026, in San Jose Courtroom 8, with a joint case management statement due from both parties by June 11, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "13",
+        "date": "2026-03-23",
+        "raw_text": "ORDER REASSIGNING CASE IT IS ORDERED that this case is reassigned using a proportionate, random and blind system pursuant to General Order No. 44 to Judge P. Casey Pitts. Magistrate Judge Susan van Keulen no longer assigned to the case. Counsel are instructed that all future filings shall bear the updated judicial initials immediately after the case number. Counsel are reminded to verify the location of the judge on the court website. All hearing and trial dates presently scheduled are vacated. However, existing briefing schedules for motions remain unchanged. Motions must be renoticed for hearing before the judge to whom the case has been reassigned, but the renoticing of the hearing does not affect the prior briefing schedule. Other deadlines such as those for ADR compliance and discovery cutoff also remain unchanged. Notice: The assigned judge participates in the Cameras in the Courtroom Pilot Project. See General Order 65 and cand.uscourts.gov/cameras. Mark B. Busby Clerk, United States District Court (This is a text-only entry generated by the court. There is no document associated with this entry.) (mxg, COURT STAFF) (Filed on 3/23/2026) (Entered: 03/23/2026)",
+        "summary": "The court reassigned this case to Judge P. Casey Pitts through a random, proportionate, and blind process under General Order No. 44, replacing the previously assigned magistrate judge. All scheduled hearings and trial dates are vacated, though existing briefing schedules and other deadlines—such as those for ADR compliance and discovery—remain in effect; counsel must refile pending motions for hearing before the newly assigned judge.",
+        "significance": "minor_update"
+      }
+    ],
     "plain_language_summary": "Doe 1 asserts unspecified ip or privacy claims against ai developer claims against X.AI Corp. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "tags": [
       "training data",
@@ -3587,7 +4042,7 @@
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72495765/doe-1-v-xai-corp/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-16",
     "discovered_date": "2026-06-06"
   },
   {
@@ -3620,5 +4075,39 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73237887/semantic-engines-llc-v-microsoft-corporation/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-06"
+  },
+  {
+    "id": "apress-media-llc-v-welib",
+    "name": "Apress Media, LLC v. WeLib",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-05064",
+    "courtlistener_docket_id": "73488419",
+    "date_filed": "2026-06-16",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Apress Media, LLC",
+      "defendant": "WeLib"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Apress Media, LLC asserts copyright infringement claims against WeLib in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "tags": [
+      "training data",
+      "copyright",
+      "llm",
+      "fair use",
+      "news media"
+    ],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73488419/apress-media-llc-v-welib/",
+    "last_updated": "2026-06-16",
+    "discovered_date": "2026-06-16"
   }
 ]

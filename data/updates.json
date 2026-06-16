@@ -1,5 +1,554 @@
 [
   {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-07",
+    "summary": "Attorney Charisma Ricksy Nguepdo paid the $200 filing fee associated with a motion seeking permission to appear in this case pro hac vice, meaning as a visiting attorney admitted for this matter only. The motion and supporting materials are pending review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "460042995",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-08",
+    "summary": "The Clerk's Office issued a notice that the pro hac vice motion filed on behalf of attorney Elise Lyle Miller is deficient because it is missing a Certificate of Good Standing from the Supreme Court of Texas (not a state bar certificate), and directed the filing party to re-file the motion with the correct documentation, including a valid Certificate of Good Standing issued within the past 30 days and a proposed order.",
+    "significance": "minor_update",
+    "entry_number": "464559251",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-07",
+    "summary": "The Clerk's Office reviewed a pro hac vice motion seeking admission of attorney Ian Bradford Crosby and found no deficiencies in the filing or the $200 fee submission.",
+    "significance": "minor_update",
+    "entry_number": "459901237",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-07",
+    "summary": "The Clerk's Office reviewed a motion to allow attorney Charisma Ricksy Nguepdo to appear in this case on a pro hac vice basis and found no deficiencies in the submitted paperwork.",
+    "significance": "minor_update",
+    "entry_number": "460042996",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-09",
+    "summary": "The Clerk's Office reviewed the pro hac vice motion for attorney Davida Brook to appear in this case and found no deficiencies in the submission.",
+    "significance": "minor_update",
+    "entry_number": "464559254",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-08",
+    "summary": "The Clerk's Office reviewed the motion seeking permission for attorney Elise Lyle Miller to appear pro hac vice in this case and found no deficiencies in the submitted paperwork.",
+    "significance": "minor_update",
+    "entry_number": "464559253",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-13",
+    "summary": "Magistrate Judge Ona T. Wang held a remote settlement conference on March 13, 2026, involving both parties in this case, which is part of a coordinated multidistrict litigation proceeding. No outcome or agreement has been reported in this entry.",
+    "significance": "minor_update",
+    "entry_number": "459901236",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-08",
+    "summary": "The Clerk's Office issued a notice that the pro hac vice motion filed on behalf of attorney Davida Brook is deficient and must be re-filed, because it is missing a Certificate of Good Standing from the California Supreme Court rather than a state bar certificate, along with other required corrected documents.",
+    "significance": "minor_update",
+    "entry_number": "464559252",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-10",
+    "summary": "Magistrate Judge Ona T. Wang held a status conference on March 10, 2026 in this case, which is part of a larger multidistrict litigation proceeding in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "459169673",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-05-12",
+    "summary": "Magistrate Judge Ona T. Wang held a status conference on May 12, 2026 in this case, which is part of a coordinated multidistrict litigation proceeding. The entry reflects a routine scheduling or case-management event and does not report any rulings or substantive court action.",
+    "significance": "minor_update",
+    "entry_number": "464559255",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-12",
+    "summary": "The court accepted this case as related to a multidistrict litigation proceeding (1:25-md-03143-SHS-OTW) and created a formal association between the two matters, with a notice of assignment to follow.",
+    "significance": "minor_update",
+    "entry_number": "457143509",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-12",
+    "summary": "The court reassigned this case to Judge Sidney H. Stein, replacing the previously unassigned judge designation.",
+    "significance": "minor_update",
+    "entry_number": "457143510",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-12",
+    "summary": "The court designated Magistrate Judge Ona T. Wang to handle referred matters in this case and notified the parties that they may consent to have a magistrate judge preside over the entire case under 28 U. S. C. § 636(c).",
+    "significance": "minor_update",
+    "entry_number": "457143511",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-12",
+    "summary": "The court administratively linked this case to a consolidated multidistrict litigation proceeding, In re OpenAI, No. 1:25-md-03143-SHS-OTW, in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "457143512",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-13",
+    "summary": "Magistrate Judge Ona T. Wang held a pre-settlement conference with the parties on March 13, 2026, as part of the broader multidistrict litigation consolidated under case no. 1:25-md-03143.",
+    "significance": "minor_update",
+    "entry_number": "459169701",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-11",
+    "summary": "The court's electronic filing system updated the party records for OpenAI Foundation and OpenAI Holdings, LLC to correct an improperly entered party role and add a previously omitted party alias name.",
+    "significance": "minor_update",
+    "entry_number": "456902787",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-11",
+    "summary": "The court's clerk assigned this newly filed case to a judge, though no specific judge has been designated yet. This entry reflects the administrative opening of Gracenote Media Services, LLC's lawsuit against OpenAI Foundation in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "456902788",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-11",
+    "summary": "The court administratively designated this case for Electronic Case Filing (ECF), meaning all documents will be filed and managed through the federal electronic filing system.",
+    "significance": "minor_update",
+    "entry_number": "456902789",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-11",
+    "summary": "The court referred this case to Judge Sidney H. Stein as possibly related to a consolidated multidistrict litigation proceeding, case number 1:25-md-03143, pending in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "456902790",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-05-15",
+    "summary": "The court issued an order following a May 12, 2026 discovery status conference across several consolidated cases, granting one motion to compel related to 'Project Giraffe' evaluation data, denying two other motions to compel without prejudice, and directing the parties to meet and confer and file supplemental briefs on several remaining discovery disputes involving survey data, Microsoft financials, and a proposed protective order amendment.",
+    "significance": "significant_ruling",
+    "entry_number": "32",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-05-12",
+    "summary": "Magistrate Judge Ona T. Wang ordered OpenAI to submit a letter brief of no more than three pages supporting its motion for a protective order—along with the disputed document related to its 'Multimodal Data Sources project'—for the court's private review by May 15, 2026, with Gracenote's opposition due May 19, 2026; the court also directed the parties to file a joint status letter by May 15 if they resolve the dispute on their own.",
+    "significance": "minor_update",
+    "entry_number": "31",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-21",
+    "summary": "The court approved a joint stipulation submitted by both parties, staying all proceedings and deadlines in this case until summary judgment motions in related cases within the broader multidistrict litigation are resolved. Judge Sidney H. Stein signed the order on April 21, 2026, requiring the parties to file a joint status report within 30 days of those rulings to propose next steps.",
+    "significance": "significant_ruling",
+    "entry_number": "30",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-15",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a proposed stipulation and order, suggesting that both parties may have reached an agreement on a procedural or substantive matter for the court's approval.",
+    "significance": "minor_update",
+    "entry_number": "29",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-08",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a motion seeking permission for attorney Davida Brook to appear in this case on a pro hac vice basis, allowing her to practice before this court even though she is not a member of its bar. The filing includes Brook's affidavit, a certificate of good standing, and a proposed order for the clerk's review.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-08",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a motion asking the court to allow attorney Elise Lyle Miller to appear in this case on a pro hac vice basis, meaning she is admitted to practice in another jurisdiction and is seeking special permission to represent Gracenote in this court. The motion includes Miller's affidavit, a certificate of good standing, and a proposed order, and is pending review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-08",
+    "summary": "Gracenote Media Services, LLC filed a motion to admit attorney Davida Brook to appear pro hac vice, paying the $200 filing fee, but the Clerk's Office flagged the entry as deficient and is reviewing the motion and supporting papers before it can be processed.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-08",
+    "summary": "Gracenote Media Services, LLC filed a motion to admit attorney Elise Lyle Miller pro hac vice (permission for an out-of-jurisdiction attorney to appear in this case), along with a $200 filing fee, a supporting affidavit, a certificate of good standing, and a proposed order — but the submission was flagged by the court as a deficient docket entry and sent to the Clerk's Office for review.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-07",
+    "summary": "The court found that OpenAI's corporate representative, Mr. Monaco, was inadequately prepared for his Rule 30(b)(6) deposition and that defense counsel's repeated objections unnecessarily impeded the questioning; the court ordered OpenAI to produce Mr. Monaco for an additional 3. 5-hour deposition on April 8, 2026, and deferred ruling on sanctions—potentially monetary or adverse-inference admissions—until after that deposition is completed.",
+    "significance": "significant_ruling",
+    "entry_number": "24",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-07",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a motion to admit attorney Charisma Ricksy Nguepdo to appear pro hac vice, allowing her to participate in this case despite not being a member of the court's bar. The motion and supporting materials, including an affidavit and a certificate of good standing, are pending review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-06",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a motion for attorney Ian Bradford Crosby to appear pro hac vice, allowing him to participate in the case despite not being admitted to the Southern District of New York bar. The filing includes a $200 fee, Crosby's affidavit, a certificate of good standing, and a proposed order for the clerk's review.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-06",
+    "summary": "Magistrate Judge Ona T. Wang ordered a briefing schedule and in-person status conference for May 12, 2026, at 9:30 AM in Courtroom 20D, with opening briefs due April 29, opposing briefs due May 4, and a joint dispute chart due May 5, 2026.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-04-01",
+    "summary": "The court ordered Gracenote Media Services to explain in writing by April 15, 2026, why this case should not be paused while summary judgment motions are resolved in the related multidistrict litigation cases; OpenAI may file a response by April 29, 2026.",
+    "significance": "significant_ruling",
+    "entry_number": "20",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-31",
+    "summary": "The court granted a motion allowing four attorneys — Allison L. Stillman, Joseph R. Wetzel, Jr. , Rachel R. Blitzer, and Michael A. David — to withdraw as counsel of record for multiple OpenAI entities across seventeen related cases, including this one.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-31",
+    "summary": "Magistrate Judge Ona T. Wang granted a motion allowing an attorney to withdraw from representation in this consolidated multidistrict litigation, effective March 31, 2026.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-31",
+    "summary": "Magistrate Judge Ona T. Wang issued a scheduling order setting a second confidential discovery settlement conference for April 16, 2026, and directing the parties to submit pre-conference materials, propose a briefing schedule, and arrange dates for an in-person status conference in early May.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-26",
+    "summary": "The court granted a motion to substitute OpenAI Group PBC in place of OpenAI Holdings, LLC as a defendant, following an unopposed request made under Federal Rule of Civil Procedure 25(c), which allows party substitution when an interest is transferred. OpenAI Holdings, LLC has been terminated from the case.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-26",
+    "summary": "The court granted a motion to substitute OpenAI Group PBC in place of OpenAI Holdings, LLC as a defendant, following an unopposed request filed under Federal Rule of Civil Procedure 25(c), which allows party substitution when an interest is transferred during litigation. OpenAI Holdings, LLC has been terminated from the case and OpenAI Group PBC now stands in its place.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-25",
+    "summary": "Magistrate Judge Ona T. Wang granted multiple motions to seal filed by the parties in both the individual case (No. 23-cv-11195) and the consolidated multidistrict litigation (No. 25-md-3143), directing the Clerk of Court to close the corresponding docket entries in each case.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-23",
+    "summary": "The court, at the parties' joint request, modified the case schedule in this multidistrict litigation, setting key deadlines including opening expert reports due April 24, 2026, the close of expert discovery on August 3, 2026, and summary judgment and Daubert motions due September 4, 2026.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-23",
+    "summary": "OpenAI entities filed a letter with Magistrate Judge Ona T. Wang on March 23, 2026, submitting supplemental briefing opposing Gracenote's motion to compel production of deposition materials related to Elon Musk, and attaching one exhibit in support of their position.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-18",
+    "summary": "Both parties jointly wrote to Judge Sidney H. Stein on March 18, 2026, requesting a modest adjustment to existing case deadlines, with the letter filed on behalf of Microsoft Corporation in the consolidated multidistrict litigation.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-13",
+    "summary": "Magistrate Judge Ona T. Wang ordered a second confidential discovery settlement conference for March 30, 2026, at 2:00 p. m. ET, and set a briefing schedule on the production of deposition transcripts and related exhibits from the Musk litigation, with plaintiffs' opening brief due March 20 and OpenAI's response due March 23.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-13",
+    "summary": "Attorneys for the OpenAI defendants filed a letter with Magistrate Judge Ona T. Wang, attaching a letter from G. Brockman requesting an extension of a court deadline.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-11",
+    "summary": "The court submitted the required AO 121 copyright case-opening form to the U. S. Register of Copyrights, as mandated by 17 U. S. C. § 508, notifying the Copyright Office that a copyright action has been filed in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-11",
+    "summary": "The court issued electronic summonses to eight named OpenAI-related entities, formally notifying them of the lawsuit filed by Gracenote Media Services, LLC.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-10",
+    "summary": "Plaintiff Gracenote Media Services, LLC, through attorney Elisha Barron, filed an affirmation asserting that this case should be designated as related to multidistrict litigation proceeding 25-md-03143.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-10",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a required corporate disclosure statement identifying its parent companies as Gracenote Digital Ventures, LLC and The Nielsen Company (US) LLC.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-10",
+    "summary": "Plaintiff's attorney Elisha Barron submitted an AO 121 copyright reporting form to the court in connection with the opening of this case. This is a standard administrative filing required by federal courts to notify the U. S. Copyright Office of copyright-related litigation.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-10",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a request asking the court clerk to issue summonses to eight named OpenAI entities so that formal service of the complaint can proceed.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-10",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a civil cover sheet in the Southern District of New York, marking the administrative initiation of this case against OpenAI Foundation.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-03-10",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a complaint against eight OpenAI entities in the Southern District of New York, attaching a copyright registration exhibit in support of its claims.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-03-23",
+    "summary": "The court referred this case to Magistrate Judge Virginia K. DeMarchi to oversee discovery proceedings, as of March 23, 2026.",
+    "significance": "minor_update",
+    "entry_number": "458332064",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-03-16",
+    "summary": "The Clerk's Office flagged an electronic filing error, notifying plaintiffs Jane Doe 1, Jane Doe 2, and Jane Doe 3 that their complaint will not be processed and no summons will be issued until they file a Motion and Proposed Order to Proceed Using a Pseudonym, which must also be granted before the case can be assigned.",
+    "significance": "minor_update",
+    "entry_number": "457351556",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-04-02",
+    "summary": "The court granted attorney Mark P. Chalos permission to appear in this case on a pro hac vice basis, allowing him to practice before the Northern District of California for this matter despite not being a member of that court's bar. Judge P. Casey Pitts signed the order on April 2, 2026.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-04-02",
+    "summary": "Plaintiffs Jane Doe 1, Jane Doe 2, and Jane Doe 3 filed a motion seeking permission for attorney Mark Chalos to appear in this case on a pro hac vice basis, meaning he is licensed outside the Northern District of California but requests leave to represent them here, accompanied by a certificate of good standing and a $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-03-26",
+    "summary": "The court granted a motion allowing attorney Betsy Anne Sugar to appear in this case on a pro hac vice basis, meaning she is admitted to represent a party before this court even though she is not a member of its local bar. Judge P. Casey Pitts signed the order on March 26, 2026.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-03-26",
+    "summary": "The court granted a motion allowing attorney Annika K. Martin to appear in this case on a pro hac vice basis, meaning she is licensed in another jurisdiction but has been permitted to practice before this court for this matter. Judge P. Casey Pitts signed the order on March 26, 2026.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-03-26",
+    "summary": "The court ordered that case No. 5:26-cv-00772-PCP be formally related to case No. 5:26-cv-02246-PCP, with Judge P. Casey Pitts signing the order on March 26, 2026.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-03-24",
+    "summary": "Plaintiffs Jane Doe 1, Jane Doe 2, and Jane Doe 3 filed a motion seeking permission for attorney Betsy Sugar to appear in this case on a pro hac vice basis, meaning Sugar is licensed outside the Northern District of California and needs special court approval to represent the plaintiffs here. The filing included a $328 fee and a Certificate of Good Standing.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-03-23",
+    "summary": "The court reset the initial case management conference following reassignment of the case, scheduling the conference for June 18, 2026, in San Jose Courtroom 8, with a joint case management statement due from both parties by June 11, 2026.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-03-23",
+    "summary": "The court reassigned this case to Judge P. Casey Pitts through a random, proportionate, and blind process under General Order No. 44, replacing the previously assigned magistrate judge. All scheduled hearings and trial dates are vacated, though existing briefing schedules and other deadlines—such as those for ADR compliance and discovery—remain in effect; counsel must refile pending motions for hearing before the newly assigned judge.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-06-16T18:11:55Z"
+  },
+  {
     "case_id": "valtrus-innovations-limited-v-lumen-technologies-inc",
     "case_name": "Valtrus Innovations Limited v. Lumen Technologies, Inc.",
     "entry_date": "2026-04-09",
