@@ -287,6 +287,12 @@ def case_since_date(case: dict[str, Any], global_since: str) -> str:
     return clean_text(case.get("date_filed")) or global_since
 
 
+def seed_missing_case_checkpoints(cases: list[dict[str, Any]], since: str) -> None:
+    for case in cases:
+        if not parse_iso_date(case.get("docket_last_checked")):
+            case["docket_last_checked"] = since
+
+
 def matches_any(patterns: tuple[str, ...], text: str) -> bool:
     return any(re.search(pattern, text, flags=re.IGNORECASE | re.DOTALL) for pattern in patterns)
 
@@ -352,6 +358,7 @@ def main() -> None:
 
     session = requests.Session()
     since = last_run_date(last_run)
+    seed_missing_case_checkpoints(pollable_cases, since)
     summary_cap = max_summaries_per_run()
     new_updates: list[dict[str, Any]] = []
     changed_case_count = 0

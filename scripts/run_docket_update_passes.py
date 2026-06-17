@@ -13,7 +13,7 @@ from typing import Any
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 LAST_RUN_PATH = BASE_DIR / "data" / "last_run.json"
-DEFAULT_MAX_DOCKET_UPDATE_PASSES = 5
+DEFAULT_MAX_DOCKET_UPDATE_PASSES = 2
 
 
 def load_last_run() -> dict[str, Any]:

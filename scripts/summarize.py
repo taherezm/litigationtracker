@@ -9,7 +9,7 @@ import os
 import random
 import re
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -96,6 +96,26 @@ def clean_text(value: Any) -> str:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+def parse_iso_date_helper(value: Any) -> date | None:
+    try:
+        return datetime.strptime(clean_text(value), "%Y-%m-%d").date()
+    except ValueError:
+        return None
+
+
+def docket_floor_from_case_checkpoints(cases: list[dict[str, Any]]) -> str | None:
+    checkpoints = [
+        parsed
+        for case in cases
+        if isinstance(case, dict)
+        for parsed in [parse_iso_date_helper(case.get("docket_last_checked"))]
+        if parsed is not None
+    ]
+    if not checkpoints:
+        return None
+    return min(checkpoints).isoformat()
 
 
 def max_summaries_per_run() -> int:
@@ -475,10 +495,9 @@ def main() -> None:
     elif not last_run.get("docket_entry_cap_reached"):
         last_run["summaries_deferred"] = 0
 
-    if last_run.get("docket_update_complete", True):
-        last_run["docket_last_run_date"] = today
-    else:
-        print("Warning: docket_last_run_date was not advanced because docket update did not complete.")
+    docket_floor = docket_floor_from_case_checkpoints(cases)
+    if docket_floor:
+        last_run["docket_last_run_date"] = docket_floor
 
     last_run["summaries_generated"] = generated
     last_run["max_summaries_per_run"] = summary_cap

@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 90
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-      MAX_DOCKET_UPDATE_PASSES: 5
+      MAX_DOCKET_UPDATE_PASSES: 2
       MAX_SUMMARIES_PER_RUN: 100
 
     steps:
