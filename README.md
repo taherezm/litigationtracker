@@ -1,6 +1,6 @@
 # Undergrad Tech Law Litigation Tracker
 
-[![Scheduled Update](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml/badge.svg)](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml)
+[![Scheduled Update](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml/badge.svg?branch=main&event=schedule)](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml?query=branch%3Amain+event%3Aschedule)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 
