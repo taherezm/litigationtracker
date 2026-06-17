@@ -8,6 +8,8 @@ import os
 import sys
 import tempfile
 import unittest
+from contextlib import ExitStack
+from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -83,6 +85,84 @@ class CheckpointPersistenceTests(unittest.TestCase):
         ]
 
         self.assertEqual(summarize.docket_floor_from_case_checkpoints(cases), "2026-06-09")
+
+    def test_checkpoint_floor_converges_across_throttled_passes(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            data_dir = Path(tmp_dir)
+            cases_path = data_dir / "cases.json"
+            updates_path = data_dir / "updates.json"
+            last_run_path = data_dir / "last_run.json"
+
+            cases_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "id": "case-a",
+                            "name": "Case A",
+                            "status": "active",
+                            "courtlistener_docket_id": "A",
+                            "docket_entries": [{"entry_number": "1"}],
+                        },
+                        {
+                            "id": "case-b",
+                            "name": "Case B",
+                            "status": "active",
+                            "courtlistener_docket_id": "B",
+                            "docket_entries": [{"entry_number": "1"}],
+                        },
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            updates_path.write_text("[]", encoding="utf-8")
+            last_run_path.write_text(json.dumps({"docket_last_run_date": "2026-06-06"}), encoding="utf-8")
+
+            calls: list[str] = []
+            responses = [
+                ([], True, False),
+                ([], False, True),
+                ([], True, False),
+                ([], False, True),
+            ]
+            fixed_now = datetime(2026, 6, 17, tzinfo=timezone.utc)
+
+            def fake_fetch_new_entries(*args: object) -> tuple[list[dict[str, object]], bool, bool]:
+                calls.append(str(args[2]))
+                return responses.pop(0)
+
+            patches = [
+                patch.object(update_dockets, "CASES_PATH", cases_path),
+                patch.object(update_dockets, "UPDATES_PATH", updates_path),
+                patch.object(update_dockets, "LAST_RUN_PATH", last_run_path),
+                patch.object(update_dockets, "fetch_new_entries", fake_fetch_new_entries),
+                patch.object(update_dockets, "utc_now", lambda: fixed_now),
+                patch.object(summarize, "CASES_PATH", cases_path),
+                patch.object(summarize, "UPDATES_PATH", updates_path),
+                patch.object(summarize, "LAST_RUN_PATH", last_run_path),
+                patch.object(summarize, "utc_now", lambda: fixed_now),
+                patch.dict(os.environ, {"COURTLISTENER_API_KEY": "test-token"}),
+            ]
+
+            with ExitStack() as stack:
+                for patcher in patches:
+                    stack.enter_context(patcher)
+                update_dockets.main()
+                summarize.main()
+                first_pass_last_run = json.loads(last_run_path.read_text(encoding="utf-8"))
+
+                update_dockets.main()
+                summarize.main()
+                second_pass_last_run = json.loads(last_run_path.read_text(encoding="utf-8"))
+
+            persisted_cases = json.loads(cases_path.read_text(encoding="utf-8"))
+
+            self.assertEqual(calls, ["A", "B", "B", "A"])
+            self.assertEqual(first_pass_last_run["docket_last_run_date"], "2026-06-06")
+            self.assertEqual(second_pass_last_run["docket_last_run_date"], "2026-06-17")
+            self.assertEqual(
+                {case["id"]: case["docket_last_checked"] for case in persisted_cases},
+                {"case-a": "2026-06-17", "case-b": "2026-06-17"},
+            )
 
 
 if __name__ == "__main__":

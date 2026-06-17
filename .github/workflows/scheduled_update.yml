@@ -39,12 +39,14 @@ jobs:
         env:
           COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LEGAL_AI_MODEL: ${{ secrets.LEGAL_AI_MODEL }}
         run: python scripts/run_docket_update_passes.py
 
       - name: Discover new cases
         env:
           COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LEGAL_AI_MODEL: ${{ secrets.LEGAL_AI_MODEL }}
         run: python scripts/discover_cases.py
 
       - name: Validate tracker data

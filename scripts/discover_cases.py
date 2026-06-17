@@ -26,7 +26,7 @@ LAST_RUN_PATH = DATA_DIR / "last_run.json"
 COURTLISTENER_BASE = "https://www.courtlistener.com"
 COURTLISTENER_SEARCH_URL = f"{COURTLISTENER_BASE}/api/rest/v4/search/"
 COURTHOUSE_NEWS_FEED = "https://www.courthousenews.com/feed/"
-MODEL = "claude-sonnet-4-6"
+MODEL_ENV_VAR = "LEGAL_AI_MODEL"
 MAX_RETRIES = 3
 TIMEOUT = 30
 ANTHROPIC_TIMEOUT = 30.0
@@ -158,6 +158,10 @@ def require_env(name: str) -> str:
     return value
 
 
+def model_name() -> str:
+    return require_env(MODEL_ENV_VAR)
+
+
 def max_discovery_candidates() -> int:
     value = (os.environ.get("MAX_DISCOVERY_CANDIDATES") or "").strip()
     if not value:
@@ -232,7 +236,7 @@ def anthropic_message(client: Anthropic, prompt: str, max_tokens: int) -> str:
     for attempt in range(MAX_RETRIES + 1):
         try:
             message = client.messages.create(
-                model=MODEL,
+                model=model_name(),
                 max_tokens=max_tokens,
                 messages=[{"role": "user", "content": prompt}],
             )
@@ -244,13 +248,13 @@ def anthropic_message(client: Anthropic, prompt: str, max_tokens: int) -> str:
                 elif isinstance(block, dict) and block.get("text"):
                     parts.append(str(block["text"]))
             return "".join(parts).strip()
-        except Exception as exc:  # Anthropic exceptions vary across SDK releases.
+        except Exception as exc:  # Provider exceptions vary across SDK releases.
             status = getattr(exc, "status_code", None)
             if (status == 429 or (isinstance(status, int) and status >= 500)) and attempt < MAX_RETRIES:
                 anthropic_backoff_sleep(attempt)
                 continue
             raise
-    raise RuntimeError("Anthropic request failed after retries")
+    raise RuntimeError("Model request failed after retries")
 
 
 def parse_json_object(text: str) -> dict[str, Any]:
@@ -583,8 +587,15 @@ def legalize_case_summary(summary: str, case_name: str, claims: list[str], parti
     return text
 
 
+def use_model_case_summaries() -> bool:
+    return any(
+        (os.environ.get(name) or "").strip().lower() in {"1", "true", "yes"}
+        for name in ("USE_MODEL_CASE_SUMMARIES", "USE_ANTHROPIC_CASE_SUMMARIES")
+    )
+
+
 def generate_plain_language_summary(client: Anthropic, case_name: str, claims: list[str], parties: dict[str, str]) -> str:
-    if (os.environ.get("USE_ANTHROPIC_CASE_SUMMARIES") or "").strip().lower() not in {"1", "true", "yes"}:
+    if not use_model_case_summaries():
         return deterministic_case_summary(case_name, claims, parties)
     prompt = f"""Write exactly 2 sentences about this lawsuit for a public AI/IP litigation tracker.
 Audience: law students, lawyers, and interested non-lawyers.
@@ -736,6 +747,7 @@ def main() -> None:
 
     courtlistener_key = require_env("COURTLISTENER_API_KEY")
     anthropic_key = require_env("ANTHROPIC_API_KEY")
+    model_name()
 
     known_dockets = {docket_key(case.get("docket_number")) for case in cases if case.get("docket_number")}
     rejected_dockets, rejected_docket_set = rejected_docket_cache(last_run.get("rejected_dockets", []))
@@ -806,10 +818,10 @@ def main() -> None:
                 classification = classify_case(client, candidate)
             except json.JSONDecodeError:
                 discovery_complete = False
-                print(f"Warning: Anthropic returned malformed classifier JSON for {candidate['docket_number']}.")
+                print(f"Warning: model returned malformed classifier JSON for {candidate['docket_number']}.")
             except Exception as exc:
                 discovery_complete = False
-                print(f"Warning: Anthropic classifier failed for {candidate['docket_number']}: {exc}")
+                print(f"Warning: model classifier failed for {candidate['docket_number']}: {exc}")
         if not classification.get("relevant"):
             fallback = fallback_classification(candidate)
             if fallback.get("relevant"):

@@ -96,7 +96,7 @@ The pipeline first attempts deterministic classification using term matching:
 - AI terms: `artificial intelligence`, `generative`, `OpenAI`, `Anthropic`, `ChatGPT`, `LLM`, `machine learning`, `training data`, `stable diffusion`, `neural network`, etc.
 - IP claim terms: copyright, patent, trade secret, DTSA, right of publicity, voice cloning, deepfake, DMCA 1202, trademark, and related statutory markers.
 
-If the deterministic classifier cannot confidently mark a candidate relevant, Anthropic is used as a legal classifier. The classifier is prompted to decide whether the case is primarily or substantially about intellectual property claims arising from or directly involving AI systems, AI-generated content, or AI training data. It must return strict JSON:
+If the deterministic classifier cannot confidently mark a candidate relevant, the configured model provider is used as a legal classifier. The classifier is prompted to decide whether the case is primarily or substantially about intellectual property claims arising from or directly involving AI systems, AI-generated content, or AI training data. It must return strict JSON:
 
 ```json
 {
@@ -121,7 +121,7 @@ Accepted candidates are normalized into public case records. Each record gets:
 - empty `key_rulings` and `docket_entries` arrays;
 - a public plain-language case summary.
 
-Plain-language case summaries are deterministic by default. If `USE_ANTHROPIC_CASE_SUMMARIES=1`, Anthropic may generate the initial case summary, but the output is still passed through legal-precision filters. The deterministic fallback avoids overstating liability and uses allegation language such as "asserts" instead of "violated."
+Plain-language case summaries are deterministic by default. If `USE_MODEL_CASE_SUMMARIES=1`, the configured model provider may generate the initial case summary, but the output is still passed through legal-precision filters. The deterministic fallback avoids overstating liability and uses allegation language such as "asserts" instead of "violated."
 
 ## Docket Monitoring
 
@@ -146,7 +146,7 @@ GET /api/rest/v4/docket-entries/
 
 Each case carries its own `docket_last_checked` checkpoint. When a case is fully checked in a run, its checkpoint advances to that day, even if the run is later rate-limited or capped while checking other cases. This makes progress permanent: a throttled run never causes the next run to refetch windows that already completed. The two-day overlap re-covers entries that are docketed late, and entry-number deduplication makes the overlap harmless.
 
-Cases are processed stalest-checkpoint-first so repeated rate-limited runs rotate coverage across every open docket instead of starving the cases checked last. Cases without a checkpoint fall back to the global `docket_last_run_date` (or the previous five days if that is also missing). Newly discovered cases with no stored docket entries are polled from their filing date so the first docket update can backfill the initial case history.
+Cases are processed stalest-checkpoint-first so repeated rate-limited runs rotate coverage across every open docket instead of starving the cases checked last. Cases without a valid checkpoint are seeded from the global `docket_last_run_date` before polling, so interrupted runs still persist a conservative per-case coverage floor. Newly discovered cases with no stored docket entries are polled from their filing date so the first docket update can backfill the initial case history.
 
 The docket update stage honors `MAX_SUMMARIES_PER_RUN`, which defaults to `100`. The cap is enforced while paginating, so one backlogged docket cannot consume the whole run's API budget, and it is applied before new entries are committed into the public data files so every newly accepted docket entry can be summarized in the same run. If the cap interrupts a case, `docket_update_complete` is set to `false`, that case's checkpoint is not advanced, and overflow is retried on the next pass or run.
 
@@ -192,7 +192,7 @@ The summarization stage may also classify an entry as `case_resolved` or return 
 
 ## Summarization and Legal Precision
 
-`summarize.py` processes docket entries that have raw text but no summary, up to the configured `MAX_SUMMARIES_PER_RUN` budget. It prompts Anthropic to return strict JSON:
+`summarize.py` processes docket entries that have raw text but no summary, up to the configured `MAX_SUMMARIES_PER_RUN` budget. It prompts the configured model provider to return strict JSON:
 
 ```json
 {
@@ -252,14 +252,14 @@ When an entry is classified as `significant_ruling`, a deduplicated key-ruling r
   "summaries_generated": 0,
   "summaries_deferred": 0,
   "max_summaries_per_run": 100,
-  "max_docket_update_passes": 5,
+  "max_docket_update_passes": 2,
   "discovery_last_run_date": "YYYY-MM-DD",
   "docket_last_run_date": "YYYY-MM-DD",
   "last_run_date": "YYYY-MM-DD"
 }
 ```
 
-`discovery_last_run_date` and `docket_last_run_date` advance independently. `discover_cases.py` owns the discovery checkpoint and advances it when discovery completes. `docket_last_run_date` advances when a docket pass completes every active case; it is now only the fallback window for cases that do not yet carry their own `docket_last_checked` checkpoint. `last_run_date` remains a legacy all-phases-complete checkpoint and advances only when both discovery and docket update completed. A candidate-cap hit is treated as a normal budget state and recorded in `discovery_candidate_cap_reached`; API failures or classifier failures can still leave `discovery_complete: false` and prevent the discovery checkpoint from advancing.
+`discovery_last_run_date` and `docket_last_run_date` advance independently. `discover_cases.py` owns the discovery checkpoint and advances it when discovery completes. `docket_last_run_date` is computed from the oldest valid per-case `docket_last_checked` checkpoint, so it advances conservatively as the lagging docket catches up instead of waiting for one uninterrupted full sweep. `last_run_date` remains a legacy all-phases-complete checkpoint and advances only when both discovery and docket update completed. A candidate-cap hit is treated as a normal budget state and recorded in `discovery_candidate_cap_reached`; API failures or classifier failures can still leave `discovery_complete: false` and prevent the discovery checkpoint from advancing.
 
 `courtlistener_rate_limited` describes the current run only: `run_docket_update_passes.py` clears it at the start of each job, and the docket and discovery stages OR their own results into it.
 
@@ -286,7 +286,7 @@ Because the site repository is served by GitHub Pages from `main`, the copied JS
 
 ## Operations
 
-Use the scheduled workflow for routine updates. Manual `workflow_dispatch` runs are supported, but they use live CourtListener and Anthropic API calls, so they should be treated as real production runs.
+Use the scheduled workflow for routine updates. Manual `workflow_dispatch` runs are supported, but they use live CourtListener and model-provider API calls, so they should be treated as real production runs.
 
 Avoid cancelling in-flight runs and avoid back-to-back manual dispatches: data only commits at the end of a job, so a cancelled run loses its fetched entries while still having spent the CourtListener request quota that the next run needs.
 
@@ -300,7 +300,7 @@ Expected non-fatal warning states:
 Routine maintenance checklist:
 
 1. Confirm the GitHub Actions workflow is active.
-2. Confirm repository secrets exist: `COURTLISTENER_API_KEY`, `ANTHROPIC_API_KEY`, and `IPTL_SITE_TOKEN`.
+2. Confirm repository secrets exist: `COURTLISTENER_API_KEY`, `ANTHROPIC_API_KEY`, `LEGAL_AI_MODEL`, and `IPTL_SITE_TOKEN`.
 3. Keep `MAX_SUMMARIES_PER_RUN` at `100` unless cost, timeout, or backlog data justifies a change.
 4. Run `python scripts/validate_tracker_data.py` before committing hand-edited data.
 5. Check the site renderer contract before changing the public tracker HTML.
@@ -398,7 +398,7 @@ The pipeline is designed to be idempotent and safe to re-run:
 - JSON writes are atomic;
 - CourtListener requests use retry/backoff and honor `Retry-After` where possible;
 - CourtListener auth failures stop the run with an explicit secret-configuration error instead of silently falling back to unauthenticated requests;
-- Anthropic requests use bounded retries;
+- model-provider requests use bounded retries;
 - `MAX_DISCOVERY_CANDIDATES` caps candidate classification per run and records `discovery_candidate_cap_reached` without blocking the discovery checkpoint;
 - `MAX_SUMMARIES_PER_RUN` caps each model-backed docket-summary pass, and `MAX_DOCKET_UPDATE_PASSES` bounds how many catch-up passes the workflow runs before publication or CourtListener rate limiting;
 - malformed model JSON falls back to deterministic summaries or deterministic relevance checks;
@@ -410,15 +410,16 @@ Required GitHub Actions secrets:
 
 - `COURTLISTENER_API_KEY`: CourtListener API token used for search and docket-entry polling.
 - `ANTHROPIC_API_KEY`: Anthropic API key used for relevance classification and docket-entry summarization.
+- `LEGAL_AI_MODEL`: model identifier used for relevance classification and docket-entry summarization. Keep this value in GitHub secrets rather than committing it to source.
 - `IPTL_SITE_TOKEN`: GitHub token with permission to push tracker data into `taherezm/undergradtechlaw`.
 
 Optional environment variables:
 
 - `MAX_DISCOVERY_CANDIDATES`: maximum number of discovery candidates to classify per run. Defaults to `5`.
 - `MAX_SUMMARIES_PER_RUN`: maximum number of new docket-entry summaries to generate per run. Defaults to `100`.
-- `MAX_DOCKET_UPDATE_PASSES`: maximum number of docket-update/summarization passes per workflow job. Defaults to `5` in GitHub Actions.
+- `MAX_DOCKET_UPDATE_PASSES`: maximum number of docket-update/summarization passes per workflow job. Defaults to `2` in GitHub Actions.
 - `FORCE_DISCOVERY`: set to `1`, `true`, or `yes` to force discovery even when `discovery_last_run_date` is already today.
-- `USE_ANTHROPIC_CASE_SUMMARIES`: set to `1`, `true`, or `yes` to allow model-generated initial case summaries instead of deterministic summaries.
+- `USE_MODEL_CASE_SUMMARIES`: set to `1`, `true`, or `yes` to allow model-generated initial case summaries instead of deterministic summaries.
 
 ## Local Development
 
@@ -433,6 +434,7 @@ Run the full pipeline locally:
 ```bash
 export COURTLISTENER_API_KEY=...
 export ANTHROPIC_API_KEY=...
+export LEGAL_AI_MODEL=...
 
 python scripts/run_docket_update_passes.py
 python scripts/discover_cases.py

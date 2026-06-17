@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Summarize unsummarized docket entries with Anthropic."""
+"""Summarize unsummarized docket entries."""
 
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ DATA_DIR = BASE_DIR / "data"
 CASES_PATH = DATA_DIR / "cases.json"
 UPDATES_PATH = DATA_DIR / "updates.json"
 LAST_RUN_PATH = DATA_DIR / "last_run.json"
-MODEL = "claude-sonnet-4-6"
+MODEL_ENV_VAR = "LEGAL_AI_MODEL"
 MAX_RETRIES = 3
 ANTHROPIC_TIMEOUT = 30.0
 DEFAULT_MAX_SUMMARIES_PER_RUN = 100
@@ -96,6 +96,17 @@ def clean_text(value: Any) -> str:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+def require_env(name: str) -> str:
+    value = (os.environ.get(name) or "").strip()
+    if not value:
+        raise SystemExit(f"Missing required environment variable: {name}")
+    return value
+
+
+def model_name() -> str:
+    return require_env(MODEL_ENV_VAR)
 
 
 def parse_iso_date_helper(value: Any) -> date | None:
@@ -180,7 +191,7 @@ def anthropic_message(client: Anthropic, prompt: str, max_tokens: int) -> str:
     for attempt in range(MAX_RETRIES + 1):
         try:
             message = client.messages.create(
-                model=MODEL,
+                model=model_name(),
                 max_tokens=max_tokens,
                 messages=[{"role": "user", "content": prompt}],
             )
@@ -198,7 +209,7 @@ def anthropic_message(client: Anthropic, prompt: str, max_tokens: int) -> str:
                 backoff_sleep(attempt)
                 continue
             raise
-    raise RuntimeError("Anthropic request failed after retries")
+    raise RuntimeError("Model request failed after retries")
 
 
 def parse_json_object(text: str) -> dict[str, Any]:
@@ -270,7 +281,7 @@ Respond ONLY with valid JSON, no preamble:
             text = anthropic_message(client, prompt, max_tokens=500)
         except Exception as exc:
             print(
-                f"Warning: Anthropic summary request failed for entry {clean_text(entry.get('entry_number'))}; using fallback summary: {exc}"
+                f"Warning: model summary request failed for entry {clean_text(entry.get('entry_number'))}; using fallback summary: {exc}"
             )
             return fallback_summary(entry)
         try:
@@ -281,7 +292,7 @@ Respond ONLY with valid JSON, no preamble:
             if attempt < MAX_RETRIES:
                 continue
             print(
-                f"Warning: Anthropic returned malformed summary JSON for entry {clean_text(entry.get('entry_number'))}; using fallback summary."
+                f"Warning: model returned malformed summary JSON for entry {clean_text(entry.get('entry_number'))}; using fallback summary."
             )
             return fallback_summary(entry)
     return fallback_summary(entry)
@@ -450,6 +461,8 @@ def main() -> None:
         api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip() if needs_anthropic else ""
         if needs_anthropic and not api_key:
             raise SystemExit("Missing required environment variable: ANTHROPIC_API_KEY")
+        if needs_anthropic:
+            model_name()
         client = Anthropic(api_key=api_key, timeout=ANTHROPIC_TIMEOUT, max_retries=0) if needs_anthropic else None
         for case, entry in pending:
             result = summarize_entry(client, case, entry) if client else fallback_summary(entry)
