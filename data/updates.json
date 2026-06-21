@@ -1,5 +1,140 @@
 [
   {
+    "case_id": "beaulier-v-meta-platforms-inc",
+    "case_name": "Beaulier v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-17",
+    "summary": "Attorney Michael Acciavatti filed an ADR Certification confirming that the parties have discussed alternative dispute resolution options, as required by the court's local rules.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "beaulier-v-meta-platforms-inc",
+    "case_name": "Beaulier v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-11",
+    "summary": "The court denied the administrative motion to relate cases filed as docket entry 17, meaning this case will not be formally linked to another related proceeding. Judge Charles R. Breyer signed the order on June 11, 2026.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-06-18",
+    "summary": "Plaintiff E. Molly Tanzer filed a Certificate of Interested Entities, a standard disclosure identifying parties or entities with a financial interest in the outcome of the case.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-06-12",
+    "summary": "The court reassigned this case from Judge Haywood S. Gilliam, Jr. to Judge Jacqueline Scott Corley, effective June 12, 2026. All previously scheduled hearing and trial dates are vacated and must be re-noticed before Judge Corley, while existing briefing schedules and other deadlines such as discovery cutoffs and ADR compliance dates remain in place.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-06-11",
+    "summary": "The clerk rescheduled the Further Case Management Conference from June 17, 2026, to July 1, 2026, at 2:00 p. m. via Zoom, with an updated joint statement due by June 24, 2026, and counsel appearance notices due by noon on June 30, 2026.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-06-11",
+    "summary": "The court ordered that case 26-cv-471-HSG is related to 25-cv-10732-JSC, and continued the case management conference. Judge Jacqueline Scott Corley signed the order on June 11, 2026.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-06-09",
+    "summary": "Adobe Inc. filed an unopposed administrative motion asking the court to consider whether this case should be related to one or more other cases under the court's local rules governing related cases.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-06-09",
+    "summary": "Both parties filed a stipulation asking the court to extend the deadline for Adobe Inc. to respond to the complaint. No ruling has been issued yet on this request.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "kwon-v-anthropic-pbc",
+    "case_name": "Kwon v. Anthropic PBC",
+    "entry_date": "2026-06-09",
+    "summary": "The court granted a stipulation filed by both parties, with modifications, staying the case until either Judge Pitts rules on a related motion or 60 days pass from June 9, 2026, whichever comes first. The court also scheduled a case management conference for September 1, 2026.",
+    "significance": "significant_ruling",
+    "entry_number": "13",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "kwon-v-anthropic-pbc",
+    "case_name": "Kwon v. Anthropic PBC",
+    "entry_date": "2026-06-04",
+    "summary": "The court reassigned this case to District Judge Noel Wise through a random selection process, removing Magistrate Judge Laurel Beeler. All previously scheduled hearing and trial dates are vacated, though existing briefing schedules and other deadlines such as ADR compliance and discovery cutoff remain in effect; parties must refile any pending motions for hearing before Judge Wise.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "kwon-v-anthropic-pbc",
+    "case_name": "Kwon v. Anthropic PBC",
+    "entry_date": "2026-06-04",
+    "summary": "The Clerk of Court issued a notice that this case will be randomly reassigned from a Magistrate Judge to a District Court Judge because the required consent to Magistrate Judge jurisdiction was not obtained from all parties. All hearings currently scheduled before the Magistrate Judge are vacated and must be rescheduled before the newly assigned District Judge.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-15",
+    "summary": "The court denied a motion to relate this case to case number 26-cv-2632, with that ruling issued on June 11, 2026, and entered on the docket on June 15, 2026. The two cases will proceed separately rather than being consolidated before a single judge.",
+    "significance": "minor_update",
+    "entry_number": "468037704",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-17",
+    "summary": "Attorney Michael Acciavatti filed an ADR certification confirming that the parties discussed alternative dispute resolution options, as required by the court's local rules.",
+    "significance": "minor_update",
+    "entry_number": "29",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-06-17",
+    "summary": "Attorney Michael Acciavatti filed an ADR Certification confirming that the parties have discussed alternative dispute resolution options, as required by the court's local rules.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-06-11",
+    "summary": "Attorney Victor T. Chiu filed a notice of appearance in federal court on behalf of NVIDIA Corporation, formally entering the case as counsel for the defendant.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-06-21T15:18:03Z"
+  },
+  {
     "case_id": "gracenote-media-services-llc-v-openai-foundation",
     "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
     "entry_date": "2026-04-07",
