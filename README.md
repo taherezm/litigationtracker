@@ -1,4 +1,4 @@
-# Undergrad Tech Law Litigation Tracker
+# Litigation Tracker For Undergraduate Technology Law
 
 [![Scheduled Update](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml/badge.svg?branch=main&event=schedule)](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml?query=branch%3Amain+event%3Aschedule)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
