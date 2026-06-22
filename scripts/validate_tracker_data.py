@@ -87,6 +87,9 @@ def validate_cases(cases: Any) -> list[str]:
             continue
 
         label = clean_text(case.get("name")) or f"cases[{index}]"
+        if "tags" in case:
+            errors.append(f"{label}: tags field must not be published.")
+
         case_id = clean_text(case.get("id"))
         if not case_id:
             errors.append(f"{label}: missing id.")

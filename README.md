@@ -103,8 +103,7 @@ If the deterministic classifier cannot confidently mark a candidate relevant, th
   "relevant": true,
   "confidence": "high",
   "reason": "The dispute alleges copyright infringement based on model training data.",
-  "claims": ["copyright infringement"],
-  "tags": ["training data", "LLM", "copyright"]
+  "claims": ["copyright infringement"]
 }
 ```
 
@@ -116,7 +115,7 @@ Accepted candidates are normalized into public case records. Each record gets:
 
 - stable slug ID derived from case name or docket number;
 - caption, court, docket number, CourtListener docket ID, and CourtListener URL;
-- filing date, parties, judges where available, claims, tags, and status;
+- filing date, parties, judges where available, claims, and status;
 - default procedural posture (`Filed`);
 - empty `key_rulings` and `docket_entries` arrays;
 - a public plain-language case summary.
@@ -356,7 +355,6 @@ This prevents the pipeline from publishing data into a site template that no lon
 - `key_rulings`: significant rulings extracted from docket activity.
 - `docket_entries`: tracked docket entries.
 - `plain_language_summary`: public case summary.
-- `tags`: AI/IP tags used by the front end.
 - `source`: currently `courtlistener`.
 - `courtlistener_url`: source link for provenance.
 - `last_updated`: last pipeline update date.

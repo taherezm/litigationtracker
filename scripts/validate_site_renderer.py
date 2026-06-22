@@ -17,6 +17,8 @@ FORBIDDEN_SNIPPETS = (
     "Case Timeline",
     "Summary pending.",
     "Needs Review",
+    "claim-tags",
+    "claim-tag",
 )
 
 

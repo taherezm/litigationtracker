@@ -505,7 +505,7 @@ Snippet: {candidate.get("snippet", "")}
 Is this case primarily or substantially about intellectual property claims (copyright, patent, trade secret, trademark, or right of publicity) arising from or directly involving artificial intelligence systems, AI-generated content, or AI training data?
 
 Respond ONLY with valid JSON, no preamble:
-{{"relevant": true/false, "confidence": "high"/"medium"/"low", "reason": "one sentence", "claims": ["list"], "tags": ["from: training data, copyright, patent, LLM, image generation, music, news media, right of publicity, trade secret, DMCA, fair use, output similarity"]}}"""
+{{"relevant": true/false, "confidence": "high"/"medium"/"low", "reason": "one sentence", "claims": ["list"]}}"""
     return parse_json_object(anthropic_message(client, prompt, max_tokens=300))
 
 
@@ -523,23 +523,12 @@ def fallback_classification(candidate: dict[str, Any]) -> dict[str, Any]:
     ).lower()
     claims = [claim for claim, terms in IP_CLAIM_TERMS if any(term_in_text(text, term) for term in terms)]
     ai_tags = [term for term in AI_TERMS if term_in_text(text, term)]
-    tags = ai_tags.copy()
-    if any(term_in_text(text, term) for term in ("openai", "anthropic", "large language model", "llm")):
-        tags.append("llm")
-    if term_in_text(text, "training data"):
-        tags.append("training data")
-    if term_in_text(text, "copyright"):
-        tags.append("copyright")
-    if term_in_text(text, "patent"):
-        tags.append("patent")
-    tags = listify(tags)
     relevant = bool(claims and ai_tags)
     return {
         "relevant": relevant,
         "confidence": "medium" if relevant else "low",
         "reason": "Deterministic fallback based on AI and IP terms in CourtListener search metadata.",
         "claims": claims,
-        "tags": tags,
     }
 
 
@@ -646,7 +635,6 @@ def build_case(
     ) or candidate["case_name"]
     parties = split_parties(case_name, clean_text(first_value(docket, ("party", "parties"))) or candidate.get("parties", ""))
     claims = listify(classification.get("claims"))
-    tags = listify(classification.get("tags"))
     docket_id = extract_docket_id(docket) or candidate["docket_id"]
     today = utc_today().isoformat()
 
@@ -673,7 +661,6 @@ def build_case(
         "key_rulings": [],
         "docket_entries": [],
         "plain_language_summary": generate_plain_language_summary(client, case_name, claims, parties),
-        "tags": tags,
         "source": "courtlistener",
         "courtlistener_url": courtlistener_url(str(docket_id), docket, candidate.get("raw", {})),
         "last_updated": today,
