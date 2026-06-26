@@ -29,17 +29,21 @@
     "5:26-cv-05882",
     "2:26-cv-00490",
     "3:26-cv-05949",
-    "2:26-cv-02170"
+    "2:26-cv-02170",
+    "5:26-cv-06206",
+    "1:26-cv-24395",
+    "3:26-cv-03696",
+    "1:26-cv-02225"
   ],
-  "entries_updated": 15,
+  "entries_updated": 9,
   "docket_update_complete": false,
-  "summaries_generated": 15,
+  "summaries_generated": 9,
   "docket_last_run_date": "2026-06-06",
   "courtlistener_rate_limited": true,
   "docket_entry_cap_reached": false,
   "summaries_deferred": 0,
   "max_summaries_per_run": 100,
   "discovery_candidate_cap_reached": true,
-  "discovery_last_run_date": "2026-06-21",
+  "discovery_last_run_date": "2026-06-26",
   "max_docket_update_passes": 2
 }

@@ -773,7 +773,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Beaulier",
       "defendant": "Microsoft Corporation"
@@ -927,14 +927,28 @@
         "raw_text": "CLASS ACTION COMPLAINT against defendant(s) Microsoft Corporation with JURY DEMAND (Receipt # AWAWDC-9571478) Attorney Douglas H Sanders added to party Austin Beaulier(pty:pla) filed by Austin Beaulier. (Attachments: # 1 Civil Cover Sheet, # 2 Summons)(Sanders, Douglas) Modified on 3/31/2026 to add note re class action (KB). (Entered: 03/26/2026)",
         "summary": "Plaintiff Austin Beaulier filed a class action complaint with a jury demand against Microsoft Corporation in the Western District of Washington, represented by attorney Douglas H. Sanders.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-06-09",
+        "raw_text": "STIPULATION Notice re: Plaintiff's Deadline to Respond to Defendant's Motion to Dismiss by parties re 21 MOTION to Dismiss (Dennett, Jason) (Entered: 06/09/2026)",
+        "summary": "Both parties filed a stipulation regarding the deadline for the plaintiff to respond to Microsoft's pending motion to dismiss. This is an administrative filing that adjusts a procedural deadline and does not reflect any ruling by the court.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-06-08",
+        "raw_text": "MOTION to Dismiss, filed by Defendant Microsoft Corporation. Oral Argument Requested. Noting Date 8/3/2026, (Parris, Mark) (Entered: 06/08/2026)",
+        "summary": "Microsoft moves to dismiss the case and has requested oral argument, with the motion noted for hearing on August 3, 2026.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "Beaulier asserts copyright infringement claims against Microsoft Corporation in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73061569/beaulier-v-microsoft-corporation/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-26",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06"
+    "docket_last_checked": "2026-06-26"
   },
   {
     "id": "ted-entertainment-inc-v-apple-inc",
@@ -1054,7 +1068,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73145933/ted-entertainment-inc-v-apple-inc/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06"
+    "docket_last_checked": "2026-06-26"
   },
   {
     "id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
@@ -1083,14 +1097,35 @@
         "raw_text": "Set/Reset Hearing: Final Pretrial Conference set for 5/11/2027 10:00 a.m. in San Francisco, Courtroom 03, 17th Floor before Judge Vince Chhabria.. Jury Selection set for 5/24/2027 at 10:00 a.m. in San Francisco, Courtroom 03, 17th Floor before Judge Vince Chhabria. Jury Trial set for 5/24/2027 at 10:00 a.m. in San Francisco, Courtroom 03, 17th Floor before Judge Vince Chhabria. (ahm, COURT STAFF) (Filed on 5/26/2026)",
         "summary": "The court scheduled a final pretrial conference for May 11, 2027, and set jury selection and trial to begin on May 24, 2027, both in Judge Chhabria's San Francisco courtroom.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "65",
+        "date": "2026-06-16",
+        "raw_text": "Order by Judge Vince Chhabria granting 58 Motion for Pro Hac Vice as to Phillip Morton. (bxs, COURT STAFF) (Filed on 6/16/2026) (Entered: 06/16/2026)",
+        "summary": "The judge granted a motion allowing attorney Phillip Morton to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific proceeding even though he is not a member of the Northern District of California bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "64",
+        "date": "2026-06-08",
+        "raw_text": "NOTICE of Appearance filed by Angela Dunning on behalf of Meta Platforms Inc. (Dunning, Angela) (Filed on 6/8/2026) (Entered: 06/08/2026)",
+        "summary": "Attorney Angela Dunning filed a notice of appearance in federal court on June 8, 2026, formally entering the case as counsel of record for defendant Meta Platforms Inc.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "63",
+        "date": "2026-06-05",
+        "raw_text": "AMENDED COMPLAINT against Meta Platforms Inc.. Filed by Chicken Soup for the Soul, LLC. (Attachments: # 1 Exhibit A)(Brannen, Elizabeth) (Filed on 6/5/2026) (Entered: 06/05/2026)",
+        "summary": "Plaintiff Chicken Soup for the Soul, LLC filed an amended complaint against Meta Platforms Inc. , along with one exhibit, updating its earlier pleading with revised or additional allegations.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Meta Platforms Inc. in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-26",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06"
+    "docket_last_checked": "2026-06-26"
   },
   {
     "id": "cruz-v-anthropic-pbc",
@@ -1104,8 +1139,8 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "active",
-    "procedural_posture": "Filed",
+    "status": "stayed",
+    "procedural_posture": "Stayed",
     "parties": {
       "plaintiff": "Cruz",
       "defendant": "Anthropic PBC"
@@ -1161,14 +1196,35 @@
         "raw_text": "COMPLAINT against Anthropic PBC ( Filing fee $ 405, receipt number ACANDC-21982908.). Filed by Jim Campbell, Walter Gmelch, Jacob Bernstein, Daniel James, Carolina De Robertis, Angie Cruz, Nicole Gonzalez Van Cleve, Jaquira Diaz, Aya de Leon, Michael Goodrich, Kerry Chance, Vendela Vida, Lynn Sonberg, Marla Heller, Michael Ault, Lynn Sonberg Book Associates, Sean Arbabi, Charles Blackstone, Dennis Carstens, John Ferejohn, Sinan Ciddi, Brian Copeland, Matt Birkbeck, Ascalon, LLC, Ron Hall, Dave Eggers, Warren Bobrow, Martin Atkins. (Attachments: # 1 Exhibit A)(Brannen, Elizabeth) (Filed on 5/13/2026) (Entered: 05/13/2026)",
         "summary": "Twenty-seven plaintiffs, including authors, journalists, and other creative professionals, filed a complaint against Anthropic PBC in the Northern District of California, along with an exhibit, paying the $405 filing fee.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "12",
+        "date": "2026-06-09",
+        "raw_text": "ORDER by Judge Jacqueline Scott Corley granting 8 Stipulation to Stay Deadlines and Proceedings. (ahm, COURT STAFF) (Filed on 6/9/2026) (Entered: 06/09/2026)",
+        "summary": "The judge granted a joint request by both parties to pause all deadlines and proceedings in the case. The case is now on hold pending further order of the court.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "11",
+        "date": "2026-06-08",
+        "raw_text": "ORDER REASSIGNING CASE IT IS ORDERED that this case is reassigned using a proportionate, random and blind system pursuant to General Order No. 44 to Judge Jacqueline Scott Corley. Magistrate Judge Susan van Keulen no longer assigned to the case. Counsel are instructed that all future filings shall bear the updated judicial initials immediately after the case number. Counsel are reminded to verify the location of the judge on the court website. All hearing and trial dates presently scheduled are vacated. However, existing briefing schedules for motions remain unchanged. Motions must be renoticed for hearing before the judge to whom the case has been reassigned, but the renoticing of the hearing does not affect the prior briefing schedule. Other deadlines such as those for ADR compliance and discovery cutoff also remain unchanged. Mark B. Busby Clerk, United States District Court (This is a text-only entry generated by the court. There is no document associated with this entry.) (mxg, COURT STAFF) (Filed on 6/8/2026) (Entered: 06/08/2026)",
+        "summary": "The court administratively reassigned this case from Magistrate Judge Susan van Keulen to Judge Jacqueline Scott Corley through a random blind selection process. All previously scheduled hearing and trial dates are vacated and must be re-noticed before Judge Corley, though existing briefing schedules, discovery deadlines, and ADR compliance dates remain in effect.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "10",
+        "date": "2026-06-05",
+        "raw_text": "CLERK'S NOTICE OF IMPENDING REASSIGNMENT TO A U.S. DISTRICT COURT JUDGE: The Clerk of this Court will now randomly reassign this case to a District Judge because either (1) a party has not consented to the jurisdiction of a Magistrate Judge, or (2) time is of the essence in deciding a pending judicial action for which the necessary consents to Magistrate Judge jurisdiction have not been secured. You will be informed by separate notice of the district judge to whom this case is reassigned. ALL HEARING DATES PRESENTLY SCHEDULED BEFORE THE CURRENT MAGISTRATE JUDGE ARE VACATED AND SHOULD BE RE-NOTICED FOR HEARING BEFORE THE JUDGE TO WHOM THIS CASE IS REASSIGNED. This is a text only docket entry; there is no document associated with this notice. (rap, COURT STAFF) (Filed on 6/5/2026) (Entered: 06/05/2026)",
+        "summary": "The Clerk of Court issued a notice that this case will be randomly reassigned from the current Magistrate Judge to a U. S. District Court Judge, because at least one party has not consented to Magistrate Judge jurisdiction. All hearings currently scheduled before the Magistrate Judge are vacated and must be rescheduled before the newly assigned District Judge.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "Cruz asserts copyright infringement claims against Anthropic PBC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73339887/cruz-v-anthropic-pbc/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-26",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06"
+    "docket_last_checked": "2026-06-26"
   },
   {
     "id": "cognella-inc-v-anthropic-pbc",
@@ -1182,14 +1238,21 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "active",
-    "procedural_posture": "Filed",
+    "status": "stayed",
+    "procedural_posture": "Stayed",
     "parties": {
       "plaintiff": "Cognella, Inc.",
       "defendant": "Anthropic PBC"
     },
     "judges": [],
-    "key_rulings": [],
+    "key_rulings": [
+      {
+        "date": "2026-06-04",
+        "description": "The court ordered the case stayed pending a ruling by Judge Pitts on severance motions, after which the parties must propose a path to resuming proceedings.",
+        "summary": "The court granted the parties' joint stipulation and ordered this case stayed. Within 14 days of Judge Pitts issuing a ruling on unspecified severance motions in a related proceeding, both parties must file a joint statement proposing how to resume this action.",
+        "significance": "significant_ruling"
+      }
+    ],
     "docket_entries": [
       {
         "entry_number": "5",
@@ -1225,14 +1288,21 @@
         "raw_text": "COMPLAINT against Anthropic PBC ( Filing fee $ 405, receipt number ACANDC-21944168.). Filed by Cognella, Inc.. (Attachments: # 1 Exhibit A)(Brannen, Elizabeth) (Filed on 5/4/2026) (Entered: 05/04/2026)",
         "summary": "Plaintiff Cognella, Inc. filed a complaint against Anthropic PBC in the Northern District of California, along with one exhibit, and paid the $405 filing fee to initiate the lawsuit.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-06-04",
+        "raw_text": "ORDER. The 21 stipulation is granted. This action is stayed. Within 14 days of Judge Pitts issuing a ruling on the severance motions, the parties shall file a joint statement with their proposal(s) for resuming proceedings in this action. Signed by Judge Rita F. Lin on June 4, 2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (rfllc2, COURT STAFF) (Filed on 6/4/2026) (Entered: 06/04/2026)",
+        "summary": "The court granted the parties' joint stipulation and ordered this case stayed. Within 14 days of Judge Pitts issuing a ruling on unspecified severance motions in a related proceeding, both parties must file a joint statement proposing how to resume this action.",
+        "significance": "significant_ruling"
       }
     ],
     "plain_language_summary": "Cognella, Inc. asserts copyright infringement claims against Anthropic PBC in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73294478/cognella-inc-v-anthropic-pbc/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-26",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06"
+    "docket_last_checked": "2026-06-26"
   },
   {
     "id": "david-vance-gardner-v-runway-ai-inc",
@@ -4080,6 +4150,34 @@
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
     "last_updated": "2026-06-21",
-    "discovered_date": "2026-06-21"
+    "discovered_date": "2026-06-21",
+    "docket_last_checked": "2026-06-06"
+  },
+  {
+    "id": "richner-communications-inc-v-microsoft-corporation",
+    "name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-05320",
+    "courtlistener_docket_id": "73528019",
+    "date_filed": "2026-06-24",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Richner Communications, Inc.",
+      "defendant": "Microsoft Corporation"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "plain_language_summary": "Richner Communications, Inc. asserts copyright infringement claims against Microsoft Corporation in a dispute involving artificial intelligence systems, model outputs, or training data. The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use.",
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73528019/richner-communications-inc-v-microsoft-corporation/",
+    "last_updated": "2026-06-26",
+    "discovered_date": "2026-06-26"
   }
 ]

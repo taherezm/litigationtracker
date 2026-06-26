@@ -1,5 +1,86 @@
 [
   {
+    "case_id": "beaulier-v-microsoft-corporation",
+    "case_name": "Beaulier v. Microsoft Corporation",
+    "entry_date": "2026-06-09",
+    "summary": "Both parties filed a stipulation regarding the deadline for the plaintiff to respond to Microsoft's pending motion to dismiss. This is an administrative filing that adjusts a procedural deadline and does not reflect any ruling by the court.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-06-26T15:31:04Z"
+  },
+  {
+    "case_id": "beaulier-v-microsoft-corporation",
+    "case_name": "Beaulier v. Microsoft Corporation",
+    "entry_date": "2026-06-08",
+    "summary": "Microsoft moves to dismiss the case and has requested oral argument, with the motion noted for hearing on August 3, 2026.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-06-26T15:31:04Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-06-16",
+    "summary": "The judge granted a motion allowing attorney Phillip Morton to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific proceeding even though he is not a member of the Northern District of California bar.",
+    "significance": "minor_update",
+    "entry_number": "65",
+    "logged_at": "2026-06-26T15:31:04Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-06-08",
+    "summary": "Attorney Angela Dunning filed a notice of appearance in federal court on June 8, 2026, formally entering the case as counsel of record for defendant Meta Platforms Inc.",
+    "significance": "minor_update",
+    "entry_number": "64",
+    "logged_at": "2026-06-26T15:31:04Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "Plaintiff Chicken Soup for the Soul, LLC filed an amended complaint against Meta Platforms Inc. , along with one exhibit, updating its earlier pleading with revised or additional allegations.",
+    "significance": "minor_update",
+    "entry_number": "63",
+    "logged_at": "2026-06-26T15:31:04Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-06-09",
+    "summary": "The judge granted a joint request by both parties to pause all deadlines and proceedings in the case. The case is now on hold pending further order of the court.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-06-26T15:31:04Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-06-08",
+    "summary": "The court administratively reassigned this case from Magistrate Judge Susan van Keulen to Judge Jacqueline Scott Corley through a random blind selection process. All previously scheduled hearing and trial dates are vacated and must be re-noticed before Judge Corley, though existing briefing schedules, discovery deadlines, and ADR compliance dates remain in effect.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-06-26T15:31:04Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-06-05",
+    "summary": "The Clerk of Court issued a notice that this case will be randomly reassigned from the current Magistrate Judge to a U. S. District Court Judge, because at least one party has not consented to Magistrate Judge jurisdiction. All hearings currently scheduled before the Magistrate Judge are vacated and must be rescheduled before the newly assigned District Judge.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-06-26T15:31:04Z"
+  },
+  {
+    "case_id": "cognella-inc-v-anthropic-pbc",
+    "case_name": "Cognella, Inc. v. Anthropic PBC",
+    "entry_date": "2026-06-04",
+    "summary": "The court granted the parties' joint stipulation and ordered this case stayed. Within 14 days of Judge Pitts issuing a ruling on unspecified severance motions in a related proceeding, both parties must file a joint statement proposing how to resume this action.",
+    "significance": "significant_ruling",
+    "entry_number": "22",
+    "logged_at": "2026-06-26T15:31:04Z"
+  },
+  {
     "case_id": "beaulier-v-meta-platforms-inc",
     "case_name": "Beaulier v. Meta Platforms, Inc.",
     "entry_date": "2026-06-17",
