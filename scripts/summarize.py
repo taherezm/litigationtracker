@@ -16,6 +16,11 @@ from typing import Any
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
+try:
+    from scripts.case_intelligence import refresh_all_case_intelligence
+except ModuleNotFoundError:  # pragma: no cover - supports direct script execution.
+    from case_intelligence import refresh_all_case_intelligence  # type: ignore
+
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
@@ -511,6 +516,8 @@ def main() -> None:
     docket_floor = docket_floor_from_case_checkpoints(cases)
     if docket_floor:
         last_run["docket_last_run_date"] = docket_floor
+
+    refresh_all_case_intelligence(cases, updates)
 
     last_run["summaries_generated"] = generated
     last_run["max_summaries_per_run"] = summary_cap

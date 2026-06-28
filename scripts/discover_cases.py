@@ -18,6 +18,21 @@ import requests
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
+try:
+    from scripts.case_intelligence import (
+        TRANSPARENT_FALLBACK_SENTENCE,
+        claim_text,
+        normalize_claims,
+        refresh_case_intelligence,
+    )
+except ModuleNotFoundError:  # pragma: no cover - supports direct script execution.
+    from case_intelligence import (  # type: ignore
+        TRANSPARENT_FALLBACK_SENTENCE,
+        claim_text,
+        normalize_claims,
+        refresh_case_intelligence,
+    )
+
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
@@ -71,6 +86,12 @@ BANNED_SUMMARY_PHRASES = (
     "violated trademark rights",
     "violated trade secret rights",
     "violated intellectual property claims",
+    "the tracker is monitoring",
+    "how intellectual property doctrines apply to ai development and use",
+    "in a dispute involving artificial intelligence systems, model outputs, or training data",
+    "ai systems, model outputs, or training data",
+    "unspecified ip or privacy claims",
+    "claims against ai developer claims against",
 )
 
 SEARCH_QUERIES = [
@@ -556,11 +577,11 @@ def claim_summary_text(claims: list[str]) -> str:
 def deterministic_case_summary(case_name: str, claims: list[str], parties: dict[str, str]) -> str:
     plaintiff = clean_text(parties.get("plaintiff")) or "The plaintiff"
     defendant = clean_text(parties.get("defendant")) or "the defendant"
-    claim_text = claim_summary_text(claims)
+    normalized_claims = normalize_claims(claims)
+    claims_text = claim_text(normalized_claims)
     return (
-        f"{plaintiff} asserts {claim_text} claims against {defendant} in a dispute involving "
-        "artificial intelligence systems, model outputs, or training data. "
-        "The tracker is monitoring the case for rulings on how intellectual property doctrines apply to AI development and use."
+        f"{plaintiff} filed {claims_text} claims against {defendant}. "
+        f"Newly filed case. {TRANSPARENT_FALLBACK_SENTENCE}"
     )
 
 
@@ -634,11 +655,11 @@ def build_case(
         first_value(docket, ("case_name_full", "caseNameFull", "case_name", "caseName", "case_name_short"))
     ) or candidate["case_name"]
     parties = split_parties(case_name, clean_text(first_value(docket, ("party", "parties"))) or candidate.get("parties", ""))
-    claims = listify(classification.get("claims"))
+    claims = normalize_claims(listify(classification.get("claims")))
     docket_id = extract_docket_id(docket) or candidate["docket_id"]
     today = utc_today().isoformat()
 
-    return {
+    case = {
         "id": slugify(case_name, docket_number, existing_ids),
         "name": case_name,
         "court": clean_text(
@@ -660,12 +681,13 @@ def build_case(
         "judges": extract_judges(docket),
         "key_rulings": [],
         "docket_entries": [],
-        "plain_language_summary": generate_plain_language_summary(client, case_name, claims, parties),
         "source": "courtlistener",
         "courtlistener_url": courtlistener_url(str(docket_id), docket, candidate.get("raw", {})),
         "last_updated": today,
         "discovered_date": today,
     }
+    refresh_case_intelligence(case, [])
+    return case
 
 
 def collect_rss_candidates(session: requests.Session, api_key: str) -> list[dict[str, Any]]:

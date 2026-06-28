@@ -11,6 +11,11 @@ import sys
 from pathlib import Path
 from typing import Any
 
+try:
+    from scripts.case_intelligence import summary_boilerplate_fingerprint, validate_case_summary
+except ModuleNotFoundError:  # pragma: no cover - supports direct script execution.
+    from case_intelligence import summary_boilerplate_fingerprint, validate_case_summary  # type: ignore
+
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
@@ -81,6 +86,7 @@ def validate_cases(cases: Any) -> list[str]:
 
     seen_ids: set[str] = set()
     seen_dockets: set[tuple[str, str]] = set()
+    summary_fingerprints: dict[str, list[str]] = {}
     for index, case in enumerate(cases):
         if not isinstance(case, dict):
             errors.append(f"cases[{index}] must be an object.")
@@ -110,8 +116,11 @@ def validate_cases(cases: Any) -> list[str]:
             errors.append(f"{label}: duplicate docket number {docket_number} in {court or 'unknown court'}.")
         seen_dockets.add(docket_key)
 
-        if repeated_summary_text(case.get("plain_language_summary")):
-            errors.append(f"{label}: plain_language_summary repeats the same sentence block.")
+        errors.extend(validate_case_summary(case))
+        summary_text = clean_text(case.get("plain_language_summary")).lower()
+        fingerprint = summary_boilerplate_fingerprint(case)
+        if fingerprint and "available parsed materials do not yet identify" not in summary_text:
+            summary_fingerprints.setdefault(fingerprint, []).append(label)
 
         for entry in case.get("docket_entries", []):
             if not isinstance(entry, dict):
@@ -130,6 +139,11 @@ def validate_cases(cases: Any) -> list[str]:
             if isinstance(ruling, dict) and repeated_summary_text(ruling.get("summary")):
                 ruling_date = clean_text(ruling.get("date")) or "unknown date"
                 errors.append(f"{label} ruling {ruling_date}: summary repeats the same sentence block.")
+
+    for fingerprint, labels in summary_fingerprints.items():
+        if len(labels) >= 4 and len(fingerprint) > 80:
+            sample = ", ".join(labels[:4])
+            errors.append(f"case summaries are effectively identical across {len(labels)} cases: {sample}.")
 
     return errors
 

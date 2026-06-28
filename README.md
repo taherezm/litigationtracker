@@ -41,9 +41,9 @@ The tracker runs as a three-stage ETL pipeline, in this execution order:
 1. `scripts/update_dockets.py`
    Polls CourtListener docket entries for every non-resolved tracked case from each case's own `docket_last_checked` checkpoint, appends new entries, and prepends recent activity records into `data/updates.json`. Run via `scripts/run_docket_update_passes.py`, which alternates docket and summarization passes.
 2. `scripts/summarize.py`
-   Summarizes unsummarized docket entries, classifies their litigation significance, updates procedural posture, records key rulings, and marks resolved cases when appropriate.
+   Summarizes unsummarized docket entries, classifies their litigation significance, updates procedural posture, records key rulings, marks resolved cases when appropriate, and regenerates structured case-level intelligence and public case summaries from the latest docket state.
 3. `scripts/discover_cases.py`
-   Searches for new candidate cases, classifies AI/IP relevance, normalizes accepted candidates into case records, and writes them into `data/cases.json`. Runs last so docket freshness gets priority on the shared CourtListener request quota; same-day reruns skip discovery unless `FORCE_DISCOVERY` is set.
+   Searches for new candidate cases, classifies AI/IP relevance, normalizes accepted candidates into case records, initializes `case_intelligence`, and writes them into `data/cases.json`. Runs last so docket freshness gets priority on the shared CourtListener request quota; same-day reruns skip discovery unless `FORCE_DISCOVERY` is set.
 
 Each stage reads and writes JSON directly. Writes are atomic: data is serialized to a temporary sibling file and then moved into place with `Path.replace()`.
 
@@ -118,9 +118,10 @@ Accepted candidates are normalized into public case records. Each record gets:
 - filing date, parties, judges where available, claims, and status;
 - default procedural posture (`Filed`);
 - empty `key_rulings` and `docket_entries` arrays;
+- structured `case_intelligence`;
 - a public plain-language case summary.
 
-Plain-language case summaries are deterministic by default. If `USE_MODEL_CASE_SUMMARIES=1`, the configured model provider may generate the initial case summary, but the output is still passed through legal-precision filters. The deterministic fallback avoids overstating liability and uses allegation language such as "asserts" instead of "violated."
+Case-level summaries are deterministic and are generated from `case_intelligence`, not from a generic AI/IP template. When parsed materials identify only the caption and claim type, the summary uses a transparent fallback such as: "The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue." Legacy non-boilerplate summary sentences may be used as source material during backfill, but banned boilerplate is never republished.
 
 ## Docket Monitoring
 
@@ -234,6 +235,27 @@ Generated summaries are post-processed. The code removes repeated sentence block
 
 When an entry is classified as `significant_ruling`, a deduplicated key-ruling record is added to the case. When classified as `case_resolved`, the case is marked `resolved`. Matching records in `updates.json` are updated with the generated summary and significance.
 
+After docket-entry summarization, `summarize.py` refreshes every case's `case_intelligence` and regenerates `plain_language_summary`. This keeps case cards aligned with the most meaningful docket event rather than leaving them at the initial discovery summary.
+
+## Case-Level Intelligence
+
+`scripts/case_intelligence.py` owns deterministic case-card intelligence. It builds:
+
+- `claim_category`: a normalized category such as `copyright_training_data`, `copyright_news_or_publishing`, `patent_ai_software`, `trade_secret_or_transparency`, `privacy_or_consumer_protection`, or `unknown`.
+- `procedural_stage`: a machine-readable stage such as `newly_filed`, `motion_to_dismiss`, `discovery`, `stayed`, `appeal`, `significant_ruling`, `judgment`, or `resolved`.
+- `latest_meaningful_event`: the latest substantive event selected from key rulings, docket entries, and updates.
+- `case_theory`, `current_posture`, `why_it_matters`, and `latest_change`, which are composed into the public `plain_language_summary`.
+- `missing_information` and `confidence_level`, so low-information cases publish transparent limitations rather than generic prose.
+
+Meaningful-event selection prefers complaints, amended complaints, dispositive motions, substantive orders, stays, transfers, consolidation, severance, discovery orders, appeal activity, settlement notices, dismissals, and judgments. Routine items such as cover sheets, summonses, AO-121 notices, judge assignment, pro hac vice motions, appearances, filing-fee records, and hearing acknowledgments are ignored unless no substantive event is available.
+
+Regenerate all case-level intelligence and public case summaries from existing data with:
+
+```bash
+python scripts/regenerate_case_summaries.py
+python scripts/validate_tracker_data.py
+```
+
 ## Scheduler State
 
 `data/last_run.json` tracks run state across phases. The shape is:
@@ -318,6 +340,11 @@ This validates the generated JSON before it is published:
 - docket numbers cannot be duplicated within the same court.
 - case summaries, docket-entry summaries, update summaries, and key-ruling summaries cannot repeat the same sentence block.
 - placeholder summaries such as "no docket entry text" cannot leak into public data.
+- every case must have `case_intelligence` and a non-empty `plain_language_summary`.
+- case summaries cannot contain old boilerplate such as "The tracker is monitoring" or generic catch-all phrases about "AI systems, model outputs, or training data."
+- low-confidence intelligence must explain what information is missing.
+- stayed cases must mention the stay in `current_posture` or `plain_language_summary`.
+- summary fingerprints cannot collapse into effectively identical non-fallback prose across many cases.
 
 ### `scripts/validate_site_renderer.py`
 
@@ -354,6 +381,7 @@ This prevents the pipeline from publishing data into a site template that no lon
 - `judges`: judge names where available.
 - `key_rulings`: significant rulings extracted from docket activity.
 - `docket_entries`: tracked docket entries.
+- `case_intelligence`: structured source for the public case-card summary.
 - `plain_language_summary`: public case summary.
 - `source`: currently `courtlistener`.
 - `courtlistener_url`: source link for provenance.
@@ -417,7 +445,6 @@ Optional environment variables:
 - `MAX_SUMMARIES_PER_RUN`: maximum number of new docket-entry summaries to generate per run. Defaults to `100`.
 - `MAX_DOCKET_UPDATE_PASSES`: maximum number of docket-update/summarization passes per workflow job. Defaults to `2` in GitHub Actions.
 - `FORCE_DISCOVERY`: set to `1`, `true`, or `yes` to force discovery even when `discovery_last_run_date` is already today.
-- `USE_MODEL_CASE_SUMMARIES`: set to `1`, `true`, or `yes` to allow model-generated initial case summaries instead of deterministic summaries.
 
 ## Local Development
 
@@ -436,6 +463,7 @@ export LEGAL_AI_MODEL=...
 
 python scripts/run_docket_update_passes.py
 python scripts/discover_cases.py
+python scripts/regenerate_case_summaries.py
 python scripts/validate_tracker_data.py
 ```
 
