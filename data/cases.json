@@ -166,9 +166,6 @@
           "type": "docket_entry",
           "entry_number": "1",
           "date": "2026-03-26"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -378,9 +375,6 @@
           "type": "docket_entry",
           "entry_number": "16",
           "date": "2026-06-11"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -1335,9 +1329,6 @@
           "type": "docket_entry",
           "entry_number": "1",
           "date": "2026-04-03"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -1432,9 +1423,6 @@
           "type": "docket_entry",
           "entry_number": "63",
           "date": "2026-06-05"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -1684,9 +1672,6 @@
           "type": "docket_entry",
           "entry_number": "22",
           "date": "2026-06-04"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -1753,7 +1738,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73391100/david-vance-gardner-v-runway-ai-inc/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06",
+    "docket_last_checked": "2026-07-01",
     "case_intelligence": {
       "case_theory": "David Vance Gardner asserts copyright infringement claims against Runway AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -1793,9 +1778,6 @@
           "type": "docket_entry",
           "entry_number": "465310640",
           "date": "2026-05-26"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -1834,21 +1816,91 @@
         "raw_text": "STIPULATION WITH PROPOSED ORDER TO STAY DEADLINES AND PROCEEDINGS filed by Chicken Soup for the Soul, LLC. (Brannen, Elizabeth) (Filed on 6/3/2026) (Entered: 06/03/2026)",
         "summary": "Plaintiff Chicken Soup for the Soul, LLC filed a stipulation with a proposed order requesting to stay all deadlines and proceedings in the case.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "469174214",
+        "date": "2026-06-25",
+        "raw_text": "** 18 MOTION for leave to appear in Pro Hac Vice TERMINATED, See Docket No. 21 .** (ndr, COURT STAFF) (Filed on 6/25/2026)",
+        "summary": "The court terminated a motion for leave to appear pro hac vice (a request by an out-of-state attorney to participate in this case), noting that the motion was superseded by Docket No. 21.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "468551764",
+        "date": "2026-06-24",
+        "raw_text": "*** 14 STIPULATION WITH PROPOSED ORDER TO STAY DEADLINES AND PROCEEDINGS TERMINATED, Re-Filed as Docket No. 16 .*** (ndr, COURT STAFF) (Filed on 6/24/2026)",
+        "summary": "Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-06-26",
+        "raw_text": "ORDER by Judge Haywood S. Gilliam, Jr. GRANTING 22 Motion for Pro Hac Vice for Anna Balishina Naydonov.Docket No. 21 TERMINATED, Refiled as Docket No. 22 . (ndr, COURT STAFF) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "The court granted a motion allowing attorney Anna Balishina Naydonov to appear in this case on a pro hac vice basis, meaning she is admitted to represent a party in this district even though she is not a member of the local bar. An earlier, duplicative filing of the same motion was terminated and replaced by the refiled version.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-06-26",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22130999.) Filing fee previously paid on 06/23/2026 filed by Anthropic PBC. (Attachments: # 1 Certificate of Good Standing (DC), # 2 Certificate of Good Standing (VA))(Naydonov, Anna) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Anthropic PBC filed a motion seeking the court's permission to allow an out-of-state attorney to appear in this case, paying the required $328 fee and attaching certificates of good standing from the District of Columbia and Virginia bars.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-06-24",
+        "raw_text": "Refiled as Docket No. 22 . MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22130999.) Filing fee previously paid on 06/23/2026 filed by Anthropic PBC. (Attachments: # 1 Certificate of Good Standing (DC), # 2 Certificate of Good Standing (VA))(Naydonov, Anna) (Filed on 6/24/2026) Modified on 6/26/2026 (ndr, COURT STAFF). (Entered: 06/24/2026)",
+        "summary": "Anthropic PBC moved for leave to admit an attorney pro hac vice, allowing counsel not licensed in the Northern District of California to appear in this case, and submitted certificates of good standing from the District of Columbia and Virginia bars along with the required filing fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-06-23",
+        "raw_text": "Minute Entry for proceedings held before Judge Haywood S. Gilliam, Jr.: Initial Case Management Conference held via zoom on 6/23/2026.Total Time in Court: 4 minutes. Not Reported or Recorded. Plaintiff Attorney: Elizabeth Brannen; Lauren Martin. Defendant Attorney: Amir Jabari. Court grants 16 STIPULATION WITH PROPOSED ORDER TO STAY DEADLINES AND PROCEEDINGS and continues the stay for 14 days. Parties are directed to file the Motion to Relate Cases by Monday (06/29/2026). (This is a text-only entry generated by the court. There is no document associated with this entry.) (dms, COURT STAFF) (Date Filed: 6/23/2026) Modified on 6/26/2026 to add via zoom (dms, COURT STAFF). (Entered: 06/24/2026)",
+        "summary": "The court held a brief initial case management conference via Zoom on June 23, 2026, and granted the parties' joint request to stay all deadlines and proceedings, extending the stay for an additional 14 days. The court also directed both parties to file a Motion to Relate Cases by June 29, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "19",
+        "date": "2026-06-24",
+        "raw_text": "CLERK'S NOTICE RE DOCKET NO. 18 . Information on the application must match the information on the docket. You and your local co-counsel's name and address as listed on the application don't match the docket. Either update the docket or e-file a revised application (with attachments) with the correct information reflected on it. If you update the docket, please send the CRD an e-mail to alert her. (This is a text-only entry generated by the court. There is no document associated with this entry.) (ndr, COURT STAFF) (Filed on 6/24/2026) (Entered: 06/24/2026)",
+        "summary": "The court clerk issued a notice flagging a mismatch between the attorney information listed on a pending application (Docket No. 18) and the information on the court's docket, directing the filing party to either update the docket or submit a corrected application with matching counsel names and addresses.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-06-23",
+        "raw_text": "Refiled as Docket No. 21 . MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22130999.) filed by Anthropic PBC. (Attachments: # 1 Certificate of Good Standing (DC), # 2 Certificate of Good Standing (VA))(Naydonov, Anna) (Filed on 6/23/2026) Modified on 6/25/2026 (ndr, COURT STAFF). (Entered: 06/23/2026)",
+        "summary": "Anthropic PBC filed a motion for pro hac vice admission, seeking to allow an out-of-state attorney to appear in this case, and paid the required $328 filing fee. The motion was refiled as Docket No. 21 and includes certificates of good standing from the District of Columbia and Virginia bars.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-06-23",
+        "raw_text": "NOTICE of Appearance filed by Amir Jabbari on behalf of Anthropic PBC (Jabbari, Amir) (Filed on 6/23/2026) (Entered: 06/23/2026)",
+        "summary": "Attorney Amir Jabbari filed a notice of appearance in federal court in the Northern District of California, formally entering the case as counsel of record for defendant Anthropic PBC.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-06-22",
+        "raw_text": "STIPULATION WITH PROPOSED ORDER TO STAY DEADLINES AND PROCEEDINGS filed by Chicken Soup for the Soul, LLC. (Brannen, Elizabeth) (Filed on 6/22/2026) (Entered: 06/22/2026)",
+        "summary": "Plaintiff Chicken Soup for the Soul, LLC filed a stipulation—signed by both parties—asking the court to stay all deadlines and proceedings in the case. The proposed stay has not yet been approved by the court.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Anthropic PBC, but the parsed materials do not yet identify the specific AI conduct at issue. The case is stayed: Plaintiff Chicken Soup for the Soul, LLC filed a stipulation with a proposed order requesting to stay all deadlines and proceedings in the case. The case matters because the stay controls when the parties can reach merits discovery or dispositive motions. Latest meaningful event (2026-06-03): Plaintiff Chicken Soup for the Soul, LLC filed a stipulation with a proposed order requesting to stay all deadlines and proceedings in the case.",
+    "plain_language_summary": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Anthropic PBC, but the parsed materials do not yet identify the specific AI conduct at issue. The case is stayed: Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16. The case matters because the stay controls when the parties can reach merits discovery or dispositive motions. Latest meaningful event (2026-06-24): Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73314131/chicken-soup-for-the-soul-llc-v-anthropic-pbc/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06",
+    "docket_last_checked": "2026-07-01",
     "case_intelligence": {
       "case_theory": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Anthropic PBC, but the parsed materials do not yet identify the specific AI conduct at issue.",
-      "current_posture": "The case is stayed: Plaintiff Chicken Soup for the Soul, LLC filed a stipulation with a proposed order requesting to stay all deadlines and proceedings in the case.",
+      "current_posture": "The case is stayed: Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16.",
       "why_it_matters": "The case matters because the stay controls when the parties can reach merits discovery or dispositive motions.",
-      "latest_change": "Latest meaningful event (2026-06-03): Plaintiff Chicken Soup for the Soul, LLC filed a stipulation with a proposed order requesting to stay all deadlines and proceedings in the case.",
-      "latest_meaningful_event": "Plaintiff Chicken Soup for the Soul, LLC filed a stipulation with a proposed order requesting to stay all deadlines and proceedings in the case.",
-      "latest_meaningful_event_date": "2026-06-03",
+      "latest_change": "Latest meaningful event (2026-06-24): Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16.",
+      "latest_meaningful_event": "Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16.",
+      "latest_meaningful_event_date": "2026-06-24",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -1874,8 +1926,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "14",
-          "date": "2026-06-03"
+          "entry_number": "468551764",
+          "date": "2026-06-24"
         }
       ]
     }
@@ -1899,7 +1951,14 @@
       "defendant": "Runway AI, Inc."
     },
     "judges": [],
-    "key_rulings": [],
+    "key_rulings": [
+      {
+        "date": "2026-06-09",
+        "description": "The court ordered the consolidation of three associated cases under case number 1:26-cv-01362-LAK, meaning they will proceed together before Judge Kaplan.",
+        "summary": "The court granted a motion to consolidate three related cases—1:26-cv-01362-LAK, 1:26-cv-01655-LAK, and 1:26-cv-04360-LAK—into a single proceeding, as ordered by Judge Lewis A. Kaplan on June 9, 2026.",
+        "significance": "significant_ruling"
+      }
+    ],
     "docket_entries": [
       {
         "entry_number": "5",
@@ -1935,21 +1994,28 @@
         "raw_text": "COMPLAINT against Runway AI, Inc.. (Filing Fee $ 405.00, Receipt Number ANYSDC-32473061)Document filed by Businessing LLC..(Svensson, Mark) (Entered: 02/27/2026)",
         "summary": "Plaintiff Businessing LLC filed a complaint against Runway AI, Inc. in the Southern District of New York, initiating this federal lawsuit and paying the $405. 00 filing fee.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-06-09",
+        "raw_text": "ORDER granting (39) Letter Motion to Consolidate Cases in case 1:26-cv-01362-LAK. SO ORDERED. (Signed by Judge Lewis A. Kaplan on 6/9/2026) Filed In Associated Cases: 1:26-cv-01362-LAK, 1:26-cv-01655-LAK, 1:26-cv-04360-LAK (ar) (Entered: 06/09/2026)",
+        "summary": "The court granted a motion to consolidate three related cases—1:26-cv-01362-LAK, 1:26-cv-01655-LAK, and 1:26-cv-04360-LAK—into a single proceeding, as ordered by Judge Lewis A. Kaplan on June 9, 2026.",
+        "significance": "significant_ruling"
       }
     ],
-    "plain_language_summary": "Businessing LLC asserts copyright infringement claims against Runway AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-02-27): Plaintiff Businessing LLC filed a statement asking the court to designate this case as related to a previously filed case, docket number 1:26-cv-01362, assigned to Judge Kaplan.",
+    "plain_language_summary": "Businessing LLC asserts copyright infringement claims against Runway AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-06-09): The court granted a motion to consolidate three related cases—1:26-cv-01362-LAK, 1:26-cv-01655-LAK, and 1:26-cv-04360-LAK—into a single proceeding, as ordered by Judge Lewis A. Kaplan on June 9, 2026.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72344359/businessing-llc-v-runway-ai-inc/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06",
+    "docket_last_checked": "2026-07-01",
     "case_intelligence": {
       "case_theory": "Businessing LLC asserts copyright infringement claims against Runway AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
       "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-02-27): Plaintiff Businessing LLC filed a statement asking the court to designate this case as related to a previously filed case, docket number 1:26-cv-01362, assigned to Judge Kaplan.",
-      "latest_meaningful_event": "Plaintiff Businessing LLC filed a statement asking the court to designate this case as related to a previously filed case, docket number 1:26-cv-01362, assigned to Judge Kaplan.",
-      "latest_meaningful_event_date": "2026-02-27",
+      "latest_change": "Latest meaningful event (2026-06-09): The court granted a motion to consolidate three related cases—1:26-cv-01362-LAK, 1:26-cv-01655-LAK, and 1:26-cv-04360-LAK—into a single proceeding, as ordered by Judge Lewis A. Kaplan on June 9, 2026.",
+      "latest_meaningful_event": "The court granted a motion to consolidate three related cases—1:26-cv-01362-LAK, 1:26-cv-01655-LAK, and 1:26-cv-04360-LAK—into a single proceeding, as ordered by Judge Lewis A. Kaplan on June 9, 2026.",
+      "latest_meaningful_event_date": "2026-06-09",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -1960,7 +2026,13 @@
       "procedural_stage": "motion_practice",
       "pending_motion_or_next_event": null,
       "related_cases": [
+        "1:26-cv-01362-LAK",
+        "1:26-cv-01655-LAK",
+        "1:26-cv-04360-LAK",
         "1:26-cv-01362",
+        "26-cv-01362-LAK",
+        "26-cv-01655-LAK",
+        "26-cv-04360-LAK",
         "26-cv-01362"
       ],
       "confidence_level": "low",
@@ -1978,11 +2050,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "5",
-          "date": "2026-02-27"
-        },
-        {
-          "type": "existing_public_summary"
+          "entry_number": "23",
+          "date": "2026-06-09"
         }
       ]
     }
@@ -2000,7 +2069,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Poseidon Wave Media LLC",
       "defendant": "Suno, Inc."
@@ -2077,21 +2146,63 @@
         "raw_text": "COMPLAINT against Suno, Inc.. (Filing Fee $ 405.00, Receipt Number ANYSDC-32835906)Document filed by Poseidon Wave Media LLC. (Attachments: # 1 Exhibit Registrations, # 2 Exhibit Registrations, # 3 Exhibit Registrations, # 4 Exhibit Registrations, # 5 Exhibit Registrations, # 6 Exhibit Registrations, # 7 Exhibit Assignments, # 8 Exhibit Screenshots).(Garbarini, Richard) (Entered: 05/12/2026)",
         "summary": "Plaintiff Poseidon Wave Media LLC filed a complaint against Suno, Inc. in the Southern District of New York, attaching eight exhibits consisting of copyright registrations, assignment records, and screenshots in support of its claims.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "468096301",
+        "date": "2026-06-04",
+        "raw_text": "NOTICE: The Initial Pretrial Conference originally scheduled for July 10, 2026 is adjourned to August 3, 2026 at 10:00 a.m. Call-In: 855-244-8681; Access Code: 2305 810 3970#. (Nacanther, Florence)",
+        "summary": "The court rescheduled the Initial Pretrial Conference from July 10, 2026 to August 3, 2026 at 10:00 a. m. , with dial-in access provided for participants.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "468096304",
+        "date": "2026-06-16",
+        "raw_text": "Set/Reset Hearings: Telephone Conference set for 9/14/2026 at 10:00 AM before Judge P. Kevin Castel. (jca)",
+        "summary": "The court scheduled a telephone conference for September 14, 2026, at 10:00 AM before Judge P. Kevin Castel.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-06-16",
+        "raw_text": "ORDER granting 17 Letter Motion for Extension of Time. The proposed schedule for a second amended complaint and time to answer is approved. The August 3 conference is adjourned to September 14, 2026 at 10:00 a.m. Dial-In No.: 1-855-244-8681, Access 2305 810 3970#. SO ORDERED. Amended Pleadings due by 6/22/2026. (Signed by Judge P. Kevin Castel on 6/16/2026) (jca) (Entered: 06/16/2026)",
+        "summary": "The court granted Poseidon Wave Media's letter motion for a time extension, approving a revised schedule that sets a June 22, 2026 deadline for a second amended complaint and moving the previously scheduled August 3 conference to September 14, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-06-15",
+        "raw_text": "LETTER MOTION for Extension of Time addressed to Judge P. Kevin Castel from Brittany N. Lovejoy dated June 15, 2026. Document filed by Suno, Inc...(Lovejoy, Brittany) (Entered: 06/15/2026)",
+        "summary": "Suno, Inc. filed a letter motion asking Judge P. Kevin Castel to grant an extension of time, submitted by attorney Brittany N. Lovejoy on June 15, 2026. The specific deadline or filing at issue is not identified in this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-06-05",
+        "raw_text": "ORDER granting 10 Motion for Brittany N. Lovejoy to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 06/05/2026)",
+        "summary": "The court granted a motion allowing attorney Brittany N. Lovejoy to appear pro hac vice, meaning she is admitted to represent a party in this case despite not being a member of the Southern District of New York bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "15",
+        "date": "2026-06-05",
+        "raw_text": "ORDER granting 9 Motion for Andrew M. Gass to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 06/05/2026)",
+        "summary": "The court granted a motion allowing attorney Andrew M. Gass to appear pro hac vice, permitting him to represent a party in this case despite not being a member of the Southern District of New York bar. Judge P. Kevin Castel issued the order on June 5, 2026.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Poseidon Wave Media LLC filed copyright infringement claims against Suno, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "plain_language_summary": "Poseidon Wave Media LLC asserts copyright infringement claims against Suno, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-06-16): The court granted Poseidon Wave Media's letter motion for a time extension, approving a revised schedule that sets a June 22, 2026 deadline for a second amended complaint and moving the previously scheduled August 3 conference to September 14, 2026.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73328849/poseidon-wave-media-llc-v-suno-inc/",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06",
+    "docket_last_checked": "2026-07-01",
     "case_intelligence": {
       "case_theory": "Poseidon Wave Media LLC asserts copyright infringement claims against Suno, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
-      "current_posture": "The case is newly filed.",
+      "current_posture": "The case is in motion practice.",
       "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-05-12): Plaintiff Poseidon Wave Media LLC filed a complaint against Suno, Inc. in the Southern District of New York, attaching eight exhibits consisting of copyright registrations, assignment records, and screenshots in support of its claims.",
-      "latest_meaningful_event": "Plaintiff Poseidon Wave Media LLC filed a complaint against Suno, Inc. in the Southern District of New York, attaching eight exhibits consisting of copyright registrations, assignment records, and screenshots in support of its claims.",
-      "latest_meaningful_event_date": "2026-05-12",
+      "latest_change": "Latest meaningful event (2026-06-16): The court granted Poseidon Wave Media's letter motion for a time extension, approving a revised schedule that sets a June 22, 2026 deadline for a second amended complaint and moving the previously scheduled August 3 conference to September 14, 2026.",
+      "latest_meaningful_event": "The court granted Poseidon Wave Media's letter motion for a time extension, approving a revised schedule that sets a June 22, 2026 deadline for a second amended complaint and moving the previously scheduled August 3 conference to September 14, 2026.",
+      "latest_meaningful_event_date": "2026-06-16",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -2099,7 +2210,7 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": null,
       "technology_or_model_at_issue": null,
-      "procedural_stage": "newly_filed",
+      "procedural_stage": "motion_practice",
       "pending_motion_or_next_event": null,
       "related_cases": [],
       "confidence_level": "low",
@@ -2117,11 +2228,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "1",
-          "date": "2026-05-12"
-        },
-        {
-          "type": "existing_public_summary"
+          "entry_number": "18",
+          "date": "2026-06-16"
         }
       ]
     }
@@ -2237,21 +2345,70 @@
         "raw_text": "NOTICE OF APPEARANCE by Justin V. Shur on behalf of Mark Zuckerberg..(Shur, Justin) (Entered: 06/09/2026)",
         "summary": "Attorney Justin V. Shur filed a notice of appearance in the case on behalf of defendant Mark Zuckerberg, formally entering the litigation as counsel of record for him.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "62",
+        "date": "2026-06-26",
+        "raw_text": "DECLARATION of Phillip E. Morton in Support re: 60 MOTION to Transfer Case Memorandum of Law in Support of Motion to Transfer Venue to N.D. Cal... Document filed by Meta Platforms, Inc.. (Attachments: # 1 Exhibit 1 - Ahmad Al-Dahle LinkedIn, # 2 Exhibit 2- Alex Boesenberg LinkedIn, # 3 Exhibit 3 - Sergey Edunov LinkedIn, # 4 Exhibit 4 - Chaya Nayak LinkedIn, # 5 Exhibit 5 - Affonso Reis LinkedIn, # 6 Exhibit 6 - Angela Fan LinkedIn, # 7 Exhibit 7 - Eleonora (Alex) Presani LinkedIn, # 8 Exhibit 8 - Stephen Roller LinkedIn, # 9 Exhibit 9 - Marie-Anne Lachaux LinkedIn, # 10 Exhibit 10 - Sean Bell LinkedIn, # 11 Exhibit 11 - Logan Kerr LinkedIn, # 12 Exhibit 12 - Christopher King LinkedIn, # 13 Exhibit 13 - Arun Rao LinkedIn, # 14 Exhibit 14 - Yann LeCun LinkedIn, # 15 Exhibit 15 - David Esiobu LinkedIn).(Hartley, Jenifer) (Entered: 06/26/2026)",
+        "summary": "Meta Platforms filed a declaration by attorney Phillip E. Morton in support of its motion to transfer the case from the Southern District of New York to the Northern District of California, attaching LinkedIn profiles of fifteen individuals—including Meta employees and executives—apparently to show that key witnesses or personnel are located in California.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "61",
+        "date": "2026-06-26",
+        "raw_text": "DECLARATION of Caroline Jablonicky in Support re: 60 MOTION to Transfer Case Memorandum of Law in Support of Motion to Transfer Venue to N.D. Cal... Document filed by Meta Platforms, Inc...(Hartley, Jenifer) (Entered: 06/26/2026)",
+        "summary": "Meta Platforms filed a declaration from Caroline Jablonicky in support of its motion to transfer the case from the Southern District of New York to the Northern District of California.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "60",
+        "date": "2026-06-26",
+        "raw_text": "MOTION to Transfer Case Memorandum of Law in Support of Motion to Transfer Venue to N.D. Cal.. Document filed by Meta Platforms, Inc...(Hartley, Jenifer) (Entered: 06/26/2026)",
+        "summary": "Meta Platforms filed a motion and supporting memorandum of law asking the court to transfer this case from the Southern District of New York to the Northern District of California.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "59",
+        "date": "2026-06-26",
+        "raw_text": "MOTION to Transfer Case . Document filed by Mark Zuckerberg..(Shur, Justin) (Entered: 06/26/2026)",
+        "summary": "Defendant Mark Zuckerberg filed a motion asking the court to transfer this case to a different federal court. No ruling has been issued on the motion.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "58",
+        "date": "2026-06-26",
+        "raw_text": "NOTICE of Motion to Transfer Venue to the Northern District of California. Document filed by Meta Platforms, Inc...(Hartley, Jenifer) (Entered: 06/26/2026)",
+        "summary": "Meta Platforms filed a notice of motion to transfer this case from the Southern District of New York to the Northern District of California.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "57",
+        "date": "2026-06-10",
+        "raw_text": "MEMO ENDORSEMENT on re: 51 Letter filed by Meta Platforms, Inc. ENDORSEMENT: File motion by June 26. Respond by July 13. Reply by July 20. SO ORDERED. ( Motions due by 6/26/2026., Replies due by 7/20/2026., Responses due by 7/13/2026) (Signed by Judge P. Kevin Castel on 6/10/2026) (vfr) (Entered: 06/10/2026)",
+        "summary": "The court endorsed a briefing schedule on a forthcoming motion arising from a letter filed by Meta Platforms, setting a filing deadline of June 26, 2026, a response deadline of July 13, 2026, and a reply deadline of July 20, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "51",
+        "date": "2026-06-05",
+        "raw_text": "LETTER addressed to Judge P. Kevin Castel from Jenifer N. Hartley dated June 5, 2026 re: Pre-Motion Letter Concerning Anticipated Motion to Transfer. Document filed by Meta Platforms, Inc...(Hartley, Jenifer) (Entered: 06/05/2026)",
+        "summary": "Meta Platforms filed a pre-motion letter with Judge P. Kevin Castel on June 5, 2026, signaling its intent to move to transfer the case to a different federal court.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. involving books, educational, or publishing materials. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-06-10): The court construed a letter filed by Dr. Kenneth Saladin as a motion to intervene—either as of right or permissively—in which he sought to represent a proposed subclass with separate counsel. The court denied the motion without prejudice, allowing Dr. Saladin to renew it if and when the court sets a schedule for class certification briefing.",
+    "plain_language_summary": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. involving books, educational, or publishing materials. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-06-26): Meta Platforms filed a declaration by attorney Phillip E. Morton in support of its motion to transfer the case from the Southern District of New York to the Northern District of California, attaching LinkedIn profiles of fifteen individuals—including Meta employees and executives—apparently to show that key witnesses or personnel are located in California.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73294740/elsevier-inc-v-meta-platforms-inc/",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-06",
+    "docket_last_checked": "2026-07-01",
     "case_intelligence": {
       "case_theory": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. involving books, educational, or publishing materials.",
       "current_posture": "The case is in motion practice.",
       "why_it_matters": "The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-06-10): The court construed a letter filed by Dr. Kenneth Saladin as a motion to intervene—either as of right or permissively—in which he sought to represent a proposed subclass with separate counsel. The court denied the motion without prejudice, allowing Dr. Saladin to renew it if and when the court sets a schedule for class certification briefing.",
-      "latest_meaningful_event": "The court construed a letter filed by Dr. Kenneth Saladin as a motion to intervene—either as of right or permissively—in which he sought to represent a proposed subclass with separate counsel. The court denied the motion without prejudice, allowing Dr. Saladin to renew it if and when the court sets a schedule for class certification briefing.",
-      "latest_meaningful_event_date": "2026-06-10",
+      "latest_change": "Latest meaningful event (2026-06-26): Meta Platforms filed a declaration by attorney Phillip E. Morton in support of its motion to transfer the case from the Southern District of New York to the Northern District of California, attaching LinkedIn profiles of fifteen individuals—including Meta employees and executives—apparently to show that key witnesses or personnel are located in California.",
+      "latest_meaningful_event": "Meta Platforms filed a declaration by attorney Phillip E. Morton in support of its motion to transfer the case from the Southern District of New York to the Northern District of California, attaching LinkedIn profiles of fifteen individuals—including Meta employees and executives—apparently to show that key witnesses or personnel are located in California.",
+      "latest_meaningful_event_date": "2026-06-26",
       "claim_category": "copyright_news_or_publishing",
       "claims_asserted": [
         "copyright infringement"
@@ -2276,11 +2433,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "56",
-          "date": "2026-06-10"
-        },
-        {
-          "type": "existing_public_summary"
+          "entry_number": "62",
+          "date": "2026-06-26"
         }
       ]
     }
@@ -2440,9 +2594,6 @@
           "type": "docket_entry",
           "entry_number": "104",
           "date": "2026-05-18"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -2523,9 +2674,6 @@
           "type": "docket_entry",
           "entry_number": "1",
           "date": "2026-05-22"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -2746,9 +2894,6 @@
           "type": "docket_entry",
           "entry_number": "20",
           "date": "2026-05-19"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -2813,9 +2958,6 @@
         {
           "type": "case_metadata",
           "date_filed": "2026-04-24"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -3197,9 +3339,6 @@
           "type": "docket_entry",
           "entry_number": "32",
           "date": "2026-05-15"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -3314,9 +3453,6 @@
           "type": "docket_entry",
           "entry_number": "1",
           "date": "2026-05-27"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -3431,9 +3567,6 @@
           "type": "docket_entry",
           "entry_number": "1",
           "date": "2026-03-10"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -3584,9 +3717,6 @@
         {
           "type": "case_metadata",
           "date_filed": "2026-06-05"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -3729,9 +3859,6 @@
           "type": "docket_entry",
           "entry_number": "460354024",
           "date": "2026-04-09"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -4165,9 +4292,6 @@
           "type": "docket_entry",
           "entry_number": "168",
           "date": "2026-06-10"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -4588,9 +4712,6 @@
           "type": "docket_entry",
           "entry_number": "57",
           "date": "2026-05-07"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -4653,9 +4774,6 @@
         {
           "type": "case_metadata",
           "date_filed": "2026-05-28"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -4720,9 +4838,6 @@
         {
           "type": "case_metadata",
           "date_filed": "2026-04-22"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -4748,14 +4863,14 @@
     "judges": [],
     "key_rulings": [],
     "docket_entries": [],
-    "plain_language_summary": "X.AI LLC challenges AI training-data disclosure obligations in litigation against Bonta that includes trade secret issues involving confidential or trade-secret information. The case is newly filed. The case matters because it may affect how AI transparency obligations interact with trade-secret or confidential-information claims in a case asserting trade secret claims. Latest meaningful event (2026-03-17): X.AI LLC filed the case against Bonta.",
+    "plain_language_summary": "X.AI LLC filed trade secret claims against Bonta. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72518947/xai-llc-v-bonta/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-06",
     "docket_last_checked": "2026-06-06",
     "case_intelligence": {
-      "case_theory": "X.AI LLC challenges AI training-data disclosure obligations in litigation against Bonta that includes trade secret issues involving confidential or trade-secret information.",
+      "case_theory": "X.AI LLC asserts trade secret claims against Bonta involving confidential or trade-secret information.",
       "current_posture": "The case is newly filed.",
       "why_it_matters": "The case matters because it may affect how AI transparency obligations interact with trade-secret or confidential-information claims in a case asserting trade secret claims.",
       "latest_change": "Latest meaningful event (2026-03-17): X.AI LLC filed the case against Bonta.",
@@ -4765,14 +4880,15 @@
       "claims_asserted": [
         "trade secret"
       ],
-      "ai_conduct_alleged": "challenge to AI training-data disclosure obligations",
+      "ai_conduct_alleged": null,
       "works_or_data_at_issue": "confidential or trade-secret information",
       "technology_or_model_at_issue": null,
       "procedural_stage": "newly_filed",
       "pending_motion_or_next_event": null,
       "related_cases": [],
-      "confidence_level": "high",
+      "confidence_level": "low",
       "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
         "Specific AI system or model is not identified in the parsed materials."
       ],
       "source_references": [
@@ -4785,9 +4901,6 @@
         {
           "type": "case_metadata",
           "date_filed": "2026-03-17"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -5382,9 +5495,6 @@
           "type": "docket_entry",
           "entry_number": "16",
           "date": "2026-03-26"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
     }
@@ -5638,11 +5748,139 @@
         {
           "type": "case_metadata",
           "date_filed": "2026-06-24"
-        },
-        {
-          "type": "existing_public_summary"
         }
       ]
-    }
+    },
+    "docket_last_checked": "2026-06-06"
+  },
+  {
+    "id": "s-a-jamendo-v-suno-inc",
+    "name": "S.A. Jamendo v. Suno Inc.",
+    "court": "District Court, D. Massachusetts",
+    "court_full": "District Court, D. Massachusetts",
+    "docket_number": "1:26-cv-12966",
+    "courtlistener_docket_id": "73547746",
+    "date_filed": "2026-06-29",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "S.A. Jamendo",
+      "defendant": "Suno Inc."
+    },
+    "judges": [
+      "Angel Kelley"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73547746/sa-jamendo-v-suno-inc/",
+    "last_updated": "2026-07-01",
+    "discovered_date": "2026-07-01",
+    "case_intelligence": {
+      "case_theory": "S.A. Jamendo asserts copyright infringement claims against Suno Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-06-29): S.A. Jamendo filed the case against Suno Inc..",
+      "latest_meaningful_event": "S.A. Jamendo filed the case against Suno Inc..",
+      "latest_meaningful_event_date": "2026-06-29",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-12966",
+          "court": "District Court, D. Massachusetts",
+          "courtlistener_url": "https://www.courtlistener.com/docket/73547746/sa-jamendo-v-suno-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-06-29"
+        }
+      ]
+    },
+    "plain_language_summary": "S.A. Jamendo filed copyright infringement claims against Suno Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "dow-jones-company-inc-v-abbeel",
+    "name": "Dow Jones & Company, Inc. v. Abbeel",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-mc-80191",
+    "courtlistener_docket_id": "73540242",
+    "date_filed": "2026-06-26",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Dow Jones & Company, Inc.",
+      "defendant": "Abbeel"
+    },
+    "judges": [
+      "Kandis A. Westmore"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73540242/dow-jones-company-inc-v-abbeel/",
+    "last_updated": "2026-07-01",
+    "discovered_date": "2026-07-01",
+    "case_intelligence": {
+      "case_theory": "Dow Jones & Company, Inc. asserts copyright infringement claims against Abbeel, but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-06-26): Dow Jones & Company, Inc. filed the case against Abbeel.",
+      "latest_meaningful_event": "Dow Jones & Company, Inc. filed the case against Abbeel.",
+      "latest_meaningful_event_date": "2026-06-26",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-mc-80191",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/73540242/dow-jones-company-inc-v-abbeel/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-06-26"
+        }
+      ]
+    },
+    "plain_language_summary": "Dow Jones & Company, Inc. filed copyright infringement claims against Abbeel. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]

@@ -1,5 +1,221 @@
 [
   {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-25",
+    "summary": "The court terminated a motion for leave to appear pro hac vice (a request by an out-of-state attorney to participate in this case), noting that the motion was superseded by Docket No. 21.",
+    "significance": "minor_update",
+    "entry_number": "469174214",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-24",
+    "summary": "Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16.",
+    "significance": "minor_update",
+    "entry_number": "468551764",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-26",
+    "summary": "The court granted a motion allowing attorney Anna Balishina Naydonov to appear in this case on a pro hac vice basis, meaning she is admitted to represent a party in this district even though she is not a member of the local bar. An earlier, duplicative filing of the same motion was terminated and replaced by the refiled version.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-26",
+    "summary": "Anthropic PBC filed a motion seeking the court's permission to allow an out-of-state attorney to appear in this case, paying the required $328 fee and attaching certificates of good standing from the District of Columbia and Virginia bars.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-24",
+    "summary": "Anthropic PBC moved for leave to admit an attorney pro hac vice, allowing counsel not licensed in the Northern District of California to appear in this case, and submitted certificates of good standing from the District of Columbia and Virginia bars along with the required filing fee.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-23",
+    "summary": "The court held a brief initial case management conference via Zoom on June 23, 2026, and granted the parties' joint request to stay all deadlines and proceedings, extending the stay for an additional 14 days. The court also directed both parties to file a Motion to Relate Cases by June 29, 2026.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-24",
+    "summary": "The court clerk issued a notice flagging a mismatch between the attorney information listed on a pending application (Docket No. 18) and the information on the court's docket, directing the filing party to either update the docket or submit a corrected application with matching counsel names and addresses.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-23",
+    "summary": "Anthropic PBC filed a motion for pro hac vice admission, seeking to allow an out-of-state attorney to appear in this case, and paid the required $328 filing fee. The motion was refiled as Docket No. 21 and includes certificates of good standing from the District of Columbia and Virginia bars.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-23",
+    "summary": "Attorney Amir Jabbari filed a notice of appearance in federal court in the Northern District of California, formally entering the case as counsel of record for defendant Anthropic PBC.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
+    "entry_date": "2026-06-22",
+    "summary": "Plaintiff Chicken Soup for the Soul, LLC filed a stipulation—signed by both parties—asking the court to stay all deadlines and proceedings in the case. The proposed stay has not yet been approved by the court.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "businessing-llc-v-runway-ai-inc",
+    "case_name": "Businessing LLC v. Runway AI, Inc.",
+    "entry_date": "2026-06-09",
+    "summary": "The court granted a motion to consolidate three related cases—1:26-cv-01362-LAK, 1:26-cv-01655-LAK, and 1:26-cv-04360-LAK—into a single proceeding, as ordered by Judge Lewis A. Kaplan on June 9, 2026.",
+    "significance": "significant_ruling",
+    "entry_number": "23",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-04",
+    "summary": "The court rescheduled the Initial Pretrial Conference from July 10, 2026 to August 3, 2026 at 10:00 a. m. , with dial-in access provided for participants.",
+    "significance": "minor_update",
+    "entry_number": "468096301",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-16",
+    "summary": "The court scheduled a telephone conference for September 14, 2026, at 10:00 AM before Judge P. Kevin Castel.",
+    "significance": "minor_update",
+    "entry_number": "468096304",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-16",
+    "summary": "The court granted Poseidon Wave Media's letter motion for a time extension, approving a revised schedule that sets a June 22, 2026 deadline for a second amended complaint and moving the previously scheduled August 3 conference to September 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-15",
+    "summary": "Suno, Inc. filed a letter motion asking Judge P. Kevin Castel to grant an extension of time, submitted by attorney Brittany N. Lovejoy on June 15, 2026. The specific deadline or filing at issue is not identified in this entry.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "The court granted a motion allowing attorney Brittany N. Lovejoy to appear pro hac vice, meaning she is admitted to represent a party in this case despite not being a member of the Southern District of New York bar.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "poseidon-wave-media-llc-v-suno-inc",
+    "case_name": "Poseidon Wave Media LLC v. Suno, Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "The court granted a motion allowing attorney Andrew M. Gass to appear pro hac vice, permitting him to represent a party in this case despite not being a member of the Southern District of New York bar. Judge P. Kevin Castel issued the order on June 5, 2026.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Meta Platforms filed a declaration by attorney Phillip E. Morton in support of its motion to transfer the case from the Southern District of New York to the Northern District of California, attaching LinkedIn profiles of fifteen individuals—including Meta employees and executives—apparently to show that key witnesses or personnel are located in California.",
+    "significance": "minor_update",
+    "entry_number": "62",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Meta Platforms filed a declaration from Caroline Jablonicky in support of its motion to transfer the case from the Southern District of New York to the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "61",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Meta Platforms filed a motion and supporting memorandum of law asking the court to transfer this case from the Southern District of New York to the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "60",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Defendant Mark Zuckerberg filed a motion asking the court to transfer this case to a different federal court. No ruling has been issued on the motion.",
+    "significance": "minor_update",
+    "entry_number": "59",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Meta Platforms filed a notice of motion to transfer this case from the Southern District of New York to the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "58",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "The court endorsed a briefing schedule on a forthcoming motion arising from a letter filed by Meta Platforms, setting a filing deadline of June 26, 2026, a response deadline of July 13, 2026, and a reply deadline of July 20, 2026.",
+    "significance": "minor_update",
+    "entry_number": "57",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-05",
+    "summary": "Meta Platforms filed a pre-motion letter with Judge P. Kevin Castel on June 5, 2026, signaling its intent to move to transfer the case to a different federal court.",
+    "significance": "minor_update",
+    "entry_number": "51",
+    "logged_at": "2026-07-01T15:54:46Z"
+  },
+  {
     "case_id": "beaulier-v-microsoft-corporation",
     "case_name": "Beaulier v. Microsoft Corporation",
     "entry_date": "2026-06-09",
