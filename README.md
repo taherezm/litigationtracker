@@ -8,7 +8,7 @@ Automated litigation data pipeline for Undergraduate Technology Law at IU. The s
 
 Live tracker: [undergradtechlaw.org/tools/litigation-tracker](https://www.undergradtechlaw.org/tools/litigation-tracker/).
 
-## At a Glance
+## Glance
 
 - Source repository: `taherezm/litigationtracker`
 - Public site repository: `taherezm/undergradtechlaw`
