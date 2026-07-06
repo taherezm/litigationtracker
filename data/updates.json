@@ -1,5 +1,59 @@
 [
   {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-06-22",
+    "summary": "The court approved a stipulated request from both parties to extend the briefing schedule following OpenAI's response to the class action complaint, and set a Case Management Statement deadline of October 29, 2026, with an Initial Case Management Conference scheduled for November 5, 2026, via videoconference.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-07-06T16:31:07Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-06-18",
+    "summary": "Both parties filed a stipulation asking the court to extend the briefing schedule following OpenAI's response to the plaintiffs' class action complaint. The proposed order reflects an agreement between the OpenAI defendants and the plaintiffs on revised deadlines, pending court approval.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-07-06T16:31:07Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-06-18",
+    "summary": "Attorney Joseph Charles Gratz filed a notice of appearance on behalf of seven OpenAI-affiliated entities, formally entering the case as counsel for the defense. This is an administrative filing indicating representation, not a substantive ruling or motion.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-07-06T16:31:07Z"
+  },
+  {
+    "case_id": "seiu-pension-plan-master-trust-v-adobe-inc",
+    "case_name": "SEIU Pension Plan Master Trust v. Adobe Inc.",
+    "entry_date": "2026-06-12",
+    "summary": "The court reset the Initial Case Management Conference to July 14, 2026, to be held via Zoom, with a Case Management Statement due by July 7, 2026.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-07-06T16:31:07Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-06-23",
+    "summary": "The court notified plaintiff's attorney Yoonhee Gloria Park that her request for issuance of an amended summons (Document No. 40) was deficient because the attached PDF contained a caption error that did not list all parties, and directed her to refile the document with a corrected summons form.",
+    "significance": "minor_update",
+    "entry_number": "468727610",
+    "logged_at": "2026-07-06T16:31:07Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-06-19",
+    "summary": "Plaintiffs Encyclopaedia Britannica and Merriam-Webster filed a request for an amended summons directed at multiple OpenAI-related entities, but the submission was flagged as deficient due to a PDF error and rejected by the court's filing system.",
+    "significance": "minor_update",
+    "entry_number": "40",
+    "logged_at": "2026-07-06T16:31:07Z"
+  },
+  {
     "case_id": "chicken-soup-for-the-soul-llc-v-anthropic-pbc",
     "case_name": "Chicken Soup for the Soul, LLC v. Anthropic PBC",
     "entry_date": "2026-06-25",
