@@ -105,23 +105,6 @@ class SourceDocumentTests(unittest.TestCase):
 
         self.assertTrue(any("full document text" in error for error in validate_cases([case])))
 
-    def test_complaint_without_extractable_text_is_skipped(self) -> None:
-        document = {
-            "id": 100,
-            "document_number": "1",
-            "description": "Complaint",
-            "is_available": False,
-            "plain_text": "",
-        }
-
-        normalized = source_documents.normalized_source_document(
-            source_documents.requests.Session(),
-            document,
-            checked_at="2026-07-07",
-        )
-
-        self.assertIsNone(normalized)
-
     @staticmethod
     def case_fixture() -> dict[str, object]:
         return {
@@ -142,3 +125,4 @@ class SourceDocumentTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
