@@ -342,6 +342,8 @@ def document_text(session: requests.Session, document: dict[str, Any]) -> str:
 def normalized_source_document(session: requests.Session, document: dict[str, Any], checked_at: str) -> dict[str, Any] | None:
     text = document_text(session, document)
     excerpt = allegation_excerpt(text)
+    if not excerpt:
+        return None
     description = clean_text(document.get("description")) or "Complaint"
     score = document_score(document, text)
     if score < 60:
