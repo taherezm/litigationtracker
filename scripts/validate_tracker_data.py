@@ -30,6 +30,7 @@ EMPTY_ENTRY_SUMMARY_MARKERS = (
     "courtlistener recorded docket activity",
 )
 ALLOWED_CASE_STATUSES = {"active", "stayed", "resolved"}
+MAX_SOURCE_DOCUMENT_EXCERPT_CHARS = 1200
 
 
 def clean_text(value: Any) -> str:
@@ -79,6 +80,34 @@ def load_json(path: Path) -> Any:
         return json.load(handle)
 
 
+def validate_source_documents(case: dict[str, Any], label: str) -> list[str]:
+    errors: list[str] = []
+    documents = case.get("source_documents")
+    if documents in (None, ""):
+        return errors
+    if not isinstance(documents, list):
+        return [f"{label}: source_documents must be a list when present."]
+    for index, document in enumerate(documents):
+        if not isinstance(document, dict):
+            errors.append(f"{label} source_documents[{index}] must be an object.")
+            continue
+        if clean_text(document.get("type")) != "complaint":
+            errors.append(f"{label} source_documents[{index}]: unsupported type {document.get('type')!r}.")
+        if clean_text(document.get("source")) != "courtlistener_recap":
+            errors.append(f"{label} source_documents[{index}]: unsupported source {document.get('source')!r}.")
+        excerpt = clean_text(document.get("text_excerpt"))
+        if not excerpt:
+            errors.append(f"{label} source_documents[{index}]: missing text_excerpt.")
+        if len(excerpt) > MAX_SOURCE_DOCUMENT_EXCERPT_CHARS:
+            errors.append(f"{label} source_documents[{index}]: text_excerpt is too long for public JSON.")
+        if document.get("plain_text") is not None or document.get("pdf_bytes") is not None:
+            errors.append(f"{label} source_documents[{index}]: full document text or binary data must not be published.")
+        facts = document.get("facts")
+        if facts is not None and not isinstance(facts, dict):
+            errors.append(f"{label} source_documents[{index}]: facts must be an object when present.")
+    return errors
+
+
 def validate_cases(cases: Any) -> list[str]:
     errors: list[str] = []
     if not isinstance(cases, list):
@@ -117,6 +146,7 @@ def validate_cases(cases: Any) -> list[str]:
         seen_dockets.add(docket_key)
 
         errors.extend(validate_case_summary(case))
+        errors.extend(validate_source_documents(case, label))
         summary_text = clean_text(case.get("plain_language_summary")).lower()
         fingerprint = summary_boilerplate_fingerprint(case)
         if fingerprint and "available parsed materials do not yet identify" not in summary_text:
@@ -204,6 +234,12 @@ def validate_pipeline_state(last_run: Any) -> list[str]:
                 f"Summary cap reached; {deferred} docket entries were deferred after the "
                 f"{cap}-summary run budget and will be retried."
             )
+        if os.environ.get("GITHUB_ACTIONS"):
+            print(f"::warning::{message}", file=sys.stderr)
+        else:
+            print(f"Warning: {message}", file=sys.stderr)
+    if last_run.get("source_documents_rate_limited"):
+        message = "CourtListener rate-limited source document enrichment; remaining cases will be retried."
         if os.environ.get("GITHUB_ACTIONS"):
             print(f"::warning::{message}", file=sys.stderr)
         else:

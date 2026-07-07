@@ -476,6 +476,7 @@ def source_text_for_case(case: dict[str, Any], case_updates: list[dict[str, Any]
     parts: list[str] = []
     for key in ("name", "court", "court_full", "docket_number", "claims", "legal_theories", "status", "procedural_posture"):
         parts.append(clean_text(case.get(key)))
+    parts.append(source_document_text_for_case(case))
     existing_summary = legacy_public_summary_source_text(case)
     if existing_summary:
         parts.append(existing_summary)
@@ -493,6 +494,43 @@ def source_text_for_case(case: dict[str, Any], case_updates: list[dict[str, Any]
     return " ".join(part for part in parts if part)
 
 
+def source_documents_for_case(case: dict[str, Any]) -> list[dict[str, Any]]:
+    documents = case.get("source_documents")
+    if not isinstance(documents, list):
+        return []
+    return [document for document in documents if isinstance(document, dict)]
+
+
+def source_document_text_for_case(case: dict[str, Any]) -> str:
+    parts: list[str] = []
+    for document in source_documents_for_case(case):
+        for key in ("description", "text_excerpt"):
+            parts.append(clean_text(document.get(key)))
+        facts = document.get("facts")
+        if isinstance(facts, dict):
+            for key in ("ai_conduct_alleged", "works_or_data_at_issue", "technology_or_model_at_issue"):
+                parts.append(clean_text(facts.get(key)))
+    return " ".join(part for part in parts if part)
+
+
+def source_document_facts(case: dict[str, Any]) -> dict[str, str | None]:
+    facts: dict[str, str | None] = {
+        "ai_conduct_alleged": None,
+        "works_or_data_at_issue": None,
+        "technology_or_model_at_issue": None,
+    }
+    for document in source_documents_for_case(case):
+        document_facts = document.get("facts")
+        if not isinstance(document_facts, dict):
+            continue
+        for key in list(facts):
+            if not facts[key]:
+                value = clean_text(document_facts.get(key))
+                if value:
+                    facts[key] = value
+    return facts
+
+
 def substantive_source_text_for_case(
     case: dict[str, Any],
     updates: list[dict[str, Any]] | None = None,
@@ -501,6 +539,7 @@ def substantive_source_text_for_case(
     parts: list[str] = []
     for key in ("name", "court", "court_full", "docket_number", "claims", "legal_theories"):
         parts.append(clean_text(case.get(key)))
+    parts.append(source_document_text_for_case(case))
     existing_summary = legacy_public_summary_source_text(case)
     if existing_summary:
         parts.append(existing_summary)
@@ -980,7 +1019,12 @@ def confidence_level(
     works_or_data: str | None,
     technology_or_model: str | None,
     latest_event: dict[str, Any] | None,
+    has_source_documents: bool = False,
 ) -> str:
+    if has_source_documents and claims and ai_conduct and (works_or_data or technology_or_model):
+        return "high"
+    if has_source_documents and claims and (ai_conduct or works_or_data or technology_or_model):
+        return "medium"
     if claims and ai_conduct and (works_or_data or technology_or_model) and latest_event:
         return "high"
     if claims and latest_event and (ai_conduct or technology_or_model):
@@ -994,16 +1038,26 @@ def missing_information(
     works_or_data: str | None,
     technology_or_model: str | None,
     latest_event: dict[str, Any] | None,
+    has_source_documents: bool = False,
 ) -> list[str]:
     missing: list[str] = []
     if not claims:
         missing.append("Specific claims are not identified in the parsed materials.")
     if not ai_conduct:
-        missing.append("Specific AI-related conduct is not identified in the parsed docket metadata.")
+        if has_source_documents:
+            missing.append("Specific AI-related conduct is not identified in the parsed source documents.")
+        else:
+            missing.append("Specific AI-related conduct is not identified in the parsed docket metadata.")
     if not works_or_data:
-        missing.append("Specific works, data, or trade secrets at issue are not identified in the parsed materials.")
+        if has_source_documents:
+            missing.append("Specific works, data, or trade secrets at issue are not identified in the parsed source documents.")
+        else:
+            missing.append("Specific works, data, or trade secrets at issue are not identified in the parsed materials.")
     if not technology_or_model:
-        missing.append("Specific AI system or model is not identified in the parsed materials.")
+        if has_source_documents:
+            missing.append("Specific AI system or model is not identified in the parsed source documents.")
+        else:
+            missing.append("Specific AI system or model is not identified in the parsed materials.")
     if not latest_event:
         missing.append("No docket entries, key rulings, or update records are available yet.")
     return missing
@@ -1020,6 +1074,17 @@ def source_references(case: dict[str, Any], latest_event: dict[str, Any] | None,
     ]
     if latest_event and isinstance(latest_event.get("reference"), dict):
         refs.append(latest_event["reference"])
+    for document in source_documents_for_case(case):
+        refs.append(
+            {
+                "type": "source_document",
+                "document_type": clean_text(document.get("type")) or None,
+                "recap_document_id": clean_text(document.get("recap_document_id")) or None,
+                "docket_entry_number": clean_text(document.get("docket_entry_number")) or None,
+                "description": clean_text(document.get("description")) or None,
+                "courtlistener_url": clean_text(document.get("courtlistener_url")) or None,
+            }
+        )
     if existing_summary_used:
         refs.append({"type": "existing_public_summary"})
     return refs
@@ -1033,9 +1098,10 @@ def build_case_intelligence(case: dict[str, Any], updates: list[dict[str, Any]] 
     latest_event = select_latest_meaningful_event(case, updates)
     substantive_text = substantive_source_text_for_case(case, updates, latest_event)
     category = classify_claim_category(case, substantive_text)
-    ai_conduct = extract_ai_conduct(substantive_text)
-    works_or_data = extract_works_or_data(substantive_text)
-    technology_or_model = extract_technology_or_model(substantive_text)
+    document_facts = source_document_facts(case)
+    ai_conduct = document_facts.get("ai_conduct_alleged") or extract_ai_conduct(substantive_text)
+    works_or_data = document_facts.get("works_or_data_at_issue") or extract_works_or_data(substantive_text)
+    technology_or_model = document_facts.get("technology_or_model_at_issue") or extract_technology_or_model(substantive_text)
     if category != "trade_secret_or_transparency" and works_or_data == "confidential or trade-secret information":
         works_or_data = None
     related = extract_related_cases(case, substantive_text)
@@ -1044,8 +1110,9 @@ def build_case_intelligence(case: dict[str, Any], updates: list[dict[str, Any]] 
     posture = build_current_posture(stage, latest_event, case)
     latest_change = build_latest_change(latest_event)
     why = build_why_it_matters(category, stage, claims, related)
-    confidence = confidence_level(claims, ai_conduct, works_or_data, technology_or_model, latest_event)
-    missing = missing_information(claims, ai_conduct, works_or_data, technology_or_model, latest_event)
+    has_source_documents = bool(source_documents_for_case(case))
+    confidence = confidence_level(claims, ai_conduct, works_or_data, technology_or_model, latest_event, has_source_documents)
+    missing = missing_information(claims, ai_conduct, works_or_data, technology_or_model, latest_event, has_source_documents)
 
     intelligence = {
         "case_theory": theory,

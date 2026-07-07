@@ -2,3 +2,4 @@ anthropic==0.106.0
 requests==2.34.2
 python-dotenv==1.2.2
 feedparser==6.0.12
+pypdf>=5.0,<7.0

@@ -13,7 +13,7 @@ Live tracker: [undergradtechlaw.org/tools/litigation-tracker](https://www.underg
 - Source repository: `taherezm/litigationtracker`
 - Public site repository: `taherezm/undergradtechlaw`
 - Public data path: `tools/litigation-tracker/cases.json` and `tools/litigation-tracker/updates.json`
-- Schedule: GitHub Actions cron at `13:17 UTC` on the configured five-day cadence (`17 13 */5 * *`)
+- Schedule: GitHub Actions cron at `13:17 UTC` on the configured five-day cadence (`17 13 */5 * *`), plus a scoped push trigger for pipeline-code changes
 - Pipeline: update dockets, summarize entries, discover cases, validate JSON, publish to the site
 - Cost controls: discovery is capped at 5 candidates by default, and docket summaries are capped at 100 new entries per run
 - Publication rule: unsummarized or placeholder docket activity is not allowed into public JSON
@@ -36,14 +36,16 @@ The static site repository (`taherezm/undergradtechlaw`) owns the browser UI. Th
 
 ## Pipeline Overview
 
-The tracker runs as a three-stage ETL pipeline, in this execution order:
+The tracker runs as a four-stage ETL pipeline, in this execution order:
 
 1. `scripts/update_dockets.py`
    Polls CourtListener docket entries for every non-resolved tracked case from each case's own `docket_last_checked` checkpoint, appends new entries, and prepends recent activity records into `data/updates.json`. Run via `scripts/run_docket_update_passes.py`, which alternates docket and summarization passes.
 2. `scripts/summarize.py`
    Summarizes unsummarized docket entries, classifies their litigation significance, updates procedural posture, records key rulings, marks resolved cases when appropriate, and regenerates structured case-level intelligence and public case summaries from the latest docket state.
 3. `scripts/discover_cases.py`
-   Searches for new candidate cases, classifies AI/IP relevance, normalizes accepted candidates into case records, initializes `case_intelligence`, and writes them into `data/cases.json`. Runs last so docket freshness gets priority on the shared CourtListener request quota; same-day reruns skip discovery unless `FORCE_DISCOVERY` is set.
+   Searches for new candidate cases, classifies AI/IP relevance, normalizes accepted candidates into case records, initializes `case_intelligence`, attempts complaint-source enrichment for accepted cases, and writes them into `data/cases.json`. Runs last so docket freshness gets priority on the shared CourtListener request quota; same-day reruns skip discovery unless `FORCE_DISCOVERY` is set.
+4. `scripts/enrich_case_sources.py`
+   Fetches available CourtListener RECAP complaint documents for existing cases, extracts bounded allegation excerpts from CourtListener `plain_text` or available PDFs, stores source-document facts in `data/cases.json`, and refreshes case-level intelligence before validation.
 
 Each stage reads and writes JSON directly. Writes are atomic: data is serialized to a temporary sibling file and then moved into place with `Path.replace()`.
 
@@ -118,6 +120,7 @@ Accepted candidates are normalized into public case records. Each record gets:
 - filing date, parties, judges where available, claims, and status;
 - default procedural posture (`Filed`);
 - empty `key_rulings` and `docket_entries` arrays;
+- available complaint source-document excerpts and facts when RECAP documents are already public;
 - structured `case_intelligence`;
 - a public plain-language case summary.
 
@@ -237,6 +240,37 @@ When an entry is classified as `significant_ruling`, a deduplicated key-ruling r
 
 After docket-entry summarization, `summarize.py` refreshes every case's `case_intelligence` and regenerates `plain_language_summary`. This keeps case cards aligned with the most meaningful docket event rather than leaving them at the initial discovery summary.
 
+## Complaint Source Enrichment
+
+`scripts/enrich_case_sources.py` improves case-level source depth without publishing full complaints. For each eligible case, it queries CourtListener's RECAP document API for documents tied to the docket, identifies complaint-like records, and stores a bounded `source_documents` record:
+
+- `type`, `source`, RECAP document ID, docket-entry number, description, public CourtListener/storage URL, OCR status, and page count.
+- `text_excerpt`: a short allegation-focused excerpt, capped for public JSON.
+- `facts`: deterministic extraction of alleged AI conduct, works/data at issue, and technology/model names.
+
+If CourtListener provides `plain_text`, the pipeline uses it directly. If a public `filepath_local` PDF is available but `plain_text` is absent, the pipeline downloads the PDF from CourtListener storage and extracts text with `pypdf`, capped by byte, page, and character limits. Full complaint text and PDF bytes are never published.
+
+Scheduled runs process a bounded number of cases per run to respect CourtListener API limits:
+
+```bash
+python scripts/enrich_case_sources.py
+```
+
+Useful controls:
+
+```bash
+export MAX_SOURCE_DOCUMENT_CASES_PER_RUN=8
+export MAX_SOURCE_DOCUMENTS_PER_CASE=2
+export SOURCE_DOCUMENT_REFRESH_DAYS=45
+```
+
+Force a one-time local backfill for every case when a `COURTLISTENER_API_KEY` is available:
+
+```bash
+python scripts/enrich_case_sources.py --force --max-cases 100
+python scripts/validate_tracker_data.py
+```
+
 ## Case-Level Intelligence
 
 `scripts/case_intelligence.py` owns deterministic case-card intelligence. It builds:
@@ -244,14 +278,16 @@ After docket-entry summarization, `summarize.py` refreshes every case's `case_in
 - `claim_category`: a normalized category such as `copyright_training_data`, `copyright_news_or_publishing`, `patent_ai_software`, `trade_secret_or_transparency`, `privacy_or_consumer_protection`, or `unknown`.
 - `procedural_stage`: a machine-readable stage such as `newly_filed`, `motion_to_dismiss`, `discovery`, `stayed`, `appeal`, `significant_ruling`, `judgment`, or `resolved`.
 - `latest_meaningful_event`: the latest substantive event selected from key rulings, docket entries, and updates.
-- `case_theory`, `current_posture`, `why_it_matters`, and `latest_change`, which are composed into the public `plain_language_summary`.
+- `case_theory`, `current_posture`, `why_it_matters`, and `latest_change`, which are composed into the public `plain_language_summary`. Complaint source-document facts are preferred over docket metadata when available.
 - `missing_information` and `confidence_level`, so low-information cases publish transparent limitations rather than generic prose.
+- `source_references`, including source-document references when complaint excerpts are available.
 
 Meaningful-event selection prefers complaints, amended complaints, dispositive motions, substantive orders, stays, transfers, consolidation, severance, discovery orders, appeal activity, settlement notices, dismissals, and judgments. Routine items such as cover sheets, summonses, AO-121 notices, judge assignment, pro hac vice motions, appearances, filing-fee records, and hearing acknowledgments are ignored unless no substantive event is available.
 
 Regenerate all case-level intelligence and public case summaries from existing data with:
 
 ```bash
+python scripts/enrich_case_sources.py
 python scripts/regenerate_case_summaries.py
 python scripts/validate_tracker_data.py
 ```
@@ -345,6 +381,7 @@ This validates the generated JSON before it is published:
 - low-confidence intelligence must explain what information is missing.
 - stayed cases must mention the stay in `current_posture` or `plain_language_summary`.
 - summary fingerprints cannot collapse into effectively identical non-fallback prose across many cases.
+- source-document records cannot publish full complaint text or PDF bytes, and excerpts must stay bounded.
 
 ### `scripts/validate_site_renderer.py`
 
@@ -381,6 +418,7 @@ This prevents the pipeline from publishing data into a site template that no lon
 - `judges`: judge names where available.
 - `key_rulings`: significant rulings extracted from docket activity.
 - `docket_entries`: tracked docket entries.
+- `source_documents`: bounded public complaint-source excerpts and extracted facts from CourtListener RECAP documents.
 - `case_intelligence`: structured source for the public case-card summary.
 - `plain_language_summary`: public case summary.
 - `source`: currently `courtlistener`.
@@ -463,6 +501,7 @@ export LEGAL_AI_MODEL=...
 
 python scripts/run_docket_update_passes.py
 python scripts/discover_cases.py
+python scripts/enrich_case_sources.py
 python scripts/regenerate_case_summaries.py
 python scripts/validate_tracker_data.py
 ```
