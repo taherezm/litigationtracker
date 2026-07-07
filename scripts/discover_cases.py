@@ -25,24 +25,12 @@ try:
         normalize_claims,
         refresh_case_intelligence,
     )
-    from scripts.source_documents import (
-        DEFAULT_MAX_SOURCE_DOCUMENTS_PER_CASE,
-        RateLimitExceeded as SourceDocumentRateLimitExceeded,
-        enrich_case_source_documents,
-        env_int,
-    )
 except ModuleNotFoundError:  # pragma: no cover - supports direct script execution.
     from case_intelligence import (  # type: ignore
         TRANSPARENT_FALLBACK_SENTENCE,
         claim_text,
         normalize_claims,
         refresh_case_intelligence,
-    )
-    from source_documents import (  # type: ignore
-        DEFAULT_MAX_SOURCE_DOCUMENTS_PER_CASE,
-        RateLimitExceeded as SourceDocumentRateLimitExceeded,
-        enrich_case_source_documents,
-        env_int,
     )
 
 
@@ -203,10 +191,6 @@ def max_discovery_candidates() -> int:
         return max(0, int(value))
     except ValueError:
         return DEFAULT_MAX_DISCOVERY_CANDIDATES
-
-
-def max_source_documents_per_case() -> int:
-    return env_int("MAX_SOURCE_DOCUMENTS_PER_CASE", DEFAULT_MAX_SOURCE_DOCUMENTS_PER_CASE, minimum=1)
 
 
 def retry_after_seconds(response: requests.Response) -> float | None:
@@ -833,7 +817,6 @@ def main() -> None:
         candidates = candidates[:limit]
 
     discovered: list[dict[str, Any]] = []
-    source_documents_per_case = max_source_documents_per_case()
     for candidate in candidates:
         key = docket_key(candidate["docket_number"])
         classification = fallback_classification(candidate)
@@ -867,25 +850,7 @@ def main() -> None:
         docket = candidate.get("raw", {})
         if not isinstance(docket, dict):
             docket = {}
-        case = build_case(candidate, docket, classification, client, existing_ids)
-        try:
-            enrich_case_source_documents(
-                case,
-                session,
-                courtlistener_key,
-                max_documents=source_documents_per_case,
-            )
-            refresh_case_intelligence(case, [])
-        except SourceDocumentRateLimitExceeded as exc:
-            discovery_complete = False
-            courtlistener_rate_limited = True
-            print(
-                f"Warning: skipped source document enrichment after CourtListener rate limit "
-                f"for {candidate['docket_number']}: {exc}"
-            )
-        except requests.RequestException as exc:
-            print(f"Warning: skipped source document enrichment for {candidate['docket_number']}: {exc}")
-        discovered.append(case)
+        discovered.append(build_case(candidate, docket, classification, client, existing_ids))
 
     cases.extend(discovered)
     write_json(CASES_PATH, cases)

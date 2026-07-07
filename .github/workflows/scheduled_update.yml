@@ -1,14 +1,6 @@
 name: Litigation Tracker — Scheduled Update
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/scheduled_update.yml'
-      - 'requirements.txt'
-      - 'scripts/**'
-      - 'tests/**'
   schedule:
     - cron: '17 13 */5 * *'
   workflow_dispatch:
@@ -56,13 +48,6 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LEGAL_AI_MODEL: ${{ secrets.LEGAL_AI_MODEL }}
         run: python scripts/discover_cases.py
-
-      - name: Enrich complaint source documents
-        env:
-          COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
-          MAX_SOURCE_DOCUMENT_CASES_PER_RUN: 8
-          MAX_SOURCE_DOCUMENTS_PER_CASE: 2
-        run: python scripts/enrich_case_sources.py
 
       - name: Validate tracker data
         run: python scripts/validate_tracker_data.py
