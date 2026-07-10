@@ -1,5 +1,1805 @@
 [
   {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-06-16",
+    "summary": "Plaintiff Apress Media, LLC filed a civil cover sheet, initiating the lawsuit against WeLib in the U. S. District Court for the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-06-16",
+    "summary": "Fourteen major publishers, including Penguin Random House, HarperCollins, and Pearson Education, filed a complaint against WeLib and ten unnamed defendants, alleging claims related to works identified in an attached exhibit; the filing fee of $405 was paid at the time of submission.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-17",
+    "summary": "Court staff emailed Report 3 to the Copyright Office on June 17, 2026, as part of an ongoing administrative reporting process in this case.",
+    "significance": "minor_update",
+    "entry_number": "468432579",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-07-02",
+    "summary": "Judge Eumi K. Lee signed a judicial referral order on July 2, 2026, directing that case 25-cv-10897-PCP and case 26-cv-5931-EKL be reviewed to determine whether they are related and should be coordinated or reassigned.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-23",
+    "summary": "A large group of plaintiffs filed a consent or declination form indicating whether they agree to have a U. S. Magistrate Judge handle their case instead of a District Court Judge.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-18",
+    "summary": "The court's clerk reset the initial case management conference to September 16, 2026 at 10:00 AM (videoconference only) following a case reassignment to Magistrate Judge Cousins. Both parties must submit a joint case management statement by September 9, 2026.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-18",
+    "summary": "Attorney Andres Navarro filed a notice of appearance in the N. D. California district court, entering the case on behalf of approximately 100 individual and entity plaintiffs — including authors, publishers, and other content creators — in this action against Anthropic PBC.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-18",
+    "summary": "Attorney Benjamin F. Tookey filed a notice of appearance representing a large group of more than 90 plaintiffs—including individual authors, business entities, and estate representatives—in this case against Anthropic PBC.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-18",
+    "summary": "Attorney Stephen Michael Doniger filed a notice of appearance in the N. D. California district court, formally entering the case as counsel on behalf of a large group of over 90 named plaintiffs, including individual authors, estates, and corporate entities.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-18",
+    "summary": "The court reassigned this case from Judge Jon S. Tigar to Magistrate Judge Nathanael M. Cousins through a random, proportionate, and blind selection process under General Order No. 44. All previously scheduled hearing and trial dates are vacated and must be renoticed before Judge Cousins, though existing briefing schedules, discovery cutoffs, and ADR deadlines remain in effect.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-18",
+    "summary": "Judge Jon S. Tigar signed an order recusing himself from the case on June 18, 2026, meaning a different judge will be assigned to preside over the matter going forward.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-17",
+    "summary": "The court issued a summons to all defendants, formally notifying them of the lawsuit and triggering their obligation to respond to the complaint.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-17",
+    "summary": "The court issued an initial scheduling order setting a Case Management Statement deadline of September 8, 2026, and an Initial Case Management Conference for September 15, 2026, to be held by videoconference in Oakland. The order also notes ADR deadlines and that the assigned judge participates in a cameras-in-the-courtroom pilot program.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-17",
+    "summary": "The court assigned this case to Judge Jon S. Tigar and issued standard administrative instructions directing plaintiff's counsel to serve the complaint, summons, and the judge's standing orders on the opposing party. A scheduling order is expected to be filed within two business days.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-17",
+    "summary": "A large group of individual and entity plaintiffs filed a Certificate of Interested Entities with the court, disclosing parties with a financial interest in the outcome of this case in connection with the initial complaint.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-17",
+    "summary": "The court filed a report on the initiation or determination of an action involving copyright, and a completed AO 121 form listing all works at issue was sent to the U. S. Copyright Office as required by court rules.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-17",
+    "summary": "Plaintiff's counsel James Bartolomei filed a proposed summons in this case on June 17, 2026, a standard early-stage administrative step that initiates the formal process of notifying the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-06-17",
+    "summary": "Over 90 plaintiffs, including numerous authors, publishers, and their estates, filed a complaint against Anthropic PBC, its CEO Dario Amodei, and co-founder Benjamin Mann, alleging that the defendants infringed their copyrighted works, with an exhibit listing the specific works at issue.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-26",
+    "summary": "The court accepted this case as related to a multidistrict litigation proceeding (1:25-md-03143-SHS-OTW) and created a formal association between the cases, with a notice of assignment to follow.",
+    "significance": "minor_update",
+    "entry_number": "468915715",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-26",
+    "summary": "The court administratively linked this case to a consolidated multidistrict litigation proceeding, MDL No. 25-md-03143, in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "468920420",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "The court referred this case to Judge Sidney H. Stein as possibly related to multidistrict litigation docket 1:25md3143.",
+    "significance": "minor_update",
+    "entry_number": "468915714",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "The court's clerk issued an initial case assignment notice indicating that this newly filed action between Richner Communications, Inc. and Microsoft Corporation has been docketed in the Southern District of New York and is currently awaiting assignment to a presiding judge.",
+    "significance": "minor_update",
+    "entry_number": "468915712",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "The court designated this case for Electronic Case Filing (ECF), meaning all future documents must be submitted through the court's electronic filing system.",
+    "significance": "minor_update",
+    "entry_number": "468915713",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "The court clerk submitted the required AO 121 copyright case-opening form to the U. S. Copyright Office, notifying the Register of Copyrights that a copyright action involving Richner Communications, Inc. and Microsoft Corporation has been filed in the Southern District of New York, as required by federal statute.",
+    "significance": "minor_update",
+    "entry_number": "43",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Wick Communications filed a required corporate disclosure statement identifying four affiliated entities: Green Valley News & Sun LLC, River City Newspapers LLC, Washington Media LLC, and Madison Real Estate LLC.",
+    "significance": "minor_update",
+    "entry_number": "42",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "White Mountain Publishing LLC filed a required corporate disclosure statement under Federal Rule of Civil Procedure 7. 1, reporting that it has no parent corporation.",
+    "significance": "minor_update",
+    "entry_number": "41",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "WEHCO Newspapers, Inc. filed a required corporate disclosure statement identifying WEHCO Media, Inc. as its corporate parent and listing several affiliated entities, including the Arkansas Democrat-Gazette, Inc. and multiple regional newspaper companies.",
+    "significance": "minor_update",
+    "entry_number": "40",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "The Ogden Newspapers, Inc. filed a required corporate disclosure statement identifying approximately 30 affiliate companies connected to the organization, including numerous regional newspaper publishers operating across multiple states.",
+    "significance": "minor_update",
+    "entry_number": "39",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "The New Mexican Inc. filed a required corporate disclosure statement under Federal Rule of Civil Procedure 7. 1, reporting that it has no parent corporation.",
+    "significance": "minor_update",
+    "entry_number": "38",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Straus Newspapers, Inc. filed a required corporate disclosure statement identifying three affiliated entities: Straus Media of Pennsylvania, Straus Media of Northern Jersey, and The Dirt Foundation.",
+    "significance": "minor_update",
+    "entry_number": "37",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Straus Media-Manhattan, LLC filed a required corporate disclosure statement under Federal Rule of Civil Procedure 7. 1, reporting that it has no parent corporation.",
+    "significance": "minor_update",
+    "entry_number": "36",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Shaw Family Holdings, Inc. filed a mandatory corporate disclosure statement identifying three affiliated entities — B. F. Shaw Printing Company, Shaw Suburban Media Company, Inc. , and La Salle Publishing Company — as required by Federal Rule of Civil Procedure 7. 1.",
+    "significance": "minor_update",
+    "entry_number": "35",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Sentinel Media Co. , Inc. filed a corporate disclosure statement as required by Federal Rule of Civil Procedure 7. 1, identifying that it has no corporate parent.",
+    "significance": "minor_update",
+    "entry_number": "34",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Rye Media Partners LLC filed a Rule 7. 1 Corporate Disclosure Statement, reporting that it has no corporate parent company.",
+    "significance": "minor_update",
+    "entry_number": "33",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Rust Publishing NE, LC filed a required corporate disclosure statement identifying Rust Communications, Inc. as its corporate parent and McCook Gazette for Rust Publishing NE, LC as an affiliated entity.",
+    "significance": "minor_update",
+    "entry_number": "32",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Rust Publishing Moks, LC filed a required corporate disclosure statement identifying Rust Communications, Inc. as its corporate parent and Nevada Daily Mail and Fort Scott Tribune as affiliated entities.",
+    "significance": "minor_update",
+    "entry_number": "31",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Rust Publishing ID, LC filed a required corporate disclosure statement identifying Rust Communications, Inc. as its corporate parent and Mountain Home News as an affiliate.",
+    "significance": "minor_update",
+    "entry_number": "30",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Plaintiff Richner Communications, Inc. filed a required corporate disclosure statement identifying The Riverdale Press, LLC and The Jewish Star, LLC as its affiliated entities, as mandated by Federal Rule of Civil Procedure 7. 1.",
+    "significance": "minor_update",
+    "entry_number": "29",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Patchogue Advance, Inc. filed a Rule 7. 1 Corporate Disclosure Statement, identifying that it has no corporate parent.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "North Country This Week, Inc. filed a Rule 7. 1 Corporate Disclosure Statement, indicating it has no corporate parent company.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Newspapers of New Hampshire, Inc. filed a required corporate disclosure statement identifying Newspapers of New England, Inc. as its corporate parent and H. S. Gere & Sons, Inc. and Newspapers of Massachusetts, Inc. as affiliates.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Newspapers of New England, Inc. filed a required corporate disclosure statement identifying three affiliated entities: H. S. Gere & Sons, Inc. , Newspapers of Massachusetts, Inc. , and Newspapers of New Hampshire, Inc.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Newspapers of Massachusetts, Inc. filed a corporate disclosure statement identifying Newspapers of New England, Inc. as its corporate parent and H. S. Gere & Sons, Inc. and Newspapers of New Hampshire, Inc. as affiliates, as required by Federal Rule of Civil Procedure 7. 1.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Lakeway Publishers, Inc. filed a required corporate disclosure statement identifying Radio Acquisition Corp. and Lakeway Publishers of Missouri, Inc. as affiliated entities, as mandated by federal procedural rules.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Iowa Information Inc. filed a required corporate disclosure statement under Federal Rule of Civil Procedure 7. 1, indicating that it has no parent corporation.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "H. S. Gere & Sons, Inc. filed a required corporate disclosure statement identifying Newspapers of New England, Inc. as its corporate parent and Newspapers of Massachusetts, Inc. and Newspapers of New Hampshire, Inc. as affiliated entities.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "El Crepusculo, Inc. filed a required corporate disclosure statement under Federal Rule of Civil Procedure 7. 1, indicating that it has no parent corporation.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Eagle Urban Media LLC filed a required corporate disclosure statement indicating that it has no parent corporation.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "D-R Media and Investments, LLC filed a required corporate disclosure statement identifying seven affiliated news publications: Highlands News Sun, Lakeland Sun, Clermont Sun, Winter Haven Sun, Four Corners Sun, Triangle Sun, and Sumter Suntimes.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "D. A. Publishing, LC filed a required corporate disclosure statement identifying Rust Communications, Inc. as its corporate parent and Standard Democrat as an affiliate, as required by federal court rules for non-governmental parties.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Concord Publishing House, Inc. filed a required corporate disclosure statement identifying Rust Communications, Inc. as its corporate parent and listing ten affiliated entities, including several regional newspapers and publications.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Community Impact Newspaper Co. filed a required corporate disclosure statement identifying JG Media Inc. as its corporate parent, as mandated by Federal Rule of Civil Procedure 7. 1.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "CherryRoad Media Inc. filed a required corporate disclosure statement identifying CherryRoad Technologies Inc. as its corporate parent and listing CherryRoad Publishing Services Inc. , HopOne Internet Corp. , The CherryRoad Company, Superb Management Corp. , and Infosemantics Inc. as affiliated entities.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Casa Grande Valley Newspapers Inc. filed a Rule 7. 1 Corporate Disclosure Statement, indicating it has no parent corporation.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "Arkansas Democrat-Gazette, Inc. filed a required corporate disclosure statement identifying its parent companies (WEHCO Newspapers, Inc. and WEHCO Media Inc. ) and several affiliated entities, including various regional newspapers and WEHCO Digital Services, Inc.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "AmNews Corp. filed a Rule 7. 1 Corporate Disclosure Statement, indicating that it has no parent corporation.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "AIM Media Texas Operating, LLC filed a required corporate disclosure statement identifying AIM Media Management, LLC as its corporate parent and AIM Media Midwest Operating, LLC and AIM Media Indiana Operating, LLC as affiliates.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "AIM Media Midwest Operating, LLC filed a required corporate disclosure statement identifying AIM Media Management, LLC as its corporate parent and AIM Media Texas Operating, LLC and Aim Media Indiana Operating, LLC as affiliates.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "AIM Media Indiana Operating, LLC filed a required corporate disclosure statement identifying AIM Media Management, LLC as its corporate parent and AIM Media Midwest Operating, LLC and AIM Media Texas Operating, LLC as affiliated entities.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "Attorney Angela Cai filed a notice of appearance representing a large group of 36 news organizations, including Richner Communications, Inc. and numerous regional and local publishers, in this case against Microsoft Corporation.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "Attorney Ravi Ramanathan filed a notice of appearance representing 36 media company plaintiffs, including Richner Communications and a range of regional and local newspaper publishers, in this case against Microsoft Corporation.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "Attorney Matthew J. Platkin filed a notice of appearance on behalf of 36 plaintiff news organizations, formally entering the case as counsel of record for that group of parties.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "Attorney Matthew Platkin submitted the court's standard AO 121 copyright reporting form at case opening, along with five exhibits containing copyright registration records for Arkansas Democrat-Gazette, Inc. , Concord Publishing House, Inc. , H. S. Gere & Sons, Inc. , The New Mexican Inc. , and Newspapers of New Hampshire, Inc.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "A group of approximately 36 news publishers, including Richner Communications, filed a statement of relatedness asking the court to treat this case as related to a multidistrict litigation proceeding (25-md-3143).",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "Plaintiff Richner Communications, Inc. filed a civil cover sheet in the Southern District of New York, marking the administrative initiation of this case against Microsoft Corporation.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "richner-communications-inc-v-microsoft-corporation",
+    "case_name": "Richner Communications, Inc. v. Microsoft Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "A group of approximately 36 regional and local newspaper publishers filed a complaint in the Southern District of New York against Microsoft and more than a dozen OpenAI-related entities, attaching exhibits that include copyright registration records and examples of alleged content management information stripping. The filing fee of $405. 00 was paid at the time of submission.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "s-a-jamendo-v-suno-inc",
+    "case_name": "S.A. Jamendo v. Suno Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "The judge entered a standing order outlining the court's standard rules and procedures governing motion practice in this case.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "s-a-jamendo-v-suno-inc",
+    "case_name": "S.A. Jamendo v. Suno Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "The court issued summonses directed at Suno Inc. and Does 1–50, directing plaintiff's counsel to download, complete, and serve the summonses on each defendant in accordance with the Federal Rules of Civil Procedure and local rules.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "s-a-jamendo-v-suno-inc",
+    "case_name": "S.A. Jamendo v. Suno Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "The court assigned District Judge Angel Kelley to oversee the case, with Magistrate Judge Paul G. Levenson designated to handle any matters referred by the District Judge.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "s-a-jamendo-v-suno-inc",
+    "case_name": "S.A. Jamendo v. Suno Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "Plaintiff S. A. Jamendo filed a corporate disclosure statement identifying Winamp Group SA as its corporate parent, as required by federal court rules.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "s-a-jamendo-v-suno-inc",
+    "case_name": "S.A. Jamendo v. Suno Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "The court clerk recorded an administrative report noting the filing or termination of this copyright case involving S. A. Jamendo and Suno Inc. No substantive ruling or party action is reflected in this entry.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "s-a-jamendo-v-suno-inc",
+    "case_name": "S.A. Jamendo v. Suno Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "Plaintiff S. A. Jamendo filed a complaint against Suno Inc. in the District of Massachusetts, initiating the lawsuit and paying the $405 filing fee; the court's docket was later modified on June 30, 2026, to replace one exhibit with a corrected version provided by counsel.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-30",
+    "summary": "Court staff flagged an administrative error in two recently filed documents—a Certificate of Service and a Consent/Declination to Proceed Before a Magistrate Judge submitted by plaintiffs Dow Jones & Company, Inc. and NYP Holdings, Inc. —noting that the judge's name or initials were missing. Counsel are not required to re-file the documents but must include the correct judge information on all future filings.",
+    "significance": "minor_update",
+    "entry_number": "470368014",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-29",
+    "summary": "Plaintiffs Dow Jones & Company, Inc. and NYP Holdings, Inc. filed a certificate of service confirming that their motion to compel was served on the opposing party.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-29",
+    "summary": "Plaintiffs Dow Jones & Company, Inc. and NYP Holdings, Inc. filed a consent/declination form indicating their position on whether a U. S. Magistrate Judge should preside over the case.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-29",
+    "summary": "The court issued an administrative order requiring the filing party to submit physical copies of the pending Motion to Compel and all related documents to the judge's chambers within three days, and directing both parties to submit chambers copies of any future briefing on that motion within three days of each filing.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-26",
+    "summary": "The court assigned this case to Magistrate Judge Kandis A. Westmore on June 26, 2026. This is an administrative assignment with no substantive rulings.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-26",
+    "summary": "Plaintiffs Dow Jones & Company, Inc. and NYP Holdings, Inc. filed a motion seeking permission for an attorney to appear in this case on a temporary basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-26",
+    "summary": "Attorney Laurie Edelstein filed a notice of appearance in federal court representing plaintiffs Dow Jones & Company, Inc. and NYP Holdings, Inc. in this Northern District of California case.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-26",
+    "summary": "Plaintiff Dow Jones & Company, Inc. and NYP Holdings, Inc. filed a Corporate Disclosure Statement identifying News Corporation as the corporate parent of NYP Holdings, Inc.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-26",
+    "summary": "Plaintiff Dow Jones & Company, Inc. filed a Corporate Disclosure Statement identifying News Corporation, Ruby Newco, LLC, and News Preferred Holdings, Inc. as its corporate parents, as required by federal court rules.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "dow-jones-company-inc-v-abbeel",
+    "case_name": "Dow Jones & Company, Inc. v. Abbeel",
+    "entry_date": "2026-06-26",
+    "summary": "Plaintiffs Dow Jones & Company and NYP Holdings filed a motion to compel non-party Pieter Abbeel and Perplexity AI, Inc. to comply with a subpoena requiring document production, attaching supporting materials including the subpoena itself, Abbeel's responses, and correspondence with his counsel.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed an initial notice reporting the commencement of a copyright action against Stability AI, Inc. , along with an exhibit attachment.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a notice of manual submission, delivering a USB flash drive containing Exhibits B and D to its complaint, which could not be filed electronically.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a Certificate of Interested Parties identifying six entities with a potential financial interest in the case, including defendants Stability AI, Inc. and Stability AI Ltd. , as well as Stability AI US Services Corporation, Runway AI, Inc. , Hugging Face, Inc. , and DeviantArt, Inc.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a request asking the court clerk to issue a summons on its complaint, a standard administrative step that formally initiates service of process on defendant Stability AI, Inc.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a request asking the court clerk to issue a summons on its complaint, marking the formal initiation of service of process against Defendant Stability AI, Inc.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a request asking the court clerk to issue a summons on its complaint, a standard procedural step taken at the start of a lawsuit to formally notify the defendant of the pending action.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a request asking the court clerk to issue a summons on its complaint, a standard step taken at the start of a lawsuit to formally notify the defendant of the pending case.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a request asking the court clerk to issue a summons on the complaint, a standard step to formally notify the defendant of the lawsuit and initiate service of process.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a request asking the court clerk to issue a summons on its complaint, a standard step taken at the outset of a lawsuit to formally notify the defendant of the pending action.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a civil cover sheet, marking the administrative initiation of its lawsuit against Stability AI, Inc. in the Central District of California.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "Plaintiff EVOX Productions LLC filed a complaint against Stability AI, Inc. in the Central District of California, along with four exhibits, paying the $405 filing fee to initiate the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-06",
+    "summary": "Court staff flagged an electronic filing error in Anthropic's Certificate of Interested Entities, noting that not all interested parties were entered when prompted. Anthropic is directed to re-file the document in its entirety and include all affiliates and corporate parents.",
+    "significance": "minor_update",
+    "entry_number": "469884375",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-06",
+    "summary": "Plaintiff Anthropic, PBC filed a Corporate Disclosure Statement identifying Amazon. com, Inc. , Alphabet, Inc. , Google LLC, and Amazon Web Services, Inc. as corporate affiliates, as required by court rules for transparency about parties' organizational and financial relationships.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-06",
+    "summary": "The court issued an initial scheduling order setting a Case Management Statement deadline of September 22, 2026, and an Initial Case Management Conference for September 29, 2026, to be held by videoconference in San Jose.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-06",
+    "summary": "The court issued a summons to defendant Abnormal AI, Inc. , a routine step that formally notifies the defendant of the lawsuit and triggers its obligation to respond. This indicates the case has just been filed and service of process is underway.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "The court assigned this newly filed case to Magistrate Judge Virginia K. DeMarchi and issued administrative instructions requiring plaintiff Anthropic's counsel to serve the complaint, summons, and judge's standing orders on the opposing party. A consent or declination regarding magistrate judge jurisdiction is due by July 16, 2026, and a scheduling order will follow within two business days.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "Attorney Holly M. Petersen filed a notice of appearance on behalf of plaintiff Anthropic, PBC, adding herself as counsel of record in the case.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "Attorney Jack William Haisman filed a notice of appearance in federal court in the Northern District of California, formally entering the case as counsel for plaintiff Anthropic, PBC.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-07-10T19:20:59Z"
+  },
+  {
+    "case_id": "kogon-v-google-llc",
+    "case_name": "Kogon v. Google, LLC",
+    "entry_date": "2026-06-30",
+    "summary": "Google, LLC filed a disclosure of its affiliated entities with the court as required by Local Rule 3. 2, a routine administrative filing submitted by its attorney Andrew Schapiro.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "kogon-v-google-llc",
+    "case_name": "Kogon v. Google, LLC",
+    "entry_date": "2026-06-30",
+    "summary": "Plaintiffs, including Sam Kogon and Attack the Sound LLC among others, filed a memorandum opposing Google's motion to dismiss the case.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "kogon-v-google-llc",
+    "case_name": "Kogon v. Google, LLC",
+    "entry_date": "2026-06-26",
+    "summary": "The judge canceled the June 30, 2026 status hearing and set a new briefing schedule on Google's pending motion to dismiss: Kogon's response is due June 29, 2026, and Google's reply is due July 13, 2026, after which the court will issue a written ruling.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "kogon-v-google-llc",
+    "case_name": "Kogon v. Google, LLC",
+    "entry_date": "2026-06-23",
+    "summary": "Plaintiffs, including Sam Kogon and multiple co-plaintiffs, filed a status report with the court addressing Google's pending motion to dismiss.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "kogon-v-google-llc",
+    "case_name": "Kogon v. Google, LLC",
+    "entry_date": "2026-06-09",
+    "summary": "The court issued a minute order advising plaintiff Kogon that, in response to Google's pending motion to dismiss, plaintiff has the right to amend the complaint once within 21 days under Federal Rule of Civil Procedure 15(a)(1)(B), and directing plaintiff to file a status report by June 23, 2026, indicating how it wishes to proceed, with a telephone status hearing scheduled for June 30, 2026.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "kogon-v-google-llc",
+    "case_name": "Kogon v. Google, LLC",
+    "entry_date": "2026-06-08",
+    "summary": "Google moves to dismiss the plaintiff's complaint, filing a supporting memorandum of law, a declaration from attorney Andrew Schapiro, and seven exhibits in support of its motion.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-07-01",
+    "summary": "The court's filing system flagged an electronic filing error, notifying the parties that Appendix No. 232—submitted by a large group of federal agency and individual defendants—must be re-filed in its entirety with a required caption page.",
+    "significance": "minor_update",
+    "entry_number": "469442953",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-07-01",
+    "summary": "A large group of federal defendants, including numerous cabinet officials, agencies, and other government entities, filed a notice certifying the administrative record in this case, with three attached appendices totaling over 1,500 pages of administrative documents.",
+    "significance": "minor_update",
+    "entry_number": "233",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-30",
+    "summary": "Multiple federal agency defendants and officials filed an Appendix of the Administrative Record, submitted in three parts, on June 30, 2026.",
+    "significance": "minor_update",
+    "entry_number": "232",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-29",
+    "summary": "The court granted three motions (docket entries 176, 178, and 198) allowing outside parties to file amicus curiae briefs, meaning third parties not directly involved in the case may submit written arguments for the court's consideration.",
+    "significance": "minor_update",
+    "entry_number": "231",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-29",
+    "summary": "The court granted a motion allowing an attorney to appear in this case on a temporary basis despite not being admitted to practice in the Northern District of California. This is a routine procedural step that expands the legal team for one of the parties.",
+    "significance": "minor_update",
+    "entry_number": "230",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "Leon Panetta and the Institute for Security and Technology filed an amicus curiae brief supporting a pending motion for summary judgment. The court has scheduled a hearing on that motion for July 30, 2026, with responses due July 10 and replies due July 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "229",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "Leon Panetta and The Institute for Security and Technology filed a motion for leave to appear as pro hac vice counsel, paying the $328 filing fee and submitting a Certificate of Good Standing.",
+    "significance": "minor_update",
+    "entry_number": "228",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "Attorney Todd C. Toral filed a notice of appearance in federal court on behalf of two new parties—Leon Panetta and The Institute for Security and Technology—indicating they are now represented counsel in this case.",
+    "significance": "minor_update",
+    "entry_number": "227",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "The court granted a motion allowing an attorney to appear in this case on a temporary basis despite not being admitted to practice in the Northern District of California. This is a routine procedural step that has no effect on the merits of the case.",
+    "significance": "minor_update",
+    "entry_number": "226",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "Democracy Defenders Fund, joined by 149 former judges, filed a brief as amici curiae (friends of the court) supporting Anthropic PBC's pending motion for summary judgment against the U. S. Department of War.",
+    "significance": "minor_update",
+    "entry_number": "225",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "Democracy Defenders Fund filed a motion seeking permission for attorney Lauren Goldman to appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "224",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "The court granted a motion allowing an attorney to appear in this case on a pro hac vice basis, meaning the attorney is licensed in another jurisdiction but has been permitted to practice in this court for this matter.",
+    "significance": "minor_update",
+    "entry_number": "223",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "Democracy Defenders Fund filed a motion seeking permission for attorney Norman Eisen to appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "222",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "A group of former senior national security government officials filed an amicus curiae brief on June 26, 2026, supporting Anthropic PBC's pending motion for summary judgment against the U. S. Department of War.",
+    "significance": "minor_update",
+    "entry_number": "221",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-26",
+    "summary": "The court's clerk issued a notice updating the courtroom location for a hearing scheduled on July 30, 2026, at 10:00 AM before Judge Rita F. Lin in San Francisco, Courtroom 04, 17th Floor. The hearing covers several pending motions, including cross-motions for summary judgment, a motion to complete the administrative record, and a motion to file an amicus curiae brief in support of the plaintiff's summary judgment motion.",
+    "significance": "minor_update",
+    "entry_number": "220",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-25",
+    "summary": "The American Federation of Government Employees filed an amicus curiae brief supporting Anthropic PBC's pending motion for summary judgment, arguing in favor of the plaintiff's position.",
+    "significance": "minor_update",
+    "entry_number": "219",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-25",
+    "summary": "Attorney Stephen A. Jonas filed a notice of appearance in the Northern District of California on June 25, 2026, indicating he will represent a group identified as Former Judges in this case.",
+    "significance": "minor_update",
+    "entry_number": "218",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-25",
+    "summary": "A group of Catholic moral theologians and ethicists filed an amicus curiae brief in support of Anthropic's pending motion for summary judgment, offering outside perspective on the ethical issues raised in the case.",
+    "significance": "minor_update",
+    "entry_number": "217",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-24",
+    "summary": "Tech Justice Law Project, represented by attorney Meetali Jain, entered an appearance as amicus curiae (friend of the court) in this case on June 24, 2026.",
+    "significance": "minor_update",
+    "entry_number": "216",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-24",
+    "summary": "Defendants — a large group of federal agencies, officials, and executive branch entities — filed a combined cross-motion for summary judgment and opposition to Plaintiff's motion for summary judgment, asking the court to rule in their favor without a trial. The court has scheduled a summary judgment hearing for July 30, 2026, with Plaintiff's response due July 8, 2026, and reply briefs due July 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "215",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-24",
+    "summary": "A large group of federal agency and individual defendants, including the U. S. Department of War, multiple cabinet secretaries, and several federal agencies, filed an opposition to the plaintiff's motion for summary judgment (Docket No. 166).",
+    "significance": "minor_update",
+    "entry_number": "214",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-24",
+    "summary": "A large group of federal defendants — including numerous cabinet members, federal agencies, and executive offices — filed a response opposing the plaintiff's motion (Docket No. 169) to complete the administrative record and to allow the court to consider evidence outside that record.",
+    "significance": "minor_update",
+    "entry_number": "213",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-24",
+    "summary": "The ACLU, ACLU of Northern California, and the Center for Democracy and Technology filed an amicus curiae brief supporting Anthropic PBC's pending motion for summary judgment against the U. S. Department of War.",
+    "significance": "minor_update",
+    "entry_number": "212",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-23",
+    "summary": "Judge Rita F. Lin granted a motion allowing attorney Gregg J. Costa to appear in this case pro hac vice, meaning he is admitted to participate in this particular proceeding even though he is not a member of the Northern District of California bar.",
+    "significance": "minor_update",
+    "entry_number": "211",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-23",
+    "summary": "The defendants — a large group of federal agencies, officials, and government entities — filed a notice submitting an updated, certified index of the administrative record in this case, with the index attached as an exhibit.",
+    "significance": "minor_update",
+    "entry_number": "210",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-23",
+    "summary": "Democracy Defenders Fund filed a motion seeking permission to appear in this case through an attorney not yet admitted to practice in the Northern District of California, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "209",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-23",
+    "summary": "Attorney Martie P. Kutscher filed a notice of appearance in the case on behalf of Democracy Defenders Fund, formally entering the matter as counsel or representative for that party as of June 23, 2026.",
+    "significance": "minor_update",
+    "entry_number": "208",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-22",
+    "summary": "Alan Z. Rozenshtein filed an amicus curiae brief on June 22, 2026, supporting Anthropic PBC's motion for summary judgment, offering an outside perspective in favor of the plaintiff's position.",
+    "significance": "minor_update",
+    "entry_number": "207",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-18",
+    "summary": "Five amicus curiae organizations—the Cato Institute, Chamber of Progress, Electronic Frontier Foundation, First Amendment Lawyers Association, and Foundation for Individual Rights and Expression—filed a corrected amicus brief in support of the plaintiff's motion for summary judgment, replacing a previously docketed version (entry 202) pursuant to the court's earlier order (entry 177) authorizing the filing.",
+    "significance": "minor_update",
+    "entry_number": "206",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-18",
+    "summary": "The court granted a motion allowing attorney Jessica Limbaugh to appear in this case on a pro hac vice basis, permitting her to represent a party before this court even though she is not admitted to practice in the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "205",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-18",
+    "summary": "The court granted a motion allowing attorney Barbara Smith Tyson to appear in this case temporarily despite not being a member of the local bar.",
+    "significance": "minor_update",
+    "entry_number": "204",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-18",
+    "summary": "The court granted a motion allowing attorney Jonathan Lenzer to appear in this case on a pro hac vice basis, permitting him to practice before this court in this matter despite not being a member of the local bar.",
+    "significance": "minor_update",
+    "entry_number": "203",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-17",
+    "summary": "Several organizations — the Cato Institute, Electronic Frontier Foundation, First Amendment Lawyers Association, and Foundation for Individual Rights and Expression — filed a motion seeking leave to submit an amicus curiae brief in support of the plaintiff's motion for summary judgment, but the filing was marked as erroneous and superseded by Document 206. A hearing on the motion is scheduled for July 30, 2026, with responses due July 1 and replies due July 8, 2026.",
+    "significance": "minor_update",
+    "entry_number": "202",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-17",
+    "summary": "Professor Simona Grossi filed an amicus curiae brief supporting Anthropic's motion for summary judgment, offering an outside perspective to assist the court in resolving that motion.",
+    "significance": "minor_update",
+    "entry_number": "201",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-16",
+    "summary": "The Taxpayers Protection Alliance Foundation filed a motion seeking permission for attorney Jessica L. Limbaugh to appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "200",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-16",
+    "summary": "Taxpayers Protection Alliance Foundation moved for leave to admit attorney Barbara Smith Tyson to appear in this case pro hac vice, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "199",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-16",
+    "summary": "The Taxpayers Protection Alliance Foundation filed a motion seeking the court's permission to submit an amicus curiae (friend of the court) brief in support of Plaintiff's pending motion for summary judgment. The court has scheduled a hearing on the motion for July 30, 2026, with responses due June 30, 2026, and replies due July 7, 2026.",
+    "significance": "minor_update",
+    "entry_number": "198",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-16",
+    "summary": "Attorney Ashley Hyun-Jeong Kim filed a notice of appearance in the case on behalf of Taxpayers Protection Alliance Foundation, indicating that organization is now represented by counsel in this matter.",
+    "significance": "minor_update",
+    "entry_number": "197",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-16",
+    "summary": "Industry trade associations, represented by Parker and Warrington, filed an amicus curiae brief on June 16, 2026, offering arguments or perspectives to assist the court in this case between Anthropic PBC and the U. S. Department of War.",
+    "significance": "minor_update",
+    "entry_number": "196",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-15",
+    "summary": "Faith Family Technology Network, through attorney David Friedman, filed an amicus curiae (friend of the court) brief on June 15, 2026, offering the court its perspective on issues raised in this case.",
+    "significance": "minor_update",
+    "entry_number": "195",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-15",
+    "summary": "Attorney Simona Grossi filed a motion for leave to appear as pro hac vice counsel, meaning she seeks the court's permission to represent a party in this case despite not being admitted to practice in the Northern District of California. A $328 filing fee was paid at the time of submission.",
+    "significance": "minor_update",
+    "entry_number": "194",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-15",
+    "summary": "Attorney Jacob Adam Snow filed a notice of appearance on behalf of three organizations—the American Civil Liberties Union, the ACLU of Northern California, and the Center for Democracy and Technology—indicating that these groups are entering the case as participants.",
+    "significance": "minor_update",
+    "entry_number": "193",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-15",
+    "summary": "Attorney Matthew Ferraro filed a notice of appearance in the case on June 15, 2026, indicating that he is now representing Industry Trade Associations as a party or interested group in this litigation.",
+    "significance": "minor_update",
+    "entry_number": "192",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-15",
+    "summary": "The court granted a motion allowing attorney David B. Schwartz to appear in this case on a temporary basis, despite not being a member of the Northern District of California bar. Judge Rita F. Lin signed the order on June 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "191",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-15",
+    "summary": "The court granted a motion allowing attorney Tessa Placa to appear in this case on a pro hac vice basis, meaning she is admitted to practice before this court for this matter despite not being a member of its bar. Judge Rita F. Lin signed the order on June 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "190",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-15",
+    "summary": "The court granted a motion allowing attorney Deena Feit to appear in this case on a pro hac vice basis, meaning she is licensed in another jurisdiction but has been permitted to practice before this court for this matter. Judge Rita F. Lin signed the order on June 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "189",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-15",
+    "summary": "The court granted attorney Ashley Gorski permission to appear in this case on a pro hac vice basis, allowing her to represent a party despite not being a member of the Northern District of California bar. Judge Rita F. Lin signed the order on June 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "188",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-15",
+    "summary": "The court granted a motion allowing attorney Charles Hogle to appear in this case on a pro hac vice basis, permitting him to practice before this court despite not being a member of its bar. Judge Rita F. Lin signed the order on June 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "187",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-12",
+    "summary": "A group of former service secretaries and retired senior military officers filed an amicus curiae brief in support of a party in this case, offering the court their perspective as outside parties with relevant expertise or interest.",
+    "significance": "minor_update",
+    "entry_number": "186",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-12",
+    "summary": "The Taxpayers Protection Alliance Foundation filed a motion seeking court permission to have attorney David Schwartz appear in this case on a temporary basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "185",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-12",
+    "summary": "Attorney Simona Grossi filed a motion for leave to appear pro hac vice, paying the $328 filing fee, which allows an out-of-jurisdiction lawyer to participate in this case before the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "184",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-12",
+    "summary": "Attorney Simona Grossi filed a motion for leave to appear pro hac vice, meaning she is seeking the court's permission to represent a party in this case despite not being admitted to practice in the Northern District of California. A filing fee of $328 was paid at the time of submission.",
+    "significance": "minor_update",
+    "entry_number": "183",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-12",
+    "summary": "Attorney Jonathan Thomas McMichael filed a notice of appearance in federal court on June 12, 2026, indicating that he is entering the case as counsel on behalf of Simona Grossi.",
+    "significance": "minor_update",
+    "entry_number": "182",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-12",
+    "summary": "Attorney Benjamin Kingsley filed a notice of appearance in the district court, indicating that he is entering the case as counsel on behalf of Simona Grossi.",
+    "significance": "minor_update",
+    "entry_number": "181",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-12",
+    "summary": "The American Civil Liberties Union, ACLU of Northern California, and Center for Democracy and Technology filed a motion seeking permission for attorney Ashley Gorski to appear in this case on a pro hac vice basis, along with a certificate of good standing and a $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "180",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-12",
+    "summary": "The American Civil Liberties Union, ACLU of Northern California, and Center for Democracy and Technology filed a motion requesting that attorney Charles Hogle be permitted to appear in this case on their behalf, along with a certificate of good standing and the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "179",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-11",
+    "summary": "ACT The App Association moved to file an amicus curiae brief in this case, submitting a proposed brief and proposed order alongside its motion. Responses to the motion are due by June 25, 2026, and replies are due by July 2, 2026.",
+    "significance": "minor_update",
+    "entry_number": "178",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-11",
+    "summary": "The court granted three pending motions (docket entries 168, 171, and 173) seeking permission to file amicus curiae briefs. The court also set a deadline of June 26, 2026 at 5:00 p. m. for any additional amicus briefs related to the pending summary judgment motions.",
+    "significance": "minor_update",
+    "entry_number": "177",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-11",
+    "summary": "Employees of OpenAI and Google, acting in their personal capacities, filed a motion asking the court for permission to submit a proposed amicus curiae brief in this case, along with a proposed order for the court's consideration.",
+    "significance": "minor_update",
+    "entry_number": "176",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-11",
+    "summary": "The court granted a motion allowing attorney Todd M. Hinnen to appear in this case on a pro hac vice basis, meaning he is admitted to represent a party before this court even though he is not a member of its local bar.",
+    "significance": "minor_update",
+    "entry_number": "175",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-11",
+    "summary": "Five organizations—Cato Institute, Chamber of Progress, Electronic Frontier Foundation, First Amendment Lawyers Association, and Foundation for Individual Rights and Expression—filed a motion seeking permission for attorney Todd Hinnen to appear in this case on a pro hac vice basis, meaning he is licensed outside the Northern District of California and requires special court approval to participate here.",
+    "significance": "minor_update",
+    "entry_number": "174",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-11",
+    "summary": "A group of former service secretaries and retired senior military officers filed a consent motion seeking the court's permission to submit an amicus curiae (friend of the court) brief in support of Anthropic's pending motion for summary judgment. The court has scheduled a hearing on the motion for July 30, 2026, with opposing responses due June 25, 2026, and replies due July 2, 2026.",
+    "significance": "minor_update",
+    "entry_number": "173",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-10",
+    "summary": "The court granted a motion allowing attorney Patrick Toomey to appear in this case on a pro hac vice basis, permitting him to practice before this court even though he is not admitted to the Northern District of California bar.",
+    "significance": "minor_update",
+    "entry_number": "172",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-10",
+    "summary": "Faith Family Technology Network filed a motion seeking the court's permission to submit an amicus curiae (friend of the court) brief in support of Anthropic's pending motion for summary judgment. A hearing on the motion is scheduled for July 30, 2026, before Judge Rita F. Lin, with responses due June 24, 2026, and replies due July 1, 2026.",
+    "significance": "minor_update",
+    "entry_number": "171",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-10",
+    "summary": "Attorney David Ransom Friedman filed a notice of appearance in the district court, indicating he is representing Faith Family Technology Network in this case.",
+    "significance": "minor_update",
+    "entry_number": "170",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-05",
+    "summary": "Anthropic PBC filed a motion for leave to admit an attorney pro hac vice, allowing that attorney to appear in this case in the Northern District of California despite not being a member of that court's bar, accompanied by a $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "160",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-05",
+    "summary": "Anthropic PBC filed a motion seeking court permission to allow an attorney, Bardia Faghihvaseghi, to appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "159",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-06-05",
+    "summary": "Anthropic PBC filed a motion for leave to admit attorney Matt Morris to practice before this court on a pro hac vice basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "158",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "amazon-com-services-llc-v-perplexity-ai-inc",
+    "case_name": "Amazon.com Services, LLC v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-11",
+    "summary": "A three-judge Ninth Circuit panel comprising Judges Milan D. Smith, Jr. , Eric C. Tung, and John Charles Hinderaker heard oral argument in this appeal on June 11, 2026; audio and video recordings of the argument are available on the court's website.",
+    "significance": "minor_update",
+    "entry_number": "60",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-08",
+    "summary": "The Clerk's Office reviewed a pro hac vice motion seeking to admit attorney Jenny L. Colgate to appear in this case and found no deficiencies in the filing, which was accompanied by a $200 fee.",
+    "significance": "minor_update",
+    "entry_number": "468275209",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-18",
+    "summary": "The court set a deadline requiring Perplexity AI, Inc. to file its answer to the complaint by August 21, 2026.",
+    "significance": "minor_update",
+    "entry_number": "468275234",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-08",
+    "summary": "The Clerk's Office reviewed the pro hac vice motion for attorney Alexandra Hughes to appear in this case and found no deficiencies, clearing the way for the motion to proceed. A $200 filing fee was paid in connection with the motion.",
+    "significance": "minor_update",
+    "entry_number": "468275212",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-18",
+    "summary": "The court granted a letter motion (Docket No. 25) requesting an extension of time, as ordered by Judge Loretta A. Preska on June 18, 2026. The entry does not specify which deadline was extended or which party filed the motion.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-17",
+    "summary": "Perplexity AI filed a consent letter motion on June 17, 2026, asking Judge Loretta A. Preska to extend the deadline for Perplexity AI to respond to CNN's complaint, with CNN's agreement to the request.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-17",
+    "summary": "Attorney John Charles Quinn filed a notice of appearance in federal court in the Southern District of New York, indicating he is now representing defendant Perplexity AI, Inc. in this case.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "Judge Loretta A. Preska granted a motion allowing attorney Jenny L. Colgate to appear pro hac vice, meaning she is admitted to represent a party in this case despite not being a member of the Southern District of New York bar.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "The court granted a motion allowing attorney Alexandra Hughes to appear as pro hac vice counsel in this case, permitting her to practice before the Southern District of New York for this matter specifically. Judge Loretta A. Preska signed the order on June 10, 2026.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-08",
+    "summary": "Plaintiff Cable News Network Inc. filed a motion for attorney Alexandra Hughes to appear pro hac vice, paying the $200 filing fee and submitting supporting documents including Hughes's affidavit and certificates of good standing. The motion is pending review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-08",
+    "summary": "Plaintiff Cable News Network Inc. filed a motion seeking permission for attorney Jenny L. Colgate to appear in this case pro hac vice, meaning she is licensed in another jurisdiction and is requesting special admission to practice before this court. The filing includes a $200 fee, Colgate's affidavit, and certificates of good standing, and is pending review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-08",
+    "summary": "Judge Loretta A. Preska granted a motion allowing attorney Sharon L. Davis to appear in this case on a pro hac vice basis, permitting her to represent a party before the court despite not being regularly admitted to practice in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-06-08",
+    "summary": "The court granted a motion allowing attorney Kristen Janelle Logan to appear pro hac vice, meaning she is admitted to represent a party in this case despite not being a member of the Southern District of New York bar. Judge Loretta A. Preska signed the order on June 8, 2026.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "true-footage-inc-v-automax-ai-inc",
+    "case_name": "True Footage Inc. v. Automax AI Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "The judge referred the case to a magistrate judge to handle all further proceedings. This is a routine administrative reassignment and does not reflect any ruling on the merits.",
+    "significance": "minor_update",
+    "entry_number": "33",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "true-footage-inc-v-automax-ai-inc",
+    "case_name": "True Footage Inc. v. Automax AI Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "The court granted a joint request from both parties to set a briefing schedule for the defendants' response to the complaint. Under the schedule signed by Judge Joseph C. Spero on June 10, 2026, motions are due June 29, responses due July 29, and replies due August 11, 2026.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "true-footage-inc-v-automax-ai-inc",
+    "case_name": "True Footage Inc. v. Automax AI Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "Magistrate Judge Joseph C. Spero granted a motion allowing Christopher Sprigman to appear in this case as a visiting attorney admitted pro hac vice, meaning he is licensed in another jurisdiction but has been permitted to participate in this Northern District of California proceeding.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "true-footage-inc-v-automax-ai-inc",
+    "case_name": "True Footage Inc. v. Automax AI Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "Attorney Christopher Sprigman filed a motion for leave to appear pro hac vice on behalf of defendants Automax AI Inc. and Automax AI (US) Inc. , along with individual Humza Ahmed, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "true-footage-inc-v-automax-ai-inc",
+    "case_name": "True Footage Inc. v. Automax AI Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "Both parties filed a joint stipulation asking the court to set a briefing schedule for defendants Automax AI Inc. , Automax AI (US) Inc. , and Humza Ahmed to respond to the plaintiff's complaint.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "true-footage-inc-v-automax-ai-inc",
+    "case_name": "True Footage Inc. v. Automax AI Inc.",
+    "entry_date": "2026-06-10",
+    "summary": "Attorney Rhett O. Millsaps, II filed a notice of appearance on June 10, 2026, entering the case as counsel of record for defendants Humza Ahmed, Automax AI (US) Inc. , and Automax AI Inc.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-06-17",
+    "summary": "The court assigned this newly filed case to Judge Victor Marrero in the Southern District of New York. Counsel are directed to review the judge's individual practices and the court's electronic filing rules.",
+    "significance": "minor_update",
+    "entry_number": "467845979",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-06-17",
+    "summary": "The court's clerk designated this case for Electronic Case Filing (ECF), meaning all documents will be submitted and managed through the federal court's electronic system.",
+    "significance": "minor_update",
+    "entry_number": "467845981",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-06-17",
+    "summary": "The court designated Magistrate Judge Valerie Figueredo to handle referred matters in this case and notified the parties that they may consent to have a magistrate judge preside over the entire proceeding under 28 U. S. C. § 636(c).",
+    "significance": "minor_update",
+    "entry_number": "467845980",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-06-17",
+    "summary": "The court clerk submitted the required AO 121 copyright case-opening form to the U. S. Register of Copyrights, notifying that office of a copyright action filed in the Southern District of New York, as required by federal statute.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-06-16",
+    "summary": "Plaintiff's attorney Jennifer Pariser submitted the AO 121 copyright reporting form to the court as required when a copyright case is filed, along with an exhibit identifying the works at issue in the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-06-16",
+    "summary": "Attorney Matthew Jan Oppenheim filed a notice of appearance representing Apress Media, LLC and twelve other publishing company plaintiffs in this case in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-06-16",
+    "summary": "The plaintiffs filed a Rule 7. 1 Corporate Disclosure Statement identifying the corporate parents and affiliates of each plaintiff, including entities such as Bertelsmann SE & Co. KGaA, News Corporation, RELX plc, and others connected to publishers like Penguin Random House, HarperCollins, and Elsevier.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-07-10T19:12:31Z"
+  },
+  {
     "case_id": "ted-entertainment-inc-v-openai-inc",
     "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
     "entry_date": "2026-06-22",
