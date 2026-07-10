@@ -6,15 +6,17 @@ from __future__ import annotations
 import html
 import json
 import os
-import random
 import re
-import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
-import requests
 from dotenv import load_dotenv
+
+try:
+    from scripts.cl_client import CourtListenerClient, RateLimitExceeded
+except ImportError:  # pragma: no cover - direct script execution
+    from cl_client import CourtListenerClient, RateLimitExceeded  # type: ignore
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -24,13 +26,11 @@ UPDATES_PATH = DATA_DIR / "updates.json"
 LAST_RUN_PATH = DATA_DIR / "last_run.json"
 COURTLISTENER_BASE = "https://www.courtlistener.com"
 DOCKET_ENTRIES_URL = f"{COURTLISTENER_BASE}/api/rest/v4/docket-entries/"
-MAX_RETRIES = 3
-TIMEOUT = 30
-COURTLISTENER_REQUEST_PAUSE_SECONDS = 4
-COURTLISTENER_BASE_BACKOFF_SECONDS = 10
-COURTLISTENER_MAX_RETRY_AFTER_SECONDS = 30
+COURTLISTENER_SEARCH_URL = f"{COURTLISTENER_BASE}/api/rest/v4/search/"
 DEFAULT_MAX_SUMMARIES_PER_RUN = 100
 DOCKET_REFETCH_OVERLAP_DAYS = 2
+CHANGE_DETECTION_CHUNK_SIZE = 20
+CHANGE_DETECTION_MAX_PAGES = 3
 
 RESOLVED_PATTERNS = (
     r"\bdismissed with prejudice\b",
@@ -66,10 +66,6 @@ APPEAL_PATTERNS = (
     r"\bnotice of appeal\b",
     r"\bappeal pending\b",
 )
-
-
-class RateLimitExceeded(RuntimeError):
-    """Raised when an API keeps returning 429 after the required retries."""
 
 
 def utc_now() -> datetime:
@@ -137,61 +133,6 @@ def first_value(data: dict[str, Any], keys: tuple[str, ...]) -> Any:
     return ""
 
 
-def retry_after_seconds(response: requests.Response) -> float | None:
-    value = response.headers.get("Retry-After")
-    if not value:
-        return None
-    if value.isdigit():
-        return float(value)
-    try:
-        retry_at = datetime.strptime(value, "%a, %d %b %Y %H:%M:%S %Z").replace(tzinfo=timezone.utc)
-    except ValueError:
-        return None
-    return max(0.0, (retry_at - datetime.now(timezone.utc)).total_seconds())
-
-
-def backoff_sleep(attempt: int, response: requests.Response | None = None) -> None:
-    retry_after = retry_after_seconds(response) if response is not None else None
-    if retry_after is not None:
-        delay = min(retry_after, COURTLISTENER_MAX_RETRY_AFTER_SECONDS)
-    else:
-        delay = min(COURTLISTENER_BASE_BACKOFF_SECONDS * (2**attempt), 60)
-    delay += random.uniform(0, 0.5)
-    time.sleep(delay)
-
-
-def get_json(
-    session: requests.Session,
-    url: str,
-    api_key: str,
-    params: dict[str, Any] | None = None,
-) -> dict[str, Any]:
-    headers = {"Authorization": f"Token {api_key}"}
-    for attempt in range(MAX_RETRIES + 1):
-        try:
-            response = session.get(url, headers=headers, params=params, timeout=TIMEOUT)
-        except requests.RequestException as exc:
-            if attempt < MAX_RETRIES:
-                backoff_sleep(attempt)
-                continue
-            raise RateLimitExceeded(f"CourtListener request failed for {url}: {exc}") from exc
-        if response.status_code == 429:
-            retry_after = retry_after_seconds(response)
-            if retry_after is not None and retry_after > COURTLISTENER_MAX_RETRY_AFTER_SECONDS:
-                raise RateLimitExceeded(
-                    f"CourtListener asked for {int(retry_after)}s backoff on {url}; deferring to the next run"
-                )
-        if response.status_code == 429 or response.status_code >= 500:
-            if attempt < MAX_RETRIES:
-                backoff_sleep(attempt, response)
-                continue
-            if response.status_code == 429:
-                raise RateLimitExceeded(f"CourtListener rate limit persisted for {url}")
-        response.raise_for_status()
-        return response.json()
-    raise RuntimeError(f"Request failed after retries: {url}")
-
-
 def normalize_entry_number(entry: dict[str, Any]) -> str:
     value = first_value(entry, ("entry_number", "entryNumber", "number", "id"))
     return clean_text(value)
@@ -206,8 +147,7 @@ def entry_text(entry: dict[str, Any]) -> str:
 
 
 def fetch_new_entries(
-    session: requests.Session,
-    api_key: str,
+    client: CourtListenerClient,
     docket_id: str,
     since_date: str,
     existing_numbers: set[str],
@@ -234,9 +174,8 @@ def fetch_new_entries(
         if next_url in seen_urls:
             break
         seen_urls.add(next_url)
-        time.sleep(COURTLISTENER_REQUEST_PAUSE_SECONDS + random.uniform(0, 1))
         try:
-            data = get_json(session, next_url, api_key=api_key, params=params)
+            data = client.get_json(next_url, params=params)
         except RateLimitExceeded as exc:
             print(f"Warning: stopped docket update after CourtListener rate limit: {docket_id} ({exc})")
             return new_entries, False, True
@@ -261,6 +200,84 @@ def fetch_new_entries(
             next_url = next_value
         params = None
     return new_entries, True, False
+
+
+def batched_change_detection_enabled() -> bool:
+    return (os.environ.get("CL_BATCHED_CHANGE_DETECTION") or "").strip().lower() in {"1", "true", "yes"}
+
+
+def detect_active_docket_ids(
+    client: CourtListenerClient,
+    pollable_cases: list[dict[str, Any]],
+    since_lookup: dict[str, str],
+) -> set[str] | None:
+    """Use the RECAP search API to find which tracked dockets have fresh entries.
+
+    One fielded search query can cover ~20 dockets at once, so on quiet days
+    the whole 40+ docket sweep costs a handful of requests instead of one per
+    docket — freeing most of the daily quota for backfills and discovery.
+
+    Returns the set of courtlistener_docket_ids with activity on/after each
+    chunk's oldest checkpoint, or None on any error or unexpected response
+    shape, in which case the caller falls back to the per-docket loop.
+    False positives are harmless (that docket just gets polled normally);
+    the fallback path exists because a silent false negative would not be.
+    """
+    docket_ids = [clean_text(case.get("courtlistener_docket_id")) for case in pollable_cases]
+    docket_ids = [docket_id for docket_id in docket_ids if docket_id]
+    if not docket_ids:
+        return set()
+
+    active: set[str] = set()
+    for start in range(0, len(docket_ids), CHANGE_DETECTION_CHUNK_SIZE):
+        chunk = docket_ids[start : start + CHANGE_DETECTION_CHUNK_SIZE]
+        floors = [since_lookup.get(docket_id, "") for docket_id in chunk]
+        floors = [floor for floor in floors if floor]
+        if not floors:
+            return None
+        floor = min(floors)
+        id_clause = " OR ".join(chunk)
+        params: dict[str, Any] | None = {
+            "q": f"docket_id:({id_clause}) AND entry_date_filed:[{floor} TO *]",
+            "type": "r",
+            "page_size": 50,
+        }
+        next_url = COURTLISTENER_SEARCH_URL
+        seen_urls: set[str] = set()
+        pages = 0
+        while next_url and pages < CHANGE_DETECTION_MAX_PAGES:
+            if next_url in seen_urls:
+                break
+            seen_urls.add(next_url)
+            try:
+                data = client.get_json(next_url, params=params)
+            except RateLimitExceeded:
+                raise
+            except Exception as exc:  # Any API-shape surprise means: fall back.
+                print(f"Warning: batched change detection failed ({exc}); falling back to per-docket polling.")
+                return None
+            results = data.get("results")
+            if not isinstance(results, list):
+                print("Warning: batched change detection returned unexpected shape; falling back.")
+                return None
+            for item in results:
+                if not isinstance(item, dict):
+                    continue
+                hit = clean_text(first_value(item, ("docket_id", "docketId", "docket")))
+                if hit:
+                    active.add(hit)
+            pages += 1
+            next_value = clean_text(data.get("next"))
+            if next_value.startswith("/"):
+                next_url = f"{COURTLISTENER_BASE}{next_value}"
+            else:
+                next_url = next_value
+            params = None
+        if next_url and pages >= CHANGE_DETECTION_MAX_PAGES:
+            # Too much activity to page through cheaply; treat the whole chunk
+            # as active so nothing is skipped on a false negative.
+            active.update(chunk)
+    return active
 
 
 def last_run_date(last_run: dict[str, Any]) -> str:
@@ -356,7 +373,7 @@ def main() -> None:
     if not api_key:
         raise SystemExit("Missing required environment variable: COURTLISTENER_API_KEY")
 
-    session = requests.Session()
+    client = CourtListenerClient(api_key)
     since = last_run_date(last_run)
     seed_missing_case_checkpoints(pollable_cases, since)
     summary_cap = max_summaries_per_run()
@@ -372,6 +389,40 @@ def main() -> None:
     # across every open docket instead of starving the cases listed last.
     pollable_cases.sort(key=lambda case: case_since_date(case, since))
 
+    # Optional cheap pre-pass: one batched search per ~20 dockets tells us
+    # which dockets actually have new activity. Quiet dockets get their
+    # checkpoints advanced without a per-docket request.
+    active_docket_ids: set[str] | None = None
+    if batched_change_detection_enabled():
+        since_lookup = {
+            clean_text(case.get("courtlistener_docket_id")): case_since_date(case, since)
+            for case in pollable_cases
+        }
+        try:
+            active_docket_ids = detect_active_docket_ids(client, pollable_cases, since_lookup)
+        except RateLimitExceeded as exc:
+            print(f"Warning: stopped docket update during change detection: {exc}")
+            docket_update_complete = False
+            courtlistener_rate_limited = True
+            active_docket_ids = None
+            pollable_cases = []
+        if active_docket_ids is not None:
+            quiet = 0
+            for case in pollable_cases:
+                docket_id = clean_text(case.get("courtlistener_docket_id"))
+                if docket_id and docket_id not in active_docket_ids:
+                    case["docket_last_checked"] = today
+                    quiet += 1
+            pollable_cases = [
+                case
+                for case in pollable_cases
+                if clean_text(case.get("courtlistener_docket_id")) in active_docket_ids
+            ]
+            print(
+                f"Change detection: {len(pollable_cases)} docket(s) with activity, "
+                f"{quiet} quiet docket(s) advanced without polling."
+            )
+
     for case in pollable_cases:
         budget = summary_cap - len(new_updates)
         if budget <= 0:
@@ -385,7 +436,7 @@ def main() -> None:
             if isinstance(entry, dict) and clean_text(entry.get("entry_number"))
         }
         fetched_entries, fully_fetched, rate_limited = fetch_new_entries(
-            session, api_key, docket_id, case_since_date(case, since), existing_numbers, budget
+            client, docket_id, case_since_date(case, since), existing_numbers, budget
         )
         case_new_entries = 0
         for raw_entry in fetched_entries:

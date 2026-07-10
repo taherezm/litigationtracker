@@ -2,7 +2,11 @@ name: Litigation Tracker — Scheduled Update
 
 on:
   schedule:
-    - cron: '17 13 */5 * *'
+    # Daily. CourtListener throttles on rolling windows (default tier:
+    # 5/min, 50/hour, 125/day), so frequent small budget-aware runs move
+    # far more data than rare big runs that slam into the hourly wall.
+    # The per-case checkpoints make every run's progress permanent.
+    - cron: '17 13 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -20,6 +24,19 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       MAX_DOCKET_UPDATE_PASSES: 2
       MAX_SUMMARIES_PER_RUN: 100
+      # CourtListener tier limits (see scripts/cl_client.py). Defaults match
+      # the post-2026-05-07 authenticated tier. Through 2026-08-06 the promo
+      # doubles everything: set 10 / 100 / 250. On an FLP membership, set
+      # your tier's numbers. One-line change, no code edits.
+      CL_REQUESTS_PER_MINUTE: 5
+      CL_REQUESTS_PER_HOUR: 50
+      CL_REQUESTS_PER_DAY: 125
+      # Per-process wall-clock budget for CourtListener waits (seconds).
+      CL_TIME_BUDGET_SECONDS: 1500
+      # Opt-in: batched RECAP-search change detection (~3 requests instead of
+      # ~41 on quiet days). Smoke-test once via workflow_dispatch, watch the
+      # logs, then flip to 1. Falls back to per-docket polling on any error.
+      CL_BATCHED_CHANGE_DETECTION: 0
 
     steps:
       - name: Checkout pipeline repo

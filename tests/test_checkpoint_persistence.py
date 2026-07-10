@@ -57,7 +57,7 @@ class CheckpointPersistenceTests(unittest.TestCase):
             fetch_calls: list[dict[str, object]] = []
 
             def fake_fetch_new_entries(*args: object) -> tuple[list[dict[str, object]], bool, bool]:
-                fetch_calls.append({"since_date": args[3]})
+                fetch_calls.append({"since_date": args[2]})
                 return [], False, True
 
             with (
@@ -127,7 +127,7 @@ class CheckpointPersistenceTests(unittest.TestCase):
             fixed_now = datetime(2026, 6, 17, tzinfo=timezone.utc)
 
             def fake_fetch_new_entries(*args: object) -> tuple[list[dict[str, object]], bool, bool]:
-                calls.append(str(args[2]))
+                calls.append(str(args[1]))
                 return responses.pop(0)
 
             patches = [
