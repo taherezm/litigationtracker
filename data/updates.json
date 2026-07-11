@@ -1,5 +1,545 @@
 [
   {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-10",
+    "summary": "Plaintiff Anthropic, PBC filed a consent or declination form indicating whether it agrees to have a U. S. Magistrate Judge preside over the case in place of a District Court Judge. This is a routine administrative filing that reflects Anthropic's stated position on magistrate judge jurisdiction.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "Attorney Daralyn J. Durie filed a notice of appearance in the District Court for the Northern District of California on July 1, 2026, formally entering the case as counsel of record for plaintiff Anthropic, PBC.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "The court filed a report notifying the U. S. Patent and Trademark Office of the filing or determination of an action involving a trademark claim, with a copy of the form mailed to the register as required by federal procedure.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "Plaintiff Anthropic, PBC filed a Corporate Disclosure Statement identifying Google LLC and Amazon Web Services Inc. as corporate affiliates, as required by federal court rules.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "Plaintiff's counsel Joyce Liou filed a proposed summons on July 1, 2026, a standard early-stage administrative step used to formally notify the defendant of the pending lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "Plaintiff Anthropic, PBC filed a complaint against Abnormal AI, Inc. in the Northern District of California, asserting claims for trademark infringement, unfair competition, and false designation of origin.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-06-18",
+    "summary": "The court notified attorney Xiaoming Wang that Document No. 42, a Request for Issuance of Summons, was filed using the wrong event type and must be re-filed using the 'Request for Issuance of Amended Summons' event, with the correct filer information and summons form attached.",
+    "significance": "minor_update",
+    "entry_number": "468093662",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-06-18",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a request asking the court to issue an amended summons naming eight OpenAI-related entities as defendants, several of which appear to have undergone name changes since the original complaint was filed.",
+    "significance": "minor_update",
+    "entry_number": "43",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-06-17",
+    "summary": "Plaintiff Gracenote Media Services, LLC filed a request for issuance of summons against multiple OpenAI-affiliated entities, but the court's docketing system flagged the submission as a filing error due to selection of the wrong event type, leaving the request deficient and subject to correction.",
+    "significance": "minor_update",
+    "entry_number": "42",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-06-16",
+    "summary": "Attorney Xiaoming Wang filed a notice of appearance in federal court in the Southern District of New York, formally entering the case as counsel of record on behalf of plaintiff Gracenote Media Services, LLC.",
+    "significance": "minor_update",
+    "entry_number": "41",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-meta-platforms-inc",
+    "case_name": "Beaulier v. Meta Platforms, Inc.",
+    "entry_date": "2026-06-22",
+    "summary": "Plaintiff Austin Beaulier filed an opposition to Meta Platforms' motion to dismiss the complaint, along with a proposed order, asking the court to deny Meta's motion.",
+    "significance": "minor_update",
+    "entry_number": "29",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "kwon-v-anthropic-pbc",
+    "case_name": "Kwon v. Anthropic PBC",
+    "entry_date": "2026-06-24",
+    "summary": "The judge granted a stipulation agreed to by both parties to pause all pending case deadlines, with the order signed by Judge Noel Wise on June 24, 2026.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-07-07",
+    "summary": "The court rescheduled the motion to dismiss hearing from August 13, 2026 to September 16, 2026 at 9:00 AM before Judge Beth Labson Freeman in San Jose. Opposition briefs are due July 16, 2026, and reply briefs are due August 6, 2026.",
+    "significance": "minor_update",
+    "entry_number": "470487325",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-07-09",
+    "summary": "Attorney Edward Bayley filed a certification confirming that the parties discussed alternative dispute resolution options, as required by the court's ADR local rules.",
+    "significance": "minor_update",
+    "entry_number": "37",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-07-07",
+    "summary": "The court granted a stipulation agreed to by both parties, as signed by Judge Beth Labson Freeman on July 7, 2026. The nature of the stipulation is not specified in this entry.",
+    "significance": "minor_update",
+    "entry_number": "36",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-30",
+    "summary": "Both parties filed a stipulation proposing a briefing schedule for Roblox's upcoming Rule 12 motion to dismiss and requesting that the court reset the hearing date for that motion.",
+    "significance": "minor_update",
+    "entry_number": "35",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-26",
+    "summary": "The court's clerk issued a notice resetting key dates following the case's reassignment to Judge Beth Labson Freeman, scheduling a hearing on Roblox's pending motion to dismiss for August 13, 2026, and an initial case management conference for November 5, 2026, with a joint case management statement due October 29, 2026.",
+    "significance": "minor_update",
+    "entry_number": "34",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-25",
+    "summary": "The court reassigned this case from Judge Jacqueline Scott Corley to Judge Beth Labson Freeman through the court's random case assignment process. All previously scheduled hearing and trial dates are vacated and must be renoticed before Judge Freeman, though existing briefing schedules and other deadlines such as those for discovery and ADR compliance remain in effect.",
+    "significance": "minor_update",
+    "entry_number": "33",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "Judge Jacqueline Scott Corley recused herself from this case on June 24, 2026, meaning a different judge will be assigned to preside over the matter going forward.",
+    "significance": "minor_update",
+    "entry_number": "32",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "Both parties filed a joint stipulation asking the court to either vacate or reschedule the case management conference and related deadlines, and to set a briefing schedule for Roblox's anticipated motion to dismiss under Federal Rule of Civil Procedure 12, supported by a declaration from Roblox's counsel Edward A. Bayley.",
+    "significance": "minor_update",
+    "entry_number": "31",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-07-07",
+    "summary": "The court rescheduled the initial case management conference from July 15, 2026, to September 2, 2026, at 10:00 AM, after reviewing the parties' joint case management statement. The parties may file an updated joint case management statement, if needed, at least two weeks before the rescheduled conference.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-07-06",
+    "summary": "Plaintiff Austin Beaulier filed an opposition to NVIDIA Corporation's motion to dismiss the complaint, responding to NVIDIA's arguments for why the case should be thrown out.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-07-01",
+    "summary": "Plaintiff Austin Beaulier filed a declaration from attorney William J. Edelman, along with two exhibits, opposing NVIDIA's motion to stay discovery while the court considers NVIDIA's pending motion to dismiss.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-07-01",
+    "summary": "Plaintiff Austin Beaulier filed an opposition to NVIDIA's motion to stay discovery while the court considers NVIDIA's pending motion to dismiss. Beaulier's filing contests NVIDIA's request and argues, at least implicitly, that discovery should proceed during that period.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-07-01",
+    "summary": "Both parties, through plaintiff Austin Beaulier's counsel William Edelman, filed a Joint Case Management Statement on July 1, 2026, providing the court with a collaborative update on the status of the case.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-06-24",
+    "summary": "Attorney Katie Lynn Joyce filed an ADR Certification confirming that the parties discussed alternative dispute resolution options, as required by the court's local rules.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-06-22",
+    "summary": "NVIDIA Corporation moves to stay discovery while the court considers its pending motion to dismiss, with opposition responses due July 6, 2026, reply briefs due July 13, 2026, and a hearing scheduled before Judge Eumi K. Lee on September 2, 2026.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "beaulier-v-nvidia-corporation",
+    "case_name": "Beaulier v. NVIDIA Corporation",
+    "entry_date": "2026-06-22",
+    "summary": "NVIDIA Corporation moves to dismiss the plaintiff's complaint, with a hearing scheduled for September 2, 2026; the plaintiff's opposition is due by July 6, 2026, and NVIDIA's reply is due by July 13, 2026.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "Apple filed a Motion to Dismiss on July 1, 2026, with a hearing scheduled for August 6, 2026; Ted Entertainment's opposition is due July 15, 2026, and Apple's reply is due July 22, 2026.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "The court granted a motion allowing attorney Josh Berlowitz to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific proceeding despite not being licensed in the Northern District of California. Chief Judge Richard Seeborg signed the order on June 29, 2026.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "Apple, Inc. filed a motion requesting that attorney Joshua Berlowitz be permitted to appear in this case on a temporary basis as outside counsel, along with a certificate confirming he is in good standing with his home bar and the required filing fee.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "The court granted a motion allowing attorney Joshua L. Simmons to appear in this case on a pro hac vice basis, meaning he is admitted to practice before this court for this matter even though he is not a member of the Northern District of California bar. Chief Judge Richard Seeborg signed the order on June 29, 2026.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-29",
+    "summary": "Chief Judge Richard Seeborg granted a motion allowing attorney Elana Nightingale Dawson to appear in this case on a pro hac vice basis, meaning she is admitted to participate in this specific case despite not being a member of the Northern District of California bar.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Apple, Inc. filed a motion seeking permission for an outside attorney, Joshua Simmons, to appear in this case on its behalf, paying the required $328 filing fee and submitting a Certificate of Good Standing.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Attorney Dale Cendali filed a notice of appearance on behalf of Apple, Inc. , formally entering the case as counsel for the defendant on June 26, 2026.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Apple, Inc. moved for leave to admit attorney Elana Nightingale Dawson to appear in this case on a pro hac vice basis, paying the required $328 filing fee and attaching a certificate of good standing.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Apple, Inc. filed a Certificate of Interested Entities, a standard disclosure identifying parties with a financial interest in the outcome of the case.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Apple filed a Corporate Disclosure Statement on June 26, 2026, as required by federal rules to identify its parent corporations and any publicly held companies owning 10% or more of its stock.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Attorney Nicole Charlene Valco filed a notice of appearance in federal court in the Northern District of California on June 26, 2026, formally entering the case as counsel of record for Apple, Inc.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Attorney Melanie Marilyn Blunschi filed a notice of appearance in federal court on June 26, 2026, formally entering the case as counsel of record on behalf of defendant Apple, Inc.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Attorney Joseph Richard Wetzel filed a notice of appearance in federal court in the Northern District of California on June 26, 2026, indicating that he is joining Apple, Inc. 's legal team in this case.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-06-26",
+    "summary": "Attorney Andrew Michael Gass filed a notice of appearance in federal court on June 26, 2026, formally entering the case as counsel of record for Apple, Inc.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-06-24",
+    "summary": "The court approved a joint stipulation filed by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases involving Anthropic PBC. The court also scheduled a motion to dismiss hearing for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
+    "significance": "minor_update",
+    "entry_number": "70",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-06-24",
+    "summary": "Plaintiff Chicken Soup for the Soul, LLC filed a Joint Case Management Statement, along with two exhibits, on June 24, 2026, likely in preparation for an upcoming case management conference.",
+    "significance": "minor_update",
+    "entry_number": "69",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-07-01",
+    "summary": "The court reassigned this case from Judge Jacqueline Scott Corley to Judge P. Casey Pitts, vacating all previously scheduled hearing and trial dates while leaving existing briefing schedules, discovery cutoffs, and ADR deadlines in place; counsel must renotice any pending motions for hearing before Judge Pitts and update the judicial initials on all future filings.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-06-30",
+    "summary": "The court approved a joint stipulation by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases against Anthropic PBC. A hearing on Anthropic's motion to dismiss is scheduled for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-06-30",
+    "summary": "The court granted, as modified, the plaintiffs' administrative motion asking the court to consider whether this case should be related to case 5:25-cv-10897-PCP, with Judge P. Casey Pitts signing the order on June 30, 2026.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-06-29",
+    "summary": "A group of plaintiffs filed a notice of administrative motion asking the court to consider whether this case should be related to one or more other cases pending in the Northern District of California, along with a joint stipulation as an attachment.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "The Clerk's Office reviewed a pro hac vice motion seeking admission of attorney Phillip E. Morton to appear in this case and found no deficiencies in the submission, which included a $200 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "470232192",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-07",
+    "summary": "The Clerk's Office reviewed a pro hac vice motion seeking to admit attorney Jessica E. Phillips to appear in this case and found no deficiencies in the filing, which was accompanied by a $200 fee.",
+    "significance": "minor_update",
+    "entry_number": "470232195",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-08",
+    "summary": "The Clerk's Office reviewed a pro hac vice motion seeking to admit attorney Mark R. Weinstein to appear in this case and found no deficiencies in the filing. A $200 filing fee was submitted with the motion.",
+    "significance": "minor_update",
+    "entry_number": "470232196",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-08",
+    "summary": "The Clerk's Office reviewed a pro hac vice motion seeking admission of attorney Elizabeth L. Stameshkin to appear in this case, found no deficiencies, and confirmed the $200 filing fee was received.",
+    "significance": "minor_update",
+    "entry_number": "470232197",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-09",
+    "summary": "The court granted a motion allowing attorney Elizabeth L. Stameshkin to appear pro hac vice, permitting her to represent a party in this case despite not being a member of the Southern District of New York bar. Judge P. Kevin Castel issued the order on July 9, 2026.",
+    "significance": "minor_update",
+    "entry_number": "70",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-09",
+    "summary": "The court granted a motion allowing attorney Mark R. Weinstein to appear pro hac vice, permitting him to participate in this case before the Southern District of New York despite not being a member of that court's bar.",
+    "significance": "minor_update",
+    "entry_number": "69",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-09",
+    "summary": "The court granted a motion allowing attorney Jessica E. Phillips to appear pro hac vice, permitting her to represent a party in this case despite not being a member of the Southern District of New York bar.",
+    "significance": "minor_update",
+    "entry_number": "68",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-07",
+    "summary": "Meta Platforms filed a motion seeking permission for attorney Elizabeth L. Stameshkin to appear in this case pro hac vice, meaning she is not admitted to practice in the Southern District of New York but requests leave to participate in this matter. The filing includes a $200 fee, Stameshkin's affidavit, a certificate of good standing, and a proposed order for the court's consideration.",
+    "significance": "minor_update",
+    "entry_number": "67",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-07",
+    "summary": "Meta Platforms filed a motion asking the court to admit attorney Mark R. Weinstein to represent it in this case on a pro hac vice basis, meaning he is not admitted to practice in the Southern District of New York but seeks permission to appear here. The filing includes a $200 fee, Weinstein's affidavit, a certificate of good standing, and a proposed order for the clerk's review.",
+    "significance": "minor_update",
+    "entry_number": "66",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-07",
+    "summary": "Meta Platforms, Inc. filed a motion seeking permission for attorney Jessica E. Phillips to appear pro hac vice, meaning to represent Meta in this case despite not being admitted to practice in the Southern District of New York. The motion, along with supporting documents and a $200 filing fee, has been submitted for review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "65",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-02",
+    "summary": "The court granted a motion allowing attorney Phillip E. Morton to appear pro hac vice, permitting him to participate in this case before the Southern District of New York despite not being a member of that court's bar.",
+    "significance": "minor_update",
+    "entry_number": "64",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-07-01",
+    "summary": "Meta Platforms filed a motion requesting that attorney Phillip E. Morton be admitted pro hac vice to represent it in this case, paying the required $200 filing fee and submitting supporting documents including Morton's affidavit and a certificate of good standing. The motion is pending review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "63",
+    "logged_at": "2026-07-11T14:33:40Z"
+  },
+  {
     "case_id": "apress-media-llc-v-welib",
     "case_name": "Apress Media, LLC v. WeLib",
     "entry_date": "2026-06-16",

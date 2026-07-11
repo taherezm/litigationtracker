@@ -12,7 +12,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Beaulier",
       "defendant": "Meta Platforms, Inc."
@@ -124,21 +124,28 @@
         "raw_text": "Order denying 17 Administrative Motion to Relate Cases. Signed by Judge Charles R. Breyer on June 11, 2026. (crblc2, COURT STAFF) (Filed on 6/11/2026) (Entered: 06/11/2026)",
         "summary": "The court denied the administrative motion to relate cases filed as docket entry 17, meaning this case will not be formally linked to another related proceeding. Judge Charles R. Breyer signed the order on June 11, 2026.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "29",
+        "date": "2026-06-22",
+        "raw_text": "OPPOSITION/RESPONSE (re 21 MOTION to Dismiss Complaint ) filed byAustin Beaulier. (Attachments: # 1 Proposed Order)(Edelman, William) (Filed on 6/22/2026) (Entered: 06/22/2026)",
+        "summary": "Plaintiff Austin Beaulier filed an opposition to Meta Platforms' motion to dismiss the complaint, along with a proposed order, asking the court to deny Meta's motion.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Beaulier filed copyright infringement claims against Meta Platforms, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "plain_language_summary": "Beaulier asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion-to-dismiss practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-06-22): Plaintiff Austin Beaulier filed an opposition to Meta Platforms' motion to dismiss the complaint, along with a proposed order, asking the court to deny Meta's motion.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73020880/beaulier-v-meta-platforms-inc/",
-    "last_updated": "2026-06-21",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-21",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
-      "current_posture": "The case is newly filed.",
+      "current_posture": "The case is in motion-to-dismiss practice.",
       "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-03-26): Plaintiff Austin Beaulier filed a complaint against Meta Platforms, Inc. in the Northern District of California, paying the $405 filing fee to initiate the lawsuit.",
-      "latest_meaningful_event": "Plaintiff Austin Beaulier filed a complaint against Meta Platforms, Inc. in the Northern District of California, paying the $405 filing fee to initiate the lawsuit.",
-      "latest_meaningful_event_date": "2026-03-26",
+      "latest_change": "Latest meaningful event (2026-06-22): Plaintiff Austin Beaulier filed an opposition to Meta Platforms' motion to dismiss the complaint, along with a proposed order, asking the court to deny Meta's motion.",
+      "latest_meaningful_event": "Plaintiff Austin Beaulier filed an opposition to Meta Platforms' motion to dismiss the complaint, along with a proposed order, asking the court to deny Meta's motion.",
+      "latest_meaningful_event_date": "2026-06-22",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -146,8 +153,8 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": null,
       "technology_or_model_at_issue": null,
-      "procedural_stage": "newly_filed",
-      "pending_motion_or_next_event": null,
+      "procedural_stage": "motion_to_dismiss",
+      "pending_motion_or_next_event": "motion to dismiss",
       "related_cases": [],
       "confidence_level": "low",
       "missing_information": [
@@ -164,8 +171,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "1",
-          "date": "2026-03-26"
+          "entry_number": "29",
+          "date": "2026-06-22"
         }
       ]
     }
@@ -337,7 +344,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73359710/tanzer-v-adobe-inc/",
     "last_updated": "2026-06-21",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-21",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Tanzer asserts copyright infringement claims against Adobe Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case has a recent significant ruling.",
@@ -462,21 +469,28 @@
         "raw_text": "CLERK'S NOTICE OF IMPENDING REASSIGNMENT TO A U.S. DISTRICT COURT JUDGE: The Clerk of this Court will now randomly reassign this case to a District Judge because either (1) a party has not consented to the jurisdiction of a Magistrate Judge, or (2) time is of the essence in deciding a pending judicial action for which the necessary consents to Magistrate Judge jurisdiction have not been secured. You will be informed by separate notice of the district judge to whom this case is reassigned. ALL HEARING DATES PRESENTLY SCHEDULED BEFORE THE CURRENT MAGISTRATE JUDGE ARE VACATED AND SHOULD BE RE-NOTICED FOR HEARING BEFORE THE JUDGE TO WHOM THIS CASE IS REASSIGNED. This is a text only docket entry; there is no document associated with this notice. (amg, COURT STAFF) (Filed on 6/4/2026) (Entered: 06/04/2026)",
         "summary": "The Clerk of Court issued a notice that this case will be randomly reassigned from a Magistrate Judge to a District Court Judge because the required consent to Magistrate Judge jurisdiction was not obtained from all parties. All hearings currently scheduled before the Magistrate Judge are vacated and must be rescheduled before the newly assigned District Judge.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-06-24",
+        "raw_text": "ORDER GRANTING 14 STIPULATION TO STAY DEADLINES signed by Judge Noel Wise on 6/24/2026. (akw, COURT STAFF) (Filed on 6/24/2026)",
+        "summary": "The judge granted a stipulation agreed to by both parties to pause all pending case deadlines, with the order signed by Judge Noel Wise on June 24, 2026.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Kwon asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials. The case is stayed: The court granted a stipulation filed by both parties, with modifications, staying the case until either Judge Pitts rules on a related motion or 60 days pass from June 9, 2026, whichever comes first. The court also scheduled a case management conference for September 1, 2026. The case matters because the stay controls when the parties can reach merits discovery or dispositive motions. Latest meaningful event (2026-06-09): The court granted a stipulation filed by both parties, with modifications, staying the case until either Judge Pitts rules on a related motion or 60 days pass from June 9, 2026, whichever comes first. The court also scheduled a case management conference for September 1, 2026.",
+    "plain_language_summary": "Kwon asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials. The case is stayed. The case matters because the stay controls when the parties can reach merits discovery or dispositive motions. Latest meaningful event (2026-06-24): The judge granted a stipulation agreed to by both parties to pause all pending case deadlines, with the order signed by Judge Noel Wise on June 24, 2026.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73352930/kwon-v-anthropic-pbc/",
-    "last_updated": "2026-06-21",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-21",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Kwon asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
-      "current_posture": "The case is stayed: The court granted a stipulation filed by both parties, with modifications, staying the case until either Judge Pitts rules on a related motion or 60 days pass from June 9, 2026, whichever comes first. The court also scheduled a case management conference for September 1, 2026.",
+      "current_posture": "The case is stayed.",
       "why_it_matters": "The case matters because the stay controls when the parties can reach merits discovery or dispositive motions.",
-      "latest_change": "Latest meaningful event (2026-06-09): The court granted a stipulation filed by both parties, with modifications, staying the case until either Judge Pitts rules on a related motion or 60 days pass from June 9, 2026, whichever comes first. The court also scheduled a case management conference for September 1, 2026.",
-      "latest_meaningful_event": "The court granted a stipulation filed by both parties, with modifications, staying the case until either Judge Pitts rules on a related motion or 60 days pass from June 9, 2026, whichever comes first. The court also scheduled a case management conference for September 1, 2026.",
-      "latest_meaningful_event_date": "2026-06-09",
+      "latest_change": "Latest meaningful event (2026-06-24): The judge granted a stipulation agreed to by both parties to pause all pending case deadlines, with the order signed by Judge Noel Wise on June 24, 2026.",
+      "latest_meaningful_event": "The judge granted a stipulation agreed to by both parties to pause all pending case deadlines, with the order signed by Judge Noel Wise on June 24, 2026.",
+      "latest_meaningful_event_date": "2026-06-24",
       "claim_category": "copyright_news_or_publishing",
       "claims_asserted": [
         "copyright infringement"
@@ -485,7 +499,7 @@
       "works_or_data_at_issue": "books, educational, or publishing materials",
       "technology_or_model_at_issue": null,
       "procedural_stage": "stayed",
-      "pending_motion_or_next_event": "case management conference for September 1, 2026",
+      "pending_motion_or_next_event": null,
       "related_cases": [],
       "confidence_level": "low",
       "missing_information": [
@@ -501,8 +515,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "13",
-          "date": "2026-06-09"
+          "entry_number": "16",
+          "date": "2026-06-24"
         }
       ]
     }
@@ -520,7 +534,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Beaulier",
       "defendant": "Roblox Corporation"
@@ -723,21 +737,77 @@
         "raw_text": "ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (Acciavatti, Michael) (Filed on 6/17/2026) (Entered: 06/17/2026)",
         "summary": "Attorney Michael Acciavatti filed an ADR certification confirming that the parties discussed alternative dispute resolution options, as required by the court's local rules.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "470487325",
+        "date": "2026-07-07",
+        "raw_text": "Set/Reset Hearing re 36 Order on Stipulation. Deadlines: Opposition due by 7/16/2026. Replies due by 8/6/2026. Hearing: Motion to Dismiss Hearing 30 set for 8/13/2026, has been reset for 9/16/2026, at 09:00 AM in San Jose, Courtroom 1, 5th Floor before Judge Beth Labson Freeman. (erm, COURT STAFF) (Filed on 7/7/2026)",
+        "summary": "The court rescheduled the motion to dismiss hearing from August 13, 2026 to September 16, 2026 at 9:00 AM before Judge Beth Labson Freeman in San Jose. Opposition briefs are due July 16, 2026, and reply briefs are due August 6, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "37",
+        "date": "2026-07-09",
+        "raw_text": "ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (Bayley, Edward) (Filed on 7/9/2026) (Entered: 07/09/2026)",
+        "summary": "Attorney Edward Bayley filed a certification confirming that the parties discussed alternative dispute resolution options, as required by the court's ADR local rules.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "36",
+        "date": "2026-07-07",
+        "raw_text": "ORDER GRANTING 35 STIPULATION. Signed by Judge Beth Labson Freeman on 7/7/2026. (blflc3, COURT STAFF) (Filed on 7/7/2026) (Entered: 07/07/2026)",
+        "summary": "The court granted a stipulation agreed to by both parties, as signed by Judge Beth Labson Freeman on July 7, 2026. The nature of the stipulation is not specified in this entry.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "35",
+        "date": "2026-06-30",
+        "raw_text": "STIPULATION WITH PROPOSED ORDER Memorializing Briefing Schedule for Roblox's Rule 12 Motion and Requesting Reset of Hearing Date filed by Austin Beaulier. (Edelman, William) (Filed on 6/30/2026) (Entered: 06/30/2026)",
+        "summary": "Both parties filed a stipulation proposing a briefing schedule for Roblox's upcoming Rule 12 motion to dismiss and requesting that the court reset the hearing date for that motion.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "34",
+        "date": "2026-06-26",
+        "raw_text": "CLERKS NOTICE RESETTING MOTION HEARING AND CASE MANAGEMENT CONFERENCE FOLLOWING REASSIGNMENT. Set/Reset Deadlines as to 30 MOTION to Dismiss. Motion to Dismiss Hearing set for 8/13/2026, at 09:00 AM in San Jose, Courtroom 1, 5th Floor before Judge Beth Labson Freeman. Joint Case Management Statement due by 10/29/2026. Initial Case Management Conference set for 11/5/2026, at 11:00 AM Videoconference only before Judge Beth Labson Freeman. See Standing Order for All Judges of the Northern District of California: Contents of Case Management Statement, available at https://www.cand.uscourts.gov/rules/judges-standing-orders/The Court does not issue a revised Initial Case Management Scheduling Order with ADR Deadlines. Standing orders can be downloaded from the court's web page at https://www.cand.uscourts.gov/judges/blf/freeman-beth-l/ . (This is a text-only entry generated by the court. There is no document associated with this entry.) (erm, COURT STAFF) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "The court's clerk issued a notice resetting key dates following the case's reassignment to Judge Beth Labson Freeman, scheduling a hearing on Roblox's pending motion to dismiss for August 13, 2026, and an initial case management conference for November 5, 2026, with a joint case management statement due October 29, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "33",
+        "date": "2026-06-25",
+        "raw_text": "ORDER REASSIGNING CASE IT IS ORDERED that this case is reassigned using a proportionate, random and blind system pursuant to General Order No. 44 to Judge Beth Labson Freeman. Judge Jacqueline Scott Corley no longer assigned to the case. Counsel are instructed that all future filings shall bear the updated judicial initials immediately after the case number. Counsel are reminded to verify the location of the judge on the court website. All hearing and trial dates presently scheduled are vacated. However, existing briefing schedules for motions remain unchanged. Motions must be renoticed for hearing before the judge to whom the case has been reassigned, but the renoticing of the hearing does not affect the prior briefing schedule. Other deadlines such as those for ADR compliance and discovery cutoff also remain unchanged. Notice: The assigned judge participates in the Cameras in the Courtroom Pilot Project. See General Order 65 and cand.uscourts.gov/cameras. Mark B. Busby Clerk, United States District Court (This is a text-only entry generated by the court. There is no document associated with this entry.) (mbc, COURT STAFF) (Filed on 6/25/2026) (Entered: 06/25/2026)",
+        "summary": "The court reassigned this case from Judge Jacqueline Scott Corley to Judge Beth Labson Freeman through the court's random case assignment process. All previously scheduled hearing and trial dates are vacated and must be renoticed before Judge Freeman, though existing briefing schedules and other deadlines such as those for discovery and ADR compliance remain in effect.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "32",
+        "date": "2026-06-24",
+        "raw_text": "ORDER OF RECUSAL. Signed by Judge Jacqueline Scott Corley on 6/24/2026. (ahm, COURT STAFF) (Filed on 6/24/2026) (Entered: 06/24/2026)",
+        "summary": "Judge Jacqueline Scott Corley recused herself from this case on June 24, 2026, meaning a different judge will be assigned to preside over the matter going forward.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "31",
+        "date": "2026-06-24",
+        "raw_text": "STIPULATION WITH PROPOSED ORDER Vacating or Continuing Case Management Conference and Related Deadlines; Setting Briefing Schedule on Roblox's Rule 12 Motion filed by Roblox Corporation. (Attachments: # 1 Declaration of Edward A. Bayley)(Bayley, Edward) (Filed on 6/24/2026) (Entered: 06/24/2026)",
+        "summary": "Both parties filed a joint stipulation asking the court to either vacate or reschedule the case management conference and related deadlines, and to set a briefing schedule for Roblox's anticipated motion to dismiss under Federal Rule of Civil Procedure 12, supported by a declaration from Roblox's counsel Edward A. Bayley.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Beaulier asserts copyright infringement claims against Roblox Corporation, but the parsed materials do not yet identify the specific AI conduct at issue. The case has a recent significant ruling. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-06-15): The court denied a motion to relate this case to case number 26-cv-2632, with that ruling issued on June 11, 2026, and entered on the docket on June 15, 2026. The two cases will proceed separately rather than being consolidated before a single judge.",
+    "plain_language_summary": "Beaulier asserts copyright infringement claims against Roblox Corporation, but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion-to-dismiss practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-07-07): The court rescheduled the motion to dismiss hearing from August 13, 2026 to September 16, 2026 at 9:00 AM before Judge Beth Labson Freeman in San Jose. Opposition briefs are due July 16, 2026, and reply briefs are due August 6, 2026.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73034151/beaulier-v-roblox-corporation/",
-    "last_updated": "2026-06-21",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-21",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against Roblox Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
-      "current_posture": "The case has a recent significant ruling.",
+      "current_posture": "The case is in motion-to-dismiss practice.",
       "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-06-15): The court denied a motion to relate this case to case number 26-cv-2632, with that ruling issued on June 11, 2026, and entered on the docket on June 15, 2026. The two cases will proceed separately rather than being consolidated before a single judge.",
-      "latest_meaningful_event": "The court denied a motion to relate this case to case number 26-cv-2632, with that ruling issued on June 11, 2026, and entered on the docket on June 15, 2026. The two cases will proceed separately rather than being consolidated before a single judge.",
-      "latest_meaningful_event_date": "2026-06-15",
+      "latest_change": "Latest meaningful event (2026-07-07): The court rescheduled the motion to dismiss hearing from August 13, 2026 to September 16, 2026 at 9:00 AM before Judge Beth Labson Freeman in San Jose. Opposition briefs are due July 16, 2026, and reply briefs are due August 6, 2026.",
+      "latest_meaningful_event": "The court rescheduled the motion to dismiss hearing from August 13, 2026 to September 16, 2026 at 9:00 AM before Judge Beth Labson Freeman in San Jose. Opposition briefs are due July 16, 2026, and reply briefs are due August 6, 2026.",
+      "latest_meaningful_event_date": "2026-07-07",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -745,8 +815,8 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": null,
       "technology_or_model_at_issue": null,
-      "procedural_stage": "significant_ruling",
-      "pending_motion_or_next_event": null,
+      "procedural_stage": "motion_to_dismiss",
+      "pending_motion_or_next_event": "motion to dismiss",
       "related_cases": [
         "26-cv-2632"
       ],
@@ -765,8 +835,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "468037704",
-          "date": "2026-06-15"
+          "entry_number": "470487325",
+          "date": "2026-07-07"
         }
       ]
     }
@@ -784,7 +854,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Beaulier",
       "defendant": "NVIDIA Corporation"
@@ -903,21 +973,77 @@
         "raw_text": "NOTICE of Appearance filed by Victor T. Chiu on behalf of NVIDIA Corporation (Chiu, Victor) (Filed on 6/11/2026) (Entered: 06/11/2026)",
         "summary": "Attorney Victor T. Chiu filed a notice of appearance in federal court on behalf of NVIDIA Corporation, formally entering the case as counsel for the defendant.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "27",
+        "date": "2026-07-07",
+        "raw_text": "ORDER: Having reviewed the parties' 23 joint case management statement, the Court CONTINUES the 7/15/2026 initial case management conference to 9/2/2026 at 10:00 AM. The parties may file an updated joint case management statement, if needed, two weeks before the initial case management conference. Entered by Judge Eumi K. Lee on 7/7/2026. (This is a text-only entry generated by the court. There is no document associated with this entry.) (ekllc3, COURT STAFF) (Filed on 7/7/2026) (Entered: 07/07/2026)",
+        "summary": "The court rescheduled the initial case management conference from July 15, 2026, to September 2, 2026, at 10:00 AM, after reviewing the parties' joint case management statement. The parties may file an updated joint case management statement, if needed, at least two weeks before the rescheduled conference.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "26",
+        "date": "2026-07-06",
+        "raw_text": "OPPOSITION/RESPONSE (re 20 MOTION to Dismiss Plaintiff's Complaint ) filed byAustin Beaulier. (Edelman, William) (Filed on 7/6/2026) (Entered: 07/06/2026)",
+        "summary": "Plaintiff Austin Beaulier filed an opposition to NVIDIA Corporation's motion to dismiss the complaint, responding to NVIDIA's arguments for why the case should be thrown out.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "25",
+        "date": "2026-07-01",
+        "raw_text": "DECLARATION of William J. Edelman in Opposition to 21 MOTION to Stay Discovery Pending Resolution of Motion to Dismiss filed byAustin Beaulier. (Attachments: # 1 Exhibit A, # 2 Exhibit B)(Related document(s) 21 ) (Edelman, William) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "Plaintiff Austin Beaulier filed a declaration from attorney William J. Edelman, along with two exhibits, opposing NVIDIA's motion to stay discovery while the court considers NVIDIA's pending motion to dismiss.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "24",
+        "date": "2026-07-01",
+        "raw_text": "OPPOSITION/RESPONSE (re 21 MOTION to Stay Discovery Pending Resolution of Motion to Dismiss ) filed byAustin Beaulier. (Edelman, William) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "Plaintiff Austin Beaulier filed an opposition to NVIDIA's motion to stay discovery while the court considers NVIDIA's pending motion to dismiss. Beaulier's filing contests NVIDIA's request and argues, at least implicitly, that discovery should proceed during that period.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-07-01",
+        "raw_text": "JOINT CASE MANAGEMENT STATEMENT filed by Austin Beaulier. (Edelman, William) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "Both parties, through plaintiff Austin Beaulier's counsel William Edelman, filed a Joint Case Management Statement on July 1, 2026, providing the court with a collaborative update on the status of the case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-06-24",
+        "raw_text": "ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options (Joyce, Katie Lynn) (Filed on 6/24/2026) (Entered: 06/24/2026)",
+        "summary": "Attorney Katie Lynn Joyce filed an ADR Certification confirming that the parties discussed alternative dispute resolution options, as required by the court's local rules.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-06-22",
+        "raw_text": "MOTION to Stay Discovery Pending Resolution of Motion to Dismiss filed by NVIDIA Corporation. Motion Hearing set for 9/2/2026 10:00 AM in San Jose, Courtroom 7, 4th Floor before Judge Eumi K. Lee. Responses due by 7/6/2026. Replies due by 7/13/2026. (Attachments: # 1 Proposed Order)(Joyce, Katie Lynn) (Filed on 6/22/2026) (Entered: 06/22/2026)",
+        "summary": "NVIDIA Corporation moves to stay discovery while the court considers its pending motion to dismiss, with opposition responses due July 6, 2026, reply briefs due July 13, 2026, and a hearing scheduled before Judge Eumi K. Lee on September 2, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-06-22",
+        "raw_text": "MOTION to Dismiss Plaintiff's Complaint filed by NVIDIA Corporation. Motion to Dismiss Hearing set for 9/2/2026 10:00 AM in San Jose, Courtroom 7, 4th Floor. Responses due by 7/6/2026. Replies due by 7/13/2026. (Attachments: # 1 Proposed Order)(Joyce, Katie Lynn) (Filed on 6/22/2026) (Entered: 06/22/2026)",
+        "summary": "NVIDIA Corporation moves to dismiss the plaintiff's complaint, with a hearing scheduled for September 2, 2026; the plaintiff's opposition is due by July 6, 2026, and NVIDIA's reply is due by July 13, 2026.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Beaulier filed copyright infringement claims against NVIDIA Corporation. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "plain_language_summary": "Beaulier asserts copyright infringement claims against NVIDIA Corporation, but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion-to-dismiss practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-07-06): Plaintiff Austin Beaulier filed an opposition to NVIDIA Corporation's motion to dismiss the complaint, responding to NVIDIA's arguments for why the case should be thrown out.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73043521/beaulier-v-nvidia-corporation/",
-    "last_updated": "2026-06-21",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-21",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against NVIDIA Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
-      "current_posture": "The case is newly filed.",
+      "current_posture": "The case is in motion-to-dismiss practice.",
       "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-03-26): Plaintiff Austin Beaulier filed a complaint against NVIDIA Corporation in the Northern District of California, initiating this lawsuit by paying the $405 filing fee on March 26, 2026.",
-      "latest_meaningful_event": "Plaintiff Austin Beaulier filed a complaint against NVIDIA Corporation in the Northern District of California, initiating this lawsuit by paying the $405 filing fee on March 26, 2026.",
-      "latest_meaningful_event_date": "2026-03-26",
+      "latest_change": "Latest meaningful event (2026-07-06): Plaintiff Austin Beaulier filed an opposition to NVIDIA Corporation's motion to dismiss the complaint, responding to NVIDIA's arguments for why the case should be thrown out.",
+      "latest_meaningful_event": "Plaintiff Austin Beaulier filed an opposition to NVIDIA Corporation's motion to dismiss the complaint, responding to NVIDIA's arguments for why the case should be thrown out.",
+      "latest_meaningful_event_date": "2026-07-06",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -925,8 +1051,8 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": null,
       "technology_or_model_at_issue": null,
-      "procedural_stage": "newly_filed",
-      "pending_motion_or_next_event": null,
+      "procedural_stage": "motion_to_dismiss",
+      "pending_motion_or_next_event": "motion to dismiss",
       "related_cases": [],
       "confidence_level": "low",
       "missing_information": [
@@ -943,8 +1069,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "1",
-          "date": "2026-03-26"
+          "entry_number": "26",
+          "date": "2026-07-06"
         }
       ]
     }
@@ -1137,7 +1263,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73061569/beaulier-v-microsoft-corporation/",
     "last_updated": "2026-06-26",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-26",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against Microsoft Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -1189,7 +1315,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Ted Entertainment, Inc.",
       "defendant": "Apple, Inc."
@@ -1287,21 +1413,119 @@
         "raw_text": "COMPLAINT against All Defendants ( Filing fee $ 405, receipt number ACANDC-21834710.). Filed by Ted Entertainment, Inc.. (Attachments: # 1 Exhibit, # 2 Exhibit, # 3 Exhibit)(Bar-Nissim, Rom) (Filed on 4/3/2026) (Entered: 04/03/2026)",
         "summary": "Plaintiff Ted Entertainment, Inc. filed a complaint against Apple, Inc. in the Northern District of California, initiating this lawsuit and paying the $405 filing fee, with three exhibits attached.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "28",
+        "date": "2026-07-01",
+        "raw_text": "MOTION to Dismiss filed by Apple, Inc.. Motion to Dismiss Hearing set for 8/6/2026 01:30 PM in San Francisco, Courtroom 12, 19th Floor. Responses due by 7/15/2026. Replies due by 7/22/2026. (Cendali, Dale) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "Apple filed a Motion to Dismiss on July 1, 2026, with a hearing scheduled for August 6, 2026; Ted Entertainment's opposition is due July 15, 2026, and Apple's reply is due July 22, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "27",
+        "date": "2026-06-29",
+        "raw_text": "Order. Signed 6/29/2026 by Chief Judge Richard Seeborg granting 26 Motion for Pro Hac Vice for Josh Berlowitz.(klh, COURT STAFF) (Filed on 6/29/2026) (Entered: 06/29/2026)",
+        "summary": "The court granted a motion allowing attorney Josh Berlowitz to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific proceeding despite not being licensed in the Northern District of California. Chief Judge Richard Seeborg signed the order on June 29, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "26",
+        "date": "2026-06-29",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22151712.) filed by Apple, Inc.. (Attachments: # 1 Certificate of Good Standing)(Berlowitz, Joshua) (Filed on 6/29/2026) (Entered: 06/29/2026)",
+        "summary": "Apple, Inc. filed a motion requesting that attorney Joshua Berlowitz be permitted to appear in this case on a temporary basis as outside counsel, along with a certificate confirming he is in good standing with his home bar and the required filing fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "25",
+        "date": "2026-06-29",
+        "raw_text": "Order. Signed 6/29/2026 by Chief Judge Richard Seeborg granting 23 Motion for Pro Hac Vice for Joshua L. Simmons.(klh, COURT STAFF) (Filed on 6/29/2026) (Entered: 06/29/2026)",
+        "summary": "The court granted a motion allowing attorney Joshua L. Simmons to appear in this case on a pro hac vice basis, meaning he is admitted to practice before this court for this matter even though he is not a member of the Northern District of California bar. Chief Judge Richard Seeborg signed the order on June 29, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "24",
+        "date": "2026-06-29",
+        "raw_text": "Order. Signed 6/29/2026 by Chief Judge Richard Seeborg granting 21 Motion for Pro Hac Vice for Elana Nightingale Dawson.(klh, COURT STAFF) (Filed on 6/29/2026) (Entered: 06/29/2026)",
+        "summary": "Chief Judge Richard Seeborg granted a motion allowing attorney Elana Nightingale Dawson to appear in this case on a pro hac vice basis, meaning she is admitted to participate in this specific case despite not being a member of the Northern District of California bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-06-26",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22148933.) filed by Apple, Inc.. (Attachments: # 1 Certificate of Good Standing)(Simmons, Joshua) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Apple, Inc. filed a motion seeking permission for an outside attorney, Joshua Simmons, to appear in this case on its behalf, paying the required $328 filing fee and submitting a Certificate of Good Standing.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-06-26",
+        "raw_text": "NOTICE of Appearance filed by Dale Cendali on behalf of Apple, Inc. (Cendali, Dale) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Attorney Dale Cendali filed a notice of appearance on behalf of Apple, Inc. , formally entering the case as counsel for the defendant on June 26, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-06-26",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice for Elana Nightingale Dawson ( Filing fee $ 328, receipt number ACANDC-22147309.) filed by Apple, Inc.. (Attachments: # 1 Certificate of Good Standing)(Nightingale Dawson, Elana) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Apple, Inc. moved for leave to admit attorney Elana Nightingale Dawson to appear in this case on a pro hac vice basis, paying the required $328 filing fee and attaching a certificate of good standing.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-06-26",
+        "raw_text": "Certificate of Interested Entities by Apple, Inc. (Gass, Andrew) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Apple, Inc. filed a Certificate of Interested Entities, a standard disclosure identifying parties with a financial interest in the outcome of the case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "19",
+        "date": "2026-06-26",
+        "raw_text": "Corporate Disclosure Statement by Apple, Inc. (Gass, Andrew) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Apple filed a Corporate Disclosure Statement on June 26, 2026, as required by federal rules to identify its parent corporations and any publicly held companies owning 10% or more of its stock.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-06-26",
+        "raw_text": "NOTICE of Appearance filed by Nicole Charlene Valco on behalf of Apple, Inc. (Valco, Nicole) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Attorney Nicole Charlene Valco filed a notice of appearance in federal court in the Northern District of California on June 26, 2026, formally entering the case as counsel of record for Apple, Inc.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-06-26",
+        "raw_text": "NOTICE of Appearance filed by Melanie Marilyn Blunschi on behalf of Apple, Inc. (Blunschi, Melanie) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Attorney Melanie Marilyn Blunschi filed a notice of appearance in federal court on June 26, 2026, formally entering the case as counsel of record on behalf of defendant Apple, Inc.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-06-26",
+        "raw_text": "NOTICE of Appearance filed by Joseph Richard Wetzel on behalf of Apple, Inc. (Wetzel, Joseph) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Attorney Joseph Richard Wetzel filed a notice of appearance in federal court in the Northern District of California on June 26, 2026, indicating that he is joining Apple, Inc. 's legal team in this case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "15",
+        "date": "2026-06-26",
+        "raw_text": "NOTICE of Appearance filed by Andrew Michael Gass on behalf of Apple, Inc. (Gass, Andrew) (Filed on 6/26/2026) (Entered: 06/26/2026)",
+        "summary": "Attorney Andrew Michael Gass filed a notice of appearance in federal court on June 26, 2026, formally entering the case as counsel of record for Apple, Inc.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Ted Entertainment, Inc. filed copyright infringement claims against Apple, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "plain_language_summary": "Ted Entertainment, Inc. asserts copyright infringement claims against Apple, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion-to-dismiss practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-07-01): Apple filed a Motion to Dismiss on July 1, 2026, with a hearing scheduled for August 6, 2026; Ted Entertainment's opposition is due July 15, 2026, and Apple's reply is due July 22, 2026.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73145933/ted-entertainment-inc-v-apple-inc/",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-26",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Ted Entertainment, Inc. asserts copyright infringement claims against Apple, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
-      "current_posture": "The case is newly filed.",
+      "current_posture": "The case is in motion-to-dismiss practice.",
       "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-04-03): Plaintiff Ted Entertainment, Inc. filed a complaint against Apple, Inc. in the Northern District of California, initiating this lawsuit and paying the $405 filing fee, with three exhibits attached.",
-      "latest_meaningful_event": "Plaintiff Ted Entertainment, Inc. filed a complaint against Apple, Inc. in the Northern District of California, initiating this lawsuit and paying the $405 filing fee, with three exhibits attached.",
-      "latest_meaningful_event_date": "2026-04-03",
+      "latest_change": "Latest meaningful event (2026-07-01): Apple filed a Motion to Dismiss on July 1, 2026, with a hearing scheduled for August 6, 2026; Ted Entertainment's opposition is due July 15, 2026, and Apple's reply is due July 22, 2026.",
+      "latest_meaningful_event": "Apple filed a Motion to Dismiss on July 1, 2026, with a hearing scheduled for August 6, 2026; Ted Entertainment's opposition is due July 15, 2026, and Apple's reply is due July 22, 2026.",
+      "latest_meaningful_event_date": "2026-07-01",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -1309,8 +1533,8 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": null,
       "technology_or_model_at_issue": null,
-      "procedural_stage": "newly_filed",
-      "pending_motion_or_next_event": null,
+      "procedural_stage": "motion_to_dismiss",
+      "pending_motion_or_next_event": "motion to dismiss",
       "related_cases": [],
       "confidence_level": "low",
       "missing_information": [
@@ -1327,8 +1551,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "1",
-          "date": "2026-04-03"
+          "entry_number": "28",
+          "date": "2026-07-01"
         }
       ]
     }
@@ -1346,7 +1570,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Chicken Soup for the Soul, LLC",
       "defendant": "Meta Platforms Inc."
@@ -1381,21 +1605,35 @@
         "raw_text": "AMENDED COMPLAINT against Meta Platforms Inc.. Filed by Chicken Soup for the Soul, LLC. (Attachments: # 1 Exhibit A)(Brannen, Elizabeth) (Filed on 6/5/2026) (Entered: 06/05/2026)",
         "summary": "Plaintiff Chicken Soup for the Soul, LLC filed an amended complaint against Meta Platforms Inc. , along with one exhibit, updating its earlier pleading with revised or additional allegations.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "70",
+        "date": "2026-06-24",
+        "raw_text": "JOINT STIPULATION TO EXTEND TIME TO AMEND THE PLEADINGS, TO RESPOND TO THE AMENDED PLEADINGS, AND TO RELATE CASES AGAINST ANTHROPIC PBC Motion to Dismiss Hearing set for 12/10/2026, at 10:00 AM in San Jose, Courtroom 8, 4th Floor before Judge P. Casey Pitts. Signed by Judge P. Casey Pitts on 06/24/2026. (erm, COURT STAFF) (Filed on 6/24/2026). (Entered: 06/30/2026)",
+        "summary": "The court approved a joint stipulation filed by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases involving Anthropic PBC. The court also scheduled a motion to dismiss hearing for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "69",
+        "date": "2026-06-24",
+        "raw_text": "JOINT CASE MANAGEMENT STATEMENT filed by Chicken Soup for the Soul, LLC. (Attachments: # 1 Exhibit A, # 2 Exhibit B)(Brannen, Elizabeth) (Filed on 6/24/2026) (Entered: 06/24/2026)",
+        "summary": "Plaintiff Chicken Soup for the Soul, LLC filed a Joint Case Management Statement, along with two exhibits, on June 24, 2026, likely in preparation for an upcoming case management conference.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Chicken Soup for the Soul, LLC filed copyright infringement claims against Meta Platforms Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "plain_language_summary": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Meta Platforms Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion-to-dismiss practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-06-24): The court approved a joint stipulation filed by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases involving Anthropic PBC. The court also scheduled a motion to dismiss hearing for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/",
-    "last_updated": "2026-06-26",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-26",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Meta Platforms Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
-      "current_posture": "The case is newly filed.",
+      "current_posture": "The case is in motion-to-dismiss practice.",
       "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-06-05): Plaintiff Chicken Soup for the Soul, LLC filed an amended complaint against Meta Platforms Inc. , along with one exhibit, updating its earlier pleading with revised or additional allegations.",
-      "latest_meaningful_event": "Plaintiff Chicken Soup for the Soul, LLC filed an amended complaint against Meta Platforms Inc. , along with one exhibit, updating its earlier pleading with revised or additional allegations.",
-      "latest_meaningful_event_date": "2026-06-05",
+      "latest_change": "Latest meaningful event (2026-06-24): The court approved a joint stipulation filed by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases involving Anthropic PBC. The court also scheduled a motion to dismiss hearing for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
+      "latest_meaningful_event": "The court approved a joint stipulation filed by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases involving Anthropic PBC. The court also scheduled a motion to dismiss hearing for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
+      "latest_meaningful_event_date": "2026-06-24",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -1403,8 +1641,8 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": null,
       "technology_or_model_at_issue": null,
-      "procedural_stage": "newly_filed",
-      "pending_motion_or_next_event": null,
+      "procedural_stage": "motion_to_dismiss",
+      "pending_motion_or_next_event": "motion to dismiss",
       "related_cases": [],
       "confidence_level": "low",
       "missing_information": [
@@ -1421,8 +1659,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "63",
-          "date": "2026-06-05"
+          "entry_number": "70",
+          "date": "2026-06-24"
         }
       ]
     }
@@ -1517,21 +1755,49 @@
         "raw_text": "CLERK'S NOTICE OF IMPENDING REASSIGNMENT TO A U.S. DISTRICT COURT JUDGE: The Clerk of this Court will now randomly reassign this case to a District Judge because either (1) a party has not consented to the jurisdiction of a Magistrate Judge, or (2) time is of the essence in deciding a pending judicial action for which the necessary consents to Magistrate Judge jurisdiction have not been secured. You will be informed by separate notice of the district judge to whom this case is reassigned. ALL HEARING DATES PRESENTLY SCHEDULED BEFORE THE CURRENT MAGISTRATE JUDGE ARE VACATED AND SHOULD BE RE-NOTICED FOR HEARING BEFORE THE JUDGE TO WHOM THIS CASE IS REASSIGNED. This is a text only docket entry; there is no document associated with this notice. (rap, COURT STAFF) (Filed on 6/5/2026) (Entered: 06/05/2026)",
         "summary": "The Clerk of Court issued a notice that this case will be randomly reassigned from the current Magistrate Judge to a U. S. District Court Judge, because at least one party has not consented to Magistrate Judge jurisdiction. All hearings currently scheduled before the Magistrate Judge are vacated and must be rescheduled before the newly assigned District Judge.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "19",
+        "date": "2026-07-01",
+        "raw_text": "ORDER REASSIGNING CASE IT IS ORDERED that this case is directly assigned to Judge P. Casey Pitts. Judge Jacqueline Scott Corley no longer assigned to the case. Counsel are instructed that all future filings shall bear the updated judicial initials immediately after the case number. Counsel are reminded to verify the location of the judge on the court website. All hearing and trial dates presently scheduled are vacated. However, existing briefing schedules for motions remain unchanged. Motions must be renoticed for hearing before the judge to whom the case has been reassigned, but the renoticing of the hearing does not affect the prior briefing schedule. Other deadlines such as those for ADR compliance and discovery cutoff also remain unchanged. Notice: The assigned judge participates in the Cameras in the Courtroom Pilot Project. See General Order 65 and cand.uscourts.gov/cameras. Mark B. Busby Clerk, United States District Court (This is a text-only entry generated by the court. There is no document associated with this entry.) (chh, COURT STAFF) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "The court reassigned this case from Judge Jacqueline Scott Corley to Judge P. Casey Pitts, vacating all previously scheduled hearing and trial dates while leaving existing briefing schedules, discovery cutoffs, and ADR deadlines in place; counsel must renotice any pending motions for hearing before Judge Pitts and update the judicial initials on all future filings.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-06-30",
+        "raw_text": "JOINT STIPULATION TO EXTEND TIME TO AMEND THE PLEADINGS, TO RESPOND TO THE AMENDED PLEADINGS, AND TO RELATE CASES AGAINST ANTHROPIC PBC Motion to Dismiss Hearing set for 12/10/2026, at 10:00 AM in San Jose, Courtroom 8, 4th Floor before Judge P. Casey Pitts. Signed by Judge P. Casey Pitts on 06/24/2026. (erm, COURT STAFF) (Filed on 6/24/2026). (Entered: 06/30/2026)",
+        "summary": "The court approved a joint stipulation by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases against Anthropic PBC. A hearing on Anthropic's motion to dismiss is scheduled for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-06-30",
+        "raw_text": "ORDER GRANTING *AS MODIFIED* 199 (in case 5:25-cv-10897-PCP) PLAINTIFFS ADMINISTRATIVE MOTION TO CONSIDER WHETHER CASES SHOULD BE RELATED. Signed by Judge P. Casey Pitts on 6/30/2026. (crr, COURT STAFF) (Filed on 6/30/2026) (Entered: 06/30/2026)",
+        "summary": "The court granted, as modified, the plaintiffs' administrative motion asking the court to consider whether this case should be related to case 5:25-cv-10897-PCP, with Judge P. Casey Pitts signing the order on June 30, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-06-29",
+        "raw_text": "NOTICE by Sean Arbabi, Ascalon, LLC, Martin Atkins, Michael Ault, Jacob Bernstein, Matt Birkbeck, Charles Blackstone, Warren Bobrow, Jim Campbell, Dennis Carstens, Kerry Chance, Sinan Ciddi, Brian Copeland, Angie Cruz, Carolina De Robertis, Jaquira Diaz, Dave Eggers, John Ferejohn, Walter Gmelch, Nicole Gonzalez Van Cleve, Michael Goodrich, Ron Hall, Marla Heller, Daniel James, Lynn Sonberg Book Associates, Lynn Sonberg, Vendela Vida, Aya de Leon (Notice of Administrative Motion to Consider Whether Cases Should be Related (L.R. 3-12(b)) (Attachments: # 1 Exhibit A - Administrative Motion to Consider Whether Cases Should Be Related, # 2 Exhibit B - Joint Stipulation)(Brannen, Elizabeth) (Filed on 6/29/2026) (Entered: 06/29/2026)",
+        "summary": "A group of plaintiffs filed a notice of administrative motion asking the court to consider whether this case should be related to one or more other cases pending in the Northern District of California, along with a joint stipulation as an attachment.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Cruz asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials. The case is stayed. The case matters because the stay controls when the parties can reach merits discovery or dispositive motions. Latest meaningful event (2026-06-09): The judge granted a joint request by both parties to pause all deadlines and proceedings in the case. The case is now on hold pending further order of the court.",
+    "plain_language_summary": "Cruz asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials. The case is stayed. The case matters because it may affect how related AI litigation is coordinated before merits rulings. Latest meaningful event (2026-06-30): The court approved a joint stipulation by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases against Anthropic PBC. A hearing on Anthropic's motion to dismiss is scheduled for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73339887/cruz-v-anthropic-pbc/",
-    "last_updated": "2026-06-26",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-26",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Cruz asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is stayed.",
-      "why_it_matters": "The case matters because the stay controls when the parties can reach merits discovery or dispositive motions.",
-      "latest_change": "Latest meaningful event (2026-06-09): The judge granted a joint request by both parties to pause all deadlines and proceedings in the case. The case is now on hold pending further order of the court.",
-      "latest_meaningful_event": "The judge granted a joint request by both parties to pause all deadlines and proceedings in the case. The case is now on hold pending further order of the court.",
-      "latest_meaningful_event_date": "2026-06-09",
+      "why_it_matters": "The case matters because it may affect how related AI litigation is coordinated before merits rulings.",
+      "latest_change": "Latest meaningful event (2026-06-30): The court approved a joint stipulation by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases against Anthropic PBC. A hearing on Anthropic's motion to dismiss is scheduled for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
+      "latest_meaningful_event": "The court approved a joint stipulation by both parties to extend deadlines for amending the pleadings and responding to amended pleadings, and to relate cases against Anthropic PBC. A hearing on Anthropic's motion to dismiss is scheduled for December 10, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose.",
+      "latest_meaningful_event_date": "2026-06-30",
       "claim_category": "copyright_news_or_publishing",
       "claims_asserted": [
         "copyright infringement"
@@ -1541,7 +1807,10 @@
       "technology_or_model_at_issue": null,
       "procedural_stage": "stayed",
       "pending_motion_or_next_event": null,
-      "related_cases": [],
+      "related_cases": [
+        "5:25-cv-10897-PCP",
+        "25-cv-10897-PCP"
+      ],
       "confidence_level": "low",
       "missing_information": [
         "Specific AI-related conduct is not identified in the parsed docket metadata.",
@@ -1556,8 +1825,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "12",
-          "date": "2026-06-09"
+          "entry_number": "18",
+          "date": "2026-06-30"
         }
       ]
     }
@@ -1638,7 +1907,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73294478/cognella-inc-v-anthropic-pbc/",
     "last_updated": "2026-06-26",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-06-26",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Cognella, Inc. asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is stayed: The court granted the parties' joint stipulation and ordered this case stayed. Within 14 days of Judge Pitts issuing a ruling on unspecified severance motions in a related proceeding, both parties must file a joint statement proposing how to resume this action.",
@@ -1738,7 +2007,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73391100/david-vance-gardner-v-runway-ai-inc/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-07-01",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "David Vance Gardner asserts copyright infringement claims against Runway AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -1893,7 +2162,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73314131/chicken-soup-for-the-soul-llc-v-anthropic-pbc/",
     "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-07-01",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Anthropic PBC, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is stayed: Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16.",
@@ -2008,7 +2277,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72344359/businessing-llc-v-runway-ai-inc/",
     "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-07-01",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Businessing LLC asserts copyright infringement claims against Runway AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -2195,7 +2464,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73328849/poseidon-wave-media-llc-v-suno-inc/",
     "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-07-01",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Poseidon Wave Media LLC asserts copyright infringement claims against Suno, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -2394,14 +2663,98 @@
         "raw_text": "LETTER addressed to Judge P. Kevin Castel from Jenifer N. Hartley dated June 5, 2026 re: Pre-Motion Letter Concerning Anticipated Motion to Transfer. Document filed by Meta Platforms, Inc...(Hartley, Jenifer) (Entered: 06/05/2026)",
         "summary": "Meta Platforms filed a pre-motion letter with Judge P. Kevin Castel on June 5, 2026, signaling its intent to move to transfer the case to a different federal court.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "470232192",
+        "date": "2026-07-01",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 63 MOTION for Phillip E. Morton to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33076431. Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (bc)",
+        "summary": "The Clerk's Office reviewed a pro hac vice motion seeking admission of attorney Phillip E. Morton to appear in this case and found no deficiencies in the submission, which included a $200 filing fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "470232195",
+        "date": "2026-07-07",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 65 MOTION for Jessica E. Phillips to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33098091. Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (bc)",
+        "summary": "The Clerk's Office reviewed a pro hac vice motion seeking to admit attorney Jessica E. Phillips to appear in this case and found no deficiencies in the filing, which was accompanied by a $200 fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "470232196",
+        "date": "2026-07-08",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 66 MOTION for Mark R. Weinstein to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101858. Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (rju)",
+        "summary": "The Clerk's Office reviewed a pro hac vice motion seeking to admit attorney Mark R. Weinstein to appear in this case and found no deficiencies in the filing. A $200 filing fee was submitted with the motion.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "470232197",
+        "date": "2026-07-08",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 67 MOTION for Elizabeth L. Stameshkin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101868. Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. (rju)",
+        "summary": "The Clerk's Office reviewed a pro hac vice motion seeking admission of attorney Elizabeth L. Stameshkin to appear in this case, found no deficiencies, and confirmed the $200 filing fee was received.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "70",
+        "date": "2026-07-09",
+        "raw_text": "ORDER granting 67 Motion for Elizabeth L. Stameshkin to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 07/09/2026)",
+        "summary": "The court granted a motion allowing attorney Elizabeth L. Stameshkin to appear pro hac vice, permitting her to represent a party in this case despite not being a member of the Southern District of New York bar. Judge P. Kevin Castel issued the order on July 9, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "69",
+        "date": "2026-07-09",
+        "raw_text": "ORDER granting 66 Motion for Mark R. Weinstein to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 07/09/2026)",
+        "summary": "The court granted a motion allowing attorney Mark R. Weinstein to appear pro hac vice, permitting him to participate in this case before the Southern District of New York despite not being a member of that court's bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "68",
+        "date": "2026-07-09",
+        "raw_text": "ORDER granting 65 Motion for Jessica E. Phillips to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 07/09/2026)",
+        "summary": "The court granted a motion allowing attorney Jessica E. Phillips to appear pro hac vice, permitting her to represent a party in this case despite not being a member of the Southern District of New York bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "67",
+        "date": "2026-07-07",
+        "raw_text": "MOTION for Elizabeth L. Stameshkin to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101868. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta Platforms, Inc.. (Attachments: # 1 Affidavit Elizabeth L. Stameshkin, # 2 Exhibit Certificate of Good Standing, # 3 Proposed Order Proposed Order).(Stameshkin, Elizabeth) (Entered: 07/07/2026)",
+        "summary": "Meta Platforms filed a motion seeking permission for attorney Elizabeth L. Stameshkin to appear in this case pro hac vice, meaning she is not admitted to practice in the Southern District of New York but requests leave to participate in this matter. The filing includes a $200 fee, Stameshkin's affidavit, a certificate of good standing, and a proposed order for the court's consideration.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "66",
+        "date": "2026-07-07",
+        "raw_text": "MOTION for Mark R. Weinstein to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33101858. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta Platforms, Inc.. (Attachments: # 1 Affidavit Mark R. Weinstein, # 2 Exhibit Certificate of Good Standing, # 3 Proposed Order Proposed Order).(Weinstein, Mark) (Entered: 07/07/2026)",
+        "summary": "Meta Platforms filed a motion asking the court to admit attorney Mark R. Weinstein to represent it in this case on a pro hac vice basis, meaning he is not admitted to practice in the Southern District of New York but seeks permission to appear here. The filing includes a $200 fee, Weinstein's affidavit, a certificate of good standing, and a proposed order for the clerk's review.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "65",
+        "date": "2026-07-07",
+        "raw_text": "MOTION for Jessica E. Phillips to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33098091. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta Platforms, Inc.. (Attachments: # 1 Affidavit of Jessica Phillips ISO Motion for Admission Pro Hac Vice, # 2 Exhibit DC COGS, # 3 Exhibit IL COGS, # 4 Proposed Order on Motion for Admission Pro Hac Vice).(Phillips, Jessica) (Entered: 07/07/2026)",
+        "summary": "Meta Platforms, Inc. filed a motion seeking permission for attorney Jessica E. Phillips to appear pro hac vice, meaning to represent Meta in this case despite not being admitted to practice in the Southern District of New York. The motion, along with supporting documents and a $200 filing fee, has been submitted for review by the Clerk's Office.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "64",
+        "date": "2026-07-02",
+        "raw_text": "ORDER granting 63 Motion for Phillip E. Morton to Appear Pro Hac Vice (HEREBY ORDERED by Judge P. Kevin Castel)(Text Only Order) (Nacanther, Florence) (Entered: 07/02/2026)",
+        "summary": "The court granted a motion allowing attorney Phillip E. Morton to appear pro hac vice, permitting him to participate in this case before the Southern District of New York despite not being a member of that court's bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "63",
+        "date": "2026-07-01",
+        "raw_text": "MOTION for Phillip E. Morton to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33076431. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Meta Platforms, Inc.. (Attachments: # 1 Affidavit Phillip E. Morton, # 2 Exhibit Certificate of Good Standing, # 3 Proposed Order Proposed Order).(Morton, Phillip) (Entered: 07/01/2026)",
+        "summary": "Meta Platforms filed a motion requesting that attorney Phillip E. Morton be admitted pro hac vice to represent it in this case, paying the required $200 filing fee and submitting supporting documents including Morton's affidavit and a certificate of good standing. The motion is pending review by the Clerk's Office.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. involving books, educational, or publishing materials. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-06-26): Meta Platforms filed a declaration by attorney Phillip E. Morton in support of its motion to transfer the case from the Southern District of New York to the Northern District of California, attaching LinkedIn profiles of fifteen individuals—including Meta employees and executives—apparently to show that key witnesses or personnel are located in California.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73294740/elsevier-inc-v-meta-platforms-inc/",
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-07-01",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. involving books, educational, or publishing materials.",
       "current_posture": "The case is in motion practice.",
@@ -2550,7 +2903,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73284844/carreyrou-v-openai-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-07-06",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Carreyrou asserts copyright infringement claims against OpenAI, Inc. involving news or journalism content and Project Giraffe.",
       "current_posture": "The case has a recent significant ruling.",
@@ -2639,7 +2992,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73384790/hobbs-v-meta-platforms-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-07-06",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Hobbs asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is newly filed.",
@@ -2880,7 +3233,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73145732/ted-entertainment-inc-v-openai-inc/",
     "last_updated": "2026-07-06",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-07-06",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Ted Entertainment, Inc. asserts copyright infringement claims against OpenAI Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -2953,7 +3306,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73243293/seiu-pension-plan-master-trust-v-adobe-inc/",
     "last_updated": "2026-07-06",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-07-06",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "SEIU Pension Plan Master Trust asserts copyright infringement claims against Adobe Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in early service or case-administration steps.",
@@ -3341,7 +3694,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72492986/encyclopaedia-britannica-inc-v-openai-inc/",
     "last_updated": "2026-07-06",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-07-06",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Encyclopaedia Britannica, Inc. asserts copyright infringement claims against OpenAI, Inc. over alleged AI-generated output involving news or journalism content and Project Giraffe.",
       "current_posture": "The case is stayed.",
@@ -3463,7 +3816,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73399431/tesseract-systems-llc-v-soundhound-inc/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Tesseract Systems LLC asserts patent infringement claims against SoundHound, Inc. involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -3577,7 +3930,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72392052/poulin-holdings-llc-v-databricks-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Poulin Holdings, LLC asserts patent infringement claims against Databricks, Inc. involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -3705,7 +4058,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72377338/kogon-v-google-llc/",
     "last_updated": "2026-07-10",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Kogon asserts copyright infringement claims against Google, LLC, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -3770,7 +4123,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73446028/american-federation-of-musicians-of-the-united-states-and-canada-v/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "American Federation of Musicians of the United States and Canada asserts copyright infringement claims against UNIVERSAL MUSIC GROUP, INC. involving music, audio, or sound-recording works.",
       "current_posture": "The case is newly filed.",
@@ -3911,7 +4264,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73166286/valtrus-innovations-limited-v-lumen-technologies-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Valtrus Innovations Limited asserts patent infringement claims against Lumen Technologies, Inc. involving patented software or technology.",
       "current_posture": "The case is in early service or case-administration steps.",
@@ -4200,7 +4553,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72505829/bmg-rights-management-us-llc-v-anthropic-pbc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "BMG Rights Management (US) LLC asserts copyright infringement claims against Anthropic PBC, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -4819,7 +5172,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72379655/anthropic-pbc-v-us-department-of-war/",
     "last_updated": "2026-07-10",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Anthropic PBC asserts copyright infringement claims against U.S. Department of War, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -5248,7 +5601,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72502129/amazoncom-services-llc-v-perplexity-ai-inc/",
     "last_updated": "2026-07-10",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Amazon.com Services, LLC asserts copyright infringement claims against Perplexity AI, Inc. involving music, audio, or sound-recording works and Perplexity AI.",
       "current_posture": "The case is on appeal.",
@@ -5396,7 +5749,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
     "last_updated": "2026-07-10",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Cable News Network Inc asserts copyright infringement claims against Perplexity AI, Inc. involving news or journalism content and Perplexity AI.",
       "current_posture": "The case has a recent significant ruling.",
@@ -5502,7 +5855,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73231690/true-footage-inc-v-automax-ai-inc/",
     "last_updated": "2026-07-10",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "True Footage Inc. asserts copyright infringement claims against Automax AI Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -5567,7 +5920,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72518947/xai-llc-v-bonta/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "X.AI LLC asserts trade secret claims against Bonta involving confidential or trade-secret information.",
       "current_posture": "The case is newly filed.",
@@ -6006,14 +6359,42 @@
         "raw_text": "COMPLAINT against OAI Corporation, LLC, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global, LLC, OpenAI Group PBC, OpenAI Holdings, LLC, OpenAI OpCo, LLC. (Filing Fee $ 405.00, Receipt Number ANYSDC-32519099)Document filed by Gracenote Media Services, LLC. (Attachments: # 1 Exhibit Copyright Registration).(Barron, Elisha) (Entered: 03/10/2026)",
         "summary": "Plaintiff Gracenote Media Services, LLC filed a complaint against eight OpenAI entities in the Southern District of New York, attaching a copyright registration exhibit in support of its claims.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "468093662",
+        "date": "2026-06-18",
+        "raw_text": "***NOTICE TO ATTORNEY REGARDING DEFICIENT REQUEST FOR ISSUANCE OF SUMMONS. Notice to Attorney Xiaoming Wang to RE-FILE Document No. 42 Request for Issuance of Summons,. The filing is deficient for the following reason(s): the wrong event type was used to file the request for issuance of summons;. Re-file the document using the event type Request for Issuance of Amended Summons found under the event list Service of Process - select the correct filer/filers - and attach the correct summons form PDF. (pc)",
+        "summary": "The court notified attorney Xiaoming Wang that Document No. 42, a Request for Issuance of Summons, was filed using the wrong event type and must be re-filed using the 'Request for Issuance of Amended Summons' event, with the correct filer information and summons form attached.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "43",
+        "date": "2026-06-18",
+        "raw_text": "REQUEST FOR ISSUANCE OF AMENDED SUMMONS as to OPENAI FOUNDATION (f/k/a OPENAI, INC.), OPENAI GROUP PBC, OPENAI GP, LLC, OAI INTERNATIONAL, INC. (f/k/a OPENAI, LLC), OPENAI OPCO, LLC, OPENAI GLOBAL, LLC, OAI CORPORATION (f/k/a OAI CORPORATION, LLC), and OPENAI HOLDINGS, LLC, re: 1 Complaint,. Document filed by Gracenote Media Services, LLC..(Wang, Xiaoming) (Entered: 06/18/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a request asking the court to issue an amended summons naming eight OpenAI-related entities as defendants, several of which appear to have undergone name changes since the original complaint was filed.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "42",
+        "date": "2026-06-17",
+        "raw_text": "FILING ERROR - DEFICIENT PLEADING - SUMMONS REQUESTED - WRONG EVENT TYPE SELECTED FROM MENU - REQUEST FOR ISSUANCE OF SUMMONS as to OPENAI FOUNDATION (f/k/a OPENAI, INC.), OPENAI GROUP PBC, OPENAI GP, LLC, OAI INTERNATIONAL, INC. (f/k/a OPENAI, LLC), OPENAI OPCO, LLC, OPENAI GLOBAL, LLC, OAI CORPORATION (f/k/a OAI CORPORATION, LLC), and OPENAI HOLDINGS, LLC, re: 1 Complaint,. Document filed by Gracenote Media Services, LLC..(Wang, Xiaoming) Modified on 6/18/2026 (pc). (Entered: 06/17/2026)",
+        "summary": "Plaintiff Gracenote Media Services, LLC filed a request for issuance of summons against multiple OpenAI-affiliated entities, but the court's docketing system flagged the submission as a filing error due to selection of the wrong event type, leaving the request deficient and subject to correction.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "41",
+        "date": "2026-06-16",
+        "raw_text": "NOTICE OF APPEARANCE by Xiaoming Wang on behalf of Gracenote Media Services, LLC..(Wang, Xiaoming) (Entered: 06/16/2026)",
+        "summary": "Attorney Xiaoming Wang filed a notice of appearance in federal court in the Southern District of New York, formally entering the case as counsel of record on behalf of plaintiff Gracenote Media Services, LLC.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "Gracenote Media Services, LLC asserts copyright infringement claims against OpenAI Foundation over alleged AI-generated output involving news or journalism content and Project Giraffe. The case is stayed. The case matters because it may affect how related AI litigation is coordinated before merits rulings. Latest meaningful event (2026-05-15): The court issued an order following a May 12, 2026 discovery status conference across several consolidated cases, granting one motion to compel related to 'Project Giraffe' evaluation data, denying two other motions to compel without prejudice, and directing the parties to meet and confer and file supplemental briefs on several remaining discovery disputes involving survey data, Microsoft financials, and a proposed protective order amendment.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72384605/gracenote-media-services-llc-v-openai-foundation/",
-    "last_updated": "2026-06-16",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-06-16",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Gracenote Media Services, LLC asserts copyright infringement claims against OpenAI Foundation over alleged AI-generated output involving news or journalism content and Project Giraffe.",
       "current_posture": "The case is stayed.",
@@ -6156,7 +6537,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72495765/doe-1-v-xai-corp/",
     "last_updated": "2026-06-16",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Doe 1 asserts privacy or consumer protection claims against X.AI Corp. over alleged collection or use of personal data in AI systems involving personal or biometric data.",
       "current_posture": "The case has a recent significant ruling.",
@@ -6224,7 +6605,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73237887/semantic-engines-llc-v-microsoft-corporation/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Semantic Engines LLC asserts patent infringement claims against Microsoft Corporation involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -6351,7 +6732,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73488419/apress-media-llc-v-welib/",
     "last_updated": "2026-07-10",
     "discovered_date": "2026-06-16",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Apress Media, LLC asserts copyright infringement claims against WeLib involving books, educational, or publishing materials.",
       "current_posture": "The case is in motion practice.",
@@ -6528,7 +6909,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
     "last_updated": "2026-07-10",
     "discovered_date": "2026-06-21",
-    "docket_last_checked": "2026-07-10",
+    "docket_last_checked": "2026-07-11",
     "case_intelligence": {
       "case_theory": "Shakespeare asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is newly filed.",
@@ -6970,7 +7351,7 @@
         }
       ]
     },
-    "docket_last_checked": "2026-07-10"
+    "docket_last_checked": "2026-07-11"
   },
   {
     "id": "s-a-jamendo-v-suno-inc",
@@ -7080,7 +7461,7 @@
       ]
     },
     "plain_language_summary": "S.A. Jamendo filed copyright infringement claims against Suno Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-07-10"
+    "docket_last_checked": "2026-07-11"
   },
   {
     "id": "dow-jones-company-inc-v-abbeel",
@@ -7217,7 +7598,7 @@
       ]
     },
     "plain_language_summary": "Dow Jones & Company, Inc. asserts copyright infringement claims against Abbeel involving Perplexity AI. The case is in discovery. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-06-29): Plaintiffs Dow Jones & Company, Inc. and NYP Holdings, Inc. filed a certificate of service confirming that their motion to compel was served on the opposing party.",
-    "docket_last_checked": "2026-07-10"
+    "docket_last_checked": "2026-07-11"
   },
   {
     "id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
@@ -7360,7 +7741,7 @@
       ]
     },
     "plain_language_summary": "EVOX PRODUCTIONS LLC, a Delaware limited liability company filed copyright infringement claims against Stability AI, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-07-10"
+    "docket_last_checked": "2026-07-11"
   },
   {
     "id": "anthropic-pbc-v-abnormal-ai-inc",
@@ -7433,19 +7814,61 @@
         "raw_text": "NOTICE of Appearance filed by Jack William Haisman on behalf of Anthropic, PBC (Haisman, Jack) (Filed on 7/1/2026) (Entered: 07/01/2026)",
         "summary": "Attorney Jack William Haisman filed a notice of appearance in federal court in the Northern District of California, formally entering the case as counsel for plaintiff Anthropic, PBC.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "12",
+        "date": "2026-07-10",
+        "raw_text": "CONSENT/DECLINATION to Proceed Before a US Magistrate Judge by Anthropic, PBC.. (Liou, Joyce) (Filed on 7/10/2026) (Entered: 07/10/2026)",
+        "summary": "Plaintiff Anthropic, PBC filed a consent or declination form indicating whether it agrees to have a U. S. Magistrate Judge preside over the case in place of a District Court Judge. This is a routine administrative filing that reflects Anthropic's stated position on magistrate judge jurisdiction.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "5",
+        "date": "2026-07-01",
+        "raw_text": "NOTICE of Appearance filed by Daralyn J. Durie on behalf of Anthropic, PBC (Durie, Daralyn) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "Attorney Daralyn J. Durie filed a notice of appearance in the District Court for the Northern District of California on July 1, 2026, formally entering the case as counsel of record for plaintiff Anthropic, PBC.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "4",
+        "date": "2026-07-01",
+        "raw_text": "REPORT on the filing or determination of an action regarding a trademark (cc: form mailed to register). (Liou, Joyce) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "The court filed a report notifying the U. S. Patent and Trademark Office of the filing or determination of an action involving a trademark claim, with a copy of the form mailed to the register as required by federal procedure.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "3",
+        "date": "2026-07-01",
+        "raw_text": "Corporate Disclosure Statement by Anthropic, PBC identifying Other Affiliate Google LLC, Other Affiliate Amazon Web Services Inc. for Anthropic, PBC. (Liou, Joyce) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "Plaintiff Anthropic, PBC filed a Corporate Disclosure Statement identifying Google LLC and Amazon Web Services Inc. as corporate affiliates, as required by federal court rules.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "2",
+        "date": "2026-07-01",
+        "raw_text": "Proposed Summons. (Liou, Joyce) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "Plaintiff's counsel Joyce Liou filed a proposed summons on July 1, 2026, a standard early-stage administrative step used to formally notify the defendant of the pending lawsuit.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "1",
+        "date": "2026-07-01",
+        "raw_text": "COMPLAINT for Trademark Infringement, Unfair Competition, and False Designation of Origin against Abnormal AI, Inc. ( Filing fee $ 405, receipt number ACANDC-22169600.). Filed by Anthropic, PBC. (Liou, Joyce) (Filed on 7/1/2026) (Entered: 07/01/2026)",
+        "summary": "Plaintiff Anthropic, PBC filed a complaint against Abnormal AI, Inc. in the Northern District of California, asserting claims for trademark infringement, unfair competition, and false designation of origin.",
+        "significance": "minor_update"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73566709/anthropic-pbc-v-abnormal-ai-inc/",
-    "last_updated": "2026-07-10",
+    "last_updated": "2026-07-11",
     "discovered_date": "2026-07-06",
     "case_intelligence": {
       "case_theory": "Anthropic, PBC asserts trademark claims against Abnormal AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
-      "current_posture": "The case is in early service or case-administration steps.",
+      "current_posture": "The case is newly filed.",
       "why_it_matters": "The case matters because it may affect how courts characterize AI-related legal theories outside the core IP categories in a case asserting trademark claims.",
-      "latest_change": "Latest meaningful event (2026-07-06): The court issued an initial scheduling order setting a Case Management Statement deadline of September 22, 2026, and an Initial Case Management Conference for September 29, 2026, to be held by videoconference in San Jose.",
-      "latest_meaningful_event": "The court issued an initial scheduling order setting a Case Management Statement deadline of September 22, 2026, and an Initial Case Management Conference for September 29, 2026, to be held by videoconference in San Jose.",
-      "latest_meaningful_event_date": "2026-07-06",
+      "latest_change": "Latest meaningful event (2026-07-01): Plaintiff Anthropic, PBC filed a complaint against Abnormal AI, Inc. in the Northern District of California, asserting claims for trademark infringement, unfair competition, and false designation of origin.",
+      "latest_meaningful_event": "Plaintiff Anthropic, PBC filed a complaint against Abnormal AI, Inc. in the Northern District of California, asserting claims for trademark infringement, unfair competition, and false designation of origin.",
+      "latest_meaningful_event_date": "2026-07-01",
       "claim_category": "other_ai_litigation",
       "claims_asserted": [
         "trademark"
@@ -7453,8 +7876,8 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": null,
       "technology_or_model_at_issue": null,
-      "procedural_stage": "service_or_initial_admin",
-      "pending_motion_or_next_event": "Case Management Conference for September 29, 2026, to be held by videoconference in San Jose",
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
       "related_cases": [],
       "confidence_level": "low",
       "missing_information": [
@@ -7471,12 +7894,76 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "10",
-          "date": "2026-07-06"
+          "entry_number": "1",
+          "date": "2026-07-01"
         }
       ]
     },
-    "plain_language_summary": "Anthropic, PBC filed trademark claims against Abnormal AI, Inc. Early-stage case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-06-06"
+    "plain_language_summary": "Anthropic, PBC filed trademark claims against Abnormal AI, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "docket_last_checked": "2026-07-11"
+  },
+  {
+    "id": "hachette-book-group-inc-v-google-llc",
+    "name": "Hachette Book Group, Inc. v. Google LLC",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-05870",
+    "courtlistener_docket_id": "73603888",
+    "date_filed": "2026-07-10",
+    "claims": [
+      "copyright infringement",
+      "other AI litigation"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Hachette Book Group, Inc.",
+      "defendant": "Google LLC"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73603888/hachette-book-group-inc-v-google-llc/",
+    "last_updated": "2026-07-11",
+    "discovered_date": "2026-07-11",
+    "case_intelligence": {
+      "case_theory": "Hachette Book Group, Inc. asserts copyright infringement and other AI litigation claims against Google LLC involving books, educational, or publishing materials.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement and other AI litigation claims.",
+      "latest_change": "Latest meaningful event (2026-07-10): Hachette Book Group, Inc. filed the case against Google LLC.",
+      "latest_meaningful_event": "Hachette Book Group, Inc. filed the case against Google LLC.",
+      "latest_meaningful_event_date": "2026-07-10",
+      "claim_category": "copyright_news_or_publishing",
+      "claims_asserted": [
+        "copyright infringement",
+        "other AI litigation"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "books, educational, or publishing materials",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-05870",
+          "court": "District Court, S.D. New York",
+          "courtlistener_url": "https://www.courtlistener.com/docket/73603888/hachette-book-group-inc-v-google-llc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-07-10"
+        }
+      ]
+    },
+    "plain_language_summary": "Hachette Book Group, Inc. filed copyright infringement and other AI litigation claims against Google LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
