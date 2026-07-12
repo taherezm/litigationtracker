@@ -1,5 +1,5 @@
 {
-  "cases_discovered": 1,
+  "cases_discovered": 0,
   "discovery_complete": false,
   "rejected_dockets": [
     "1:26-cv-00086",
@@ -43,10 +43,10 @@
     "2:26-cv-00528",
     "2:26-cv-00530"
   ],
-  "entries_updated": 60,
+  "entries_updated": 9,
   "docket_update_complete": true,
-  "summaries_generated": 60,
-  "docket_last_run_date": "2026-07-11",
+  "summaries_generated": 9,
+  "docket_last_run_date": "2026-07-12",
   "courtlistener_rate_limited": true,
   "docket_entry_cap_reached": false,
   "summaries_deferred": 0,

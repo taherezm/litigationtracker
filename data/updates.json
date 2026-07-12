@@ -1,5 +1,86 @@
 [
   {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-10",
+    "summary": "Plaintiffs Hachette Book Group, Cengage Learning, Elsevier, S. C. R. I. B. E. , and Scott Turow filed a motion to admit attorney Jeffrey M. Gould to appear pro hac vice, paying the $200 filing fee, with the motion now pending review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-07-12T14:38:30Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-10",
+    "summary": "S. C. R. I. B. E. , Inc. and Scott Turow filed a Rule 7. 1 Corporate Disclosure Statement indicating that S. C. R. I. B. E. , Inc. has no corporate parent. This is a standard administrative filing required by court rules to disclose corporate affiliations.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-07-12T14:38:30Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-10",
+    "summary": "Elsevier Inc. filed a required corporate disclosure statement identifying its parent companies as Elsevier STM Inc. , Elsevier Holdings Inc. , RELX Inc. , and RELX plc, in compliance with Federal Rule of Civil Procedure 7. 1.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-07-12T14:38:30Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-10",
+    "summary": "Cengage Learning, Inc. filed a required corporate disclosure statement identifying its affiliated entities, including KKR Credit Advisors (US) LLC, KKR & Co. Inc. , Apollo Global Management, Inc. , and several Cengage holding companies.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-07-12T14:38:30Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-10",
+    "summary": "Hachette Book Group, Inc. filed a required corporate disclosure statement identifying Louis Hachette Group as its corporate parent and Bolloré SE as an affiliate, as mandated by Federal Rule of Civil Procedure 7. 1.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-07-12T14:38:30Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-10",
+    "summary": "Plaintiffs Hachette Book Group, Cengage Learning, Elsevier, S. C. R. I. B. E. , and Scott Turow filed a request asking the court clerk to issue a summons to defendant Google LLC, a standard procedural step following the filing of their complaint.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-07-12T14:38:30Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-10",
+    "summary": "Attorney Matthew Oppenheim submitted an AO 121 copyright registration form to the court in connection with the opening of this case, along with an exhibit identifying sample works at issue.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-07-12T14:38:30Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-10",
+    "summary": "Plaintiff filed a civil cover sheet, a standard administrative form used to open a new federal lawsuit, initiating the case against Google LLC in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-07-12T14:38:30Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-10",
+    "summary": "Plaintiffs Scott Turow, Hachette Book Group, Elsevier, Cengage Learning, and S. C. R. I. B. E. filed a complaint against Google LLC in the Southern District of New York, attaching a list of sample works as an exhibit.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-07-12T14:38:30Z"
+  },
+  {
     "case_id": "anthropic-pbc-v-abnormal-ai-inc",
     "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
     "entry_date": "2026-07-10",
