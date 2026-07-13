@@ -1,5 +1,23 @@
 [
   {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-13",
+    "summary": "The court reassigned this case to Judge Vince Chhabria under a random selection process, removing Magistrate Judge Virginia K. DeMarchi from the case. All previously scheduled hearing and trial dates are vacated, but existing briefing schedules and other deadlines—such as those for ADR compliance and discovery—remain in effect; counsel must refile hearing notices before Judge Chhabria.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-07-13T16:00:59Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-10",
+    "summary": "The Clerk of Court issued a notice that this case will be randomly reassigned from a Magistrate Judge to a District Court Judge because the required consent to Magistrate Judge jurisdiction was not obtained from all parties or time is of the essence. All hearing dates currently scheduled before the Magistrate Judge are vacated and must be rescheduled before the newly assigned District Judge.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-07-13T16:00:59Z"
+  },
+  {
     "case_id": "hachette-book-group-inc-v-google-llc",
     "case_name": "Hachette Book Group, Inc. v. Google LLC",
     "entry_date": "2026-07-10",
