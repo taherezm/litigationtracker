@@ -13,8 +13,10 @@ Live tracker: [undergradtechlaw.org/tools/litigation-tracker](https://www.underg
 - Source repository: `taherezm/litigationtracker`
 - Public site repository: `taherezm/undergradtechlaw`
 - Public data path: `tools/litigation-tracker/cases.json` and `tools/litigation-tracker/updates.json`
+- Current summary implementation: July 14, 2026 interpretability refresh
 - Schedule: GitHub Actions cron every day at `13:17 UTC` (`17 13 * * *`)
 - Pipeline: update dockets, summarize entries, discover cases, validate JSON, publish to the site
+- Case-card writing: deterministic, source-aware legal abstracts built from structured case intelligence
 - Cost controls: discovery is capped at 5 candidates per job by default; docket summaries are capped at 100 new entries per pass, with up to 2 passes per job
 - Publication rule: unsummarized or placeholder docket activity is not allowed into public JSON
 
@@ -22,7 +24,34 @@ Live tracker: [undergradtechlaw.org/tools/litigation-tracker](https://www.underg
 
 The public tracker is the static UI in `taherezm/undergradtechlaw` at `tools/litigation-tracker/`. This repository owns the canonical data and automation; each successful workflow run copies `data/cases.json` and `data/updates.json` into the site repo. The browser page renders case counts, court counts, latest update date, and significant-ruling totals from those JSON files at runtime, so this README describes the pipeline contract rather than hard-coded live totals.
 
+The version published on July 14, 2026 includes the current case-interpretability pipeline and a regenerated case-summary corpus. The public field remains named `plain_language_summary` so the existing data contract and site renderer continue to work without a schema migration. Its content is now a compact legal abstract: case theory, doctrinal significance when supported, present posture, and the latest substantive development, with a docket reference when one is available.
+
 The daily job checks existing dockets before discovering new cases. This gives already-tracked litigation first claim on the shared CourtListener quota, while per-case checkpoints and a persisted rolling request ledger let interrupted or budget-limited work resume instead of restarting the full window. A daily run does not guarantee a visible site change: new cards or activity appear only when qualifying cases or docket entries are found.
+
+## Current Summary Version: July 14, 2026
+
+The current implementation separates model-assisted intake from deterministic public interpretation. Anthropic is used to classify uncertain discovery candidates and summarize individual docket entries. The case-card narrative itself is assembled by `scripts/case_intelligence.py` from normalized claims, issue-bearing source text, procedural state, and ranked docket events. This keeps the final prose reproducible and prevents a free-form model response from becoming the public case interpretation.
+
+The interpretability refresh adds the following behavior:
+
+- **Evidence-gated case theory.** Recorded claims are not treated as independently established unless an issue-bearing source—such as a complaint, opinion, substantive order, legal-theory field, or usable legacy summary—supports the classification.
+- **Substantive-source filtering.** Administrative references to terms such as “audio,” “publishing,” or “securities” cannot by themselves determine the works, data, technology, or claim category at issue.
+- **Meaningful-event ranking.** Complaints, dispositive motions, merits orders, stays, appeals, settlements, dismissals, and judgments outrank later clerical or scheduling activity.
+- **Procedural-status safeguards.** A requested or proposed stay does not mark a case stayed; an entered stay does, and a fixed-duration or expressly lifted stay can return the case to active status.
+- **Dense, case-specific prose.** Summaries integrate theory, significance, posture, and the latest substantive event without headings such as “The case matters because” or “Latest meaningful event.” Docket-derived developments include `(Dkt. N)` when an entry number is available.
+- **Transparent limits.** Low-confidence cases state exactly what the retrieved record does not yet establish instead of filling gaps with generic AI/IP language.
+- **Publication validation.** The build rejects banned scaffolding, malformed classifier text, unsupported categories or stages, repeated sentence blocks, low-confidence records without an explanation, stayed cases that omit the stay, and summaries with no case-specific fact.
+
+The resulting data flow is:
+
+```text
+case metadata + issue-bearing docket text + summarized docket events
+    -> normalized claims and source support
+    -> claim category, alleged AI conduct, works/data, and technology
+    -> procedural stage and latest meaningful event
+    -> confidence level, missing information, and source references
+    -> deterministic public legal abstract
+```
 
 ## What This Repository Owns
 
@@ -268,14 +297,31 @@ After docket-entry summarization, `summarize.py` refreshes every case's `case_in
 
 `scripts/case_intelligence.py` owns deterministic case-card intelligence. It builds:
 
-- `claim_category`: a normalized category such as `copyright_training_data`, `copyright_news_or_publishing`, `patent_ai_software`, `trade_secret_or_transparency`, `privacy_or_consumer_protection`, or `unknown`.
-- `procedural_stage`: a machine-readable stage such as `newly_filed`, `motion_to_dismiss`, `discovery`, `stayed`, `appeal`, `significant_ruling`, `judgment`, or `resolved`.
+- `case_theory`: the parties, normalized claims, and challenged conduct supported by the retrieved record.
+- `claim_category`: one of `copyright_training_data`, `copyright_generated_output`, `copyright_music_or_audio`, `copyright_news_or_publishing`, `patent_ai_software`, `trade_secret_or_transparency`, `right_of_publicity`, `privacy_or_consumer_protection`, `platform_scraping_or_access`, `securities_or_corporate_ai_disclosure`, `administrative_or_foia`, `other_ai_litigation`, or `unknown`.
+- `claims_asserted`, `ai_conduct_alleged`, `works_or_data_at_issue`, and `technology_or_model_at_issue`: the normalized substantive components used to construct the theory.
+- `procedural_stage`: one of `newly_filed`, `service_or_initial_admin`, `motion_practice`, `motion_to_dismiss`, `discovery`, `stayed`, `appeal`, `significant_ruling`, `settlement_or_voluntary_dismissal`, `judgment`, `resolved`, or `unknown`.
 - `latest_meaningful_event`: the latest substantive event selected from key rulings, docket entries, and updates.
-- `case_theory`, `current_posture`, `why_it_matters`, and `latest_change`, which are composed into a compact legal abstract with docket-entry references.
+- `current_posture`, `why_it_matters`, and `latest_change`: the remaining prose components composed into the compact legal abstract.
+- `pending_motion_or_next_event` and `related_cases`: structured procedural context when the available record supplies it.
 - `missing_information` and `confidence_level`, so low-information cases publish transparent limitations rather than generic prose.
 - `source_references`, with issue-bearing docket entries distinguished from the latest procedural event.
 
 Meaningful-event selection prefers complaints, amended complaints, dispositive motions, substantive orders, stays, transfers, consolidation, severance, discovery orders, appeal activity, settlement notices, dismissals, and judgments. Routine items such as cover sheets, summonses, AO-121 notices, judge assignment, pro hac vice motions, appearances, filing-fee records, extensions, scheduling changes, case-relation orders, permission to file, and hearing acknowledgments are ignored unless no substantive event is available. A requested or proposed stay does not change case status until the docket reflects an actual stay order.
+
+### Public Summary Contract
+
+`plain_language_summary` is assembled in a stable order:
+
+1. case theory;
+2. doctrinal or practical significance, but only for medium- or high-confidence known categories;
+3. current procedural posture;
+4. latest meaningful change, with a docket-entry reference when available;
+5. a targeted evidentiary limitation for low-confidence records.
+
+High confidence requires supported claims, identifiable AI conduct, identifiable works/data or technology, and a meaningful docket event. Medium confidence requires supported claims, a meaningful event, and at least the conduct or technology. All other records are low confidence and must enumerate the missing information. Newly filed, initial-administration, or otherwise unknown low-confidence cases use a short transparent fallback instead of speculative interpretation.
+
+The generator preserves backward compatibility by refreshing only normalized claims, `case_intelligence`, `plain_language_summary`, `procedural_posture`, and the derived top-level `status`. It does not remove docket entries or key rulings. The maintenance regression suite explicitly verifies that summary regeneration preserves those source records.
 
 Regenerate all case-level intelligence and public case summaries from existing data with:
 
