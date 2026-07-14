@@ -1,5 +1,77 @@
 [
   {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-07-13",
+    "summary": "Attorney Laila Ujayli filed a notice withdrawing her representation of the group of Former Service Secretaries and Retired Senior Military Officers in this case. The filing is administrative and reflects a change in counsel for that party group as of July 13, 2026.",
+    "significance": "minor_update",
+    "entry_number": "237",
+    "logged_at": "2026-07-14T15:04:16Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-13",
+    "summary": "The court's docketing system designated this case for Electronic Case Filing (ECF), meaning all documents will be submitted and managed electronically going forward.",
+    "significance": "minor_update",
+    "entry_number": "470612087",
+    "logged_at": "2026-07-14T15:04:16Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-13",
+    "summary": "The Clerk's Office reviewed a pro hac vice motion seeking to admit attorney Jeffrey M. Gould to appear in this case and found no deficiencies in the filing, which was accompanied by a $200 fee.",
+    "significance": "minor_update",
+    "entry_number": "470612082",
+    "logged_at": "2026-07-14T15:04:16Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-13",
+    "summary": "The court's docketing system issued an administrative notice to attorney Matthew Jan Oppenheim indicating that party information for several plaintiffs—Hachette Book Group, Inc. , Cengage Learning, Inc. , Elsevier Inc. , Scott Turow, and S. C. R. I. B. E. , Inc. —was updated because party text had been omitted from the record.",
+    "significance": "minor_update",
+    "entry_number": "470612083",
+    "logged_at": "2026-07-14T15:04:16Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-13",
+    "summary": "The court assigned this case to Judge Loretta A. Preska in the Southern District of New York, and attorneys of record were directed to review the judge's individual practices and the court's electronic filing rules.",
+    "significance": "minor_update",
+    "entry_number": "470612085",
+    "logged_at": "2026-07-14T15:04:16Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-13",
+    "summary": "The court designated Magistrate Judge Robyn F. Tarnofsky to handle referred matters in this case. The parties were notified that they may consent to have a magistrate judge preside over the entire case under the applicable federal rules.",
+    "significance": "minor_update",
+    "entry_number": "470612086",
+    "logged_at": "2026-07-14T15:04:16Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-13",
+    "summary": "The court clerk submitted an AO 121 copyright case-opening form to the U. S. Copyright Office, notifying the Register of Copyrights that a copyright action has been filed in the Southern District of New York, as required by 17 U. S. C. § 508.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-07-14T15:04:16Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-07-13",
+    "summary": "The clerk issued an electronic summons to Google LLC, formally notifying the company that it has been sued by Hachette Book Group in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-07-14T15:04:16Z"
+  },
+  {
     "case_id": "anthropic-pbc-v-abnormal-ai-inc",
     "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
     "entry_date": "2026-07-13",
