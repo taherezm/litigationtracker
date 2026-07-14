@@ -88,6 +88,7 @@ BANNED_SUMMARY_PHRASES = (
     "violated trade secret rights",
     "violated intellectual property claims",
     "the tracker is monitoring",
+    "the case matters because",
     "how intellectual property doctrines apply to ai development and use",
     "in a dispute involving artificial intelligence systems, model outputs, or training data",
     "ai systems, model outputs, or training data",
@@ -466,6 +467,12 @@ Snippet: {candidate.get("snippet", "")}
 
 Is this case primarily or substantially about intellectual property claims (copyright, patent, trade secret, trademark, or right of publicity) arising from or directly involving artificial intelligence systems, AI-generated content, or AI training data?
 
+Classification rules:
+- Require affirmative support in the snippet or case metadata for both an IP claim and a material AI connection.
+- Do not infer an IP claim merely because a party develops AI, has "AI" in its name, or appears in other AI litigation.
+- Exclude procurement, administrative-law, public-policy, employment, contract, and securities matters unless the supplied text separately identifies a qualifying IP claim.
+- List only claims expressly supported by the supplied text; do not supply a likely claim from the parties' identities.
+
 Respond ONLY with valid JSON, no preamble:
 {{"relevant": true/false, "confidence": "high"/"medium"/"low", "reason": "one sentence", "claims": ["list"]}}"""
     return parse_json_object(anthropic_message(client, prompt, max_tokens=300))
@@ -473,18 +480,24 @@ Respond ONLY with valid JSON, no preamble:
 
 def fallback_classification(candidate: dict[str, Any]) -> dict[str, Any]:
     raw = candidate.get("raw", {})
-    text = " ".join(
+    claim_source_text = " ".join(
+        clean_text(value)
+        for value in (
+            candidate.get("snippet"),
+            first_value(raw, ("cause", "suitNature")),
+        )
+    ).lower()
+    ai_source_text = " ".join(
         clean_text(value)
         for value in (
             candidate.get("case_name"),
-            candidate.get("court"),
             candidate.get("parties"),
             candidate.get("snippet"),
             first_value(raw, ("cause", "suitNature", "caseName", "case_name_full")),
         )
     ).lower()
-    claims = [claim for claim, terms in IP_CLAIM_TERMS if any(term_in_text(text, term) for term in terms)]
-    ai_tags = [term for term in AI_TERMS if term_in_text(text, term)]
+    claims = [claim for claim, terms in IP_CLAIM_TERMS if any(term_in_text(claim_source_text, term) for term in terms)]
+    ai_tags = [term for term in AI_TERMS if term_in_text(ai_source_text, term)]
     relevant = bool(claims and ai_tags)
     return {
         "relevant": relevant,
@@ -548,8 +561,8 @@ def use_model_case_summaries() -> bool:
 def generate_plain_language_summary(client: Anthropic, case_name: str, claims: list[str], parties: dict[str, str]) -> str:
     if not use_model_case_summaries():
         return deterministic_case_summary(case_name, claims, parties)
-    prompt = f"""Write exactly 2 sentences about this lawsuit for a public AI/IP litigation tracker.
-Audience: law students, lawyers, and interested non-lawyers.
+    prompt = f"""Write exactly 2 compact sentences for a public AI/IP litigation tracker.
+Audience: law students and lawyers. Use dense, neutral legal prose rather than conversational explanation.
 
 Legal precision rules:
 - Describe allegations, not proven facts. Use "alleges," "asserts," "claims," or "contends."
@@ -557,7 +570,8 @@ Legal precision rules:
 - Never write "violated copyright infringement rights." Prefer "asserts copyright infringement claims" or "alleges infringement of copyrighted works."
 - Do not invent procedural posture, holdings, rulings, statutory sections, or factual details.
 - Sentence 1 should say who is suing whom and what claims are asserted.
-- Sentence 2 should explain why the case matters for AI and intellectual property law.
+- Sentence 2 should state a narrow doctrinal issue only if it follows from the supplied facts; otherwise state that the intake metadata does not identify the challenged AI conduct or works/data at issue.
+- Do not use headings, labels, rhetorical framing, definitions of routine legal terms, or phrases such as "the case matters because."
 
 Case: {case_name}, Claims: {claims}, Parties: {parties}"""
     try:

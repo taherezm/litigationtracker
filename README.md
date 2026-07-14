@@ -140,7 +140,7 @@ Accepted candidates are normalized into public case records. Each record gets:
 - structured `case_intelligence`;
 - a public plain-language case summary.
 
-Case-level summaries are deterministic and are generated from `case_intelligence`, not from a generic AI/IP template. When parsed materials identify only the caption and claim type, the summary uses a transparent fallback such as: "The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue." Legacy non-boilerplate summary sentences may be used as source material during backfill, but banned boilerplate is never republished.
+Case-level summaries are deterministic and are generated from `case_intelligence`, not from a generic AI/IP template. Substantive issue extraction is limited to complaints, opinions, recorded legal theories, and other issue-bearing sources so procedural references do not contaminate the case theory. Summaries use compact legal prose, integrate procedural posture with a docket-referenced event, and state a concise evidentiary limitation when the retrieved material does not independently support a claim classification or identify the challenged AI conduct. Legacy non-boilerplate summary sentences may be used as source material during backfill, but banned scaffolding is never republished.
 
 ## Docket Monitoring
 
@@ -271,10 +271,11 @@ After docket-entry summarization, `summarize.py` refreshes every case's `case_in
 - `claim_category`: a normalized category such as `copyright_training_data`, `copyright_news_or_publishing`, `patent_ai_software`, `trade_secret_or_transparency`, `privacy_or_consumer_protection`, or `unknown`.
 - `procedural_stage`: a machine-readable stage such as `newly_filed`, `motion_to_dismiss`, `discovery`, `stayed`, `appeal`, `significant_ruling`, `judgment`, or `resolved`.
 - `latest_meaningful_event`: the latest substantive event selected from key rulings, docket entries, and updates.
-- `case_theory`, `current_posture`, `why_it_matters`, and `latest_change`, which are composed into the public `plain_language_summary`.
+- `case_theory`, `current_posture`, `why_it_matters`, and `latest_change`, which are composed into a compact legal abstract with docket-entry references.
 - `missing_information` and `confidence_level`, so low-information cases publish transparent limitations rather than generic prose.
+- `source_references`, with issue-bearing docket entries distinguished from the latest procedural event.
 
-Meaningful-event selection prefers complaints, amended complaints, dispositive motions, substantive orders, stays, transfers, consolidation, severance, discovery orders, appeal activity, settlement notices, dismissals, and judgments. Routine items such as cover sheets, summonses, AO-121 notices, judge assignment, pro hac vice motions, appearances, filing-fee records, and hearing acknowledgments are ignored unless no substantive event is available.
+Meaningful-event selection prefers complaints, amended complaints, dispositive motions, substantive orders, stays, transfers, consolidation, severance, discovery orders, appeal activity, settlement notices, dismissals, and judgments. Routine items such as cover sheets, summonses, AO-121 notices, judge assignment, pro hac vice motions, appearances, filing-fee records, extensions, scheduling changes, case-relation orders, permission to file, and hearing acknowledgments are ignored unless no substantive event is available. A requested or proposed stay does not change case status until the docket reflects an actual stay order.
 
 Regenerate all case-level intelligence and public case summaries from existing data with:
 
@@ -368,7 +369,7 @@ This validates the generated JSON before it is published:
 - case summaries, docket-entry summaries, update summaries, and key-ruling summaries cannot repeat the same sentence block.
 - placeholder summaries such as "no docket entry text" cannot leak into public data.
 - every case must have `case_intelligence` and a non-empty `plain_language_summary`.
-- case summaries cannot contain old boilerplate such as "The tracker is monitoring" or generic catch-all phrases about "AI systems, model outputs, or training data."
+- case summaries cannot contain old boilerplate such as "The tracker is monitoring," "The case matters because," or "Latest meaningful event," or generic catch-all phrases about "AI systems, model outputs, or training data."
 - low-confidence intelligence must explain what information is missing.
 - stayed cases must mention the stay in `current_posture` or `plain_language_summary`.
 - summary fingerprints cannot collapse into effectively identical non-fallback prose across many cases.

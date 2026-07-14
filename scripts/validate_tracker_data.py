@@ -119,7 +119,15 @@ def validate_cases(cases: Any) -> list[str]:
         errors.extend(validate_case_summary(case))
         summary_text = clean_text(case.get("plain_language_summary")).lower()
         fingerprint = summary_boilerplate_fingerprint(case)
-        if fingerprint and "available parsed materials do not yet identify" not in summary_text:
+        transparent_fallback = any(
+            marker in summary_text
+            for marker in (
+                "available parsed materials do not yet identify",
+                "retrieved entries do not independently identify",
+                "retrieved entries do not yet supply substantive pleading detail",
+            )
+        )
+        if fingerprint and not transparent_fallback:
             summary_fingerprints.setdefault(fingerprint, []).append(label)
 
         for entry in case.get("docket_entries", []):

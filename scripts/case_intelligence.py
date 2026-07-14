@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import html
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from typing import Any
 
 
@@ -62,6 +62,9 @@ PROCEDURAL_STAGES = {
 
 PUBLIC_SUMMARY_BANNED_PHRASES = (
     "the tracker is monitoring",
+    "the case matters because",
+    "latest meaningful event",
+    "parsed materials",
     "how intellectual property doctrines apply to ai development and use",
     "in a dispute involving artificial intelligence systems, model outputs, or training data",
     "ai systems, model outputs, or training data",
@@ -75,8 +78,7 @@ PUBLIC_SUMMARY_BANNED_PHRASES = (
 )
 
 TRANSPARENT_FALLBACK_SENTENCE = (
-    "The complaint has been docketed, but the available parsed materials do not yet identify "
-    "the specific AI system, works, data, or training/output theory at issue."
+    "The retrieved entries do not yet supply substantive pleading detail or reflect a merits development."
 )
 
 MEANINGFUL_EVENT_THRESHOLD = 60
@@ -104,6 +106,15 @@ MEANINGFUL_EVENT_RULES: tuple[tuple[str, int, tuple[str, ...]], ...] = (
         ),
     ),
     (
+        "significant_ruling",
+        93,
+        (
+            r"\b(?:the )?court (?:granted|denied)[^.]{0,100}\bmotion to dismiss\b",
+            r"\border (?:granting|denying)[^.]{0,100}\bmotion to dismiss\b",
+            r"\bmotion to dismiss[^.]{0,100} (?:is|was) (?:granted|denied)\b",
+        ),
+    ),
+    (
         "appeal",
         92,
         (
@@ -112,7 +123,8 @@ MEANINGFUL_EVENT_RULES: tuple[tuple[str, int, tuple[str, ...]], ...] = (
             r"\bappellee\b",
             r"\bappeal pending\b",
             r"\bstay pending appeal\b",
-            r"\boral argument\b",
+            r"\b(?:court|panel).{0,180}\b(?:heard|held) oral argument\b",
+            r"\boral argument (?:was |is )?(?:heard|held|scheduled)\b",
             r"\banswering brief\b",
             r"\breply brief\b",
             r"\bamicus brief\b",
@@ -128,6 +140,7 @@ MEANINGFUL_EVENT_RULES: tuple[tuple[str, int, tuple[str, ...]], ...] = (
             r"\b(?:proceedings|deadlines|action) (?:are|is|be|shall be) (?:hereby )?stayed\b",
             r"\bstaying (?:this )?(?:case|action|proceedings|deadlines)\b",
             r"\border(?:ed)?[^.]{0,160}\bstay(?:ing|ed)? (?:this )?(?:case|action|proceedings|deadlines)\b",
+            r"\border.{0,100}\btemporary stay\b",
         ),
     ),
     (
@@ -135,7 +148,7 @@ MEANINGFUL_EVENT_RULES: tuple[tuple[str, int, tuple[str, ...]], ...] = (
         86,
         (
             r"\bmotion to dismiss\b",
-            r"\bmoved to dismiss\b",
+            r"\bmove(?:s|d)? to dismiss\b",
             r"\bintends to file a motion to dismiss\b",
         ),
     ),
@@ -210,12 +223,19 @@ ROUTINE_EVENT_RULES: tuple[tuple[str, int, tuple[str, ...]], ...] = (
             r"\bproposed summons\b",
             r"\bsummons (?:issued|requested)\b",
             r"\bcertificate of interested entities\b",
+            r"\bcertificate of service\b",
+            r"\bchambers cop(?:y|ies)\b",
+            r"\bsubmit physical copies\b",
             r"\bcorporate disclosure\b",
             r"\bAO[- ]?121\b",
             r"\bcopyright case-opening form\b",
             r"\bfiling fee\b",
             r"\bclerk'?s notice\b",
             r"\bcase assigned\b",
+            r"\binitial assignment notice\b",
+            r"\bno judge currently assigned\b",
+            r"\bcase transferred in from\b",
+            r"\breceived (?:the )?case transfer from\b",
             r"\border reassigning case\b",
             r"\breassigned this case\b",
             r"\bstanding order\b",
@@ -223,9 +243,65 @@ ROUTINE_EVENT_RULES: tuple[tuple[str, int, tuple[str, ...]], ...] = (
             r"\bnotice of appearance\b",
             r"\bADR certification\b",
             r"\badministrative motion to relate\b",
+            r"\bstatement of relatedness\b",
             r"\backnowledg(?:e)?ment of\b[^.]{0,80}\bhearing notice\b",
+            r"\b(?:motion|stipulation|request) (?:for|to) (?:an? )?extension of time\b",
+            r"\bstipulation.{0,140}\b(?:deadline|briefing schedule|schedule for response)\b",
+            r"\b(?:extend|extended|extension of) (?:the )?(?:deadline|deadlines|time)\b",
+            r"\b(?:reschedul(?:ed|ing)|continued) (?:the )?(?:hearing|conference|case management conference)\b",
+            r"\bbriefing schedule\b",
+            r"\b(?:motion|administrative motion) to relate\b",
+            r"\badministrative motion[^.]{0,140}\brelated cases?\b",
+            r"\badministrative motion.{0,220}\brelated\b",
+            r"\bcases? (?:is|are|was|were) related\b",
+            r"\b(?:formally )?related to case\b",
+            r"\bordered that case[^.]{0,100}\bbe (?:formally )?related\b",
+            r"\bleave to file (?:an? )?amicus\b",
+            r"\ballow(?:ed|ing|s)?[^.]{0,100}\b(?:non-parties|outside parties|amic(?:us|i))\b[^.]{0,80}\bfile\b",
+            r"\btime extension\b",
+            r"\bmore time to (?:respond|file|oppose|reply)\b",
+            r"\bcreate association to\b[^.]{0,80}\b(?:md|multidistrict)\b",
+            r"\badministratively linked[^.]{0,100}\b(?:md|multidistrict)\b",
+            r"\baccepted this case as related[^.]{0,100}\bmultidistrict\b",
+            r"\bformal association between the cases\b",
+            r"\breferred (?:this )?case.{0,180}\bpossible consolidation\b",
+            r"\breferred (?:this )?case.{0,180}\bpossibly related\b.{0,120}\b(?:md|multidistrict)\b",
+            r"\bnot (?:otherwise )?admitted to practice\b",
+            r"\broutine administrative (?:matter|reassignment|step)\b",
+            r"\broutine procedural step\b",
+            r"\bmagistrate judge is available[^.]{0,160}\bhandle all proceedings\b",
+            r"\bconsent[^.]{0,140}\bproceed before (?:a )?(?:u\.?\s*s\.?\s*)?magistrate judge\b",
         ),
     ),
+)
+
+UNAMBIGUOUS_ADMIN_PATTERNS = (
+    r"\bmagistrate judge is available[^.]{0,160}\bhandle all proceedings\b",
+    r"\bconsent[^.]{0,140}\bproceed before (?:a )?(?:u\.?\s*s\.?\s*)?magistrate judge\b",
+)
+
+ISSUE_DOCUMENT_PATTERNS = (
+    r"\b(?:amended |class action )?complaint (?:filed|against)\b",
+    r"\bfiled (?:an? |the )?(?:amended |class action )?complaint\b",
+    r"\bpetition (?:filed|for review|for writ)\b",
+    r"\b(?:memorandum opinion|opinion and order)\b",
+)
+
+PROPOSED_STAY_PATTERNS = (
+    r"\bproposed order[^.]{0,100}\bstay\b",
+    r"\b(?:motion|request|stipulation)[^.]{0,100}\b(?:to|for a) stay\b",
+    r"\bterminated[^.]{0,120}\bstay\b",
+    r"\bdenied[^.]{0,120}\bstay\b",
+)
+
+ACTUAL_STAY_PATTERNS = (
+    r"\bcase (?:is|was|hereby) stayed\b",
+    r"\b(?:court|judge) (?:ordered|granted)[^.]{0,120}\bstay\b",
+    r"\b(?:court|judge) (?:grants|granted)[^.]{0,160}\bstipulation[^.]{0,100}\bstay\b",
+    r"\border.{0,100}\btemporary stay\b",
+    r"\border[^.]{0,160}\bgranting[^.]{0,120}\bstipulation[^.]{0,100}\bstay\b",
+    r"\border(?:ed)?[^.]{0,120}\b(?:case|action|proceedings|deadlines)\b[^.]{0,80}\bstayed\b",
+    r"\b(?:proceedings|deadlines|action) (?:are|is|be|shall be) (?:hereby )?stayed\b",
 )
 
 CLAIM_LABEL_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
@@ -236,7 +312,11 @@ CLAIM_LABEL_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("DMCA section 1202", ("dmca", "1202")),
     ("trademark", ("trademark", "15:")),
     ("privacy or consumer protection", ("privacy", "consumer protection", "biometric")),
-    ("administrative or FOIA", ("foia", "freedom of information", "administrative procedure")),
+    ("administrative-law challenge", ("administrative procedure", "agency action", "judicial review", "arbitrary and capricious")),
+    ("FOIA", ("foia", "freedom of information")),
+    ("constitutional claims", ("first amendment", "fifth amendment", "due process", "constitutional")),
+    ("computer-access and trespass claims", ("computer fraud and abuse", "unauthorized access", "trespass to chattels")),
+    ("stockholder-derivative and securities claims", ("securities exchange", "shareholder derivative", "stockholder derivative", "securities fraud")),
 )
 
 CATEGORY_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
@@ -296,7 +376,17 @@ CATEGORY_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     ),
     (
         "platform_scraping_or_access",
-        ("scraping", "scraped", "crawler", "api access", "unauthorized access", "terms of service"),
+        (
+            "scraping",
+            "scraped",
+            "crawler",
+            "api access",
+            "automated access",
+            "unauthorized access",
+            "computer fraud and abuse",
+            "trespass to chattels",
+            "terms of service",
+        ),
     ),
 )
 
@@ -310,6 +400,7 @@ TECHNOLOGY_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("Microsoft Copilot", ("copilot", "microsoft copilot")),
     ("Apple Intelligence", ("apple intelligence",)),
     ("Perplexity AI", ("perplexity ai",)),
+    ("Comet", ("comet browser", "comet web browser")),
     ("Project Giraffe", ("project giraffe",)),
 )
 
@@ -324,6 +415,7 @@ def clean_text(value: Any) -> str:
     text = html.unescape(str(value))
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"\s+([,;:])", r"\1", text)
     return text.strip()
 
 
@@ -439,6 +531,7 @@ def finish_sentence(value: str) -> str:
     text = clean_text(value)
     if not text:
         return ""
+    text = re.sub(r"([.!?])\1+$", r"\1", text)
     return text if text[-1] in ".!?" else f"{text}."
 
 
@@ -498,23 +591,34 @@ def substantive_source_text_for_case(
     updates: list[dict[str, Any]] | None = None,
     latest_event: dict[str, Any] | None = None,
 ) -> str:
+    """Return text that can support the case's substantive legal theory.
+
+    Procedural entries are deliberately excluded.  A hearing notice, amicus
+    filing, or order extending time may contain words such as "audio,"
+    "securities," or "publishing" that describe logistics or a non-party,
+    not the works or legal theory at issue.
+    """
     parts: list[str] = []
-    for key in ("name", "court", "court_full", "docket_number", "claims", "legal_theories"):
+    for key in ("name", "claims", "legal_theories"):
         parts.append(clean_text(case.get(key)))
     existing_summary = legacy_public_summary_source_text(case)
     if existing_summary:
         parts.append(existing_summary)
+
     for ruling in case.get("key_rulings", []):
-        if isinstance(ruling, dict):
-            parts.append(clean_text(ruling.get("description")))
-            parts.append(clean_text(ruling.get("summary")))
-    for event in candidate_events(case, updates):
-        if int(event.get("score") or 0) >= MEANINGFUL_EVENT_THRESHOLD:
-            parts.append(clean_text(event.get("raw_text")))
-            parts.append(clean_text(event.get("summary")))
-    if latest_event:
-        parts.append(clean_text(latest_event.get("raw_text")))
-        parts.append(clean_text(latest_event.get("summary")))
+        if not isinstance(ruling, dict):
+            continue
+        text = f"{clean_text(ruling.get('description'))} {clean_text(ruling.get('summary'))}".strip()
+        if match_any(text, ISSUE_DOCUMENT_PATTERNS):
+            parts.append(text)
+
+    for entry in case.get("docket_entries", []):
+        if not isinstance(entry, dict):
+            continue
+        text = f"{clean_text(entry.get('raw_text'))} {clean_text(entry.get('summary'))}".strip()
+        if match_any(text, ISSUE_DOCUMENT_PATTERNS):
+            parts.append(text)
+
     return " ".join(part for part in parts if part)
 
 
@@ -523,11 +627,13 @@ def normalize_claim_label(value: Any) -> str | None:
     if not text:
         return None
     for label, terms in CLAIM_LABEL_RULES:
+        if text == normalize_for_match(label):
+            return label
         if any(term_in_text(text, term) for term in terms):
             return label
     if "ip" in text and "privacy" in text:
         return "privacy or consumer protection"
-    if "ai" in text:
+    if term_in_text(text, "ai") or term_in_text(text, "artificial intelligence"):
         return "other AI litigation"
     return clean_text(value)
 
@@ -543,6 +649,43 @@ def normalize_claims(value: Any) -> list[str]:
 
 def claim_text(claims: list[str]) -> str:
     return english_join(claims) or "legal"
+
+
+def claim_evidence_text_for_case(case: dict[str, Any]) -> str:
+    parts = [clean_text(case.get("legal_theories")), legacy_public_summary_source_text(case)]
+    for collection in (case.get("key_rulings", []), case.get("docket_entries", [])):
+        for item in collection:
+            if not isinstance(item, dict):
+                continue
+            text = " ".join(
+                part
+                for part in (
+                    clean_text(item.get("raw_text")),
+                    clean_text(item.get("description")),
+                    clean_text(item.get("summary")),
+                )
+                if part
+            )
+            if match_any(text, ISSUE_DOCUMENT_PATTERNS):
+                parts.append(text)
+    return " ".join(part for part in parts if part)
+
+
+def claims_supported_by_sources(case: dict[str, Any], claims: list[str]) -> bool:
+    if not claims:
+        return False
+    evidence = normalize_for_match(claim_evidence_text_for_case(case))
+    if not evidence:
+        return False
+    for claim in claims:
+        normalized_claim = normalize_claim_label(claim)
+        terms = next((values for label, values in CLAIM_LABEL_RULES if label == normalized_claim), ())
+        if terms:
+            if not any(term_in_text(evidence, term) for term in terms):
+                return False
+        elif not term_in_text(evidence, claim):
+            return False
+    return True
 
 
 def classify_claim_category(case: dict[str, Any], text: str | None = None) -> str:
@@ -564,6 +707,14 @@ def classify_claim_category(case: dict[str, Any], text: str | None = None) -> st
 def extract_ai_conduct(text: str) -> str | None:
     haystack = normalize_for_match(text)
     rules: tuple[tuple[str, tuple[str, ...]], ...] = (
+        (
+            "government action restricting deployment of an AI system",
+            ("supply-chain risk", "ai safety restrictions", "government procurement restriction"),
+        ),
+        (
+            "misleading corporate disclosures about AI",
+            ("ai-related corporate disclosures", "misleading ai disclosures", "ai-related disclosures"),
+        ),
         (
             "challenge to AI training-data disclosure obligations",
             ("transparency law", "training-data transparency", "training data transparency", "compelled disclosure"),
@@ -620,7 +771,7 @@ def extract_works_or_data(text: str) -> str | None:
         ),
         (
             "software or source code",
-            ("source code", "api", "computer program"),
+            ("copyrighted source code", "software copyright", "computer program copyright"),
         ),
         (
             "patented software or technology",
@@ -678,9 +829,21 @@ def score_event_text(text: str, source: str = "docket_entry", significance: str 
             routine_score = score
             if not best_score:
                 best_type = event_type
+    proposed_stay_only = (
+        best_type == "stayed"
+        and match_any(haystack, PROPOSED_STAY_PATTERNS)
+        and not match_any(haystack, ACTUAL_STAY_PATTERNS)
+    )
+    if proposed_stay_only:
+        return 55, "motion_practice"
+    if routine_score and match_any(haystack, UNAMBIGUOUS_ADMIN_PATTERNS):
+        return routine_score, "routine_admin"
     if routine_score and match_any(haystack, (r"\backnowledg(?:e)?ment of\b[^.]{0,80}\bhearing notice\b",)):
         return routine_score, "routine_admin"
-    if routine_score and (not best_score or best_type == "significant_ruling"):
+    protected_disposition = best_type in {"judgment", "settlement_or_voluntary_dismissal", "stayed"} or (
+        best_type == "significant_ruling" and best_score >= 90
+    )
+    if routine_score and not protected_disposition:
         return routine_score, "routine_admin"
     if clean_text(significance) == "case_resolved":
         if best_score and best_type in {"judgment", "settlement_or_voluntary_dismissal"}:
@@ -778,13 +941,18 @@ def candidate_events(case: dict[str, Any], updates: list[dict[str, Any]] | None 
     if not events and clean_text(case.get("date_filed")):
         plaintiff = party_name(case, "plaintiff") or "The plaintiff"
         defendant = party_name(case, "defendant") or "the defendant"
+        appellate_filing = "court of appeals" in normalize_for_match(case.get("court"))
         events.append(
             {
                 "source": "case_metadata",
                 "date": clean_text(case.get("date_filed")),
-                "summary": f"{plaintiff} filed the case against {defendant}.",
-                "score": 65,
-                "event_type": "newly_filed",
+                "summary": (
+                    f"{plaintiff}'s appeal was docketed."
+                    if appellate_filing
+                    else f"{plaintiff} filed the case against {defendant.rstrip('.')}."
+                ),
+                "score": 92 if appellate_filing else 65,
+                "event_type": "appeal" if appellate_filing else "newly_filed",
                 "reference": {
                     "type": "case_metadata",
                     "date_filed": clean_text(case.get("date_filed")),
@@ -798,15 +966,54 @@ def select_latest_meaningful_event(
     case: dict[str, Any], updates: list[dict[str, Any]] | None = None
 ) -> dict[str, Any] | None:
     events = candidate_events(case, updates)
+    if events and not has_active_stay_order(case, events):
+        events = [event for event in events if event.get("event_type") != "stayed"]
     if not events:
         return None
+    publishable_events = [
+        event
+        for event in events
+        if clean_text(event.get("summary"))
+        and not clean_text(event.get("summary")).lower().startswith("this docket entry records:")
+        and not clean_text(event.get("summary")).endswith("...")
+    ]
+    if publishable_events:
+        events = publishable_events
     meaningful = [event for event in events if int(event.get("score") or 0) >= MEANINGFUL_EVENT_THRESHOLD]
-    pool = meaningful or events
-    return sorted(pool, key=event_sort_key, reverse=True)[0]
+    if not meaningful:
+        return None
+    return sorted(meaningful, key=event_sort_key, reverse=True)[0]
 
 
 def has_text_event_type(case: dict[str, Any], event_type: str, updates: list[dict[str, Any]] | None = None) -> bool:
     return any(event.get("event_type") == event_type for event in candidate_events(case, updates))
+
+
+def has_active_stay_order(case: dict[str, Any], events: list[dict[str, Any]]) -> bool:
+    stay_events = [event for event in events if event.get("event_type") == "stayed"]
+    if not stay_events:
+        return False
+    latest_stay = max(stay_events, key=event_sort_key)
+    stay_date = parse_iso_date(latest_stay.get("date"))
+    stay_text = normalize_for_match(
+        f"{clean_text(latest_stay.get('raw_text'))} {clean_text(latest_stay.get('summary'))}"
+    )
+
+    as_of = parse_iso_date(case.get("docket_last_checked")) or parse_iso_date(case.get("last_updated")) or date.today()
+    duration_match = re.search(r"\b(?:for|an additional|by approximately)\s+(\d+)\s+days\b", stay_text)
+    if stay_date and duration_match:
+        expires = stay_date + timedelta(days=int(duration_match.group(1)))
+        if as_of > expires:
+            return False
+
+    for event in events:
+        event_date = parse_iso_date(event.get("date"))
+        if stay_date and event_date and event_date <= stay_date:
+            continue
+        text = normalize_for_match(f"{clean_text(event.get('raw_text'))} {clean_text(event.get('summary'))}")
+        if match_any(text, (r"\bstay (?:is|was) lifted\b", r"\blifting (?:the )?stay\b", r"\bproceedings (?:will )?resume\b")):
+            return False
+    return True
 
 
 def detect_procedural_stage(
@@ -816,10 +1023,13 @@ def detect_procedural_stage(
 ) -> str:
     status = normalize_for_match(case.get("status"))
     posture = normalize_for_match(case.get("procedural_posture"))
+    court = normalize_for_match(case.get("court"))
     text = normalize_for_match(source_text_for_case(case, case_updates_for(case, updates)))
     latest_type = clean_text((latest_event or {}).get("event_type"))
+    events = candidate_events(case, updates)
+    has_stay_order = has_active_stay_order(case, events)
 
-    if status == "stayed" or latest_type == "stayed" or "stayed" in posture:
+    if has_stay_order or (status == "stayed" and not events):
         return "stayed"
     if status == "resolved":
         if latest_type == "settlement_or_voluntary_dismissal" or match_any(text, (r"\bsettlement\b", r"\bvoluntary dismissal\b", r"\bdismissed\b")):
@@ -827,15 +1037,17 @@ def detect_procedural_stage(
         if latest_type == "judgment" or "judgment" in posture:
             return "judgment"
         return "resolved"
-    if "appeal" in posture or latest_type == "appeal" or match_any(text, (r"\bnotice of appeal\b", r"\bappellant\b", r"\bappellee\b")):
+    if "court of appeals" in court or latest_type == "appeal" or match_any(
+        text, (r"\bnotice of appeal\b", r"\bappellant\b", r"\bappellee\b")
+    ):
         return "appeal"
     if latest_type == "motion_to_dismiss" or "motion to dismiss" in text:
         return "motion_to_dismiss"
-    if "discovery" in posture or latest_type == "discovery":
+    if latest_type == "discovery" or (not events and "discovery" in posture):
         return "discovery"
-    if latest_type == "motion_practice" or "motion" in posture or "summary judgment" in posture:
+    if latest_type == "motion_practice" or (not events and ("motion" in posture or "summary judgment" in posture)):
         return "motion_practice"
-    if latest_type == "significant_ruling" or case.get("key_rulings"):
+    if latest_type == "significant_ruling":
         return "significant_ruling"
     if latest_type == "newly_filed":
         return "newly_filed"
@@ -863,98 +1075,156 @@ def build_case_theory(
     ai_conduct: str | None,
     works_or_data: str | None,
     technology_or_model: str | None,
+    claims_supported: bool,
 ) -> str:
     plaintiff = party_name(case, "plaintiff") or "The plaintiff"
     defendant = party_name(case, "defendant") or "the defendant"
     claims_text = claim_text(claims)
+    if not claims:
+        if ai_conduct:
+            return f"{plaintiff} sued {defendant} over alleged {ai_conduct}."
+        return f"{plaintiff} sued {defendant}."
+    if not claims_supported:
+        detail_parts = [part for part in (works_or_data, technology_or_model) if part]
+        detail = f" involving {english_join(detail_parts)}" if detail_parts else ""
+        return f"The available record identifies {plaintiff}'s action against {defendant} as one for {claims_text}{detail}."
+    if "administrative-law challenge" in claims:
+        theories = [
+            label
+            for label, present in (
+                ("administrative-law", "administrative-law challenge" in claims),
+                ("constitutional", "constitutional claims" in claims),
+            )
+            if present
+        ]
+        if ai_conduct == "government action restricting deployment of an AI system":
+            system = technology_or_model or "an AI system"
+            return (
+                f"{plaintiff} challenges government action by {defendant} under {english_join(theories)} theories, "
+                f"alleging an unlawful restriction on deployment of {system}."
+            )
+        return f"{plaintiff} challenges government action by {defendant} under {english_join(theories)} theories."
     if ai_conduct == "challenge to AI training-data disclosure obligations":
-        detail = f" involving {works_or_data}" if works_or_data else ""
-        return (
-            f"{plaintiff} challenges AI training-data disclosure obligations in litigation against "
-            f"{defendant} that includes {claims_text} issues{detail}."
-        )
+        grounds: list[str] = []
+        if "constitutional claims" in claims:
+            grounds.append("constitutional")
+        if "trade secret" in claims or works_or_data == "confidential or trade-secret information":
+            grounds.append("trade-secret")
+        grounds_text = f" under {english_join(grounds)} theories" if grounds else ""
+        return f"{plaintiff} challenges AI training-data disclosure obligations imposed by {defendant}{grounds_text}."
     if ai_conduct:
         detail_parts = [part for part in (works_or_data, technology_or_model) if part]
         detail = f" involving {english_join(detail_parts)}" if detail_parts else ""
-        return f"{plaintiff} asserts {claims_text} claims against {defendant} over alleged {ai_conduct}{detail}."
+        return f"{plaintiff} asserts {claims_text} against {defendant}, alleging {ai_conduct}{detail}."
     if works_or_data or technology_or_model:
         detail = english_join([part for part in (works_or_data, technology_or_model) if part])
-        return f"{plaintiff} asserts {claims_text} claims against {defendant} involving {detail}."
-    return (
-        f"{plaintiff} asserts {claims_text} claims against {defendant}, but the parsed materials do not yet "
-        "identify the specific AI conduct at issue."
-    )
+        return f"{plaintiff} asserts {claims_text} against {defendant} in a dispute concerning {detail}."
+    return f"The available record identifies {plaintiff}'s action against {defendant} as one for {claims_text}."
 
 
 def build_current_posture(stage: str, latest_event: dict[str, Any] | None, case: dict[str, Any]) -> str:
-    event_summary = clean_text((latest_event or {}).get("summary"))
     posture = clean_text(case.get("procedural_posture"))
     if stage == "stayed":
-        if event_summary and "stay" in event_summary.lower():
-            return f"The case is stayed: {event_summary}"
-        return "The case is stayed."
+        return "The action is stayed."
     if stage == "appeal":
-        return "The case is on appeal."
+        return "The dispute is before the court of appeals."
     if stage == "motion_to_dismiss":
-        return "The case is in motion-to-dismiss practice."
+        return "A motion to dismiss is pending."
     if stage == "motion_practice":
-        return "The case is in motion practice."
+        return "The action is in motion practice."
     if stage == "discovery":
-        return "The case is in discovery."
+        return "The action is in discovery."
     if stage in {"settlement_or_voluntary_dismissal", "judgment", "resolved"}:
-        return "The case is resolved." if not event_summary else f"The case is resolved: {event_summary}"
+        return "The action has been resolved."
     if stage == "significant_ruling":
-        return "The case has a recent significant ruling."
+        return "The action remains pending following a substantive ruling."
     if stage == "service_or_initial_admin":
-        return "The case is in early service or case-administration steps."
+        return "The action remains at the pleading and service stage."
     if stage == "newly_filed":
-        return "The case is newly filed."
-    return posture or "The current procedural posture is not clear from the parsed materials."
+        return "The action is at the initial pleading stage."
+    return posture or "The available docket does not establish the current procedural posture."
 
 
 def build_why_it_matters(category: str, stage: str, claims: list[str], related_cases: list[str]) -> str:
-    if stage == "stayed":
-        if related_cases:
-            return "The case matters because it may affect how related AI litigation is coordinated before merits rulings."
-        return "The case matters because the stay controls when the parties can reach merits discovery or dispositive motions."
-    if stage == "appeal":
-        return "The case matters because the appellate posture may shape what district-court orders remain in effect while AI litigation proceeds."
     if category == "unknown":
-        claims_text = claim_text(claims)
-        return (
-            "The case matters because future filings may clarify the specific AI-related conduct and legal theory "
-            f"in a case asserting {claims_text} claims."
-        )
+        if stage == "stayed":
+            if related_cases:
+                return "Further proceedings are tied to coordination with related litigation."
+            return "The stay postpones further merits proceedings."
+        if stage == "appeal":
+            return "The appeal places the challenged district-court disposition before the court of appeals."
+        return "The available docket does not yet disclose a case-specific AI or IP issue beyond the recorded claims."
 
     category_text = {
-        "copyright_training_data": "how copyright law applies to alleged use of protected works as AI training data",
-        "copyright_generated_output": "how courts treat claims that AI-generated outputs infringe protected works",
-        "copyright_music_or_audio": "how copyright and music-rights claims are applied to AI tools and audio works",
-        "copyright_news_or_publishing": "how copyright claims by publishers, authors, or media owners are managed in AI litigation",
-        "patent_ai_software": "how patent infringement theories are applied to AI or machine-learning software",
-        "trade_secret_or_transparency": "how AI transparency obligations interact with trade-secret or confidential-information claims",
-        "right_of_publicity": "how right-of-publicity law applies to alleged AI replicas of identity, likeness, or voice",
-        "privacy_or_consumer_protection": "how privacy or consumer-protection law applies to AI products and data practices",
-        "platform_scraping_or_access": "how platform-access and scraping theories are used in disputes over AI-related data collection",
-        "securities_or_corporate_ai_disclosure": "how AI-related disclosures are tested in corporate or securities litigation",
-        "administrative_or_foia": "how administrative-law or public-records rules apply to AI-related information requests",
-        "other_ai_litigation": "how courts characterize AI-related legal theories outside the core IP categories",
-        "unknown": "the specific AI-related conduct and legal theory",
-    }.get(category, "how courts characterize the AI-related claims")
-    claims_text = claim_text(claims)
-    return f"The case matters because it may affect {category_text} in a case asserting {claims_text} claims."
+        "copyright_training_data": "The dispute concerns whether the alleged use of protected works in model training is actionable under copyright law.",
+        "copyright_generated_output": "The dispute concerns whether AI-generated output infringes protected expression.",
+        "copyright_music_or_audio": "The dispute applies copyright and related music rights to AI-generated or AI-processed audio.",
+        "copyright_news_or_publishing": "The dispute applies copyright law to AI uses of books, journalism, or other publishing materials.",
+        "patent_ai_software": "The dispute applies patent law to AI or machine-learning functionality.",
+        "trade_secret_or_transparency": "The dispute concerns the interaction between AI-disclosure obligations and protection for confidential information.",
+        "right_of_publicity": "The dispute applies right-of-publicity law to an alleged AI replica of identity, likeness, or voice.",
+        "privacy_or_consumer_protection": "The dispute applies privacy or consumer-protection law to an AI product or data practice.",
+        "platform_scraping_or_access": "The dispute concerns legal limits on scraping or automated access used for AI-related data collection.",
+        "securities_or_corporate_ai_disclosure": "The dispute concerns the adequacy of corporate or securities disclosures about AI.",
+        "administrative_or_foia": (
+            "The dispute concerns access to AI-related government records."
+            if "FOIA" in claims
+            else "The dispute concerns judicial review of government action involving an AI system."
+        ),
+        "other_ai_litigation": "The available record identifies an AI-related dispute outside the principal IP categories.",
+    }.get(category, "The available docket does not yet disclose a case-specific doctrinal issue.")
+    return category_text
+
+
+def compact_event_summary(value: Any) -> str:
+    text = clean_text(value)
+    text = re.sub(r"^This docket entry records:\s*", "", text, flags=re.IGNORECASE)
+    text = re.sub(r",\s*meaning [^.]+", "", text, flags=re.IGNORECASE)
+    text = re.sub(r";\s*(?:audio and video|audio|video) recordings? [^.]*", "", text, flags=re.IGNORECASE)
+    text = re.sub(
+        r"\s+This is (?:an? )?(?:routine )?(?:administrative|procedural) (?:filing|step|assignment|reassignment)[^.]*\.?",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+    return text
+
+
+def lower_leading_article(value: str) -> str:
+    for prefix in (
+        "A ",
+        "An ",
+        "The court",
+        "The judge",
+        "The parties",
+        "The plaintiff",
+        "The defendant",
+        "Both parties",
+        "Court staff",
+    ):
+        if value.startswith(prefix):
+            return value[0].lower() + value[1:]
+    return value
 
 
 def build_latest_change(latest_event: dict[str, Any] | None) -> str | None:
     if not latest_event:
         return None
-    summary = clean_text(latest_event.get("summary"))
+    summary = compact_event_summary(latest_event.get("summary"))
     if not summary:
         return None
+    summary = summary.rstrip(" .")
     event_date = clean_text(latest_event.get("date"))
+    entry_number = clean_text(latest_event.get("entry_number"))
+    reference = f" (Dkt. {entry_number})" if entry_number else ""
     if event_date:
-        return f"Latest meaningful event ({event_date}): {summary}"
-    return f"Latest meaningful event: {summary}"
+        parsed_event_date = parse_iso_date(event_date)
+        if parsed_event_date:
+            long_date = f"{parsed_event_date.strftime('%B')} {parsed_event_date.day}, {parsed_event_date.year}"
+            if long_date.lower() in summary.lower():
+                return f"{summary}{reference}."
+        return f"On {event_date}, {lower_leading_article(summary)}{reference}."
+    return f"{summary}{reference}."
 
 
 def build_pending_motion_or_next_event(stage: str, latest_event: dict[str, Any] | None, source_text: str) -> str | None:
@@ -980,7 +1250,10 @@ def confidence_level(
     works_or_data: str | None,
     technology_or_model: str | None,
     latest_event: dict[str, Any] | None,
+    claims_supported: bool,
 ) -> str:
+    if not claims_supported:
+        return "low"
     if claims and ai_conduct and (works_or_data or technology_or_model) and latest_event:
         return "high"
     if claims and latest_event and (ai_conduct or technology_or_model):
@@ -994,16 +1267,19 @@ def missing_information(
     works_or_data: str | None,
     technology_or_model: str | None,
     latest_event: dict[str, Any] | None,
+    claims_supported: bool,
 ) -> list[str]:
     missing: list[str] = []
     if not claims:
-        missing.append("Specific claims are not identified in the parsed materials.")
+        missing.append("The available docket text does not identify the specific claims.")
+    elif not claims_supported:
+        missing.append("The retrieved docket text does not independently support the recorded claim classification.")
     if not ai_conduct:
-        missing.append("Specific AI-related conduct is not identified in the parsed docket metadata.")
+        missing.append("The available docket text does not identify the challenged AI-related conduct.")
     if not works_or_data:
-        missing.append("Specific works, data, or trade secrets at issue are not identified in the parsed materials.")
+        missing.append("The available docket text does not identify the specific works, data, or trade secrets at issue.")
     if not technology_or_model:
-        missing.append("Specific AI system or model is not identified in the parsed materials.")
+        missing.append("The available docket text does not identify the specific AI system or model.")
     if not latest_event:
         missing.append("No docket entries, key rulings, or update records are available yet.")
     return missing
@@ -1019,7 +1295,28 @@ def source_references(case: dict[str, Any], latest_event: dict[str, Any] | None,
         }
     ]
     if latest_event and isinstance(latest_event.get("reference"), dict):
-        refs.append(latest_event["reference"])
+        refs.append({**latest_event["reference"], "role": "latest_procedural_event"})
+    for entry in case.get("docket_entries", []):
+        if not isinstance(entry, dict):
+            continue
+        text = f"{clean_text(entry.get('raw_text'))} {clean_text(entry.get('summary'))}".strip()
+        if not match_any(text, ISSUE_DOCUMENT_PATTERNS):
+            continue
+        ref = {
+            "type": "docket_entry",
+            "entry_number": clean_text(entry.get("entry_number")) or None,
+            "date": clean_text(entry.get("date")) or None,
+            "role": "substantive_issue_source",
+        }
+        if not any(
+            item.get("type") == ref["type"]
+            and item.get("entry_number") == ref["entry_number"]
+            and item.get("date") == ref["date"]
+            for item in refs
+        ):
+            refs.append(ref)
+        if sum(item.get("role") == "substantive_issue_source" for item in refs) >= 3:
+            break
     if existing_summary_used:
         refs.append({"type": "existing_public_summary"})
     return refs
@@ -1030,22 +1327,36 @@ def build_case_intelligence(case: dict[str, Any], updates: list[dict[str, Any]] 
     full_text = source_text_for_case(case, relevant_updates)
     existing_summary_used = existing_public_summary_can_be_source(case)
     claims = normalize_claims(case.get("claims"))
+    claims_supported = claims_supported_by_sources(case, claims)
     latest_event = select_latest_meaningful_event(case, updates)
     substantive_text = substantive_source_text_for_case(case, updates, latest_event)
     category = classify_claim_category(case, substantive_text)
     ai_conduct = extract_ai_conduct(substantive_text)
     works_or_data = extract_works_or_data(substantive_text)
     technology_or_model = extract_technology_or_model(substantive_text)
+    defendant = normalize_for_match(party_name(case, "defendant"))
+    if technology_or_model:
+        technology_labels = re.split(r",\s+and\s+|,\s*|\s+and\s+", technology_or_model)
+        technology_or_model = english_join(
+            [label for label in technology_labels if label and normalize_for_match(label) not in defendant]
+        ) or None
     if category != "trade_secret_or_transparency" and works_or_data == "confidential or trade-secret information":
         works_or_data = None
     related = extract_related_cases(case, substantive_text)
     stage = detect_procedural_stage(case, latest_event, updates)
-    theory = build_case_theory(case, claims, ai_conduct, works_or_data, technology_or_model)
+    theory = build_case_theory(case, claims, ai_conduct, works_or_data, technology_or_model, claims_supported)
     posture = build_current_posture(stage, latest_event, case)
     latest_change = build_latest_change(latest_event)
     why = build_why_it_matters(category, stage, claims, related)
-    confidence = confidence_level(claims, ai_conduct, works_or_data, technology_or_model, latest_event)
-    missing = missing_information(claims, ai_conduct, works_or_data, technology_or_model, latest_event)
+    confidence = confidence_level(claims, ai_conduct, works_or_data, technology_or_model, latest_event, claims_supported)
+    missing = missing_information(
+        claims,
+        ai_conduct,
+        works_or_data,
+        technology_or_model,
+        latest_event,
+        claims_supported,
+    )
 
     intelligence = {
         "case_theory": theory,
@@ -1079,7 +1390,7 @@ def top_level_posture_for_stage(stage: str, existing: Any = None) -> str:
         "discovery": "Discovery",
         "stayed": "Stayed",
         "appeal": "Appeal",
-        "significant_ruling": existing_text or "Motion Practice",
+        "significant_ruling": "Motion Practice",
         "settlement_or_voluntary_dismissal": "Settled",
         "judgment": "Judgment",
         "resolved": existing_text or "Judgment",
@@ -1096,23 +1407,48 @@ def generate_case_summary(case: dict[str, Any], intelligence: dict[str, Any] | N
     latest = clean_text(intel.get("latest_change"))
     confidence = clean_text(intel.get("confidence_level")).lower()
     stage = clean_text(intel.get("procedural_stage"))
+    category = clean_text(intel.get("claim_category"))
 
     if confidence == "low" and stage in {"newly_filed", "service_or_initial_admin", "unknown"}:
-        plaintiff = party_name(case, "plaintiff") or "The plaintiff"
-        defendant = party_name(case, "defendant") or "the defendant"
-        claims = normalize_claims(case.get("claims"))
-        intro = finish_sentence(f"{plaintiff} filed {claim_text(claims)} claims against {defendant}")
-        status = "Newly filed case." if stage == "newly_filed" else "Early-stage case."
-        return f"{intro} {status} {TRANSPARENT_FALLBACK_SENTENCE}"
+        return f"{finish_sentence(theory)} {finish_sentence(posture)} {TRANSPARENT_FALLBACK_SENTENCE}"
 
-    sentences = [theory, posture, why, latest]
-    summary = " ".join(sentence for sentence in sentences if sentence)
+    sentences = [theory]
+    if confidence in {"high", "medium"} and category != "unknown" and why:
+        sentences.append(why)
+    if posture:
+        sentences.append(posture)
+    if latest:
+        sentences.append(latest)
+    if confidence == "low":
+        missing_topics: list[str] = []
+        missing_information_values = listify(intel.get("missing_information"))
+        if any("claim classification" in item.lower() for item in missing_information_values):
+            missing_topics.append("the basis for the recorded claim classification")
+        if not clean_text(intel.get("ai_conduct_alleged")):
+            missing_topics.append("the challenged AI conduct")
+        if not clean_text(intel.get("works_or_data_at_issue")):
+            missing_topics.append("the works or data at issue")
+        if not clean_text(intel.get("technology_or_model_at_issue")):
+            missing_topics.append("the relevant system or model")
+        if missing_topics:
+            sentences.append(f"The available docket does not yet identify {english_join(missing_topics)}.")
+    unique_sentences: list[str] = []
+    seen_sentences: set[str] = set()
+    for sentence in sentences:
+        formatted = finish_sentence(sentence)
+        normalized = normalize_sentence(formatted)
+        if not formatted or not normalized or normalized in seen_sentences:
+            continue
+        unique_sentences.append(formatted)
+        seen_sentences.add(normalized)
+    summary = " ".join(unique_sentences)
     summary = re.sub(r"\s+", " ", summary).strip()
     if not summary or public_summary_is_generic(summary):
         plaintiff = party_name(case, "plaintiff") or "The plaintiff"
         defendant = party_name(case, "defendant") or "the defendant"
         claims = normalize_claims(case.get("claims"))
-        summary = f"{finish_sentence(f'{plaintiff} filed {claim_text(claims)} claims against {defendant}')} {TRANSPARENT_FALLBACK_SENTENCE}"
+        claim_clause = f" in an action asserting {claim_text(claims)}" if claims else ""
+        summary = f"{plaintiff} sued {defendant}{claim_clause}. {TRANSPARENT_FALLBACK_SENTENCE}"
     return summary
 
 

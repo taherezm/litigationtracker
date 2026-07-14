@@ -267,16 +267,24 @@ def summarize_entry(client: Anthropic, case: dict[str, Any], entry: dict[str, An
         return fallback_summary(entry)
 
     prompt = f"""Summarize this federal court docket entry for a public litigation tracker.
-Audience: law students and attorneys. College reading level. No jargon.
+Audience: law students and attorneys. Use compact professional legal prose and preserve useful legal terminology.
 
 {LEGAL_PRECISION_RULES}
+
+Writing rules:
+- Write no more than 70 words in 1-2 sentences.
+- Identify the actor, filing or ruling, legal issue or requested relief, and disposition or procedural consequence when the entry supplies them.
+- Do not define routine terms such as amicus curiae, pro hac vice, motion to dismiss, or summary judgment.
+- Omit filing fees, attorney-admission details, courtroom logistics, and electronic-filing instructions unless they materially affect the case.
+- Do not add generic importance language or begin with "This docket entry records."
+- Use "significant_ruling" only for a substantive judicial disposition, injunction, merits or discovery ruling, judgment, stay, or dismissal. Scheduling changes, extensions, appearances, case-relation orders, and permission to file are "minor_update."
 
 Case: {case.get("name")} ({case.get("court")})
 Entry text: {entry.get("raw_text")}
 
 Respond ONLY with valid JSON, no preamble:
 {{
-  "summary": "1-2 plain English sentences starting with the actor: The judge..., Plaintiff filed..., Both parties...",
+  "summary": "1-2 compact sentences starting with the actor: The court..., Plaintiff filed..., Both parties...",
   "significance": "significant_ruling" or "minor_update" or "case_resolved",
   "posture_update": "new posture if changed, else null. Options: Filed, Motion Practice, Discovery, Summary Judgment, Trial, Appeal, Stayed, Settled, Dismissed, Judgment",
   "key_holding": "If significant_ruling: one sentence holding. Otherwise null."
