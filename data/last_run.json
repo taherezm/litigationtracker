@@ -42,12 +42,13 @@
     "3:26-cv-00550",
     "2:26-cv-00528",
     "2:26-cv-00530",
-    "1:26-cv-05857"
+    "1:26-cv-05857",
+    "7:26-cv-00078"
   ],
-  "entries_updated": 8,
+  "entries_updated": 1,
   "docket_update_complete": true,
-  "summaries_generated": 8,
-  "docket_last_run_date": "2026-07-14",
+  "summaries_generated": 1,
+  "docket_last_run_date": "2026-07-15",
   "courtlistener_rate_limited": true,
   "docket_entry_cap_reached": false,
   "summaries_deferred": 0,
