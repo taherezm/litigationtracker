@@ -1,5 +1,32 @@
 [
   {
+    "case_id": "beaulier-v-microsoft-corporation",
+    "case_name": "Beaulier v. Microsoft Corporation",
+    "entry_date": "2026-07-13",
+    "summary": "Plaintiff Austin Beaulier filed a response opposing Microsoft Corporation's motion to dismiss (docket entry 21). The response sets out Beaulier's arguments for why the case should survive and proceed past the dismissal stage.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-07-16T15:15:23Z"
+  },
+  {
+    "case_id": "x-ai-llc-v-bonta",
+    "case_name": "X.AI LLC v. Bonta",
+    "entry_date": "2026-07-15",
+    "summary": "Appellee Rob Bonta filed his answering brief in the Ninth Circuit, responding to X. AI LLC's appeal. No paper copies were required, and the filing was entered by the clerk on July 15, 2026.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-07-16T15:15:23Z"
+  },
+  {
+    "case_id": "x-ai-llc-v-bonta",
+    "case_name": "X.AI LLC v. Bonta",
+    "entry_date": "2026-07-15",
+    "summary": "Appellee Rob Bonta submitted his answering brief to the Ninth Circuit, responding to X. AI LLC's opening appeal arguments.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-07-16T15:15:23Z"
+  },
+  {
     "case_id": "hachette-book-group-inc-v-google-llc",
     "case_name": "Hachette Book Group, Inc. v. Google LLC",
     "entry_date": "2026-07-14",
