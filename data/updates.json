@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-07-16",
+    "summary": "Plaintiff Austin Beaulier filed an opposition to Roblox Corporation's motion to dismiss, pushing back against the defendant's arguments for dismissal of the case.",
+    "significance": "minor_update",
+    "entry_number": "38",
+    "logged_at": "2026-07-17T14:54:42Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-07-16",
+    "summary": "The court clerk reset the time of the Initial Case Management Conference, previously scheduled for 1:00 PM on August 13, 2026, to 2:00 PM on the same date in San Jose, Courtroom 8, 4th Floor. No other deadlines or case details were affected by this administrative change.",
+    "significance": "minor_update",
+    "entry_number": "30",
+    "logged_at": "2026-07-17T14:54:42Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-07-14",
+    "summary": "Both parties filed a stipulation agreeing to extend the deadline for Anthropic to respond to the complaint, with over 100 named plaintiffs joining the filing.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-07-17T14:54:42Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-07-16",
+    "summary": "The clerk issued a notice that this case has been reassigned to Judge Vince Chhabria, who has scheduled an Initial Case Management Conference via Zoom videoconference on October 23, 2026, at 10:00 AM; the parties must file a Joint Case Management Statement by October 16, 2026.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-07-17T14:54:42Z"
+  },
+  {
     "case_id": "beaulier-v-microsoft-corporation",
     "case_name": "Beaulier v. Microsoft Corporation",
     "entry_date": "2026-07-13",
