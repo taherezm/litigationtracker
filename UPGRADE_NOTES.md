@@ -1,102 +1,89 @@
-# Rate-limit refactor: tier-aware, budget-aware CourtListener client
+# Pipeline recovery: resumable discovery and honest freshness
 
-## The problem this fixes
+## Why this change was needed
 
-CourtListener replaced its old 5,000 req/hour default with rolling-window
-throttles on 2026-05-07 (default authenticated tier: **5/min, 50/hour,
-125/day**, most restrictive window controls). The pipeline was built for the
-old world: a fixed 4-second pause (~13 req/min) that violates even a doubled
-per-minute limit, a hard 30-second Retry-After abort that kills runs at the
-hourly wall, and a 5-day cadence that wastes the daily quota on four out of
-every five days. Observable symptoms in `data/last_run.json`:
-`courtlistener_rate_limited: true`, `docket_update_complete: false`, and
-per-case checkpoints spread across a full month.
+The tracker could keep running successfully without advancing discovery. Docket polling consumed most of CourtListener's effective hourly allowance first, and discovery restarted from the first fixed-order query on every run. The same early queries received the few remaining requests while later queries were indefinitely starved. Because quota deferral was treated as a valid partial result, the workflow stayed green even after the completed discovery checkpoint became stale.
+
+The public page compounded the confusion by labeling the newest `case.last_updated` processing timestamp as `Updated`. That timestamp was neither the latest legal activity nor the oldest docket-poll checkpoint, so quiet but fully checked dockets looked indistinguishable from a pipeline that had stopped.
+
+This upgrade separates those concepts and makes every unit of discovery work resumable.
 
 ## What changed
 
-`scripts/cl_client.py` (new) now owns all CourtListener HTTP. It reads the
-account's tier from env vars, keeps a persisted rolling ledger of request
-timestamps in `data/cl_request_log.json` (shared across processes and runs,
-committed by the existing `git add data/` step), paces every request so the
-client almost never sees a 429, and compares any required wait against a
-per-process time budget. When a wait won't fit, it raises the same
-`RateLimitExceeded` the pipeline already handles: publish progress, keep
-checkpoints, defer to the next run.
+### Separate quota windows
 
-`update_dockets.py` and `discover_cases.py` lose their duplicated retry
-layers (~150 lines of copy-paste deleted) and take the client instead of a
-raw session. The workflow moves from every-5-days to **daily**: under rolling
-windows, frequent small budget-aware runs move roughly 8–12x more data than
-rare big runs that slam into the hourly wall, and the checkpoint architecture
-already makes every run's progress permanent.
+`.github/workflows/scheduled_update.yml` now has two daily schedules:
 
-`update_dockets.py` also gains an **opt-in** batched change-detection
-pre-pass (`CL_BATCHED_CHANGE_DETECTION=1`): one RECAP-search query per ~20
-dockets identifies which tracked cases actually have new entries, so quiet
-dockets advance their checkpoints without a per-docket request. On a typical
-quiet day that turns ~41 polling requests into ~3, leaving most of the daily
-quota for backfills and discovery.
+- docket polling at `13:17 UTC`;
+- case discovery at `18:47 UTC`.
 
+Manual dispatch requires the `dockets` or `discovery` phase. The runs share the persisted `data/cl_request_log.json` ledger but are nominally five and a half hours apart, so they normally avoid consuming the default effective 49-request hourly window together. The shared ledger protects delayed overlaps, and workflow concurrency queues overlapping runs instead of letting them write canonical data concurrently.
+
+The workflow reads optional repository variables for `CL_REQUESTS_PER_MINUTE`, `CL_REQUESTS_PER_HOUR`, and `CL_REQUESTS_PER_DAY`. Unset values use the conservative sustained defaults in `scripts/cl_client.py`; temporary promotional limits are not hard-coded. `CL_BATCHED_CHANGE_DETECTION` remains disabled because an indexed-search false negative could incorrectly advance a quiet docket checkpoint.
+
+### Exhaustive, resumable discovery
+
+Discovery anchors each sweep to `window_start` and `window_through` and applies both filing-date bounds to CourtListener searches. It now follows every validated CourtListener `next` URL rather than reading only the first 20-result page.
+
+`last_run.discovery_cursor` persists:
+
+- the query-set hash, phase, and next query index;
+- `query_page_url` for the current CourtListener query page;
+- the RSS docket snapshot, index, and `rss_page_url`;
+- `pending_candidates`, a list of normalized candidates awaiting a final classifier decision.
+
+Pending candidates consume the classification budget before newly fetched candidates and appear first in classification order. A candidate with an unresolved classifier attempt stays in the cursor until it is either added to `cases.json` or deliberately rejected; transport errors and malformed classifier output no longer discard it or force a sweep back to query zero. Candidate caps and rate limits preserve the exact query/RSS page position, so later queries eventually receive coverage.
+
+The completed checkpoint advances only after every query page, pending candidate, and RSS lookup page in the anchored sweep is finished. It advances to the saved `window_through`, not the later wall-clock date, so filings that arrived during a multi-run catch-up remain covered by the next sweep.
+
+### Stable candidate identity
+
+Candidate identity now prefers CourtListener's docket primary key. For example, CourtListener docket ID `12345678` is stored and compared as:
+
+```text
+id:12345678
 ```
-.github/workflows/scheduled_update.yml |  19 +++-
-scripts/cl_client.py                   | new (~300 lines)
-scripts/discover_cases.py              |  83 ++-----
-scripts/update_dockets.py              | 197 +++++++++-----
-tests/test_checkpoint_persistence.py   |   4 +-
-tests/test_cl_client.py                | new
+
+Only a candidate without a CourtListener ID falls back to:
+
+```text
+court:<court>|docket:<normalized docket number>
 ```
 
-All 18 tests pass (12 existing + 6 new deterministic limiter tests using an
-injected fake clock). No new dependencies.
+Known cases, durable pending candidates, and the capped rejection cache use the same identity rule. This avoids collapsing similar docket-number formats from different courts.
 
-## Knobs
+### Honest status and health
 
-| Env var | Default | Notes |
-|---|---|---|
-| `CL_REQUESTS_PER_MINUTE` | 5 | Doubled promo (through 2026-08-06): 10 |
-| `CL_REQUESTS_PER_HOUR` | 50 | Promo: 100. Membership: your tier |
-| `CL_REQUESTS_PER_DAY` | 125 | Promo: 250 |
-| `CL_SAFETY_MARGIN` | 1 | Requests reserved per window |
-| `CL_TIME_BUDGET_SECONDS` | 1500 | Per-process wall-clock cap on waits |
-| `CL_BATCHED_CHANGE_DETECTION` | 0 | Opt-in; falls back to per-docket polling on any error |
-| `CL_REQUEST_LOG_PATH` | data/cl_request_log.json | Ledger location |
+The public tracker now presents two dates:
 
-Changing tiers (promo starts, promo ends, membership purchased) is a one-line
-edit to the workflow env block. No code changes, ever again.
+- `Latest Activity`: the newest qualifying case activity;
+- `Dockets Checked Through`: the oldest `docket_last_checked` value among pollable cases.
+
+A quiet day can leave `Latest Activity` unchanged while `Dockets Checked Through` advances, which is expected and now visible.
+
+`scripts/validate_tracker_data.py` has a warning-mode prepublication check and a strict postpublication check. Valid partial progress, including the discovery cursor, is committed and copied to the site before strict enforcement. The final step fails when either the last completed discovery checkpoint or the age of an incomplete discovery cycle exceeds `MAX_DISCOVERY_STALENESS_DAYS` (default `2`). A red run therefore reports stale coverage without throwing away the state needed to recover.
+
+Green means discovery coverage is within the configured grace window. It does not mean that a new qualifying case or docket entry was found.
+
+## State compatibility
+
+The public `cases.json` and `updates.json` schemas remain compatible. New recovery fields live in `data/last_run.json`, and older code ignores unknown cursor fields. Rejected identities may now look like `id:12345678` rather than a bare docket number.
+
+The request ledger remains the authoritative record of requests made by this pipeline during the rolling 24-hour window. Requests made elsewhere with the same CourtListener token are not in the ledger and can still cause a server-side 429; the client preserves cursor progress and defers safely when that happens.
 
 ## Rollout
 
-1. Merge, then trigger one `workflow_dispatch` and read the logs. You should
-   see steady pacing, zero or near-zero 429 warnings, and a graceful
-   "deferring to the next run" if the hourly window fills.
-2. While the promo is live, set the env block to 10 / 100 / 250 and fire a
-   few manual dispatches to collapse the month-wide checkpoint backlog.
-3. Batched change detection: leave it at 0 until you've smoke-tested once.
-   Trigger a dispatch with `CL_BATCHED_CHANGE_DETECTION=1`, and check the log
-   line `Change detection: N docket(s) with activity, M quiet docket(s)
-   advanced without polling` against reality (spot-check two or three tracked
-   cases on CourtListener). The fielded query it uses —
-   `docket_id:(... OR ...) AND entry_date_filed:[DATE TO *]` with `type=r` —
-   matches CourtListener's documented fielded-search syntax but has not been
-   verified against the live API from this environment. It fails safe: any
-   error, unexpected response shape, or overflow falls back to polling every
-   docket, and chunks that page past the cap are treated as fully active so a
-   false negative can't silently skip a docket. Once verified, flip to 1.
-
-## Honest caveats
-
-The ledger only knows about requests made through this client. If you use the
-CourtListener MCP connector or manual API calls on the same token, those
-consume the server-side windows invisibly; the client's 429 path handles that
-as a backstop, but heavy interactive use right before the daily cron will
-shrink that run's effective budget. Also note FLP forbids multiple accounts
-per person/project — the durable throughput fix is an EDU membership, not a
-second token. Finally, `MAX_SUMMARIES_PER_RUN` is an Anthropic spend control
-and is untouched: clearing the CourtListener bottleneck means more entries
-flowing to the summarizer, so watch Claude API spend for the first week.
+1. Merge the `undergradtechlaw` status-label change first. It is backward-compatible with the existing JSON and lets the pipeline's renderer contract pass.
+2. Merge the pipeline change.
+3. Manually dispatch `dockets`, then dispatch `discovery` after the hourly window has cleared.
+4. Confirm that `docket_last_run_date` advances independently and that `discovery_cursor` shrinks or moves forward on partial discovery runs.
+5. Expect the strict health step to remain red while the old discovery checkpoint is outside the two-day grace window. It should return green only after catch-up brings completed coverage inside that window.
+6. Keep batched change detection disabled until an observe-only comparison against full polling demonstrates no false negatives over multiple days.
 
 ## Rollback
 
-Revert the four modified files and delete `scripts/cl_client.py`,
-`tests/test_cl_client.py`, and `data/cl_request_log.json`. The data files are
-forward-compatible; nothing in `cases.json`/`updates.json` changed shape.
+Revert the pipeline change as one unit. Do not delete `data/last_run.json` or `data/cl_request_log.json`: retaining the cursor and request ledger is safer, and the prior code tolerates the extra state fields. The public case and update data do not require a migration or rollback.
+
+The site label change is backward-compatible and may remain deployed. If both repositories must be rolled back, revert the pipeline renderer contract first and the site UI second so a scheduled run never validates an older site template against a newer contract.
+
+Do not delete `scripts/cl_client.py` or restore the old fixed-delay request loop; the shared rolling-window limiter predates this recovery change and remains required. Restoring a combined docket-plus-discovery run would also restore the quota-starvation failure mode, so it should be used only as a short-lived emergency measure.

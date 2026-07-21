@@ -3,11 +3,13 @@
 
 from __future__ import annotations
 
+import argparse
 import html
 import json
 import os
 import re
 import sys
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -30,6 +32,7 @@ EMPTY_ENTRY_SUMMARY_MARKERS = (
     "courtlistener recorded docket activity",
 )
 ALLOWED_CASE_STATUSES = {"active", "stayed", "resolved"}
+DEFAULT_MAX_DISCOVERY_STALENESS_DAYS = 2
 
 
 def clean_text(value: Any) -> str:
@@ -172,25 +175,55 @@ def validate_updates(updates: Any) -> list[str]:
     return errors
 
 
-def validate_pipeline_state(last_run: Any) -> list[str]:
+def emit_warning(message: str) -> None:
+    if os.environ.get("GITHUB_ACTIONS"):
+        print(f"::warning::{message}", file=sys.stderr)
+    else:
+        print(f"Warning: {message}", file=sys.stderr)
+
+
+def parse_iso_date(value: Any) -> date | None:
+    text = clean_text(value)
+    try:
+        return date.fromisoformat(text)
+    except ValueError:
+        return None
+
+
+def max_discovery_staleness_days() -> int:
+    raw = clean_text(os.environ.get("MAX_DISCOVERY_STALENESS_DAYS"))
+    try:
+        return max(0, int(raw))
+    except ValueError:
+        return DEFAULT_MAX_DISCOVERY_STALENESS_DAYS
+
+
+def discovery_progress(last_run: dict[str, Any]) -> str:
+    completed = clean_text(last_run.get("discovery_queries_completed")) or "0"
+    total = clean_text(last_run.get("discovery_queries_total")) or "unknown"
+    phase = clean_text(last_run.get("discovery_phase")) or "unknown"
+    return f"phase {phase}, queries {completed}/{total}"
+
+
+def validate_pipeline_state(
+    last_run: Any,
+    *,
+    enforce_freshness: bool = False,
+    today: date | None = None,
+    max_staleness_days: int | None = None,
+) -> list[str]:
     errors: list[str] = []
     if not isinstance(last_run, dict):
         return ["last_run.json must contain an object."]
     if last_run.get("courtlistener_rate_limited"):
         message = "CourtListener rate-limited this run; valid fetched data will publish and the missed window will be retried."
-        if os.environ.get("GITHUB_ACTIONS"):
-            print(f"::warning::{message}", file=sys.stderr)
-        else:
-            print(f"Warning: {message}", file=sys.stderr)
+        emit_warning(message)
     if last_run.get("discovery_candidate_cap_reached"):
         message = (
             "Discovery candidate cap reached; processed candidates will publish, "
-            "and the discovery checkpoint can still advance unless another discovery failure occurred."
+            "while the checkpoint stays fixed and the saved cursor retries the interrupted query or RSS page."
         )
-        if os.environ.get("GITHUB_ACTIONS"):
-            print(f"::warning::{message}", file=sys.stderr)
-        else:
-            print(f"Warning: {message}", file=sys.stderr)
+        emit_warning(message)
     if last_run.get("docket_entry_cap_reached"):
         deferred = clean_text(last_run.get("summaries_deferred")) or "some"
         cap = clean_text(last_run.get("max_summaries_per_run")) or "configured"
@@ -204,17 +237,93 @@ def validate_pipeline_state(last_run: Any) -> list[str]:
                 f"Summary cap reached; {deferred} docket entries were deferred after the "
                 f"{cap}-summary run budget and will be retried."
             )
-        if os.environ.get("GITHUB_ACTIONS"):
-            print(f"::warning::{message}", file=sys.stderr)
+        emit_warning(message)
+
+    current_date = today or datetime.now(timezone.utc).date()
+    grace_days = (
+        max_discovery_staleness_days() if max_staleness_days is None else max(0, max_staleness_days)
+    )
+    checkpoint = parse_iso_date(last_run.get("discovery_last_run_date"))
+    coverage_freshness_failed = False
+    if checkpoint is None and last_run.get("discovery_complete") is not False:
+        message = "Discovery has no valid completed discovery_last_run_date checkpoint."
+        emit_warning(message)
+        coverage_freshness_failed = True
+        if enforce_freshness:
+            errors.append(message)
+    elif checkpoint is not None:
+        if checkpoint > current_date:
+            message = (
+                f"The completed discovery checkpoint is future-dated "
+                f"({checkpoint.isoformat()}); current UTC date is {current_date.isoformat()}."
+            )
+            emit_warning(message)
+            coverage_freshness_failed = True
+            if enforce_freshness:
+                errors.append(message)
         else:
-            print(f"Warning: {message}", file=sys.stderr)
+            checkpoint_age = (current_date - checkpoint).days
+        if checkpoint <= current_date and checkpoint_age > grace_days:
+            message = (
+                f"The completed discovery checkpoint is {checkpoint_age} day(s) old "
+                f"({checkpoint.isoformat()}); the allowed coverage age is {grace_days} day(s)."
+            )
+            emit_warning(message)
+            coverage_freshness_failed = True
+            if enforce_freshness:
+                errors.append(message)
+
+    if last_run.get("discovery_complete") is False:
+        incomplete_since = parse_iso_date(last_run.get("discovery_incomplete_since"))
+        if incomplete_since is None:
+            incomplete_since = checkpoint
+        if incomplete_since is None:
+            message = (
+                "Discovery is incomplete without a valid discovery_incomplete_since or "
+                f"discovery_last_run_date checkpoint ({discovery_progress(last_run)})."
+            )
+            emit_warning(message)
+            if enforce_freshness and not coverage_freshness_failed:
+                errors.append(message)
+        elif incomplete_since > current_date:
+            message = (
+                f"Discovery has a future-dated discovery_incomplete_since value "
+                f"({incomplete_since.isoformat()}); current UTC date is {current_date.isoformat()}."
+            )
+            emit_warning(message)
+            if enforce_freshness and not coverage_freshness_failed:
+                errors.append(message)
+        else:
+            stale_days = (current_date - incomplete_since).days
+            message = (
+                f"Discovery has been incomplete for {stale_days} day(s) since "
+                f"{incomplete_since.isoformat()} ({discovery_progress(last_run)})."
+            )
+            emit_warning(message)
+            if enforce_freshness and stale_days > grace_days and not coverage_freshness_failed:
+                errors.append(
+                    f"{message} The allowed incomplete-discovery window is {grace_days} day(s)."
+                )
     return errors
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--enforce-pipeline-freshness",
+        action="store_true",
+        help="Fail when completed discovery coverage or an incomplete cycle exceeds the grace window.",
+    )
+    args = parser.parse_args(argv)
+
     errors = validate_cases(load_json(CASES_PATH))
     errors.extend(validate_updates(load_json(UPDATES_PATH)))
-    errors.extend(validate_pipeline_state(load_json(LAST_RUN_PATH)))
+    errors.extend(
+        validate_pipeline_state(
+            load_json(LAST_RUN_PATH),
+            enforce_freshness=args.enforce_pipeline_freshness,
+        )
+    )
     if errors:
         print("Tracker data validation failed:", file=sys.stderr)
         for error in errors:

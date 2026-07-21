@@ -4,14 +4,16 @@
 from __future__ import annotations
 
 import html
+import hashlib
 import json
 import os
 import random
 import re
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qs, urljoin, urlparse
 
 import feedparser
 import requests
@@ -51,6 +53,7 @@ MAX_RETRIES = 3
 ANTHROPIC_TIMEOUT = 30.0
 DEFAULT_MAX_DISCOVERY_CANDIDATES = 5
 MAX_REJECTED_DOCKETS = 500
+DISCOVERY_CURSOR_VERSION = 1
 AI_TERMS = (
     "ai",
     "artificial intelligence",
@@ -134,6 +137,8 @@ SEARCH_QUERIES = [
     '"blockchain" "intellectual property"',
 ]
 
+DISCOVERY_QUERY_SET_HASH = hashlib.sha256("\n".join(SEARCH_QUERIES).encode("utf-8")).hexdigest()
+
 RSS_TERMS = (
     "ai",
     "artificial intelligence",
@@ -146,7 +151,7 @@ RSS_TERMS = (
 DOCKET_RE = re.compile(r"\b\d:\d{2}-[a-z]{2}-\d{4,6}\b", re.IGNORECASE)
 
 
-def utc_today() -> datetime.date:
+def utc_today() -> date:
     return datetime.now(timezone.utc).date()
 
 
@@ -306,6 +311,21 @@ def docket_key(value: Any) -> str:
     return normalize_docket_number(value).lower()
 
 
+def docket_identity(docket_number: Any, docket_id: Any = "", court: Any = "") -> str:
+    normalized_id = clean_text(docket_id)
+    if normalized_id:
+        return f"id:{normalized_id}"
+    return f"court:{clean_text(court).lower()}|docket:{docket_key(docket_number)}"
+
+
+def candidate_identity(candidate: dict[str, Any]) -> str:
+    return docket_identity(
+        candidate.get("docket_number"),
+        candidate.get("docket_id"),
+        candidate.get("court"),
+    )
+
+
 def courtlistener_url(docket_id: str, *sources: dict[str, Any]) -> str:
     for source in sources:
         value = first_value(source, ("courtlistener_url", "docket_absolute_url", "absolute_url", "url", "resource_uri"))
@@ -432,7 +452,67 @@ def remember_rejected_docket(rejected_dockets: list[str], rejected_docket_set: s
     rejected_dockets.append(key)
 
 
-def search_cases(cl: CourtListenerClient, query: str, search_after: str | None) -> list[dict[str, Any]]:
+def normalized_search_page_url(value: Any) -> str:
+    text = clean_text(value)
+    if not text:
+        return ""
+    absolute = urljoin(f"{COURTLISTENER_BASE}/", text)
+    parsed = urlparse(absolute)
+    if (
+        parsed.scheme != "https"
+        or parsed.hostname not in {"www.courtlistener.com", "courtlistener.com"}
+        or parsed.path.rstrip("/") != "/api/rest/v4/search"
+    ):
+        return ""
+    return absolute
+
+
+def validated_search_page_url(
+    value: Any,
+    query: str,
+    search_after: str | None,
+    search_before: str | None,
+) -> str:
+    """Bind a pagination URL to the exact search that produced it."""
+
+    absolute = normalized_search_page_url(value)
+    if not absolute:
+        return ""
+    params = parse_qs(urlparse(absolute).query, keep_blank_values=True)
+    expected = {
+        "q": query,
+        "type": "d",
+        "order_by": "score desc",
+        "page_size": "20",
+    }
+    if search_after:
+        expected["filed_after"] = search_after
+    if search_before:
+        expected["filed_before"] = search_before
+    for name, expected_value in expected.items():
+        if params.get(name) != [expected_value]:
+            return ""
+    for name, expected_value in (("filed_after", search_after), ("filed_before", search_before)):
+        if not expected_value and name in params:
+            return ""
+    pagination_keys = {name for name in ("cursor", "page") if name in params}
+    if len(pagination_keys) != 1:
+        return ""
+    pagination_key = next(iter(pagination_keys))
+    if len(params[pagination_key]) != 1 or not params[pagination_key][0]:
+        return ""
+    if set(params) != set(expected) | pagination_keys:
+        return ""
+    return absolute
+
+
+def search_case_page(
+    cl: CourtListenerClient,
+    query: str,
+    search_after: str | None,
+    search_before: str | None = None,
+    page_url: str | None = None,
+) -> tuple[list[dict[str, Any]], str]:
     params: dict[str, Any] = {
         "q": query,
         "type": "d",
@@ -441,8 +521,17 @@ def search_cases(cl: CourtListenerClient, query: str, search_after: str | None) 
     }
     if search_after:
         params["filed_after"] = search_after
+    if search_before:
+        params["filed_before"] = search_before
+    request_url = COURTLISTENER_SEARCH_URL
+    request_params: dict[str, Any] | None = params
+    if page_url:
+        request_url = validated_search_page_url(page_url, query, search_after, search_before)
+        if not request_url:
+            raise RateLimitExceeded("Saved CourtListener search page URL is invalid; restarting this query.")
+        request_params = None
     try:
-        data = cl.get_json(COURTLISTENER_SEARCH_URL, params=params)
+        data = cl.get_json(request_url, params=request_params)
     except requests.HTTPError as exc:
         status = exc.response.status_code if exc.response is not None else None
         if status in {401, 403}:
@@ -451,7 +540,85 @@ def search_cases(cl: CourtListenerClient, query: str, search_after: str | None) 
                 "fix the repository secret before the pipeline can run."
             ) from exc
         raise
-    return data.get("results", []) if isinstance(data.get("results"), list) else []
+    results = data.get("results", []) if isinstance(data.get("results"), list) else []
+    raw_next = clean_text(data.get("next"))
+    next_url = validated_search_page_url(raw_next, query, search_after, search_before)
+    if raw_next and not next_url:
+        raise RateLimitExceeded("CourtListener returned an invalid search pagination URL.")
+    return results, next_url
+
+
+def search_cases(cl: CourtListenerClient, query: str, search_after: str | None) -> list[dict[str, Any]]:
+    results, _ = search_case_page(cl, query, search_after)
+    return results
+
+
+def collect_query_candidates(
+    cl: CourtListenerClient,
+    search_after: str,
+    search_before: str,
+    skipped_dockets: set[str],
+    limit: int,
+    start_index: int,
+    start_page_url: str = "",
+    queries: list[str] | None = None,
+) -> tuple[dict[str, dict[str, Any]], int, str, bool, bool]:
+    """Collect query candidates and return a retry-safe next-query cursor.
+
+    A rate limit leaves the failed query as the next query. A candidate-cap
+    interruption also keeps the current query so accepted/rejected docket
+    deduplication can drain the rest of that result page on a later run.
+    """
+
+    query_list = queries if queries is not None else SEARCH_QUERIES
+    next_query_index, start_index_valid = cursor_index_state(start_index, len(query_list))
+    current_page_url = (
+        validated_search_page_url(
+            start_page_url,
+            query_list[next_query_index],
+            search_after,
+            search_before,
+        )
+        if start_page_url and start_index_valid and next_query_index < len(query_list)
+        else ""
+    )
+    candidates_by_docket: dict[str, dict[str, Any]] = {}
+
+    for index in range(next_query_index, len(query_list)):
+        query = query_list[index]
+        while True:
+            requested_page_url = current_page_url
+            try:
+                results, following_page_url = search_case_page(
+                    cl,
+                    query,
+                    search_after,
+                    search_before,
+                    requested_page_url,
+                )
+            except RateLimitExceeded as exc:
+                print(f"Warning: skipped search query after CourtListener rate limit: {query} ({exc})")
+                return candidates_by_docket, index, requested_page_url, True, False
+
+            for result in results:
+                candidate = result_to_candidate(result, query)
+                if not candidate:
+                    continue
+                key = candidate_identity(candidate)
+                if key not in skipped_dockets:
+                    candidates_by_docket.setdefault(key, candidate)
+                if limit and len(candidates_by_docket) >= limit:
+                    print(f"Warning: discovery candidate collection stopped at {limit} candidates.")
+                    return candidates_by_docket, index, requested_page_url, False, True
+
+            if following_page_url:
+                current_page_url = following_page_url
+                continue
+            next_query_index = index + 1
+            current_page_url = ""
+            break
+
+    return candidates_by_docket, next_query_index, "", False, False
 
 
 def classify_case(client: Anthropic, candidate: dict[str, Any]) -> dict[str, Any]:
@@ -631,25 +798,75 @@ def build_case(
     return case
 
 
-def collect_rss_candidates(cl: CourtListenerClient) -> list[dict[str, Any]]:
+def rss_docket_numbers() -> list[str]:
     feed = feedparser.parse(COURTHOUSE_NEWS_FEED)
-    candidates: list[dict[str, Any]] = []
+    docket_numbers: list[str] = []
+    seen: set[str] = set()
     for entry in feed.entries:
         text = clean_text(f"{entry.get('title', '')} {entry.get('description', '')} {entry.get('summary', '')}")
         lowered = text.lower()
         if not any(term_in_text(lowered, term) for term in RSS_TERMS):
             continue
         for docket_number in sorted(set(DOCKET_RE.findall(text))):
+            key = docket_key(docket_number)
+            if key and key not in seen:
+                seen.add(key)
+                docket_numbers.append(docket_number)
+    return docket_numbers
+
+
+def collect_rss_candidates(
+    cl: CourtListenerClient,
+    docket_numbers: list[str],
+    skipped_dockets: set[str],
+    limit: int,
+    start_index: int = 0,
+    start_page_url: str = "",
+) -> tuple[dict[str, dict[str, Any]], int, str, bool, bool]:
+    """Collect every search page for each RSS docket with a resumable cursor."""
+
+    candidates_by_docket: dict[str, dict[str, Any]] = {}
+    next_rss_index, start_index_valid = cursor_index_state(start_index, len(docket_numbers))
+    current_page_url = (
+        validated_search_page_url(start_page_url, docket_numbers[next_rss_index], None, None)
+        if start_page_url and start_index_valid and next_rss_index < len(docket_numbers)
+        else ""
+    )
+    for index in range(next_rss_index, len(docket_numbers)):
+        docket_number = docket_numbers[index]
+        while True:
+            requested_page_url = current_page_url
             try:
-                results = search_cases(cl, docket_number, search_after=None)
+                results, following_page_url = search_case_page(
+                    cl,
+                    docket_number,
+                    search_after=None,
+                    search_before=None,
+                    page_url=requested_page_url,
+                )
             except RateLimitExceeded as exc:
                 print(f"Warning: skipped RSS docket lookup after rate limit: {docket_number} ({exc})")
-                raise
+                return candidates_by_docket, index, requested_page_url, True, False
+
             for result in results:
                 candidate = result_to_candidate(result, f"rss:{COURTHOUSE_NEWS_FEED}")
-                if candidate:
-                    candidates.append(candidate)
-    return candidates
+                if not candidate:
+                    continue
+                key = candidate_identity(candidate)
+                if key not in skipped_dockets:
+                    candidates_by_docket.setdefault(key, candidate)
+                if limit and len(candidates_by_docket) >= limit:
+                    print(f"Warning: RSS candidate collection stopped at {limit} candidates.")
+                    return candidates_by_docket, index, requested_page_url, False, True
+
+            if following_page_url:
+                current_page_url = following_page_url
+                continue
+            next_rss_index = index + 1
+            current_page_url = ""
+            break
+
+    return candidates_by_docket, next_rss_index, "", False, False
 
 
 def search_after_date(cases: list[dict[str, Any]], last_run: dict[str, Any]) -> str:
@@ -664,14 +881,224 @@ def search_after_date(cases: list[dict[str, Any]], last_run: dict[str, Any]) -> 
     return (utc_today() - timedelta(days=90)).isoformat()
 
 
+def valid_iso_date(value: Any) -> str:
+    text = clean_text(value)
+    try:
+        date.fromisoformat(text)
+    except ValueError:
+        return ""
+    return text
+
+
+def cursor_index_state(value: Any, upper_bound: int) -> tuple[int, bool]:
+    if isinstance(value, bool):
+        return 0, False
+    if isinstance(value, int):
+        index = value
+    elif isinstance(value, str) and re.fullmatch(r"-?\d+", value.strip()):
+        index = int(value)
+    else:
+        return 0, False
+    return (index, True) if 0 <= index <= upper_bound else (0, False)
+
+
+def normalized_cursor_index(value: Any, upper_bound: int) -> int:
+    return cursor_index_state(value, upper_bound)[0]
+
+
+def normalized_pending_candidate_state(value: Any) -> tuple[list[dict[str, Any]], bool]:
+    """Return retry payloads plus whether any persisted payload was malformed."""
+
+    if value is None:
+        return [], False
+    if not isinstance(value, list):
+        return [], True
+    candidates_by_docket: dict[str, dict[str, Any]] = {}
+    invalid = False
+    for item in value:
+        if not isinstance(item, dict):
+            invalid = True
+            continue
+        raw_value = item.get("raw")
+        if not isinstance(raw_value, dict):
+            invalid = True
+            raw_value = {}
+        candidate = {
+            "source": clean_text(item.get("source")) or "classifier-retry",
+            "raw": raw_value,
+            "docket_id": clean_text(item.get("docket_id")),
+            "docket_number": normalize_docket_number(item.get("docket_number")),
+            "case_name": clean_text(item.get("case_name")),
+            "court": clean_text(item.get("court")),
+            "date_filed": clean_text(item.get("date_filed")),
+            "parties": clean_text(item.get("parties")),
+            "snippet": clean_text(item.get("snippet")),
+        }
+        if not candidate["docket_id"] or not candidate["docket_number"] or not candidate["case_name"]:
+            invalid = True
+            continue
+        candidates_by_docket.setdefault(candidate_identity(candidate), candidate)
+    return list(candidates_by_docket.values()), invalid
+
+
+def normalized_pending_candidates(value: Any) -> list[dict[str, Any]]:
+    return normalized_pending_candidate_state(value)[0]
+
+
+def discovery_cursor(cases: list[dict[str, Any]], last_run: dict[str, Any]) -> dict[str, Any]:
+    """Load a cursor or conservatively restart the anchored discovery cycle."""
+
+    raw = last_run.get("discovery_cursor")
+    if not isinstance(raw, dict):
+        raw = {}
+
+    today = utc_today()
+    baseline = valid_iso_date(search_after_date(cases, last_run))
+    if not baseline or date.fromisoformat(baseline) > today:
+        baseline = (today - timedelta(days=90)).isoformat()
+    baseline_date = date.fromisoformat(baseline)
+
+    raw_window_start = valid_iso_date(raw.get("window_start"))
+    raw_window_through = valid_iso_date(raw.get("window_through"))
+    anchors_valid = bool(
+        raw_window_start
+        and raw_window_through
+        and date.fromisoformat(raw_window_start)
+        <= baseline_date
+        <= date.fromisoformat(raw_window_through)
+        <= today
+    )
+    cursor_matches = bool(
+        raw.get("version") == DISCOVERY_CURSOR_VERSION
+        and clean_text(raw.get("query_set_sha256")) == DISCOVERY_QUERY_SET_HASH
+        and anchors_valid
+    )
+
+    if cursor_matches:
+        window_start = raw_window_start
+        window_through = raw_window_through
+    else:
+        safe_start = baseline_date
+        if raw_window_start and date.fromisoformat(raw_window_start) <= today:
+            safe_start = min(safe_start, date.fromisoformat(raw_window_start))
+        safe_through = today
+        if raw_window_through:
+            candidate_through = date.fromisoformat(raw_window_through)
+            if max(safe_start, baseline_date) <= candidate_through <= today:
+                safe_through = candidate_through
+        window_start = safe_start.isoformat()
+        window_through = safe_through.isoformat()
+
+    pending_candidates, pending_state_invalid = normalized_pending_candidate_state(raw.get("pending_candidates"))
+    progress_valid = (
+        cursor_matches
+        and not pending_state_invalid
+        and raw.get("phase") in {"queries", "rss"}
+    )
+    if progress_valid:
+        next_query_index, query_index_valid = cursor_index_state(
+            raw.get("next_query_index"),
+            len(SEARCH_QUERIES),
+        )
+    else:
+        next_query_index, query_index_valid = 0, False
+    phase = (
+        "rss"
+        if progress_valid and raw.get("phase") == "rss" and next_query_index == len(SEARCH_QUERIES)
+        else "queries"
+    )
+
+    raw_rss_dockets = raw.get("rss_docket_numbers") if phase == "rss" else []
+    saved_rss_dockets: list[str] = []
+    seen_rss_dockets: set[str] = set()
+    rss_snapshot_invalid = phase == "rss" and not isinstance(raw_rss_dockets, list)
+    if isinstance(raw_rss_dockets, list):
+        for item in raw_rss_dockets:
+            if not isinstance(item, str):
+                rss_snapshot_invalid = True
+                continue
+            docket_number = normalize_docket_number(item)
+            key = docket_key(docket_number)
+            if not docket_number:
+                rss_snapshot_invalid = True
+            elif key in seen_rss_dockets:
+                rss_snapshot_invalid = True
+            else:
+                seen_rss_dockets.add(key)
+                saved_rss_dockets.append(docket_number)
+
+    if rss_snapshot_invalid:
+        progress_valid = False
+        phase = "queries"
+        next_query_index = 0
+        saved_rss_dockets = []
+
+    query_page_url = ""
+    raw_query_page_url = clean_text(raw.get("query_page_url"))
+    if progress_valid and query_index_valid and phase == "queries" and raw_query_page_url:
+        if next_query_index < len(SEARCH_QUERIES):
+            query_page_url = validated_search_page_url(
+                raw_query_page_url,
+                SEARCH_QUERIES[next_query_index],
+                window_start,
+                window_through,
+            )
+        else:
+            next_query_index = 0
+
+    if progress_valid and phase == "rss":
+        next_rss_index, rss_index_valid = cursor_index_state(
+            raw.get("next_rss_index"),
+            len(saved_rss_dockets),
+        )
+    else:
+        next_rss_index, rss_index_valid = 0, False
+    rss_page_url = ""
+    raw_rss_page_url = clean_text(raw.get("rss_page_url"))
+    if progress_valid and rss_index_valid and phase == "rss" and raw_rss_page_url:
+        if next_rss_index < len(saved_rss_dockets):
+            rss_page_url = validated_search_page_url(
+                raw_rss_page_url,
+                saved_rss_dockets[next_rss_index],
+                None,
+                None,
+            )
+        else:
+            next_rss_index = 0
+
+    return {
+        "version": DISCOVERY_CURSOR_VERSION,
+        "window_start": window_start,
+        "window_through": window_through,
+        "query_set_sha256": DISCOVERY_QUERY_SET_HASH,
+        "phase": phase,
+        "next_query_index": next_query_index,
+        "query_page_url": query_page_url,
+        "rss_docket_numbers": saved_rss_dockets,
+        "next_rss_index": next_rss_index,
+        "rss_page_url": rss_page_url,
+        "pending_candidates": pending_candidates,
+        "pending_state_invalid": pending_state_invalid,
+    }
+
+
 def force_discovery() -> bool:
     return (os.environ.get("FORCE_DISCOVERY") or "").strip().lower() in {"1", "true", "yes"}
+
+
+def reset_run_rate_limit_state() -> bool:
+    return (os.environ.get("RESET_COURTLISTENER_RATE_LIMIT_STATE") or "").strip().lower() in {
+        "1",
+        "true",
+        "yes",
+    }
 
 
 def discovery_already_current(last_run: dict[str, Any]) -> bool:
     return (
         clean_text(last_run.get("discovery_last_run_date")) == utc_today().isoformat()
         and bool(last_run.get("discovery_complete", True))
+        and not isinstance(last_run.get("discovery_cursor"), dict)
         and not force_discovery()
     )
 
@@ -684,11 +1111,21 @@ def main() -> None:
     last_run = load_json(LAST_RUN_PATH, {})
     if not isinstance(last_run, dict):
         last_run = {}
+    previous_discovery_complete = bool(last_run.get("discovery_complete", True))
+
+    if reset_run_rate_limit_state():
+        last_run["courtlistener_rate_limited"] = False
 
     if discovery_already_current(last_run):
         last_run["cases_discovered"] = 0
         last_run["discovery_complete"] = True
         last_run["discovery_candidate_cap_reached"] = False
+        last_run["discovery_phase"] = "complete"
+        last_run["discovery_queries_completed"] = len(SEARCH_QUERIES)
+        last_run["discovery_queries_total"] = len(SEARCH_QUERIES)
+        last_run.pop("discovery_cursor", None)
+        last_run.pop("discovery_incomplete_reason", None)
+        last_run.pop("discovery_incomplete_since", None)
         if last_run.get("docket_update_complete", True):
             last_run["last_run_date"] = utc_today().isoformat()
         write_json(LAST_RUN_PATH, last_run)
@@ -699,79 +1136,154 @@ def main() -> None:
     anthropic_key = require_env("ANTHROPIC_API_KEY")
     model_name()
 
-    known_dockets = {docket_key(case.get("docket_number")) for case in cases if case.get("docket_number")}
+    known_dockets = {
+        docket_identity(
+            case.get("docket_number"),
+            case.get("courtlistener_docket_id"),
+            case.get("court"),
+        )
+        for case in cases
+        if case.get("docket_number")
+    }
     rejected_dockets, rejected_docket_set = rejected_docket_cache(last_run.get("rejected_dockets", []))
     skipped_dockets = known_dockets | rejected_docket_set
     existing_ids = {clean_text(case.get("id")) for case in cases if case.get("id")}
-    search_after = search_after_date(cases, last_run)
     limit = max_discovery_candidates()
+    cursor = discovery_cursor(cases, last_run)
+    if cursor["pending_state_invalid"]:
+        print(
+            "Warning: malformed pending discovery state was discarded; "
+            "restarting the full anchored source sweep."
+        )
+    search_after = cursor["window_start"]
+    cycle_through = cursor["window_through"]
+
+    pending_candidates = [
+        candidate
+        for candidate in cursor["pending_candidates"]
+        if candidate_identity(candidate) not in skipped_dockets
+    ]
+    pending_identities = {candidate_identity(candidate) for candidate in pending_candidates}
+    source_skipped_dockets = skipped_dockets | pending_identities
+    if limit:
+        pending_to_process = pending_candidates[:limit]
+        deferred_pending_candidates = pending_candidates[limit:]
+        source_limit = max(0, limit - len(pending_to_process))
+    else:
+        pending_to_process = pending_candidates
+        deferred_pending_candidates = []
+        source_limit = 0
 
     cl = CourtListenerClient(courtlistener_key)
     client = Anthropic(api_key=anthropic_key, timeout=ANTHROPIC_TIMEOUT, max_retries=0)
     candidates_by_docket: dict[str, dict[str, Any]] = {}
-    discovery_complete = True
-    discovery_candidate_cap_reached = False
-    courtlistener_rate_limited = False
+    phase = str(cursor["phase"])
+    next_query_index = int(cursor["next_query_index"])
+    query_page_url = str(cursor["query_page_url"])
+    saved_rss_dockets = list(cursor["rss_docket_numbers"]) if phase == "rss" else []
+    next_rss_index = int(cursor["next_rss_index"]) if phase == "rss" else 0
+    rss_page_url = str(cursor["rss_page_url"]) if phase == "rss" else ""
+    query_rate_limited = False
+    query_cap_reached = False
+    rss_rate_limited = False
+    rss_cap_reached = False
+    source_collection_complete = bool(
+        phase == "rss"
+        and next_query_index == len(SEARCH_QUERIES)
+        and next_rss_index == len(saved_rss_dockets)
+        and not rss_page_url
+    )
+    discovery_candidate_cap_reached = bool(deferred_pending_candidates)
 
-    for query in SEARCH_QUERIES:
-        try:
-            results = search_cases(cl, query, search_after)
-        except RateLimitExceeded as exc:
-            discovery_complete = False
-            courtlistener_rate_limited = True
-            print(f"Warning: skipped search query after CourtListener rate limit: {query} ({exc})")
-            break
-        for result in results:
-            candidate = result_to_candidate(result, query)
-            if not candidate:
-                continue
-            key = docket_key(candidate["docket_number"])
-            if key not in skipped_dockets:
-                candidates_by_docket.setdefault(key, candidate)
-            if limit and len(candidates_by_docket) >= limit:
-                discovery_candidate_cap_reached = True
-                print(f"Warning: discovery candidate collection stopped at {limit} candidates.")
-                break
-        if limit and len(candidates_by_docket) >= limit:
-            break
-
-    if limit and len(candidates_by_docket) >= limit:
-        rss_candidates = []
-    else:
-        try:
-            rss_candidates = collect_rss_candidates(cl)
-        except RateLimitExceeded as exc:
-            discovery_complete = False
-            courtlistener_rate_limited = True
-            print(f"Warning: skipped RSS discovery after CourtListener rate limit ({exc})")
-            rss_candidates = []
-
-    for candidate in rss_candidates:
-        key = docket_key(candidate["docket_number"])
-        if key not in skipped_dockets:
-            candidates_by_docket.setdefault(key, candidate)
-
-    candidates = list(candidates_by_docket.values())
-    if limit and len(candidates) > limit:
+    can_collect_sources = not limit or source_limit > 0
+    if phase == "queries" and can_collect_sources:
+        (
+            candidates_by_docket,
+            next_query_index,
+            query_page_url,
+            query_rate_limited,
+            query_cap_reached,
+        ) = collect_query_candidates(
+            cl,
+            search_after,
+            cycle_through,
+            source_skipped_dockets,
+            source_limit,
+            next_query_index,
+            query_page_url,
+        )
+        discovery_candidate_cap_reached = discovery_candidate_cap_reached or query_cap_reached
+    elif phase == "queries":
         discovery_candidate_cap_reached = True
-        print(f"Warning: discovery candidate list capped at {limit} of {len(candidates)} candidates.")
-        candidates = candidates[:limit]
+
+    if not query_rate_limited and not query_cap_reached and next_query_index == len(SEARCH_QUERIES):
+        phase = "rss"
+        if cursor["phase"] == "rss":
+            saved_rss_dockets = list(cursor["rss_docket_numbers"])
+            next_rss_index = int(cursor["next_rss_index"])
+            rss_page_url = str(cursor["rss_page_url"])
+        else:
+            saved_rss_dockets = rss_docket_numbers()
+            next_rss_index = 0
+            rss_page_url = ""
+        query_page_url = ""
+        source_collection_complete = next_rss_index == len(saved_rss_dockets) and not rss_page_url
+
+        rss_limit = 0 if not limit else max(0, source_limit - len(candidates_by_docket))
+        can_collect_rss = not limit or rss_limit > 0
+        if not source_collection_complete and can_collect_rss:
+            rss_skipped_dockets = source_skipped_dockets | set(candidates_by_docket)
+            (
+                rss_candidates,
+                next_rss_index,
+                rss_page_url,
+                rss_rate_limited,
+                rss_cap_reached,
+            ) = collect_rss_candidates(
+                cl,
+                saved_rss_dockets,
+                rss_skipped_dockets,
+                rss_limit,
+                next_rss_index,
+                rss_page_url,
+            )
+            candidates_by_docket.update(rss_candidates)
+            discovery_candidate_cap_reached = discovery_candidate_cap_reached or rss_cap_reached
+            source_collection_complete = bool(
+                not rss_rate_limited
+                and not rss_cap_reached
+                and next_rss_index == len(saved_rss_dockets)
+                and not rss_page_url
+            )
+        elif not source_collection_complete:
+            discovery_candidate_cap_reached = True
+
+    candidates = pending_to_process + list(candidates_by_docket.values())
+    if limit and len(candidates) > limit:
+        raise RuntimeError(
+            f"Internal discovery budget error: selected {len(candidates)} candidates with a limit of {limit}."
+        )
 
     discovered: list[dict[str, Any]] = []
+    failed_candidates: list[dict[str, Any]] = []
     for candidate in candidates:
-        key = docket_key(candidate["docket_number"])
+        key = candidate_identity(candidate)
         classification = fallback_classification(candidate)
         if classification.get("relevant"):
             print(f"Using deterministic classifier for {candidate['docket_number']}.")
         else:
             try:
                 classification = classify_case(client, candidate)
+                if not isinstance(classification, dict):
+                    raise ValueError("model classifier returned non-object JSON")
             except json.JSONDecodeError:
-                discovery_complete = False
+                failed_candidates.append(candidate)
                 print(f"Warning: model returned malformed classifier JSON for {candidate['docket_number']}.")
+                continue
             except Exception as exc:
-                discovery_complete = False
+                failed_candidates.append(candidate)
                 print(f"Warning: model classifier failed for {candidate['docket_number']}: {exc}")
+                continue
         if not classification.get("relevant"):
             fallback = fallback_classification(candidate)
             if fallback.get("relevant"):
@@ -796,17 +1308,62 @@ def main() -> None:
     cases.extend(discovered)
     write_json(CASES_PATH, cases)
 
+    pending_candidates = normalized_pending_candidates(deferred_pending_candidates + failed_candidates)
+    classification_failed = bool(failed_candidates)
+    discovery_complete = source_collection_complete and not pending_candidates
+    courtlistener_rate_limited = query_rate_limited or rss_rate_limited
     last_run["cases_discovered"] = len(discovered)
     last_run["discovery_complete"] = discovery_complete
     last_run["discovery_candidate_cap_reached"] = discovery_candidate_cap_reached
+    last_run["discovery_queries_completed"] = (
+        len(SEARCH_QUERIES) if discovery_complete else next_query_index
+    )
+    last_run["discovery_queries_total"] = len(SEARCH_QUERIES)
+    last_run["discovery_rss_dockets_completed"] = next_rss_index
+    last_run["discovery_rss_dockets_total"] = len(saved_rss_dockets)
     last_run["courtlistener_rate_limited"] = (
         bool(last_run.get("courtlistener_rate_limited")) or courtlistener_rate_limited
     )
     last_run["rejected_dockets"] = rejected_dockets[-MAX_REJECTED_DOCKETS:]
     if discovery_complete:
-        last_run["discovery_last_run_date"] = utc_today().isoformat()
+        last_run["discovery_phase"] = "complete"
+        last_run["discovery_last_run_date"] = cycle_through
+        last_run.pop("discovery_cursor", None)
+        last_run.pop("discovery_incomplete_reason", None)
+        last_run.pop("discovery_incomplete_since", None)
         if last_run.get("docket_update_complete", True):
-            last_run["last_run_date"] = utc_today().isoformat()
+            last_run["last_run_date"] = cycle_through
+    else:
+        if classification_failed:
+            incomplete_reason = "classification"
+        elif discovery_candidate_cap_reached:
+            incomplete_reason = "candidate_cap"
+        elif courtlistener_rate_limited:
+            incomplete_reason = "rate_limit"
+        else:
+            incomplete_reason = "source_collection"
+        last_run["discovery_phase"] = phase
+        last_run["discovery_incomplete_reason"] = incomplete_reason
+        if not clean_text(last_run.get("discovery_incomplete_since")):
+            if previous_discovery_complete:
+                last_run["discovery_incomplete_since"] = utc_today().isoformat()
+            else:
+                last_run["discovery_incomplete_since"] = (
+                    valid_iso_date(last_run.get("discovery_last_run_date")) or utc_today().isoformat()
+                )
+        last_run["discovery_cursor"] = {
+            "version": DISCOVERY_CURSOR_VERSION,
+            "window_start": search_after,
+            "window_through": cycle_through,
+            "query_set_sha256": DISCOVERY_QUERY_SET_HASH,
+            "phase": phase,
+            "next_query_index": next_query_index,
+            "query_page_url": query_page_url if phase == "queries" else "",
+            "rss_docket_numbers": saved_rss_dockets if phase == "rss" else [],
+            "next_rss_index": next_rss_index if phase == "rss" else 0,
+            "rss_page_url": rss_page_url if phase == "rss" else "",
+            "pending_candidates": pending_candidates,
+        }
     write_json(LAST_RUN_PATH, last_run)
 
     print(f"Discovered {len(discovered)} new cases.")
