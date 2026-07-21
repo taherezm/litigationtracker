@@ -12,6 +12,11 @@ REQUIRED_SNIPPETS = (
     "Activity Dates",
     "renderActivityDays(activityDays)",
     "publicEntryText(entry)",
+    "Latest Activity",
+    "Dockets Checked Through",
+    'id="stat-checked"',
+    "latestActivityDate(state.cases)",
+    "docketCheckedThrough(state.cases)",
 )
 FORBIDDEN_SNIPPETS = (
     "Case Timeline",
@@ -19,6 +24,8 @@ FORBIDDEN_SNIPPETS = (
     "Needs Review",
     "claim-tags",
     "claim-tag",
+    '<span>Updated <strong id="stat-updated">',
+    "mostRecentDate(state.cases.map(function (c) { return c.last_updated; }))",
 )
 
 

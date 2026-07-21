@@ -6,14 +6,14 @@ Why this exists
 On 2026-05-07 Free Law Project replaced the old 5,000 requests/hour default
 with per-tier rolling-window throttles (default tier: 5/minute, 50/hour,
 125/day). The pipeline previously paced requests with a fixed 4-second pause
-(~13/minute), which violates even doubled per-minute limits, burns retries on
+(~13/minute), which violates the default per-minute limit, burns retries on
 429s, and aborts runs at the hourly wall.
 
 This client makes the pipeline a *good citizen* of whatever tier the account
 is on:
 
-- Tier limits come from env vars, so promo windows or a membership upgrade
-  are a one-line workflow change (no code edits).
+- Sustained tier limits come from optional repository-backed env vars; unset
+  values use conservative authenticated-tier defaults.
 - A persisted request ledger (``data/cl_request_log.json``) tracks our own
   rolling windows across runs and processes, so the client paces itself and
   almost never sees a 429 in the first place.
@@ -31,9 +31,9 @@ backstop and its Retry-After is honored when it fits in the budget.
 Environment variables
 ---------------------
 COURTLISTENER_API_KEY      required by callers (passed into the client)
-CL_REQUESTS_PER_MINUTE     default 5      (doubled promo: 10)
-CL_REQUESTS_PER_HOUR       default 50     (doubled promo: 100)
-CL_REQUESTS_PER_DAY        default 125    (doubled promo: 250)
+CL_REQUESTS_PER_MINUTE     default 5      sustained token limit
+CL_REQUESTS_PER_HOUR       default 50     sustained token limit
+CL_REQUESTS_PER_DAY        default 125    sustained token limit
 CL_SAFETY_MARGIN           default 1      requests reserved per window
 CL_TIME_BUDGET_SECONDS     default 1500   per-process wall-clock budget
 CL_REQUEST_LOG_PATH        default data/cl_request_log.json

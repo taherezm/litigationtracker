@@ -3,11 +3,13 @@
 
 from __future__ import annotations
 
+import os
 import sys
 import tempfile
 import unittest
 from pathlib import Path
 from typing import Any
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -164,6 +166,61 @@ class ClClientTests(unittest.TestCase):
         # With the stale entry pruned, only the minute window binds shortly
         # after the surviving request; 61s later even that is clear.
         self.assertEqual(ledger.wait_needed(TierLimits(1, 10, 10), clock.time() + 61), 0.0)
+
+    def test_tier_limits_use_safe_defaults_and_environment_overrides(self) -> None:
+        with patch.dict(os.environ, {}, clear=True):
+            self.assertEqual(TierLimits.from_env(), TierLimits(4, 49, 124))
+
+        with patch.dict(
+            os.environ,
+            {
+                "CL_REQUESTS_PER_MINUTE": "12",
+                "CL_REQUESTS_PER_HOUR": "80",
+                "CL_REQUESTS_PER_DAY": "300",
+                "CL_SAFETY_MARGIN": "2",
+            },
+            clear=True,
+        ):
+            self.assertEqual(TierLimits.from_env(), TierLimits(10, 78, 298))
+
+    def test_combined_docket_and_discovery_phase_exhausts_hourly_budget(self) -> None:
+        clock = FakeClock()
+        limits = TierLimits(per_minute=100, per_hour=49, per_day=124)
+        docket_client, _ = make_client(clock, self.ledger_path, limits, budget=1500.0)
+        for _ in range(42):
+            docket_client.get_json("https://example.test/dockets")
+
+        discovery_client, discovery_session = make_client(
+            clock,
+            self.ledger_path,
+            limits,
+            budget=1500.0,
+        )
+        for _ in range(7):
+            discovery_client.get_json("https://example.test/discovery")
+        with self.assertRaises(RateLimitExceeded):
+            discovery_client.get_json("https://example.test/discovery")
+
+        self.assertEqual(len(discovery_session.sent_at), 7)
+
+    def test_separated_discovery_phase_finishes_with_shared_daily_ledger(self) -> None:
+        clock = FakeClock()
+        limits = TierLimits(per_minute=100, per_hour=49, per_day=124)
+        docket_client, _ = make_client(clock, self.ledger_path, limits, budget=1500.0)
+        for _ in range(42):
+            docket_client.get_json("https://example.test/dockets")
+
+        clock.sleep(5.5 * 3600)
+        discovery_client, discovery_session = make_client(
+            clock,
+            self.ledger_path,
+            limits,
+            budget=1500.0,
+        )
+        for _ in range(36):
+            discovery_client.get_json("https://example.test/discovery")
+
+        self.assertEqual(len(discovery_session.sent_at), 36)
 
 
 if __name__ == "__main__":

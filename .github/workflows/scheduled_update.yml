@@ -2,16 +2,22 @@ name: Litigation Tracker — Scheduled Update
 
 on:
   schedule:
-    # Daily. CourtListener throttles on rolling windows (default tier:
-    # 5/min, 50/hour, 125/day), so frequent small budget-aware runs move
-    # far more data than rare big runs that slam into the hourly wall.
-    # The per-case checkpoints make every run's progress permanent.
+    # Docket polling and discovery use separate rolling-hour quota windows.
     - cron: '17 13 * * *'
+    - cron: '47 18 * * *'
   workflow_dispatch:
+    inputs:
+      phase:
+        description: Pipeline phase to run
+        required: true
+        type: choice
+        options:
+          - dockets
+          - discovery
 
 concurrency:
   group: litigation-tracker-update
-  cancel-in-progress: false
+  queue: max
 
 permissions:
   contents: write
@@ -24,18 +30,15 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       MAX_DOCKET_UPDATE_PASSES: 2
       MAX_SUMMARIES_PER_RUN: 100
-      # CourtListener tier limits (see scripts/cl_client.py). Defaults match
-      # the post-2026-05-07 authenticated tier. Through 2026-08-06 the promo
-      # doubles everything: set 10 / 100 / 250. On an FLP membership, set
-      # your tier's numbers. One-line change, no code edits.
-      CL_REQUESTS_PER_MINUTE: 5
-      CL_REQUESTS_PER_HOUR: 50
-      CL_REQUESTS_PER_DAY: 125
+      # Optional repository variables. Unset values use the conservative
+      # authenticated-tier defaults in scripts/cl_client.py.
+      CL_REQUESTS_PER_MINUTE: ${{ vars.CL_REQUESTS_PER_MINUTE }}
+      CL_REQUESTS_PER_HOUR: ${{ vars.CL_REQUESTS_PER_HOUR }}
+      CL_REQUESTS_PER_DAY: ${{ vars.CL_REQUESTS_PER_DAY }}
       # Per-process wall-clock budget for CourtListener waits (seconds).
       CL_TIME_BUDGET_SECONDS: 1500
-      # Opt-in: batched RECAP-search change detection (~3 requests instead of
-      # ~41 on quiet days). Smoke-test once via workflow_dispatch, watch the
-      # logs, then flip to 1. Falls back to per-docket polling on any error.
+      # Keep disabled: RECAP search indexing can lag or omit documentless
+      # activity. Enable only after an observe-only comparison with full polls.
       CL_BATCHED_CHANGE_DETECTION: 0
 
     steps:
@@ -50,9 +53,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Docket updates run before discovery so tracked cases get first claim on the
-      # CourtListener request quota; newly discovered cases backfill on the next run.
+      - name: Run deterministic tests
+        run: python -m unittest discover -s tests -v
+
       - name: Update dockets and summarize entries
+        if: github.event.schedule == '17 13 * * *' || inputs.phase == 'dockets'
         env:
           COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -60,10 +65,12 @@ jobs:
         run: python scripts/run_docket_update_passes.py
 
       - name: Discover new cases
+        if: github.event.schedule == '47 18 * * *' || inputs.phase == 'discovery'
         env:
           COURTLISTENER_API_KEY: ${{ secrets.COURTLISTENER_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LEGAL_AI_MODEL: ${{ secrets.LEGAL_AI_MODEL }}
+          RESET_COURTLISTENER_RATE_LIMIT_STATE: 'true'
         run: python scripts/discover_cases.py
 
       - name: Validate tracker data
@@ -111,3 +118,8 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+
+      # Publish valid partial progress first, then make persistent discovery
+      # staleness visible as a failed workflow instead of discarding the cursor.
+      - name: Enforce pipeline freshness
+        run: python scripts/validate_tracker_data.py --enforce-pipeline-freshness
