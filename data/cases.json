@@ -7813,7 +7813,7 @@
       ]
     },
     "plain_language_summary": "EVOX PRODUCTIONS LLC, a Delaware limited liability company filed copyright infringement claims against Stability AI, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-07-20"
+    "docket_last_checked": "2026-07-21"
   },
   {
     "id": "anthropic-pbc-v-abnormal-ai-inc",
@@ -7993,7 +7993,7 @@
       ]
     },
     "plain_language_summary": "Anthropic, PBC filed trademark claims against Abnormal AI, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-07-20"
+    "docket_last_checked": "2026-07-21"
   },
   {
     "id": "hachette-book-group-inc-v-google-llc",
@@ -8179,7 +8179,7 @@
       ]
     },
     "plain_language_summary": "Hachette Book Group, Inc. filed copyright infringement and other AI litigation claims against Google LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-07-20"
+    "docket_last_checked": "2026-07-21"
   },
   {
     "id": "sony-music-entertainment-v-uncharted-labs-inc-d-b-a-udio-com",
@@ -8194,24 +8194,95 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Sony Music Entertainment",
       "defendant": "Uncharted Labs, Inc. d/b/a Udio.com"
     },
     "judges": [],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "471505762",
+        "date": "2026-07-20",
+        "raw_text": "***NOTICE TO ATTORNEY REGARDING DEFICIENT RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Notice to Attorney Moez M. Kaba to RE-FILE Document No. 4 Rule 7.1 Corporate Disclosure Statement,. The filing is deficient for the following reason(s): the corporate parent/other affiliate was not added;. Re-file the document using the event type Rule 7.1 Corporate Disclosure Statement found under the event list Other Documents - select the correct filer/filers - attach the correct signed PDF - when prompted with the message \"Are there any corporate parents or other affiliates?\", select the Yes or No radio button - If Yes - enter the corporate parent/other affiliate, click the Search button - select the correct corporate parent/other affiliate name from the search results list or if no person found, create a new corporate parent/other affiliate - select the party to whom the corporate parent/other affiliate should be linked - add corporate parent/other affiliate names one at a time. (lb)",
+        "summary": "The court's filing system issued a notice to attorney Moez M. Kaba requiring him to re-file Uncharted Labs' Rule 7. 1 Corporate Disclosure Statement because the original filing omitted the company's corporate parent or other affiliates.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "9",
+        "date": "2026-07-20",
+        "raw_text": "RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Sony Group Corporation for ALAMO RECORDS, LLC, Arista Music, Arista Records, LLC, LaFace Records, LLC, Records Label, LLC, Sony Music Entertainment, Sony Music Entertainment US Latin, LLC, Ultra Records, LLC, Volcano Entertainment III, LLC, Zomba Recording, LLC. Document filed by ALAMO RECORDS, LLC, Arista Music, Arista Records, LLC, LaFace Records, LLC, Records Label, LLC, Sony Music Entertainment, Sony Music Entertainment US Latin, LLC, Ultra Records, LLC, Volcano Entertainment III, LLC, Zomba Recording, LLC..(Kaba, Moez) (Entered: 07/20/2026)",
+        "summary": "The plaintiff music labels, all subsidiaries of Sony Group Corporation, filed a mandatory corporate disclosure statement identifying Sony Group Corporation as their common corporate parent, as required by Federal Rule of Civil Procedure 7. 1.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "8",
+        "date": "2026-07-20",
+        "raw_text": "NOTICE OF APPEARANCE by Alexander Perry on behalf of ALAMO RECORDS, LLC, Arista Music, Arista Records, LLC, LaFace Records, LLC, Records Label, LLC, Sony Music Entertainment, Sony Music Entertainment US Latin, LLC, Ultra Records, LLC, Volcano Entertainment III, LLC, Zomba Recording, LLC..(Perry, Alexander) (Entered: 07/20/2026)",
+        "summary": "Attorney Alexander Perry filed a notice of appearance in the Southern District of New York, entering the case as counsel on behalf of Sony Music Entertainment and ten co-plaintiff record labels, including Arista Records, LaFace Records, and Zomba Recording.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "7",
+        "date": "2026-07-20",
+        "raw_text": "NOTICE OF APPEARANCE by Mariah Rivera on behalf of ALAMO RECORDS, LLC, Arista Music, Arista Records, LLC, LaFace Records, LLC, Records Label, LLC, Sony Music Entertainment, Sony Music Entertainment US Latin, LLC, Ultra Records, LLC, Volcano Entertainment III, LLC, Zomba Recording, LLC..(Rivera, Mariah) (Entered: 07/20/2026)",
+        "summary": "Attorney Mariah Rivera filed a notice of appearance in the Southern District of New York, formally entering the case as counsel on behalf of Sony Music Entertainment and ten affiliated record labels, including Alamo Records, Arista Records, and Zomba Recording.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "6",
+        "date": "2026-07-20",
+        "raw_text": "AO 121 FORM COPYRIGHT - NOTICE OF SUBMISSION BY ATTORNEY. AO 121 Form Copyright for case opening submitted to court for review..(Kaba, Moez) (Entered: 07/20/2026)",
+        "summary": "Plaintiff's attorney submitted an AO 121 copyright reporting form to the court in connection with the opening of this case. This is a standard administrative filing that notifies the U. S. Copyright Office of pending copyright litigation.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "5",
+        "date": "2026-07-20",
+        "raw_text": "REQUEST FOR ISSUANCE OF SUMMONS as to Uncharted Labs, Inc. d/b/a Udio.com, re: 1 Complaint,. Document filed by ALAMO RECORDS, LLC, Arista Music, Arista Records, LLC, LaFace Records, LLC, Records Label, LLC, Sony Music Entertainment, Sony Music Entertainment US Latin, LLC, Ultra Records, LLC, Volcano Entertainment III, LLC, Zomba Recording, LLC..(Kaba, Moez) (Entered: 07/20/2026)",
+        "summary": "Plaintiffs, a group of Sony Music Entertainment entities and affiliated record labels, filed a request asking the court clerk to issue a summons to defendant Uncharted Labs, Inc. , doing business as Udio. com, following the filing of their complaint.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "4",
+        "date": "2026-07-20",
+        "raw_text": "FILING ERROR - CORPORATE PARENT/OTHER AFFILIATE NOT ADDED - RULE 7.1 CORPORATE DISCLOSURE STATEMENT. No Corporate Parent. Document filed by ALAMO RECORDS, LLC, Arista Music, Arista Records, LLC, LaFace Records, LLC, Records Label, LLC, Sony Music Entertainment, Sony Music Entertainment US Latin, LLC, Ultra Records, LLC, Volcano Entertainment III, LLC, Zomba Recording, LLC..(Kaba, Moez) Modified on 7/20/2026 (lb). (Entered: 07/20/2026)",
+        "summary": "Multiple plaintiff record labels, including Sony Music Entertainment and affiliated entities, filed a Corporate Disclosure Statement under Rule 7. 1, but the filing was flagged as defective by the court clerk because a required corporate parent or affiliate was not added; the entry was modified on July 20, 2026, to reflect the error.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "3",
+        "date": "2026-07-20",
+        "raw_text": "STATEMENT OF RELATEDNESS re: that this action be filed as related to 1:24-cv-4777. Document filed by ALAMO RECORDS, LLC, Arista Music, Arista Records, LLC, LaFace Records, LLC, Records Label, LLC, Sony Music Entertainment, Sony Music Entertainment US Latin, LLC, Ultra Records, LLC, Volcano Entertainment III, LLC, Zomba Recording, LLC..(Kaba, Moez) (Entered: 07/20/2026)",
+        "summary": "Plaintiffs, including Sony Music Entertainment and several affiliated record labels, filed a statement asserting that this case is related to a previously filed action (Case No. 1:24-cv-4777) and should be assigned accordingly.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "2",
+        "date": "2026-07-20",
+        "raw_text": "CIVIL COVER SHEET filed..(Kaba, Moez) (Entered: 07/20/2026)",
+        "summary": "Plaintiff Sony Music Entertainment filed a civil cover sheet in the Southern District of New York, marking the formal initiation of this lawsuit against Uncharted Labs, Inc. , which operates Udio. com.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "1",
+        "date": "2026-07-20",
+        "raw_text": "COMPLAINT against John Does, Uncharted Labs, Inc. d/b/a Udio.com. (Filing Fee $ 405.00, Receipt Number ANYSDC-33162183)Document filed by Records Label, LLC, Arista Music, Sony Music Entertainment US Latin, LLC, Volcano Entertainment III, LLC, ALAMO RECORDS, LLC, Ultra Records, LLC, Arista Records, LLC, Sony Music Entertainment, Zomba Recording, LLC, LaFace Records, LLC. (Attachments: # 1 Exhibit A - Sound Recordings at Issue).(Kaba, Moez) (Entered: 07/20/2026)",
+        "summary": "A group of record labels, including Sony Music Entertainment, Arista Records, and several affiliated labels, filed a complaint against Uncharted Labs, Inc. , the operator of Udio. com, along with unnamed John Doe defendants, attaching an exhibit identifying the specific sound recordings alleged to be at issue.",
+        "significance": "minor_update"
+      }
+    ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73641108/sony-music-entertainment-v-uncharted-labs-inc-dba-udiocom/",
     "last_updated": "2026-07-21",
     "discovered_date": "2026-07-21",
     "case_intelligence": {
       "case_theory": "Sony Music Entertainment asserts copyright infringement claims against Uncharted Labs, Inc. d/b/a Udio.com involving music, audio, or sound-recording works.",
-      "current_posture": "The case is newly filed.",
+      "current_posture": "The case is in motion practice.",
       "why_it_matters": "The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-07-20): Sony Music Entertainment filed the case against Uncharted Labs, Inc. d/b/a Udio.com.",
-      "latest_meaningful_event": "Sony Music Entertainment filed the case against Uncharted Labs, Inc. d/b/a Udio.com.",
+      "latest_change": "Latest meaningful event (2026-07-20): Plaintiffs, including Sony Music Entertainment and several affiliated record labels, filed a statement asserting that this case is related to a previously filed action (Case No. 1:24-cv-4777) and should be assigned accordingly.",
+      "latest_meaningful_event": "Plaintiffs, including Sony Music Entertainment and several affiliated record labels, filed a statement asserting that this case is related to a previously filed action (Case No. 1:24-cv-4777) and should be assigned accordingly.",
       "latest_meaningful_event_date": "2026-07-20",
       "claim_category": "copyright_music_or_audio",
       "claims_asserted": [
@@ -8220,9 +8291,12 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": "music, audio, or sound-recording works",
       "technology_or_model_at_issue": null,
-      "procedural_stage": "newly_filed",
+      "procedural_stage": "motion_practice",
       "pending_motion_or_next_event": null,
-      "related_cases": [],
+      "related_cases": [
+        "1:24-cv-4777",
+        "24-cv-4777"
+      ],
       "confidence_level": "low",
       "missing_information": [
         "Specific AI-related conduct is not identified in the parsed docket metadata.",
@@ -8236,12 +8310,13 @@
           "courtlistener_url": "https://www.courtlistener.com/docket/73641108/sony-music-entertainment-v-uncharted-labs-inc-dba-udiocom/"
         },
         {
-          "type": "case_metadata",
-          "date_filed": "2026-07-20"
+          "type": "docket_entry",
+          "entry_number": "3",
+          "date": "2026-07-20"
         }
       ]
     },
-    "plain_language_summary": "Sony Music Entertainment filed copyright infringement claims against Uncharted Labs, Inc. d/b/a Udio.com. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-07-20"
+    "plain_language_summary": "Sony Music Entertainment asserts copyright infringement claims against Uncharted Labs, Inc. d/b/a Udio.com involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-07-20): Plaintiffs, including Sony Music Entertainment and several affiliated record labels, filed a statement asserting that this case is related to a previously filed action (Case No. 1:24-cv-4777) and should be assigned accordingly.",
+    "docket_last_checked": "2026-07-21"
   }
 ]

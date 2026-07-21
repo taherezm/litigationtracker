@@ -50,10 +50,10 @@
     "id:73600710",
     "id:73603187"
   ],
-  "entries_updated": 3,
+  "entries_updated": 10,
   "docket_update_complete": false,
-  "summaries_generated": 3,
-  "docket_last_run_date": "2026-07-20",
+  "summaries_generated": 10,
+  "docket_last_run_date": "2026-07-21",
   "courtlistener_rate_limited": true,
   "docket_entry_cap_reached": false,
   "summaries_deferred": 0,
