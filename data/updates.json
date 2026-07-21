@@ -1,5 +1,32 @@
 [
   {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-07-20",
+    "summary": "The court scheduled a Case Management Conference via Zoom for September 2, 2026, before Judge Eumi K. Lee. Counsel must submit their names and email addresses to the court by August 31, 2026, and no additional status reports are required before the hearing.",
+    "significance": "minor_update",
+    "entry_number": "30",
+    "logged_at": "2026-07-21T02:45:28Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-u-s-department-of-war",
+    "case_name": "Anthropic PBC v. U.S. Department of War",
+    "entry_date": "2026-07-20",
+    "summary": "The court ordered Anthropic to file a proposed order on its pending motion for summary judgment by July 24, 2026, with the proposed order limited to the issue of relief and organized separately to address relief sought under Anthropic's constitutional claims and its Administrative Procedure Act claims.",
+    "significance": "minor_update",
+    "entry_number": "239",
+    "logged_at": "2026-07-21T02:45:28Z"
+  },
+  {
+    "case_id": "s-a-jamendo-v-suno-inc",
+    "case_name": "S.A. Jamendo v. Suno Inc.",
+    "entry_date": "2026-07-20",
+    "summary": "Plaintiff S. A. Jamendo filed a motion seeking court permission to admit attorney Todd A. Roberts to represent it in this case on a pro hac vice basis, paying the $125 filing fee and submitting a supporting affidavit.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-07-21T02:45:28Z"
+  },
+  {
     "case_id": "beaulier-v-roblox-corporation",
     "case_name": "Beaulier v. Roblox Corporation",
     "entry_date": "2026-07-16",
