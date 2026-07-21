@@ -8159,5 +8159,67 @@
     },
     "plain_language_summary": "Hachette Book Group, Inc. filed copyright infringement and other AI litigation claims against Google LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
     "docket_last_checked": "2026-07-20"
+  },
+  {
+    "id": "sony-music-entertainment-v-uncharted-labs-inc-d-b-a-udio-com",
+    "name": "Sony Music Entertainment v. Uncharted Labs, Inc. d/b/a Udio.com",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-06120",
+    "courtlistener_docket_id": "73641108",
+    "date_filed": "2026-07-20",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Sony Music Entertainment",
+      "defendant": "Uncharted Labs, Inc. d/b/a Udio.com"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73641108/sony-music-entertainment-v-uncharted-labs-inc-dba-udiocom/",
+    "last_updated": "2026-07-21",
+    "discovered_date": "2026-07-21",
+    "case_intelligence": {
+      "case_theory": "Sony Music Entertainment asserts copyright infringement claims against Uncharted Labs, Inc. d/b/a Udio.com involving music, audio, or sound-recording works.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-07-20): Sony Music Entertainment filed the case against Uncharted Labs, Inc. d/b/a Udio.com.",
+      "latest_meaningful_event": "Sony Music Entertainment filed the case against Uncharted Labs, Inc. d/b/a Udio.com.",
+      "latest_meaningful_event_date": "2026-07-20",
+      "claim_category": "copyright_music_or_audio",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "music, audio, or sound-recording works",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-06120",
+          "court": "District Court, S.D. New York",
+          "courtlistener_url": "https://www.courtlistener.com/docket/73641108/sony-music-entertainment-v-uncharted-labs-inc-dba-udiocom/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-07-20"
+        }
+      ]
+    },
+    "plain_language_summary": "Sony Music Entertainment filed copyright infringement claims against Uncharted Labs, Inc. d/b/a Udio.com. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
