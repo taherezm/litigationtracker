@@ -29,6 +29,11 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       MAX_DOCKET_UPDATE_PASSES: 2
+      # Discovery keeps the five-candidate classifier cost guard, but one
+      # scheduled job automatically drains multiple resumable batches.
+      MAX_DISCOVERY_CANDIDATES: 5
+      MAX_DISCOVERY_PASSES_PER_JOB: 20
+      MAX_DISCOVERY_JOB_SECONDS: 2700
       MAX_SUMMARIES_PER_RUN: 100
       # Optional repository variables. Unset values use the conservative
       # authenticated-tier defaults in scripts/cl_client.py.
@@ -71,7 +76,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LEGAL_AI_MODEL: ${{ secrets.LEGAL_AI_MODEL }}
           RESET_COURTLISTENER_RATE_LIMIT_STATE: 'true'
-        run: python scripts/discover_cases.py
+        run: python scripts/run_discovery_passes.py
 
       - name: Validate tracker data
         run: python scripts/validate_tracker_data.py

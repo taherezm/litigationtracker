@@ -31,9 +31,17 @@ class WorkflowContractTests(unittest.TestCase):
     def test_tests_run_before_live_api_phases(self) -> None:
         tests_at = self.workflow.index("python -m unittest discover -s tests -v")
         dockets_at = self.workflow.index("python scripts/run_docket_update_passes.py")
-        discovery_at = self.workflow.index("python scripts/discover_cases.py")
+        discovery_at = self.workflow.index("python scripts/run_discovery_passes.py")
         self.assertLess(tests_at, dockets_at)
         self.assertLess(tests_at, discovery_at)
+
+    def test_discovery_automatically_drains_bounded_candidate_batches(self) -> None:
+        self.assertIn("run: python scripts/run_discovery_passes.py", self.workflow)
+        self.assertNotIn("run: python scripts/discover_cases.py", self.workflow)
+        self.assertIn("MAX_DISCOVERY_CANDIDATES: 5", self.workflow)
+        self.assertIn("MAX_DISCOVERY_PASSES_PER_JOB: 20", self.workflow)
+        self.assertIn("MAX_DISCOVERY_JOB_SECONDS: 2700", self.workflow)
+        self.assertIn("timeout-minutes: 90", self.workflow)
 
     def test_freshness_is_enforced_after_data_publication(self) -> None:
         publish_at = self.workflow.index("- name: Push data to site repo")

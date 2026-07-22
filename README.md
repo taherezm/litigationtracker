@@ -15,7 +15,7 @@ Live tracker: [undergradtechlaw.org/tools/litigation-tracker](https://www.underg
 - Public data path: `tools/litigation-tracker/cases.json` and `tools/litigation-tracker/updates.json`
 - Schedule: docket polling at `13:17 UTC`; discovery at `18:47 UTC` every day
 - Pipeline: run one quota-isolated phase, validate JSON, publish progress, then enforce pipeline freshness
-- Cost controls: discovery is capped at 5 candidates per job by default; docket summaries are capped at 100 new entries per pass, with up to 2 passes per job
+- Cost controls: discovery classifies at most 5 candidates per pass and automatically runs up to 20 passes or 45 minutes per job; docket summaries are capped at 100 new entries per pass, with up to 2 passes per job
 - Publication rule: unsummarized or placeholder docket activity is not allowed into public JSON
 
 ## Current Public Version
@@ -45,6 +45,7 @@ The static site repository (`taherezm/undergradtechlaw`) owns the browser UI. Th
 | `scripts/update_dockets.py` | Docket polling, entry deduplication, per-case checkpoints, status inference, and optional batched change detection. |
 | `scripts/summarize.py` | Model-backed entry summaries, significance, posture/status updates, key rulings, and case-summary refresh. |
 | `scripts/discover_cases.py` | Paginated CourtListener/RSS search, resumable query/page state, durable classification work, rejection cache, and case creation. |
+| `scripts/run_discovery_passes.py` | Bounded automatic discovery drain; repeats resumable candidate-cap passes and stops on completion, quota/provider deferral, no progress, or job limits. |
 | `scripts/case_intelligence.py` | Deterministic case-card intelligence and public plain-language summaries. |
 | `scripts/regenerate_case_summaries.py` | Maintenance-only regeneration of case intelligence from existing data; not part of the scheduled job. |
 | `scripts/validate_tracker_data.py` | Publication guard for case/update shape, summaries, uniqueness, and pipeline warning state. |
@@ -61,6 +62,7 @@ The tracker uses three ETL stages across two daily workflow runs:
    Summarizes unsummarized docket entries, classifies their litigation significance, updates procedural posture, records key rulings, marks resolved cases when appropriate, and regenerates structured case-level intelligence and public case summaries from the latest docket state.
 3. `scripts/discover_cases.py`
    Runs in a later quota window, searches every result page for new candidate cases, classifies AI/IP relevance, normalizes accepted candidates into case records, initializes `case_intelligence`, and writes them into `data/cases.json`. A persisted query/page/RSS cursor and durable pending candidates resume incomplete work; same-day reruns skip discovery only when no active cursor remains unless `FORCE_DISCOVERY` is set.
+   The scheduled phase invokes it through `scripts/run_discovery_passes.py`, which automatically drains resumable five-candidate batches within explicit pass and wall-clock limits.
 
 All CourtListener traffic from docket updates and discovery goes through `scripts/cl_client.py`. Each stage reads and writes JSON directly. Writes are atomic: data is serialized to a temporary sibling file and then moved into place with `Path.replace()`.
 
@@ -77,13 +79,13 @@ Discovery combines deterministic search heuristics with model-assisted legal rel
 
 The CourtListener query set is intentionally broad. It covers generative AI, training data, LLMs, right of publicity, image generation, software patent disputes, scraping, open-source licensing, biometric/privacy terms, blockchain/NFT issues, trade secret language, and other technology/IP indicators.
 
-By default, discovery stops after `DEFAULT_MAX_DISCOVERY_CANDIDATES = 5` candidates. The cap bounds how many new candidates are classified in one run and can be overridden with:
+Each `discover_cases.py` pass stops after `DEFAULT_MAX_DISCOVERY_CANDIDATES = 5` candidates by default. The cap bounds one resumable batch and can be overridden with:
 
 ```bash
 export MAX_DISCOVERY_CANDIDATES=20
 ```
 
-The default cap bounds classification work and model spend. Hitting it sets `discovery_candidate_cap_reached: true`, keeps the completed-discovery checkpoint fixed, and preserves the current query/page position. Successfully decided candidates become known or rejected; the next run refetches that page, deduplicates those decisions, and drains the remaining hits before advancing. Only unresolved classifier attempts are copied into `pending_candidates`.
+The default per-pass cap bounds each child process and gives it a frequent durable checkpoint. Hitting it sets `discovery_candidate_cap_reached: true`, keeps the completed-discovery checkpoint fixed, and preserves the current query/page position. Successfully decided candidates become known or rejected; the automatic runner refetches that page, deduplicates those decisions, and drains the remaining hits before advancing. When an anchored sweep completes behind the current UTC date, the same job starts the next sweep instead of mistaking old coverage for current coverage. One scheduled job runs at most 20 passes or 2,700 seconds and then publishes the exact cursor for the next daily run. It stops sooner when coverage reaches today, on CourtListener deferral, classifier failure, any non-cap interruption, or no durable progress. If a child exceeds the wall-clock budget, its partial case/cursor files are rolled back while the request ledger is preserved. Only unresolved classifier attempts are copied into `pending_candidates`.
 
 Every CourtListener query is paginated until its `next` URL is empty. The cursor records both the query index and the validated CourtListener `query_page_url`, so a rate limit resumes at the exact failed page instead of replaying the beginning of the query set. RSS search pagination is tracked separately in `rss_page_url`. Candidates whose classifier attempt fails are stored in `pending_candidates`; the next run retries the candidate payload itself rather than depending on search rankings or an expiring RSS item to surface it again.
 
@@ -344,7 +346,7 @@ The job runs on Ubuntu with Python 3.11:
 1. Check out this pipeline repository.
 2. Install Python dependencies from `requirements.txt`.
 3. Run the deterministic unit and workflow-contract tests before any live API call.
-4. Run only the selected phase: bounded docket/summarization passes or resumable discovery.
+4. Run only the selected phase: bounded docket/summarization passes or the bounded automatic discovery drain.
 5. Validate generated tracker data in warning mode.
 6. Commit any changed files in `data/` back to this repository.
 7. Check out `taherezm/undergradtechlaw` using `IPTL_SITE_TOKEN`.
@@ -364,7 +366,7 @@ Avoid cancelling in-flight runs and avoid back-to-back manual dispatches. Cancel
 Expected non-fatal warning states:
 
 - CourtListener client deferral, a persistent server rate limit, or repeated request failure can leave `courtlistener_rate_limited: true`; valid fetched data still publishes, completed per-case checkpoints still advance, and the missed window is retried.
-- The discovery candidate cap can leave `discovery_candidate_cap_reached: true`; valid classified cases still publish, the checkpoint stays fixed, and the saved cursor refetches the exact query or RSS page while deduplication drains its remaining hits. Any transient classifier failures remain in `pending_candidates`.
+- The discovery candidate cap can leave `discovery_candidate_cap_reached: true`; the same scheduled job automatically runs more bounded passes while durable progress continues. If the job reaches its pass or time limit, valid classified cases still publish and the saved cursor resumes on the next daily run. Any transient classifier failures remain in `pending_candidates` and stop same-job retries.
 - The per-pass summary cap can leave `docket_entry_cap_reached: true`; valid summarized data still publishes, and the workflow runs additional bounded passes before leaving overflow for the next daily run. CourtListener client deferral stops additional same-job passes so the workflow does not repeatedly call a constrained API.
 - CourtListener or classifier failures can leave `discovery_complete: false`; discovery resumes from the saved query/page/RSS cursor, durable pending candidates, and anchored filing window.
 - Discovery coverage and incomplete-cycle age are warning-only for two days. Valid partial progress is published first; persistent staleness then fails the final health step so the scheduled-workflow badge cannot remain green indefinitely.
@@ -483,7 +485,7 @@ The pipeline is designed to be idempotent and safe to re-run:
 - CourtListener requests share a persisted 24-hour rolling ledger, use tier-aware pacing and bounded retry/backoff, and honor `Retry-After` when it fits the remaining process budget;
 - missing CourtListener credentials or authentication failures stop the run; the client never falls back to unauthenticated requests;
 - model-provider requests use bounded retries;
-- `MAX_DISCOVERY_CANDIDATES` caps candidate classification per job, records `discovery_candidate_cap_reached`, and holds the checkpoint at the interrupted query or RSS page while refetch-and-deduplicate processing drains the remaining hits;
+- `MAX_DISCOVERY_CANDIDATES` caps each candidate-classification pass, while `MAX_DISCOVERY_PASSES_PER_JOB` and `MAX_DISCOVERY_JOB_SECONDS` bound the scheduled automatic drain; candidate-cap stops retain the exact query or RSS cursor for refetch-and-deduplicate processing;
 - `MAX_SUMMARIES_PER_RUN` caps each model-backed docket-summary pass, and `MAX_DOCKET_UPDATE_PASSES` bounds how many catch-up passes the workflow runs before publication or CourtListener client deferral;
 - malformed summary output falls back to deterministic text; transient relevance-classifier failures remain retryable in the cursor and are never cached as rejected;
 - discovery failures or incomplete docket polling prevent the affected phase checkpoint from advancing.
@@ -506,7 +508,9 @@ Optional environment variables:
 - `CL_TIME_BUDGET_SECONDS`: per-process wall-clock budget for CourtListener waits and backoff. Defaults to `1500`.
 - `CL_REQUEST_LOG_PATH`: persisted rolling-ledger path. Defaults to `data/cl_request_log.json`.
 - `CL_BATCHED_CHANGE_DETECTION`: experimental docket change-detection pre-pass. Production sets this to `0`; keep it disabled until an observe-only comparison against full polling proves it cannot miss activity.
-- `MAX_DISCOVERY_CANDIDATES`: maximum number of discovery candidates to classify per job. Defaults to `5`.
+- `MAX_DISCOVERY_CANDIDATES`: maximum number of discovery candidates to classify per pass. Defaults to `5` and is explicitly fixed at `5` in GitHub Actions.
+- `MAX_DISCOVERY_PASSES_PER_JOB`: maximum resumable discovery passes per workflow job. Defaults to `20`.
+- `MAX_DISCOVERY_JOB_SECONDS`: discovery runner wall-clock budget before publishing its cursor. Defaults to `2700` (45 minutes).
 - `MAX_DISCOVERY_STALENESS_DAYS`: completed-coverage and incomplete-cycle grace window used by the post-publication health check. Defaults to `2`.
 - `MAX_SUMMARIES_PER_RUN`: maximum number of new docket-entry summaries to generate per pass. Defaults to `100`.
 - `MAX_DOCKET_UPDATE_PASSES`: maximum number of docket-update/summarization passes per workflow job. Defaults to `2` in GitHub Actions.
@@ -537,11 +541,11 @@ export ANTHROPIC_API_KEY=...
 export LEGAL_AI_MODEL=...
 
 python scripts/run_docket_update_passes.py
-python scripts/discover_cases.py
+python scripts/run_discovery_passes.py
 python scripts/validate_tracker_data.py
 ```
 
-For production-equivalent ordering, run `scripts/run_docket_update_passes.py` before `scripts/discover_cases.py`. The scheduled workflow targets different rolling-hour quota windows with two daily runs nominally separated by five and a half hours, while the shared ledger handles delays or queued overlaps. `scripts/update_dockets.py` and `scripts/summarize.py` remain available for targeted local debugging, but the pass runner is the normal catch-up entrypoint.
+For production-equivalent ordering, run `scripts/run_docket_update_passes.py` before `scripts/run_discovery_passes.py`. The scheduled workflow targets different rolling-hour quota windows with two daily runs nominally separated by five and a half hours, while the shared ledger handles delays or queued overlaps. `scripts/discover_cases.py`, `scripts/update_dockets.py`, and `scripts/summarize.py` remain available for targeted local debugging, but the two pass runners are the normal production entrypoints.
 
 Validate the site renderer contract against a local checkout of the site repository:
 
