@@ -1,6 +1,6 @@
 # Litigation Tracker For Undergraduate Technology Law
 
-[![Scheduled Update](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml/badge.svg?branch=main&event=schedule)](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml?query=branch%3Amain+event%3Aschedule)
+[![Production Pipeline](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml/badge.svg?branch=main)](https://github.com/taherezm/litigationtracker/actions/workflows/scheduled_update.yml?query=branch%3Amain)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 
@@ -14,15 +14,24 @@ Live tracker: [undergradtechlaw.org/tools/litigation-tracker](https://www.underg
 - Public site repository: `taherezm/undergradtechlaw`
 - Public data path: `tools/litigation-tracker/cases.json` and `tools/litigation-tracker/updates.json`
 - Schedule: docket polling at `13:17 UTC`; discovery at `18:47 UTC` every day
-- Pipeline: run one quota-isolated phase, validate JSON, publish progress, then enforce pipeline freshness
+- Pipeline: run one quota-isolated phase, validate JSON, publish progress, then enforce discovery freshness
 - Cost controls: discovery classifies at most 5 candidates per pass and automatically runs up to 20 passes or 45 minutes per job; docket summaries are capped at 100 new entries per pass, with up to 2 passes per job
 - Publication rule: unsummarized or placeholder docket activity is not allowed into public JSON
 
 ## Current Public Version
 
-The public tracker is the static UI in `taherezm/undergradtechlaw` at `tools/litigation-tracker/`. This repository owns the canonical data and automation; each successful workflow run copies `data/cases.json` and `data/updates.json` into the site repo. The browser page renders case counts, court counts, significant-ruling totals, `Latest Activity` from the newest qualifying case activity, and `Dockets Checked Through` from the oldest checkpoint among pollable cases. A quiet docket day therefore no longer looks like a stalled pipeline.
+The public tracker is the static UI in `taherezm/undergradtechlaw` at `tools/litigation-tracker/`. This repository owns the canonical data and automation; each workflow run that reaches publication copies `data/cases.json` and `data/updates.json` into the site repo. Publication precedes the strict discovery-freshness check, so a run can publish valid progress and still end red when an incomplete discovery sweep has aged beyond its grace window. The browser page renders case counts, court counts, significant-ruling totals, `Latest Activity` from the newest qualifying case activity, and `Dockets Checked Through` from the oldest checkpoint among pollable cases. A quiet docket day therefore no longer looks like a stalled pipeline.
 
 Daily docket polling and discovery run in separate rolling-hour quota windows. Per-case checkpoints, a discovery cursor that preserves query/page progress, durable pending classifier candidates, and a persisted request ledger let interrupted or budget-limited work continue without restarting a sweep. A successful run does not guarantee a visible activity change: new cards or entries appear only when qualifying cases or docket activity are found.
+
+### Verified Production Snapshot — July 22, 2026
+
+- The bounded discovery runner shipped in [PR #5](https://github.com/taherezm/litigationtracker/pull/5). Its [production verification run](https://github.com/taherezm/litigationtracker/actions/runs/29892410696) completed four automatic passes, reached the current UTC date, published both repositories, and passed the strict discovery-freshness gate.
+- Canonical and live data contain 44 tracked cases and 764 activity records. Discovery is complete through July 22 across all 36 queries; the latest qualifying docket activity is dated July 20.
+- Forty-three existing dockets were checked through July 21. The case discovered on July 22 is eligible for its first poll in the next regular docket phase, scheduled for `13:17 UTC`; that normal handoff is distinct from discovery freshness.
+- The live `cases.json` and `updates.json` matched the canonical repository byte-for-byte at verification, and the public tracker returned HTTP 200 with the current `Latest Activity` and `Dockets Checked Through` renderer.
+
+This is a dated deployment snapshot; the live tracker and canonical JSON remain the source of truth after later scheduled runs. The badge above follows the latest completed workflow run on `main`, regardless of whether GitHub triggered it by cron or an operator triggered the same production workflow for recovery. Every trigger runs the same tests, publication checks, and strict discovery-freshness gate. Filtering the badge to `event=schedule` can leave it displaying an obsolete pre-fix result even after a newer green production run.
 
 ## What This Repository Owns
 
@@ -299,6 +308,9 @@ python scripts/validate_tracker_data.py
   "discovery_incomplete_since": "YYYY-MM-DD",
   "discovery_queries_completed": 7,
   "discovery_queries_total": 36,
+  "discovery_passes_run": 1,
+  "max_discovery_passes_per_job": 20,
+  "discovery_job_stop_reason": "rate_limit",
   "discovery_cursor": {
     "version": 1,
     "window_start": "YYYY-MM-DD",
@@ -326,6 +338,8 @@ python scripts/validate_tracker_data.py
   "last_run_date": "YYYY-MM-DD"
 }
 ```
+
+`discovery_passes_run`, `max_discovery_passes_per_job`, and `discovery_job_stop_reason` describe the outer automatic drain. They distinguish a completed current sweep from an expected bounded stop such as `rate_limit`, `classification`, `no_progress`, `time_budget`, or `pass_limit` without overwriting the source-level cursor reason.
 
 `discovery_last_run_date` and `docket_last_run_date` advance independently. `discover_cases.py` advances its checkpoint only after every page of every query, all durable pending candidates, and every saved RSS lookup/page in the anchored sweep finish. A rate limit preserves the failed query or RSS page URL; a candidate cap preserves the current source cursor; a transient classifier failure leaves that candidate pending without caching it as rejected. Pending candidates consume the classification budget before new source candidates, appear first in classification order, and are removed only after a successful accept/reject decision. `docket_last_run_date` is the oldest valid per-case `docket_last_checked` checkpoint. `last_run_date` remains a legacy all-phases-complete checkpoint.
 

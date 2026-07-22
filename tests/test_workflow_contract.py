@@ -11,12 +11,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 WORKFLOW_PATH = ROOT / ".github" / "workflows" / "scheduled_update.yml"
+README_PATH = ROOT / "README.md"
 
 
 class WorkflowContractTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.workflow = WORKFLOW_PATH.read_text(encoding="utf-8")
+        cls.readme = README_PATH.read_text(encoding="utf-8")
 
     def test_quota_heavy_phases_use_separate_schedules(self) -> None:
         self.assertIn("- cron: '17 13 * * *'", self.workflow)
@@ -52,6 +54,11 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("CL_REQUESTS_PER_HOUR: ${{ vars.CL_REQUESTS_PER_HOUR }}", self.workflow)
         self.assertIn("CL_BATCHED_CHANGE_DETECTION: 0", self.workflow)
         self.assertNotIn("10 / 100 / 250", self.workflow)
+
+    def test_readme_badge_tracks_the_latest_main_pipeline_run(self) -> None:
+        self.assertIn("badge.svg?branch=main)", self.readme)
+        self.assertIn("query=branch%3Amain)", self.readme)
+        self.assertNotIn("badge.svg?branch=main&event=schedule", self.readme)
 
 
 if __name__ == "__main__":
