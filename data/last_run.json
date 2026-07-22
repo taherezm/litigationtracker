@@ -116,7 +116,7 @@
   "docket_update_complete": false,
   "summaries_generated": 0,
   "docket_last_run_date": "2026-07-22",
-  "courtlistener_rate_limited": true,
+  "courtlistener_rate_limited": false,
   "docket_entry_cap_reached": false,
   "summaries_deferred": 0,
   "max_summaries_per_run": 100,
@@ -129,7 +129,7 @@
   "discovery_rss_dockets_total": 0,
   "discovery_phase": "complete",
   "last_run_date": "2026-07-22",
-  "discovery_passes_run": 4,
+  "discovery_passes_run": 1,
   "max_discovery_passes_per_job": 20,
   "discovery_job_stop_reason": "complete"
 }
