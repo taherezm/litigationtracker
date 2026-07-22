@@ -72,7 +72,12 @@
     "id:73609293",
     "id:73636961",
     "id:73629272",
-    "id:73629279"
+    "id:73629279",
+    "id:73629464",
+    "id:73625877",
+    "id:73640078",
+    "id:73639685",
+    "id:73640076"
   ],
   "entries_updated": 0,
   "docket_update_complete": true,
@@ -99,7 +104,7 @@
     "query_set_sha256": "4b0f7b2c99b731948b462e2f16995cd08d7aaea14eed236ce6137383c6fbeecc",
     "phase": "queries",
     "next_query_index": 18,
-    "query_page_url": "",
+    "query_page_url": "https://www.courtlistener.com/api/rest/v4/search/?cursor=cz0yNC40MzQwNDImcz03MzYyNTg3NyZ0PWQmZD0yMDI2LTA3LTIxJnA9Mg%3D%3D&filed_after=2026-07-10&filed_before=2026-07-21&order_by=score+desc&page_size=20&q=%22software%22+%22patent+infringement%22&type=d",
     "rss_docket_numbers": [],
     "next_rss_index": 0,
     "rss_page_url": "",
