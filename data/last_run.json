@@ -1,5 +1,5 @@
 {
-  "cases_discovered": 1,
+  "cases_discovered": 0,
   "discovery_complete": false,
   "rejected_dockets": [
     "1:26-cv-00086",
@@ -57,7 +57,12 @@
     "id:73629380",
     "id:73628519",
     "id:73618172",
-    "id:73601218"
+    "id:73601218",
+    "id:73611413",
+    "id:73644157",
+    "id:73606860",
+    "id:73606809",
+    "id:73630257"
   ],
   "entries_updated": 0,
   "docket_update_complete": true,
@@ -70,7 +75,7 @@
   "discovery_candidate_cap_reached": true,
   "discovery_last_run_date": "2026-07-10",
   "max_docket_update_passes": 2,
-  "discovery_queries_completed": 13,
+  "discovery_queries_completed": 18,
   "discovery_queries_total": 36,
   "discovery_rss_dockets_completed": 0,
   "discovery_rss_dockets_total": 0,
@@ -83,7 +88,7 @@
     "window_through": "2026-07-21",
     "query_set_sha256": "4b0f7b2c99b731948b462e2f16995cd08d7aaea14eed236ce6137383c6fbeecc",
     "phase": "queries",
-    "next_query_index": 13,
+    "next_query_index": 18,
     "query_page_url": "",
     "rss_docket_numbers": [],
     "next_rss_index": 0,
