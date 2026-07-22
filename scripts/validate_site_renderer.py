@@ -13,10 +13,7 @@ REQUIRED_SNIPPETS = (
     "renderActivityDays(activityDays)",
     "publicEntryText(entry)",
     "Latest Activity",
-    "Dockets Checked Through",
-    'id="stat-checked"',
     "latestActivityDate(state.cases)",
-    "docketCheckedThrough(state.cases)",
 )
 FORBIDDEN_SNIPPETS = (
     "Case Timeline",
@@ -29,6 +26,25 @@ FORBIDDEN_SNIPPETS = (
 )
 
 
+def validation_errors(html: str) -> list[str]:
+    """Return every renderer-contract violation in deterministic order."""
+    errors = []
+    render_count = html.count(SUMMARY_RENDER)
+    if render_count != 1:
+        errors.append(f"expected exactly one rendered case summary, found {render_count}")
+    errors.extend(
+        f"missing expected tracker renderer snippet: {snippet}"
+        for snippet in REQUIRED_SNIPPETS
+        if snippet not in html
+    )
+    errors.extend(
+        f"forbidden tracker renderer snippet is still present: {snippet}"
+        for snippet in FORBIDDEN_SNIPPETS
+        if snippet in html
+    )
+    return errors
+
+
 def main() -> int:
     if len(sys.argv) != 2:
         print("Usage: validate_site_renderer.py path/to/tools/litigation-tracker/index.html", file=sys.stderr)
@@ -36,21 +52,12 @@ def main() -> int:
 
     template_path = Path(sys.argv[1])
     html = template_path.read_text(encoding="utf-8")
-    render_count = html.count(SUMMARY_RENDER)
-    if render_count != 1:
-        print(
-            f"{template_path}: expected exactly one rendered case summary, found {render_count}.",
-            file=sys.stderr,
-        )
+    errors = validation_errors(html)
+    if errors:
+        print(f"{template_path}: site tracker renderer validation failed:", file=sys.stderr)
+        for error in errors:
+            print(f"- {error}", file=sys.stderr)
         return 1
-    for snippet in REQUIRED_SNIPPETS:
-        if snippet not in html:
-            print(f"{template_path}: missing expected tracker renderer snippet: {snippet}", file=sys.stderr)
-            return 1
-    for snippet in FORBIDDEN_SNIPPETS:
-        if snippet in html:
-            print(f"{template_path}: forbidden tracker renderer snippet is still present: {snippet}", file=sys.stderr)
-            return 1
 
     print("Site tracker renderer validation passed.")
     return 0

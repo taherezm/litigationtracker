@@ -61,6 +61,8 @@ The public tracker now presents two dates:
 
 A quiet day can leave `Latest Activity` unchanged while `Dockets Checked Through` advances, which is expected and now visible.
 
+The site later intentionally removed the public `Dockets Checked Through` statistic in `undergradtechlaw@ed3d381`. Per-case checkpoints remain canonical pipeline state for resumable polling; the renderer contract now follows the current public UI while continuing to require `Latest Activity`.
+
 `scripts/validate_tracker_data.py` has a warning-mode prepublication check and a strict postpublication check. Valid partial progress, including the discovery cursor, is committed and copied to the site before strict enforcement. The final step fails when either the last completed discovery checkpoint or the age of an incomplete discovery cycle exceeds `MAX_DISCOVERY_STALENESS_DAYS` (default `2`). A red run therefore reports stale coverage without throwing away the state needed to recover.
 
 Green means discovery coverage is within the configured grace window. It does not mean that a new qualifying case or docket entry was found.

@@ -20,7 +20,7 @@ Live tracker: [undergradtechlaw.org/tools/litigation-tracker](https://www.underg
 
 ## Current Public Version
 
-The public tracker is the static UI in `taherezm/undergradtechlaw` at `tools/litigation-tracker/`. This repository owns the canonical data and automation; each workflow run that reaches publication copies `data/cases.json` and `data/updates.json` into the site repo. Publication precedes the strict discovery-freshness check, so a run can publish valid progress and still end red when an incomplete discovery sweep has aged beyond its grace window. The browser page renders case counts, court counts, significant-ruling totals, `Latest Activity` from the newest qualifying case activity, and `Dockets Checked Through` from the oldest checkpoint among pollable cases. A quiet docket day therefore no longer looks like a stalled pipeline.
+The public tracker is the static UI in `taherezm/undergradtechlaw` at `tools/litigation-tracker/`. This repository owns the canonical data and automation; each workflow run that reaches publication copies `data/cases.json` and `data/updates.json` into the site repo. Publication precedes the strict discovery-freshness check, so a run can publish valid progress and still end red when an incomplete discovery sweep has aged beyond its grace window. The browser page renders case counts, court counts, significant-ruling totals, and `Latest Activity` from the newest qualifying case activity. Per-case docket checkpoints remain in the canonical data for resumable polling but are not shown as a public statistic.
 
 Daily docket polling and discovery run in separate rolling-hour quota windows. Per-case checkpoints, a discovery cursor that preserves query/page progress, durable pending classifier candidates, and a persisted request ledger let interrupted or budget-limited work continue without restarting a sweep. A successful run does not guarantee a visible activity change: new cards or entries appear only when qualifying cases or docket activity are found.
 
@@ -29,7 +29,7 @@ Daily docket polling and discovery run in separate rolling-hour quota windows. P
 - The bounded discovery runner shipped in [PR #5](https://github.com/taherezm/litigationtracker/pull/5). Its [production verification run](https://github.com/taherezm/litigationtracker/actions/runs/29892410696) completed four automatic passes, reached the current UTC date, published both repositories, and passed the strict discovery-freshness gate.
 - Canonical and live data contain 44 tracked cases and 764 activity records. Discovery is complete through July 22 across all 36 queries; the latest qualifying docket activity is dated July 20.
 - Forty-three existing dockets were checked through July 21. The case discovered on July 22 is eligible for its first poll in the next regular docket phase, scheduled for `13:17 UTC`; that normal handoff is distinct from discovery freshness.
-- The live `cases.json` and `updates.json` matched the canonical repository byte-for-byte at verification, and the public tracker returned HTTP 200 with the current `Latest Activity` and `Dockets Checked Through` renderer.
+- The live `cases.json` and `updates.json` matched the canonical repository byte-for-byte at verification, and the public tracker returned HTTP 200 with the current activity renderer.
 
 This is a dated deployment snapshot; the live tracker and canonical JSON remain the source of truth after later scheduled runs. The badge above follows the latest completed workflow run on `main`, regardless of whether GitHub triggered it by cron or an operator triggered the same production workflow for recovery. Every trigger runs the same tests, publication checks, and strict discovery-freshness gate. Filtering the badge to `event=schedule` can leave it displaying an obsolete pre-fix result even after a newer green production run.
 
@@ -422,16 +422,14 @@ This validates that the site repository still contains the expected tracker rend
 - `renderActivityDays(activityDays)`
 - `publicEntryText(entry)`
 - `Latest Activity`
-- `Dockets Checked Through`
 - `latestActivityDate(state.cases)`
-- `docketCheckedThrough(state.cases)`
 
 It also blocks stale renderer text such as:
 
 - `Case Timeline`
 - `Summary pending.`
 
-This prevents the pipeline from publishing data into a site template that no longer matches the expected public tracker behavior.
+This prevents the pipeline from publishing data into a site template that no longer matches the expected public tracker behavior. Validation reports every missing or forbidden snippet in one run so site drift is diagnosable without repeatedly fixing the first reported mismatch.
 
 ## Data Model
 
