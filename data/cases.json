@@ -8618,5 +8618,71 @@
     },
     "plain_language_summary": "University of Tennessee Research Foundation filed patent infringement claims against Anthropic PBC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
     "docket_last_checked": "2026-07-23"
+  },
+  {
+    "id": "numberai-inc-v-flai-technologies-inc",
+    "name": "NumberAI, Inc. v. Flai Technologies Inc.",
+    "court": "District Court, D. Delaware",
+    "court_full": "District Court, D. Delaware",
+    "docket_number": "1:26-cv-00894",
+    "courtlistener_docket_id": "73654724",
+    "date_filed": "2026-07-22",
+    "claims": [
+      "patent infringement",
+      "trade secret"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "NumberAI, Inc.",
+      "defendant": "Flai Technologies Inc."
+    },
+    "judges": [
+      "Unassigned Judge"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/73654724/numberai-inc-v-flai-technologies-inc/",
+    "last_updated": "2026-07-23",
+    "discovered_date": "2026-07-23",
+    "case_intelligence": {
+      "case_theory": "NumberAI, Inc. asserts patent infringement and trade secret claims against Flai Technologies Inc. involving patented software or technology.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how AI transparency obligations interact with trade-secret or confidential-information claims in a case asserting patent infringement and trade secret claims.",
+      "latest_change": "Latest meaningful event (2026-07-22): NumberAI, Inc. filed the case against Flai Technologies Inc..",
+      "latest_meaningful_event": "NumberAI, Inc. filed the case against Flai Technologies Inc..",
+      "latest_meaningful_event_date": "2026-07-22",
+      "claim_category": "trade_secret_or_transparency",
+      "claims_asserted": [
+        "patent infringement",
+        "trade secret"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "patented software or technology",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-00894",
+          "court": "District Court, D. Delaware",
+          "courtlistener_url": "https://www.courtlistener.com/docket/73654724/numberai-inc-v-flai-technologies-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-07-22"
+        }
+      ]
+    },
+    "plain_language_summary": "NumberAI, Inc. filed patent infringement and trade secret claims against Flai Technologies Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
