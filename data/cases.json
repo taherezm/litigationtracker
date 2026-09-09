@@ -14014,5 +14014,132 @@
     },
     "plain_language_summary": "The Seattle Times Company filed copyright infringement claims against OpenAI Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
     "docket_last_checked": "2026-09-08"
+  },
+  {
+    "id": "gray-v-nadella",
+    "name": "Gray v. Nadella",
+    "court": "District Court, W.D. Washington",
+    "court_full": "District Court, W.D. Washington",
+    "docket_number": "2:26-cv-03215",
+    "courtlistener_docket_id": "74762641",
+    "date_filed": "2026-09-08",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Gray",
+      "defendant": "Nadella"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74762641/gray-v-nadella/",
+    "last_updated": "2026-09-09",
+    "discovered_date": "2026-09-09",
+    "case_intelligence": {
+      "case_theory": "Gray asserts copyright infringement claims against Nadella, but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-09-08): Gray filed the case against Nadella.",
+      "latest_meaningful_event": "Gray filed the case against Nadella.",
+      "latest_meaningful_event_date": "2026-09-08",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "2:26-cv-03215",
+          "court": "District Court, W.D. Washington",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74762641/gray-v-nadella/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-09-08"
+        }
+      ]
+    },
+    "plain_language_summary": "Gray filed copyright infringement claims against Nadella. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "vicor-corporation-v-flex-ltd",
+    "name": "Vicor Corporation v. Flex Ltd.",
+    "court": "District Court, W.D. Texas",
+    "court_full": "District Court, W.D. Texas",
+    "docket_number": "7:26-cv-00365",
+    "courtlistener_docket_id": "74759067",
+    "date_filed": "2026-09-08",
+    "claims": [
+      "patent infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Vicor Corporation",
+      "defendant": "Flex Ltd."
+    },
+    "judges": [
+      "Walter David Counts III"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74759067/vicor-corporation-v-flex-ltd/",
+    "last_updated": "2026-09-09",
+    "discovered_date": "2026-09-09",
+    "case_intelligence": {
+      "case_theory": "Vicor Corporation asserts patent infringement claims against Flex Ltd. involving patented software or technology.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims.",
+      "latest_change": "Latest meaningful event (2026-09-08): Vicor Corporation filed the case against Flex Ltd..",
+      "latest_meaningful_event": "Vicor Corporation filed the case against Flex Ltd..",
+      "latest_meaningful_event_date": "2026-09-08",
+      "claim_category": "patent_ai_software",
+      "claims_asserted": [
+        "patent infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "patented software or technology",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "7:26-cv-00365",
+          "court": "District Court, W.D. Texas",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74759067/vicor-corporation-v-flex-ltd/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-09-08"
+        }
+      ]
+    },
+    "plain_language_summary": "Vicor Corporation filed patent infringement claims against Flex Ltd. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
