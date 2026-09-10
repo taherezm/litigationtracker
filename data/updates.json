@@ -1,5 +1,482 @@
 [
   {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-08",
+    "summary": "The court assigned this patent case to Judge David Counts under the court's standing order governing patent case assignments. Parties are instructed to append the judge's initials to the case number on all future filings.",
+    "significance": "minor_update",
+    "entry_number": "477340968",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "Vicor Corporation's counsel Mark D. Siegmund filed a motion to admit attorney Louis S. Mastriani to practice before this court for the duration of this case, along with the required $100 filing fee and a proposed order for the court's approval.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "Vicor Corporation's counsel Mark D. Siegmund filed a motion requesting permission for attorney S. Lloyd Smith to appear in this case on a pro hac vice basis, allowing Smith to participate in the litigation despite not being a member of the Western District of Texas bar. A $100 filing fee was paid along with the motion.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "The clerk issued a summons to defendant Flex Ltd. , formally notifying the company that it has been sued by Vicor Corporation and must respond to the complaint.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "Attorney Oleg Elkhunovich was granted permission to appear pro hac vice, allowing him to participate in this case before the Western District of Texas despite not being a member of that court's bar.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "Attorney Louis S. Mastriani was granted permission to appear pro hac vice, allowing him to participate in this case before the Western District of Texas despite not being a member of that court's bar.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "Attorney Lloyd Smith was admitted pro hac vice, allowing him to appear in this case before the Western District of Texas despite not being a member of that court's bar.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "Attorney Jeff David was admitted pro hac vice, allowing him to appear in this case before the Western District of Texas despite not being a member of that court's bar.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "Attorney Isabella Soparkar was admitted pro hac vice, allowing her to appear in this case before the Western District of Texas on behalf of one of the parties.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "Attorney Dinis Cheian was granted pro hac vice admission, allowing him to appear in this case in the Western District of Texas despite not being a member of that court's bar.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "Attorney Danielle Nicholson was granted permission to appear pro hac vice, allowing her to participate in this case before the Western District of Texas despite not being a member of that court's bar.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-09",
+    "summary": "The court issued a standing order, signed by Judge David Counts, setting out the procedures parties must follow when filing documents under seal and submitting redacted public versions of those documents.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff Vicor Corporation filed a request asking the court to issue a summons, a standard early step to formally notify defendant Flex Ltd. of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff Vicor Corporation filed a Rule 7 disclosure statement, a standard court-required filing that identifies any parent corporations and publicly held companies owning 10% or more of a party's stock.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-08",
+    "summary": "The court clerk filed a standard administrative form (AO 120) notifying the U. S. Patent and Trademark Office of this pending patent litigation, as required by federal procedure.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "vicor-corporation-v-flex-ltd",
+    "case_name": "Vicor Corporation v. Flex Ltd.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff Vicor Corporation filed a complaint against Flex Ltd. in the Western District of Texas, alleging patent infringement and paying the $405 filing fee. The complaint was submitted with three exhibits and a civil cover sheet.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-oai-international-inc",
+    "case_name": "Neural AI, LLC v. OAI International, Inc.",
+    "entry_date": "2026-09-09",
+    "summary": "Plaintiff Neural AI, LLC filed a reply brief supporting its earlier motion to compel third-party OAI International, Inc. to comply with a subpoena.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-oai-international-inc",
+    "case_name": "Neural AI, LLC v. OAI International, Inc.",
+    "entry_date": "2026-09-09",
+    "summary": "Plaintiff Neural AI, LLC filed an opposition to OAI International's administrative motion seeking leave to file a supplemental opposition brief. This is a procedural filing responding to the other side's request for additional briefing opportunities.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-09",
+    "summary": "The court approved a joint stipulation by both parties to pause all proceedings and deadlines in this case until summary judgment motions in the broader multidistrict litigation (MDL) are resolved, after which the parties must file a status report within 30 days proposing next steps.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed proof that OpenAI, LLC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith, OpenAI's designated agent for service of process. OpenAI's answer to the complaint is due by September 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed a returned summons confirming that defendant OpenAI, Inc. was served on August 27, 2026, through its agent for service of process, Tatiyana Smith, with an answer due by September 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OpenAI OpCo, LLC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith as the company's agent for service of process. OpenAI OpCo, LLC's answer to the complaint is due by September 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OpenAI, L. P. was formally served with the summons on August 27, 2026, with service accepted by Tatiyana Smith, the designated agent for service of process. OpenAI, L. P. 's answer to the complaint is due September 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OpenAI Holdings, LLC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith, the designated agent for service of process. OpenAI Holdings, LLC's answer to the complaint is due by September 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed proof showing that OpenAI Group PBC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith as the designated agent for service of process. OpenAI Group PBC's answer to the complaint is due by September 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OpenAI GP, LLC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith as the agent for service of process. OpenAI GP, LLC's answer to the complaint is due by September 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed a returned summons confirming that OpenAI Global, LLC was served on August 27, 2026, with an answer due September 17, 2026; service was accepted by Tatiyana Smith, designated agent for service of process.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OAI Corporation, LLC was served with the summons on August 27, 2026, with service accepted by Tatiyana Smith as the company's agent for service of process. OAI Corporation, LLC's answer to the complaint is due by September 17, 2026.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiff wikiHow, Inc. filed a proposed stipulation and order, suggesting that both parties may have reached a procedural agreement they are asking the court to adopt.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-09",
+    "summary": "The court clerk reset case management deadlines following a case reassignment to Judge Eumi K. Lee, scheduling a Case Management Statement due December 2, 2026, and an Initial Case Management Conference on December 16, 2026, to be held via Zoom.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-09",
+    "summary": "The court granted a motion allowing attorney Carly K. Rothman to appear in this case on a pro hac vice basis, meaning she is admitted to represent a party before this court even though she is not a member of its local bar. Judge Eumi K. Lee signed the order on September 9, 2026.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-09",
+    "summary": "The court granted attorney Matthew Oppenheim's motion to appear as pro hac vice counsel, allowing him to participate in this case despite not being a member of the Northern District of California bar. Judge Eumi K. Lee signed the order on September 9, 2026.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-09",
+    "summary": "The court granted a motion allowing attorney Jennifer L. Pariser to appear in this case on a pro hac vice basis, meaning she is admitted to represent a party before this court despite not being a member of the local bar. Judge Eumi K. Lee signed the order on September 9, 2026.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-09",
+    "summary": "The court granted a motion allowing attorney Nicholas Hailey to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific proceeding even though he is not a member of the Northern District of California bar. Judge Eumi K. Lee signed the order on September 9, 2026.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-09",
+    "summary": "The court granted a motion allowing attorney Corey Miller to appear in this case on a pro hac vice basis, meaning Miller is licensed in another jurisdiction but has been permitted to participate in this Northern District of California proceeding.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-09",
+    "summary": "The court granted a motion allowing attorney Bret Matera to appear in this case on a pro hac vice basis, meaning he may represent a party despite not being licensed in the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-09",
+    "summary": "The court reassigned the case from Judge Edward M. Chen to Judge Eumi K. Lee, vacating all previously scheduled hearing and trial dates while leaving existing briefing schedules and other deadlines—such as those for ADR compliance and discovery cutoff—intact; counsel must refile any pending motions to be heard before Judge Lee.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-08",
+    "summary": "The court issued a Related Case Order reassigning Case No. 26-cv-9217-EMC to Judge Eumi K. Lee, linking it to the earlier related case, No. 24-cv-03811-EKL, which Judge Lee already presides over.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "lowery-v-suno-inc",
+    "case_name": "Lowery v. Suno, Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Attorney Audrey Austin filed a notice of appearance in federal court in Massachusetts, indicating she is now representing plaintiffs Eduardo Calle, Guy Forsyth, Jason Isbell, and David Lowery in this case against Suno, Inc.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "The court's filing system flagged two corporate disclosure statements submitted by attorney Brendan Thomas Kehoe as deficient, notifying him to refile the documents because they omitted required corporate parent or affiliate information and were signed by an attorney different from the one who submitted them electronically.",
+    "significance": "minor_update",
+    "entry_number": "477377652",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "The court assigned this case to Judge Jed S. Rakoff in the Southern District of New York. This is an administrative notice directing attorneys to review the judge's individual practices and the court's electronic filing rules.",
+    "significance": "minor_update",
+    "entry_number": "477377653",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "The court designated Magistrate Judge Stewart D. Aaron to handle referred matters in this case and notified the parties that they may consent to have a magistrate judge preside over the entire case, subject to the district judge's approval.",
+    "significance": "minor_update",
+    "entry_number": "477377654",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "The court designated this case for Electronic Case Filing (ECF), meaning all documents must be submitted through the federal court's online filing system.",
+    "significance": "minor_update",
+    "entry_number": "477377655",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "The court notified attorney Brendan Thomas Kehoe that the initial complaint was deficient because it lacked the filing attorney's signature, and directed him to re-file the complaint as a signed document through the court's filing system.",
+    "significance": "minor_update",
+    "entry_number": "477377656",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "The court notified plaintiff's attorney Brendan Thomas Kehoe that the request for issuance of summons filed as Document No. 7 is deficient because the summons caption title does not exactly match the complaint with respect to defendant Microsoft Corporation, and directed counsel to re-file the corrected summons using the proper event type.",
+    "significance": "minor_update",
+    "entry_number": "477377657",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "The Seattle Times Company filed a required corporate disclosure statement identifying Blethen Corporation as its parent company, as required by court rules for all parties appearing in federal court.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Newsday LLC filed a required corporate disclosure statement identifying Tillandsia Media Holdings LLC as its corporate parent.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Plaintiffs Newsday LLC and The Seattle Times Company filed a request asking the court clerk to issue summonses to ten named defendants, including multiple OpenAI entities and Microsoft Corporation, in connection with the complaint filed in this case.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Newsday LLC and The Seattle Times Company filed a complaint against OpenAI Inc. and its related entities, as well as Microsoft Corporation, initiating this lawsuit in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "Attorney Lacy Herman Koonce, III filed a notice of appearance on behalf of plaintiffs Newsday LLC and The Seattle Times Company, formally entering the case as counsel of record.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "The court submitted the required AO 121 copyright case-opening form to the U. S. Copyright Office's Register of Copyrights, fulfilling the statutory notification requirement under 17 U. S. C. § 508 that the Register be informed whenever a copyright action is filed in federal court.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-08",
+    "summary": "The court submitted the required AO 120 form to notify the U. S. Patent and Trademark Office that a trademark action involving The Seattle Times Company and OpenAI Inc. has been filed in the Southern District of New York, as required by federal law.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-09-10",
+    "summary": "Meta Platforms, through attorney Kyle Smith, filed a letter with Judge P. Kevin Castel regarding the upcoming Initial Pretrial Conference.",
+    "significance": "minor_update",
+    "entry_number": "97",
+    "logged_at": "2026-09-10T17:01:31Z"
+  },
+  {
     "case_id": "druyan-sagan-associates-inc-v-luma-ai-inc",
     "case_name": "Druyan-Sagan Associates, Inc. v. Luma AI, Inc.",
     "entry_date": "2026-09-08",

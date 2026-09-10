@@ -379,7 +379,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73359710/tanzer-v-adobe-inc/",
     "last_updated": "2026-08-06",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Tanzer asserts copyright infringement claims against Adobe Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case has a recent significant ruling.",
@@ -518,7 +518,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73352930/kwon-v-anthropic-pbc/",
     "last_updated": "2026-07-11",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Kwon asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is stayed.",
@@ -849,7 +849,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73034151/beaulier-v-roblox-corporation/",
     "last_updated": "2026-08-27",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against Roblox Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -1106,7 +1106,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73043521/beaulier-v-nvidia-corporation/",
     "last_updated": "2026-09-02",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against NVIDIA Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -1368,7 +1368,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73061569/beaulier-v-microsoft-corporation/",
     "last_updated": "2026-08-27",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against Microsoft Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -1728,7 +1728,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73145933/ted-entertainment-inc-v-apple-inc/",
     "last_updated": "2026-08-26",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Ted Entertainment, Inc. asserts copyright infringement claims against Apple, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -1920,7 +1920,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/",
     "last_updated": "2026-09-09",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Meta Platforms Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -2105,7 +2105,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73339887/cruz-v-anthropic-pbc/",
     "last_updated": "2026-08-05",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Cruz asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is stayed.",
@@ -2257,7 +2257,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73294478/cognella-inc-v-anthropic-pbc/",
     "last_updated": "2026-08-28",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Cognella, Inc. asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is stayed.",
@@ -2357,7 +2357,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73391100/david-vance-gardner-v-runway-ai-inc/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "David Vance Gardner asserts copyright infringement claims against Runway AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -2512,7 +2512,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73314131/chicken-soup-for-the-soul-llc-v-anthropic-pbc/",
     "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Anthropic PBC, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is stayed: Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16.",
@@ -2627,7 +2627,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72344359/businessing-llc-v-runway-ai-inc/",
     "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Businessing LLC asserts copyright infringement claims against Runway AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -2814,7 +2814,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73328849/poseidon-wave-media-llc-v-suno-inc/",
     "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Poseidon Wave Media LLC asserts copyright infringement claims against Suno, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -3167,14 +3167,21 @@
         "raw_text": "JOINT LETTER addressed to Judge P. Kevin Castel from Jeffrey M. Gould dated August 18, 2026 re: Proposed Briefing Schedule for Plaintiffs' Anticipated Motion to Strike. Document filed by Cengage Learning, Inc., Elsevier Inc., Hachette Book Group, Inc., Macmillan Publishing Group, LLC d/b/a Macmillan Publishers, McGraw Hill LLC, S.C.R.I.B.E., Inc., Kenneth Saladin, Scott Turow..(Gould, Jeffrey) (Entered: 08/18/2026)",
         "summary": "Both parties submitted a joint letter to Judge P. Kevin Castel proposing a briefing schedule for a motion to strike that the plaintiffs anticipate filing. The letter was filed on behalf of all plaintiffs, including several major publishers, an academic organization, and two individual authors.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "97",
+        "date": "2026-09-10",
+        "raw_text": "LETTER addressed to Judge P. Kevin Castel from Kyle Smith dated September 10, 2026 re: Initial Pretrial Conference. Document filed by Meta Platforms, Inc...(Smith, Kyle) (Entered: 09/10/2026)",
+        "summary": "Meta Platforms, through attorney Kyle Smith, filed a letter with Judge P. Kevin Castel regarding the upcoming Initial Pretrial Conference.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. involving books, educational, or publishing materials. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-08-17): The court granted attorney Samuel Rubinstein's motion to withdraw as counsel, and he has been removed from the case.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73294740/elsevier-inc-v-meta-platforms-inc/",
-    "last_updated": "2026-08-19",
+    "last_updated": "2026-09-10",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. involving books, educational, or publishing materials.",
       "current_posture": "The case is in motion practice.",
@@ -3323,7 +3330,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73284844/carreyrou-v-openai-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Carreyrou asserts copyright infringement claims against OpenAI, Inc. involving news or journalism content and Project Giraffe.",
       "current_posture": "The case has a recent significant ruling.",
@@ -3412,7 +3419,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73384790/hobbs-v-meta-platforms-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Hobbs asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is newly filed.",
@@ -3674,7 +3681,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73145732/ted-entertainment-inc-v-openai-inc/",
     "last_updated": "2026-08-27",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Ted Entertainment, Inc. asserts copyright infringement claims against OpenAI Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -3747,7 +3754,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73243293/seiu-pension-plan-master-trust-v-adobe-inc/",
     "last_updated": "2026-07-06",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "SEIU Pension Plan Master Trust asserts copyright infringement claims against Adobe Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in early service or case-administration steps.",
@@ -4149,7 +4156,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72492986/encyclopaedia-britannica-inc-v-openai-inc/",
     "last_updated": "2026-09-06",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Encyclopaedia Britannica, Inc. asserts copyright infringement claims against OpenAI, Inc. over alleged AI-generated output involving news or journalism content and Project Giraffe.",
       "current_posture": "The case is stayed.",
@@ -4271,7 +4278,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73399431/tesseract-systems-llc-v-soundhound-inc/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Tesseract Systems LLC asserts patent infringement claims against SoundHound, Inc. involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -4385,7 +4392,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72392052/poulin-holdings-llc-v-databricks-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Poulin Holdings, LLC asserts patent infringement claims against Databricks, Inc. involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -4527,7 +4534,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72377338/kogon-v-google-llc/",
     "last_updated": "2026-07-29",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Kogon asserts copyright infringement claims against Google, LLC, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is on appeal.",
@@ -4784,7 +4791,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73166286/valtrus-innovations-limited-v-lumen-technologies-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-09-09",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Valtrus Innovations Limited asserts patent infringement claims against Lumen Technologies, Inc. involving patented software or technology.",
       "current_posture": "The case is in early service or case-administration steps.",
@@ -7586,7 +7593,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73237887/semantic-engines-llc-v-microsoft-corporation/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-09-08",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Semantic Engines LLC asserts patent infringement claims against Microsoft Corporation involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -7713,7 +7720,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73488419/apress-media-llc-v-welib/",
     "last_updated": "2026-07-10",
     "discovered_date": "2026-06-16",
-    "docket_last_checked": "2026-09-08",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Apress Media, LLC asserts copyright infringement claims against WeLib involving books, educational, or publishing materials.",
       "current_posture": "The case is in motion practice.",
@@ -7974,7 +7981,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
     "last_updated": "2026-08-27",
     "discovered_date": "2026-06-21",
-    "docket_last_checked": "2026-09-08",
+    "docket_last_checked": "2026-09-10",
     "case_intelligence": {
       "case_theory": "Shakespeare asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is newly filed.",
@@ -8416,7 +8423,7 @@
         }
       ]
     },
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "s-a-jamendo-v-suno-inc",
@@ -10094,7 +10101,7 @@
       ]
     },
     "plain_language_summary": "Unwired Global Systems LLC asserts patent infringement claims against SAP America, Inc. involving patented software or technology. The case is in motion practice. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-07-29): The court submitted a report to the Commissioner of Patents and Trademarks concerning Patent No. 8,488,624, which appears to be an administrative notice related to the patent at issue in this case.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "wyoming-technology-licensing-llc-v-bmw-of-north-america-llc",
@@ -10157,7 +10164,7 @@
       ]
     },
     "plain_language_summary": "WYOMING TECHNOLOGY LICENSING, LLC filed patent infringement claims against BMW OF NORTH AMERICA, LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "evox-production-llc-v-midjourney-inc",
@@ -10221,7 +10228,7 @@
       ]
     },
     "plain_language_summary": "EVOX Production LLC filed copyright infringement claims against Midjourney, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "berliner-v-huang",
@@ -10296,7 +10303,7 @@
       ]
     },
     "plain_language_summary": "Berliner filed copyright infringement and other AI litigation claims against Huang. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "content-aware-llc-v-myntra-designs-private-limited",
@@ -10412,7 +10419,7 @@
       ]
     },
     "plain_language_summary": "Content Aware, LLC filed patent infringement claims against Myntra Designs Private Limited. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "content-aware-llc-v-snitch-apparels-private-limited",
@@ -10940,7 +10947,7 @@
       ]
     },
     "plain_language_summary": "FinTegrity LLC filed patent infringement claims against Paypal Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "rosen-v-cook",
@@ -11653,7 +11660,7 @@
       ]
     },
     "plain_language_summary": "Round Hill Music LP asserts copyright infringement and DMCA section 1202 claims against Suno, Inc. involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement and DMCA section 1202 claims. Latest meaningful event (2026-08-24): Suno, Inc. filed an opposition to an administrative motion that sought to have this case deemed related to another pending case under Civil Local Rule 7-11, attaching one exhibit in support of its position.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "neural-ai-llc-v-x-ai-corp",
@@ -11790,7 +11797,7 @@
       ]
     },
     "plain_language_summary": "Neural AI, LLC asserts patent infringement claims against X.AI Corp. involving patented software or technology. The case is in discovery. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-08-28): The court granted a motion to extend the deadline for filing a response or reply, setting the new deadline to September 15, 2026. No written order document was issued; the court's action appears as a text-only docket entry.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "neural-ai-llc-v-oai-international-inc",
@@ -11805,7 +11812,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Motion Practice",
+    "procedural_posture": "Appeal",
     "parties": {
       "plaintiff": "Neural AI, LLC",
       "defendant": "OAI International, Inc."
@@ -11891,19 +11898,33 @@
         "raw_text": "ADMINISTRATIVE MOTION Leave to File Supplemental Opposition filed by OAI International, Inc.. Responses due by 9/8/2026. (Attachments: # 1 Declaration of Matthew S. Warren, # 2 Exhibit A, # 3 Exhibit B, # 4 Exhibit C, # 5 Proposed Order)(Warren, Matthew) (Filed on 9/4/2026) (Entered: 09/04/2026)",
         "summary": "OAI International filed an administrative motion asking the court for permission to submit a supplemental opposition brief, attaching a supporting declaration from attorney Matthew S. Warren and three exhibits; any responses to the motion are due by September 8, 2026.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "13",
+        "date": "2026-09-09",
+        "raw_text": "REPLY (re 1 MOTION ) to Compel Compliance with Subpoena Served on Third-Party OAI International, Inc. filed byNeural AI, LLC. (Laiche, Tanner) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "Plaintiff Neural AI, LLC filed a reply brief supporting its earlier motion to compel third-party OAI International, Inc. to comply with a subpoena.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "12",
+        "date": "2026-09-09",
+        "raw_text": "OPPOSITION/RESPONSE (re 11 ADMINISTRATIVE MOTION Leave to File Supplemental Opposition ) filed byNeural AI, LLC. (Laiche, Tanner) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "Plaintiff Neural AI, LLC filed an opposition to OAI International's administrative motion seeking leave to file a supplemental opposition brief. This is a procedural filing responding to the other side's request for additional briefing opportunities.",
+        "significance": "minor_update"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74661488/neural-ai-llc-v-oai-international-inc/",
-    "last_updated": "2026-09-06",
+    "last_updated": "2026-09-10",
     "discovered_date": "2026-08-18",
     "case_intelligence": {
       "case_theory": "Neural AI, LLC asserts patent infringement claims against OAI International, Inc. involving patented software or technology.",
-      "current_posture": "The case is in motion practice.",
-      "why_it_matters": "The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims.",
-      "latest_change": "Latest meaningful event (2026-09-02): Defendant OAI International, Inc. filed an opposition to Plaintiff Neural AI, LLC's pending motion (Docket No. 1), responding to the arguments raised in that motion.",
-      "latest_meaningful_event": "Defendant OAI International, Inc. filed an opposition to Plaintiff Neural AI, LLC's pending motion (Docket No. 1), responding to the arguments raised in that motion.",
-      "latest_meaningful_event_date": "2026-09-02",
+      "current_posture": "The case is on appeal.",
+      "why_it_matters": "The case matters because the appellate posture may shape what district-court orders remain in effect while AI litigation proceeds.",
+      "latest_change": "Latest meaningful event (2026-09-09): Plaintiff Neural AI, LLC filed a reply brief supporting its earlier motion to compel third-party OAI International, Inc. to comply with a subpoena.",
+      "latest_meaningful_event": "Plaintiff Neural AI, LLC filed a reply brief supporting its earlier motion to compel third-party OAI International, Inc. to comply with a subpoena.",
+      "latest_meaningful_event_date": "2026-09-09",
       "claim_category": "patent_ai_software",
       "claims_asserted": [
         "patent infringement"
@@ -11911,7 +11932,7 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": "patented software or technology",
       "technology_or_model_at_issue": null,
-      "procedural_stage": "motion_practice",
+      "procedural_stage": "appeal",
       "pending_motion_or_next_event": null,
       "related_cases": [],
       "confidence_level": "low",
@@ -11928,13 +11949,13 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "7",
-          "date": "2026-09-02"
+          "entry_number": "13",
+          "date": "2026-09-09"
         }
       ]
     },
-    "plain_language_summary": "Neural AI, LLC asserts patent infringement claims against OAI International, Inc. involving patented software or technology. The case is in motion practice. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-09-02): Defendant OAI International, Inc. filed an opposition to Plaintiff Neural AI, LLC's pending motion (Docket No. 1), responding to the arguments raised in that motion.",
-    "docket_last_checked": "2026-09-08"
+    "plain_language_summary": "Neural AI, LLC asserts patent infringement claims against OAI International, Inc. involving patented software or technology. The case is on appeal. The case matters because the appellate posture may shape what district-court orders remain in effect while AI litigation proceeds. Latest meaningful event (2026-09-09): Plaintiff Neural AI, LLC filed a reply brief supporting its earlier motion to compel third-party OAI International, Inc. to comply with a subpoena.",
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "neural-ai-llc-v-tesla-inc",
@@ -12092,7 +12113,7 @@
       ]
     },
     "plain_language_summary": "Neural AI, LLC asserts patent infringement claims against Tesla Inc. involving patented software or technology. The case is on appeal. The case matters because the appellate posture may shape what district-court orders remain in effect while AI litigation proceeds. Latest meaningful event (2026-08-31): Neural AI, LLC filed a reply brief in support of its corrected motion to compel Tesla, Inc. —a third party—to comply with a subpoena, attaching one exhibit in support of its arguments.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "taasera-licensing-llc-v-arctic-wolf-networks-inc",
@@ -12201,7 +12222,7 @@
       ]
     },
     "plain_language_summary": "Taasera Licensing LLC filed patent infringement claims against Arctic Wolf Networks, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "fali-rehab-equipment-llc-v-210-innovation-llc",
@@ -12368,7 +12389,7 @@
       ]
     },
     "plain_language_summary": "FALI Rehab Equipment, LLC asserts patent infringement claims against 210 Innovation, LLC over alleged AI-generated output involving patented software or technology. The case is in discovery. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-08-20): The court clerk issued a notice reminding counsel and self-represented parties that whoever filed or removed this action is responsible for serving all other parties with key early-case documents, including the complaint filed by FALI Rehab Equipment, LLC, standing orders on patent cases and pretrial deadlines, electronic filing instructions, and a notice regarding AI-assisted legal research.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "wikihow-inc-v-openai-inc",
@@ -12530,19 +12551,96 @@
         "raw_text": "ORDER: Plaintiff is ordered to show cause in writing on or before September 11, 2026, why this action should not be stayed pending resolution of summary judgment motions in the other active cases in this multidistrict litigation. Defendants' response, if any, shall be filed by September 18, 2026. SO ORDERED. Show Cause Response due by 9/11/2026. (Signed by Judge Sidney H. Stein on 8/28/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:26-cv-07171-SHS (jca) (Entered: 08/31/2026)",
         "summary": "The court ordered wikiHow to explain in writing by September 11, 2026, why this case should not be paused while summary judgment motions are resolved in other related cases within the same multidistrict litigation; OpenAI may file a response by September 18, 2026.",
         "significance": "significant_ruling"
+      },
+      {
+        "entry_number": "24",
+        "date": "2026-09-09",
+        "raw_text": "JOINT STIPULATION AND ORDER STAYING WIKIHOW ACTION: NOW, THEREFORE, IT IS HEREBY STIPULATED BY AND BETWEEN THE PARTIES THAT, subject to the Court's approval, as follows: 1. All proceedings and deadlines in the above-captioned Action are hereby stayed pending resolution of summary judgment motions in the other active cases in this multidistrict litigation. 2. Within 30 days of rulings on such motion(s) in the MDL, the parties shall file a joint status report in this Action to propose a case management conference and any appropriate further proceedings in light of the MDL decision. 3. While this stay is in effect, any party may move to lift the stay for good cause shown. Nothing in this stipulation shall preclude any party from seeking such relief, if necessary, or from seeking any other appropriate relief from the Court. SO ORDERED. Case stayed. (Signed by Judge Sidney H. Stein on 9/8/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW, 1:26-cv-07171-SHS (jjc) (Entered: 09/09/2026)",
+        "summary": "The court approved a joint stipulation by both parties to pause all proceedings and deadlines in this case until summary judgment motions in the broader multidistrict litigation (MDL) are resolved, after which the parties must file a status report within 30 days proposing next steps.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-09-08",
+        "raw_text": "SUMMONS RETURNED EXECUTED. OpenAI, LLC served on 8/27/2026, answer due 9/17/2026. Service was accepted by Tatiyana Smith, Agent for Service of Process. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed proof that OpenAI, LLC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith, OpenAI's designated agent for service of process. OpenAI's answer to the complaint is due by September 17, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-09-08",
+        "raw_text": "SUMMONS RETURNED EXECUTED. OpenAI, Inc. served on 8/27/2026, answer due 9/17/2026. Service was accepted by Tatiyana Smith, Agent for Service of Process. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed a returned summons confirming that defendant OpenAI, Inc. was served on August 27, 2026, through its agent for service of process, Tatiyana Smith, with an answer due by September 17, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-09-08",
+        "raw_text": "SUMMONS RETURNED EXECUTED. OpenAI OpCo, LLC served on 8/27/2026, answer due 9/17/2026. Service was accepted by Tatiyana Smith, Agent for Service of Process. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OpenAI OpCo, LLC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith as the company's agent for service of process. OpenAI OpCo, LLC's answer to the complaint is due by September 17, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-09-08",
+        "raw_text": "SUMMONS RETURNED EXECUTED. OpenAI, L.P. served on 8/27/2026, answer due 9/17/2026. Service was accepted by Tatiyana Smith, Agent for Service of Process. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OpenAI, L. P. was formally served with the summons on August 27, 2026, with service accepted by Tatiyana Smith, the designated agent for service of process. OpenAI, L. P. 's answer to the complaint is due September 17, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "19",
+        "date": "2026-09-08",
+        "raw_text": "SUMMONS RETURNED EXECUTED. OpenAI Holdings, LLC served on 8/27/2026, answer due 9/17/2026. Service was accepted by Tatiyana Smith, Agent for Service of Process. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OpenAI Holdings, LLC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith, the designated agent for service of process. OpenAI Holdings, LLC's answer to the complaint is due by September 17, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-09-08",
+        "raw_text": "SUMMONS RETURNED EXECUTED. OpenAI Group PBC served on 8/27/2026, answer due 9/17/2026. Service was accepted by Tatiyana Smith, Agent for Service of Process. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed proof showing that OpenAI Group PBC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith as the designated agent for service of process. OpenAI Group PBC's answer to the complaint is due by September 17, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-09-08",
+        "raw_text": "SUMMONS RETURNED EXECUTED. OpenAI GP, LLC served on 8/27/2026, answer due 9/17/2026. Service was accepted by Tatiyana Smith, Agent for Service of Process. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OpenAI GP, LLC was successfully served with the summons on August 27, 2026, with service accepted by Tatiyana Smith as the agent for service of process. OpenAI GP, LLC's answer to the complaint is due by September 17, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-09-08",
+        "raw_text": "SUMMONS RETURNED EXECUTED. OpenAI Global, LLC served on 8/27/2026, answer due 9/17/2026. Service was accepted by Tatiyana Smith, Agent for Service of Process. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed a returned summons confirming that OpenAI Global, LLC was served on August 27, 2026, with an answer due September 17, 2026; service was accepted by Tatiyana Smith, designated agent for service of process.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "15",
+        "date": "2026-09-08",
+        "raw_text": "SUMMONS RETURNED EXECUTED. OAI Corporation, LLC served on 8/27/2026, answer due 9/17/2026. Service was accepted by Tatiyana Smith, Agent for Service of Process. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed proof that defendant OAI Corporation, LLC was served with the summons on August 27, 2026, with service accepted by Tatiyana Smith as the company's agent for service of process. OAI Corporation, LLC's answer to the complaint is due by September 17, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "14",
+        "date": "2026-09-08",
+        "raw_text": "PROPOSED STIPULATION AND ORDER. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
+        "summary": "Plaintiff wikiHow, Inc. filed a proposed stipulation and order, suggesting that both parties may have reached a procedural agreement they are asking the court to adopt.",
+        "significance": "minor_update"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74687027/wikihow-inc-v-openai-inc/",
-    "last_updated": "2026-08-31",
+    "last_updated": "2026-09-10",
     "discovered_date": "2026-08-22",
     "case_intelligence": {
       "case_theory": "wikiHow, Inc. asserts copyright infringement claims against OpenAI , Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is stayed.",
       "why_it_matters": "The case matters because it may affect how related AI litigation is coordinated before merits rulings.",
-      "latest_change": "Latest meaningful event (2026-08-31): The court ordered wikiHow to explain in writing by September 11, 2026, why this case should not be paused while summary judgment motions are resolved in other related cases within the same multidistrict litigation; OpenAI may file a response by September 18, 2026.",
-      "latest_meaningful_event": "The court ordered wikiHow to explain in writing by September 11, 2026, why this case should not be paused while summary judgment motions are resolved in other related cases within the same multidistrict litigation; OpenAI may file a response by September 18, 2026.",
-      "latest_meaningful_event_date": "2026-08-31",
+      "latest_change": "Latest meaningful event (2026-09-09): The court approved a joint stipulation by both parties to pause all proceedings and deadlines in this case until summary judgment motions in the broader multidistrict litigation (MDL) are resolved, after which the parties must file a status report within 30 days proposing next steps.",
+      "latest_meaningful_event": "The court approved a joint stipulation by both parties to pause all proceedings and deadlines in this case until summary judgment motions in the broader multidistrict litigation (MDL) are resolved, after which the parties must file a status report within 30 days proposing next steps.",
+      "latest_meaningful_event_date": "2026-09-09",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -12575,13 +12673,13 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "10",
-          "date": "2026-08-31"
+          "entry_number": "24",
+          "date": "2026-09-09"
         }
       ]
     },
-    "plain_language_summary": "wikiHow, Inc. asserts copyright infringement claims against OpenAI , Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is stayed. The case matters because it may affect how related AI litigation is coordinated before merits rulings. Latest meaningful event (2026-08-31): The court ordered wikiHow to explain in writing by September 11, 2026, why this case should not be paused while summary judgment motions are resolved in other related cases within the same multidistrict litigation; OpenAI may file a response by September 18, 2026.",
-    "docket_last_checked": "2026-09-08"
+    "plain_language_summary": "wikiHow, Inc. asserts copyright infringement claims against OpenAI , Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is stayed. The case matters because it may affect how related AI litigation is coordinated before merits rulings. Latest meaningful event (2026-09-09): The court approved a joint stipulation by both parties to pause all proceedings and deadlines in this case until summary judgment motions in the broader multidistrict litigation (MDL) are resolved, after which the parties must file a status report within 30 days proposing next steps.",
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "iot-innovations-llc-v-signify-netherlands-b-v",
@@ -12667,7 +12765,7 @@
       ]
     },
     "plain_language_summary": "IOT Innovations LLC filed patent infringement claims against Signify Netherlands B.V. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "druyan-sagan-associates-inc-v-luma-ai-inc",
@@ -13123,7 +13221,7 @@
       ]
     },
     "plain_language_summary": "Convergence LLC filed patent infringement claims against Kialo GmbH. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "outleads-inc-v-salesforce-inc",
@@ -13343,19 +13441,82 @@
         "raw_text": "Case assigned to Judge Edward M Chen. Counsel for plaintiff or the removing party is responsible for serving the Complaint or Notice of Removal, Summons and the assigned judge's standing orders and all other new case documents upon the opposing parties. For information, visit E-Filing A New Civil Case at http://cand.uscourts.gov/ecf/caseopening.Standing orders can be downloaded from the court's web page at www.cand.uscourts.gov/judges. Upon receipt, the summons will be issued and returned electronically. A scheduling order will be sent by Notice of Electronic Filing (NEF) within two business days. (mbc, COURT STAFF) (Filed on 8/31/2026) (Entered: 08/31/2026)",
         "summary": "The court assigned this case to Judge Edward M. Chen and issued standard administrative instructions directing plaintiff's counsel to serve the complaint, summons, and the judge's standing orders on Anthropic; a scheduling order will follow within two business days.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "24",
+        "date": "2026-09-09",
+        "raw_text": "CLERK'S NOTICE RESETTING CASE MANAGEMENT DEADLINES FOLLOWING REASSIGNMENT.Case Management Statement due by 12/2/2026. Initial Case Management Conference set for 12/16/2026 at 01:30 PM before Judge Eumi K. Lee. This proceeding will be held via a Zoom meeting.Court Appearances: Advanced notice is required of counsel or parties who will be present at the hearing. A list of names and emails must be sent to the CRD at eklcrd@cand.uscourts.gov no later than 12/14/2026 at 5:00 PM.Civ LR 77-3(d). Persons granted access to court proceedings held by telephone or videoconference are reminded that photographing, recording, and rebroadcasting of court proceedings, including screenshots or other visual copying of a hearing, is absolutely prohibited. (This is a text-only entry generated by the court. There is no document associated with this entry.)(lrt, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "The court clerk reset case management deadlines following a case reassignment to Judge Eumi K. Lee, scheduling a Case Management Statement due December 2, 2026, and an Initial Case Management Conference on December 16, 2026, to be held via Zoom.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-09-09",
+        "raw_text": "ORDER Granting 12 Motion for Pro Hac Vice as to attorney Carly K Rothman. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "The court granted a motion allowing attorney Carly K. Rothman to appear in this case on a pro hac vice basis, meaning she is admitted to represent a party before this court even though she is not a member of its local bar. Judge Eumi K. Lee signed the order on September 9, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "22",
+        "date": "2026-09-09",
+        "raw_text": "ORDER Granting 10 Motion for Pro Hac Vice as to attorney Matthew Oppenheim. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "The court granted attorney Matthew Oppenheim's motion to appear as pro hac vice counsel, allowing him to participate in this case despite not being a member of the Northern District of California bar. Judge Eumi K. Lee signed the order on September 9, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "21",
+        "date": "2026-09-09",
+        "raw_text": "ORDER Granting 9 Motion for Pro Hac Vice as to attorney Jennifer L. Pariser. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "The court granted a motion allowing attorney Jennifer L. Pariser to appear in this case on a pro hac vice basis, meaning she is admitted to represent a party before this court despite not being a member of the local bar. Judge Eumi K. Lee signed the order on September 9, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "20",
+        "date": "2026-09-09",
+        "raw_text": "ORDER Granting 8 Motion for Pro Hac Vice as to attorney Nicholas Hailey. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "The court granted a motion allowing attorney Nicholas Hailey to appear in this case on a pro hac vice basis, meaning he is admitted to participate in this specific proceeding even though he is not a member of the Northern District of California bar. Judge Eumi K. Lee signed the order on September 9, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "19",
+        "date": "2026-09-09",
+        "raw_text": "ORDER Granting 7 Motion for Pro Hac Vice as to attorney Corey Miller. Signed by Judge Eumi K. Lee (lrt, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "The court granted a motion allowing attorney Corey Miller to appear in this case on a pro hac vice basis, meaning Miller is licensed in another jurisdiction but has been permitted to participate in this Northern District of California proceeding.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-09-09",
+        "raw_text": "ORDER Granting 6 Motion for Pro Hac Vice as to attorney Bret Matera. Signed by Judge Eumi K. Lee (lrt, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "The court granted a motion allowing attorney Bret Matera to appear in this case on a pro hac vice basis, meaning he may represent a party despite not being licensed in the Northern District of California.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "17",
+        "date": "2026-09-09",
+        "raw_text": "ORDER REASSIGNING CASE IT IS ORDERED that this case is directly assigned to Judge Eumi K. Lee. Judge Edward M Chen no longer assigned to the case. Counsel are instructed that all future filings shall bear the updated judicial initials immediately after the case number. Counsel are reminded to verify the location of the judge on the court website. All hearing and trial dates presently scheduled are vacated. However, existing briefing schedules for motions remain unchanged. Motions must be renoticed for hearing before the judge to whom the case has been reassigned, but the renoticing of the hearing does not affect the prior briefing schedule. Other deadlines such as those for ADR compliance and discovery cutoff also remain unchanged. Mark B. Busby Clerk, United States District Court (This is a text-only entry generated by the court. There is no document associated with this entry.) (mbc, COURT STAFF) (Filed on 9/9/2026) (Entered: 09/09/2026)",
+        "summary": "The court reassigned the case from Judge Edward M. Chen to Judge Eumi K. Lee, vacating all previously scheduled hearing and trial dates while leaving existing briefing schedules and other deadlines—such as those for ADR compliance and discovery cutoff—intact; counsel must refile any pending motions to be heard before Judge Lee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "16",
+        "date": "2026-09-08",
+        "raw_text": "Related Case Order. Case No. 26-cv-9217-EMC is related to Case No. 24-cv-03811-EKL and shall be reassigned to Judge Eumi K. Lee. Signed by Judge Eumi K. Lee on 9/8/2026. (lrt, COURT STAFF) (Filed on 9/8/2026) (Entered: 09/08/2026)",
+        "summary": "The court issued a Related Case Order reassigning Case No. 26-cv-9217-EMC to Judge Eumi K. Lee, linking it to the earlier related case, No. 24-cv-03811-EKL, which Judge Lee already presides over.",
+        "significance": "minor_update"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74720572/sony-music-publishing-us-llc-v-anthropic-pbc/",
-    "last_updated": "2026-09-04",
+    "last_updated": "2026-09-10",
     "discovered_date": "2026-08-29",
     "case_intelligence": {
       "case_theory": "Sony Music Publishing (US) LLC asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works.",
       "current_posture": "The case is in motion practice.",
       "why_it_matters": "The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-08-31): Sony Music Publishing and Warner Chappell Music filed a notice supporting an administrative motion asking the court to consider whether this case should be formally related to one or more other cases. The notice includes Exhibit A as a supporting attachment.",
-      "latest_meaningful_event": "Sony Music Publishing and Warner Chappell Music filed a notice supporting an administrative motion asking the court to consider whether this case should be formally related to one or more other cases. The notice includes Exhibit A as a supporting attachment.",
-      "latest_meaningful_event_date": "2026-08-31",
+      "latest_change": "Latest meaningful event (2026-09-08): The court issued a Related Case Order reassigning Case No. 26-cv-9217-EMC to Judge Eumi K. Lee, linking it to the earlier related case, No. 24-cv-03811-EKL, which Judge Lee already presides over.",
+      "latest_meaningful_event": "The court issued a Related Case Order reassigning Case No. 26-cv-9217-EMC to Judge Eumi K. Lee, linking it to the earlier related case, No. 24-cv-03811-EKL, which Judge Lee already presides over.",
+      "latest_meaningful_event_date": "2026-09-08",
       "claim_category": "copyright_music_or_audio",
       "claims_asserted": [
         "copyright infringement"
@@ -13365,7 +13526,10 @@
       "technology_or_model_at_issue": null,
       "procedural_stage": "motion_practice",
       "pending_motion_or_next_event": null,
-      "related_cases": [],
+      "related_cases": [
+        "26-cv-9217-EMC",
+        "24-cv-03811-EKL"
+      ],
       "confidence_level": "low",
       "missing_information": [
         "Specific AI-related conduct is not identified in the parsed docket metadata.",
@@ -13380,13 +13544,13 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "11",
-          "date": "2026-08-31"
+          "entry_number": "16",
+          "date": "2026-09-08"
         }
       ]
     },
-    "plain_language_summary": "Sony Music Publishing (US) LLC asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-08-31): Sony Music Publishing and Warner Chappell Music filed a notice supporting an administrative motion asking the court to consider whether this case should be formally related to one or more other cases. The notice includes Exhibit A as a supporting attachment.",
-    "docket_last_checked": "2026-09-08"
+    "plain_language_summary": "Sony Music Publishing (US) LLC asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-09-08): The court issued a Related Case Order reassigning Case No. 26-cv-9217-EMC to Judge Eumi K. Lee, linking it to the earlier related case, No. 24-cv-03811-EKL, which Judge Lee already presides over.",
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "gerencia-360-music-inc-v-suno-inc",
@@ -13629,11 +13793,18 @@
         "raw_text": "MOTION for Leave to Appear Pro Hac Vice for admission of George A. Zelcs Filing fee: $ 125, receipt number AMADC-12003296 by Eduardo Calle, Guy Forsyth, Jason Isbell, David Lowery. (Attachments: # 1 Certification of George A. Zelcs)(Rose, Alan) (Entered: 09/02/2026)",
         "summary": "Plaintiffs Eduardo Calle, Guy Forsyth, Jason Isbell, and David Lowery filed a motion seeking the court's permission to allow attorney George A. Zelcs to appear in this case on their behalf, accompanied by a $125 filing fee and Zelcs's certification.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "13",
+        "date": "2026-09-08",
+        "raw_text": "NOTICE of Appearance by Audrey Austin on behalf of Eduardo Calle, Guy Forsyth, Jason Isbell, David Lowery (Austin, Audrey) (Entered: 09/08/2026)",
+        "summary": "Attorney Audrey Austin filed a notice of appearance in federal court in Massachusetts, indicating she is now representing plaintiffs Eduardo Calle, Guy Forsyth, Jason Isbell, and David Lowery in this case against Suno, Inc.",
+        "significance": "minor_update"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74728439/lowery-v-suno-inc/",
-    "last_updated": "2026-09-04",
+    "last_updated": "2026-09-10",
     "discovered_date": "2026-09-01",
     "case_intelligence": {
       "case_theory": "Lowery asserts copyright infringement claims against Suno, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
@@ -13673,7 +13844,7 @@
       ]
     },
     "plain_language_summary": "Lowery filed copyright infringement claims against Suno, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "many-worlds-2t-innovations-llc-v-openai-opco-llc",
@@ -13796,7 +13967,7 @@
       ]
     },
     "plain_language_summary": "Many Worlds 2T Innovations LLC filed patent infringement claims against OpenAI OpCo, LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "btf-ip-holdings-llc-v-eleven-labs-inc",
@@ -13969,19 +14140,110 @@
         "raw_text": "COMPLAINT against Microsoft Corporation, OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI OpCo, LLC. (Filing Fee $ 405.00, Receipt Number ANYSDC-33394678)Document filed by Newsday LLC, The Seattle Times Company. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Exhibit 4).(Kehoe, Brendan) (Entered: 09/04/2026)",
         "summary": "Plaintiffs Newsday LLC and The Seattle Times Company filed a complaint against Microsoft Corporation and numerous OpenAI entities, initiating the lawsuit with four attached exhibits and payment of the $405 filing fee.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "477377652",
+        "date": "2026-09-08",
+        "raw_text": "***NOTICE TO ATTORNEY REGARDING DEFICIENT RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Notice to Attorney Brendan Thomas Kehoe to RE-FILE Document Nos. 4 Rule 7.1 Corporate Disclosure Statement and 3 Rule 7.1 Corporate Disclosure Statement. These filings are deficient for the following reason(s): the corporate parent/other affiliate was not added; The Attorney who signed the PDF is not the Attorney who electronically file the Rule 7.1 Corporate Disclosure Statement;. Re-file the documents using the event type Rule 7.1 Corporate Disclosure Statement found under the event list Other Documents - select the correct filer/filers - attach the correct signed PDF - when prompted with the message \"Are there any corporate parents or other affiliates?\", select the Yes or No radio button - If Yes - enter the corporate parent/other affiliate, click the Search button - select the correct corporate parent/other affiliate name from the search results list or if no person found, create a new corporate parent/other affiliate - select the party to whom the corporate parent/other affiliate should be linked - add corporate parent/other affiliate names one at a time. (lb)",
+        "summary": "The court's filing system flagged two corporate disclosure statements submitted by attorney Brendan Thomas Kehoe as deficient, notifying him to refile the documents because they omitted required corporate parent or affiliate information and were signed by an attorney different from the one who submitted them electronically.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "477377653",
+        "date": "2026-09-08",
+        "raw_text": "CASE OPENING INITIAL ASSIGNMENT NOTICE: The above-entitled action is assigned to Judge Jed S. Rakoff. Please download and review the Individual Practices of the assigned District Judge, located at https://nysd.uscourts.gov/judges/district-judges. Attorneys are responsible for providing courtesy copies to judges where their Individual Practices require such. Please download and review the ECF Rules and Instructions, located at https://nysd.uscourts.gov/rules/ecf-related-instructions..(pc)",
+        "summary": "The court assigned this case to Judge Jed S. Rakoff in the Southern District of New York. This is an administrative notice directing attorneys to review the judge's individual practices and the court's electronic filing rules.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "477377654",
+        "date": "2026-09-08",
+        "raw_text": "Magistrate Judge Stewart D. Aaron is designated to handle matters that may be referred in this case. Pursuant to 28 U.S.C. Section 636(c), Fed. R. Civ. P. 73(b)(1), and Local Civil Rule 73.1, parties are notified that they may, with the approval of the assigned District Judge, consent to proceed before a United States Magistrate Judge. Parties who wish to consent may access the necessary form at the following link: https://nysd.uscourts.gov/sites/default/files/2018-06/AO-3.pdf. (pc)",
+        "summary": "The court designated Magistrate Judge Stewart D. Aaron to handle referred matters in this case and notified the parties that they may consent to have a magistrate judge preside over the entire case, subject to the district judge's approval.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "477377655",
+        "date": "2026-09-08",
+        "raw_text": "Case Designated ECF. (pc)",
+        "summary": "The court designated this case for Electronic Case Filing (ECF), meaning all documents must be submitted through the federal court's online filing system.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "477377656",
+        "date": "2026-09-08",
+        "raw_text": "***NOTICE TO ATTORNEY REGARDING DEFICIENT PLEADING. Notice to Attorney Brendan Thomas Kehoe to RE-FILE Document No. 1 Complaint,. The filing is deficient for the following reason(s): the pleading was not signed by the filing attorney. Re-file the pleading using the event type Complaint found under the event list Complaints and Other Initiating Documents - attach the correct signed PDF - select the individually named filer/filers - select the individually named party/parties the pleading is against. (pc)",
+        "summary": "The court notified attorney Brendan Thomas Kehoe that the initial complaint was deficient because it lacked the filing attorney's signature, and directed him to re-file the complaint as a signed document through the court's filing system.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "477377657",
+        "date": "2026-09-08",
+        "raw_text": "***NOTICE TO ATTORNEY REGARDING DEFICIENT REQUEST FOR ISSUANCE OF SUMMONS. Notice to Attorney Brendan Thomas Kehoe to RE-FILE Document No. 7 Request for Issuance of Summons,. The filing is deficient for the following reason(s): Summons caption title does not exactly match complaint (Microsoft Corporation). Re-file the document using the event type Request for Issuance of Summons found under the event list Service of Process - select the correct filer/filers - and attach the correct summons form PDF. (pc)",
+        "summary": "The court notified plaintiff's attorney Brendan Thomas Kehoe that the request for issuance of summons filed as Document No. 7 is deficient because the summons caption title does not exactly match the complaint with respect to defendant Microsoft Corporation, and directed counsel to re-file the corrected summons using the proper event type.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "14",
+        "date": "2026-09-08",
+        "raw_text": "RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Blethen Corporation for The Seattle Times Company. Document filed by The Seattle Times Company..(Koonce, Lacy) (Entered: 09/08/2026)",
+        "summary": "The Seattle Times Company filed a required corporate disclosure statement identifying Blethen Corporation as its parent company, as required by court rules for all parties appearing in federal court.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "13",
+        "date": "2026-09-08",
+        "raw_text": "RULE 7.1 CORPORATE DISCLOSURE STATEMENT. Identifying Corporate Parent Tillandsia Media Holdings LLC for Newsday LLC. Document filed by Newsday LLC..(Koonce, Lacy) (Entered: 09/08/2026)",
+        "summary": "Newsday LLC filed a required corporate disclosure statement identifying Tillandsia Media Holdings LLC as its corporate parent.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "12",
+        "date": "2026-09-08",
+        "raw_text": "REQUEST FOR ISSUANCE OF SUMMONS as to OpenAI, Inc., OpenAI GP, LLC, Open AI, LLC, OpenAI OPCO, LLC, OpenAI Global LLC, OAI Corporation, OpenAI Holdings, LLC, OpenAI Foundation, OpenAI Group PBC, and Microsoft Corporation, re: 11 Complaint,. Document filed by Newsday LLC, The Seattle Times Company..(Koonce, Lacy) (Entered: 09/08/2026)",
+        "summary": "Plaintiffs Newsday LLC and The Seattle Times Company filed a request asking the court clerk to issue summonses to ten named defendants, including multiple OpenAI entities and Microsoft Corporation, in connection with the complaint filed in this case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "11",
+        "date": "2026-09-08",
+        "raw_text": "COMPLAINT against Microsoft Corporation, OAI Corporation, OpenAI Foundation, OpenAI GP, LLC, OpenAI Global LLC, OpenAI Group PBC, OpenAI Holdings, LLC, OpenAI Inc., OpenAI LLC, OpenAI OpCo, LLC. Document filed by Newsday LLC, The Seattle Times Company..(Koonce, Lacy) (Entered: 09/08/2026)",
+        "summary": "Newsday LLC and The Seattle Times Company filed a complaint against OpenAI Inc. and its related entities, as well as Microsoft Corporation, initiating this lawsuit in the Southern District of New York.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "10",
+        "date": "2026-09-08",
+        "raw_text": "NOTICE OF APPEARANCE by Lacy Herman Koonce, III on behalf of Newsday LLC, The Seattle Times Company..(Koonce, Lacy) (Entered: 09/08/2026)",
+        "summary": "Attorney Lacy Herman Koonce, III filed a notice of appearance on behalf of plaintiffs Newsday LLC and The Seattle Times Company, formally entering the case as counsel of record.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "9",
+        "date": "2026-09-08",
+        "raw_text": "AO 121 FORM COPYRIGHT - CASE OPENING - SUBMITTED. In compliance with the provisions of 17 U.S.C. 508, the Register of Copyrights is hereby advised that a court action has been filed on the following copyright(s) in the U.S. District Court Southern District of New York. Form e-mailed to Register of Copyrights..(pc) (Entered: 09/08/2026)",
+        "summary": "The court submitted the required AO 121 copyright case-opening form to the U. S. Copyright Office's Register of Copyrights, fulfilling the statutory notification requirement under 17 U. S. C. § 508 that the Register be informed whenever a copyright action is filed in federal court.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "8",
+        "date": "2026-09-08",
+        "raw_text": "AO 120 FORM TRADEMARK - CASE OPENING - SUBMITTED. In compliance with the provisions of 15 U.S.C. 1116, the Director of the U.S. Patent and Trademark Office is hereby advised that a court action has been filed on the following trademark(s) in the U.S. District Court Southern District of New York. Director of the U.S. Patent and Trademark Office electronically notified via Notice of Electronic Filing (NEF)..(pc) (Entered: 09/08/2026)",
+        "summary": "The court submitted the required AO 120 form to notify the U. S. Patent and Trademark Office that a trademark action involving The Seattle Times Company and OpenAI Inc. has been filed in the Southern District of New York, as required by federal law.",
+        "significance": "minor_update"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74754553/the-seattle-times-company-v-openai-inc/",
-    "last_updated": "2026-09-06",
+    "last_updated": "2026-09-10",
     "discovered_date": "2026-09-05",
     "case_intelligence": {
       "case_theory": "The Seattle Times Company asserts copyright infringement claims against OpenAI Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is newly filed.",
       "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-09-04): Plaintiffs Newsday LLC and The Seattle Times Company filed a complaint against Microsoft Corporation and numerous OpenAI entities, initiating the lawsuit with four attached exhibits and payment of the $405 filing fee.",
-      "latest_meaningful_event": "Plaintiffs Newsday LLC and The Seattle Times Company filed a complaint against Microsoft Corporation and numerous OpenAI entities, initiating the lawsuit with four attached exhibits and payment of the $405 filing fee.",
-      "latest_meaningful_event_date": "2026-09-04",
+      "latest_change": "Latest meaningful event (2026-09-08): Newsday LLC and The Seattle Times Company filed a complaint against OpenAI Inc. and its related entities, as well as Microsoft Corporation, initiating this lawsuit in the Southern District of New York.",
+      "latest_meaningful_event": "Newsday LLC and The Seattle Times Company filed a complaint against OpenAI Inc. and its related entities, as well as Microsoft Corporation, initiating this lawsuit in the Southern District of New York.",
+      "latest_meaningful_event_date": "2026-09-08",
       "claim_category": "unknown",
       "claims_asserted": [
         "copyright infringement"
@@ -14007,13 +14269,13 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "1",
-          "date": "2026-09-04"
+          "entry_number": "11",
+          "date": "2026-09-08"
         }
       ]
     },
     "plain_language_summary": "The Seattle Times Company filed copyright infringement claims against OpenAI Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-08"
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "gray-v-nadella",
@@ -14076,7 +14338,8 @@
         }
       ]
     },
-    "plain_language_summary": "Gray filed copyright infringement claims against Nadella. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+    "plain_language_summary": "Gray filed copyright infringement claims against Nadella. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "docket_last_checked": "2026-09-10"
   },
   {
     "id": "vicor-corporation-v-flex-ltd",
@@ -14100,17 +14363,130 @@
       "Walter David Counts III"
     ],
     "key_rulings": [],
-    "docket_entries": [],
+    "docket_entries": [
+      {
+        "entry_number": "477340968",
+        "date": "2026-09-08",
+        "raw_text": "Case assigned to Judge David Counts. Pursuant to the Order Assigning Business of the Court as it Relates to Patent Cases, filed 7/25/2022. CM WILL NOW REFLECT THE JUDGE INITIALS AS PART OF THE CASE NUMBER. PLEASE APPEND THESE JUDGE INITIALS TO THE CASE NUMBER ON EACH DOCUMENT THAT YOU FILE IN THIS CASE. (ktm)",
+        "summary": "The court assigned this patent case to Judge David Counts under the court's standing order governing patent case assignments. Parties are instructed to append the judge's initials to the case number on all future filings.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "15",
+        "date": "2026-09-09",
+        "raw_text": "MOTION to Appear Pro Hac Vice by Mark D. Siegmund on behalf of Louis S. Mastriani ( Filing fee $ 100 receipt number ATXWDC-22616848) by on behalf of Vicor Corporation. (Attachments: # 1 Proposed Order)(Siegmund, Mark) (Entered: 09/09/2026)",
+        "summary": "Vicor Corporation's counsel Mark D. Siegmund filed a motion to admit attorney Louis S. Mastriani to practice before this court for the duration of this case, along with the required $100 filing fee and a proposed order for the court's approval.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "14",
+        "date": "2026-09-09",
+        "raw_text": "MOTION to Appear Pro Hac Vice by Mark D. Siegmund on behalf of S. Lloyd Smith ( Filing fee $ 100 receipt number ATXWDC-22616832) by on behalf of Vicor Corporation. (Attachments: # 1 Proposed Order)(Siegmund, Mark) (Entered: 09/09/2026)",
+        "summary": "Vicor Corporation's counsel Mark D. Siegmund filed a motion requesting permission for attorney S. Lloyd Smith to appear in this case on a pro hac vice basis, allowing Smith to participate in the litigation despite not being a member of the Western District of Texas bar. A $100 filing fee was paid along with the motion.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "13",
+        "date": "2026-09-09",
+        "raw_text": "Summons Issued as to Flex Ltd. (ktm) (Entered: 09/09/2026)",
+        "summary": "The clerk issued a summons to defendant Flex Ltd. , formally notifying the company that it has been sued by Vicor Corporation and must respond to the complaint.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "12",
+        "date": "2026-09-09",
+        "raw_text": "Pro Hac Vice Letter for Attorney Oleg Elkhunovich. (ktm) (Entered: 09/09/2026)",
+        "summary": "Attorney Oleg Elkhunovich was granted permission to appear pro hac vice, allowing him to participate in this case before the Western District of Texas despite not being a member of that court's bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "11",
+        "date": "2026-09-09",
+        "raw_text": "Pro Hac Vice Letter for Attorney Louis S. Mastriani. (ktm) (Entered: 09/09/2026)",
+        "summary": "Attorney Louis S. Mastriani was granted permission to appear pro hac vice, allowing him to participate in this case before the Western District of Texas despite not being a member of that court's bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "10",
+        "date": "2026-09-09",
+        "raw_text": "Pro Hac Vice Letter for Attorney Lloyd Smith. (ktm) (Entered: 09/09/2026)",
+        "summary": "Attorney Lloyd Smith was admitted pro hac vice, allowing him to appear in this case before the Western District of Texas despite not being a member of that court's bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "9",
+        "date": "2026-09-09",
+        "raw_text": "Pro Hac Vice Letter for Attorney Jeff David. (ktm) (Entered: 09/09/2026)",
+        "summary": "Attorney Jeff David was admitted pro hac vice, allowing him to appear in this case before the Western District of Texas despite not being a member of that court's bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "8",
+        "date": "2026-09-09",
+        "raw_text": "Pro Hac Vice Letter for Attorney Isabella Soparkar. (ktm) (Entered: 09/09/2026)",
+        "summary": "Attorney Isabella Soparkar was admitted pro hac vice, allowing her to appear in this case before the Western District of Texas on behalf of one of the parties.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "7",
+        "date": "2026-09-09",
+        "raw_text": "Pro Hac Vice Letter for Attorney Dinis Cheian. (ktm) (Entered: 09/09/2026)",
+        "summary": "Attorney Dinis Cheian was granted pro hac vice admission, allowing him to appear in this case in the Western District of Texas despite not being a member of that court's bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "6",
+        "date": "2026-09-09",
+        "raw_text": "Pro Hac Vice Letter for Attorney Danielle Nicholson. (ktm) (Entered: 09/09/2026)",
+        "summary": "Attorney Danielle Nicholson was granted permission to appear pro hac vice, allowing her to participate in this case before the Western District of Texas despite not being a member of that court's bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "5",
+        "date": "2026-09-09",
+        "raw_text": "STANDING ORDER REGARDING FILING DOCUMENTS UNDER SEAL AND REDACTED PUBLIC VERSIONS. Signed by Judge David Counts. (ktm) (Entered: 09/09/2026)",
+        "summary": "The court issued a standing order, signed by Judge David Counts, setting out the procedures parties must follow when filing documents under seal and submitting redacted public versions of those documents.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "4",
+        "date": "2026-09-08",
+        "raw_text": "REQUEST FOR ISSUANCE OF SUMMONS by Vicor Corporation. (Siegmund, Mark) (Entered: 09/08/2026)",
+        "summary": "Plaintiff Vicor Corporation filed a request asking the court to issue a summons, a standard early step to formally notify defendant Flex Ltd. of the lawsuit.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "3",
+        "date": "2026-09-08",
+        "raw_text": "RULE 7 DISCLOSURE STATEMENT filed by Vicor Corporation. (Siegmund, Mark) (Entered: 09/08/2026)",
+        "summary": "Plaintiff Vicor Corporation filed a Rule 7 disclosure statement, a standard court-required filing that identifies any parent corporations and publicly held companies owning 10% or more of a party's stock.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "2",
+        "date": "2026-09-08",
+        "raw_text": "Notice of Filing of Patent/Trademark Form (AO 120). AO 120 forwarded to the Director of the U.S. Patent and Trademark Office. (Siegmund, Mark) (Entered: 09/08/2026)",
+        "summary": "The court clerk filed a standard administrative form (AO 120) notifying the U. S. Patent and Trademark Office of this pending patent litigation, as required by federal procedure.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "1",
+        "date": "2026-09-08",
+        "raw_text": "COMPLAINT for Patent Infringement ( Filing fee $ 405 receipt number ATXWDC-22610811), filed by Vicor Corporation. (Attachments: # 1 Exhibit 1, # 2 Exhibit 2, # 3 Exhibit 3, # 4 Civil Cover Sheet)(Siegmund, Mark) (Entered: 09/08/2026)",
+        "summary": "Plaintiff Vicor Corporation filed a complaint against Flex Ltd. in the Western District of Texas, alleging patent infringement and paying the $405 filing fee. The complaint was submitted with three exhibits and a civil cover sheet.",
+        "significance": "minor_update"
+      }
+    ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74759067/vicor-corporation-v-flex-ltd/",
-    "last_updated": "2026-09-09",
+    "last_updated": "2026-09-10",
     "discovered_date": "2026-09-09",
     "case_intelligence": {
       "case_theory": "Vicor Corporation asserts patent infringement claims against Flex Ltd. involving patented software or technology.",
       "current_posture": "The case is newly filed.",
       "why_it_matters": "The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims.",
-      "latest_change": "Latest meaningful event (2026-09-08): Vicor Corporation filed the case against Flex Ltd..",
-      "latest_meaningful_event": "Vicor Corporation filed the case against Flex Ltd..",
+      "latest_change": "Latest meaningful event (2026-09-08): Plaintiff Vicor Corporation filed a complaint against Flex Ltd. in the Western District of Texas, alleging patent infringement and paying the $405 filing fee. The complaint was submitted with three exhibits and a civil cover sheet.",
+      "latest_meaningful_event": "Plaintiff Vicor Corporation filed a complaint against Flex Ltd. in the Western District of Texas, alleging patent infringement and paying the $405 filing fee. The complaint was submitted with three exhibits and a civil cover sheet.",
       "latest_meaningful_event_date": "2026-09-08",
       "claim_category": "patent_ai_software",
       "claims_asserted": [
@@ -14135,11 +14511,13 @@
           "courtlistener_url": "https://www.courtlistener.com/docket/74759067/vicor-corporation-v-flex-ltd/"
         },
         {
-          "type": "case_metadata",
-          "date_filed": "2026-09-08"
+          "type": "docket_entry",
+          "entry_number": "1",
+          "date": "2026-09-08"
         }
       ]
     },
-    "plain_language_summary": "Vicor Corporation filed patent infringement claims against Flex Ltd. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+    "plain_language_summary": "Vicor Corporation filed patent infringement claims against Flex Ltd. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "docket_last_checked": "2026-09-10"
   }
 ]
