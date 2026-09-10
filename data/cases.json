@@ -14519,5 +14519,72 @@
     },
     "plain_language_summary": "Vicor Corporation filed patent infringement claims against Flex Ltd. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
     "docket_last_checked": "2026-09-10"
+  },
+  {
+    "id": "association-of-corporate-counsel-v-the-suite-inc",
+    "name": "Association of Corporate Counsel v. The Suite, Inc.",
+    "court": "District Court, D. Delaware",
+    "court_full": "District Court, D. Delaware",
+    "docket_number": "1:26-cv-01138",
+    "courtlistener_docket_id": "74770684",
+    "date_filed": "2026-09-10",
+    "claims": [
+      "copyright infringement",
+      "trademark"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Association of Corporate Counsel",
+      "defendant": "The Suite, Inc."
+    },
+    "judges": [
+      "Unassigned Judge"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74770684/association-of-corporate-counsel-v-the-suite-inc/",
+    "last_updated": "2026-09-10",
+    "discovered_date": "2026-09-10",
+    "case_intelligence": {
+      "case_theory": "Association of Corporate Counsel asserts copyright infringement and trademark claims against The Suite, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement and trademark claims.",
+      "latest_change": "Latest meaningful event (2026-09-10): Association of Corporate Counsel filed the case against The Suite, Inc..",
+      "latest_meaningful_event": "Association of Corporate Counsel filed the case against The Suite, Inc..",
+      "latest_meaningful_event_date": "2026-09-10",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement",
+        "trademark"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-01138",
+          "court": "District Court, D. Delaware",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74770684/association-of-corporate-counsel-v-the-suite-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-09-10"
+        }
+      ]
+    },
+    "plain_language_summary": "Association of Corporate Counsel filed copyright infringement and trademark claims against The Suite, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
