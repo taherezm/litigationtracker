@@ -1,5 +1,104 @@
 [
   {
+    "case_id": "association-of-corporate-counsel-v-the-suite-inc",
+    "case_name": "Association of Corporate Counsel v. The Suite, Inc.",
+    "entry_date": "2026-09-10",
+    "summary": "The clerk's office recorded that no summons has been issued in this case, reflecting an early administrative step in the proceedings.",
+    "significance": "minor_update",
+    "entry_number": "477534561",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "association-of-corporate-counsel-v-the-suite-inc",
+    "case_name": "Association of Corporate Counsel v. The Suite, Inc.",
+    "entry_date": "2026-09-10",
+    "summary": "Plaintiff Association of Corporate Counsel filed a corporate disclosure statement as required by Federal Rule of Civil Procedure 7. 1, indicating that it has no parent companies or affiliates to disclose.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "association-of-corporate-counsel-v-the-suite-inc",
+    "case_name": "Association of Corporate Counsel v. The Suite, Inc.",
+    "entry_date": "2026-09-10",
+    "summary": "The court submitted a report to the U. S. Copyright Office identifying copyright registration number TX0009611029, which appears to relate to the copyrighted work at issue in this case.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "association-of-corporate-counsel-v-the-suite-inc",
+    "case_name": "Association of Corporate Counsel v. The Suite, Inc.",
+    "entry_date": "2026-09-10",
+    "summary": "The court filed a report to the Commissioner of Patents and Trademarks referencing patent and trademark numbers 4,491,049 and 3,831,792. This is an administrative notice and does not reflect a ruling on the merits.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "association-of-corporate-counsel-v-the-suite-inc",
+    "case_name": "Association of Corporate Counsel v. The Suite, Inc.",
+    "entry_date": "2026-09-10",
+    "summary": "The court docketed notice, consent, and referral forms related to whether the parties agree to have a U. S. Magistrate Judge exercise jurisdiction over the case.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "association-of-corporate-counsel-v-the-suite-inc",
+    "case_name": "Association of Corporate Counsel v. The Suite, Inc.",
+    "entry_date": "2026-09-10",
+    "summary": "Plaintiff Association of Corporate Counsel filed a complaint with a jury demand against The Suite, Inc. in the District of Delaware, along with 14 exhibits and a civil cover sheet, paying the $405 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "x-ai-llc-v-bonta",
+    "case_name": "X.AI LLC v. Bonta",
+    "entry_date": "2026-09-10",
+    "summary": "The Minderoo Centre for Technology and Democracy at the University of Cambridge, represented by Director Gina Neff, filed an amicus brief in support of a party's position in this Ninth Circuit appeal. The filing was submitted electronically, with no paper copies required.",
+    "significance": "minor_update",
+    "entry_number": "54",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "x-ai-llc-v-bonta",
+    "case_name": "X.AI LLC v. Bonta",
+    "entry_date": "2026-09-10",
+    "summary": "The court terminated attorney Stephany S. Kim's participation as counsel for amicus curiae the Knight First Amendment Institute at Columbia University in this Ninth Circuit appeal.",
+    "significance": "minor_update",
+    "entry_number": "53",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "x-ai-llc-v-bonta",
+    "case_name": "X.AI LLC v. Bonta",
+    "entry_date": "2026-09-10",
+    "summary": "The Ninth Circuit court granted the Minderoo Centre for Technology and Democracy at the University of Cambridge permission to file an amicus brief, with one judge dissenting from that decision. The court also granted a separate motion allowing counsel to withdraw from representing that amicus.",
+    "significance": "minor_update",
+    "entry_number": "52",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-10",
+    "summary": "The court issued a discovery order addressing multiple status reports filed across several related cases, including this one, on September 10, 2026.",
+    "significance": "minor_update",
+    "entry_number": "132",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-10",
+    "summary": "The court issued a discovery order signed by Judge Thomas S. Hixson on September 10, 2026, addressing multiple pending discovery-related filings across three related cases consolidated under this docket.",
+    "significance": "minor_update",
+    "entry_number": "131",
+    "logged_at": "2026-09-11T17:02:22Z"
+  },
+  {
     "case_id": "vicor-corporation-v-flex-ltd",
     "case_name": "Vicor Corporation v. Flex Ltd.",
     "entry_date": "2026-09-08",
