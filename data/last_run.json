@@ -367,18 +367,20 @@
     "id:74775694",
     "id:74775710",
     "id:74776170",
-    "id:74772727"
+    "id:74772727",
+    "id:74782020",
+    "id:74781549"
   ],
   "entries_updated": 2,
   "docket_update_complete": false,
   "summaries_generated": 2,
   "docket_last_run_date": "2026-08-05",
-  "courtlistener_rate_limited": true,
+  "courtlistener_rate_limited": false,
   "docket_entry_cap_reached": false,
   "summaries_deferred": 0,
   "max_summaries_per_run": 100,
   "discovery_candidate_cap_reached": false,
-  "discovery_last_run_date": "2026-09-11",
+  "discovery_last_run_date": "2026-09-12",
   "max_docket_update_passes": 2,
   "discovery_queries_completed": 38,
   "discovery_queries_total": 38,
@@ -386,7 +388,7 @@
   "discovery_rss_dockets_total": 0,
   "discovery_phase": "complete",
   "last_run_date": "2026-07-31",
-  "discovery_passes_run": 2,
+  "discovery_passes_run": 1,
   "max_discovery_passes_per_job": 20,
   "discovery_job_stop_reason": "complete"
 }
