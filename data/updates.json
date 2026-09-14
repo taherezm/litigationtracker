@@ -1,5 +1,23 @@
 [
   {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-11",
+    "summary": "Plaintiff BMG Rights Management filed a position statement setting out its views on a discovery dispute involving so-called 'destructive-scanning' methods, indicating ongoing disagreement over how certain discovery should be conducted.",
+    "significance": "minor_update",
+    "entry_number": "46",
+    "logged_at": "2026-09-14T18:40:22Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-11",
+    "summary": "Anthropic filed a statement identifying a disputed issue related to discovery about book scanning. The filing signals an ongoing discovery dispute between the parties, though the court has not yet ruled on the matter.",
+    "significance": "minor_update",
+    "entry_number": "45",
+    "logged_at": "2026-09-14T18:40:22Z"
+  },
+  {
     "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
     "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
     "entry_date": "2026-09-10",
