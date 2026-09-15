@@ -14731,5 +14731,202 @@
     },
     "plain_language_summary": "Association of Corporate Counsel asserts copyright infringement and trademark claims against The Suite, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement and trademark claims. Latest meaningful event (2026-09-10): The court docketed notice, consent, and referral forms related to whether the parties agree to have a U. S. Magistrate Judge exercise jurisdiction over the case.",
     "docket_last_checked": "2026-09-15"
+  },
+  {
+    "id": "yousfi-v-meta-platforms-inc",
+    "name": "Yousfi v. Meta Platforms Inc.",
+    "court": "District Court, D. Maryland",
+    "court_full": "District Court, D. Maryland",
+    "docket_number": "8:26-cv-03634",
+    "courtlistener_docket_id": "74791076",
+    "date_filed": "2026-09-15",
+    "claims": [
+      "copyright infringement",
+      "other AI litigation"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Yousfi",
+      "defendant": "Meta Platforms Inc."
+    },
+    "judges": [
+      "Theodore David Chuang"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74791076/yousfi-v-meta-platforms-inc/",
+    "last_updated": "2026-09-15",
+    "discovered_date": "2026-09-15",
+    "case_intelligence": {
+      "case_theory": "Yousfi asserts copyright infringement and other AI litigation claims against Meta Platforms Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement and other AI litigation claims.",
+      "latest_change": "Latest meaningful event (2026-09-15): Yousfi filed the case against Meta Platforms Inc..",
+      "latest_meaningful_event": "Yousfi filed the case against Meta Platforms Inc..",
+      "latest_meaningful_event_date": "2026-09-15",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement",
+        "other AI litigation"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "8:26-cv-03634",
+          "court": "District Court, D. Maryland",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74791076/yousfi-v-meta-platforms-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-09-15"
+        }
+      ]
+    },
+    "plain_language_summary": "Yousfi filed copyright infringement and other AI litigation claims against Meta Platforms Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "arbor-systems-llc-v-planner5d-uab",
+    "name": "Arbor Systems LLC v. Planner5D UAB",
+    "court": "District Court, E.D. Texas",
+    "court_full": "District Court, E.D. Texas",
+    "docket_number": "2:26-cv-00816",
+    "courtlistener_docket_id": "74785211",
+    "date_filed": "2026-09-14",
+    "claims": [
+      "patent infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Arbor Systems LLC",
+      "defendant": "Planner5D UAB"
+    },
+    "judges": [
+      "James Rodney Gilstrap",
+      "Roy S. Payne"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74785211/arbor-systems-llc-v-planner5d-uab/",
+    "last_updated": "2026-09-15",
+    "discovered_date": "2026-09-15",
+    "case_intelligence": {
+      "case_theory": "Arbor Systems LLC asserts patent infringement claims against Planner5D UAB involving patented software or technology.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims.",
+      "latest_change": "Latest meaningful event (2026-09-14): Arbor Systems LLC filed the case against Planner5D UAB.",
+      "latest_meaningful_event": "Arbor Systems LLC filed the case against Planner5D UAB.",
+      "latest_meaningful_event_date": "2026-09-14",
+      "claim_category": "patent_ai_software",
+      "claims_asserted": [
+        "patent infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "patented software or technology",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "2:26-cv-00816",
+          "court": "District Court, E.D. Texas",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74785211/arbor-systems-llc-v-planner5d-uab/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-09-14"
+        }
+      ]
+    },
+    "plain_language_summary": "Arbor Systems LLC filed patent infringement claims against Planner5D UAB. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "arbor-systems-llc-v-ndreams-limited",
+    "name": "Arbor Systems LLC v. nDreams Limited",
+    "court": "District Court, E.D. Texas",
+    "court_full": "District Court, E.D. Texas",
+    "docket_number": "2:26-cv-00815",
+    "courtlistener_docket_id": "74785168",
+    "date_filed": "2026-09-14",
+    "claims": [
+      "patent infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Arbor Systems LLC",
+      "defendant": "nDreams Limited"
+    },
+    "judges": [
+      "James Rodney Gilstrap",
+      "Roy S. Payne"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74785168/arbor-systems-llc-v-ndreams-limited/",
+    "last_updated": "2026-09-15",
+    "discovered_date": "2026-09-15",
+    "case_intelligence": {
+      "case_theory": "Arbor Systems LLC asserts patent infringement claims against nDreams Limited involving patented software or technology.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims.",
+      "latest_change": "Latest meaningful event (2026-09-14): Arbor Systems LLC filed the case against nDreams Limited.",
+      "latest_meaningful_event": "Arbor Systems LLC filed the case against nDreams Limited.",
+      "latest_meaningful_event_date": "2026-09-14",
+      "claim_category": "patent_ai_software",
+      "claims_asserted": [
+        "patent infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "patented software or technology",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "2:26-cv-00815",
+          "court": "District Court, E.D. Texas",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74785168/arbor-systems-llc-v-ndreams-limited/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-09-14"
+        }
+      ]
+    },
+    "plain_language_summary": "Arbor Systems LLC filed patent infringement claims against nDreams Limited. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
