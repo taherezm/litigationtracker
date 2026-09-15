@@ -1,5 +1,50 @@
 [
   {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-14",
+    "summary": "Both parties filed a joint stipulation asking the court to extend the deadlines for submitting expert reports. The proposed order has not yet been acted on by the court.",
+    "significance": "minor_update",
+    "entry_number": "142",
+    "logged_at": "2026-09-15T17:41:20Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-14",
+    "summary": "The court reporter filed the official transcript of proceedings held before Judge Vince Chhabria on September 9, 2026. The transcript is currently restricted and available only at the Clerk's Office or by purchase through the court reporter until December 14, 2026, after which it will be accessible via PACER; any redaction requests are due within five business days of this filing.",
+    "significance": "minor_update",
+    "entry_number": "141",
+    "logged_at": "2026-09-15T17:41:20Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-12",
+    "summary": "Plaintiff Chicken Soup for the Soul, LLC filed a correction (errata) to a previously submitted joint discovery letter brief, attaching conformed versions of Exhibits F, G, H, J, K, and L along with a supporting declaration.",
+    "significance": "minor_update",
+    "entry_number": "140",
+    "logged_at": "2026-09-15T17:41:20Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-12",
+    "summary": "Meta Platforms filed a joint discovery letter brief moving to compel Chicken Soup for the Soul to respond to Meta's first set of requests for admission, attaching Chicken Soup's responses and objections as well as a supplemental response to Meta's first set of interrogatories.",
+    "significance": "minor_update",
+    "entry_number": "139",
+    "logged_at": "2026-09-15T17:41:20Z"
+  },
+  {
+    "case_id": "cruz-v-anthropic-pbc",
+    "case_name": "Cruz v. Anthropic PBC",
+    "entry_date": "2026-09-14",
+    "summary": "The judge signed a Case Management Order on September 14, 2026, setting the procedural framework for how the case will move forward.",
+    "significance": "minor_update",
+    "entry_number": "34",
+    "logged_at": "2026-09-15T17:41:20Z"
+  },
+  {
     "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
     "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
     "entry_date": "2026-09-11",
