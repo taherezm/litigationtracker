@@ -15086,5 +15086,67 @@
     },
     "plain_language_summary": "Arbor Systems LLC filed patent infringement claims against nDreams Limited. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
     "docket_last_checked": "2026-09-16"
+  },
+  {
+    "id": "times-publishing-company-v-microsoft-corporation",
+    "name": "Times Publishing Company v. MICROSOFT CORPORATION",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-08082",
+    "courtlistener_docket_id": "74802532",
+    "date_filed": "2026-09-16",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Times Publishing Company",
+      "defendant": "MICROSOFT CORPORATION"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74802532/times-publishing-company-v-microsoft-corporation/",
+    "last_updated": "2026-09-16",
+    "discovered_date": "2026-09-16",
+    "case_intelligence": {
+      "case_theory": "Times Publishing Company asserts copyright infringement claims against MICROSOFT CORPORATION involving books, educational, or publishing materials.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-09-16): Times Publishing Company filed the case against MICROSOFT CORPORATION.",
+      "latest_meaningful_event": "Times Publishing Company filed the case against MICROSOFT CORPORATION.",
+      "latest_meaningful_event_date": "2026-09-16",
+      "claim_category": "copyright_news_or_publishing",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "books, educational, or publishing materials",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-08082",
+          "court": "District Court, S.D. New York",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74802532/times-publishing-company-v-microsoft-corporation/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-09-16"
+        }
+      ]
+    },
+    "plain_language_summary": "Times Publishing Company filed copyright infringement claims against MICROSOFT CORPORATION. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
