@@ -1,5 +1,113 @@
 [
   {
+    "case_id": "times-publishing-company-v-microsoft-corporation",
+    "case_name": "Times Publishing Company v. MICROSOFT CORPORATION",
+    "entry_date": "2026-09-16",
+    "summary": "Attorney Angela Cai filed a notice of appearance to represent a group of 27 news organizations—including Times Publishing Company, Austin Chronicle Corp. , and several local and independent publishers—as parties in this case against Microsoft.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "times-publishing-company-v-microsoft-corporation",
+    "case_name": "Times Publishing Company v. MICROSOFT CORPORATION",
+    "entry_date": "2026-09-16",
+    "summary": "Attorney Aaron Haier filed a notice of appearance to represent a group of 27 news organizations—including Times Publishing Company, Austin Chronicle Corp. , and several local and independent publishers—in this case against Microsoft Corporation.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "times-publishing-company-v-microsoft-corporation",
+    "case_name": "Times Publishing Company v. MICROSOFT CORPORATION",
+    "entry_date": "2026-09-16",
+    "summary": "Attorney Ravi Ramanathan filed a notice of appearance to represent a group of 27 news publishers — including Times Publishing Company, Austin Chronicle Corp. , and several local and independent outlets — as parties in this case against Microsoft.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "times-publishing-company-v-microsoft-corporation",
+    "case_name": "Times Publishing Company v. MICROSOFT CORPORATION",
+    "entry_date": "2026-09-16",
+    "summary": "Attorney Matthew J. Platkin filed a notice of appearance on behalf of a large group of regional and independent news organizations, formally entering the case as parties or interested participants alongside lead plaintiff Times Publishing Company.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "times-publishing-company-v-microsoft-corporation",
+    "case_name": "Times Publishing Company v. MICROSOFT CORPORATION",
+    "entry_date": "2026-09-16",
+    "summary": "Plaintiff's attorney Matthew Platkin submitted an AO 121 copyright reporting form to the court for administrative review, along with an exhibit listing Times Publishing Company's copyright registrations.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "times-publishing-company-v-microsoft-corporation",
+    "case_name": "Times Publishing Company v. MICROSOFT CORPORATION",
+    "entry_date": "2026-09-16",
+    "summary": "A group of plaintiffs, including Times Publishing Company and roughly two dozen other news organizations, filed a statement asserting that this case is related to an existing multidistrict litigation proceeding (25-md-3143) and should be coordinated with it.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "times-publishing-company-v-microsoft-corporation",
+    "case_name": "Times Publishing Company v. MICROSOFT CORPORATION",
+    "entry_date": "2026-09-16",
+    "summary": "Plaintiff Times Publishing Company filed a civil cover sheet, marking the administrative initiation of this lawsuit against Microsoft Corporation in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "times-publishing-company-v-microsoft-corporation",
+    "case_name": "Times Publishing Company v. MICROSOFT CORPORATION",
+    "entry_date": "2026-09-16",
+    "summary": "A group of 26 regional and local news publishers filed a complaint against Microsoft Corporation and more than ten OpenAI-related entities, alleging claims related to the defendants' use of the plaintiffs' copyrighted content; the filing includes exhibits showing copyright registrations, token count data by domain, and examples of alleged copyright management information stripping.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-09-15",
+    "summary": "Jane Doe 1 filed a motion to intervene for the limited purpose of responding to another party's motion to appoint interim co-lead class counsel, with a hearing scheduled before Judge P. Casey Pitts on October 22, 2026. Response briefs are due September 29, 2026, and reply briefs are due October 6, 2026.",
+    "significance": "minor_update",
+    "entry_number": "54",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-09-15",
+    "summary": "Four individuals—Jane (South Carolina) Doe, South Carolina Roe, New Jersey Doe, and Ohio Doe—filed a motion to intervene in this case for a limited purpose, along with supporting declarations and attorney biography exhibits; a hearing is scheduled before Judge P. Casey Pitts on October 22, 2026, with opposition responses due September 29, 2026, and replies due October 6, 2026.",
+    "significance": "minor_update",
+    "entry_number": "53",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
+    "case_name": "EVOX PRODUCTIONS LLC, a Delaware limited liability company v. Stability AI, Inc.",
+    "entry_date": "2026-09-14",
+    "summary": "The court granted Jason A. Wietjes's application to appear pro hac vice as a non-resident attorney representing defendant Hugging Face, Inc. , with Adam P. Daniels designated as local counsel.",
+    "significance": "minor_update",
+    "entry_number": "52",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-09-15",
+    "summary": "Judge P. Kevin Castel heard oral argument on three pending motions to transfer venue and reserved decision, meaning no ruling was issued at the hearing.",
+    "significance": "minor_update",
+    "entry_number": "478354360",
+    "logged_at": "2026-09-17T17:39:09Z"
+  },
+  {
     "case_id": "yousfi-v-meta-platforms-inc",
     "case_name": "Yousfi v. Meta Platforms Inc.",
     "entry_date": "2026-09-15",
