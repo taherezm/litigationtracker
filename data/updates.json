@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "neural-ai-llc-v-x-ai-corp",
+    "case_name": "Neural AI, LLC v. X.AI Corp.",
+    "entry_date": "2026-09-17",
+    "summary": "The court granted a motion allowing an attorney to appear pro hac vice, meaning the attorney may represent a party in this case despite not being regularly admitted in the Western District of Texas. The attorney must register for electronic filing with the court through the PACER Service Center within 10 days.",
+    "significance": "minor_update",
+    "entry_number": "478371940",
+    "logged_at": "2026-09-18T17:06:31Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-x-ai-corp",
+    "case_name": "Neural AI, LLC v. X.AI Corp.",
+    "entry_date": "2026-09-16",
+    "summary": "The court granted J. Jonathan Hawk permission to appear pro hac vice, allowing him to participate in this case as visiting counsel despite not being a member of the Western District of Texas bar.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-09-18T17:06:31Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-oai-international-inc",
+    "case_name": "Neural AI, LLC v. OAI International, Inc.",
+    "entry_date": "2026-09-17",
+    "summary": "The court scheduled a motion hearing for September 25, 2026, at 10:00 AM before Magistrate Judge Alex G. Tse in Courtroom A, 15th Floor, in San Francisco.",
+    "significance": "minor_update",
+    "entry_number": "478437498",
+    "logged_at": "2026-09-18T17:06:31Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-oai-international-inc",
+    "case_name": "Neural AI, LLC v. OAI International, Inc.",
+    "entry_date": "2026-09-17",
+    "summary": "The court rescheduled the hearing on a pending motion to compel from September 25, 2026, to October 2, 2026, at 10:00 AM before Magistrate Judge Alex G. Tse in San Francisco.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-09-18T17:06:31Z"
+  },
+  {
     "case_id": "times-publishing-company-v-microsoft-corporation",
     "case_name": "Times Publishing Company v. MICROSOFT CORPORATION",
     "entry_date": "2026-09-16",
