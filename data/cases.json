@@ -15265,5 +15265,134 @@
     },
     "plain_language_summary": "Times Publishing Company asserts copyright infringement claims against MICROSOFT CORPORATION involving news or journalism content. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-09-16): A group of plaintiffs, including Times Publishing Company and roughly two dozen other news organizations, filed a statement asserting that this case is related to an existing multidistrict litigation proceeding (25-md-3143) and should be coordinated with it.",
     "docket_last_checked": "2026-09-17"
+  },
+  {
+    "id": "umg-recordings-inc-v-suno-inc",
+    "name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "court": "District Court, D. Massachusetts",
+    "court_full": "District Court, D. Massachusetts",
+    "docket_number": "1:26-cv-14275",
+    "courtlistener_docket_id": "74812464",
+    "date_filed": "2026-09-18",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "UMG Recordings, Inc.",
+      "defendant": "Suno, Inc."
+    },
+    "judges": [
+      "F. Dennis Saylor IV"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74812464/umg-recordings-inc-v-suno-inc/",
+    "last_updated": "2026-09-18",
+    "discovered_date": "2026-09-18",
+    "case_intelligence": {
+      "case_theory": "UMG Recordings, Inc. asserts copyright infringement claims against Suno, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-09-18): UMG Recordings, Inc. filed the case against Suno, Inc..",
+      "latest_meaningful_event": "UMG Recordings, Inc. filed the case against Suno, Inc..",
+      "latest_meaningful_event_date": "2026-09-18",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-14275",
+          "court": "District Court, D. Massachusetts",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74812464/umg-recordings-inc-v-suno-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-09-18"
+        }
+      ]
+    },
+    "plain_language_summary": "UMG Recordings, Inc. filed copyright infringement claims against Suno, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "exactojoin-llc-v-asrock-incorporation",
+    "name": "ExactoJoin LLC v. ASRock Incorporation",
+    "court": "District Court, E.D. Texas",
+    "court_full": "District Court, E.D. Texas",
+    "docket_number": "2:26-cv-00830",
+    "courtlistener_docket_id": "74809321",
+    "date_filed": "2026-09-17",
+    "claims": [
+      "patent infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "ExactoJoin LLC",
+      "defendant": "ASRock Incorporation"
+    },
+    "judges": [
+      "James Rodney Gilstrap"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74809321/exactojoin-llc-v-asrock-incorporation/",
+    "last_updated": "2026-09-18",
+    "discovered_date": "2026-09-18",
+    "case_intelligence": {
+      "case_theory": "ExactoJoin LLC asserts patent infringement claims against ASRock Incorporation involving patented software or technology.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims.",
+      "latest_change": "Latest meaningful event (2026-09-17): ExactoJoin LLC filed the case against ASRock Incorporation.",
+      "latest_meaningful_event": "ExactoJoin LLC filed the case against ASRock Incorporation.",
+      "latest_meaningful_event_date": "2026-09-17",
+      "claim_category": "patent_ai_software",
+      "claims_asserted": [
+        "patent infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "patented software or technology",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "2:26-cv-00830",
+          "court": "District Court, E.D. Texas",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74809321/exactojoin-llc-v-asrock-incorporation/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-09-17"
+        }
+      ]
+    },
+    "plain_language_summary": "ExactoJoin LLC filed patent infringement claims against ASRock Incorporation. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
