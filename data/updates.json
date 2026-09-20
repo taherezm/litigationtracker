@@ -1,5 +1,23 @@
 [
   {
+    "case_id": "neural-ai-llc-v-x-ai-corp",
+    "case_name": "Neural AI, LLC v. X.AI Corp.",
+    "entry_date": "2026-09-18",
+    "summary": "Attorney Seth M. Young filed a motion to appear pro hac vice, seeking admission to represent defendants SpaceXAI Corp. and X. AI Corp. in this case, along with the required $100 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-09-20T16:51:00Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-18",
+    "summary": "The court granted administrative motions for alternative service in three related cases, allowing the plaintiff to serve defendants through non-standard means approved by the court.",
+    "significance": "minor_update",
+    "entry_number": "146",
+    "logged_at": "2026-09-20T16:51:00Z"
+  },
+  {
     "case_id": "umg-recordings-inc-v-suno-inc",
     "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
     "entry_date": "2026-09-18",
