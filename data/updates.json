@@ -1,5 +1,95 @@
 [
   {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-21",
+    "summary": "Judge Eumi K. Lee granted a joint stipulation submitted by both parties, approving a coordination and case management order that will govern the procedural scheduling of two related cases.",
+    "significance": "minor_update",
+    "entry_number": "48",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-18",
+    "summary": "Both parties filed a joint stipulation proposing a coordination and case management order, submitted by Anthropic and supported by a declaration from Robin C. Burrell.",
+    "significance": "minor_update",
+    "entry_number": "47",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-x-ai-corp",
+    "case_name": "Neural AI, LLC v. X.AI Corp.",
+    "entry_date": "2026-09-21",
+    "summary": "The court granted a motion allowing an attorney to appear pro hac vice, meaning the attorney is permitted to represent a party in this case despite not being regularly admitted to practice in the Western District of Texas. The court ordered the newly admitted attorney to register for electronic filing through the PACER Service Center within 10 days.",
+    "significance": "minor_update",
+    "entry_number": "478739087",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-oai-international-inc",
+    "case_name": "Neural AI, LLC v. OAI International, Inc.",
+    "entry_date": "2026-09-18",
+    "summary": "The court rescheduled the hearing on a pending motion to compel, moving it to October 2, 2026, at 2:00 PM before Magistrate Judge Alex G. Tse in San Francisco, Courtroom A, 15th Floor.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-21",
+    "summary": "The court granted a stipulated request to extend the deadline for defendants Dr. Dario Amodei and Benjamin Mann to respond to the complaint. Judge Eumi K. Lee signed the order on September 21, 2026.",
+    "significance": "minor_update",
+    "entry_number": "32",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-18",
+    "summary": "Defendants Dario Amodei and Benjamin Mann filed a stipulation asking the court to extend their deadline to respond to the complaint, with a proposed order attached for the court's approval.",
+    "significance": "minor_update",
+    "entry_number": "31",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-18",
+    "summary": "Benjamin Mann filed a Certificate of Interested Entities on September 18, 2026, disclosing parties or entities with a financial interest in the case, as required by court rules.",
+    "significance": "minor_update",
+    "entry_number": "30",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-18",
+    "summary": "Dario Amodei filed a Certificate of Interested Entities on September 18, 2026, disclosing parties or entities with a financial interest in the outcome of this case, as required by court rules.",
+    "significance": "minor_update",
+    "entry_number": "29",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-18",
+    "summary": "Attorney Grace Yu-Ting Yang filed a notice of appearance in the Northern District of California on September 18, 2026, entering the case on behalf of Benjamin Mann.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-18",
+    "summary": "Attorney Grace Yu-Ting Yang filed a notice of appearance in federal court, formally entering the case as counsel on behalf of Dario Amodei on September 18, 2026.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-09-22T17:39:26Z"
+  },
+  {
     "case_id": "neural-ai-llc-v-x-ai-corp",
     "case_name": "Neural AI, LLC v. X.AI Corp.",
     "entry_date": "2026-09-18",
