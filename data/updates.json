@@ -1,5 +1,32 @@
 [
   {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-09-22",
+    "summary": "The court reporter filed an official transcript of a conference held on September 15, 2026. The parties have seven calendar days to file a Notice of Intent to Request Redaction; if no such notice is filed, the transcript may become publicly available without redaction after 90 calendar days.",
+    "significance": "minor_update",
+    "entry_number": "100",
+    "logged_at": "2026-09-23T17:52:13Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-09-22",
+    "summary": "The court filed a transcript of a conference held on September 15, 2026, before Judge P. Kevin Castel. The transcript is available at the court's public terminal or through the court reporter, with a restriction release date of December 21, 2026.",
+    "significance": "minor_update",
+    "entry_number": "99",
+    "logged_at": "2026-09-23T17:52:13Z"
+  },
+  {
+    "case_id": "gerencia-360-music-inc-v-suno-inc",
+    "case_name": "Gerencia 360 Music, Inc. v. Suno, Inc.",
+    "entry_date": "2026-09-22",
+    "summary": "The court granted a motion allowing attorney Colin R. Kass to appear in this case on a pro hac vice basis, permitting him to represent a party before the court even though he is not admitted to practice in the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-09-23T17:52:13Z"
+  },
+  {
     "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
     "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
     "entry_date": "2026-09-21",
