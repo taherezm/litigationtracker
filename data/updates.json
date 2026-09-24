@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "neural-ai-llc-v-x-ai-corp",
+    "case_name": "Neural AI, LLC v. X.AI Corp.",
+    "entry_date": "2026-09-23",
+    "summary": "The court granted X. AI Corp. 's motion to dismiss and directed the clerk to close the case, ending the lawsuit brought by Neural AI, LLC in the Western District of Texas.",
+    "significance": "case_resolved",
+    "entry_number": "479193924",
+    "logged_at": "2026-09-24T17:52:41Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-x-ai-corp",
+    "case_name": "Neural AI, LLC v. X.AI Corp.",
+    "entry_date": "2026-09-23",
+    "summary": "The court mooted a pending motion to compel (Docket No. 6), noting that the parties have resolved the matter that the motion raised.",
+    "significance": "minor_update",
+    "entry_number": "479193923",
+    "logged_at": "2026-09-24T17:52:41Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-x-ai-corp",
+    "case_name": "Neural AI, LLC v. X.AI Corp.",
+    "entry_date": "2026-09-22",
+    "summary": "Plaintiff Neural AI, LLC filed a motion to dismiss, accompanied by a proposed order, suggesting the party seeks to voluntarily withdraw some or all of its own claims.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-09-24T17:52:41Z"
+  },
+  {
+    "case_id": "kwon-v-anthropic-pbc",
+    "case_name": "Kwon v. Anthropic PBC",
+    "entry_date": "2026-09-23",
+    "summary": "Plaintiff Kimberly Kay Hoang filed a notice of voluntary dismissal under Federal Rule of Civil Procedure 41(a)(1)(A)(i), which allows a plaintiff to dismiss a case without a court order before the opposing party has answered or moved for summary judgment.",
+    "significance": "case_resolved",
+    "entry_number": "34",
+    "logged_at": "2026-09-24T17:52:41Z"
+  },
+  {
     "case_id": "elsevier-inc-v-meta-platforms-inc",
     "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
     "entry_date": "2026-09-22",
