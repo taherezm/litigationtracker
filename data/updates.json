@@ -1,5 +1,95 @@
 [
   {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-09-24",
+    "summary": "Plaintiffs Jane Does 1–5 filed a reply brief in support of their motion asking the court to order X. AI Corp. to preserve evidence, attaching a supporting declaration.",
+    "significance": "minor_update",
+    "entry_number": "63",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-09-23",
+    "summary": "The court granted attorney Ivan Torres permission to appear in this case on a pro hac vice basis, allowing him to practice before the court despite not being admitted in the Northern District of California. Judge P. Casey Pitts signed the order on September 23, 2026.",
+    "significance": "minor_update",
+    "entry_number": "62",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-09-23",
+    "summary": "The court granted a motion allowing attorney Joel Kurtzberg to appear in this case on a pro hac vice basis, permitting him to represent a party before this court even though he is not a member of its local bar. Judge P. Casey Pitts signed the order on September 23, 2026.",
+    "significance": "minor_update",
+    "entry_number": "61",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-09-22",
+    "summary": "The plaintiffs (Jane Does 1–5) filed a reply brief in support of their motion to appoint a lead plaintiff and lead counsel, attaching a supporting declaration from attorney Annika K. Martin and a deposition transcript as an exhibit.",
+    "significance": "minor_update",
+    "entry_number": "60",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
+    "case_id": "gerencia-360-music-inc-v-suno-inc",
+    "case_name": "Gerencia 360 Music, Inc. v. Suno, Inc.",
+    "entry_date": "2026-09-24",
+    "summary": "The court granted a motion allowing attorney David A. Munkittrick to appear in this case on a pro hac vice basis, meaning he is admitted to represent a party before this court even though he is not a member of its bar.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-24",
+    "summary": "Meta's counsel submitted a letter to the court providing a status update on Meta's pending motion to compel Chicken Soup for the Soul to respond to Meta's second set of interrogatories (Dkt. 137).",
+    "significance": "minor_update",
+    "entry_number": "149",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-23",
+    "summary": "Both parties, through Meta Platforms Inc. 's counsel, filed a Joint Case Management Statement on September 23, 2026, providing the court with a status update on the case.",
+    "significance": "minor_update",
+    "entry_number": "148",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-23",
+    "summary": "Plaintiff Chicken Soup for the Soul, LLC filed a notice of supplemental authority and evidence in support of its previously filed motion asking the district court to overrule a magistrate judge's nondispositive pretrial order, attaching one exhibit.",
+    "significance": "minor_update",
+    "entry_number": "147",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-09-24",
+    "summary": "The court set a briefing schedule requiring responses by October 23, 2026, opening briefs by October 30, 2026, and reply briefs by November 20, 2026. This entry is administrative and is associated with a multidistrict litigation proceeding in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "479408055",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
+    "case_id": "carreyrou-v-openai-inc",
+    "case_name": "Carreyrou v. OpenAI, Inc.",
+    "entry_date": "2026-09-24",
+    "summary": "The court granted a letter motion requesting an extension of time to file, approving the proposed schedule as submitted. Judge Sidney H. Stein signed the order on September 24, 2026, and it applies across associated cases in the related multidistrict litigation.",
+    "significance": "minor_update",
+    "entry_number": "134",
+    "logged_at": "2026-09-25T17:58:38Z"
+  },
+  {
     "case_id": "neural-ai-llc-v-x-ai-corp",
     "case_name": "Neural AI, LLC v. X.AI Corp.",
     "entry_date": "2026-09-23",
