@@ -1,5 +1,23 @@
 [
   {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-09-25",
+    "summary": "The court held a case management conference on September 25, 2026, covering several related cases, during which it granted Meta's request to extend a deadline to file a motion to compel in the Cognella matter to October 2, 2026, denied a motion seeking relief from a magistrate judge's pretrial order, and set a follow-up conference for October 29, 2026. The court also put the parties on notice that the May 2027 trial date may be moved earlier, and directed the Sullivan parties to meet and confer on a proposed schedule for summary judgment and class certification hearings in spring 2028.",
+    "significance": "minor_update",
+    "entry_number": "150",
+    "logged_at": "2026-09-27T17:47:47Z"
+  },
+  {
+    "case_id": "elsevier-inc-v-meta-platforms-inc",
+    "case_name": "Elsevier Inc. v. Meta Platforms, Inc.",
+    "entry_date": "2026-09-25",
+    "summary": "The court granted motions filed by Meta Platforms and Mark Zuckerberg to transfer this case from the Southern District of New York to the Northern District of California, and directed the clerk to close the case administratively in this district.",
+    "significance": "significant_ruling",
+    "entry_number": "101",
+    "logged_at": "2026-09-27T17:47:47Z"
+  },
+  {
     "case_id": "doe-1-v-x-ai-corp",
     "case_name": "Doe 1 v. X.AI Corp.",
     "entry_date": "2026-09-24",
