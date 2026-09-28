@@ -1,5 +1,68 @@
 [
   {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-28",
+    "summary": "The court granted a motion allowing attorney Nicholas C. Hailey to appear in this case on a pro hac vice basis, meaning he may represent a party before this court even though he is not a member of its local bar. Judge Eumi K. Lee signed the order on September 28, 2026.",
+    "significance": "minor_update",
+    "entry_number": "52",
+    "logged_at": "2026-09-28T20:08:28Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-28",
+    "summary": "Plaintiff BMG Rights Management filed a motion seeking permission for attorney Nicholas Hailey to appear in this case on a pro hac vice basis, meaning Hailey is licensed outside the Northern District of California and requires special court approval to participate. The filing included the required $328 fee.",
+    "significance": "minor_update",
+    "entry_number": "51",
+    "logged_at": "2026-09-28T20:08:28Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-28",
+    "summary": "The court granted a motion allowing attorney Matthew J. Oppenheim to appear in this case on a pro hac vice basis, permitting him to represent a party despite not being a member of the Northern District of California bar. Judge Eumi K. Lee signed the order on September 28, 2026.",
+    "significance": "minor_update",
+    "entry_number": "50",
+    "logged_at": "2026-09-28T20:08:28Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-28",
+    "summary": "Plaintiff BMG Rights Management filed a motion seeking permission for attorney Matthew Oppenheim to appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "49",
+    "logged_at": "2026-09-28T20:08:28Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-28",
+    "summary": "The court approved a joint stipulation submitted by both parties, staying all proceedings and deadlines in this case until summary judgment motions are resolved in the related multidistrict litigation. Within 30 days of those rulings, the parties must file a joint status report proposing next steps.",
+    "significance": "significant_ruling",
+    "entry_number": "19",
+    "logged_at": "2026-09-28T20:08:28Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-25",
+    "summary": "Newsday LLC and The Seattle Times Company jointly filed a proposed stipulation and order with the court on September 25, 2026. This is a procedural submission asking the court to approve an agreement between the parties, though the specific terms of the stipulation are not described in the docket entry.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-09-28T20:08:28Z"
+  },
+  {
+    "case_id": "the-seattle-times-company-v-openai-inc",
+    "case_name": "The Seattle Times Company v. OpenAI Inc.",
+    "entry_date": "2026-09-25",
+    "summary": "Newsday LLC and The Seattle Times Company, through counsel Brendan T. Kehoe, filed a letter responding to Judge Sidney H. Stein's show cause order regarding a potential stay, and attached a joint stipulation and proposed order that would stay the Seattle Times action.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-09-28T20:08:28Z"
+  },
+  {
     "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
     "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
     "entry_date": "2026-09-25",
