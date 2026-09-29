@@ -1,5 +1,23 @@
 [
   {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-09-28",
+    "summary": "Perplexity AI filed a consent letter motion asking Judge Loretta A. Preska to extend the deadline for filing a response or reply, with the opposing party's agreement.",
+    "significance": "minor_update",
+    "entry_number": "38",
+    "logged_at": "2026-09-29T18:40:06Z"
+  },
+  {
+    "case_id": "cable-news-network-inc-v-perplexity-ai-inc",
+    "case_name": "Cable News Network Inc v. Perplexity AI, Inc.",
+    "entry_date": "2026-09-25",
+    "summary": "Plaintiff Cable News Network filed a memorandum of law opposing Perplexity AI's motion to dismiss Counts II, III, IV, and V of CNN's complaint.",
+    "significance": "minor_update",
+    "entry_number": "37",
+    "logged_at": "2026-09-29T18:40:06Z"
+  },
+  {
     "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
     "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
     "entry_date": "2026-09-28",
