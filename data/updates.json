@@ -1,5 +1,68 @@
 [
   {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-30",
+    "summary": "Plaintiff BMG Rights Management (US) LLC filed a case management statement on September 30, 2026, providing the court with information about the status of the case and anticipated next steps.",
+    "significance": "minor_update",
+    "entry_number": "61",
+    "logged_at": "2026-10-02T18:29:07Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-29",
+    "summary": "Judge Eumi K. Lee granted a motion allowing attorney Michelle Gomez-Reichman to appear in this case on a pro hac vice basis, permitting her to represent a party before this court despite not being a member of the Northern District of California bar.",
+    "significance": "minor_update",
+    "entry_number": "60",
+    "logged_at": "2026-10-02T18:29:07Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-29",
+    "summary": "Plaintiff BMG Rights Management filed a motion seeking permission for an attorney to appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "59",
+    "logged_at": "2026-10-02T18:29:07Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-09-29",
+    "summary": "The court granted a motion allowing attorney Corey Miller to appear in this case on a pro hac vice basis, meaning Miller is admitted to participate in this federal case despite not being a member of the Northern District of California bar.",
+    "significance": "minor_update",
+    "entry_number": "58",
+    "logged_at": "2026-10-02T18:29:07Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-10-01",
+    "summary": "The court's clerk rescheduled the hearing on Anthropic's pending motion to dismiss (Docket 48) from November 19, 2026, to December 17, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose, Courtroom 8.",
+    "significance": "minor_update",
+    "entry_number": "53",
+    "logged_at": "2026-10-02T18:29:07Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-oai-international-inc",
+    "case_name": "Neural AI, LLC v. OAI International, Inc.",
+    "entry_date": "2026-09-30",
+    "summary": "Magistrate Judge Alex G. Tse issued an order resolving Neural AI's motion to compel, though the specific relief granted or denied is not detailed in this docket entry.",
+    "significance": "significant_ruling",
+    "entry_number": "18",
+    "logged_at": "2026-10-02T18:29:07Z"
+  },
+  {
+    "case_id": "gerencia-360-music-inc-v-suno-inc",
+    "case_name": "Gerencia 360 Music, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-01",
+    "summary": "The court granted a motion allowing attorney Andrew Hunt Davis to appear in this case on a temporary basis, even though he is not licensed in the Northern District of California.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-10-02T18:29:07Z"
+  },
+  {
     "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
     "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
     "entry_date": "2026-09-29",

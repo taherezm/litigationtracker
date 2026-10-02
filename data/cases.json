@@ -379,7 +379,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73359710/tanzer-v-adobe-inc/",
     "last_updated": "2026-08-06",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-01",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Tanzer asserts copyright infringement claims against Adobe Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case has a recent significant ruling.",
@@ -856,7 +856,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73034151/beaulier-v-roblox-corporation/",
     "last_updated": "2026-08-27",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-01",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against Roblox Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -1113,7 +1113,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73043521/beaulier-v-nvidia-corporation/",
     "last_updated": "2026-09-02",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-01",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against NVIDIA Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -1375,7 +1375,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73061569/beaulier-v-microsoft-corporation/",
     "last_updated": "2026-08-27",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-01",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against Microsoft Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -4333,7 +4333,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72492986/encyclopaedia-britannica-inc-v-openai-inc/",
     "last_updated": "2026-09-06",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-09-30",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Encyclopaedia Britannica, Inc. asserts copyright infringement claims against OpenAI, Inc. over alleged AI-generated output involving news or journalism content and Project Giraffe.",
       "current_posture": "The case is stayed.",
@@ -4455,7 +4455,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73399431/tesseract-systems-llc-v-soundhound-inc/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-09-30",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Tesseract Systems LLC asserts patent infringement claims against SoundHound, Inc. involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -4569,7 +4569,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72392052/poulin-holdings-llc-v-databricks-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-09-30",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Poulin Holdings, LLC asserts patent infringement claims against Databricks, Inc. involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -4968,7 +4968,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73166286/valtrus-innovations-limited-v-lumen-technologies-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-09-30",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Valtrus Innovations Limited asserts patent infringement claims against Lumen Technologies, Inc. involving patented software or technology.",
       "current_posture": "The case is in early service or case-administration steps.",
@@ -5425,14 +5425,42 @@
         "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22520784.) filed by BMG Rights Management (US) LLC. (Chung, Timothy) (Filed on 9/28/2026) (Entered: 09/28/2026)",
         "summary": "Plaintiff BMG Rights Management filed a motion seeking permission for an attorney to appear in this case on a temporary basis from outside the Northern District of California, paying the required $328 filing fee.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "61",
+        "date": "2026-09-30",
+        "raw_text": "CASE MANAGEMENT STATEMENT filed by BMG Rights Management (US) LLC. (Miller, Corey) (Filed on 9/30/2026) (Entered: 09/30/2026)",
+        "summary": "Plaintiff BMG Rights Management (US) LLC filed a case management statement on September 30, 2026, providing the court with information about the status of the case and anticipated next steps.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "60",
+        "date": "2026-09-29",
+        "raw_text": "ORDER Granting 59 Motion for Pro Hac Vice as to attorney Michelle Gomez-Reichman. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/29/2026) (Entered: 09/29/2026)",
+        "summary": "Judge Eumi K. Lee granted a motion allowing attorney Michelle Gomez-Reichman to appear in this case on a pro hac vice basis, permitting her to represent a party before this court despite not being a member of the Northern District of California bar.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "59",
+        "date": "2026-09-29",
+        "raw_text": "MOTION for leave to appear in Pro Hac Vice ( Filing fee $ 328, receipt number ACANDC-22525877.) filed by BMG Rights Management (US) LLC. (Gomez-Reichman, Michelle) (Filed on 9/29/2026) (Entered: 09/29/2026)",
+        "summary": "Plaintiff BMG Rights Management filed a motion seeking permission for an attorney to appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "58",
+        "date": "2026-09-29",
+        "raw_text": "ORDER Granting 57 Motion for Pro Hac Vice as to attorney Corey Miller. Signed by Judge Eumi K. Lee. (lrt, COURT STAFF) (Filed on 9/29/2026) (Entered: 09/29/2026)",
+        "summary": "The court granted a motion allowing attorney Corey Miller to appear in this case on a pro hac vice basis, meaning Miller is admitted to participate in this federal case despite not being a member of the Northern District of California bar.",
+        "significance": "minor_update"
       }
     ],
     "plain_language_summary": "BMG Rights Management (US) LLC asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works. The case is in motion-to-dismiss practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-09-21): Judge Eumi K. Lee granted a joint stipulation submitted by both parties, approving a coordination and case management order that will govern the procedural scheduling of two related cases.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72505829/bmg-rights-management-us-llc-v-anthropic-pbc/",
-    "last_updated": "2026-09-30",
+    "last_updated": "2026-10-02",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-09-30",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "BMG Rights Management (US) LLC asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -7947,7 +7975,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73237887/semantic-engines-llc-v-microsoft-corporation/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-09-30",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Semantic Engines LLC asserts patent infringement claims against Microsoft Corporation involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -8074,7 +8102,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73488419/apress-media-llc-v-welib/",
     "last_updated": "2026-07-10",
     "discovered_date": "2026-06-16",
-    "docket_last_checked": "2026-09-30",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Apress Media, LLC asserts copyright infringement claims against WeLib involving books, educational, or publishing materials.",
       "current_posture": "The case is in motion practice.",
@@ -8125,7 +8153,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "Shakespeare",
       "defendant": "Anthropic PBC"
@@ -8342,21 +8370,28 @@
         "raw_text": "NOTICE of Change in Counsel: Attorney Hayk Esaghoulyan no longer representing Dario Amodei, Benjamin Mann in this case (Yang, Grace) (Filed on 9/29/2026) (Entered: 09/29/2026)",
         "summary": "Attorney Hayk Esaghoulyan filed a notice withdrawing as counsel for defendants Dario Amodei and Benjamin Mann in this case. Grace Yang entered the notice on behalf of the filing party on September 29, 2026.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "53",
+        "date": "2026-10-01",
+        "raw_text": "CLERK'S NOTICE RESETTING MOTION HEARING. Motion Hearing as to 48 Motion to Dismiss previously set for 11/19/2026 is RESET for 12/17/2026 at 10:00 AM in San Jose, Courtroom 8, 4th Floor before Judge P. Casey Pitts. (This is a text-only entry generated by the court. There is no document associated with this entry.) (nmc, COURT STAFF) (Filed on 10/1/2026) (Entered: 10/01/2026)",
+        "summary": "The court's clerk rescheduled the hearing on Anthropic's pending motion to dismiss (Docket 48) from November 19, 2026, to December 17, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose, Courtroom 8.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Shakespeare filed copyright infringement claims against Anthropic PBC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "plain_language_summary": "Shakespeare asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials. The case is in motion-to-dismiss practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-10-01): The court's clerk rescheduled the hearing on Anthropic's pending motion to dismiss (Docket 48) from November 19, 2026, to December 17, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose, Courtroom 8.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
-    "last_updated": "2026-09-30",
+    "last_updated": "2026-10-02",
     "discovered_date": "2026-06-21",
-    "docket_last_checked": "2026-09-30",
+    "docket_last_checked": "2026-10-02",
     "case_intelligence": {
       "case_theory": "Shakespeare asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
-      "current_posture": "The case is newly filed.",
+      "current_posture": "The case is in motion-to-dismiss practice.",
       "why_it_matters": "The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-06-17): Over 90 plaintiffs, including numerous authors, publishers, and their estates, filed a complaint against Anthropic PBC, its CEO Dario Amodei, and co-founder Benjamin Mann, alleging that the defendants infringed their copyrighted works, with an exhibit listing the specific works at issue.",
-      "latest_meaningful_event": "Over 90 plaintiffs, including numerous authors, publishers, and their estates, filed a complaint against Anthropic PBC, its CEO Dario Amodei, and co-founder Benjamin Mann, alleging that the defendants infringed their copyrighted works, with an exhibit listing the specific works at issue.",
-      "latest_meaningful_event_date": "2026-06-17",
+      "latest_change": "Latest meaningful event (2026-10-01): The court's clerk rescheduled the hearing on Anthropic's pending motion to dismiss (Docket 48) from November 19, 2026, to December 17, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose, Courtroom 8.",
+      "latest_meaningful_event": "The court's clerk rescheduled the hearing on Anthropic's pending motion to dismiss (Docket 48) from November 19, 2026, to December 17, 2026, at 10:00 AM before Judge P. Casey Pitts in San Jose, Courtroom 8.",
+      "latest_meaningful_event_date": "2026-10-01",
       "claim_category": "copyright_news_or_publishing",
       "claims_asserted": [
         "copyright infringement"
@@ -8364,8 +8399,8 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": "books, educational, or publishing materials",
       "technology_or_model_at_issue": null,
-      "procedural_stage": "newly_filed",
-      "pending_motion_or_next_event": null,
+      "procedural_stage": "motion_to_dismiss",
+      "pending_motion_or_next_event": "motion to dismiss",
       "related_cases": [],
       "confidence_level": "low",
       "missing_information": [
@@ -8381,8 +8416,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "1",
-          "date": "2026-06-17"
+          "entry_number": "53",
+          "date": "2026-10-01"
         }
       ]
     }
@@ -8791,7 +8826,7 @@
         }
       ]
     },
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "s-a-jamendo-v-suno-inc",
@@ -10490,7 +10525,7 @@
       ]
     },
     "plain_language_summary": "Unwired Global Systems LLC asserts patent infringement claims against SAP America, Inc. involving patented software or technology. The case is in motion practice. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-07-29): The court submitted a report to the Commissioner of Patents and Trademarks concerning Patent No. 8,488,624, which appears to be an administrative notice related to the patent at issue in this case.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "wyoming-technology-licensing-llc-v-bmw-of-north-america-llc",
@@ -10553,7 +10588,7 @@
       ]
     },
     "plain_language_summary": "WYOMING TECHNOLOGY LICENSING, LLC filed patent infringement claims against BMW OF NORTH AMERICA, LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "evox-production-llc-v-midjourney-inc",
@@ -10626,7 +10661,7 @@
       ]
     },
     "plain_language_summary": "EVOX Production LLC asserts copyright infringement claims against Midjourney, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case has a recent significant ruling. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-09-15): The court granted an application allowing attorney Charity E. Lee, who is not admitted in the Central District of California, to appear in this case on behalf of defendant Midjourney, Inc. , with Bobby Ghajar designated as local counsel.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "berliner-v-huang",
@@ -10701,7 +10736,7 @@
       ]
     },
     "plain_language_summary": "Berliner filed copyright infringement and other AI litigation claims against Huang. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "content-aware-llc-v-myntra-designs-private-limited",
@@ -10817,7 +10852,7 @@
       ]
     },
     "plain_language_summary": "Content Aware, LLC filed patent infringement claims against Myntra Designs Private Limited. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "content-aware-llc-v-snitch-apparels-private-limited",
@@ -11345,7 +11380,7 @@
       ]
     },
     "plain_language_summary": "FinTegrity LLC filed patent infringement claims against Paypal Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "rosen-v-cook",
@@ -11666,7 +11701,7 @@
       ]
     },
     "plain_language_summary": "Sullivan asserts copyright infringement claims against OpenAI Foundation (f/k/a OpenAI Inc.), but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-09-01): The United States government filed a letter with Judge Sidney H. Stein dated September 1, 2026, submitting a Statement of Interest in this multidistrict litigation, signaling the federal government's position on one or more legal issues in the case.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "round-hill-music-lp-v-anthropic-pbc",
@@ -11863,7 +11898,7 @@
       ]
     },
     "plain_language_summary": "Round Hill Music LP asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-09-01): The court ordered that Case No. 26-cv-8505-CRB is related to the existing case Round Hill Music LP v. Anthropic PBC (No. 24-cv-3811-EKL) and reassigned the newer case to Judge Eumi K. Lee, who signed the order on September 1, 2026.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "round-hill-music-lp-v-suno-inc",
@@ -12058,7 +12093,7 @@
       ]
     },
     "plain_language_summary": "Round Hill Music LP asserts copyright infringement and DMCA section 1202 claims against Suno, Inc. involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement and DMCA section 1202 claims. Latest meaningful event (2026-08-24): Suno, Inc. filed an opposition to an administrative motion that sought to have this case deemed related to another pending case under Civil Local Rule 7-11, attaching one exhibit in support of its position.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "neural-ai-llc-v-x-ai-corp",
@@ -12288,7 +12323,14 @@
     "judges": [
       "Alex G. Tse"
     ],
-    "key_rulings": [],
+    "key_rulings": [
+      {
+        "date": "2026-09-30",
+        "description": "The court issued a ruling on the motion to compel (Docket No. 1), but the precise scope of what was ordered, granted, or denied is not set forth in this entry.",
+        "summary": "Magistrate Judge Alex G. Tse issued an order resolving Neural AI's motion to compel, though the specific relief granted or denied is not detailed in this docket entry.",
+        "significance": "significant_ruling"
+      }
+    ],
     "docket_entries": [
       {
         "entry_number": "2",
@@ -12415,18 +12457,25 @@
         "raw_text": "ORDER Re: Motion to Compel by Magistrate Judge Alex G. Tse: regarding 1 Motion. (This is a text-only entry generated by the court. There is no document associated with this entry.) (shy, COURT STAFF) (Filed on 9/30/2026) (Entered: 09/30/2026)",
         "summary": "Magistrate Judge Alex G. Tse issued an order addressing a motion to compel (docket entry 1), though no written document was attached to the entry and the specific ruling or outcome is not detailed in the docket text.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "18",
+        "date": "2026-09-30",
+        "raw_text": "ORDER Re: Motion to Compel by Magistrate Judge Alex G. Tse: regarding 1 Motion. (shy, COURT STAFF) (Filed on 9/30/2026)",
+        "summary": "Magistrate Judge Alex G. Tse issued an order resolving Neural AI's motion to compel, though the specific relief granted or denied is not detailed in this docket entry.",
+        "significance": "significant_ruling"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74661488/neural-ai-llc-v-oai-international-inc/",
-    "last_updated": "2026-09-30",
+    "last_updated": "2026-10-02",
     "discovered_date": "2026-08-18",
     "case_intelligence": {
       "case_theory": "Neural AI, LLC asserts patent infringement claims against OAI International, Inc. involving patented software or technology.",
       "current_posture": "The case is in discovery.",
       "why_it_matters": "The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims.",
-      "latest_change": "Latest meaningful event (2026-09-30): Magistrate Judge Alex G. Tse issued an order addressing a motion to compel (docket entry 1), though no written document was attached to the entry and the specific ruling or outcome is not detailed in the docket text.",
-      "latest_meaningful_event": "Magistrate Judge Alex G. Tse issued an order addressing a motion to compel (docket entry 1), though no written document was attached to the entry and the specific ruling or outcome is not detailed in the docket text.",
+      "latest_change": "Latest meaningful event (2026-09-30): Magistrate Judge Alex G. Tse issued an order resolving Neural AI's motion to compel, though the specific relief granted or denied is not detailed in this docket entry.",
+      "latest_meaningful_event": "Magistrate Judge Alex G. Tse issued an order resolving Neural AI's motion to compel, though the specific relief granted or denied is not detailed in this docket entry.",
       "latest_meaningful_event_date": "2026-09-30",
       "claim_category": "patent_ai_software",
       "claims_asserted": [
@@ -12452,13 +12501,13 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "17",
+          "entry_number": "18",
           "date": "2026-09-30"
         }
       ]
     },
-    "plain_language_summary": "Neural AI, LLC asserts patent infringement claims against OAI International, Inc. involving patented software or technology. The case is in discovery. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-09-30): Magistrate Judge Alex G. Tse issued an order addressing a motion to compel (docket entry 1), though no written document was attached to the entry and the specific ruling or outcome is not detailed in the docket text.",
-    "docket_last_checked": "2026-09-30"
+    "plain_language_summary": "Neural AI, LLC asserts patent infringement claims against OAI International, Inc. involving patented software or technology. The case is in discovery. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-09-30): Magistrate Judge Alex G. Tse issued an order resolving Neural AI's motion to compel, though the specific relief granted or denied is not detailed in this docket entry.",
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "neural-ai-llc-v-tesla-inc",
@@ -12616,7 +12665,7 @@
       ]
     },
     "plain_language_summary": "Neural AI, LLC asserts patent infringement claims against Tesla Inc. involving patented software or technology. The case is on appeal. The case matters because the appellate posture may shape what district-court orders remain in effect while AI litigation proceeds. Latest meaningful event (2026-08-31): Neural AI, LLC filed a reply brief in support of its corrected motion to compel Tesla, Inc. —a third party—to comply with a subpoena, attaching one exhibit in support of its arguments.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "taasera-licensing-llc-v-arctic-wolf-networks-inc",
@@ -13432,7 +13481,7 @@
       ]
     },
     "plain_language_summary": "Druyan-Sagan Associates, Inc. filed copyright infringement claims against Luma AI, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "wyoming-technology-licensing-inc-v-fca-us-llc",
@@ -13520,7 +13569,7 @@
       ]
     },
     "plain_language_summary": "Wyoming Technology Licensing Inc filed patent infringement claims against FCA US LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "wyoming-technology-licensing-inc-v-hyundai-motor-america",
@@ -13608,7 +13657,7 @@
       ]
     },
     "plain_language_summary": "Wyoming Technology Licensing Inc filed patent infringement claims against Hyundai Motor America. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "convergence-llc-v-kialo-gmbh",
@@ -13817,7 +13866,7 @@
       ]
     },
     "plain_language_summary": "Outleads Inc. filed patent infringement claims against Salesforce, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "sony-music-publishing-us-llc-v-anthropic-pbc",
@@ -14299,19 +14348,26 @@
         "raw_text": "ORDER by Judge Charles R. Breyer: Granting 23 Motion for Pro Hac Vice, David A. Munkittrick. (ls, COURT STAFF) (Filed on 9/24/2026)",
         "summary": "The court granted a motion allowing attorney David A. Munkittrick to appear in this case on a pro hac vice basis, meaning he is admitted to represent a party before this court even though he is not a member of its bar.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "28",
+        "date": "2026-10-01",
+        "raw_text": "ORDER by Judge Charles R. Breyer: Granting 27 Motion for Pro Hac Vice, Andrew Hunt Davis. (ls, COURT STAFF) (Filed on 10/1/2026)",
+        "summary": "The court granted a motion allowing attorney Andrew Hunt Davis to appear in this case on a temporary basis, even though he is not licensed in the Northern District of California.",
+        "significance": "minor_update"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74725556/gerencia-360-music-inc-v-suno-inc/",
-    "last_updated": "2026-09-25",
+    "last_updated": "2026-10-02",
     "discovered_date": "2026-08-31",
     "case_intelligence": {
       "case_theory": "Gerencia 360 Music, Inc. asserts copyright infringement claims against Suno, Inc. involving music, audio, or sound-recording works.",
       "current_posture": "The case is in motion practice.",
       "why_it_matters": "The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-08-31): Court staff flagged an electronic filing error, instructing Gerencia 360 Music, Inc. to consolidate its three separately filed proposed summonses into a single summons listing all defendants and re-file the corrected document.",
-      "latest_meaningful_event": "Court staff flagged an electronic filing error, instructing Gerencia 360 Music, Inc. to consolidate its three separately filed proposed summonses into a single summons listing all defendants and re-file the corrected document.",
-      "latest_meaningful_event_date": "2026-08-31",
+      "latest_change": "Latest meaningful event (2026-10-01): The court granted a motion allowing attorney Andrew Hunt Davis to appear in this case on a temporary basis, even though he is not licensed in the Northern District of California.",
+      "latest_meaningful_event": "The court granted a motion allowing attorney Andrew Hunt Davis to appear in this case on a temporary basis, even though he is not licensed in the Northern District of California.",
+      "latest_meaningful_event_date": "2026-10-01",
       "claim_category": "copyright_music_or_audio",
       "claims_asserted": [
         "copyright infringement"
@@ -14335,14 +14391,14 @@
           "courtlistener_url": "https://www.courtlistener.com/docket/74725556/gerencia-360-music-inc-v-suno-inc/"
         },
         {
-          "type": "docket_entry",
-          "entry_number": "476502873",
-          "date": "2026-08-31"
+          "type": "update",
+          "entry_number": "28",
+          "date": "2026-10-01"
         }
       ]
     },
-    "plain_language_summary": "Gerencia 360 Music, Inc. asserts copyright infringement claims against Suno, Inc. involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-08-31): Court staff flagged an electronic filing error, instructing Gerencia 360 Music, Inc. to consolidate its three separately filed proposed summonses into a single summons listing all defendants and re-file the corrected document.",
-    "docket_last_checked": "2026-09-30"
+    "plain_language_summary": "Gerencia 360 Music, Inc. asserts copyright infringement claims against Suno, Inc. involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-10-01): The court granted a motion allowing attorney Andrew Hunt Davis to appear in this case on a temporary basis, even though he is not licensed in the Northern District of California.",
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "lowery-v-suno-inc",
@@ -14719,7 +14775,7 @@
       ]
     },
     "plain_language_summary": "BTF IP Holdings LLC filed patent infringement claims against Eleven Labs Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "the-seattle-times-company-v-openai-inc",
@@ -15308,7 +15364,7 @@
       ]
     },
     "plain_language_summary": "Association of Corporate Counsel asserts copyright infringement and trademark claims against The Suite, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement and trademark claims. Latest meaningful event (2026-09-10): The court docketed notice, consent, and referral forms related to whether the parties agree to have a U. S. Magistrate Judge exercise jurisdiction over the case.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "yousfi-v-meta-platforms-inc",
@@ -15777,7 +15833,7 @@
       ]
     },
     "plain_language_summary": "Times Publishing Company asserts copyright infringement claims against MICROSOFT CORPORATION involving news or journalism content. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-09-17): The court referred this case to Judge Sidney H. Stein for review as a possibly related matter to consolidated proceeding 25md3143.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "umg-recordings-inc-v-suno-inc",
@@ -15900,7 +15956,7 @@
       ]
     },
     "plain_language_summary": "UMG Recordings, Inc. filed copyright infringement claims against Suno, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "exactojoin-llc-v-asrock-incorporation",
@@ -16016,7 +16072,7 @@
       ]
     },
     "plain_language_summary": "ExactoJoin LLC filed patent infringement claims against ASRock Incorporation. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "bass-v-openai-llc",
@@ -16099,7 +16155,7 @@
       ]
     },
     "plain_language_summary": "Bass filed copyright infringement and trade secret claims against OpenAI, LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   },
   {
     "id": "pulselink-systems-llc-v-nvidia-corporation",
@@ -16216,6 +16272,6 @@
       ]
     },
     "plain_language_summary": "PulseLink Systems, LLC filed patent infringement claims against NVIDIA Corporation. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-09-30"
+    "docket_last_checked": "2026-10-02"
   }
 ]
