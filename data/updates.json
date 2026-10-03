@@ -1,5 +1,68 @@
 [
   {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-10-01",
+    "summary": "Judge Richard Seeborg held a 36-minute hearing on Apple's motion to dismiss Ted Entertainment's amended complaint, heard oral arguments from both sides, and took the motion under submission pending a written order.",
+    "significance": "minor_update",
+    "entry_number": "57",
+    "logged_at": "2026-10-03T17:19:05Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-09-30",
+    "summary": "The court granted a motion allowing attorney Morgan McCollum to appear in this case on a pro hac vice basis, meaning McCollum is licensed in another jurisdiction but has received permission to participate in this Northern District of California proceeding.",
+    "significance": "minor_update",
+    "entry_number": "56",
+    "logged_at": "2026-10-03T17:19:05Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-09-30",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a motion seeking permission for attorney Matt Fisher to appear in this case on a temporary basis, as he is not a member of the Northern District of California bar. The filing includes certificates of good standing and a $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "55",
+    "logged_at": "2026-10-03T17:19:05Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-09-29",
+    "summary": "Plaintiff Ted Entertainment, Inc. and associated party Matt Fisher filed a Certificate of Interested Entities, disclosing parties with a financial interest in the outcome of the case as required by court rules.",
+    "significance": "minor_update",
+    "entry_number": "54",
+    "logged_at": "2026-10-03T17:19:05Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-10-02",
+    "summary": "Judge Thomas S. Hixson issued a discovery order on October 2, 2026, resolving joint discovery letter briefs filed in three related cases against Meta Platforms Inc.",
+    "significance": "significant_ruling",
+    "entry_number": "155",
+    "logged_at": "2026-10-03T17:19:05Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-10-01",
+    "summary": "The court ordered both parties to file interrogatories 13 and 15, along with Meta's responses to them, by October 6, 2026, or to file a notice pointing to where those materials already appear in the court record. Judge Thomas S. Hixson signed the order on October 1, 2026, referencing prior docket entries 138 and 140.",
+    "significance": "minor_update",
+    "entry_number": "154",
+    "logged_at": "2026-10-03T17:19:05Z"
+  },
+  {
+    "case_id": "beaulier-v-roblox-corporation",
+    "case_name": "Beaulier v. Roblox Corporation",
+    "entry_date": "2026-10-02",
+    "summary": "The court granted Roblox Corporation's motion to dismiss, ending the case at the trial court level. Judge Beth Labson Freeman signed the order on October 2, 2026.",
+    "significance": "significant_ruling",
+    "entry_number": "47",
+    "logged_at": "2026-10-03T17:19:05Z"
+  },
+  {
     "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
     "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
     "entry_date": "2026-09-30",
