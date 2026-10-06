@@ -1,5 +1,77 @@
 [
   {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-10-02",
+    "summary": "Attorney Phillip Kim filed an ADR Certification confirming that the parties have discussed alternative dispute resolution options, as required by the court's local rules.",
+    "significance": "minor_update",
+    "entry_number": "26",
+    "logged_at": "2026-10-06T18:55:45Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-10-02",
+    "summary": "Attorney Joyce Liou filed an ADR certification confirming that the parties discussed alternative dispute resolution options, as required by the court's local rules.",
+    "significance": "minor_update",
+    "entry_number": "25",
+    "logged_at": "2026-10-06T18:55:45Z"
+  },
+  {
+    "case_id": "university-of-tennessee-research-foundation-v-anthropic-pbc",
+    "case_name": "University of Tennessee Research Foundation v. Anthropic PBC",
+    "entry_date": "2026-10-02",
+    "summary": "Five attorneys from Anthropic PBC's legal team were added to the case for electronic court notifications through a pro hac vice admission process. Under Local Rule 83. 5(d), Delaware counsel remains responsible for filing all documents through the court's electronic system.",
+    "significance": "minor_update",
+    "entry_number": "480496080",
+    "logged_at": "2026-10-06T18:55:45Z"
+  },
+  {
+    "case_id": "university-of-tennessee-research-foundation-v-anthropic-pbc",
+    "case_name": "University of Tennessee Research Foundation v. Anthropic PBC",
+    "entry_date": "2026-10-05",
+    "summary": "Attorney Davis Gonsalves-DeDobbelaere was added as a pro hac vice (out-of-state) attorney for Anthropic PBC for electronic case notifications. Under Local Rule 83. 5(d), Delaware counsel remains responsible for all official filings through the court's electronic filing system.",
+    "significance": "minor_update",
+    "entry_number": "480496081",
+    "logged_at": "2026-10-06T18:55:45Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-10-05",
+    "summary": "The court signed a Stipulated Protective Order on October 5, 2026, though the docket notes that this entry should be disregarded in favor of ECF 63, suggesting it was filed or modified in error.",
+    "significance": "minor_update",
+    "entry_number": "50",
+    "logged_at": "2026-10-06T18:55:45Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-10-05",
+    "summary": "The court staff modified this docket entry on October 5, 2026, directing readers to disregard it in favor of ECF 62, which contains the operative Stipulated Order governing the discovery of electronically stored information, signed by Judge Jacqueline Scott Corley.",
+    "significance": "minor_update",
+    "entry_number": "49",
+    "logged_at": "2026-10-06T18:55:45Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-10-02",
+    "summary": "The judge signed a stipulated protective order agreed to by both parties, establishing rules to govern the handling of confidential information during discovery.",
+    "significance": "minor_update",
+    "entry_number": "48",
+    "logged_at": "2026-10-06T18:55:45Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-10-02",
+    "summary": "The judge signed a stipulated order, agreed to by both parties, setting the rules for how physical materials and electronically stored information will be handled during discovery in this case.",
+    "significance": "minor_update",
+    "entry_number": "47",
+    "logged_at": "2026-10-06T18:55:45Z"
+  },
+  {
     "case_id": "ted-entertainment-inc-v-apple-inc",
     "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
     "entry_date": "2026-10-01",
