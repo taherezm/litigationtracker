@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-07",
+    "summary": "Defendants SpaceXAI Corp, SpaceXAI LLC, and X. AI Holdings LLC moved to temporarily stay the case while the Judicial Panel on Multidistrict Litigation (JPML) decides whether to transfer it to another court. A hearing is scheduled for December 3, 2026, with plaintiff responses due October 21 and defendant replies due October 28.",
+    "significance": "minor_update",
+    "entry_number": "70",
+    "logged_at": "2026-10-08T19:18:20Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-08",
+    "summary": "The court heard oral argument on October 8, 2026 regarding Google LLC's request to transfer this case to the Northern District of California, but Judge Loretta A. Preska reserved her decision and has not yet ruled on the motion.",
+    "significance": "minor_update",
+    "entry_number": "480935018",
+    "logged_at": "2026-10-08T19:18:20Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-08",
+    "summary": "Judge Loretta A. Preska issued a scheduling order providing the public with listen-only dial-in access to an upcoming oral argument scheduled for 10:00 AM, while reminding all attendees that recording or broadcasting the proceeding is prohibited under the district's rules.",
+    "significance": "minor_update",
+    "entry_number": "480930269",
+    "logged_at": "2026-10-08T19:18:20Z"
+  },
+  {
+    "case_id": "university-of-tennessee-research-foundation-v-anthropic-pbc",
+    "case_name": "University of Tennessee Research Foundation v. Anthropic PBC",
+    "entry_date": "2026-10-05",
+    "summary": "Plaintiff's counsel Brian E. Farnan sent a letter to Magistrate Judge Jennifer L. Hall raising a discovery dispute, attaching a proposed order and supporting exhibits.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-10-08T19:18:20Z"
+  },
+  {
     "case_id": "anthropic-pbc-v-abnormal-ai-inc",
     "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
     "entry_date": "2026-10-02",
