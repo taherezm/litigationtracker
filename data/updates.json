@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-08",
+    "summary": "Multiple plaintiff media organizations, including USA Today Co. , Inc. , Gannett entities, Detroit Free Press, and others, filed a Statement of Relatedness asking the court to designate this case as related to a multidistrict litigation proceeding (1:25-md-03143) pending in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-10-09T18:51:07Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-08",
+    "summary": "Plaintiff USA Today Co. , Inc. filed a civil cover sheet, initiating the case in the Southern District of New York against OpenAI Foundation.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-10-09T18:51:07Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-08",
+    "summary": "A group of fourteen news publishers, including USA Today, Gannett affiliates, Detroit Free Press, and others, filed a complaint against multiple OpenAI entities in the Southern District of New York, attaching copyright registration records and examples of alleged model outputs as exhibits.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-10-09T18:51:07Z"
+  },
+  {
+    "case_id": "neural-ai-llc-v-oai-international-inc",
+    "case_name": "Neural AI, LLC v. OAI International, Inc.",
+    "entry_date": "2026-10-07",
+    "summary": "Defendant OAI International, Inc. filed a response to the court's prior Order (Docket No. 18), submitted by attorney Matthew Warren on October 7, 2026. The substance of the response is not detailed in this docket entry.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-10-09T18:51:07Z"
+  },
+  {
     "case_id": "doe-1-v-x-ai-corp",
     "case_name": "Doe 1 v. X.AI Corp.",
     "entry_date": "2026-10-07",
