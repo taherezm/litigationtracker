@@ -1,5 +1,23 @@
 [
   {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-10-09",
+    "summary": "The court denied Apple's motion to dismiss, allowing Ted Entertainment's claims to move forward in the litigation.",
+    "significance": "significant_ruling",
+    "entry_number": "61",
+    "logged_at": "2026-10-10T17:53:29Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-apple-inc",
+    "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
+    "entry_date": "2026-10-06",
+    "summary": "The court filed the transcript of proceedings held on October 1, 2026, before Judge Richard Seeborg. The transcript is currently restricted to viewing at the Clerk's Office public terminal or purchase through the court reporter until January 4, 2027, after which it will be available on PACER; any redaction requests are due within 5 business days of this filing.",
+    "significance": "minor_update",
+    "entry_number": "60",
+    "logged_at": "2026-10-10T17:53:29Z"
+  },
+  {
     "case_id": "usa-today-co-inc-v-openai-foundation",
     "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
     "entry_date": "2026-10-08",
