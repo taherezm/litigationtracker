@@ -16600,5 +16600,133 @@
     },
     "plain_language_summary": "USA Today Co., Inc. asserts copyright infringement claims against OpenAI Foundation over alleged AI-generated output involving news or journalism content. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-10-08): Multiple plaintiff media organizations, including USA Today Co. , Inc. , Gannett entities, Detroit Free Press, and others, filed a Statement of Relatedness asking the court to designate this case as related to a multidistrict litigation proceeding (1:25-md-03143) pending in the Southern District of New York.",
     "docket_last_checked": "2026-10-13"
+  },
+  {
+    "id": "doe-2-v-x-ai-corp",
+    "name": "Doe 2 v. X. AI Corp.",
+    "court": "District Court, W.D. Arkansas",
+    "court_full": "District Court, W.D. Arkansas",
+    "docket_number": "5:26-cv-05291",
+    "courtlistener_docket_id": "74955216",
+    "date_filed": "2026-10-13",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Doe 2",
+      "defendant": "X. AI Corp."
+    },
+    "judges": [
+      "Timothy Lloyd Brooks"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74955216/doe-2-v-x-ai-corp/",
+    "last_updated": "2026-10-14",
+    "discovered_date": "2026-10-14",
+    "case_intelligence": {
+      "case_theory": "Doe 2 asserts copyright infringement claims against X. AI Corp., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-10-13): Doe 2 filed the case against X. AI Corp..",
+      "latest_meaningful_event": "Doe 2 filed the case against X. AI Corp..",
+      "latest_meaningful_event_date": "2026-10-13",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "5:26-cv-05291",
+          "court": "District Court, W.D. Arkansas",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74955216/doe-2-v-x-ai-corp/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-10-13"
+        }
+      ]
+    },
+    "plain_language_summary": "Doe 2 filed copyright infringement claims against X. AI Corp. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "umg-recordings-inc-v-suno-inc-2",
+    "name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-mc-80303",
+    "courtlistener_docket_id": "74958474",
+    "date_filed": "2026-10-13",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "UMG Recordings, Inc.",
+      "defendant": "Suno, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74958474/umg-recordings-inc-v-suno-inc/",
+    "last_updated": "2026-10-14",
+    "discovered_date": "2026-10-14",
+    "case_intelligence": {
+      "case_theory": "UMG Recordings, Inc. asserts copyright infringement claims against Suno, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-10-13): UMG Recordings, Inc. filed the case against Suno, Inc..",
+      "latest_meaningful_event": "UMG Recordings, Inc. filed the case against Suno, Inc..",
+      "latest_meaningful_event_date": "2026-10-13",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-mc-80303",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74958474/umg-recordings-inc-v-suno-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-10-13"
+        }
+      ]
+    },
+    "plain_language_summary": "UMG Recordings, Inc. filed copyright infringement claims against Suno, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
