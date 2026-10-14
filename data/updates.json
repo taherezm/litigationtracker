@@ -1,5 +1,86 @@
 [
   {
+    "case_id": "true-footage-inc-v-automax-ai-inc",
+    "case_name": "True Footage Inc. v. Automax AI Inc.",
+    "entry_date": "2026-10-13",
+    "summary": "Magistrate Judge Alex G. Tse issued a discovery order resolving a dispute that had been submitted to the court via a discovery letter brief by the parties. The specific relief granted or denied is not detailed in this docket entry.",
+    "significance": "minor_update",
+    "entry_number": "55",
+    "logged_at": "2026-10-14T18:02:48Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-13",
+    "summary": "The court denied a motion to continue the initial case management conference, meaning the conference remains scheduled as originally set.",
+    "significance": "minor_update",
+    "entry_number": "84",
+    "logged_at": "2026-10-14T18:02:48Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-12",
+    "summary": "Plaintiffs Jane Does 1–5 filed a supplemental brief in support of their pending motion to appoint a lead plaintiff and lead counsel, including a sur-reply and an agreed proposal, along with supporting exhibits and declarations from attorney Annika K. Martin.",
+    "significance": "minor_update",
+    "entry_number": "83",
+    "logged_at": "2026-10-14T18:02:48Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-12",
+    "summary": "Defendants SpaceXAI Corp, SpaceXAI LLC, and X. AI Holdings LLC filed a motion seeking permission for an out-of-state attorney, Soowan Choi, to appear in this case on their behalf, paying the required $328 filing fee on October 12, 2026.",
+    "significance": "minor_update",
+    "entry_number": "82",
+    "logged_at": "2026-10-14T18:02:48Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-12",
+    "summary": "Defendants SpaceXAI Corp, SpaceXAI LLC, and X. AI Holdings LLC filed a motion seeking court permission to have attorney Christopher Michel appear in this case on a pro hac vice basis, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "81",
+    "logged_at": "2026-10-14T18:02:48Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-12",
+    "summary": "Defendants SpaceXAI Corp, SpaceXAI LLC, and X. AI Holdings LLC filed a motion seeking permission for out-of-state attorney Devin Anderson to participate in this case, accompanied by a $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "80",
+    "logged_at": "2026-10-14T18:02:48Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-12",
+    "summary": "Defendants SpaceXAI Corp, SpaceXAI LLC, and X. AI Holdings LLC filed a motion seeking court permission to have an out-of-state attorney, K. Winn Allen, appear and represent them in this case, accompanied by a $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "79",
+    "logged_at": "2026-10-14T18:02:48Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-12",
+    "summary": "The defendants—SpaceXAI Corp, SpaceXAI LLC, and X. AI Holdings LLC—filed a stipulation with a proposed order asking the court to temporarily stay the case while the Judicial Panel on Multidistrict Litigation (JPML) decides whether to transfer it to a different court.",
+    "significance": "minor_update",
+    "entry_number": "78",
+    "logged_at": "2026-10-14T18:02:48Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-10-13",
+    "summary": "The court's clerk rescheduled the case management conference from October 23 to October 30, 2026, at 10:00 AM by videoconference, and set a deadline of October 23, 2026, for the parties to file a joint case management statement and submit a combined list of counsel by email.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-10-14T18:02:48Z"
+  },
+  {
     "case_id": "ted-entertainment-inc-v-apple-inc",
     "case_name": "Ted Entertainment, Inc. v. Apple, Inc.",
     "entry_date": "2026-10-09",
