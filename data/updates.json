@@ -1,5 +1,50 @@
 [
   {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-13",
+    "summary": "Apple Inc. filed a certificate of service confirming that its motion to quash a deposition subpoena issued by Suno, Inc. and its certificate of interested entities were properly served on the relevant parties.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-10-15T17:47:45Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-13",
+    "summary": "Apple Inc. filed a Certificate of Interested Entities, disclosing its interest in this case as required by court rules. This is a routine administrative filing and does not reflect any substantive legal position by Apple in the dispute.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-10-15T17:47:45Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-13",
+    "summary": "Apple Inc. moved to quash a deposition subpoena that defendant Suno, Inc. had issued to Apple, filing supporting declarations and exhibits; responses from opposing parties are due October 27, 2026, with replies due November 3, 2026.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-10-15T17:47:45Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-10-13",
+    "summary": "Plaintiff BMG Rights Management filed a certification confirming that its counsel discussed alternative dispute resolution (ADR) options with the client, as required by the court's local rules.",
+    "significance": "minor_update",
+    "entry_number": "62",
+    "logged_at": "2026-10-15T17:47:45Z"
+  },
+  {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-10-13",
+    "summary": "The court granted plaintiffs' counsel permission to attend the October 15, 2026 Case Management Conference via Zoom, directing them to use the Zoom webinar link on Judge Pitts's webpage.",
+    "significance": "minor_update",
+    "entry_number": "63",
+    "logged_at": "2026-10-15T17:47:45Z"
+  },
+  {
     "case_id": "true-footage-inc-v-automax-ai-inc",
     "case_name": "True Footage Inc. v. Automax AI Inc.",
     "entry_date": "2026-10-13",
