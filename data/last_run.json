@@ -1,5 +1,5 @@
 {
-  "cases_discovered": 2,
+  "cases_discovered": 0,
   "discovery_complete": true,
   "rejected_dockets": [
     "1:26-cv-00086",
@@ -459,18 +459,23 @@
     "id:74961640",
     "id:74956347",
     "id:74958371",
-    "id:74957496"
+    "id:74957496",
+    "id:74962592",
+    "id:74965784",
+    "id:74961088",
+    "id:74970654",
+    "id:74969111"
   ],
   "entries_updated": 5,
   "docket_update_complete": false,
   "summaries_generated": 5,
   "docket_last_run_date": "2026-08-05",
-  "courtlistener_rate_limited": true,
+  "courtlistener_rate_limited": false,
   "docket_entry_cap_reached": false,
   "summaries_deferred": 0,
   "max_summaries_per_run": 100,
   "discovery_candidate_cap_reached": false,
-  "discovery_last_run_date": "2026-10-14",
+  "discovery_last_run_date": "2026-10-15",
   "max_docket_update_passes": 2,
   "discovery_queries_completed": 38,
   "discovery_queries_total": 38,
