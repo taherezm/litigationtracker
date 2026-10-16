@@ -1,5 +1,113 @@
 [
   {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-15",
+    "summary": "The court denied plaintiffs' motion seeking an order to preserve evidence and defendant's motion to stay the case, following oral argument on October 15, 2026. The court scheduled a status conference for November 19, 2026 before Judge Pitts in San Jose.",
+    "significance": "significant_ruling",
+    "entry_number": "96",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-15",
+    "summary": "The court granted a party's administrative motion for permission to file a response to the joint sur-reply related to the pending motion to appoint interim co-lead class counsel. No separate document was filed; this was a text-only court order.",
+    "significance": "minor_update",
+    "entry_number": "95",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-14",
+    "summary": "Plaintiffs Jane Does 1–5 filed an opposition to X. AI Corp. 's motion to temporarily stay the case while the Judicial Panel on Multidistrict Litigation (JPML) considers whether to transfer it, and included a supporting declaration from attorney Annika K. Martin.",
+    "significance": "minor_update",
+    "entry_number": "94",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-14",
+    "summary": "Stability AI U. S. Services Corporation and Stability AI, Inc. filed an opposition to the defendants' motion seeking a temporary stay of the case while the Judicial Panel on Multidistrict Litigation considers whether to transfer it. The filing includes a proposed order for the court's consideration.",
+    "significance": "minor_update",
+    "entry_number": "93",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-14",
+    "summary": "Defendants SpaceXAI Corp, SpaceXAI LLC, and X. AI Holdings LLC filed a proposed order opposing plaintiffs' administrative motion for leave to file a response to a sur-reply related to the motion for appointment of interim co-lead class counsel, accompanied by a declaration from attorney Adrian Sawyer.",
+    "significance": "minor_update",
+    "entry_number": "92",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-13",
+    "summary": "Defendants SpaceXAI Corp. , SpaceXAI LLC, and X. AI Holdings LLC filed an opposition to plaintiffs' administrative motion seeking leave to file a response to plaintiffs' joint sur-reply, which relates to the pending motion for appointment of interim co-lead class counsel; responses to the opposition are due by October 19, 2026.",
+    "significance": "minor_update",
+    "entry_number": "91",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-13",
+    "summary": "This docket entry was marked erroneous by court staff and should be disregarded, as the filing was re-filed at docket entry 91. The original entry reflected the defendants' opposition to plaintiffs' administrative motion for leave to file a response related to the appointment of interim co-lead class counsel.",
+    "significance": "minor_update",
+    "entry_number": "90",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-13",
+    "summary": "The court granted a motion allowing attorney Soowan (Julia) Choi to appear in this case on a pro hac vice basis, meaning she is admitted to practice before this court for this matter even though she is not a member of its local bar. Judge P. Casey Pitts signed the order on October 13, 2026.",
+    "significance": "minor_update",
+    "entry_number": "89",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-13",
+    "summary": "The court granted a motion allowing attorney Christopher Michel to appear in this case on a temporary basis, even though he is not a member of the Northern District of California bar. Judge P. Casey Pitts signed the order on October 13, 2026.",
+    "significance": "minor_update",
+    "entry_number": "88",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-13",
+    "summary": "The court granted attorney Devin Anderson permission to appear in this case on a pro hac vice basis, allowing him to represent a party despite not being a member of the Northern District of California bar. Judge P. Casey Pitts signed the order on October 13, 2026.",
+    "significance": "minor_update",
+    "entry_number": "87",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-13",
+    "summary": "The court granted a motion allowing attorney K. Winn Allen to appear in this case on a pro hac vice basis, meaning Allen is admitted to participate in this specific case despite not being a member of the Northern District of California bar. Judge P. Casey Pitts signed the order on October 13, 2026.",
+    "significance": "minor_update",
+    "entry_number": "86",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-13",
+    "summary": "The court granted a stipulation agreed to by the parties regarding X. AI's motion to stay the case, with responses due by October 14, 2026, and a hearing on a related motion scheduled for October 15, 2026, before Judge P. Casey Pitts in San Jose.",
+    "significance": "minor_update",
+    "entry_number": "85",
+    "logged_at": "2026-10-16T17:29:24Z"
+  },
+  {
     "case_id": "umg-recordings-inc-v-suno-inc-2",
     "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
     "entry_date": "2026-10-13",
