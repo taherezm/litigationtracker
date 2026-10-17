@@ -1,5 +1,176 @@
 [
   {
+    "case_id": "shakespeare-v-anthropic-pbc",
+    "case_name": "Shakespeare v. Anthropic PBC",
+    "entry_date": "2026-10-15",
+    "summary": "The court held an Initial Case Management Conference on October 15, 2026 before Judge P. Casey Pitts, lasting 23 minutes. The court ordered both parties to file a stipulation selecting an alternative dispute resolution (ADR) process within 28 days, and to identify a private mediator if they choose private ADR; a scheduling order will follow.",
+    "significance": "minor_update",
+    "entry_number": "64",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "round-hill-music-lp-v-anthropic-pbc",
+    "case_name": "Round Hill Music LP v. Anthropic PBC",
+    "entry_date": "2026-10-16",
+    "summary": "The Round Hill Music plaintiffs, along with affiliated entities GFP Co-Invest and RH Carlin Holdings, filed objections to a Joint Case Management Statement submitted in related cases, attaching three exhibits in support of their objections.",
+    "significance": "minor_update",
+    "entry_number": "39",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-14",
+    "summary": "The court designated Magistrate Judge Ona T. Wang to handle referred matters in this case and notified the parties that they may consent to have a magistrate judge preside over the entire case, subject to the district judge's approval.",
+    "significance": "minor_update",
+    "entry_number": "481778365",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-13",
+    "summary": "The court notified attorney Steven M. Lieberman that Document No. 35, an AO 121 Copyright form, was filed incorrectly because the attached PDF referenced 'see Exhibit A to Complaint' rather than 'see attached,' and directed him to re-file the document with a corrected PDF using the proper filing event.",
+    "significance": "minor_update",
+    "entry_number": "481778359",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-14",
+    "summary": "The court accepted this case as related to a multidistrict litigation proceeding (MDL No. 1:25-md-03143) in the Southern District of New York, and a formal notice of assignment is forthcoming.",
+    "significance": "minor_update",
+    "entry_number": "481778361",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-14",
+    "summary": "The court administratively linked this case to consolidated multidistrict litigation docket 1:25-md-03143-SHS-OTW, grouping it with related cases being managed together in the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "481778362",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-14",
+    "summary": "The court reassigned this case to Judge Sidney H. Stein, replacing the previously unassigned judge designation. This is an administrative reassignment with no ruling on the merits.",
+    "significance": "minor_update",
+    "entry_number": "481778364",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-16",
+    "summary": "A group of plaintiff media companies, including USA Today Co. , Inc. and several Gannett-affiliated entities, filed a proposed stipulation and order with the court on October 16, 2026.",
+    "significance": "minor_update",
+    "entry_number": "46",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-16",
+    "summary": "A group of plaintiff news organizations, including USA Today Co. and several Gannett and GateHouse affiliates, filed a returned executed waiver of service confirming that defendant OpenAI OpCo, L. L. C. was sent a waiver on October 15, 2026, with an answer to the complaint due by December 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "45",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-16",
+    "summary": "Multiple plaintiff news organizations filed a returned executed waiver of service confirming that defendant OpenAI Group PBC was served, with an answer to the complaint now due by December 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "44",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-16",
+    "summary": "Plaintiff publishers, including USA Today Co. , Inc. and more than a dozen affiliated Gannett entities, filed a returned executed waiver of service confirming that defendant OpenAI GP, L. L. C. was served on October 15, 2026, with an answer to the complaint due by December 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "43",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-16",
+    "summary": "Multiple plaintiff news organizations, including USA Today Co. , Inc. and Gannett-affiliated entities, filed a executed waiver of service confirming that OpenAI Global, L. L. C. was served, with OpenAI's answer to the complaint now due by December 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "42",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-16",
+    "summary": "Multiple plaintiff media organizations, including USA Today Co. , Inc. and several Gannett-affiliated entities, filed a returned executed waiver of service confirming that defendant OpenAI Foundation was served and has until December 14, 2026 to file an answer.",
+    "significance": "minor_update",
+    "entry_number": "41",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-16",
+    "summary": "Multiple plaintiff news organizations, including USA Today Co. and several Gannett-affiliated entities, filed a executed waiver of service confirming that defendant OAI International, Inc. was formally notified of the lawsuit on October 15, 2026, with its answer to the complaint now due December 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "40",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-16",
+    "summary": "Several plaintiff media companies, including USA Today and affiliated Gannett entities, filed a returned executed waiver of service confirming that defendant OAI Corporation accepted service of the complaint without requiring formal process; OAI Corporation's answer to the complaint is now due December 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "39",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-15",
+    "summary": "The court ordered plaintiffs to show in writing by October 30, 2026, why this case should not be paused while summary judgment motions are resolved in other related cases in the same multidistrict litigation; defendants may respond by November 6, 2026.",
+    "significance": "significant_ruling",
+    "entry_number": "38",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-15",
+    "summary": "The court clerk submitted the required AO 121 copyright case-opening form to the U. S. Copyright Office, notifying the Register of Copyrights that a copyright action has been filed in the Southern District of New York, as required by federal statute.",
+    "significance": "minor_update",
+    "entry_number": "37",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-10-14",
+    "summary": "Plaintiff's attorney Steven Lieberman submitted an AO 121 copyright reporting form to the court, along with an exhibit listing copyright registrations, as part of the case-opening process.",
+    "significance": "minor_update",
+    "entry_number": "36",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-14",
+    "summary": "Bethany Stevens paid a $52 filing fee, recorded under receipt number ACANDC-22590364, in connection with a filing made on October 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-10-17T16:28:56Z"
+  },
+  {
     "case_id": "doe-1-v-x-ai-corp",
     "case_name": "Doe 1 v. X.AI Corp.",
     "entry_date": "2026-10-15",
