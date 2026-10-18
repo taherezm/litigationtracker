@@ -1,5 +1,50 @@
 [
   {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-10-15",
+    "summary": "Both parties filed a joint stipulation agreeing to extend the time for Adobe Inc. to respond to the complaint. No court ruling has been issued on the request yet.",
+    "significance": "minor_update",
+    "entry_number": "51",
+    "logged_at": "2026-10-18T16:34:25Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-10-16",
+    "summary": "Plaintiff Ted Entertainment, Inc. and attorney Matt Fisher filed corporate disclosure statements as required by Federal Rule of Civil Procedure 7. 1, identifying any parent companies or financial interests relevant to the case.",
+    "significance": "minor_update",
+    "entry_number": "42",
+    "logged_at": "2026-10-18T16:34:25Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-10-15",
+    "summary": "Several OpenAI-related entities filed a Corporate Disclosure Statement identifying Microsoft Corporation as an affiliate of OpenAI Global LLC and OpenAI Group PBC, as required by court rules.",
+    "significance": "minor_update",
+    "entry_number": "41",
+    "logged_at": "2026-10-18T16:34:25Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-10-15",
+    "summary": "Defense counsel Joseph Gratz filed a certification confirming that the parties discussed alternative dispute resolution (ADR) options, as required by the court's local rules.",
+    "significance": "minor_update",
+    "entry_number": "40",
+    "logged_at": "2026-10-18T16:34:25Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-10-14",
+    "summary": "Plaintiffs Ted Entertainment, Inc. and Matt Fisher filed a Statement of Recent Decision under Civil Local Rule 7-3(d), attaching as Exhibit A a decision from a related case, Ted Entertainment et al. v. Apple Inc. , and linking it to two previously filed documents in this proceeding.",
+    "significance": "minor_update",
+    "entry_number": "39",
+    "logged_at": "2026-10-18T16:34:25Z"
+  },
+  {
     "case_id": "shakespeare-v-anthropic-pbc",
     "case_name": "Shakespeare v. Anthropic PBC",
     "entry_date": "2026-10-15",
