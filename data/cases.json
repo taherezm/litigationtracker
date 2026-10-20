@@ -17042,5 +17042,322 @@
     },
     "plain_language_summary": "UMG Recordings, Inc. asserts copyright infringement claims against Suno, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in discovery. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-10-13): Apple Inc. filed a certificate of service confirming that its motion to quash a deposition subpoena issued by Suno, Inc. and its certificate of interested entities were properly served on the relevant parties.",
     "docket_last_checked": "2026-10-19"
+  },
+  {
+    "id": "levine-v-meta-platforms-inc",
+    "name": "Levine v. Meta Platforms, Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-12137",
+    "courtlistener_docket_id": "74987828",
+    "date_filed": "2026-10-19",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Levine",
+      "defendant": "Meta Platforms, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74987828/levine-v-meta-platforms-inc/",
+    "last_updated": "2026-10-20",
+    "discovered_date": "2026-10-20",
+    "case_intelligence": {
+      "case_theory": "Levine asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-10-19): Levine filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event": "Levine filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event_date": "2026-10-19",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-cv-12137",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74987828/levine-v-meta-platforms-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-10-19"
+        }
+      ]
+    },
+    "plain_language_summary": "Levine filed copyright infringement claims against Meta Platforms, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "winspear-v-meta-platforms-inc",
+    "name": "Winspear v. Meta Platforms, Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-12100",
+    "courtlistener_docket_id": "74984099",
+    "date_filed": "2026-10-19",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Winspear",
+      "defendant": "Meta Platforms, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74984099/winspear-v-meta-platforms-inc/",
+    "last_updated": "2026-10-20",
+    "discovered_date": "2026-10-20",
+    "case_intelligence": {
+      "case_theory": "Winspear asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-10-19): Winspear filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event": "Winspear filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event_date": "2026-10-19",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-cv-12100",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74984099/winspear-v-meta-platforms-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-10-19"
+        }
+      ]
+    },
+    "plain_language_summary": "Winspear filed copyright infringement claims against Meta Platforms, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "reno-v-meta-platforms-inc",
+    "name": "Reno v. Meta Platforms, Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-12131",
+    "courtlistener_docket_id": "74987312",
+    "date_filed": "2026-10-19",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Reno",
+      "defendant": "Meta Platforms, Inc."
+    },
+    "judges": [
+      "Charles R. Breyer"
+    ],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74987312/reno-v-meta-platforms-inc/",
+    "last_updated": "2026-10-20",
+    "discovered_date": "2026-10-20",
+    "case_intelligence": {
+      "case_theory": "Reno asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-10-19): Reno filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event": "Reno filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event_date": "2026-10-19",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-cv-12131",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74987312/reno-v-meta-platforms-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-10-19"
+        }
+      ]
+    },
+    "plain_language_summary": "Reno filed copyright infringement claims against Meta Platforms, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "older-v-meta-platforms-inc",
+    "name": "Older v. Meta Platforms, Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-12115",
+    "courtlistener_docket_id": "74984924",
+    "date_filed": "2026-10-19",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Older",
+      "defendant": "Meta Platforms, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74984924/older-v-meta-platforms-inc/",
+    "last_updated": "2026-10-20",
+    "discovered_date": "2026-10-20",
+    "case_intelligence": {
+      "case_theory": "Older asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-10-19): Older filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event": "Older filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event_date": "2026-10-19",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-cv-12115",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74984924/older-v-meta-platforms-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-10-19"
+        }
+      ]
+    },
+    "plain_language_summary": "Older filed copyright infringement claims against Meta Platforms, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "sheard-v-meta-platforms-inc",
+    "name": "Sheard v. Meta Platforms, Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-12126",
+    "courtlistener_docket_id": "74985885",
+    "date_filed": "2026-10-19",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Sheard",
+      "defendant": "Meta Platforms, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/74985885/sheard-v-meta-platforms-inc/",
+    "last_updated": "2026-10-20",
+    "discovered_date": "2026-10-20",
+    "case_intelligence": {
+      "case_theory": "Sheard asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-10-19): Sheard filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event": "Sheard filed the case against Meta Platforms, Inc..",
+      "latest_meaningful_event_date": "2026-10-19",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-cv-12126",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/74985885/sheard-v-meta-platforms-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-10-19"
+        }
+      ]
+    },
+    "plain_language_summary": "Sheard filed copyright infringement claims against Meta Platforms, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
