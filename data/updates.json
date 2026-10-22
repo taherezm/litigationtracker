@@ -1,5 +1,167 @@
 [
   {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-20",
+    "summary": "The clerk's office flagged an electronic filing error, noting that Apple Inc. 's motion to quash a deposition subpoena issued by Suno, Inc. was submitted under the wrong event type and will not be processed; Apple must re-file the document using the correct filing category.",
+    "significance": "minor_update",
+    "entry_number": "482279677",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-21",
+    "summary": "Judge Susan van Keulen signed an order recusing herself from this case on October 21, 2026. The case will be reassigned to a different judge.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-20",
+    "summary": "The court assigned this case to Magistrate Judge Susan van Keulen and issued standard new-case administrative instructions, directing plaintiff's counsel to serve the complaint, summons, and standing orders on the opposing party. A consent or declination regarding magistrate judge jurisdiction is due by November 3, 2026, and a scheduling order will follow within two business days.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-20",
+    "summary": "Apple Inc. filed a certificate of service confirming that its motion to quash a subpoena was served on the relevant parties. This is an administrative filing confirming service and does not reflect any court ruling on the motion.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-20",
+    "summary": "Apple Inc. moved to quash a subpoena served on it in this litigation, filing a supporting declaration from M. Means with eight exhibits, a declaration from S. Bottoms, and a proposed order.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-20",
+    "summary": "Five plaintiffs (Jane Does 1–5) filed a proposed order asking the court to appoint interim co-lead counsel to represent the plaintiff class in this case.",
+    "significance": "minor_update",
+    "entry_number": "102",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-20",
+    "summary": "The court reporter filed the official transcript of a hearing held on October 15, 2026, before Judge P. Casey Pitts. The transcript is currently restricted and may only be viewed at the Clerk's Office or purchased through the court reporter until January 19, 2027, after which it will be available on PACER; parties have until November 10, 2026, to file any notice of intent to request redactions.",
+    "significance": "minor_update",
+    "entry_number": "101",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-19",
+    "summary": "A court reporter filed a transcript of proceedings held on October 15, 2026, before Judge P. Casey Pitts, but the filing was marked as filed in error and superseded by Docket No. 101. Access to the transcript is restricted until January 19, 2027, with a redaction request deadline of November 9, 2026.",
+    "significance": "minor_update",
+    "entry_number": "100",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "doe-1-v-x-ai-corp",
+    "case_name": "Doe 1 v. X.AI Corp.",
+    "entry_date": "2026-10-19",
+    "summary": "Stability AI U. S. Services Corporation and Stability AI, Inc. ordered a transcript of the court proceedings held on October 15, 2026, before Judge P. Casey Pitts, with court reporter Summer Fisher handling the transcript request.",
+    "significance": "minor_update",
+    "entry_number": "99",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-19",
+    "summary": "The Clerk's Office reviewed a pro hac vice motion seeking admission of attorney Kylie N. Fisher to appear in this case and found no deficiencies in the filing. A $200 filing fee was paid in connection with the motion, which remains pending clerk and court processing.",
+    "significance": "minor_update",
+    "entry_number": "482450015",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-22",
+    "summary": "The Clerk's Office reviewed a pro hac vice motion seeking to admit attorney David H. Kramer to appear in this case, and found no deficiencies in the filing. A $200 filing fee was submitted with the motion, which is now cleared for further processing.",
+    "significance": "minor_update",
+    "entry_number": "482450021",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-22",
+    "summary": "The Clerk's Office reviewed and approved a pro hac vice motion (Document No. 44) allowing attorney Maura L. Rees to appear in this case, finding no deficiencies in the filing and confirming receipt of the $200 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "482450023",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-22",
+    "summary": "The Clerk's Office reviewed a motion for attorney Eric P. Tuttle to appear pro hac vice (as a visiting attorney admitted for this case only) and found no deficiencies, along with a $200 filing fee payment.",
+    "significance": "minor_update",
+    "entry_number": "482450025",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-21",
+    "summary": "Google LLC filed a motion to admit attorney Eric P. Tuttle to practice before this court for the duration of this case, paying the required $200 filing fee and submitting supporting documents including Tuttle's affidavit and certificates of good standing from California and Washington. The motion is pending review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "45",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-21",
+    "summary": "Google LLC moved to admit Maura L. Rees as visiting counsel (pro hac vice), submitting a $200 filing fee, her affidavit, and a California certificate of good standing for clerk's office review.",
+    "significance": "minor_update",
+    "entry_number": "44",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-21",
+    "summary": "Google LLC moved to admit attorney David H. Kramer pro hac vice, allowing him to appear in this case as outside counsel admitted in California, and paid the $200 filing fee; the motion is pending review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "43",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-19",
+    "summary": "Judge Loretta A. Preska granted a motion allowing attorney Kylie N. Fisher to appear as additional counsel for the plaintiffs in this case, admitting her pro hac vice—meaning she is permitted to participate in this federal court proceeding even though she is not a member of the local bar.",
+    "significance": "minor_update",
+    "entry_number": "42",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
+    "case_id": "university-of-tennessee-research-foundation-v-anthropic-pbc",
+    "case_name": "University of Tennessee Research Foundation v. Anthropic PBC",
+    "entry_date": "2026-10-21",
+    "summary": "Plaintiff University of Tennessee Research Foundation filed an answering brief opposing Anthropic's motion to dismiss for failure to state a claim. Anthropic's reply brief is due October 28, 2026, per local rules.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-10-22T18:02:04Z"
+  },
+  {
     "case_id": "levine-v-meta-platforms-inc",
     "case_name": "Levine v. Meta Platforms, Inc.",
     "entry_date": "2026-10-20",
