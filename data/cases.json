@@ -17985,5 +17985,71 @@
     },
     "plain_language_summary": "Reservoir Media Management, Inc. filed copyright infringement claims against Anthropic PBC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
     "docket_last_checked": "2026-10-23"
+  },
+  {
+    "id": "hewlett-packard-enterprise-company-v-wheeler",
+    "name": "Hewlett Packard Enterprise Company v. Wheeler",
+    "court": "District Court, D. Colorado",
+    "court_full": "District Court, D. Colorado",
+    "docket_number": "1:26-cv-05469",
+    "courtlistener_docket_id": "75015434",
+    "date_filed": "2026-10-23",
+    "claims": [
+      "copyright infringement",
+      "patent infringement",
+      "trade secret"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Hewlett Packard Enterprise Company",
+      "defendant": "Wheeler"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/75015434/hewlett-packard-enterprise-company-v-wheeler/",
+    "last_updated": "2026-10-24",
+    "discovered_date": "2026-10-24",
+    "case_intelligence": {
+      "case_theory": "Hewlett Packard Enterprise Company asserts copyright infringement, patent infringement, and trade secret claims against Wheeler involving patented software or technology.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how AI transparency obligations interact with trade-secret or confidential-information claims in a case asserting copyright infringement, patent infringement, and trade secret claims.",
+      "latest_change": "Latest meaningful event (2026-10-23): Hewlett Packard Enterprise Company filed the case against Wheeler.",
+      "latest_meaningful_event": "Hewlett Packard Enterprise Company filed the case against Wheeler.",
+      "latest_meaningful_event_date": "2026-10-23",
+      "claim_category": "trade_secret_or_transparency",
+      "claims_asserted": [
+        "copyright infringement",
+        "patent infringement",
+        "trade secret"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "patented software or technology",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-05469",
+          "court": "District Court, D. Colorado",
+          "courtlistener_url": "https://www.courtlistener.com/docket/75015434/hewlett-packard-enterprise-company-v-wheeler/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-10-23"
+        }
+      ]
+    },
+    "plain_language_summary": "Hewlett Packard Enterprise Company filed copyright infringement, patent infringement, and trade secret claims against Wheeler. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
