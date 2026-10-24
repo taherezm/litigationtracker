@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-10-23",
+    "summary": "Both parties, through Anthropic's counsel Joyce Liou, filed a Joint Case Management Statement on October 23, 2026, providing the court with a status update on the case as part of routine case management procedures.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-10-24T16:39:21Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-22",
+    "summary": "The court granted a motion allowing attorney David H. Kramer to appear as outside counsel in this case on a pro hac vice basis, meaning he is permitted to practice before the Southern District of New York for this matter even though he is not a member of that court's bar. Judge Loretta A. Preska signed the order on October 22, 2026, and Kramer remains subject to the court's local rules, including its attorney discipline rules.",
+    "significance": "minor_update",
+    "entry_number": "48",
+    "logged_at": "2026-10-24T16:39:21Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-22",
+    "summary": "The court granted a motion allowing attorney Maura L. Rees to appear as outside counsel in this case on a pro hac vice basis, meaning she is admitted to practice before the Southern District of New York for this matter only, subject to the court's local rules.",
+    "significance": "minor_update",
+    "entry_number": "47",
+    "logged_at": "2026-10-24T16:39:21Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-10-22",
+    "summary": "The court granted a motion allowing attorney Eric P. Tuttle to appear pro hac vice, permitting him to represent a party in this case before the Southern District of New York despite not being a member of that court's bar. Judge Loretta A. Preska signed the order on October 22, 2026, noting that Tuttle remains subject to the court's local rules, including its attorney discipline rules.",
+    "significance": "minor_update",
+    "entry_number": "46",
+    "logged_at": "2026-10-24T16:39:21Z"
+  },
+  {
     "case_id": "reservoir-media-management-inc-v-suno-inc",
     "case_name": "Reservoir Media Management, Inc. v. Suno, Inc.",
     "entry_date": "2026-10-22",
