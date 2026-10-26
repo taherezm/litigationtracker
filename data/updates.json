@@ -1,5 +1,68 @@
 [
   {
+    "case_id": "reservoir-media-management-inc-v-suno-inc",
+    "case_name": "Reservoir Media Management, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-23",
+    "summary": "Plaintiffs Reservoir Media Management (UK) Limited, Reservoir Media Management, Inc. , and Shapiro, Bernstein & Co. Limited filed a consent/declination form indicating their position on whether a U. S. Magistrate Judge should preside over the case.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-10-26T19:22:32Z"
+  },
+  {
+    "case_id": "reservoir-media-management-inc-v-anthropic-pbc",
+    "case_name": "Reservoir Media Management, Inc. v. Anthropic PBC",
+    "entry_date": "2026-10-23",
+    "summary": "Plaintiffs Reservoir Media Management (UK) Limited, Reservoir Media Management, Inc. , and Shapiro, Bernstein & Co. Limited filed a consent or declination form indicating whether they agree to have a U. S. Magistrate Judge preside over the case. This is a routine early-stage procedural filing that does not affect the merits of the dispute.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-10-26T19:22:32Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-10-26",
+    "summary": "The Clerk's Office reviewed a motion for attorney Anna B. Chauvet to appear pro hac vice—meaning to participate in the case without being admitted to the local bar—and found no deficiencies in the filing across more than two dozen related cases in the OpenAI multidistrict litigation.",
+    "significance": "minor_update",
+    "entry_number": "482763013",
+    "logged_at": "2026-10-26T19:22:32Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-10-26",
+    "summary": "A. I. Progress, Inc. filed a motion seeking permission for attorney Anna B. Chauvet, who is not admitted to the Southern District of New York, to appear in this case on a temporary basis, submitting supporting documents including certificates of good standing from the District of Columbia and Virginia bars.",
+    "significance": "minor_update",
+    "entry_number": "73",
+    "logged_at": "2026-10-26T19:22:32Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-10-23",
+    "summary": "Microsoft filed a letter motion asking Judge Sidney H. Stein to schedule oral argument on its oppositions to the Books Plaintiffs' and News Plaintiffs' motions for partial summary judgment.",
+    "significance": "minor_update",
+    "entry_number": "72",
+    "logged_at": "2026-10-26T19:22:32Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-10-23",
+    "summary": "Microsoft Corporation moved to seal certain documents, submitting a declaration from Lucky Vidmar in support of that request, in this multidistrict litigation proceeding.",
+    "significance": "minor_update",
+    "entry_number": "71",
+    "logged_at": "2026-10-26T19:22:32Z"
+  },
+  {
+    "case_id": "encyclopaedia-britannica-inc-v-openai-inc",
+    "case_name": "Encyclopaedia Britannica, Inc. v. OpenAI, Inc.",
+    "entry_date": "2026-10-23",
+    "summary": "Attorney Matthew Carl Berntsen filed a notice of appearance in this multidistrict litigation to represent A. I. Progress, Inc. , indicating that entity is now participating in the consolidated proceedings.",
+    "significance": "minor_update",
+    "entry_number": "70",
+    "logged_at": "2026-10-26T19:22:32Z"
+  },
+  {
     "case_id": "hewlett-packard-enterprise-company-v-wheeler",
     "case_name": "Hewlett Packard Enterprise Company v. Wheeler",
     "entry_date": "2026-10-23",
