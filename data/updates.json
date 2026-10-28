@@ -1,5 +1,77 @@
 [
   {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-27",
+    "summary": "Suno, Inc. filed an opposition to Apple Inc. 's motion to quash a deposition subpoena that Suno had issued, attaching a supporting declaration, a proposed order, and thirteen exhibits.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-10-28T18:53:45Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-10-27",
+    "summary": "Suno, Inc. filed an administrative motion asking the court to determine whether certain materials produced by Apple Inc. should be sealed from the public record, along with supporting declarations, a proposed order, Suno's opposition to Apple's motion to quash, and several attached exhibits.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-10-28T18:53:45Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-10-26",
+    "summary": "The court issued an amended notice scheduling an informal discovery hearing for October 29, 2026, at 11:00 a. m. before Judge Jacqueline Scott Corley via Zoom webinar, with counsel required to submit appearance lists by noon the prior day.",
+    "significance": "minor_update",
+    "entry_number": "53",
+    "logged_at": "2026-10-28T18:53:45Z"
+  },
+  {
+    "case_id": "tanzer-v-adobe-inc",
+    "case_name": "Tanzer v. Adobe Inc.",
+    "entry_date": "2026-10-26",
+    "summary": "The court's clerk scheduled an informal discovery hearing for October 22, 2026 at 11:00 a. m. before Judge Jacqueline Scott Corley, to be held via Zoom. Counsel wishing to appear on the record must submit their names to the court by noon on October 28, 2026, and all participants are prohibited from recording or rebroadcasting the proceeding.",
+    "significance": "minor_update",
+    "entry_number": "52",
+    "logged_at": "2026-10-28T18:53:45Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-10-26",
+    "summary": "The Clerk's Office reviewed and approved a motion for attorney Anna B. Chauvet to appear pro hac vice, finding no deficiencies in the submission. The motion, filed across more than two dozen related cases consolidated in the Southern District of New York, allows Chauvet to participate in this litigation without being a member of that court's bar.",
+    "significance": "minor_update",
+    "entry_number": "482912380",
+    "logged_at": "2026-10-28T18:53:45Z"
+  },
+  {
+    "case_id": "gracenote-media-services-llc-v-openai-foundation",
+    "case_name": "Gracenote Media Services, LLC v. OpenAI Foundation",
+    "entry_date": "2026-10-26",
+    "summary": "A. I. Progress, Inc. filed a motion seeking to admit attorney Anna B. Chauvet to practice before this court for this case only, submitting her affidavit and certificates of good standing from the District of Columbia and Virginia bars for review by the Clerk's Office.",
+    "significance": "minor_update",
+    "entry_number": "78",
+    "logged_at": "2026-10-28T18:53:45Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-10-27",
+    "summary": "The court granted a joint stipulation submitted by both parties, setting deadlines for Sony Music Publishing to file an amended complaint and establishing a briefing schedule for Anthropic's anticipated motion to dismiss.",
+    "significance": "minor_update",
+    "entry_number": "46",
+    "logged_at": "2026-10-28T18:53:45Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-10-26",
+    "summary": "Both parties jointly filed a stipulation proposing agreed-upon deadlines for Sony Music Publishing to file an amended complaint and for briefing on Anthropic's anticipated motion to dismiss. The court has not yet acted on the proposed schedule.",
+    "significance": "minor_update",
+    "entry_number": "45",
+    "logged_at": "2026-10-28T18:53:45Z"
+  },
+  {
     "case_id": "sullivan-v-openai-foundation-f-k-a-openai-inc",
     "case_name": "Sullivan v. OpenAI Foundation (f/k/a OpenAI Inc.)",
     "entry_date": "2026-10-26",
