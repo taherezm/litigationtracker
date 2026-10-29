@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "older-v-meta-platforms-inc",
+    "case_name": "Older v. Meta Platforms, Inc.",
+    "entry_date": "2026-10-26",
+    "summary": "Judge Ajay Krishnan issued a referral on October 26, 2026, to determine whether this case is related to a previously filed case, No. 3:23-cv-03417-VC. This is an administrative step that may result in the cases being assigned to the same judge if found to be related.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-10-29T18:58:33Z"
+  },
+  {
+    "case_id": "ted-entertainment-inc-v-openai-inc",
+    "case_name": "Ted Entertainment, Inc. v. OpenAI Inc.",
+    "entry_date": "2026-10-28",
+    "summary": "Plaintiff Ted Entertainment, Inc. filed a notice of voluntary dismissal on October 28, 2026, moving to end the case on its own accord without a court ruling on the merits.",
+    "significance": "case_resolved",
+    "entry_number": "48",
+    "logged_at": "2026-10-29T18:58:33Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-10-27",
+    "summary": "Both parties filed a joint case management statement on October 27, 2026, providing the court with information about the status and scheduling of the case. This is a routine administrative filing and does not reflect any court ruling or decision.",
+    "significance": "minor_update",
+    "entry_number": "166",
+    "logged_at": "2026-10-29T18:58:33Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-10-27",
+    "summary": "Both parties filed a joint stipulation with a proposed order asking the court to set terms for expert discovery. No court ruling has been issued yet; the proposal awaits judicial approval.",
+    "significance": "minor_update",
+    "entry_number": "165",
+    "logged_at": "2026-10-29T18:58:33Z"
+  },
+  {
     "case_id": "umg-recordings-inc-v-suno-inc-2",
     "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
     "entry_date": "2026-10-27",
