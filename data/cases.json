@@ -18652,5 +18652,68 @@
     },
     "plain_language_summary": "Hewlett Packard Enterprise Company asserts copyright infringement, patent infringement, and trade secret claims against Wheeler involving patented software or technology. The case is in motion practice. The case matters because it may affect how AI transparency obligations interact with trade-secret or confidential-information claims in a case asserting copyright infringement, patent infringement, and trade secret claims. Latest meaningful event (2026-10-23): Plaintiff Hewlett Packard Enterprise Company filed a motion seeking a temporary restraining order and preliminary injunction against defendant Wheeler, supported by four declarations and several exhibits including emails, browser search histories, and a Membership Interest Purchase Agreement.",
     "docket_last_checked": "2026-10-30"
+  },
+  {
+    "id": "rosen-v-pichai",
+    "name": "Rosen v. PICHAI",
+    "court": "District Court, N.D. Illinois",
+    "court_full": "District Court, N.D. Illinois",
+    "docket_number": "1:26-cv-13499",
+    "courtlistener_docket_id": "75052983",
+    "date_filed": "2026-10-30",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Rosen",
+      "defendant": "PICHAI"
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/75052983/rosen-v-pichai/",
+    "last_updated": "2026-10-31",
+    "discovered_date": "2026-10-31",
+    "case_intelligence": {
+      "case_theory": "Rosen asserts copyright infringement claims against PICHAI, but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-10-30): Rosen filed the case against PICHAI.",
+      "latest_meaningful_event": "Rosen filed the case against PICHAI.",
+      "latest_meaningful_event_date": "2026-10-30",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-13499",
+          "court": "District Court, N.D. Illinois",
+          "courtlistener_url": "https://www.courtlistener.com/docket/75052983/rosen-v-pichai/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-10-30"
+        }
+      ]
+    },
+    "plain_language_summary": "Rosen filed copyright infringement claims against PICHAI. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
