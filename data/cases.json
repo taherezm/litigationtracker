@@ -428,7 +428,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73359710/tanzer-v-adobe-inc/",
     "last_updated": "2026-10-28",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Tanzer asserts copyright infringement claims against Adobe Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in discovery.",
@@ -1176,7 +1176,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73043521/beaulier-v-nvidia-corporation/",
     "last_updated": "2026-09-02",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against NVIDIA Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -1438,7 +1438,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73061569/beaulier-v-microsoft-corporation/",
     "last_updated": "2026-08-27",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Beaulier asserts copyright infringement claims against Microsoft Corporation, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -1854,7 +1854,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73145933/ted-entertainment-inc-v-apple-inc/",
     "last_updated": "2026-10-19",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Ted Entertainment, Inc. asserts copyright infringement claims against Apple, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -2178,7 +2178,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72505713/chicken-soup-for-the-soul-llc-v-meta-platforms-inc/",
     "last_updated": "2026-10-29",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Meta Platforms Inc. involving books, educational, or publishing materials.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -2373,7 +2373,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73339887/cruz-v-anthropic-pbc/",
     "last_updated": "2026-09-15",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Cruz asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is stayed.",
@@ -2532,7 +2532,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73294478/cognella-inc-v-anthropic-pbc/",
     "last_updated": "2026-09-19",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Cognella, Inc. asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is stayed.",
@@ -2787,7 +2787,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73314131/chicken-soup-for-the-soul-llc-v-anthropic-pbc/",
     "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against Anthropic PBC, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is stayed: Court staff terminated Docket No. 14, a stipulation with proposed order to stay all deadlines and proceedings, because it was re-filed as Docket No. 16.",
@@ -2902,7 +2902,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72344359/businessing-llc-v-runway-ai-inc/",
     "last_updated": "2026-07-01",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Businessing LLC asserts copyright infringement claims against Runway AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in motion practice.",
@@ -4371,7 +4371,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73243293/seiu-pension-plan-master-trust-v-adobe-inc/",
     "last_updated": "2026-07-06",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "SEIU Pension Plan Master Trust asserts copyright infringement claims against Adobe Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in early service or case-administration steps.",
@@ -4801,27 +4801,272 @@
         "raw_text": "NOTICE OF APPEARANCE by Matthew Carl Berntsen on behalf of A.I. Progress, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Berntsen, Matthew) (Entered: 10/23/2026)",
         "summary": "Attorney Matthew Carl Berntsen filed a notice of appearance in this multidistrict litigation to represent A. I. Progress, Inc. , indicating that entity is now participating in the consolidated proceedings.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "483771849",
+        "date": "2026-10-28",
+        "raw_text": "***NOTICE TO ATTORNEY TO RE-FILE DOCUMENT - DEFICIENT DOCKET ENTRY ERROR. Notice to Attorney Brian Lawrence Frye to RE-FILE Document (1744 in 1:23-cv-11195-SHS-OTW, 33 in 1:26-cv-06966-SHS, 137 in 1:25-cv-09912-SHS, 50 in 1:26-cv-08082-SHS, 770 in 1:25-cv-04315-SHS-OTW, 976 in 1:24-cv-03285-SHS-OTW, 404 in 1:25-cv-03297-SHS-OTW, 842 in 1:24-cv-04872-SHS-OTW, 876 in 1:25-cv-03482-SHS-OTW, 143 in 1:25-cv-09904-SHS, 886 in 1:23-cv-10211-SHS-OTW, 1432 in 1:23-cv-08292-SHS-OTW, 167 in 1:25-cv-06286-SHS-OTW, 283 in 1:25-cv-03291-SHS-OTW, 331 in 1:25-cv-03483-SHS-OTW, 74 in 1:26-cv-05320-SHS, 659 in 1:24-cv-01515-SHS-OTW, 80 in 1:26-cv-01947-SHS, 464 in 1:24-cv-01514-SHS-OTW, 37 in 1:26-cv-07171-SHS, 2282 in 1:25-md-03143-SHS-OTW, 75 in 1:26-cv-02097-SHS, 143 in 1:26-cv-03625-SHS, 416 in 1:24-cv-00084-SHS-OTW, 54 in 1:26-cv-08892-SHS) PROPOSED LETTER MOTION to File Amicus Brief on Behalf of Neither Party addressed to Judge Sidney H. Stein from Brian L. Frye dated 10/28/2026. ERROR(S): No signature or s/. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.(db)",
+        "summary": "The court's filing system issued a notice directing attorney Brian Lawrence Frye to re-file a proposed letter motion seeking leave to submit an amicus brief on behalf of neither party, because the document was submitted without a required signature.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "483771852",
+        "date": "2026-10-29",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (288 in 1:25-cv-03291-SHS-OTW, 148 in 1:25-cv-09904-SHS, 59 in 1:26-cv-08892-SHS, 776 in 1:25-cv-04315-SHS-OTW, 42 in 1:26-cv-07171-SHS, 469 in 1:24-cv-01514-SHS-OTW, 55 in 1:26-cv-08082-SHS, 984 in 1:24-cv-03285-SHS-OTW, 1752 in 1:23-cv-11195-SHS-OTW, 666 in 1:24-cv-01515-SHS-OTW, 2296 in 1:25-md-03143-SHS-OTW, 881 in 1:25-cv-03482-SHS-OTW, 336 in 1:25-cv-03483-SHS-OTW, 1438 in 1:23-cv-08292-SHS-OTW, 79 in 1:26-cv-05320-SHS, 409 in 1:25-cv-03297-SHS-OTW, 892 in 1:23-cv-10211-SHS-OTW, 172 in 1:25-cv-06286-SHS-OTW, 148 in 1:26-cv-03625-SHS, 142 in 1:25-cv-09912-SHS, 421 in 1:24-cv-00084-SHS-OTW, 85 in 1:26-cv-01947-SHS, 80 in 1:26-cv-02097-SHS, 38 in 1:26-cv-06966-SHS, 850 in 1:24-cv-04872-SHS-OTW) MOTION for Laura K. Oswell to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33686551. Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficiencies. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.(rju)",
+        "summary": "A motion was filed to admit attorney Laura K. Oswell to appear pro hac vice across numerous related cases in this consolidated litigation, and the Clerk's Office reviewed the submission and found no deficiencies.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "483771851",
+        "date": "2026-10-29",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (2296 in 1:25-md-03143-SHS-OTW) MOTION for Laura K. Oswell to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33686551. Motion and supporting papers to be reviewed by Clerk's Office staff. The document has been reviewed and there are no deficiencies. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.(sar)",
+        "summary": "The Clerk's Office reviewed a motion to admit attorney Laura K. Oswell to practice before the court in this case on a pro hac vice basis and found no deficiencies in the filing, which was accompanied by a $200 fee.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "483771850",
+        "date": "2026-10-29",
+        "raw_text": ">>>NOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. (665 in 1:24-cv-01515-SHS-OTW, 147 in 1:25-cv-09904-SHS, 775 in 1:25-cv-04315-SHS-OTW, 37 in 1:26-cv-06966-SHS, 84 in 1:26-cv-01947-SHS, 1751 in 1:23-cv-11195-SHS-OTW, 335 in 1:25-cv-03483-SHS-OTW, 408 in 1:25-cv-03297-SHS-OTW, 58 in 1:26-cv-08892-SHS, 880 in 1:25-cv-03482-SHS-OTW, 78 in 1:26-cv-05320-SHS, 41 in 1:26-cv-07171-SHS, 141 in 1:25-cv-09912-SHS, 468 in 1:24-cv-01514-SHS-OTW, 147 in 1:26-cv-03625-SHS, 2294 in 1:25-md-03143-SHS-OTW, 79 in 1:26-cv-02097-SHS, 983 in 1:24-cv-03285-SHS-OTW, 420 in 1:24-cv-00084-SHS-OTW, 849 in 1:24-cv-04872-SHS-OTW, 891 in 1:23-cv-10211-SHS-OTW, 1437 in 1:23-cv-08292-SHS-OTW, 54 in 1:26-cv-08082-SHS, 171 in 1:25-cv-06286-SHS-OTW, 287 in 1:25-cv-03291-SHS-OTW) MOTION for Brendan P. Cullen to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. The document has been reviewed and there are no deficiencies. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.(sar)",
+        "summary": "The Clerk's Office reviewed and approved a motion for attorney Brendan P. Cullen to appear pro hac vice, finding no deficiencies in the submission. The motion is now pending and applies across more than two dozen related cases consolidated in this multidistrict litigation.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "105",
+        "date": "2026-10-30",
+        "raw_text": "LETTER MOTION to File Amicus Brief Institute for Intellectual Property and Social Justic Amici Curiae Brief addressed to Judge Sidney H. Stein from Lateef Mtima dated 10/30/2026. Document filed by Lateef Mtima. (Attachments: # 1 Exhibit IIPSJ Amici Curiae Brief)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Mtima, Lateef) (Entered: 10/30/2026)",
+        "summary": "Lateef Mtima filed a letter motion on behalf of the Institute for Intellectual Property and Social Justice (IIPSJ) asking Judge Sidney H. Stein for permission to submit an amicus curiae (friend of the court) brief, attaching the proposed brief as an exhibit.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "104",
+        "date": "2026-10-30",
+        "raw_text": "LETTER MOTION to File Amicus Brief of Gregory Leppert addressed to Judge Sidney H. Stein from Matthew S. Warren dated 10/30/2026. Document filed by Gregory Leppert. (Attachments: # 1 Exhibit 1[Proposed] Brief of Amicus Curiae Gregory Leppert in Support of Defendants, # 2 Exhibit 2[Proposed] Order Granting Gregory Leppert's Motion for Leave to File Amicus Curiae Brief in Support of Defendants)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Warren, Matthew) (Entered: 10/30/2026)",
+        "summary": "Gregory Leppert, through attorney Matthew Warren, filed a letter motion asking Judge Sidney H. Stein for permission to submit an amicus curiae (friend of the court) brief in support of the defendants, OpenAI and related parties.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "103",
+        "date": "2026-10-30",
+        "raw_text": "MEMORANDUM OF LAW in Support re: (107 in 1:26-cv-01947-SHS, 163 in 1:25-cv-09912-SHS, 80 in 1:26-cv-08892-SHS, 357 in 1:25-cv-03483-SHS-OTW, 906 in 1:25-cv-03482-SHS-OTW, 169 in 1:25-cv-09904-SHS, 932 in 1:23-cv-10211-SHS-OTW, 169 in 1:26-cv-03625-SHS, 490 in 1:24-cv-01514-SHS-OTW, 100 in 1:26-cv-05320-SHS, 63 in 1:26-cv-07171-SHS, 101 in 1:26-cv-02097-SHS, 430 in 1:25-cv-03297-SHS-OTW, 444 in 1:24-cv-00084-SHS-OTW, 835 in 1:25-cv-04315-SHS-OTW, 887 in 1:24-cv-04872-SHS-OTW, 1021 in 1:24-cv-03285-SHS-OTW, 76 in 1:26-cv-08082-SHS, 59 in 1:26-cv-06966-SHS, 2438 in 1:25-md-03143-SHS-OTW, 309 in 1:25-cv-03291-SHS-OTW, 193 in 1:25-cv-06286-SHS-OTW, 701 in 1:24-cv-01515-SHS-OTW, 1504 in 1:23-cv-08292-SHS-OTW, 1817 in 1:23-cv-11195-SHS-OTW) MOTION to File Amicus Brief . . Document filed by Joseph Stiglitz. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Roller, Jeremy) (Entered: 10/30/2026)",
+        "summary": "Nobel Prize-winning economist Joseph Stiglitz filed a memorandum of law in support of a motion seeking the court's permission to submit an amicus curiae ('friend of the court') brief across this large group of coordinated cases against OpenAI.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "102",
+        "date": "2026-10-30",
+        "raw_text": "NOTICE OF APPEARANCE by Matthew Stewart Warren on behalf of Gregory Leppert. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Warren, Matthew) (Entered: 10/30/2026)",
+        "summary": "Attorney Matthew Stewart Warren filed a notice of appearance representing Gregory Leppert in this multidistrict litigation proceeding. This filing indicates Warren is joining as counsel of record across the associated cases in the MDL.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "101",
+        "date": "2026-10-30",
+        "raw_text": "MOTION to File Amicus Brief . Document filed by Joseph Stiglitz. (Attachments: # 1 Exhibit Proposed Brief of Professor Joseph Stiglitz As Amicus Curiae In Support of Plaintiffs, # 2 Proposed Order Proposed Order Granting Leave to File Brief of Professor Joseph Stiglitz As Amicus Curiae in Support of Plaintiffs)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Roller, Jeremy) (Entered: 10/30/2026)",
+        "summary": "Nobel Prize-winning economist Professor Joseph Stiglitz moved for leave to file an amicus curiae brief in support of the plaintiffs, submitting a proposed brief and a proposed order for the court's consideration.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "100",
+        "date": "2026-10-30",
+        "raw_text": "MOTION to File Amicus Brief of Khosla Ventures, LLC. Document filed by Khosla Ventures, LLC.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Cullen, Brendan) (Entered: 10/30/2026)",
+        "summary": "Khosla Ventures, LLC filed a motion seeking the court's permission to submit an amicus brief in this multidistrict litigation proceeding.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "99",
+        "date": "2026-10-30",
+        "raw_text": "MEMORANDUM OF LAW in Support re: (94 in 1:26-cv-05320-SHS, 57 in 1:26-cv-07171-SHS, 924 in 1:23-cv-10211-SHS-OTW, 484 in 1:24-cv-01514-SHS-OTW, 74 in 1:26-cv-08892-SHS, 163 in 1:25-cv-09904-SHS, 101 in 1:26-cv-01947-SHS, 900 in 1:25-cv-03482-SHS-OTW, 303 in 1:25-cv-03291-SHS-OTW, 1015 in 1:24-cv-03285-SHS-OTW, 2417 in 1:25-md-03143-SHS-OTW, 436 in 1:24-cv-00084-SHS-OTW, 1495 in 1:23-cv-08292-SHS-OTW, 828 in 1:25-cv-04315-SHS-OTW, 424 in 1:25-cv-03297-SHS-OTW, 187 in 1:25-cv-06286-SHS-OTW, 163 in 1:26-cv-03625-SHS, 351 in 1:25-cv-03483-SHS-OTW, 70 in 1:26-cv-08082-SHS, 695 in 1:24-cv-01515-SHS-OTW, 157 in 1:25-cv-09912-SHS, 1810 in 1:23-cv-11195-SHS-OTW, 95 in 1:26-cv-02097-SHS, 53 in 1:26-cv-06966-SHS, 881 in 1:24-cv-04872-SHS-OTW) MOTION to File Amicus Brief . . Document filed by Cate Blanchett, Creative Artists Agency, LLC, Creators Coalition on Artificial Intelligence, Nick Hexum, Music Artists Coalition, National Association of Voice Actors, Steven Soderbergh, The Human Consent Foundation, Writer, Inc.. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Ackerman, Marc) (Entered: 10/30/2026)",
+        "summary": "A group of proposed amici — including actors Cate Blanchett and Steven Soderbergh, director Steven Soderbergh, Creative Artists Agency, the Music Artists Coalition, the National Association of Voice Actors, and several other creator-focused organizations — filed a memorandum of law supporting a motion for leave to file an amicus brief across dozens of related cases consolidated in the OpenAI multidistrict litigation in the Southern District of New York.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "98",
+        "date": "2026-10-30",
+        "raw_text": "LETTER MOTION to File Amicus Brief addressed to Judge Sidney H. Stein from Eric K. Nikolaides dated October 30, 2026. Document filed by Computer and Communications Industry Association, NetChoice, LLC, TechNet. (Attachments: # 1 Exhibit A - Amicus Curiae Br. of CCIA, NetChoice, and TechNet, # 2 Proposed Order ([Proposed] Order))Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Nikolaides, Eric) (Entered: 10/30/2026)",
+        "summary": "Three trade associations—the Computer and Communications Industry Association, NetChoice, and TechNet—filed a letter motion asking Judge Sidney H. Stein for permission to submit an amicus curiae (friend of the court) brief in support of a position in this case. The proposed brief is attached to the motion along with a proposed order for the court's consideration.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "97",
+        "date": "2026-10-30",
+        "raw_text": "MOTION for Serge A. Voronov to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33700712. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Mike Knoop, Professor Daniel Lowd, Professor Douglas C Schmidt. (Attachments: # 1 Exhibit - Declaration in Support, # 2 Exhibit - CA Certificate of Good Standing, # 3 Exhibit - Proposed Order for Admission Pro Hac Vice)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Voronov, Serge) (Entered: 10/30/2026)",
+        "summary": "Defendants Mike Knoop, Professor Daniel Lowd, and Professor Douglas C. Schmidt filed a motion to admit attorney Serge A. Voronov as pro hac vice counsel, paying the $200 filing fee, with supporting materials including a declaration and a California certificate of good standing submitted for clerk review.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "96",
+        "date": "2026-10-30",
+        "raw_text": "MOTION to File Amicus Brief . Document filed by Progressive Democrats of American, RadicalxChange, The Tech Oversight Project, Walter Scheirer, Young People's Alliance. (Attachments: # 1 Exhibit A Proposed Amicus Brief, # 2 Supplement Memorandum in Support of Motion, # 3 Proposed Order Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Huff, Kylie) (Entered: 10/30/2026)",
+        "summary": "Five organizations and one individual — Progressive Democrats of America, RadicalxChange, The Tech Oversight Project, Walter Scheirer, and Young People's Alliance — moved for permission to file an amicus brief in this consolidated multidistrict litigation, submitting a proposed brief, a supporting memorandum, and a proposed order along with their motion.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "95",
+        "date": "2026-10-30",
+        "raw_text": "MOTION to File Amicus Brief . Document filed by Cate Blanchett, Creative Artists Agency, LLC, Creators Coalition on Artificial Intelligence, Nick Hexum, Music Artists Coalition, National Association of Voice Actors, Steven Soderbergh, The Human Consent Foundation, Writer, Inc.. (Attachments: # 1 Exhibit A - Proposed Brief, # 2 Exhibit B - Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Ackerman, Marc) (Entered: 10/30/2026)",
+        "summary": "A group of artists, entertainment industry organizations, and advocacy groups — including actress Cate Blanchett, director Steven Soderbergh, the Creative Artists Agency, the National Association of Voice Actors, and others — moved to file an amicus brief in this multidistrict litigation, submitting a proposed brief and proposed order as attachments.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "94",
+        "date": "2026-10-30",
+        "raw_text": "ORDER: On October 28, 2026, attorney Brian L. Frye filed a proposed letter motion to file an amicus brief. (Dkt. No. 2282.) However, the filing does not request leave to file the amicus brief, in violation of the Court's Order on amicus filings. (Dkt. No. 1663.) IT IS HEREBY ORDERED that the Clerk of Court is directed to dismiss the motion. Mr. Frye may refile if he chooses. (Signed by Judge Sidney H. Stein on 10/30/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (rro) (Entered: 10/30/2026)",
+        "summary": "The court ordered the clerk to dismiss a proposed letter motion filed by attorney Brian L. Frye on October 28, 2026, because the filing sought to submit an amicus brief without properly requesting leave to do so, as required by a prior court order. The court noted that Frye may refile the motion correctly if he chooses.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "93",
+        "date": "2026-10-30",
+        "raw_text": "LETTER MOTION to File Amicus Brief of Electronic Frontier Foundation addressed to Judge Sidney H. Stein from Victoria J. Noble dated October 30, 2026. Document filed by Electronic Frontier Foundation. (Attachments: # 1 Exhibit Proposed Brief of Amicus Curiae)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Noble, Victoria) (Entered: 10/30/2026)",
+        "summary": "The Electronic Frontier Foundation filed a letter motion asking Judge Sidney H. Stein for permission to submit an amicus curiae (friend of the court) brief in this case, attaching a proposed version of that brief.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "92",
+        "date": "2026-10-30",
+        "raw_text": "MEMORANDUM OF LAW in Support re: (70 in 1:26-cv-08892-SHS) MOTION to File Amicus Brief . . Document filed by Members of Congress. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Powers, Richard) (Entered: 10/30/2026)",
+        "summary": "Members of Congress filed a memorandum of law in support of their motion for leave to submit an amicus brief in this case, which is part of a consolidated multidistrict litigation proceeding.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "91",
+        "date": "2026-10-30",
+        "raw_text": "MOTION to File Amicus Brief . Document filed by Members of Congress. (Attachments: # 1 Exhibit Exhibit A - Amicus Brief, # 2 Proposed Order Exhibit B - Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Powers, Richard) (Entered: 10/30/2026)",
+        "summary": "Members of Congress filed a motion seeking the court's permission to submit an amicus brief in this consolidated multidistrict litigation, attaching the proposed brief and a proposed order for the court's consideration.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "90",
+        "date": "2026-10-30",
+        "raw_text": "NOTICE OF APPEARANCE by Candice Yandam Riviere on behalf of Mike Knoop, Professor Daniel Lowd, Professor Douglas C Schmidt. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Yandam Riviere, Candice) (Entered: 10/30/2026)",
+        "summary": "Attorney Candice Yandam Riviere filed a notice of appearance to represent Mike Knoop, Professor Daniel Lowd, and Professor Douglas C. Schmidt in this multidistrict litigation proceeding.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "89",
+        "date": "2026-10-30",
+        "raw_text": "MEMORANDUM OF LAW in Support re: (2385 in 1:25-md-03143-SHS-OTW) MOTION to File Amicus Brief of Amici Curiae AI Coalition for Data Integrity et al. in Support of Plaintiffs' Motions for Summary Judgment. . Document filed by AI Coalition for Data Integrity, Association of Independent Music Publishers, Association of Medical Illustrators, Digital Media Licensing Association, Inc. d/b/a Digital Media Leadership Alliance, Microstocksolutions LLC, Music Workers Alliance, Inc., National Association of Voice Actors, Transparency Coalition AI, Writers Guild of America East, Inc., Writers Guild of America West Inc. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Cohen, Tod) (Entered: 10/30/2026)",
+        "summary": "A group of organizations calling itself the AI Coalition for Data Integrity, along with co-amici including the Writers Guild of America East and West, the National Association of Voice Actors, and several other creative industry groups, filed a memorandum of law supporting their motion for leave to submit an amicus brief in support of plaintiffs' pending motions for summary judgment.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "88",
+        "date": "2026-10-30",
+        "raw_text": "DECLARATION of Tod Cohen in Support re: (2385 in 1:25-md-03143-SHS-OTW) MOTION to File Amicus Brief of Amici Curiae AI Coalition for Data Integrity et al. in Support of Plaintiffs' Motions for Summary Judgment.. Document filed by Microstocksolutions LLC, AI Coalition for Data Integrity, Association of Independent Music Publishers, Association of Medical Illustrators, Digital Media Licensing Association, Inc. d/b/a Digital Media Leadership Alliance, Music Workers Alliance, Inc., National Association of Voice Actors, Transparency Coalition AI, Writers Guild of America East, Inc., Writers Guild of America West Inc. (Attachments: # 1 Exhibit Proposed Brief of Amici Curiae)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Cohen, Tod) (Entered: 10/30/2026)",
+        "summary": "Tod Cohen filed a declaration on behalf of a group of amici curiae—including the Writers Guild of America East and West, the National Association of Voice Actors, and several digital media and music organizations—in support of a motion seeking the court's permission to file an amicus brief backing plaintiffs' motions for summary judgment. The filing includes a proposed amicus brief as an exhibit.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "87",
+        "date": "2026-10-30",
+        "raw_text": "LETTER MOTION to File Amicus Brief addressed to Judge Sidney H. Stein from Andrew J. Pincus dated October 30, 2026. Document filed by Joshua S. Gans. (Attachments: # 1 Exhibit A - Proposed Amicus Brief, # 2 Exhibit B - Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Pincus, Andrew) (Entered: 10/30/2026)",
+        "summary": "Attorney Andrew J. Pincus, on behalf of Joshua S. Gans, filed a letter motion asking Judge Sidney H. Stein for permission to submit an amicus brief in this multidistrict litigation, attaching a proposed amicus brief and a proposed order for the court's consideration.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "86",
+        "date": "2026-10-30",
+        "raw_text": "LETTER MOTION to File Amicus Brief of Professors Pamela Samuelson and Christopher Jon Sprigman addressed to Judge Sidney H. Stein from Jason M. Schultz dated October 30, 2026. Document filed by Jason M. Schultz, Pamela Samuelson, Christopher Jon Sprigman. (Attachments: # 1 Exhibit Proposed Brief of Amicus Curiae, # 2 Exhibit Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Schultz, Jason) (Entered: 10/30/2026)",
+        "summary": "Law professors Pamela Samuelson and Christopher Jon Sprigman, represented by Jason M. Schultz, filed a letter motion asking Judge Sidney H. Stein for permission to submit an amicus curiae brief in this case, attaching a proposed brief and proposed order for the court's consideration.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "85",
+        "date": "2026-10-29",
+        "raw_text": "LETTER MOTION to File Amicus Brief of Wikimedia Foundation addressed to Judge Sidney H. Stein from Rhett Millsaps dated 10/29/2026. Document filed by Wikimedia Foundation, Inc.. (Attachments: # 1 Exhibit A - Proposed Amicus Brief)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Millsaps, Rhett) (Entered: 10/29/2026)",
+        "summary": "The Wikimedia Foundation filed a letter motion asking Judge Sidney H. Stein for permission to submit an amicus brief in this case, attaching its proposed brief as an exhibit.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "84",
+        "date": "2026-10-29",
+        "raw_text": "LETTER MOTION to File Amicus Brief of Engine Advocacy, et al. addressed to Judge Sidney H. Stein from Marc Hearron dated 10/29/2026. Document filed by Engine Advocacy. (Attachments: # 1 Exhibit Proposed Amicus Brief of Engine Advocacy, et al., # 2 Proposed Order Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hearron, Marc) (Entered: 10/29/2026)",
+        "summary": "Engine Advocacy filed a letter motion asking Judge Sidney H. Stein for permission to submit an amicus brief in support of a position in this case, attaching both the proposed brief and a proposed order for the court's consideration.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "83",
+        "date": "2026-10-29",
+        "raw_text": "MEMORANDUM OF LAW in Support re: (423 in 1:24-cv-00084-SHS-OTW, 411 in 1:25-cv-03297-SHS-OTW, 44 in 1:26-cv-07171-SHS, 338 in 1:25-cv-03483-SHS-OTW, 471 in 1:24-cv-01514-SHS-OTW, 2325 in 1:25-md-03143-SHS-OTW, 61 in 1:26-cv-08892-SHS, 793 in 1:25-cv-04315-SHS-OTW, 991 in 1:24-cv-03285-SHS-OTW, 88 in 1:26-cv-01947-SHS, 290 in 1:25-cv-03291-SHS-OTW, 40 in 1:26-cv-06966-SHS, 150 in 1:25-cv-09904-SHS, 174 in 1:25-cv-06286-SHS-OTW, 57 in 1:26-cv-08082-SHS, 671 in 1:24-cv-01515-SHS-OTW, 144 in 1:25-cv-09912-SHS, 81 in 1:26-cv-05320-SHS, 857 in 1:24-cv-04872-SHS-OTW, 898 in 1:23-cv-10211-SHS-OTW, 885 in 1:25-cv-03482-SHS-OTW, 1773 in 1:23-cv-11195-SHS-OTW, 150 in 1:26-cv-03625-SHS, 1457 in 1:23-cv-08292-SHS-OTW, 82 in 1:26-cv-02097-SHS) MOTION for Leave to File Amicus Brief . . Document filed by Digital Content Next. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hill, Jack) (Entered: 10/29/2026)",
+        "summary": "Digital Content Next, a trade association, filed a memorandum of law supporting its motion for leave to submit an amicus brief in this consolidated multidistrict litigation against OpenAI.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "82",
+        "date": "2026-10-29",
+        "raw_text": "MOTION for Leave to File Amicus Brief . Document filed by Digital Content Next. (Attachments: # 1 Exhibit A, # 2 Exhibit B, # 3 Proposed Order Proposed Order)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Hill, Jack) (Entered: 10/29/2026)",
+        "summary": "Digital Content Next, a trade association, moved for leave to file an amicus curiae (friend of the court) brief in this multidistrict litigation, submitting a proposed order and two exhibits in support of its request.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "81",
+        "date": "2026-10-29",
+        "raw_text": "LETTER MOTION to File Amicus Brief of Professor Matthew Sag addressed to Judge Sidney H. Stein from Ethan Jacobs dated October 29, 2026. Document filed by Matthew Sag. (Attachments: # 1 Exhibit Proposed Brief of Amicus Curiae, # 2 Proposed Order Granting Leave to File Brief of Professor Matthew Sag as Amicus Curiae)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Jacobs, Ethan) (Entered: 10/29/2026)",
+        "summary": "Professor Matthew Sag, through attorney Ethan Jacobs, filed a letter motion asking Judge Sidney H. Stein for permission to submit an amicus curiae (friend of the court) brief in this multidistrict litigation. The proposed brief and a proposed order granting leave to file were attached to the motion.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "80",
+        "date": "2026-10-28",
+        "raw_text": "MOTION for Laura K. Oswell to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number NYSDC-33686551. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Khosla Ventures, LLC. (Attachments: # 1 Affidavit in Support of Admission Pro Hac Vice, # 2 Exhibit Certificate of Good Standing, # 3 Proposed Order for Admission Pro Hac Vice)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Oswell, Laura) (Entered: 10/28/2026)",
+        "summary": "Khosla Ventures, LLC moved to admit attorney Laura K. Oswell to appear pro hac vice in this case, paying the $200 filing fee and submitting supporting documents including an affidavit and certificate of good standing for clerk review.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "79",
+        "date": "2026-10-28",
+        "raw_text": "MOTION for Brendan P. Cullen to Appear Pro Hac Vice . Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Khosla Ventures, LLC. (Attachments: # 1 Affidavit in Support of Admission Pro Hac Vice, # 2 Exhibit Certificate of Good Standing (, # 3 Proposed Order for Admission Pro Hac Vice)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Cullen, Brendan) (Entered: 10/28/2026)",
+        "summary": "Khosla Ventures, LLC filed a motion seeking to admit attorney Brendan P. Cullen to appear in this case pro hac vice, allowing him to represent the party despite not being a member of the local bar. The motion and supporting documents, including a certificate of good standing and a proposed order, are pending review by the Clerk's Office.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "78",
+        "date": "2026-10-28",
+        "raw_text": "***SEALED***DECLARATION of Angela L. Dunning in Support re: (56 in 1:26-cv-08892-SHS) LETTER MOTION to Seal addressed to Judge Sidney H. Stein from Angela L. Dunning dated October 28, 2026.. Document filed by Amazon.com, Inc.. (Attachments: # 1 Exhibit A - Proposed Redactions to Defendants' Response to Class Plaintiffs' Rule 56.1 Statement, # 2 Exhibit B - Proposed Redactions to Defendants' Response to News Plaintiffs' Rule 56.1 Statement, # 3 Exhibit C - Proposed Redactions to Defendant Microsoft Corporation's Opposition to Books Plaintiffs' Motion for Partial Summary Judgment, # 4 Exhibit D - Proposed Redactions to Class and News Plaintiffs' Response to OpenAI's Statement of Undisputed Material Facts in Support of its Motion for Summary Judgment, # 5 Exhibit E - Proposed Redactions to Defendant OpenAI, Inc.'s Opposition to Class Plaintiffs' Motion for Summary Judgment, # 6 Exhibit F - Proposed Redactions to Class Plaintiffs' Counterstatement of Material Facts in Opposition to OpenAI's Motion for Summary Judgment, # 7 Exhibit G - Proposed Redactions to Class Plaintiffs' Memorandum of Law in Opposition to Microsoft's Motion for Summary Judgment, # 8 Exhibit H - Proposed Redactions to Class Plaintiffs' Memorandum of Law in Opposition to OpenAI Defendants' Motion for Summary Judgment, # 9 Exhibit I - Proposed Redactions to Class Plaintiffs' Response to Microsoft's Rule 56.1 Statement)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al.Motion or Order to File Under Seal: 2290 .(Dunning, Angela) (Entered: 10/28/2026)",
+        "summary": "Amazon. com, Inc. filed a sealed declaration by attorney Angela L. Dunning in support of a motion to seal, attaching proposed redactions to numerous summary judgment briefs and supporting documents filed by multiple parties across this multidistrict litigation.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "77",
+        "date": "2026-10-28",
+        "raw_text": "LETTER MOTION to Seal addressed to Judge Sidney H. Stein from Angela L. Dunning dated October 28, 2026. Document filed by Amazon.com, Inc.. (Attachments: # 1 Proposed Order on Amazon.com, Inc.'s Motion to Seal)Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Dunning, Angela) (Entered: 10/28/2026)",
+        "summary": "Amazon. com, Inc. filed a letter motion asking Judge Sidney H. Stein to seal certain documents, along with a proposed sealing order, in connection with this multidistrict litigation.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "76",
+        "date": "2026-10-28",
+        "raw_text": "PROPOSED LETTER MOTION to File Amicus Brief On Behald of Neither Party addressed to Judge Sidney H. Stein from Brian L. Frye dated 10/28/2026. Document filed by Brian L Frye.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Frye, Brian) (Entered: 10/28/2026)",
+        "summary": "Brian L. Frye filed a proposed letter motion requesting the court's permission to submit an amicus brief on behalf of neither party, addressed to Judge Sidney H. Stein and filed across the consolidated MDL cases.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "75",
+        "date": "2026-10-28",
+        "raw_text": "FILING ERROR - DEFICIENT DOCKET ENTRY - PROPOSED LETTER MOTION to File Amicus Brief on Behalf of Neither Party addressed to Judge Sidney H. Stein from Brian L. Frye dated 10/28/2026. Document filed by Brian L Frye.Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al..(Frye, Brian) Modified on 10/28/2026 (db). (Entered: 10/28/2026)",
+        "summary": "Attorney Brian L. Frye filed a proposed letter motion seeking permission to submit an amicus brief on behalf of neither party, addressed to Judge Sidney H. Stein; however, the court's docketing staff flagged the entry as deficient due to a filing error, and the submission was modified on the same date.",
+        "significance": "minor_update"
       }
     ],
-    "plain_language_summary": "Encyclopaedia Britannica, Inc. asserts copyright infringement claims against OpenAI, Inc. over alleged AI-generated output involving news or journalism content and Project Giraffe. The case is stayed. The case matters because it may affect how related AI litigation is coordinated before merits rulings. Latest meaningful event (2026-10-26): The Clerk's Office reviewed a motion for attorney Anna B. Chauvet to appear pro hac vice—meaning to participate in the case without being admitted to the local bar—and found no deficiencies in the filing across more than two dozen related cases in the OpenAI multidistrict litigation.",
+    "plain_language_summary": "Encyclopaedia Britannica, Inc. asserts copyright infringement claims against OpenAI, Inc. over alleged AI-generated output involving music, audio, or sound-recording works and Project Giraffe. The case is stayed. The case matters because it may affect how related AI litigation is coordinated before merits rulings. Latest meaningful event (2026-10-30): Lateef Mtima filed a letter motion on behalf of the Institute for Intellectual Property and Social Justice (IIPSJ) asking Judge Sidney H. Stein for permission to submit an amicus curiae (friend of the court) brief, attaching the proposed brief as an exhibit.",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/72492986/encyclopaedia-britannica-inc-v-openai-inc/",
-    "last_updated": "2026-10-26",
+    "last_updated": "2026-11-01",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
-      "case_theory": "Encyclopaedia Britannica, Inc. asserts copyright infringement claims against OpenAI, Inc. over alleged AI-generated output involving news or journalism content and Project Giraffe.",
+      "case_theory": "Encyclopaedia Britannica, Inc. asserts copyright infringement claims against OpenAI, Inc. over alleged AI-generated output involving music, audio, or sound-recording works and Project Giraffe.",
       "current_posture": "The case is stayed.",
       "why_it_matters": "The case matters because it may affect how related AI litigation is coordinated before merits rulings.",
-      "latest_change": "Latest meaningful event (2026-10-26): The Clerk's Office reviewed a motion for attorney Anna B. Chauvet to appear pro hac vice—meaning to participate in the case without being admitted to the local bar—and found no deficiencies in the filing across more than two dozen related cases in the OpenAI multidistrict litigation.",
-      "latest_meaningful_event": "The Clerk's Office reviewed a motion for attorney Anna B. Chauvet to appear pro hac vice—meaning to participate in the case without being admitted to the local bar—and found no deficiencies in the filing across more than two dozen related cases in the OpenAI multidistrict litigation.",
-      "latest_meaningful_event_date": "2026-10-26",
-      "claim_category": "copyright_news_or_publishing",
+      "latest_change": "Latest meaningful event (2026-10-30): Lateef Mtima filed a letter motion on behalf of the Institute for Intellectual Property and Social Justice (IIPSJ) asking Judge Sidney H. Stein for permission to submit an amicus curiae (friend of the court) brief, attaching the proposed brief as an exhibit.",
+      "latest_meaningful_event": "Lateef Mtima filed a letter motion on behalf of the Institute for Intellectual Property and Social Justice (IIPSJ) asking Judge Sidney H. Stein for permission to submit an amicus curiae (friend of the court) brief, attaching the proposed brief as an exhibit.",
+      "latest_meaningful_event_date": "2026-10-30",
+      "claim_category": "copyright_music_or_audio",
       "claims_asserted": [
         "copyright infringement"
       ],
       "ai_conduct_alleged": "AI-generated output",
-      "works_or_data_at_issue": "news or journalism content",
+      "works_or_data_at_issue": "music, audio, or sound-recording works",
       "technology_or_model_at_issue": "Project Giraffe",
       "procedural_stage": "stayed",
       "pending_motion_or_next_event": "summary judgment motions",
@@ -4848,8 +5093,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "482763013",
-          "date": "2026-10-26"
+          "entry_number": "105",
+          "date": "2026-10-30"
         }
       ]
     }
@@ -4930,7 +5175,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73399431/tesseract-systems-llc-v-soundhound-inc/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Tesseract Systems LLC asserts patent infringement claims against SoundHound, Inc. involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -7340,7 +7585,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73402641/cable-news-network-inc-v-perplexity-ai-inc/",
     "last_updated": "2026-10-01",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Cable News Network Inc asserts copyright infringement claims against Perplexity AI, Inc. involving news or journalism content and Perplexity AI.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -7453,7 +7698,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73231690/true-footage-inc-v-automax-ai-inc/",
     "last_updated": "2026-10-14",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "True Footage Inc. asserts copyright infringement claims against Automax AI Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is in discovery.",
@@ -7736,7 +7981,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72518947/xai-llc-v-bonta/",
     "last_updated": "2026-09-11",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "X.AI LLC asserts trade secret claims against Bonta involving confidential or trade-secret information.",
       "current_posture": "The case is on appeal.",
@@ -8225,7 +8470,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72384605/gracenote-media-services-llc-v-openai-foundation/",
     "last_updated": "2026-10-28",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Gracenote Media Services, LLC asserts copyright infringement claims against OpenAI Foundation over alleged AI-generated output involving news or journalism content and Project Giraffe.",
       "current_posture": "The case is stayed.",
@@ -8592,7 +8837,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72495765/doe-1-v-xai-corp/",
     "last_updated": "2026-10-22",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-10-30",
+    "docket_last_checked": "2026-11-01",
     "case_intelligence": {
       "case_theory": "Doe 1 asserts privacy or consumer protection claims against X.AI Corp. over alleged collection or use of personal data in AI systems involving personal or biometric data.",
       "current_posture": "The case is on appeal.",
@@ -9870,7 +10115,7 @@
       ]
     },
     "plain_language_summary": "Dow Jones & Company, Inc. asserts copyright infringement claims against Abbeel involving Perplexity AI. The case is in discovery. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-06-29): Plaintiffs Dow Jones & Company, Inc. and NYP Holdings, Inc. filed a certificate of service confirming that their motion to compel was served on the opposing party.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "evox-productions-llc-a-delaware-limited-liability-company-v-stability-ai-inc",
@@ -10034,7 +10279,7 @@
       ]
     },
     "plain_language_summary": "EVOX PRODUCTIONS LLC, a Delaware limited liability company filed copyright infringement claims against Stability AI, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "anthropic-pbc-v-abnormal-ai-inc",
@@ -10256,7 +10501,7 @@
       ]
     },
     "plain_language_summary": "Anthropic, PBC asserts trademark claims against Abnormal AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion practice. The case matters because it may affect how courts characterize AI-related legal theories outside the core IP categories in a case asserting trademark claims. Latest meaningful event (2026-07-01): Plaintiff Anthropic, PBC filed a complaint against Abnormal AI, Inc. in the Northern District of California, asserting claims for trademark infringement, unfair competition, and false designation of origin.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "hachette-book-group-inc-v-google-llc",
@@ -10687,7 +10932,7 @@
       ]
     },
     "plain_language_summary": "Hachette Book Group, Inc. asserts copyright infringement and other AI litigation claims against Google LLC involving books, educational, or publishing materials. The case is on appeal. The case matters because the appellate posture may shape what district-court orders remain in effect while AI litigation proceeds. Latest meaningful event (2026-10-08): The court heard oral argument on October 8, 2026 regarding Google LLC's request to transfer this case to the Northern District of California, but Judge Loretta A. Preska reserved her decision and has not yet ruled on the motion.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "sony-music-entertainment-v-uncharted-labs-inc-d-b-a-udio-com",
@@ -10986,7 +11231,7 @@
       ]
     },
     "plain_language_summary": "Sony Music Entertainment asserts copyright infringement claims against Uncharted Labs, Inc. d/b/a Udio.com involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-07-21): The court referred this case to Judge Alvin K. Hellerstein as possibly related to a previously filed case, No. 1:24cv4777.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "university-of-tennessee-research-foundation-v-anthropic-pbc",
@@ -11200,7 +11445,7 @@
       ]
     },
     "plain_language_summary": "University of Tennessee Research Foundation asserts patent infringement claims against Anthropic PBC involving patented software or technology. The case is on appeal. The case matters because the appellate posture may shape what district-court orders remain in effect while AI litigation proceeds. Latest meaningful event (2026-10-30): Anthropic PBC requested oral argument before the court on its pending motion to dismiss, which argues that the University of Tennessee Research Foundation's complaint fails to state a valid legal claim.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "numberai-inc-v-flai-technologies-inc",
@@ -11304,7 +11549,7 @@
       ]
     },
     "plain_language_summary": "NumberAI, Inc. filed patent infringement and trade secret claims against Flai Technologies Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "unwired-global-systems-llc-v-sap-america-inc",
@@ -11863,7 +12108,7 @@
       ]
     },
     "plain_language_summary": "Content Aware, LLC filed patent infringement claims against Snitch Apparels Private Limited. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "content-aware-llc-v-rakuten-group-inc",
@@ -11979,7 +12224,7 @@
       ]
     },
     "plain_language_summary": "Content Aware, LLC filed patent infringement claims against Rakuten Group, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "genesis-growth-tech-llc-v-neuroelectrics-barcelona-s-l-u",
@@ -12095,7 +12340,7 @@
       ]
     },
     "plain_language_summary": "Genesis Growth Tech LLC filed patent infringement claims against Neuroelectrics Barcelona S.L.U. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "vladimir-gusinsky-revocable-trust-v-nadella",
@@ -12159,7 +12404,7 @@
       ]
     },
     "plain_language_summary": "Vladimir Gusinsky Revocable Trust filed copyright infringement claims against Nadella. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "fintegrity-llc-v-paypal-inc",
@@ -12364,7 +12609,7 @@
       ]
     },
     "plain_language_summary": "Rosen filed copyright infringement and trademark claims against Cook. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "sullivan-v-openai-foundation-f-k-a-openai-inc",
@@ -13751,7 +13996,7 @@
       ]
     },
     "plain_language_summary": "Taasera Licensing LLC filed patent infringement claims against Arctic Wolf Networks, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "fali-rehab-equipment-llc-v-210-innovation-llc",
@@ -13918,7 +14163,7 @@
       ]
     },
     "plain_language_summary": "FALI Rehab Equipment, LLC asserts patent infringement claims against 210 Innovation, LLC over alleged AI-generated output involving patented software or technology. The case is in discovery. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-08-20): The court clerk issued a notice reminding counsel and self-represented parties that whoever filed or removed this action is responsible for serving all other parties with key early-case documents, including the complaint filed by FALI Rehab Equipment, LLC, standing orders on patent cases and pretrial deadlines, electronic filing instructions, and a notice regarding AI-assisted legal research.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "wikihow-inc-v-openai-inc",
@@ -14208,7 +14453,7 @@
       ]
     },
     "plain_language_summary": "wikiHow, Inc. asserts copyright infringement claims against OpenAI , Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is stayed. The case matters because it may affect how related AI litigation is coordinated before merits rulings. Latest meaningful event (2026-09-09): The court approved a joint stipulation by both parties to pause all proceedings and deadlines in this case until summary judgment motions in the broader multidistrict litigation (MDL) are resolved, after which the parties must file a status report within 30 days proposing next steps.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "iot-innovations-llc-v-signify-netherlands-b-v",
@@ -14294,7 +14539,7 @@
       ]
     },
     "plain_language_summary": "IOT Innovations LLC filed patent infringement claims against Signify Netherlands B.V. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "druyan-sagan-associates-inc-v-luma-ai-inc",
@@ -14750,7 +14995,7 @@
       ]
     },
     "plain_language_summary": "Convergence LLC filed patent infringement claims against Kialo GmbH. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "outleads-inc-v-salesforce-inc",
@@ -15226,7 +15471,7 @@
       ]
     },
     "plain_language_summary": "Sony Music Publishing (US) LLC asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works. The case is in motion-to-dismiss practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-10-27): The court granted a joint stipulation submitted by both parties, setting deadlines for Sony Music Publishing to file an amended complaint and establishing a briefing schedule for Anthropic's anticipated motion to dismiss.",
-    "docket_last_checked": "2026-10-30"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "gerencia-360-music-inc-v-suno-inc",
@@ -16824,7 +17069,7 @@
       ]
     },
     "plain_language_summary": "Times Publishing Company asserts copyright infringement claims against MICROSOFT CORPORATION involving news or journalism content. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-09-17): The court referred this case to Judge Sidney H. Stein for review as a possibly related matter to consolidated proceeding 25md3143.",
-    "docket_last_checked": "2026-10-29"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "umg-recordings-inc-v-suno-inc",
@@ -16839,7 +17084,7 @@
     ],
     "legal_theories": [],
     "status": "active",
-    "procedural_posture": "Filed",
+    "procedural_posture": "Motion Practice",
     "parties": {
       "plaintiff": "UMG Recordings, Inc.",
       "defendant": "Suno, Inc."
@@ -17037,15 +17282,71 @@
         "raw_text": "Assented to MOTION for Leave to Appear Pro Hac Vice for admission of Mariah N. Rivera Filing fee: $ 125, receipt number AMADC-12134426 by Alamo Records, LLC, Arista Music, Arista Records, LLC, Capitol Records, LLC, LaFace Records, LLC, Records Label, LLC, Sony Music Entertainment, Sony Music Entertainment US Latin, LLC, UMG Recordings, Inc., Ultra Records, LLC, Volcano Entertainment III, LLC, Zomba Recording LLC. (Attachments: (1) M. Rivera Declaration)(Arnold, Alexandra)",
         "summary": "The plaintiff record labels filed an assented-to motion seeking the court's permission to admit attorney Mariah N. Rivera to practice in this case on a pro hac vice basis, paying the required $125 filing fee.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "36",
+        "date": "2026-10-30",
+        "raw_text": "NOTICE of Appearance by Grace McLaughlin on behalf of Suno, Inc. (McLaughlin, Grace) (Entered: 10/30/2026)",
+        "summary": "Attorney Grace McLaughlin filed a notice of appearance in the case, indicating she is joining Suno, Inc. 's legal team as counsel of record.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "35",
+        "date": "2026-10-30",
+        "raw_text": "NOTICE of Appearance by Ivana Dukanovic on behalf of Suno, Inc. (Dukanovic, Ivana) (Entered: 10/30/2026)",
+        "summary": "Attorney Ivana Dukanovic filed a notice of appearance in federal court on behalf of defendant Suno, Inc. , formally entering the case as counsel of record.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "34",
+        "date": "2026-10-30",
+        "raw_text": "NOTICE of Appearance by Brittany N. Lovejoy on behalf of Suno, Inc. (Lovejoy, Brittany) (Entered: 10/30/2026)",
+        "summary": "Attorney Brittany N. Lovejoy filed a notice of appearance in federal court in Massachusetts, indicating she is now representing defendant Suno, Inc. in this case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "33",
+        "date": "2026-10-30",
+        "raw_text": "NOTICE of Appearance by Andrew Gass on behalf of Suno, Inc. (Gass, Andrew) (Entered: 10/30/2026)",
+        "summary": "Attorney Andrew Gass filed a notice of appearance indicating he is joining the legal team representing defendant Suno, Inc. in this case.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "32",
+        "date": "2026-10-30",
+        "raw_text": "AFFIDAVIT of Ivana Dukanovic in Support re 30 MOTION to Stay // Declaration of Ivana Dukanovic in Support of Defendant Suno, Inc.'s Motion to Stay filed by Suno, Inc.. (Attachments: # 1 Exhibit A)(Wetzel, Joseph) (Entered: 10/30/2026)",
+        "summary": "Suno, Inc. filed an affidavit from Ivana Dukanovic, along with an exhibit, in support of its previously filed motion to stay the case (Docket No. 30). The affidavit appears to provide factual support for Suno's request to pause the proceedings.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "31",
+        "date": "2026-10-30",
+        "raw_text": "MEMORANDUM in Support re 30 MOTION to Stay filed by Suno, Inc.. (Wetzel, Joseph) (Entered: 10/30/2026)",
+        "summary": "Suno, Inc. filed a memorandum in support of its previously filed motion to stay the case, providing legal arguments in favor of pausing the litigation.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "30",
+        "date": "2026-10-30",
+        "raw_text": "MOTION to Stay by Suno, Inc..(Wetzel, Joseph) (Entered: 10/30/2026)",
+        "summary": "Suno, Inc. filed a motion asking the court to stay the case, meaning it seeks to pause proceedings while the motion is pending or for another stated reason.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "29",
+        "date": "2026-10-30",
+        "raw_text": "NOTICE of Appearance by Joseph Wetzel on behalf of Suno, Inc. (Wetzel, Joseph) (Entered: 10/30/2026)",
+        "summary": "Attorney Joseph Wetzel filed a notice of appearance in federal court indicating he is representing defendant Suno, Inc. in this case. This is a routine administrative filing that adds Wetzel to the list of counsel of record for Suno.",
+        "significance": "minor_update"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74812464/umg-recordings-inc-v-suno-inc/",
-    "last_updated": "2026-10-25",
+    "last_updated": "2026-11-01",
     "discovered_date": "2026-09-18",
     "case_intelligence": {
       "case_theory": "UMG Recordings, Inc. asserts copyright infringement claims against Suno, Inc. involving music, audio, or sound-recording works.",
-      "current_posture": "The case is newly filed.",
+      "current_posture": "The case is in motion practice.",
       "why_it_matters": "The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims.",
       "latest_change": "Latest meaningful event (2026-09-18): A group of major record labels, including UMG Recordings, Sony Music Entertainment, and Capitol Records, filed a complaint against all defendants, along with an exhibit listing the asserted works and required administrative forms; one attachment was administratively corrected and refiled as a separate entry.",
       "latest_meaningful_event": "A group of major record labels, including UMG Recordings, Sony Music Entertainment, and Capitol Records, filed a complaint against all defendants, along with an exhibit listing the asserted works and required administrative forms; one attachment was administratively corrected and refiled as a separate entry.",
@@ -17057,7 +17358,7 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": "music, audio, or sound-recording works",
       "technology_or_model_at_issue": null,
-      "procedural_stage": "newly_filed",
+      "procedural_stage": "motion_practice",
       "pending_motion_or_next_event": null,
       "related_cases": [],
       "confidence_level": "low",
@@ -17079,8 +17380,8 @@
         }
       ]
     },
-    "plain_language_summary": "UMG Recordings, Inc. filed copyright infringement claims against Suno, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-29"
+    "plain_language_summary": "UMG Recordings, Inc. asserts copyright infringement claims against Suno, Inc. involving music, audio, or sound-recording works. The case is in motion practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-09-18): A group of major record labels, including UMG Recordings, Sony Music Entertainment, and Capitol Records, filed a complaint against all defendants, along with an exhibit listing the asserted works and required administrative forms; one attachment was administratively corrected and refiled as a separate entry.",
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "exactojoin-llc-v-asrock-incorporation",
@@ -17196,7 +17497,7 @@
       ]
     },
     "plain_language_summary": "ExactoJoin LLC filed patent infringement claims against ASRock Incorporation. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-29"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "bass-v-openai-llc",
@@ -18016,7 +18317,7 @@
       ]
     },
     "plain_language_summary": "Winspear filed copyright infringement claims against Meta Platforms, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-29"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "reno-v-meta-platforms-inc",
@@ -18082,7 +18383,7 @@
       ]
     },
     "plain_language_summary": "Reno filed copyright infringement claims against Meta Platforms, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-29"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "older-v-meta-platforms-inc",
@@ -18158,7 +18459,7 @@
       ]
     },
     "plain_language_summary": "Older asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-10-26): Judge Ajay Krishnan issued a referral on October 26, 2026, to determine whether this case is related to a previously filed case, No. 3:23-cv-03417-VC. This is an administrative step that may result in the cases being assigned to the same judge if found to be related.",
-    "docket_last_checked": "2026-10-29"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "sheard-v-meta-platforms-inc",
@@ -18222,7 +18523,7 @@
       ]
     },
     "plain_language_summary": "Sheard filed copyright infringement claims against Meta Platforms, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-29"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "reservoir-media-management-inc-v-suno-inc",
@@ -18332,7 +18633,7 @@
       ]
     },
     "plain_language_summary": "Reservoir Media Management, Inc. filed copyright infringement claims against Suno, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-29"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "reservoir-media-management-inc-v-anthropic-pbc",
@@ -18456,7 +18757,7 @@
       ]
     },
     "plain_language_summary": "Reservoir Media Management, Inc. filed copyright infringement claims against Anthropic PBC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-10-29"
+    "docket_last_checked": "2026-11-01"
   },
   {
     "id": "hewlett-packard-enterprise-company-v-wheeler",
@@ -18714,6 +19015,7 @@
         }
       ]
     },
-    "plain_language_summary": "Rosen filed copyright infringement claims against PICHAI. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+    "plain_language_summary": "Rosen filed copyright infringement claims against PICHAI. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
+    "docket_last_checked": "2026-11-01"
   }
 ]
