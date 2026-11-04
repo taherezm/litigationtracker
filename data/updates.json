@@ -1,5 +1,140 @@
 [
   {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-11-03",
+    "summary": "Anthropic filed a notice and administrative motion asking the court to consider whether this case should be related to one or more other cases under the court's local rules for case relation.",
+    "significance": "minor_update",
+    "entry_number": "47",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "winspear-v-meta-platforms-inc",
+    "case_name": "Winspear v. Meta Platforms, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "The court reassigned this case to Judge Vince Chhabria, replacing Magistrate Judge Lisa J. Cisneros. All scheduled hearings and trial dates are vacated and must be renoticed before Judge Chhabria, though existing briefing schedules and other deadlines such as those for ADR compliance and discovery remain in effect.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "winspear-v-meta-platforms-inc",
+    "case_name": "Winspear v. Meta Platforms, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Approximately sixty named plaintiffs filed a consent or declination form indicating whether they agree to have a U. S. Magistrate Judge preside over their case instead of a District Court Judge.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "sheard-v-meta-platforms-inc",
+    "case_name": "Sheard v. Meta Platforms, Inc.",
+    "entry_date": "2026-10-30",
+    "summary": "The court reassigned this case from Judge Araceli Martinez-Olguin to Judge Vince Chhabria, effective October 30, 2026. All previously scheduled hearings and trial dates are vacated and must be renoticed before Judge Chhabria, though existing briefing schedules, discovery deadlines, and ADR compliance deadlines remain in effect.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-11-03",
+    "summary": "Anthropic filed a notice and administrative motion asking the court to consider whether this case should be related to one or more other cases under the court's local rules for case relation.",
+    "significance": "minor_update",
+    "entry_number": "66",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "druyan-sagan-associates-inc-v-luma-ai-inc",
+    "case_name": "Druyan-Sagan Associates, Inc. v. Luma AI, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Defendant Luma AI, Inc. moved to dismiss three claims from the complaint — a Lanham Act claim, an unfair competition claim, and a secondary liability claim under the Copyright Act — with a hearing scheduled before Judge Michael W. Fitzgerald on December 16, 2026.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "druyan-sagan-associates-inc-v-luma-ai-inc",
+    "case_name": "Druyan-Sagan Associates, Inc. v. Luma AI, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Defendant Luma AI, Inc. filed a Notice of Interested Parties, identifying both itself and Plaintiff Druyan-Sagan Associates, Inc. as entities that may have a financial interest in the outcome of this case.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "druyan-sagan-associates-inc-v-luma-ai-inc",
+    "case_name": "Druyan-Sagan Associates, Inc. v. Luma AI, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Defendant Luma AI, Inc. filed a notice adding David M. Fox as counsel of record on its behalf, as indicated in the accompanying G-123 Notice.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "druyan-sagan-associates-inc-v-luma-ai-inc",
+    "case_name": "Druyan-Sagan Associates, Inc. v. Luma AI, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Defendant Luma AI, Inc. filed a notice adding Joshua A. Baskin as counsel of record on its behalf, as indicated in the accompanying G-123 Notice.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "druyan-sagan-associates-inc-v-luma-ai-inc",
+    "case_name": "Druyan-Sagan Associates, Inc. v. Luma AI, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Defendant Luma AI, Inc. filed a notice adding Jordan R. Jaffe as counsel of record on its behalf in this case pending in the Central District of California.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "lowery-v-suno-inc",
+    "case_name": "Lowery v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Attorney Sarang Damle filed a notice of appearance in federal court in Massachusetts, formally entering the case as counsel for defendant Suno, Inc.",
+    "significance": "minor_update",
+    "entry_number": "31",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "lowery-v-suno-inc",
+    "case_name": "Lowery v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Suno, Inc. filed a memorandum in support of its pending motion to dismiss, setting out the legal arguments it contends warrant dismissal of the case.",
+    "significance": "minor_update",
+    "entry_number": "30",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "lowery-v-suno-inc",
+    "case_name": "Lowery v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Defendant Suno, Inc. filed a motion to dismiss the case, asking the court to terminate the lawsuit before it proceeds further.",
+    "significance": "minor_update",
+    "entry_number": "29",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "lowery-v-suno-inc",
+    "case_name": "Lowery v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "The court granted a motion allowing attorneys Sarang V. Damle and Brent T. F. Murphy to appear pro hac vice, admitting them to represent a party in this case despite not being members of the Massachusetts bar. Both attorneys must file individual PACER accounts and enter notices of appearance on the docket.",
+    "significance": "minor_update",
+    "entry_number": "28",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
+    "case_id": "lowery-v-suno-inc",
+    "case_name": "Lowery v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Suno, Inc. moved to admit two outside attorneys, Sarang V. Damle and Brent T. F. Murphy, to appear in this case on a pro hac vice basis, paying the required $250 filing fee and submitting supporting certifications from each attorney.",
+    "significance": "minor_update",
+    "entry_number": "27",
+    "logged_at": "2026-11-04T20:26:49Z"
+  },
+  {
     "case_id": "daily-news-lp-v-brave-software-inc",
     "case_name": "Daily News LP v. Brave Software, Inc.",
     "entry_date": "2026-11-02",
