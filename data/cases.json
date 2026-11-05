@@ -19699,5 +19699,193 @@
     },
     "plain_language_summary": "The New York Times Co. filed copyright infringement claims against Brave Software, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
     "docket_last_checked": "2026-11-03"
+  },
+  {
+    "id": "cognella-inc-v-spacex-super-intelligence-corp",
+    "name": "Cognella, Inc. v. SpaceX Super Intelligence Corp.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-13189",
+    "courtlistener_docket_id": "75073775",
+    "date_filed": "2026-11-04",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Cognella, Inc.",
+      "defendant": "SpaceX Super Intelligence Corp."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/75073775/cognella-inc-v-spacex-super-intelligence-corp/",
+    "last_updated": "2026-11-05",
+    "discovered_date": "2026-11-05",
+    "case_intelligence": {
+      "case_theory": "Cognella, Inc. asserts copyright infringement claims against SpaceX Super Intelligence Corp. involving books, educational, or publishing materials.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-11-04): Cognella, Inc. filed the case against SpaceX Super Intelligence Corp..",
+      "latest_meaningful_event": "Cognella, Inc. filed the case against SpaceX Super Intelligence Corp..",
+      "latest_meaningful_event_date": "2026-11-04",
+      "claim_category": "copyright_news_or_publishing",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "books, educational, or publishing materials",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-cv-13189",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/75073775/cognella-inc-v-spacex-super-intelligence-corp/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-11-04"
+        }
+      ]
+    },
+    "plain_language_summary": "Cognella, Inc. filed copyright infringement claims against SpaceX Super Intelligence Corp. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "chicken-soup-for-the-soul-llc-v-spacex-super-intelligence-corp",
+    "name": "Chicken Soup for the Soul, LLC v. SpaceX Super Intelligence Corp.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-13188",
+    "courtlistener_docket_id": "75073718",
+    "date_filed": "2026-11-04",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Chicken Soup for the Soul, LLC",
+      "defendant": "SpaceX Super Intelligence Corp."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/75073718/chicken-soup-for-the-soul-llc-v-spacex-super-intelligence-corp/",
+    "last_updated": "2026-11-05",
+    "discovered_date": "2026-11-05",
+    "case_intelligence": {
+      "case_theory": "Chicken Soup for the Soul, LLC asserts copyright infringement claims against SpaceX Super Intelligence Corp., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-11-04): Chicken Soup for the Soul, LLC filed the case against SpaceX Super Intelligence Corp..",
+      "latest_meaningful_event": "Chicken Soup for the Soul, LLC filed the case against SpaceX Super Intelligence Corp..",
+      "latest_meaningful_event_date": "2026-11-04",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-cv-13188",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/75073718/chicken-soup-for-the-soul-llc-v-spacex-super-intelligence-corp/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-11-04"
+        }
+      ]
+    },
+    "plain_language_summary": "Chicken Soup for the Soul, LLC filed copyright infringement claims against SpaceX Super Intelligence Corp. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
+  },
+  {
+    "id": "cambronne-inc-v-spacex-super-intelligence-corp",
+    "name": "Cambronne, Inc. v. SpaceX Super Intelligence Corp.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-13187",
+    "courtlistener_docket_id": "75073720",
+    "date_filed": "2026-11-04",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Cambronne, Inc.",
+      "defendant": "SpaceX Super Intelligence Corp."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/75073720/cambronne-inc-v-spacex-super-intelligence-corp/",
+    "last_updated": "2026-11-05",
+    "discovered_date": "2026-11-05",
+    "case_intelligence": {
+      "case_theory": "Cambronne, Inc. asserts copyright infringement claims against SpaceX Super Intelligence Corp., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-11-04): Cambronne, Inc. filed the case against SpaceX Super Intelligence Corp..",
+      "latest_meaningful_event": "Cambronne, Inc. filed the case against SpaceX Super Intelligence Corp..",
+      "latest_meaningful_event_date": "2026-11-04",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-cv-13187",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/75073720/cambronne-inc-v-spacex-super-intelligence-corp/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-11-04"
+        }
+      ]
+    },
+    "plain_language_summary": "Cambronne, Inc. filed copyright infringement claims against SpaceX Super Intelligence Corp. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
