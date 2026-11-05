@@ -1,5 +1,131 @@
 [
   {
+    "case_id": "btf-ip-holdings-llc-v-eleven-labs-inc",
+    "case_name": "BTF IP Holdings LLC v. Eleven Labs Inc.",
+    "entry_date": "2026-11-02",
+    "summary": "The court ordered a schedule allowing plaintiff BTF IP Holdings LLC to file an amended complaint by November 23, 2026, with defendant Eleven Labs Inc. 's response due December 21, 2026, and set branching deadlines depending on whether the defendant answers or moves to dismiss.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-11-02",
+    "summary": "An attorney, Serge A. Voronov, filed a motion to appear pro hac vice — meaning to participate in this case despite not being admitted to practice in this district — across numerous related cases in this consolidated multidistrict litigation, paying the required $200 filing fee; the Clerk's Office reviewed the submission and found no deficiencies.",
+    "significance": "minor_update",
+    "entry_number": "484305565",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "usa-today-co-inc-v-openai-foundation",
+    "case_name": "USA Today Co., Inc. v. OpenAI Foundation",
+    "entry_date": "2026-11-03",
+    "summary": "A group of eleven organizations and individuals—including AI Safety Asia, the Future of Life Institute, and several others—filed a motion asking the court to add them as additional filers to a previously submitted document (Doc No. 2421) in this multidistrict litigation.",
+    "significance": "minor_update",
+    "entry_number": "91",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-05",
+    "summary": "The court ordered the case transferred from the Northern District of California to the District of Massachusetts pursuant to a court order entered on November 5, 2026.",
+    "significance": "minor_update",
+    "entry_number": "484558506",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-04",
+    "summary": "The court closed the civil case between UMG Recordings, Inc. and Suno, Inc. on November 4, 2026, as reflected in an administrative termination entry entered by court staff.",
+    "significance": "case_resolved",
+    "entry_number": "484558505",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-04",
+    "summary": "Magistrate Judge Virginia K. DeMarchi ordered a pending motion to quash a deposition subpoena transferred to the District of Massachusetts, and provisionally granted administrative motions seeking to seal certain case materials, leaving the sealing question open pending further review.",
+    "significance": "minor_update",
+    "entry_number": "18",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Plaintiffs UMG Recordings, Capitol Records, and Sony Music Entertainment filed a response supporting a motion to seal certain confidential discovery materials, submitting redacted exhibits and several declarations in support of keeping those materials protected from public disclosure.",
+    "significance": "minor_update",
+    "entry_number": "17",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Apple Inc. filed a reply brief in support of its motion to quash a deposition subpoena issued by Suno, Inc. , along with a supporting declaration from Bethany Stevens and an exhibit. The publicly filed version is redacted.",
+    "significance": "minor_update",
+    "entry_number": "16",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Apple Inc. filed an administrative motion asking the court to determine whether certain materials Apple considers confidential should be sealed from the public record, attaching a supporting declaration, a proposed order, and an unredacted highlighted version of a reply brief.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "Attorney Rajan Stephen Trehan filed a notice of appearance in federal court on November 3, 2026, joining the case as counsel for plaintiffs UMG Recordings, Inc. , Capitol Records, LLC, and Sony Music Entertainment.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc-2",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "The court ordered the party who filed a motion to quash to deliver physical copies of that motion directly to the judge's chambers. Any parties not receiving electronic filings were also served by first class mail.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-11-03",
+    "summary": "The court issued an administrative order referring this case to Judge Peter H. Kang for all discovery-related matters. Both parties are directed to review Judge Kang's Standing Order for Discovery, particularly the section governing discovery disputes.",
+    "significance": "minor_update",
+    "entry_number": "31",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "hachette-book-group-inc-v-google-llc",
+    "case_name": "Hachette Book Group, Inc. v. Google LLC",
+    "entry_date": "2026-11-04",
+    "summary": "The court granted a letter motion to extend filing deadlines, ordering that responses are due by November 30, 2026, and replies are due by December 14, 2026.",
+    "significance": "minor_update",
+    "entry_number": "52",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
+    "case_id": "sony-music-entertainment-v-uncharted-labs-inc-d-b-a-udio-com",
+    "case_name": "Sony Music Entertainment v. Uncharted Labs, Inc. d/b/a Udio.com",
+    "entry_date": "2026-11-05",
+    "summary": "The court issued a notice that this case will soon be reassigned to a new judge, and all scheduled court conferences are adjourned until further notice. Parties may continue filing documents as usual, and emergency filers are directed to follow ECF Rule 13. 19.",
+    "significance": "minor_update",
+    "entry_number": "484508257",
+    "logged_at": "2026-11-05T20:41:43Z"
+  },
+  {
     "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
     "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
     "entry_date": "2026-11-03",
