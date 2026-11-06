@@ -1,5 +1,77 @@
 [
   {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-04",
+    "summary": "The court's electronic filing system issued an administrative notice to attorney Steven M. Lieberman that the party records for The New York Times Co. and Brave Software, Inc. were updated to correct a typographical error in a party name and an incorrectly entered party role.",
+    "significance": "minor_update",
+    "entry_number": "484495290",
+    "logged_at": "2026-11-06T19:58:14Z"
+  },
+  {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-04",
+    "summary": "The court's electronic filing system designated this case for Electronic Case Filing (ECF), meaning all future documents must be submitted through the court's online filing system. This is a routine administrative step that occurs at the outset of federal court cases.",
+    "significance": "minor_update",
+    "entry_number": "484495293",
+    "logged_at": "2026-11-06T19:58:14Z"
+  },
+  {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-04",
+    "summary": "The court designated Magistrate Judge Valerie Figueredo to handle referred matters in this case and notified the parties that they may consent to have a magistrate judge preside over the entire case, subject to the assigned district judge's approval.",
+    "significance": "minor_update",
+    "entry_number": "484495292",
+    "logged_at": "2026-11-06T19:58:14Z"
+  },
+  {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-04",
+    "summary": "The court assigned this case to Judge Lewis A. Kaplan in the Southern District of New York and issued a notice directing attorneys to review the judge's individual practices and the court's electronic filing rules.",
+    "significance": "minor_update",
+    "entry_number": "484495291",
+    "logged_at": "2026-11-06T19:58:14Z"
+  },
+  {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-04",
+    "summary": "Plaintiff The New York Times Company filed proof that it successfully served Brave Software, Inc. with the summons and complaint on November 4, 2026, with service accepted by Kellyn Thomas, an intake specialist; Brave Software's answer is due by November 25, 2026.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-11-06T19:58:14Z"
+  },
+  {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-04",
+    "summary": "The court clerk issued an electronic summons directed at defendant Brave Software, Inc. , formally notifying the company that it has been sued and must respond to the complaint.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-11-06T19:58:14Z"
+  },
+  {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-02",
+    "summary": "Attorney Jennifer Maisel filed a notice of appearance in the case, formally entering the record as counsel for The New York Times Co.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-11-06T19:58:14Z"
+  },
+  {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-02",
+    "summary": "Attorney Steven Lieberman submitted a standard AO 121 copyright reporting form to the court in connection with the opening of this case, along with 55 exhibits, for administrative review.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-11-06T19:58:14Z"
+  },
+  {
     "case_id": "btf-ip-holdings-llc-v-eleven-labs-inc",
     "case_name": "BTF IP Holdings LLC v. Eleven Labs Inc.",
     "entry_date": "2026-11-02",
