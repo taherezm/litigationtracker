@@ -1,5 +1,86 @@
 [
   {
+    "case_id": "reservoir-media-management-inc-v-anthropic-pbc",
+    "case_name": "Reservoir Media Management, Inc. v. Anthropic PBC",
+    "entry_date": "2026-11-06",
+    "summary": "Plaintiffs Reservoir Media Management, Inc. , Reservoir Media Management (UK) Limited, and Shapiro, Bernstein & Co. Limited filed a Certificate of Interested Entities, a standard disclosure identifying parties with a financial interest in the case.",
+    "significance": "minor_update",
+    "entry_number": "15",
+    "logged_at": "2026-11-07T18:04:01Z"
+  },
+  {
+    "case_id": "reservoir-media-management-inc-v-anthropic-pbc",
+    "case_name": "Reservoir Media Management, Inc. v. Anthropic PBC",
+    "entry_date": "2026-11-05",
+    "summary": "The court reassigned this case to Judge Beth Labson Freeman under a random reassignment process, removing Magistrate Judge Alex G. Tse from the case. All previously scheduled hearing and trial dates are vacated, though existing briefing schedules and other deadlines such as those for discovery and ADR compliance remain in effect; parties must refile hearing notices before Judge Freeman.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-11-07T18:04:01Z"
+  },
+  {
+    "case_id": "reservoir-media-management-inc-v-anthropic-pbc",
+    "case_name": "Reservoir Media Management, Inc. v. Anthropic PBC",
+    "entry_date": "2026-11-04",
+    "summary": "The court clerk issued a notice that this case will be reassigned from a Magistrate Judge to a District Judge because at least one party declined to consent to Magistrate Judge jurisdiction. All hearings currently scheduled before the Magistrate Judge have been vacated and must be re-noticed before the newly assigned District Judge.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-11-07T18:04:01Z"
+  },
+  {
+    "case_id": "reservoir-media-management-inc-v-anthropic-pbc",
+    "case_name": "Reservoir Media Management, Inc. v. Anthropic PBC",
+    "entry_date": "2026-11-03",
+    "summary": "Anthropic filed a notice and administrative motion asking the court to consider whether this case should be related to one or more other pending cases, pursuant to the court's local rules governing related-case determinations.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-11-07T18:04:01Z"
+  },
+  {
+    "case_id": "reservoir-media-management-inc-v-anthropic-pbc",
+    "case_name": "Reservoir Media Management, Inc. v. Anthropic PBC",
+    "entry_date": "2026-11-03",
+    "summary": "Anthropic PBC filed a corporate disclosure statement identifying Alphabet, Inc. , Google LLC, Amazon Web Services, Inc. , and Amazon. com as affiliated entities, as required by court rules for transparency about corporate relationships.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-11-07T18:04:01Z"
+  },
+  {
+    "case_id": "reservoir-media-management-inc-v-anthropic-pbc",
+    "case_name": "Reservoir Media Management, Inc. v. Anthropic PBC",
+    "entry_date": "2026-11-03",
+    "summary": "Attorney Sonal N. Mehta filed a notice of appearance in federal court on November 3, 2026, indicating she will represent defendant Anthropic PBC in this case.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-11-07T18:04:01Z"
+  },
+  {
+    "case_id": "rosen-v-pichai",
+    "case_name": "Rosen v. PICHAI",
+    "entry_date": "2026-11-05",
+    "summary": "Plaintiff filed a Notice of Voluntary Dismissal before the defendants served an answer or motion for summary judgment, and the court confirmed the case is dismissed without prejudice under Federal Rule of Civil Procedure 41(a)(1)(A)(i), with each party bearing its own fees and costs.",
+    "significance": "case_resolved",
+    "entry_number": "4",
+    "logged_at": "2026-11-07T18:04:01Z"
+  },
+  {
+    "case_id": "rosen-v-pichai",
+    "case_name": "Rosen v. PICHAI",
+    "entry_date": "2026-11-04",
+    "summary": "Plaintiff Phil Rosen filed a notice of voluntary dismissal under Federal Rule of Civil Procedure 41(a)(1)(A)(i), which allows a plaintiff to dismiss a case without a court order before the opposing party has answered or moved for summary judgment.",
+    "significance": "case_resolved",
+    "entry_number": "3",
+    "logged_at": "2026-11-07T18:04:01Z"
+  },
+  {
+    "case_id": "seiu-pension-plan-master-trust-v-adobe-inc",
+    "case_name": "SEIU Pension Plan Master Trust v. Adobe Inc.",
+    "entry_date": "2026-11-06",
+    "summary": "Judge Breyer signed a judicial referral on November 6, 2026, directing that this case be reviewed to determine whether it is related to case 25-cv-10732. This is an administrative step that may result in the two cases being assigned to the same judge if found to be related.",
+    "significance": "minor_update",
+    "entry_number": "40",
+    "logged_at": "2026-11-07T18:04:01Z"
+  },
+  {
     "case_id": "the-new-york-times-co-v-brave-software-inc",
     "case_name": "The New York Times Co. v. Brave Software, Inc.",
     "entry_date": "2026-11-04",
