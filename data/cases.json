@@ -20013,5 +20013,68 @@
     },
     "plain_language_summary": "Cambronne, Inc. filed copyright infringement claims against SpaceX Super Intelligence Corp. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
     "docket_last_checked": "2026-11-06"
+  },
+  {
+    "id": "eight-mile-style-llc-v-suno-inc",
+    "name": "Eight MIle Style LLC v. Suno, Inc.",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-cv-13399",
+    "courtlistener_docket_id": "75087642",
+    "date_filed": "2026-11-06",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "Eight MIle Style LLC",
+      "defendant": "Suno, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/75087642/eight-mile-style-llc-v-suno-inc/",
+    "last_updated": "2026-11-07",
+    "discovered_date": "2026-11-07",
+    "case_intelligence": {
+      "case_theory": "Eight MIle Style LLC asserts copyright infringement claims against Suno, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-11-06): Eight MIle Style LLC filed the case against Suno, Inc..",
+      "latest_meaningful_event": "Eight MIle Style LLC filed the case against Suno, Inc..",
+      "latest_meaningful_event_date": "2026-11-06",
+      "claim_category": "unknown",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-cv-13399",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/75087642/eight-mile-style-llc-v-suno-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-11-06"
+        }
+      ]
+    },
+    "plain_language_summary": "Eight MIle Style LLC filed copyright infringement claims against Suno, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
