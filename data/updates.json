@@ -1,5 +1,59 @@
 [
   {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-06",
+    "summary": "The court ordered that the copyright registration exhibits previously filed as attachments to docket entries 6–8 be treated as Exhibit A to the complaint, resolving a technical issue that had prevented the New York Times from attaching those exhibits directly when it filed its complaint through the court's electronic filing system.",
+    "significance": "minor_update",
+    "entry_number": "14",
+    "logged_at": "2026-11-09T23:00:59Z"
+  },
+  {
+    "case_id": "cambronne-inc-v-spacex-super-intelligence-corp",
+    "case_name": "Cambronne, Inc. v. SpaceX Super Intelligence Corp.",
+    "entry_date": "2026-11-05",
+    "summary": "The court issued an Initial Case Management Scheduling Order setting a deadline of February 2, 2027 for the parties to file a Case Management Statement, with an Initial Case Management Conference scheduled for February 9, 2027 at 9:30 AM via videoconference in San Jose.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-11-09T23:00:59Z"
+  },
+  {
+    "case_id": "cambronne-inc-v-spacex-super-intelligence-corp",
+    "case_name": "Cambronne, Inc. v. SpaceX Super Intelligence Corp.",
+    "entry_date": "2026-11-05",
+    "summary": "Plaintiff Cambronne, Inc. , along with individuals Jane Adams, Lisa Barretta, Michael Kochin, and Matthew Sacks, filed a Certificate of Interested Entities on November 5, 2026, disclosing parties with a financial interest in the outcome of the case.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-11-09T23:00:59Z"
+  },
+  {
+    "case_id": "cambronne-inc-v-spacex-super-intelligence-corp",
+    "case_name": "Cambronne, Inc. v. SpaceX Super Intelligence Corp.",
+    "entry_date": "2026-11-05",
+    "summary": "The court assigned this case to Magistrate Judge Susan van Keulen and issued standard new-case instructions, directing plaintiff's counsel to serve the complaint, summons, and judge's standing orders on the opposing party. A consent or declination regarding magistrate judge jurisdiction is due by November 19, 2026, and a scheduling order will follow within two business days.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-11-09T23:00:59Z"
+  },
+  {
+    "case_id": "cambronne-inc-v-spacex-super-intelligence-corp",
+    "case_name": "Cambronne, Inc. v. SpaceX Super Intelligence Corp.",
+    "entry_date": "2026-11-05",
+    "summary": "The court clerk filed a standard AO-121 form reporting the existence of a copyright-related action to the U. S. Copyright Office, with a copy mailed to the register. This is a routine administrative step required whenever a copyright claim is filed in federal court.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-11-09T23:00:59Z"
+  },
+  {
+    "case_id": "cambronne-inc-v-spacex-super-intelligence-corp",
+    "case_name": "Cambronne, Inc. v. SpaceX Super Intelligence Corp.",
+    "entry_date": "2026-11-04",
+    "summary": "Plaintiffs Jane Adams, Lisa Barretta, Cambronne Inc. , Matthew Sacks, and Michael Kochin filed a complaint against three related SpaceX Super Intelligence entities in the Northern District of California, attaching an exhibit identifying the plaintiffs' works at issue in the case.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-11-09T23:00:59Z"
+  },
+  {
     "case_id": "reservoir-media-management-inc-v-anthropic-pbc",
     "case_name": "Reservoir Media Management, Inc. v. Anthropic PBC",
     "entry_date": "2026-11-06",
