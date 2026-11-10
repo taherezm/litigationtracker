@@ -3490,7 +3490,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73294740/elsevier-inc-v-meta-platforms-inc/",
     "last_updated": "2026-09-27",
     "discovered_date": "2026-05-27",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "Elsevier Inc. asserts copyright infringement claims against Meta Platforms, Inc. involving books, educational, or publishing materials.",
       "current_posture": "The case is in motion practice.",
@@ -3905,7 +3905,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73284844/carreyrou-v-openai-inc/",
     "last_updated": "2026-10-31",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "Carreyrou asserts copyright infringement claims against OpenAI, Inc. involving music, audio, or sound-recording works and Project Giraffe.",
       "current_posture": "The case is on appeal.",
@@ -3994,7 +3994,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73384790/hobbs-v-meta-platforms-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-05-31",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "Hobbs asserts copyright infringement claims against Meta Platforms, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is newly filed.",
@@ -5298,7 +5298,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72392052/poulin-holdings-llc-v-databricks-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "Poulin Holdings, LLC asserts patent infringement claims against Databricks, Inc. involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -5440,7 +5440,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72377338/kogon-v-google-llc/",
     "last_updated": "2026-07-29",
     "discovered_date": "2026-06-01",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "Kogon asserts copyright infringement claims against Google, LLC, but the parsed materials do not yet identify the specific AI conduct at issue.",
       "current_posture": "The case is on appeal.",
@@ -5697,7 +5697,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73166286/valtrus-innovations-limited-v-lumen-technologies-inc/",
     "last_updated": "2026-06-11",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "Valtrus Innovations Limited asserts patent infringement claims against Lumen Technologies, Inc. involving patented software or technology.",
       "current_posture": "The case is in early service or case-administration steps.",
@@ -6210,7 +6210,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/72505829/bmg-rights-management-us-llc-v-anthropic-pbc/",
     "last_updated": "2026-11-04",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "BMG Rights Management (US) LLC asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -8921,7 +8921,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73237887/semantic-engines-llc-v-microsoft-corporation/",
     "last_updated": "2026-06-06",
     "discovered_date": "2026-06-06",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "Semantic Engines LLC asserts patent infringement claims against Microsoft Corporation involving patented software or technology.",
       "current_posture": "The case is newly filed.",
@@ -8970,8 +8970,8 @@
       "copyright infringement"
     ],
     "legal_theories": [],
-    "status": "active",
-    "procedural_posture": "Motion Practice",
+    "status": "resolved",
+    "procedural_posture": "Judgment",
     "parties": {
       "plaintiff": "Apress Media, LLC",
       "defendant": "WeLib"
@@ -9041,21 +9041,28 @@
         "raw_text": "COMPLAINT against Does 1-10,, WeLib. (Filing Fee $ 405.00, Receipt Number ANYSDC-33001943)Document filed by John Wiley & Sons, Inc., Penguin Random House LLC, Elsevier Inc., Bedford, Freeman & Worth Publishing Group, LLC d/b/a Macmillan Learning, McGraw Hill LLC, Simon & Schuster, LLC, Cengage Learning, Inc., Macmillan Publishing Group, LLC d/b/a Macmillan Publishers, Apress Media, LLC, Hachette Book Group, Inc., Taylor & Francis Group, LLC, Pearson Education, Inc., HarperCollins Publishers LLC. (Attachments: # 1 Exhibit A - Works in Suit).(Pariser, Jennifer) (Entered: 06/16/2026)",
         "summary": "Fourteen major publishers, including Penguin Random House, HarperCollins, and Pearson Education, filed a complaint against WeLib and ten unnamed defendants, alleging claims related to works identified in an attached exhibit; the filing fee of $405 was paid at the time of submission.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "23",
+        "date": "2026-11-09",
+        "raw_text": "DEFAULT JUDGMENT: IT IS HEREBY ORDERED, ADJUDGED, AND DECREED: 1. Plaintiffs' Motion for Default Judgment is GRANTED. 2. Judgment is hereby granted in Plaintiffs' favor and against Defendants on Plaintiffs'claim for direct copyright i nfringement. 3. Defendants are hereby ordered to pay each of the 13 Plaintiffs statutory damages for willful copyright infringement pursuant to 17 U.S.C. § 504(c)(2), in the amount of $150,000.00 for each of the 10 Works in Suit owned by that Plaintiff listed on Exhibit A to the Complaint, for a total of $1,500,000 ($19,500,000 collectively for all Plaintiffs). 4. Pursuant to 17 U.S.C. § 503(b). IT IS SO ORDERED. (Signed by Judge Victor Marrero on 11/9/2026) (jca)",
+        "summary": "The court granted plaintiffs' motion for default judgment, holding that defendants directly infringed the copyrights of all 13 plaintiffs and ordering defendants to pay $150,000 in statutory damages per work for willful infringement—$1,500,000 per plaintiff and $19,500,000 in total—under 17 U. S. C. § 504(c)(2).",
+        "significance": "case_resolved"
       }
     ],
-    "plain_language_summary": "Apress Media, LLC asserts copyright infringement claims against WeLib involving books, educational, or publishing materials. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-06-16): Fourteen major publishers, including Penguin Random House, HarperCollins, and Pearson Education, filed a complaint against WeLib and ten unnamed defendants, alleging claims related to works identified in an attached exhibit; the filing fee of $405 was paid at the time of submission.",
+    "plain_language_summary": "Apress Media, LLC asserts copyright infringement claims against WeLib involving books, educational, or publishing materials. The case is resolved: The court granted plaintiffs' motion for default judgment, holding that defendants directly infringed the copyrights of all 13 plaintiffs and ordering defendants to pay $150,000 in statutory damages per work for willful infringement—$1,500,000 per plaintiff and $19,500,000 in total—under 17 U. S. C. § 504(c)(2). The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-11-09): The court granted plaintiffs' motion for default judgment, holding that defendants directly infringed the copyrights of all 13 plaintiffs and ordering defendants to pay $150,000 in statutory damages per work for willful infringement—$1,500,000 per plaintiff and $19,500,000 in total—under 17 U. S. C. § 504(c)(2).",
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/73488419/apress-media-llc-v-welib/",
-    "last_updated": "2026-07-10",
+    "last_updated": "2026-11-10",
     "discovered_date": "2026-06-16",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "Apress Media, LLC asserts copyright infringement claims against WeLib involving books, educational, or publishing materials.",
-      "current_posture": "The case is in motion practice.",
+      "current_posture": "The case is resolved: The court granted plaintiffs' motion for default judgment, holding that defendants directly infringed the copyrights of all 13 plaintiffs and ordering defendants to pay $150,000 in statutory damages per work for willful infringement—$1,500,000 per plaintiff and $19,500,000 in total—under 17 U. S. C. § 504(c)(2).",
       "why_it_matters": "The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims.",
-      "latest_change": "Latest meaningful event (2026-06-16): Fourteen major publishers, including Penguin Random House, HarperCollins, and Pearson Education, filed a complaint against WeLib and ten unnamed defendants, alleging claims related to works identified in an attached exhibit; the filing fee of $405 was paid at the time of submission.",
-      "latest_meaningful_event": "Fourteen major publishers, including Penguin Random House, HarperCollins, and Pearson Education, filed a complaint against WeLib and ten unnamed defendants, alleging claims related to works identified in an attached exhibit; the filing fee of $405 was paid at the time of submission.",
-      "latest_meaningful_event_date": "2026-06-16",
+      "latest_change": "Latest meaningful event (2026-11-09): The court granted plaintiffs' motion for default judgment, holding that defendants directly infringed the copyrights of all 13 plaintiffs and ordering defendants to pay $150,000 in statutory damages per work for willful infringement—$1,500,000 per plaintiff and $19,500,000 in total—under 17 U. S. C. § 504(c)(2).",
+      "latest_meaningful_event": "The court granted plaintiffs' motion for default judgment, holding that defendants directly infringed the copyrights of all 13 plaintiffs and ordering defendants to pay $150,000 in statutory damages per work for willful infringement—$1,500,000 per plaintiff and $19,500,000 in total—under 17 U. S. C. § 504(c)(2).",
+      "latest_meaningful_event_date": "2026-11-09",
       "claim_category": "copyright_news_or_publishing",
       "claims_asserted": [
         "copyright infringement"
@@ -9063,7 +9070,7 @@
       "ai_conduct_alleged": null,
       "works_or_data_at_issue": "books, educational, or publishing materials",
       "technology_or_model_at_issue": null,
-      "procedural_stage": "motion_practice",
+      "procedural_stage": "judgment",
       "pending_motion_or_next_event": null,
       "related_cases": [],
       "confidence_level": "low",
@@ -9080,8 +9087,8 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "1",
-          "date": "2026-06-16"
+          "entry_number": "23",
+          "date": "2026-11-09"
         }
       ]
     }
@@ -9386,7 +9393,7 @@
     "courtlistener_url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
     "last_updated": "2026-11-02",
     "discovered_date": "2026-06-21",
-    "docket_last_checked": "2026-11-08",
+    "docket_last_checked": "2026-11-10",
     "case_intelligence": {
       "case_theory": "Shakespeare asserts copyright infringement claims against Anthropic PBC involving books, educational, or publishing materials.",
       "current_posture": "The case is in motion-to-dismiss practice.",
@@ -9828,7 +9835,7 @@
         }
       ]
     },
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "s-a-jamendo-v-suno-inc",
@@ -11730,7 +11737,7 @@
       ]
     },
     "plain_language_summary": "Unwired Global Systems LLC asserts patent infringement claims against SAP America, Inc. involving patented software or technology. The case is in motion practice. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-07-29): The court submitted a report to the Commissioner of Patents and Trademarks concerning Patent No. 8,488,624, which appears to be an administrative notice related to the patent at issue in this case.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "wyoming-technology-licensing-llc-v-bmw-of-north-america-llc",
@@ -11793,7 +11800,7 @@
       ]
     },
     "plain_language_summary": "WYOMING TECHNOLOGY LICENSING, LLC filed patent infringement claims against BMW OF NORTH AMERICA, LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "evox-production-llc-v-midjourney-inc",
@@ -11866,7 +11873,7 @@
       ]
     },
     "plain_language_summary": "EVOX Production LLC asserts copyright infringement claims against Midjourney, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case has a recent significant ruling. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-09-15): The court granted an application allowing attorney Charity E. Lee, who is not admitted in the Central District of California, to appear in this case on behalf of defendant Midjourney, Inc. , with Bobby Ghajar designated as local counsel.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "berliner-v-huang",
@@ -11941,7 +11948,7 @@
       ]
     },
     "plain_language_summary": "Berliner filed copyright infringement and other AI litigation claims against Huang. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "content-aware-llc-v-myntra-designs-private-limited",
@@ -12057,7 +12064,7 @@
       ]
     },
     "plain_language_summary": "Content Aware, LLC filed patent infringement claims against Myntra Designs Private Limited. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "content-aware-llc-v-snitch-apparels-private-limited",
@@ -12585,7 +12592,7 @@
       ]
     },
     "plain_language_summary": "FinTegrity LLC filed patent infringement claims against Paypal Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "rosen-v-cook",
@@ -12946,7 +12953,7 @@
       ]
     },
     "plain_language_summary": "Sullivan asserts copyright infringement claims against OpenAI Foundation (f/k/a OpenAI Inc.) involving news or journalism content. The case is in motion practice. The case matters because it may affect how copyright claims by publishers, authors, or media owners are managed in AI litigation in a case asserting copyright infringement claims. Latest meaningful event (2026-10-26): The Clerk's Office reviewed and approved, without deficiency, a motion for attorney Anna B. Chauvet to appear pro hac vice — meaning to participate in this case without being admitted to the Southern District of New York — across more than two dozen related cases in the OpenAI multidistrict litigation.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "round-hill-music-lp-v-anthropic-pbc",
@@ -13157,7 +13164,7 @@
       ]
     },
     "plain_language_summary": "Round Hill Music LP asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works. The case is in motion-to-dismiss practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-10-19): Both parties filed a joint stipulation proposing a schedule that sets a deadline for the plaintiffs to file an amended complaint and establishes a briefing schedule for a forthcoming motion to dismiss.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "round-hill-music-lp-v-suno-inc",
@@ -13794,7 +13801,7 @@
       ]
     },
     "plain_language_summary": "Neural AI, LLC asserts patent infringement claims against OAI International, Inc. involving patented software or technology. The case is in discovery. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-09-30): Magistrate Judge Alex G. Tse issued an order resolving Neural AI's motion to compel, though the specific relief granted or denied is not detailed in this docket entry.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "neural-ai-llc-v-tesla-inc",
@@ -13952,7 +13959,7 @@
       ]
     },
     "plain_language_summary": "Neural AI, LLC asserts patent infringement claims against Tesla Inc. involving patented software or technology. The case is on appeal. The case matters because the appellate posture may shape what district-court orders remain in effect while AI litigation proceeds. Latest meaningful event (2026-08-31): Neural AI, LLC filed a reply brief in support of its corrected motion to compel Tesla, Inc. —a third party—to comply with a subpoena, attaching one exhibit in support of its arguments.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "taasera-licensing-llc-v-arctic-wolf-networks-inc",
@@ -14228,7 +14235,7 @@
       ]
     },
     "plain_language_summary": "FALI Rehab Equipment, LLC asserts patent infringement claims against 210 Innovation, LLC over alleged AI-generated output involving patented software or technology. The case is in discovery. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-08-20): The court clerk issued a notice reminding counsel and self-represented parties that whoever filed or removed this action is responsible for serving all other parties with key early-case documents, including the complaint filed by FALI Rehab Equipment, LLC, standing orders on patent cases and pretrial deadlines, electronic filing instructions, and a notice regarding AI-assisted legal research.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "wikihow-inc-v-openai-inc",
@@ -14467,25 +14474,39 @@
         "raw_text": "PROPOSED STIPULATION AND ORDER. Document filed by wikiHow, Inc...(Nath, Rohit) (Entered: 09/08/2026)",
         "summary": "Plaintiff wikiHow, Inc. filed a proposed stipulation and order, suggesting that both parties may have reached a procedural agreement they are asking the court to adopt.",
         "significance": "minor_update"
+      },
+      {
+        "entry_number": "76",
+        "date": "2026-11-06",
+        "raw_text": "ORDER in case 1:23-cv-08292-SHS-OTW; granting (2497) Letter Motion to File Amicus Brief in case 1:25-md-03143-SHS-OTW. Before the Court is a motion requesting leave to file an amicus curiae brief from a group of law professors. (Dkt. No. 2497.) The Court grants the motion and deems the brief filed. SO ORDERED.. (Signed by Judge Sidney H. Stein on 11/6/2026) Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 11/06/2026)",
+        "summary": "The court granted a group of law professors' motion for leave to file an amicus curiae brief, and deemed the brief officially filed as of November 6, 2026.",
+        "significance": "minor_update"
+      },
+      {
+        "entry_number": "75",
+        "date": "2026-11-06",
+        "raw_text": "ORDER granting (1368) Letter Motion to File Amicus Brief; granting (1433) Letter Motion to File Amicus Brief; granting (1443) Letter Motion to File Amicus Brief; granting (1445) Letter Motion to File Amicus Brief; granting (1448) Letter Motion to File Amicus Brief; granting (1457) Letter Motion for Leave to File Document; granting (1460) Letter Motion to File Amicus Brief; granting (1462) Letter Motion to File Amicus Brief; granting (1476) Letter Motion to File Amicus Brief; granting (1482) Letter Motion to File Amicus Brief; granting (1483) Letter Motion to File Amicus Brief; granting (1484) Letter Motion to File Amicus Brief; granting (1489) Letter Motion to File Amicus Brief; granting (1491) Letter Motion to File Amicus Brief; granting (1496) Letter Motion to File Amicus Brief; granting (1500) Letter Motion to File Amicus Brief; granting (1503) Letter Motion to File Amicus Brief; granting (1504) Letter Motion to File Amicus Brief; granting (1508) Letter Motion to File Amicus Brief; granting (1509) Letter Motion to File Amicus Brief; granting (1510) Letter Motion to File Amicus Brief; granting (1511) Letter Motion to File Amicus Brief; granting (1513) Letter Motion to File Amicus Brief in case 1:23-cv-08292-SHS-OTW; granting (887) Letter Motion to File Amicus Brief; granting (893) Letter Motion to File Amicus Brief; granting (895) Letter Motion to File Amicus Brief; granting (898) Letter Motion for Leave to File Document; granting (900) Letter Motion to File Amicus Brief; granting (912) Letter Motion to File Amicus Brief; granting (913) Letter Motion to File Amicus Brief; granting (914) Letter Motion to File Amicus Brief; granting (919) Letter Motion to File Amicus Brief; granting (921) Letter Motion to File Amicus Brief; granting (925) Letter Motion to File Amicus Brief; granting (928) Letter Motion to File Amicus Brief; granting (931) Letter Motion to File Amicus Brief; granting (932) Letter Motion to File Amicus Brief; granting (935) Letter Motion to File Amicus Brief; granting (936) Letter Motion to File Amicus Brief; granting (937) Letter Motion to File Amicus Brief; granting (938) Letter Motion to File Amicus Brief; granting (940) Letter Motion to File Amicus Brief in case 1:23-cv-10211-SHS-OTW; granting (1656) Letter Motion to File Amicus Brief; granting (1745) Letter Motion to File Amicus Brief; granting (1757) Letter Motion to File Amicus Brief; granting (1760) Letter Motion to File Amicus Brief; granting (1764) Letter Motion to File Amicus Brief; granting (1773) Letter Motion for Leave to File Document; granting (1776) Letter Motion to File Amicus Brief; granting (1779) Letter Motion to File Amicus Brief; granting (1788) Letter Motion to File Amicus Brief; granting (1794) Letter Motion to File Amicus Brief; granting (1795) Letter Motion to File Amicus Brief; granting (1797) Letter Motion to File Amicus Brief; granting (1799) Letter Motion to File Amicus Brief; granting (1805) Letter Motion to File Amicus Brief; granting (1807) Letter Motion to File Amicus Brief; granting (1811) Letter Motion to File Amicus Brief; granting (1814) Letter Motion to File Amicus Brief; granting (1816) Letter Motion to File Amicus Brief; granting (1817) Letter Motion to File Amicus Brief; granting (1821) Letter Motion to File Amicus Brief; granting (1822) Letter Motion to File Amicus Brief; granting (1823) Letter Motion to File Amicus Brief; granting (1825) Letter Motion to File Amicus Brief; granting (1830) Letter Motion to File Amicus Brief; granting (1831) Letter Motion to File Amicus Brief; granting (1833) Letter Motion to File Amicus Brief in case 1:23-cv-11195-SHS-OTW; granting (417) Letter Motion to File Amicus Brief; granting (422) Letter Motion to File Amicus Brief; granting (423) Letter Motion for Leave to File Document; granting (425) Letter Motion to File Amicus Brief; granting (426) Letter Motion to File Amicus Brief; granting (427) Letter Motion to File Amicus Brief; granting (432) Letter Motion to File Amicus Brief; granting (434) Letter Motion to File Amicus Brief; granting (437) Letter Motion to File Amicus Brief; granting (440) Letter Motion to File Amicus Brief; granting (443) Letter Motion to File Amicus Brief; granting (444) Letter Motion to File Amicus Brief; granting (447) Letter Motion to File Amicus Brief; granting (448) Letter Motion to File Amicus Brief; granting (449) Letter Motion to File Amicus Brief; granting (450) Letter Motion to File Amicus Brief; granting (452) Letter Motion to File Amicus Brief in case 1:24-cv-00084-SHS-OTW; granting (465) Letter Motion to File Amicus Brief; granting (470) Letter Motion to File Amicus Brief; granting (471) Letter Motion for Leave to File Document; granting (473) Letter Motion to File Amicus Brief; granting (474) Letter Motion to File Amicus Brief; granting (475) Letter Motion to File Amicus Brief; granting (480) Letter Motion to File Amicus Brief; granting (482) Letter Motion to File Amicus Brief; granting (485) Letter Motion to File Amicus Brief; granting (487) Letter Motion to File Amicus Brief; granting (489) Letter Motion to File Amicus Brief; granting (490) Letter Motion to File Amicus Brief; granting (493) Letter Motion to File Amicus Brief; granting (494) Letter Motion to File Amicus Brief; granting (495) Letter Motion to File Amicus Brief; granting (496) Letter Motion to File Amicus Brief; granting (498) Letter Motion to File Amicus Brief in case 1:24-cv-01514-SHS-OTW; granting (660) Letter Motion to File Amicus Brief; granting (667) Letter Motion to File Amicus Brief; granting (670) Letter Motion to File Amicus Brief; granting (671) Letter Motion for Leave to File Document; granting (675) Letter Motion to File Amicus Brief; granting (682) Letter Motion to File Amicus Brief; granting (684) Letter Motion to File Amicus Brief; granting (686) Letter Motion to File Amicus Brief; granting (691) Letter Motion to File Amicus Brief; granting (693) Letter Motion to File Amicus Brief; granting (696) Letter Motion to File Amicus Brief; granting (698) Letter Motion to File Amicus Brief; granting (700) Letter Motion to File Amicus Brief; granting (701) Letter Motion to File Amicus Brief; granting (704) Letter Motion to File Amicus Brief; granting (705) Letter Motion to File Amicus Brief; granting (706) Letter Motion to File Amicus Brief; granting (707) Letter Motion to File Amicus Brief; granting (708) Letter Motion to File Amicus Brief; granting (710) Letter Motion to File Amicus Brief in case 1:24-cv-01515-SHS-OTW; granting (977) Letter Motion to File Amicus Brief; granting (985) Letter Motion to File Amicus Brief; granting (988) Letter Motion to File Amicus Brief; granting (991) Letter Motion for Leave to File Document; granting (995) Letter Motion to File Amicus Brief; granting (1002) Letter Motion to File Amicus Brief; granting (1004) Letter Motion to File Amicus Brief; granting (1006) Letter Motion to File Amicus Brief; granting (1011) Letter Motion to File Amicus Brief; granting (1013) Letter Motion to File Amicus Brief; granting (1016) Letter Motion to File Amicus Brief; granting (1018) Letter Motion to File Amicus Brief; granting (1020) Letter Motion to File Amicus Brief; granting (1021) Letter Motion to File Amicus Brief; granting (1024) Letter Motion to File Amicus Brief; granting (1025) Letter Motion to File Amicus Brief; granting (1026) Letter Motion to File Amicus Brief; granting (1027) Letter Motion to File Amicus Brief; granting (1028) Letter Motion to File Amicus Brief; granting (1030) Letter Motion to File Amicus Brief in case 1:24-cv-03285-SHS-OTW; granting (843) Letter Motion to File Amicus Brief; granting (851) Letter Motion to File Amicus Brief; granting (854) Letter Motion to File Amicus Brief; granting (857) Letter Motion for Leave to File Document; granting (861) Letter Motion to File Amicus Brief; granting (868) Letter Motion to File Amicus Brief; granting (870) Letter Motion to File Amicus Brief; granting (872) Letter Motion to File Amicus Brief; granting (877) Letter Motion to File Amicus Brief; granting (879) Letter Motion to File Amicus Brief; granting (882) Letter Motion to File Amicus Brief; granting (884) Letter Motion to File Amicus Brief; granting (886) Letter Motion to File Amicus Brief; granting (887) Letter Motion to File Amicus Brief; granting (890) Letter Motion to File Amicus Brief; granting (891) Letter Motion to File Amicus Brief; granting (892) Letter Motion to File Amicus Brief; granting (893) Letter Motion to File Amicus Brief; granting (894) Letter Motion to File Amicus Brief; granting (896) Letter Motion to File Amicus Brief in case 1:24-cv-04872-SHS-OTW; granting (2283) Letter Motion to File Amicus Brief; granting (2304) Letter Motion to File Amicus Brief; granting (2306) Letter Motion to File Amicus Brief; granting (2308) Letter Motion to File Amicus Brief; granting (2313) Letter Motion to File Amicus Brief; granting (2325) Letter Motion for Leave to File Document; granting (2328) Letter Motion to File Amicus Brief; granting (2332) Letter Motion to File Amicus Brief; granting (2335) Letter Motion to File Amicus Brief; granting (2359) Letter Motion to File Amicus Brief; granting (2361) Letter Motion to File Amicus Brief; granting (2369) Letter Motion to File Amicus Brief; granting (2370) Letter Motion to File Amicus Brief; granting (2373) Letter Motion to File Amicus Brief; granting (2377) Letter Motion to File Amicus Brief; granting (2378) Letter Motion to File Amicus Brief; granting (2380) Letter Motion to File Amicus Brief; granting (2382) Letter Motion to File Amicus Brief; granting (2384) Letter Motion to File Amicus Brief; granting (2385) Letter Motion to File Amicus Brief; granting (2388) Letter Motion to File Amicus Brief; granting (2393) Letter Motion to File Amicus Brief; granting (2394) Letter Motion to File Amicus Brief; granting (2399) Letter Motion for Leave to File Document; granting (2402) Letter Motion to File Amicus Brief; granting (2403) Letter Motion to File Amicus Brief; granting (2404) Letter Motion to File Amicus Brief; granting (2407) Letter Motion to File Amicus Brief; granting (2408) Letter Motion to File Amicus Brief; granting (2413) Letter Motion to File Amicus Brief; granting (2420) Letter Motion for Leave to File Document; granting (2421) Letter Motion to File Amicus Brief; granting (2429) Letter Motion to File Amicus Brief; granting (2434) Letter Motion for Leave to File Document; granting (2437) Letter Motion to File Amicus Brief; granting (2438) Letter Motion to File Amicus Brief; granting (2447) Letter Motion for Leave to File Document; granting (2448) Letter Motion to File Amicus Brief; granting (2449) Letter Motion to File Amicus Brief; granting (2451) Letter Motion to File Amicus Brief; granting (2452) Letter Motion to File Amicus Brief; granting (2455) Letter Motion to File Amicus Brief; granting (2457) Letter Motion to File Amicus Brief; granting (2459) Letter Motion to File Amicus Brief; granting (2460) Letter Motion to File Amicus Brief; granting (2461) Letter Motion to File Amicus Brief; granting (2462) Letter Motion to File Amicus Brief; granting (2465) Letter Motion to File Amicus Brief; terminating (2465) Letter Motion for Extension of Time; granting (2472) Letter Motion to File Amicus Brief; granting (2482) Letter Motion for Leave to File Document; granting (2099) Letter Motion to File Amicus Brief; granting (2111) Letter Motion to File Amicus Brief in case 1:25-md-03143-SHS-OTW; granting (309) Letter Motion to File Amicus Brief; granting (312) Letter Motion to File Amicus Brief; granting (313) Letter Motion to File Amicus Brief; granting (314) Letter Motion to File Amicus Brief; granting (315) Letter Motion to File Amicus Brief; granting (317) Letter Motion to File Amicus Brief; granting (284) Letter Motion to File Amicus Brief; granting (289) Letter Motion to File Amicus Brief; granting (290) Letter Motion for Leave to File Document; granting (292) Letter Motion to File Amicus Brief; granting (293) Letter Motion to File Amicus Brief; granting (294) Letter Motion to File Amicus Brief; granting (299) Letter Motion to File Amicus Brief; granting (301) Letter Motion to File Amicus Brief; granting (304) Letter Motion to File Amicus Brief; granting (306) Letter Motion to File Amicus Brief; granting (308) Letter Motion to File Amicus Brief in case 1:25-cv-03291-SHS-OTW; granting (405) Letter Motion to File Amicus Brief; granting (410) Letter Motion to File Amicus Brief; granting (411) Letter Motion for Leave to File Document; granting (413) Letter Motion to File Amicus Brief; granting (414) Letter Motion to File Amicus Brief; granting (415) Letter Motion to File Amicus Brief; granting (420) Letter Motion to File Amicus Brief; granting (422) Letter Motion to File Amicus Brief; granting (425) Letter Motion to File Amicus Brief; granting (427) Letter Motion to File Amicus Brief; granting (429) Letter Motion to File Amicus Brief; granting (430) Letter Motion to File Amicus Brief; granting (433) Letter Motion to File Amicus Brief; granting (434) Letter Motion to File Amicus Brief; granting (435) Letter Motion to File Amicus Brief; granting (436) Letter Motion to File Amicus Brief; granting (438) Letter Motion to File Amicus Brief in case 1:25-cv-03297-SHS-OTW; granting (877) Letter Motion to File Amicus Brief; granting (882) Letter Motion to File Amicus Brief; granting (884) Letter Motion to File Amicus Brief; granting (885) Letter Motion for Leave to File Document; granting (887) Letter Motion to File Amicus Brief; granting (890) Letter Motion to File Amicus Brief; granting (891) Letter Motion to File Amicus Brief; granting (896) Letter Motion to File Amicus Brief; granting (898) Letter Motion to File Amicus Brief; granting (901) Letter Motion to File Amicus Brief; granting (903) Letter Motion to File Amicus Brief; granting (905) Letter Motion to File Amicus Brief; granting (906) Letter Motion to File Amicus Brief; granting (909) Letter Motion to File Amicus Brief; granting (910) Letter Motion to File Amicus Brief; granting (911) Letter Motion to File Amicus Brief; granting (912) Letter Motion to File Amicus Brief; granting (914) Letter Motion to File Amicus Brief in case 1:25-cv-03482-SHS-OTW; granting (332) Letter Motion to File Amicus Brief; granting (337) Letter Motion to File Amicus Brief; granting (338) Letter Motion for Leave to File Document; granting (340) Letter Motion to File Amicus Brief; granting (341) Letter Motion to File Amicus Brief; granting (342) Letter Motion to File Amicus Brief; granting (347) Letter Motion to File Amicus Brief; granting (349) Letter Motion to File Amicus Brief; granting (352) Letter Motion to File Amicus Brief; granting (354) Letter Motion to File Amicus Brief; granting (356) Letter Motion to File Amicus Brief; granting (357) Letter Motion to File Amicus Brief; granting (360) Letter Motion to File Amicus Brief; granting (361) Letter Motion to File Amicus Brief; granting (362) Letter Motion to File Amicus Brief; granting (363) Letter Motion to File Amicus Brief; granting (365) Letter Motion to File Amicus Brief in case 1:25-cv-03483-SHS-OTW; granting (697) Letter Motion to File Amicus Brief; granting (771) Letter Motion to File Amicus Brief; granting (781) Letter Motion to File Amicus Brief; granting (784) Letter Motion to File Amicus Brief; granting (786) Letter Motion to File Amicus Brief; granting (793) Letter Motion for Leave to File Document; granting (796) Letter Motion to File Amicus Brief; granting (799) Letter Motion to File Amicus Brief; granting (808) Letter Motion to File Amicus Brief; granting (814) Letter Motion to File Amicus Brief; granting (816) Letter Motion to File Amicus Brief; granting (818) Letter Motion to File Amicus Brief; granting (823) Letter Motion to File Amicus Brief; granting (825) Letter Motion to File Amicus Brief; granting (829) Letter Motion to File Amicus Brief; granting (832) Letter Motion to File Amicus Brief; granting (834) Letter Motion to File Amicus Brief; granting (835) Letter Motion to File Amicus Brief; granting (839) Letter Motion to File Amicus Brief; granting (840) Letter Motion to File Amicus Brief; granting (841) Letter Motion to File Amicus Brief; granting (842) Letter Motion to File Amicus Brief; granting (843) Letter Motion to File Amicus Brief; granting (845) Letter Motion to File Amicus Brief in case 1:25-cv-04315-SHS-OTW; granting (168) Letter Motion to File Amicus Brief; granting (173) Letter Motion to File Amicus Brief; granting (174) Letter Motion for Leave to File Document; granting (176) Letter Motion to File Amicus Brief; granting (177) Letter Motion to File Amicus Brief; granting (178) Letter Motion to File Amicus Brief; granting (183) Letter Motion to File Amicus Brief; granting (185) Letter Motion to File Amicus Brief; granting (188) Letter Motion to File Amicus Brief; granting (190) Letter Motion to File Amicus Brief; granting (192) Letter Motion to File Amicus Brief; granting (193) Letter Motion to File Amicus Brief; granting (196) Letter Motion to File Amicus Brief; granting (197) Letter Motion to File Amicus Brief; granting (198) Letter Motion to File Amicus Brief; granting (199) Letter Motion to File Amicus Brief; granting (201) Letter Motion to File Amicus Brief in case 1:25-cv-06286-SHS-OTW; granting (144) Letter Motion to File Amicus Brief; granting (149) Letter Motion to File Amicus Brief; granting (150) Letter Motion for Leave to File Document; granting (152) Letter Motion to File Amicus Brief; granting (153) Letter Motion to File Amicus Brief; granting (154) Letter Motion to File Amicus Brief; granting (159) Letter Motion to File Amicus Brief; granting (161) Letter Motion to File Amicus Brief; granting (164) Letter Motion to File Amicus Brief; granting (166) Letter Motion to File Amicus Brief; granting (168) Letter Motion to File Amicus Brief; granting (169) Letter Motion to File Amicus Brief; granting (172) Letter Motion to File Amicus Brief; granting (173) Letter Motion to File Amicus Brief; granting (174) Letter Motion to File Amicus Brief; granting (175) Letter Motion to File Amicus Brief; granting (177) Letter Motion to File Amicus Brief in case 1:25-cv-09904-SHS; granting (138) Letter Motion to File Amicus Brief; granting (143) Letter Motion to File Amicus Brief; granting (144) Letter Motion for Leave to File Document; granting (146) Letter Motion to File Amicus Brief; granting (147) Letter Motion to File Amicus Brief; granting (148) Letter Motion to File Amicus Brief; granting (153) Letter Motion to File Amicus Brief; granting (155) Letter Motion to File Amicus Brief; granting (158) Letter Motion to File Amicus Brief; granting (160) Letter Motion to File Amicus Brief; granting (162) Letter Motion to File Amicus Brief; granting (163) Letter Motion to File Amicus Brief; granting (166) Letter Motion to File Amicus Brief; granting (167) Letter Motion to File Amicus Brief; granting (168) Letter Motion to File Amicus Brief; granting (169) Letter Motion to File Amicus Brief; granting (171) Letter Motion to File Amicus Brief in case 1:25-cv-09912-SHS; granting (81) Letter Motion to File Amicus Brief; granting (86) Letter Motion to File Amicus Brief; granting (88) Letter Motion for Leave to File Document; granting (90) Letter Motion to File Amicus Brief; granting (91) Letter Motion to File Amicus Brief; granting (92) Letter Motion to File Amicus Brief; granting (97) Letter Motion to File Amicus Brief; granting (99) Letter Motion to File Amicus Brief; granting (102) Letter Motion to File Amicus Brief; granting (104) Letter Motion to File Amicus Brief; granting (106) Letter Motion to File Amicus Brief; granting (107) Letter Motion to File Amicus Brief; granting (110) Letter Motion to File Amicus Brief; granting (111) Letter Motion to File Amicus Brief; granting (112) Letter Motion to File Amicus Brief; granting (113) Letter Motion to File Amicus Brief; granting (115) Letter Motion to File Amicus Brief in case 1:26-cv-01947-SHS; granting (76) Letter Motion to File Amicus Brief; granting (81) Letter Motion to File Amicus Brief; granting (82) Letter Motion for Leave to File Document; granting (84) Letter Motion to File Amicus Brief; granting (85) Letter Motion to File Amicus Brief; granting (86) Letter Motion to File Amicus Brief; granting (91) Letter Motion to File Amicus Brief; granting (93) Letter Motion to File Amicus Brief; granting (96) Letter Motion to File Amicus Brief; granting (98) Letter Motion to File Amicus Brief; granting (100) Letter Motion to File Amicus Brief; granting (101) Letter Motion to File Amicus Brief; granting (104) Letter Motion to File Amicus Brief; granting (105) Letter Motion to File Amicus Brief; granting (106) Letter Motion to File Amicus Brief; granting (107) Letter Motion to File Amicus Brief; granting (109) Letter Motion to File Amicus Brief in case 1:26-cv-02097-SHS; granting (144) Letter Motion to File Amicus Brief; granting (149) Letter Motion to File Amicus Brief; granting (150) Letter Motion for Leave to File Document; granting (152) Letter Motion to File Amicus Brief; granting (153) Letter Motion to File Amicus Brief; granting (154) Letter Motion to File Amicus Brief; granting (159) Letter Motion to File Amicus Brief; granting (161) Letter Motion to File Amicus Brief; granting (164) Letter Motion to File Amicus Brief; granting (166) Letter Motion to File Amicus Brief; granting (168) Letter Motion to File Amicus Brief; granting (169) Letter Motion to File Amicus Brief; granting (172) Letter Motion to File Amicus Brief; granting (173) Letter Motion to File Amicus Brief; granting (174) Letter Motion to File Amicus Brief; granting (175) Letter Motion to File Amicus Brief; granting (177) Letter Motion to File Amicus Brief in case 1:26-cv-03625-SHS; granting (75) Letter Motion to File Amicus Brief; granting (80) Letter Motion to File Amicus Brief; granting (81) Letter Motion for Leave to File Document; granting (83) Letter Motion to File Amicus Brief; granting (84) Letter Motion to File Amicus Brief; granting (85) Letter Motion to File Amicus Brief; granting (90) Letter Motion to File Amicus Brief; granting (92) Letter Motion to File Amicus Brief; granting (95) Letter Motion to File Amicus Brief; granting (97) Letter Motion to File Amicus Brief; granting (99) Letter Motion to File Amicus Brief; granting (100) Letter Motion to File Amicus Brief; granting (103) Letter Motion to File Amicus Brief; granting (104) Letter Motion to File Amicus Brief; granting (105) Letter Motion to File Amicus Brief; granting (106) Letter Motion to File Amicus Brief; granting (108) Letter Motion to File Amicus Brief in case 1:26-cv-05320-SHS; granting (34) Letter Motion to File Amicus Brief; granting (39) Letter Motion to File Amicus Brief; granting (40) Letter Motion for Leave to File Document; granting (42) Letter Motion to File Amicus Brief; granting (43) Letter Motion to File Amicus Brief; granting (44) Letter Motion to File Amicus Brief; granting (49) Letter Motion to File Amicus Brief; granting (51) Letter Motion to File Amicus Brief; granting (54) Letter Motion to File Amicus Brief; granting (56) Letter Motion to File Amicus Brief; granting (58) Letter Motion to File Amicus Brief; granting (59) Letter Motion to File Amicus Brief; granting (62) Letter Motion to File Amicus Brief; granting (63) Letter Motion to File Amicus Brief; granting (64) Letter Motion to File Amicus Brief; granting (65) Letter Motion to File Amicus Brief; granting (67) Letter Motion to File Amicus Brief in case 1:26-cv-06966-SHS; granting (38) Letter Motion to File Amicus Brief; granting (43) Letter Motion to File Amicus Brief; granting (44) Letter Motion for Leave to File Document; granting (46) Letter Motion to File Amicus Brief; granting (47) Letter Motion to File Amicus Brief; granting (48) Letter Motion to File Amicus Brief; granting (53) Letter Motion to File Amicus Brief; granting (55) Letter Motion to File Amicus Brief; granting (58) Letter Motion to File Amicus Brief; granting (60) Letter Motion to File Amicus Brief; granting (62) Letter Motion to File Amicus Brief; granting (63) Letter Motion to File Amicus Brief; granting (66) Letter Motion to File Amicus Brief; granting (67) Letter Motion to File Amicus Brief; granting (68) Letter Motion to File Amicus Brief; granting (69) Letter Motion to File Amicus Brief; granting (71) Letter Motion to File Amicus Brief in case 1:26-cv-07171-SHS; granting (51) Letter Motion to File Amicus Brief; granting (56) Letter Motion to File Amicus Brief; granting (57) Letter Motion for Leave to File Document; granting (59) Letter Motion to File Amicus Brief; granting (60) Letter Motion to File Amicus Brief; granting (61) Letter Motion to File Amicus Brief; granting (66) Letter Motion to File Amicus Brief; granting (68) Letter Motion to File Amicus Brief; granting (71) Letter Motion to File Amicus Brief; granting (73) Letter Motion to File Amicus Brief; granting (75) Letter Motion to File Amicus Brief; granting (76) Letter Motion to File Amicus Brief; granting (79) Letter Motion to File Amicus Brief; granting (80) Letter Motion to File Amicus Brief; granting (81) Letter Motion to File Amicus Brief; granting (82) Letter Motion to File Amicus Brief; granting (84) Letter Motion to File Amicus Brief in case 1:26-cv-08082-SHS; granting (55) Letter Motion to File Amicus Brief; granting (60) Letter Motion to File Amicus Brief; granting (61) Letter Motion for Leave to File Document; granting (63) Letter Motion to File Amicus Brief; granting (64) Letter Motion to File Amicus Brief; granting (65) Letter Motion to File Amicus Brief; granting (70) Letter Motion to File Amicus Brief; granting (72) Letter Motion to File Amicus Brief; granting (75) Letter Motion to File Amicus Brief; granting (77) Letter Motion to File Amicus Brief; granting (79) Letter Motion to File Amicus Brief; granting (80) Letter Motion to File Amicus Brief; granting (83) Letter Motion to File Amicus Brief; granting (84) Letter Motion to File Amicus Brief; granting (85) Letter Motion to File Amicus Brief; granting (86) Letter Motion to File Amicus Brief; granting (88) Letter Motion to File Amicus Brief in case 1:26-cv-08892-SHS. Before the Court are fifty-five motions requesting leave to file amici curiae briefs. Upon consideration of the motions, their accompanying memoranda of law, and the proposed briefs, these motions are GRANTED. The Clerk of Court is respectfully directed to close the above listed docket entries. The Court finds that the amici curiae briefs at the following docket numbers are deemed filed: AI Rights Project (Dkt. No. 2099-2); Kevin Kelly (Dkt. No. 2112-1); Ron Suskind and Brian L. Frye (Dkt. No. 2283); Association of American Publishers, Inc., et al. (Dkt. No. 2304-1); Center for American Rights, et al. (Dkt. No. 2306-1); Matthew Sag (Dkt. No. 2308-1); Public Knowledge (Dkt. No. 2313-1); Digital Context Next (Dkt. No. 2325-1); Authors Alliance (Dkt. No. 2328-1); American Federation of Musicians of the United States and Canada, et al. (Dkt. No. 2332-1); Engine Advocacy, et al. (Dkt. No. 2335-1); Copyright Alliance (Dkt. No. 2359-1); Wikimedia Foundation (Dkt. No. 2361-1); Floor64, Inc. d/b/a the Copia Institute (Dkt. No. 2369-1); A.I. Progress, Inc. (Dkt. No. 2370-1); National Newspaper Association, et al. (Dkt. No. 2373-1); Open Markets Institute (Dkt. No. 2377-1); The Foundation for American Innovation, et al. (Dkt. No. 2378-1); Pamela Samuelson and Christopher Jon Springman (Dkt. No. 2380-1); Joshua S. Gans (Dkt. No. 2381-1); Minderoo Centre for Technology and Democracy (Dkt. No. 2382-1); Consumer Technology Association (Dkt. No. 2384-1); AI Coalition for Data Integrity, et al. (Dkt. No. 2386-1); First Amendment Scholars (Dkt. No. 2388-1); American Association of Independent Music, et al. (Dkt. No. 2393-1); Edward Lee and Rebecca Tushnet (Dkt. No. 2394-2); Ashley Judd (Dkt. No. 2399-1); Authors, Photographers, Playwrights, and Literary Translators (Dkt. No. 2402-2); Sarah Rose Siskind and Michael Wall (Dkt. No. 2403-1); Members of Congress (Dkt. No. 2404-1); Kenneth Burns (Dkt. No. 2406-1); Electronic Frontier Foundation (Dkt. No. 2407-1); Center for AI and Digital Policy, et al. (Dkt. No. 2408-1); PEN America, et al. (Dkt. No. 2413-1); Cate Blanchett, et al. (Dkt. No. 2417-1); Copyright Law Professors (Dkt. No. 2420-2); Progressive Democrats of America, et al. (Dkt. No. 2421-1); Computer and Communications Industry Association, et al. (Dkt. No. 2429-1); Michael Moritz (Dkt. No. 2434-1); Khosla Ventures, LLC (Dkt. No. 2439-1); Joseph Stiglitz (Dkt. No. 2438-1); Computer Scientists (Dkt. No. 2447-1); America's Newspapers (Dkt. No. 2448-1); Gregory Leppert (Dkt. No. 2449-1); Institute for Intellectual Property and Social Justice (Dkt. No. 2451-1); Jim Albrecht (Dkt. No. 2452-1); William Morris Endeavor Entertainment, LLC (Dkt. No. 2456-1); AAN Publishers, et al. (Dkt. No. 2457-1); Rick Boucher and Rick Santorum (Dkt. No. 2459-1); AI Startups (Dkt. No. 2460-1); Midjourney, Inc., and Runway AI, Inc. (Dkt. No. 2461-1); Abundance Institute, et al. (Dkt. No. 2462-1); Teodor James Holmberg (Dkt. No. 2465-1); E.H. and W.E. (Dkt. No. 2473-1); and Muhammad Deckri Algamar (Dkt. No. 2482). SO ORDERED. Filed In Associated Cases: 1:25-md-03143-SHS-OTW et al. (jca) (Entered: 11/06/2026)",
+        "summary": "The court granted more than 250 pending motions across approximately 20 related cases, allowing roughly 55 outside parties—ranging from academic scholars and civil liberties organizations to technology companies, celebrity advocates, members of Congress, and individual citizens—to file friend-of-the-court (amicus curiae) briefs, and officially deemed all such briefs filed in the consolidated MDL and its member cases.",
+        "significance": "minor_update"
       }
     ],
     "source": "courtlistener",
     "courtlistener_url": "https://www.courtlistener.com/docket/74687027/wikihow-inc-v-openai-inc/",
-    "last_updated": "2026-09-10",
+    "last_updated": "2026-11-10",
     "discovered_date": "2026-08-22",
     "case_intelligence": {
-      "case_theory": "wikiHow, Inc. asserts copyright infringement claims against OpenAI , Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "case_theory": "wikiHow, Inc. asserts copyright infringement claims against OpenAI , Inc. involving music, audio, or sound-recording works.",
       "current_posture": "The case is stayed.",
       "why_it_matters": "The case matters because it may affect how related AI litigation is coordinated before merits rulings.",
-      "latest_change": "Latest meaningful event (2026-09-09): The court approved a joint stipulation by both parties to pause all proceedings and deadlines in this case until summary judgment motions in the broader multidistrict litigation (MDL) are resolved, after which the parties must file a status report within 30 days proposing next steps.",
-      "latest_meaningful_event": "The court approved a joint stipulation by both parties to pause all proceedings and deadlines in this case until summary judgment motions in the broader multidistrict litigation (MDL) are resolved, after which the parties must file a status report within 30 days proposing next steps.",
-      "latest_meaningful_event_date": "2026-09-09",
-      "claim_category": "unknown",
+      "latest_change": "Latest meaningful event (2026-11-06): The court granted a group of law professors' motion for leave to file an amicus curiae brief, and deemed the brief officially filed as of November 6, 2026.",
+      "latest_meaningful_event": "The court granted a group of law professors' motion for leave to file an amicus curiae brief, and deemed the brief officially filed as of November 6, 2026.",
+      "latest_meaningful_event_date": "2026-11-06",
+      "claim_category": "copyright_music_or_audio",
       "claims_asserted": [
         "copyright infringement"
       ],
       "ai_conduct_alleged": null,
-      "works_or_data_at_issue": null,
+      "works_or_data_at_issue": "music, audio, or sound-recording works",
       "technology_or_model_at_issue": null,
       "procedural_stage": "stayed",
       "pending_motion_or_next_event": "summary judgment motions",
@@ -14493,14 +14514,17 @@
         "1:25-md-03143",
         "1:25-md-03143-SHS-OTW",
         "1:26-cv-07171-SHS",
-        "25-md-03143",
-        "25-md-03143-SHS-OTW",
-        "26-cv-07171-SHS"
+        "1:23-cv-08292-SHS-OTW",
+        "1:23-cv-10211-SHS-OTW",
+        "1:23-cv-11195-SHS-OTW",
+        "1:24-cv-00084-SHS-OTW",
+        "1:24-cv-01514-SHS-OTW",
+        "1:24-cv-01515-SHS-OTW",
+        "1:24-cv-03285-SHS-OTW"
       ],
       "confidence_level": "low",
       "missing_information": [
         "Specific AI-related conduct is not identified in the parsed docket metadata.",
-        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
         "Specific AI system or model is not identified in the parsed materials."
       ],
       "source_references": [
@@ -14512,13 +14536,13 @@
         },
         {
           "type": "docket_entry",
-          "entry_number": "24",
-          "date": "2026-09-09"
+          "entry_number": "76",
+          "date": "2026-11-06"
         }
       ]
     },
-    "plain_language_summary": "wikiHow, Inc. asserts copyright infringement claims against OpenAI , Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is stayed. The case matters because it may affect how related AI litigation is coordinated before merits rulings. Latest meaningful event (2026-09-09): The court approved a joint stipulation by both parties to pause all proceedings and deadlines in this case until summary judgment motions in the broader multidistrict litigation (MDL) are resolved, after which the parties must file a status report within 30 days proposing next steps.",
-    "docket_last_checked": "2026-11-08"
+    "plain_language_summary": "wikiHow, Inc. asserts copyright infringement claims against OpenAI , Inc. involving music, audio, or sound-recording works. The case is stayed. The case matters because it may affect how related AI litigation is coordinated before merits rulings. Latest meaningful event (2026-11-06): The court granted a group of law professors' motion for leave to file an amicus curiae brief, and deemed the brief officially filed as of November 6, 2026.",
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "iot-innovations-llc-v-signify-netherlands-b-v",
@@ -14604,7 +14628,7 @@
       ]
     },
     "plain_language_summary": "IOT Innovations LLC filed patent infringement claims against Signify Netherlands B.V. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "druyan-sagan-associates-inc-v-luma-ai-inc",
@@ -14803,7 +14827,7 @@
       ]
     },
     "plain_language_summary": "Druyan-Sagan Associates, Inc. asserts copyright infringement claims against Luma AI, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion-to-dismiss practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement claims. Latest meaningful event (2026-11-03): Defendant Luma AI, Inc. moved to dismiss three claims from the complaint — a Lanham Act claim, an unfair competition claim, and a secondary liability claim under the Copyright Act — with a hearing scheduled before Judge Michael W. Fitzgerald on December 16, 2026.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "wyoming-technology-licensing-inc-v-fca-us-llc",
@@ -14891,7 +14915,7 @@
       ]
     },
     "plain_language_summary": "Wyoming Technology Licensing Inc filed patent infringement claims against FCA US LLC. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "wyoming-technology-licensing-inc-v-hyundai-motor-america",
@@ -14979,7 +15003,7 @@
       ]
     },
     "plain_language_summary": "Wyoming Technology Licensing Inc filed patent infringement claims against Hyundai Motor America. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "convergence-llc-v-kialo-gmbh",
@@ -15095,7 +15119,7 @@
       ]
     },
     "plain_language_summary": "Convergence LLC filed patent infringement claims against Kialo GmbH. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "outleads-inc-v-salesforce-inc",
@@ -15188,7 +15212,7 @@
       ]
     },
     "plain_language_summary": "Outleads Inc. filed patent infringement claims against Salesforce, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "sony-music-publishing-us-llc-v-anthropic-pbc",
@@ -15578,7 +15602,7 @@
       ]
     },
     "plain_language_summary": "Sony Music Publishing (US) LLC asserts copyright infringement claims against Anthropic PBC involving music, audio, or sound-recording works. The case is in motion-to-dismiss practice. The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims. Latest meaningful event (2026-11-03): Anthropic filed a notice and administrative motion asking the court to consider whether this case should be related to one or more other cases under the court's local rules for case relation.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "gerencia-360-music-inc-v-suno-inc",
@@ -16160,7 +16184,7 @@
       ]
     },
     "plain_language_summary": "BTF IP Holdings LLC asserts patent infringement claims against Eleven Labs Inc. involving patented software or technology. The case is in motion-to-dismiss practice. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-11-02): The court ordered a schedule allowing plaintiff BTF IP Holdings LLC to file an amended complaint by November 23, 2026, with defendant Eleven Labs Inc. 's response due December 21, 2026, and set branching deadlines depending on whether the defendant answers or moves to dismiss.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "the-seattle-times-company-v-openai-inc",
@@ -16394,7 +16418,7 @@
       ]
     },
     "plain_language_summary": "The Seattle Times Company asserts copyright infringement claims against OpenAI Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is stayed: The court approved a joint stipulation submitted by both parties, staying all proceedings and deadlines in this case until summary judgment motions are resolved in the related multidistrict litigation. Within 30 days of those rulings, the parties must file a joint status report proposing next steps. The case matters because the stay controls when the parties can reach merits discovery or dispositive motions. Latest meaningful event (2026-09-28): The court approved a joint stipulation submitted by both parties, staying all proceedings and deadlines in this case until summary judgment motions are resolved in the related multidistrict litigation. Within 30 days of those rulings, the parties must file a joint status report proposing next steps.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "gray-v-nadella",
@@ -16458,7 +16482,7 @@
       ]
     },
     "plain_language_summary": "Gray filed copyright infringement claims against Nadella. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "vicor-corporation-v-flex-ltd",
@@ -16637,7 +16661,7 @@
       ]
     },
     "plain_language_summary": "Vicor Corporation filed patent infringement claims against Flex Ltd. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "association-of-corporate-counsel-v-the-suite-inc",
@@ -16749,7 +16773,7 @@
       ]
     },
     "plain_language_summary": "Association of Corporate Counsel asserts copyright infringement and trademark claims against The Suite, Inc., but the parsed materials do not yet identify the specific AI conduct at issue. The case is in motion practice. The case matters because future filings may clarify the specific AI-related conduct and legal theory in a case asserting copyright infringement and trademark claims. Latest meaningful event (2026-09-10): The court docketed notice, consent, and referral forms related to whether the parties agree to have a U. S. Magistrate Judge exercise jurisdiction over the case.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "yousfi-v-meta-platforms-inc",
@@ -16826,7 +16850,7 @@
       ]
     },
     "plain_language_summary": "Yousfi filed copyright infringement and other AI litigation claims against Meta Platforms Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue.",
-    "docket_last_checked": "2026-11-08"
+    "docket_last_checked": "2026-11-10"
   },
   {
     "id": "arbor-systems-llc-v-planner5d-uab",

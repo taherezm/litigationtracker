@@ -1,5 +1,32 @@
 [
   {
+    "case_id": "apress-media-llc-v-welib",
+    "case_name": "Apress Media, LLC v. WeLib",
+    "entry_date": "2026-11-09",
+    "summary": "The court granted plaintiffs' motion for default judgment, holding that defendants directly infringed the copyrights of all 13 plaintiffs and ordering defendants to pay $150,000 in statutory damages per work for willful infringement—$1,500,000 per plaintiff and $19,500,000 in total—under 17 U. S. C. § 504(c)(2).",
+    "significance": "case_resolved",
+    "entry_number": "23",
+    "logged_at": "2026-11-10T20:29:02Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-11-06",
+    "summary": "The court granted a group of law professors' motion for leave to file an amicus curiae brief, and deemed the brief officially filed as of November 6, 2026.",
+    "significance": "minor_update",
+    "entry_number": "76",
+    "logged_at": "2026-11-10T20:29:02Z"
+  },
+  {
+    "case_id": "wikihow-inc-v-openai-inc",
+    "case_name": "wikiHow, Inc. v. OpenAI , Inc.",
+    "entry_date": "2026-11-06",
+    "summary": "The court granted more than 250 pending motions across approximately 20 related cases, allowing roughly 55 outside parties—ranging from academic scholars and civil liberties organizations to technology companies, celebrity advocates, members of Congress, and individual citizens—to file friend-of-the-court (amicus curiae) briefs, and officially deemed all such briefs filed in the consolidated MDL and its member cases.",
+    "significance": "minor_update",
+    "entry_number": "75",
+    "logged_at": "2026-11-10T20:29:02Z"
+  },
+  {
     "case_id": "the-new-york-times-co-v-brave-software-inc",
     "case_name": "The New York Times Co. v. Brave Software, Inc.",
     "entry_date": "2026-11-06",
