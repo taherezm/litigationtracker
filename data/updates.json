@@ -1,5 +1,86 @@
 [
   {
+    "case_id": "in-re-subpoena-to-nventures",
+    "case_name": "In re Subpoena to NVentures",
+    "entry_date": "2026-11-10",
+    "summary": "Attorney Sharif Jacob filed a Certificate of Service confirming that several documents were served on the relevant parties, including a motion to quash a deposition subpoena directed at NVIDIA, an alternative motion for a protective order, an administrative motion to file documents under seal, and two certificates of interested entities.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-11-12T20:53:24Z"
+  },
+  {
+    "case_id": "in-re-subpoena-to-nventures",
+    "case_name": "In re Subpoena to NVentures",
+    "entry_date": "2026-11-10",
+    "summary": "Third party NVIDIA Corporation, represented by attorney Jacob Sharif, filed a Certificate of Interested Entities or Persons on November 10, 2026, disclosing any entities or individuals with a financial interest in the outcome of this subpoena matter.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-11-12T20:53:24Z"
+  },
+  {
+    "case_id": "in-re-subpoena-to-nventures",
+    "case_name": "In re Subpoena to NVentures",
+    "entry_date": "2026-11-10",
+    "summary": "Third party NVentures, LLC filed a Certificate of Interested Entities or Persons, disclosing individuals or organizations with a financial or other interest in the outcome of this subpoena proceeding. This is a standard administrative filing required by local court rules.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-11-12T20:53:24Z"
+  },
+  {
+    "case_id": "in-re-subpoena-to-nventures",
+    "case_name": "In re Subpoena to NVentures",
+    "entry_date": "2026-11-10",
+    "summary": "Third party NVIDIA Corporation filed a motion to quash a Rule 30(b)(6) deposition subpoena directed at NVIDIA, or alternatively, to seek a protective order, along with a supporting memorandum and a proposed order. Responses to the motion are due by November 24, 2026, and replies are due by December 1, 2026.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-11-12T20:53:24Z"
+  },
+  {
+    "case_id": "in-re-subpoena-to-nventures",
+    "case_name": "In re Subpoena to NVentures",
+    "entry_date": "2026-11-10",
+    "summary": "NVentures filed an administrative motion to seal certain documents, along with a motion to quash a Rule 30(b)(6) deposition subpoena directed at NVentures or, alternatively, to obtain a protective order limiting that subpoena.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-11-12T20:53:24Z"
+  },
+  {
+    "case_id": "in-re-subpoena-to-nventures",
+    "case_name": "In re Subpoena to NVentures",
+    "entry_date": "2026-11-10",
+    "summary": "Attorney Flora D. Morgan filed a notice of appearance on behalf of NVentures, formally entering the case as counsel of record on November 10, 2026.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-11-12T20:53:24Z"
+  },
+  {
+    "case_id": "in-re-subpoena-to-nventures",
+    "case_name": "In re Subpoena to NVentures",
+    "entry_date": "2026-11-10",
+    "summary": "Attorney Zainab Ramahi filed a notice of appearance in this subpoena matter, formally entering the case as counsel of record on behalf of NVentures on November 10, 2026.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-11-12T20:53:24Z"
+  },
+  {
+    "case_id": "in-re-subpoena-to-nventures",
+    "case_name": "In re Subpoena to NVentures",
+    "entry_date": "2026-11-10",
+    "summary": "Third-party NVentures filed a motion asking the court to quash a Rule 30(b)(6) deposition subpoena served on it, or alternatively to issue a protective order, in a dispute involving UMG Recordings, Capitol Records, and Sony Music Entertainment; the filing includes a supporting declaration and a proposed sealing order.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-11-12T20:53:24Z"
+  },
+  {
+    "case_id": "bmg-rights-management-us-llc-v-anthropic-pbc",
+    "case_name": "BMG Rights Management (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-11-11",
+    "summary": "Both parties filed a joint stipulation proposing a briefing schedule for Anthropic's anticipated motion to dismiss, supported by a declaration from attorney Corey Miller.",
+    "significance": "minor_update",
+    "entry_number": "67",
+    "logged_at": "2026-11-12T20:53:24Z"
+  },
+  {
     "case_id": "eight-mile-style-llc-v-suno-inc",
     "case_name": "Eight MIle Style LLC v. Suno, Inc.",
     "entry_date": "2026-11-09",
