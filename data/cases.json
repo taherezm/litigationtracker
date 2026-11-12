@@ -20167,5 +20167,67 @@
     },
     "plain_language_summary": "Eight MIle Style LLC asserts copyright infringement claims against Suno, Inc. over alleged AI-generated output. The case is in motion practice. The case matters because it may affect how courts treat claims that AI-generated outputs infringe protected works in a case asserting copyright infringement claims. Latest meaningful event (2026-11-06): Plaintiffs Eight Mile Style LLC and Martin Affiliated LLC filed a notice related to their complaint and a manual lodging submission in this case.",
     "docket_last_checked": "2026-11-11"
+  },
+  {
+    "id": "in-re-subpoena-to-nventures",
+    "name": "In re Subpoena to NVentures",
+    "court": "District Court, N.D. California",
+    "court_full": "District Court, N.D. California",
+    "docket_number": "3:26-mc-80342",
+    "courtlistener_docket_id": "75100967",
+    "date_filed": "2026-11-10",
+    "claims": [
+      "copyright infringement"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "UMG Recordings, Inc. Capitol Records, LLC In re Subpoena to NVentures Sony Music Entertainment",
+      "defendant": ""
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/75100967/in-re-subpoena-to-nventures/",
+    "last_updated": "2026-11-12",
+    "discovered_date": "2026-11-12",
+    "case_intelligence": {
+      "case_theory": "UMG Recordings, Inc. Capitol Records, LLC In re Subpoena to NVentures Sony Music Entertainment asserts copyright infringement claims against the defendant involving music, audio, or sound-recording works.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how copyright and music-rights claims are applied to AI tools and audio works in a case asserting copyright infringement claims.",
+      "latest_change": "Latest meaningful event (2026-11-10): UMG Recordings, Inc. Capitol Records, LLC In re Subpoena to NVentures Sony Music Entertainment filed the case against the defendant.",
+      "latest_meaningful_event": "UMG Recordings, Inc. Capitol Records, LLC In re Subpoena to NVentures Sony Music Entertainment filed the case against the defendant.",
+      "latest_meaningful_event_date": "2026-11-10",
+      "claim_category": "copyright_music_or_audio",
+      "claims_asserted": [
+        "copyright infringement"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": "music, audio, or sound-recording works",
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "3:26-mc-80342",
+          "court": "District Court, N.D. California",
+          "courtlistener_url": "https://www.courtlistener.com/docket/75100967/in-re-subpoena-to-nventures/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-11-10"
+        }
+      ]
+    },
+    "plain_language_summary": "UMG Recordings, Inc. Capitol Records, LLC In re Subpoena to NVentures Sony Music Entertainment filed copyright infringement claims against the defendant. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
