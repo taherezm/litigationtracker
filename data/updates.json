@@ -1,5 +1,131 @@
 [
   {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-11",
+    "summary": "Plaintiff Phil Rosen filed a verified stockholder derivative complaint against Alphabet Inc. and numerous current and former directors and officers, including Sundar Pichai, Larry Page, and Sergey Brin, in the Northern District of California, paying the $405 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc",
+    "case_name": "Flinn Artificial Intelligence ( AI ) Technologies, LLC v. OpenAI OpCo, LLC",
+    "entry_date": "2026-11-12",
+    "summary": "The Clerk's Office confirmed with counsel that this case is related to two other civil actions (1:26-cv-01454-UNA and 1:26-cv-01455-UNA), and the court's case management system has been updated to reflect that relationship.",
+    "significance": "minor_update",
+    "entry_number": "485403223",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc",
+    "case_name": "Flinn Artificial Intelligence ( AI ) Technologies, LLC v. OpenAI OpCo, LLC",
+    "entry_date": "2026-11-12",
+    "summary": "The court clerk issued a summons to OpenAI OpCo, LLC on November 12, 2026, formally notifying the defendant of the lawsuit brought by Flinn Artificial Intelligence Technologies, LLC.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc",
+    "case_name": "Flinn Artificial Intelligence ( AI ) Technologies, LLC v. OpenAI OpCo, LLC",
+    "entry_date": "2026-11-12",
+    "summary": "Plaintiff Flinn Artificial Intelligence (AI) Technologies, LLC filed a corporate disclosure statement under Federal Rule of Civil Procedure 7. 1, indicating that it has no parent companies or affiliates to disclose.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc",
+    "case_name": "Flinn Artificial Intelligence ( AI ) Technologies, LLC v. OpenAI OpCo, LLC",
+    "entry_date": "2026-11-12",
+    "summary": "The court filed a report to the Commissioner of Patents and Trademarks identifying five U. S. patents at issue in this case: US 12,327,166 B1; US 12,223,404 B2; US 12,511,580 B1; US 12,462,197 B1; and US 12,462,198 B1.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc",
+    "case_name": "Flinn Artificial Intelligence ( AI ) Technologies, LLC v. OpenAI OpCo, LLC",
+    "entry_date": "2026-11-12",
+    "summary": "The court circulated consent and referral forms giving the parties the opportunity to consent to having a U. S. Magistrate Judge handle jurisdiction over the case. No ruling has been issued; this is an administrative step in the early stages of the litigation.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc",
+    "case_name": "Flinn Artificial Intelligence ( AI ) Technologies, LLC v. OpenAI OpCo, LLC",
+    "entry_date": "2026-11-12",
+    "summary": "Plaintiff Flinn Artificial Intelligence (AI) Technologies, LLC filed a complaint in the District of Delaware asserting patent infringement claims against OpenAI OpCo, LLC and demanding a jury trial.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc",
+    "case_name": "Flinn Artificial Intelligence (AI) Technologies, LLC v. Anthropic , PBC",
+    "entry_date": "2026-11-12",
+    "summary": "The Clerk's Office confirmed with counsel that this case is related to two other civil actions (1:26-cv-01454-UNA and 1:26-cv-01455-UNA), and the court's case management system has been updated to reflect that relationship.",
+    "significance": "minor_update",
+    "entry_number": "485398972",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc",
+    "case_name": "Flinn Artificial Intelligence (AI) Technologies, LLC v. Anthropic , PBC",
+    "entry_date": "2026-11-12",
+    "summary": "The court clerk issued a summons to Anthropic, PBC on November 12, 2026, formally notifying the company that it has been sued by Flinn Artificial Intelligence Technologies, LLC. This is a routine procedural step that begins the process of serving Anthropic with the complaint.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc",
+    "case_name": "Flinn Artificial Intelligence (AI) Technologies, LLC v. Anthropic , PBC",
+    "entry_date": "2026-11-12",
+    "summary": "Plaintiff Flinn Artificial Intelligence (AI) Technologies, LLC filed a corporate disclosure statement under Federal Rule of Civil Procedure 7. 1, indicating that it has no parent companies or affiliates to disclose.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc",
+    "case_name": "Flinn Artificial Intelligence (AI) Technologies, LLC v. Anthropic , PBC",
+    "entry_date": "2026-11-12",
+    "summary": "The court submitted a report to the Commissioner of Patents and Trademarks identifying five U. S. patents at issue in this case: US 12,327,166 B1; US 12,223,404 B2; US 12,511,580 B1; US 12,462,197 B1; and US 12,462,198 B1.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc",
+    "case_name": "Flinn Artificial Intelligence (AI) Technologies, LLC v. Anthropic , PBC",
+    "entry_date": "2026-11-12",
+    "summary": "The court circulated consent and referral forms to the parties regarding whether they agree to have a U. S. Magistrate Judge exercise jurisdiction over the case. No ruling has been issued; this is an administrative step in the early stages of the litigation.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc",
+    "case_name": "Flinn Artificial Intelligence (AI) Technologies, LLC v. Anthropic , PBC",
+    "entry_date": "2026-11-12",
+    "summary": "Plaintiff Flinn Artificial Intelligence (AI) Technologies, LLC filed a complaint against Anthropic, PBC in the District of Delaware, alleging patent infringement and requesting a jury trial.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-11-10",
+    "summary": "Both parties filed a joint stipulation asking the court to extend the deadline for raising disputes about Meta's privilege log. No ruling has been issued yet; the proposed order remains pending court approval.",
+    "significance": "minor_update",
+    "entry_number": "172",
+    "logged_at": "2026-11-13T20:30:37Z"
+  },
+  {
     "case_id": "in-re-subpoena-to-nventures",
     "case_name": "In re Subpoena to NVentures",
     "entry_date": "2026-11-10",
