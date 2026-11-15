@@ -1,5 +1,50 @@
 [
   {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-11-12",
+    "summary": "The court granted, with modifications, the parties' joint requests to set a briefing schedule for motions to dismiss in two related cases. Judge Eumi K. Lee signed the order adjusting the agreed-upon deadlines for filing and responding to those motions.",
+    "significance": "minor_update",
+    "entry_number": "49",
+    "logged_at": "2026-11-15T19:23:32Z"
+  },
+  {
+    "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
+    "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
+    "entry_date": "2026-11-11",
+    "summary": "Both parties filed a joint stipulation proposing a schedule for the plaintiffs to file an amended complaint and for briefing on a motion to dismiss, supported by a declaration from attorney Corey Miller.",
+    "significance": "minor_update",
+    "entry_number": "48",
+    "logged_at": "2026-11-15T19:23:32Z"
+  },
+  {
+    "case_id": "reservoir-media-management-inc-v-suno-inc",
+    "case_name": "Reservoir Media Management, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-13",
+    "summary": "Plaintiffs Reservoir Media Management, Inc. , Reservoir Media Management (UK) Limited, and Shapiro, Bernstein & Co. Limited filed exhibits in support of their amended complaint, along with a redline comparison showing changes from the prior complaint.",
+    "significance": "minor_update",
+    "entry_number": "22",
+    "logged_at": "2026-11-15T19:23:32Z"
+  },
+  {
+    "case_id": "reservoir-media-management-inc-v-suno-inc",
+    "case_name": "Reservoir Media Management, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-11",
+    "summary": "Plaintiffs Reservoir Media Management, Inc. , Reservoir Media Management (UK) Limited, and Shapiro, Bernstein & Co. Limited filed a notice informing the court that they manually lodged Collective Exhibit B and Exhibit C in support of their Amended Complaint, as those materials could not be submitted electronically.",
+    "significance": "minor_update",
+    "entry_number": "21",
+    "logged_at": "2026-11-15T19:23:32Z"
+  },
+  {
+    "case_id": "reservoir-media-management-inc-v-suno-inc",
+    "case_name": "Reservoir Media Management, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-11",
+    "summary": "Plaintiffs Reservoir Media Management, Inc. , Shapiro, Bernstein & Co. Limited, and Reservoir Media Management (UK) Limited filed an amended complaint against Suno, Inc. , updating their allegations and attaching exhibits that identify specific works they allege were copied without authorization.",
+    "significance": "minor_update",
+    "entry_number": "20",
+    "logged_at": "2026-11-15T19:23:32Z"
+  },
+  {
     "case_id": "umg-recordings-inc-v-suno-inc",
     "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
     "entry_date": "2026-11-13",
