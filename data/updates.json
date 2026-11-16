@@ -1,5 +1,104 @@
 [
   {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-13",
+    "summary": "Attorney Mia Tsui filed a notice of appearance on November 13, 2026, entering the case as counsel of record on behalf of Alphabet Inc. and thirteen individual defendants, including Sundar Pichai, Larry Page, and Sergey Brin.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-13",
+    "summary": "Attorney Elena Hadjimichael filed a notice of appearance in federal court on November 13, 2026, entering the case on behalf of defendants Alphabet Inc. , Sundar Pichai, and twelve other named individuals including Larry Page, Sergey Brin, and several current and former board members and executives.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-13",
+    "summary": "Attorney Doru Gavril filed a notice of appearance in federal court in the Northern District of California, entering the case as counsel of record on behalf of Alphabet Inc. and thirteen individual defendants, including Sundar Pichai, Larry Page, and Sergey Brin.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-13",
+    "summary": "Attorney Boris Feldman filed a notice of appearance in the district court, formally entering the case as counsel of record on behalf of Alphabet Inc. and thirteen individual defendants, including Sundar Pichai, Larry Page, and Sergey Brin.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-12",
+    "summary": "The court issued an initial scheduling order setting a Case Management Statement deadline of February 9, 2027, and scheduling an Initial Case Management Conference for February 16, 2027, to be held by videoconference in San Jose.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-12",
+    "summary": "The court issued summonses to all named defendants, including Alphabet Inc. and several current and former executives and board members, formally notifying them of the lawsuit filed by plaintiff Rosen.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-12",
+    "summary": "The court assigned this case to Magistrate Judge Susan van Keulen and issued standard new-case instructions, directing plaintiff's counsel to serve the complaint, summons, and standing orders on the opposing party. A consent or declination regarding magistrate judge jurisdiction is due by November 27, 2026, and a scheduling order will follow within two business days.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-11",
+    "summary": "Plaintiff Phil Rosen filed a Certificate of Interested Entities, a standard disclosure identifying any persons or organizations with a financial interest in the outcome of the case.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "rosen-v-pichai-2",
+    "case_name": "Rosen v. Pichai",
+    "entry_date": "2026-11-11",
+    "summary": "Plaintiff's counsel David Wissbroecker filed a proposed summons in this case, a routine early-stage administrative step used to formally notify the defendant of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc",
+    "case_name": "Flinn Artificial Intelligence ( AI ) Technologies, LLC v. OpenAI OpCo, LLC",
+    "entry_date": "2026-11-13",
+    "summary": "Plaintiff Flinn Artificial Intelligence (AI) Technologies, LLC filed proof that defendant OpenAI OpCo, LLC was served with the summons on November 13, 2026, with OpenAI's answer to the complaint due by December 4, 2026.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
+    "case_id": "flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc",
+    "case_name": "Flinn Artificial Intelligence (AI) Technologies, LLC v. Anthropic , PBC",
+    "entry_date": "2026-11-13",
+    "summary": "Plaintiff Flinn Artificial Intelligence (AI) Technologies, LLC filed proof that defendant Anthropic, PBC was served with the summons on November 12, 2026, with Anthropic's answer to the complaint due by December 3, 2026.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-11-16T22:55:02Z"
+  },
+  {
     "case_id": "sony-music-publishing-us-llc-v-anthropic-pbc",
     "case_name": "Sony Music Publishing (US) LLC v. Anthropic PBC",
     "entry_date": "2026-11-12",
