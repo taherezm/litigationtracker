@@ -1,5 +1,95 @@
 [
   {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Attorney Ellyde Roko Thompson filed a notice of appearance in federal court in the Southern District of New York, entering the case as counsel for plaintiffs LeBron James and LBJ Trademarks, LLC.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Attorney Todd Steven Anten filed a notice of appearance in the Southern District of New York, entering the case as counsel for plaintiffs LeBron James and LBJ Trademarks, LLC.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "LBJ Trademarks, LLC filed a Rule 7. 1 Corporate Disclosure Statement indicating it has no corporate parent.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Plaintiffs LeBron James and LBJ Trademarks, LLC filed a request asking the court clerk to issue a summons directed at defendant Marc Zoghby, a step required to formally notify him of the lawsuit filed against him.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Plaintiffs LeBron James and LBJ Trademarks, LLC filed a request asking the court clerk to issue a summons directed at defendant Anish Gupta, a step needed to formally notify Gupta of the lawsuit filed against him.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Plaintiffs LeBron James and LBJ Trademarks, LLC filed a request asking the court clerk to issue a summons directed at defendant PlayVision, Inc. , a standard procedural step to formally notify the defendant of the lawsuit following the filing of the complaint.",
+    "significance": "minor_update",
+    "entry_number": "4",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Plaintiffs LeBron James and LBJ Trademarks, LLC filed a request asking the court clerk to issue a summons directed at defendant PlayVision, Inc. , a standard procedural step to formally notify the defendant of the lawsuit filed against it.",
+    "significance": "minor_update",
+    "entry_number": "3",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Plaintiff filed a civil cover sheet, a standard administrative form submitted at the start of a federal lawsuit to provide the court with basic information about the case and parties.",
+    "significance": "minor_update",
+    "entry_number": "2",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Plaintiffs LeBron James and LBJ Trademarks, LLC filed a complaint against PlayVision, Inc. , Anish Gupta, and Marc Zoghby in the Southern District of New York, paying the $405. 00 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "1",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
+    "case_id": "the-new-york-times-co-v-brave-software-inc",
+    "case_name": "The New York Times Co. v. Brave Software, Inc.",
+    "entry_date": "2026-11-16",
+    "summary": "The court scheduled an initial conference for January 5, 2027, at 4:30 PM in Courtroom 21B before Judge Lewis A. Kaplan. The scheduling entry was administratively modified on November 16, 2026.",
+    "significance": "minor_update",
+    "entry_number": "485871614",
+    "logged_at": "2026-11-18T21:27:26Z"
+  },
+  {
     "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
     "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
     "entry_date": "2026-11-13",
