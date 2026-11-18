@@ -20798,5 +20798,68 @@
     },
     "plain_language_summary": "Flinn Artificial Intelligence (AI) Technologies, LLC asserts patent infringement claims against Anthropic , PBC involving patented software or technology. The case is in motion practice. The case matters because it may affect how patent infringement theories are applied to AI or machine-learning software in a case asserting patent infringement claims. Latest meaningful event (2026-11-12): The Clerk's Office confirmed with counsel that this case is related to two other civil actions (1:26-cv-01454-UNA and 1:26-cv-01455-UNA), and the court's case management system has been updated to reflect that relationship.",
     "docket_last_checked": "2026-11-16"
+  },
+  {
+    "id": "james-v-playvision-inc",
+    "name": "James v. PlayVision, Inc.",
+    "court": "District Court, S.D. New York",
+    "court_full": "District Court, S.D. New York",
+    "docket_number": "1:26-cv-10078",
+    "courtlistener_docket_id": "75130431",
+    "date_filed": "2026-11-17",
+    "claims": [
+      "trademark"
+    ],
+    "legal_theories": [],
+    "status": "active",
+    "procedural_posture": "Filed",
+    "parties": {
+      "plaintiff": "James",
+      "defendant": "PlayVision, Inc."
+    },
+    "judges": [],
+    "key_rulings": [],
+    "docket_entries": [],
+    "source": "courtlistener",
+    "courtlistener_url": "https://www.courtlistener.com/docket/75130431/james-v-playvision-inc/",
+    "last_updated": "2026-11-18",
+    "discovered_date": "2026-11-18",
+    "case_intelligence": {
+      "case_theory": "James asserts trademark claims against PlayVision, Inc., but the parsed materials do not yet identify the specific AI conduct at issue.",
+      "current_posture": "The case is newly filed.",
+      "why_it_matters": "The case matters because it may affect how courts characterize AI-related legal theories outside the core IP categories in a case asserting trademark claims.",
+      "latest_change": "Latest meaningful event (2026-11-17): James filed the case against PlayVision, Inc..",
+      "latest_meaningful_event": "James filed the case against PlayVision, Inc..",
+      "latest_meaningful_event_date": "2026-11-17",
+      "claim_category": "other_ai_litigation",
+      "claims_asserted": [
+        "trademark"
+      ],
+      "ai_conduct_alleged": null,
+      "works_or_data_at_issue": null,
+      "technology_or_model_at_issue": null,
+      "procedural_stage": "newly_filed",
+      "pending_motion_or_next_event": null,
+      "related_cases": [],
+      "confidence_level": "low",
+      "missing_information": [
+        "Specific AI-related conduct is not identified in the parsed docket metadata.",
+        "Specific works, data, or trade secrets at issue are not identified in the parsed materials.",
+        "Specific AI system or model is not identified in the parsed materials."
+      ],
+      "source_references": [
+        {
+          "type": "case_metadata",
+          "docket_number": "1:26-cv-10078",
+          "court": "District Court, S.D. New York",
+          "courtlistener_url": "https://www.courtlistener.com/docket/75130431/james-v-playvision-inc/"
+        },
+        {
+          "type": "case_metadata",
+          "date_filed": "2026-11-17"
+        }
+      ]
+    },
+    "plain_language_summary": "James filed trademark claims against PlayVision, Inc. Newly filed case. The complaint has been docketed, but the available parsed materials do not yet identify the specific AI system, works, data, or training/output theory at issue."
   }
 ]
