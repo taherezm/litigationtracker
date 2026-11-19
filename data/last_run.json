@@ -1,9 +1,7 @@
 {
-  "cases_discovered": 1,
-  "discovery_complete": true,
+  "cases_discovered": 0,
+  "discovery_complete": false,
   "rejected_dockets": [
-    "id:73629172",
-    "id:73629380",
     "id:73628519",
     "id:73618172",
     "id:73601218",
@@ -501,7 +499,9 @@
     "id:75115156",
     "id:75123168",
     "id:75129322",
-    "id:75128796"
+    "id:75128796",
+    "id:75137730",
+    "id:75137643"
   ],
   "entries_updated": 10,
   "docket_update_complete": false,
@@ -514,13 +514,28 @@
   "discovery_candidate_cap_reached": false,
   "discovery_last_run_date": "2026-11-18",
   "max_docket_update_passes": 2,
-  "discovery_queries_completed": 38,
+  "discovery_queries_completed": 34,
   "discovery_queries_total": 38,
   "discovery_rss_dockets_completed": 0,
   "discovery_rss_dockets_total": 0,
-  "discovery_phase": "complete",
+  "discovery_phase": "queries",
   "last_run_date": "2026-07-31",
   "discovery_passes_run": 1,
   "max_discovery_passes_per_job": 20,
-  "discovery_job_stop_reason": "complete"
+  "discovery_job_stop_reason": "rate_limit",
+  "discovery_incomplete_reason": "rate_limit",
+  "discovery_incomplete_since": "2026-11-19",
+  "discovery_cursor": {
+    "version": 2,
+    "window_start": "2026-11-18",
+    "window_through": "2026-11-19",
+    "query_set_sha256": "06a0d342b124478ba0c55262f88689a405fef6a533743740fe04bdd6933888a2",
+    "phase": "queries",
+    "next_query_index": 34,
+    "query_page_url": "",
+    "rss_docket_numbers": [],
+    "next_rss_index": 0,
+    "rss_page_url": "",
+    "pending_candidates": []
+  }
 }
