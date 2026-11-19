@@ -1,5 +1,86 @@
 [
   {
+    "case_id": "eight-mile-style-llc-v-suno-inc",
+    "case_name": "Eight MIle Style LLC v. Suno, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court reassigned this case to Judge Beth Labson Freeman under a random, proportionate, and blind reassignment process, replacing Magistrate Judge Joseph C. Spero. All previously scheduled hearing and trial dates are vacated, though existing briefing schedules and other deadlines—such as those for ADR compliance and discovery—remain in place; counsel must renotice any pending motions for hearing before Judge Freeman.",
+    "significance": "minor_update",
+    "entry_number": "9",
+    "logged_at": "2026-11-19T21:38:42Z"
+  },
+  {
+    "case_id": "eight-mile-style-llc-v-suno-inc",
+    "case_name": "Eight MIle Style LLC v. Suno, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The Clerk of Court issued a notice that this case will be randomly reassigned from a Magistrate Judge to a U. S. District Judge, because at least one party has not consented to Magistrate Judge jurisdiction. All hearings currently scheduled before the Magistrate Judge are vacated and must be rescheduled before the newly assigned District Judge.",
+    "significance": "minor_update",
+    "entry_number": "8",
+    "logged_at": "2026-11-19T21:38:42Z"
+  },
+  {
+    "case_id": "eight-mile-style-llc-v-suno-inc",
+    "case_name": "Eight MIle Style LLC v. Suno, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "Plaintiffs Eight Mile Style, LLC and Martin Affiliated LLC filed a declination to have the case proceed before a U. S. Magistrate Judge, indicating they prefer the case to remain assigned to an Article III district court judge.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-11-19T21:38:42Z"
+  },
+  {
+    "case_id": "eight-mile-style-llc-v-suno-inc",
+    "case_name": "Eight MIle Style LLC v. Suno, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court's administrative office filed a standard report notifying the U. S. Copyright Office of a copyright-related action involving Eight Mile Style LLC and Suno, Inc. This is a routine procedural notice required when a copyright case is filed or resolved in federal court.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-11-19T21:38:42Z"
+  },
+  {
+    "case_id": "eight-mile-style-llc-v-suno-inc",
+    "case_name": "Eight MIle Style LLC v. Suno, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Plaintiffs Eight Mile Style, LLC and Martin Affiliated LLC filed a motion requesting that attorney Andrew Hunt Davis be admitted to practice before this court for the duration of this case, paying the required $328 filing fee.",
+    "significance": "minor_update",
+    "entry_number": "5",
+    "logged_at": "2026-11-19T21:38:42Z"
+  },
+  {
+    "case_id": "x-ai-llc-v-bonta",
+    "case_name": "X.AI LLC v. Bonta",
+    "entry_date": "2026-11-17",
+    "summary": "Appellant X. AI LLC filed a response to a supplemental authority letter (citing new legal authority under Federal Rule of Appellate Procedure 28(j)) submitted earlier in the appeal. The docket entry was later edited the same day, apparently to replace the attached PDF.",
+    "significance": "minor_update",
+    "entry_number": "58",
+    "logged_at": "2026-11-19T21:38:42Z"
+  },
+  {
+    "case_id": "anthropic-pbc-v-abnormal-ai-inc",
+    "case_name": "Anthropic, PBC v. Abnormal AI, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court referred the case to Magistrate Judge Sallie Kim for settlement proceedings on November 18, 2026. This is an administrative step indicating the parties may explore resolving the dispute without further litigation.",
+    "significance": "minor_update",
+    "entry_number": "33",
+    "logged_at": "2026-11-19T21:38:42Z"
+  },
+  {
+    "case_id": "druyan-sagan-associates-inc-v-luma-ai-inc",
+    "case_name": "Druyan-Sagan Associates, Inc. v. Luma AI, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "Both parties filed a joint stipulation asking the court to extend the deadline for Luma AI, Inc. to respond to the First Amended Complaint, along with a proposed order for the court's approval.",
+    "significance": "minor_update",
+    "entry_number": "24",
+    "logged_at": "2026-11-19T21:38:42Z"
+  },
+  {
+    "case_id": "druyan-sagan-associates-inc-v-luma-ai-inc",
+    "case_name": "Druyan-Sagan Associates, Inc. v. Luma AI, Inc.",
+    "entry_date": "2026-11-16",
+    "summary": "The court, acting on its own initiative, denied Luma AI's pending motion to dismiss as moot after Druyan-Sagan Associates filed a First Amended Complaint, which superseded the earlier pleading the motion had targeted.",
+    "significance": "minor_update",
+    "entry_number": "23",
+    "logged_at": "2026-11-19T21:38:42Z"
+  },
+  {
     "case_id": "james-v-playvision-inc",
     "case_name": "James v. PlayVision, Inc.",
     "entry_date": "2026-11-17",
