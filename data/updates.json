@@ -1,5 +1,140 @@
 [
   {
+    "case_id": "daily-news-lp-v-brave-software-inc",
+    "case_name": "Daily News LP v. Brave Software, Inc.",
+    "entry_date": "2026-11-16",
+    "summary": "The court scheduled an initial conference for January 5, 2027, at 4:30 PM in Courtroom 21B before Judge Lewis A. Kaplan at the Southern District of New York.",
+    "significance": "minor_update",
+    "entry_number": "486242002",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "cambronne-inc-v-spacex-super-intelligence-corp",
+    "case_name": "Cambronne, Inc. v. SpaceX Super Intelligence Corp.",
+    "entry_date": "2026-11-17",
+    "summary": "Plaintiffs Cambronne, Inc. , Jane Adams, Lisa Barretta, Matthew Sacks, and Michael Kochin filed executed waivers of service confirming that all three named defendants — SpaceX Super Intelligence Corp. , SpaceX Super Intelligence Holdings LLC, and SpaceX Super Intelligence LLC — agreed to waive formal service of process, with waivers sent on November 11, 2026, and answers due from all three defendants by January 11, 2027.",
+    "significance": "minor_update",
+    "entry_number": "6",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court notified attorney Alex Spiro to submit a completed AO 120 Form, a standard administrative form required in cases involving patents or trademarks, for the court's review.",
+    "significance": "minor_update",
+    "entry_number": "486129421",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court's electronic filing system designated this case for Electronic Case Filing (ECF), meaning all future documents must be submitted through the court's online filing platform.",
+    "significance": "minor_update",
+    "entry_number": "486129419",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court designated Magistrate Judge Barbara C. Moses to handle referred matters in this case. The parties were notified that they may consent to have a magistrate judge preside over the entire case, subject to the assigned district judge's approval.",
+    "significance": "minor_update",
+    "entry_number": "486129417",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court assigned this case to Judge J. Paul Oetken in the Southern District of New York and issued a notice directing attorneys to review the judge's individual practices and the court's electronic filing rules.",
+    "significance": "minor_update",
+    "entry_number": "486129415",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court's docketing staff corrected an administrative error in the case opening records, updating the cause of action code to 15:1125, which corresponds to the Lanham Act's false designation of origin and unfair competition provisions. This is a clerical correction and does not reflect any ruling or filing by the parties.",
+    "significance": "minor_update",
+    "entry_number": "486129414",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court's electronic filing system notified attorney Alex Spiro that the party information for defendant PlayVision, Inc. was updated to correct an administrative error in how an alias party type was recorded.",
+    "significance": "minor_update",
+    "entry_number": "486129412",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The clerk's office issued an electronic summons directed to Marc Zoghby, formally notifying him that he has been named in this lawsuit and is required to respond.",
+    "significance": "minor_update",
+    "entry_number": "13",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court issued an electronic summons directed to defendant Anish Gupta, formally initiating the process of notifying him of the lawsuit.",
+    "significance": "minor_update",
+    "entry_number": "12",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The court's clerk issued an electronic summons directing PlayVision, Inc. to respond to the lawsuit filed by plaintiff James. This is a routine early step that formally notifies the defendant of the pending action.",
+    "significance": "minor_update",
+    "entry_number": "11",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "james-v-playvision-inc",
+    "case_name": "James v. PlayVision, Inc.",
+    "entry_date": "2026-11-18",
+    "summary": "The clerk's office issued an electronic summons to defendant PlayVision, Inc. , formally notifying the company that it has been sued and must respond to the complaint filed by plaintiff James.",
+    "significance": "minor_update",
+    "entry_number": "10",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-11-19",
+    "summary": "Both parties jointly filed a stipulation proposing agreed-upon dates for expert depositions, submitted for the court's approval. No rulings have been issued; this is a scheduling coordination filing.",
+    "significance": "minor_update",
+    "entry_number": "179",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-11-19",
+    "summary": "Both parties filed a stipulation asking the court to extend Meta Platforms' deadline to respond to the amended complaint, with Meta's counsel signing the filing on November 19, 2026.",
+    "significance": "minor_update",
+    "entry_number": "178",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
+    "case_id": "chicken-soup-for-the-soul-llc-v-meta-platforms-inc",
+    "case_name": "Chicken Soup for the Soul, LLC v. Meta Platforms Inc.",
+    "entry_date": "2026-11-19",
+    "summary": "The court approved a stipulation agreed to by both parties governing the schedule and procedures for expert discovery across three related cases.",
+    "significance": "minor_update",
+    "entry_number": "177",
+    "logged_at": "2026-11-21T20:08:20Z"
+  },
+  {
     "case_id": "shakespeare-v-anthropic-pbc",
     "case_name": "Shakespeare v. Anthropic PBC",
     "entry_date": "2026-11-18",
