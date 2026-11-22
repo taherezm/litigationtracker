@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "umg-recordings-inc-v-suno-inc",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-20",
+    "summary": "Suno, Inc. filed an affidavit from Ivana Dukanovic in support of its motion to seal certain materials in the case. This is a supporting document accompanying Suno's pending motion and does not itself resolve any issue before the court.",
+    "significance": "minor_update",
+    "entry_number": "40",
+    "logged_at": "2026-11-22T20:23:27Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-20",
+    "summary": "Suno, Inc. filed a motion to seal, asking the court to restrict public access to certain case materials. The scope and basis for the sealing request are not specified in this docket entry.",
+    "significance": "minor_update",
+    "entry_number": "39",
+    "logged_at": "2026-11-22T20:23:27Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-20",
+    "summary": "Suno, Inc. moves for leave to file a reply brief in support of its pending motion to stay the case, attaching a proposed reply and a proposed supporting declaration.",
+    "significance": "minor_update",
+    "entry_number": "38",
+    "logged_at": "2026-11-22T20:23:27Z"
+  },
+  {
+    "case_id": "reno-v-meta-platforms-inc",
+    "case_name": "Reno v. Meta Platforms, Inc.",
+    "entry_date": "2026-11-17",
+    "summary": "A large group of plaintiffs filed a returned executed waiver of service, confirming that Meta Platforms, Inc. agreed to waive formal service of process; Meta's waiver was sent on October 20, 2026, and Meta's answer to the complaint is due December 21, 2026.",
+    "significance": "minor_update",
+    "entry_number": "7",
+    "logged_at": "2026-11-22T20:23:27Z"
+  },
+  {
     "case_id": "daily-news-lp-v-brave-software-inc",
     "case_name": "Daily News LP v. Brave Software, Inc.",
     "entry_date": "2026-11-16",
