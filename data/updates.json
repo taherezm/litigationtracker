@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "lowery-v-suno-inc",
+    "case_name": "Lowery v. Suno, Inc.",
+    "entry_date": "2026-11-25",
+    "summary": "The court denied Suno, Inc. 's motion to dismiss, finding that the plaintiff's Amended Complaint was sufficient to allow the case to proceed.",
+    "significance": "significant_ruling",
+    "entry_number": "34",
+    "logged_at": "2026-11-25T22:35:59Z"
+  },
+  {
+    "case_id": "lowery-v-suno-inc",
+    "case_name": "Lowery v. Suno, Inc.",
+    "entry_date": "2026-11-24",
+    "summary": "Twenty named plaintiffs, including musicians David Lowery, Jason Isbell, Natalie Maines, and Martie Maguire, filed a First Amended Complaint against Suno, Inc. and unknown defendants, attaching 65 exhibits in support of their allegations.",
+    "significance": "minor_update",
+    "entry_number": "33",
+    "logged_at": "2026-11-25T22:35:59Z"
+  },
+  {
+    "case_id": "btf-ip-holdings-llc-v-eleven-labs-inc",
+    "case_name": "BTF IP Holdings LLC v. Eleven Labs Inc.",
+    "entry_date": "2026-11-24",
+    "summary": "The court ordered both parties to submit a Rule 26(f) joint discovery plan by December 9, 2026. This scheduling directive, signed by Judge John G. Koeltl, moves the case toward the early stages of discovery planning.",
+    "significance": "minor_update",
+    "entry_number": "19",
+    "logged_at": "2026-11-25T22:35:59Z"
+  },
+  {
+    "case_id": "umg-recordings-inc-v-suno-inc",
+    "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+    "entry_date": "2026-11-25",
+    "summary": "The court granted Suno's motion for leave to file a reply brief in support of its motion to stay the case, allowing Suno to submit additional argument on that pending motion.",
+    "significance": "minor_update",
+    "entry_number": "41",
+    "logged_at": "2026-11-25T22:35:59Z"
+  },
+  {
     "case_id": "umg-recordings-inc-v-suno-inc",
     "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
     "entry_date": "2026-11-20",
